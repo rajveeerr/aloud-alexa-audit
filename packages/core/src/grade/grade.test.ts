@@ -97,6 +97,11 @@ describe("verifyGrades", () => {
     expect(grade(g, "pack_contents").flags).toContain("unverified_contradiction");
   });
 
+  test("sets aside a conditional question the listing doesn't address, instead of counting it missing", () => {
+    const g = verifyGrades(listing, intents, [{ intentId: "scent", status: "missing", quotes: [] }]);
+    expect(grade(g, "scent")).toMatchObject({ status: "not_applicable", modelStatus: "missing", flags: ["conditional_unaddressed"] });
+  });
+
   test("only allows not_applicable for conditional questions", () => {
     const g = verifyGrades(listing, intents, [
       { intentId: "scent", status: "not_applicable", quotes: [] },

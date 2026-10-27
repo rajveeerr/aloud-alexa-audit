@@ -1,9 +1,10 @@
 import { quoteMatches } from "./grade/match";
+import { comparable } from "./normalize/text";
 import type { JsonModel } from "./llm";
 import type { Brief, BriefAction, BriefSource, Gap, Grade, ImageClaim, Intent, Listing } from "./types";
 
-export const BRIEF_PROMPT_VERSION = "brief@2026-10-27.1";
-export const FAITHFULNESS_PROMPT_VERSION = "faithfulness@2026-10-27.1";
+export const BRIEF_PROMPT_VERSION = "brief@2026-10-27.2";
+export const FAITHFULNESS_PROMPT_VERSION = "faithfulness@2026-10-27.2";
 
 /** Briefs are written for the top gaps only; a fix list nobody finishes helps nobody. */
 export const MAX_BRIEFS = 8;
@@ -18,13 +19,16 @@ For each gap return:
 - draft: the new or rewritten text, in the listing's voice, one bullet's length at most.
 - sources: every piece of brand data the draft relies on, as {id, text}, with text copied exactly from that
   field or image claim.
-- needsFromBrand: if the brand's data doesn't contain the fact, leave draft out and say what fact is needed.
+- needsFromBrand: if the brand's data doesn't contain the fact, leave draft out and write a short request to the
+  brand, e.g. "Confirm whether the eraser is latex-free." or "Send the board's weight in pounds."
 
 Hard rules:
 - Every fact in the draft must come from the brand's data. Never use competitors' facts or your own knowledge.
   If the brand never states a size, count or claim, ask for it in needsFromBrand instead of writing it.
 - Competitor wording is shown only so you can see how others phrase it. Don't copy their facts.
-- Keep claims the brand makes; don't add new ones ("best", "guaranteed").`;
+- Keep claims the brand makes; don't add new ones ("best", "guaranteed").
+- The draft must answer the gap's question. Don't reuse a field that is about something else, and don't
+  propose text the listing already has word for word.`;
 
 export const BRIEF_SCHEMA = {
   type: "ARRAY",
@@ -131,6 +135,11 @@ export function verifyBriefs(listing: Listing, gaps: Gap[], grades: Grade[], cla
     }
 
     let draft = typeof m?.draft === "string" && m.draft.trim() ? m.draft.trim() : undefined;
+    // An answer hidden in an image is moved word for word, chosen in code. The model's longer
+    // version is ignored: a judge didn't reliably catch added praise ("reliable and effortless"),
+    // and polishing wording is Creative Studio's job. The longest claim is the most complete one.
+    const hiddenDraft = [...gap.hiddenClaims].sort((a, b) => b.text.length - a.text.length)[0]?.text;
+    if (hiddenDraft) draft = hiddenDraft;
     if (draft) {
       const sourced = sources.map((s) => s.text).join(" ");
       if (numbersIn(draft).some((n) => !numbersIn(sourced).includes(n))) {
@@ -140,6 +149,11 @@ export function verifyBriefs(listing: Listing, gaps: Gap[], grades: Grade[], cla
     }
     if (draft && sources.length === 0) {
       flags.push("no_brand_source");
+      draft = undefined;
+    }
+    // A "fix" that is word for word an existing field changes nothing.
+    if (draft && listing.fields.some((f) => comparable(f.text) === comparable(draft!))) {
+      flags.push("repeats_field");
       draft = undefined;
     }
     // The brand's own image words are always a safe draft when the model gave none we can keep.
@@ -160,23 +174,29 @@ export function verifyBriefs(listing: Listing, gaps: Gap[], grades: Grade[], cla
 }
 
 const FAITHFULNESS_INSTRUCTIONS = `You check drafted Amazon listing copy against the brand data it was written from.
-For each draft, list every statement in the draft that its sources don't directly support: a new benefit,
-a stronger claim, a number, a use case or a comparison that isn't in the sources. Rewording is fine;
-adding meaning is not. Return an empty list when everything in the draft is supported.`;
+For each draft:
+- unsupported: every statement in the draft that its sources don't directly support: a new benefit, a stronger
+  claim, a number, a use case or a comparison that isn't in the sources. Rewording is fine; adding meaning is
+  not. An empty list when everything is supported.
+- answersQuestion: true only if the draft actually answers the shopper question it was written for.`;
 
 export const FAITHFULNESS_SCHEMA = {
   type: "ARRAY",
   items: {
     type: "OBJECT",
-    properties: { intentId: { type: "STRING" }, unsupported: { type: "ARRAY", items: { type: "STRING" } } },
-    required: ["intentId", "unsupported"],
+    properties: {
+      intentId: { type: "STRING" },
+      unsupported: { type: "ARRAY", items: { type: "STRING" } },
+      answersQuestion: { type: "BOOLEAN" },
+    },
+    required: ["intentId", "unsupported", "answersQuestion"],
   },
 } as const;
 
 export function buildFaithfulnessPrompt(briefs: Brief[]): string {
   const items = briefs
     .filter((b) => b.draft)
-    .map((b) => `- ${b.intentId}\n  Draft: "${b.draft}"\n  Sources: ${b.sources.map((s) => `"${s.text}"`).join("; ")}`)
+    .map((b) => `- ${b.intentId}\n  Question: ${b.question}\n  Draft: "${b.draft}"\n  Sources: ${b.sources.map((s) => `"${s.text}"`).join("; ")}`)
     .join("\n");
   return `${FAITHFULNESS_INSTRUCTIONS}\n\nDRAFTS\n${items}`;
 }
@@ -188,19 +208,20 @@ export function buildFaithfulnessPrompt(briefs: Brief[]): string {
  * never adds a claim.
  */
 export function applyFaithfulness(briefs: Brief[], gaps: Gap[], modelOutput: unknown): Brief[] {
-  const verdicts = new Map<string, string[]>();
+  const verdicts = new Map<string, { unsupported: string[]; offQuestion: boolean }>();
   for (const v of Array.isArray(modelOutput) ? modelOutput : []) {
     if (typeof v?.intentId !== "string" || !Array.isArray(v.unsupported)) continue;
     const list = v.unsupported.filter((x: unknown): x is string => typeof x === "string" && x.trim() !== "");
-    verdicts.set(v.intentId, list);
+    verdicts.set(v.intentId, { unsupported: list, offQuestion: v.answersQuestion === false });
   }
   return briefs.map((b) => {
-    const unsupported = verdicts.get(b.intentId) ?? [];
-    if (!b.draft || unsupported.length === 0) return b;
+    const verdict = verdicts.get(b.intentId);
+    const unsupported = verdict?.unsupported ?? [];
+    if (!b.draft || (unsupported.length === 0 && !verdict?.offQuestion)) return b;
     const hidden = gaps.find((g) => g.intentId === b.intentId)?.hiddenClaims[0];
-    const flags = [...b.flags, "unsupported_claim" as const];
+    const flags = [...b.flags, ...(unsupported.length ? (["unsupported_claim"] as const) : []), ...(verdict?.offQuestion ? (["off_question"] as const) : [])];
     if (hidden && b.draft !== hidden.text) {
-      return { ...b, draft: hidden.text, sources: b.sources.filter((s) => s.id === hidden.id), flags, rejectedStatements: unsupported };
+      return { ...b, draft: hidden.text, sources: b.sources.filter((s) => s.id === hidden.id), flags, ...(unsupported.length && { rejectedStatements: unsupported }) };
     }
     const { draft: _dropped, ...rest } = b;
     const question = b.question.replace(/\?$/, "");
@@ -209,7 +230,7 @@ export function applyFaithfulness(briefs: Brief[], gaps: Gap[], modelOutput: unk
       action: "request_fact" as const,
       needsFromBrand: `The brand's answer to "${question}". A drafted version went beyond what the listing says, so it was held back.`,
       flags,
-      rejectedStatements: unsupported,
+      ...(unsupported.length && { rejectedStatements: unsupported }),
     };
   });
 }

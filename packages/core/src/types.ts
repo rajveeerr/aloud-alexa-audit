@@ -74,7 +74,19 @@ export type Intent = {
 
 export type IntentSet = {
   categoryId: string;
+  /** Human name, e.g. "Gel Ink Rollerball Pens". */
+  categoryName: string;
+  /** Amazon category names this set applies to, matched against a listing's category path. */
+  match: string[];
   version: string;
+  /**
+   * mined: questions and frequencies come from real reviews.
+   * estimated: no reviews were available, so questions were proposed from listings; every
+   * frequency is 1 and reports must say the score is estimated.
+   */
+  basis: "mined" | "estimated";
+  /** True once a person has checked the questions, kinds and rubrics. */
+  reviewed: boolean;
   sampleSize: number;
   intents: Intent[];
 };
@@ -90,6 +102,7 @@ export type GradeFlag =
   | "unverified_answer"
   | "unverified_contradiction"
   | "not_applicable_rejected"
+  | "conditional_unaddressed"
   | "not_graded";
 
 export type Grade = {
@@ -168,7 +181,16 @@ export type Brief = {
   /** For request_fact: what the brand needs to supply. */
   needsFromBrand?: string;
   priority: number;
-  flags: ("source_not_found" | "unsourced_number" | "invalid_target" | "no_brand_source" | "not_drafted" | "unsupported_claim")[];
+  flags: (
+    | "source_not_found"
+    | "unsourced_number"
+    | "invalid_target"
+    | "no_brand_source"
+    | "not_drafted"
+    | "unsupported_claim"
+    | "off_question"
+    | "repeats_field"
+  )[];
   /** Statements the faithfulness check found in the model's draft that the sources don't support. */
   rejectedStatements?: string[];
 };

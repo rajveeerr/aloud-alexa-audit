@@ -79,11 +79,11 @@ describe("verifyBriefs", () => {
     expect(b!.needsFromBrand).toContain('"6 Count" (title) or "Includes 4 pens" (description.1)');
   });
 
-  test("an answer hidden in an image becomes move_from_image with the claim as its source", () => {
+  test("an answer hidden in an image is moved word for word, whatever the model drafted", () => {
     const [b] = verifyBriefs(target, [gap("ink_flow", "missing", claims)], [], claims, intents, [
-      { intentId: "ink_flow", target: "bullet.1", draft: "Smooth writing without skipping", sources: [{ id: "ic.0", text: "Smooth Writing without Skipping" }] },
+      { intentId: "ink_flow", target: "bullet.1", draft: "Smooth writing without skipping for an effortless experience", sources: [{ id: "ic.0", text: "Smooth Writing without Skipping" }] },
     ]);
-    expect(b).toMatchObject({ action: "move_from_image", target: "bullet.1", sources: [{ kind: "image", id: "ic.0" }] });
+    expect(b).toMatchObject({ action: "move_from_image", target: "bullet.1", draft: "Smooth Writing without Skipping", sources: [{ kind: "image", id: "ic.0" }] });
   });
 
   test("drops a draft with a number the sources don't contain", () => {
@@ -104,9 +104,16 @@ describe("verifyBriefs", () => {
 
   test("replaces a made-up target with new_bullet", () => {
     const [b] = verifyBriefs(target, [gap("ink_flow", "missing")], [], [], intents, [
-      { intentId: "ink_flow", target: "bullet.9", draft: "Quick dry ink", sources: [{ id: "bullet.1", text: "Quick dry ink" }] },
+      { intentId: "ink_flow", target: "bullet.9", draft: "Quick dry ink for everyday writing", sources: [{ id: "bullet.1", text: "Quick dry ink" }] },
     ]);
     expect(b).toMatchObject({ target: "new_bullet", action: "add_bullet", flags: ["invalid_target"] });
+  });
+
+  test("drops a draft that is word for word an existing field", () => {
+    const [b] = verifyBriefs(target, [gap("ink_flow", "missing")], [], [], intents, [
+      { intentId: "ink_flow", target: "new_bullet", draft: "Quick dry ink", sources: [{ id: "bullet.1", text: "Quick dry ink" }] },
+    ]);
+    expect(b).toMatchObject({ action: "request_fact", flags: ["repeats_field"] });
   });
 
   test("falls back to the brand's exact image words when the model gives no usable draft", () => {
@@ -133,6 +140,12 @@ describe("applyFaithfulness", () => {
     const [, b] = applyFaithfulness(briefs, gaps, [{ intentId: "b", unsupported: ["and leaking"] }]);
     expect(b).toMatchObject({ action: "request_fact", flags: ["unsupported_claim"], rejectedStatements: ["and leaking"] });
     expect(b!.draft).toBeUndefined();
+  });
+
+  test("drops a draft that doesn't answer its question, even if every word is sourced", () => {
+    const [, , c] = applyFaithfulness(briefs, gaps, [{ intentId: "c", unsupported: [], answersQuestion: false }]);
+    expect(c).toMatchObject({ action: "request_fact", flags: ["off_question"] });
+    expect(c!.rejectedStatements).toBeUndefined();
   });
 
   test("leaves supported drafts alone", () => {

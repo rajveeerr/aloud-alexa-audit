@@ -11,7 +11,10 @@ type ModelGrade = { intentId?: unknown; status?: unknown; quotes?: unknown; valu
  * - each quote must really be in the field it cites (or, failing that, in some other field);
  * - an answer with no surviving quote becomes "missing" and is flagged;
  * - a contradiction needs verified quotes from two different fields;
- * - "not_applicable" is only allowed for questions marked conditional.
+ * - "not_applicable" is only allowed for questions marked conditional;
+ * - a conditional question the listing doesn't address at all (a sharpener on a pencil that has
+ *   none) is set aside as not_applicable rather than counted as missing. It only counts when the
+ *   listing talks about it.
  * Every intent gets exactly one grade, in intent order, whatever the model returned.
  */
 export function verifyGrades(listing: Listing, intents: Intent[], modelOutput: unknown): Grade[] {
@@ -74,7 +77,9 @@ function checkQuotes(listing: Listing, raw: unknown, flags: GradeFlag[]): Quote[
 function decideStatus(intent: Intent, modelStatus: GradeStatus, quotes: Quote[], flags: GradeFlag[]): GradeStatus {
   switch (modelStatus) {
     case "missing":
-      return "missing";
+      if (!intent.conditional) return "missing";
+      flags.push("conditional_unaddressed");
+      return "not_applicable";
     case "not_applicable":
       if (intent.conditional) return "not_applicable";
       flags.push("not_applicable_rejected");
@@ -83,7 +88,9 @@ function decideStatus(intent: Intent, modelStatus: GradeStatus, quotes: Quote[],
     case "partial":
       if (quotes.length > 0) return modelStatus;
       flags.push("unverified_answer");
-      return "missing";
+      if (!intent.conditional) return "missing";
+      flags.push("conditional_unaddressed");
+      return "not_applicable";
     case "contradicted": {
       const fieldsQuoted = new Set(quotes.map((q) => q.fieldId));
       if (fieldsQuoted.size >= 2) return "contradicted";
