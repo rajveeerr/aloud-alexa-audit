@@ -12,3 +12,5 @@ export {
   type GradeRun,
 } from "./grade";
 export { scoreGrades, type Score } from "./score";
+export * from "./images";
+export type { JsonRequest, JsonResponse, PromptPart } from "./llm";

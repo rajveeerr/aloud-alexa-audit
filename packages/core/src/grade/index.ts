@@ -1,3 +1,4 @@
+import type { JsonModel } from "../llm";
 import type { Grade, IntentSet, Listing } from "../types";
 import { buildGradePrompt, GRADE_PROMPT_VERSION, GRADE_SCHEMA, gradableIntents } from "./prompt";
 import { verifyGrades } from "./verify";
@@ -5,26 +6,7 @@ import { verifyGrades } from "./verify";
 export { buildGradePrompt, GRADE_PROMPT_VERSION, GRADE_SCHEMA, gradableIntents } from "./prompt";
 export { verifyGrades } from "./verify";
 export { quoteMatches } from "./match";
-
-/**
- * Any model that returns JSON for a prompt and a schema. Core only sees this interface, so
- * tests pass a fake and the app passes the cached Gemini client from providers.
- */
-export interface JsonModel {
-  generateJson<T = unknown>(req: {
-    model: string;
-    promptVersion: string;
-    parts: { text: string }[];
-    schema: unknown;
-    temperature?: number;
-  }): Promise<{
-    data: T;
-    model: string;
-    usage: { inputTokens: number; outputTokens: number };
-    latencyMs: number;
-    cached: boolean;
-  }>;
-}
+export type { JsonModel } from "../llm";
 
 export type GradeRun = {
   grades: Grade[];

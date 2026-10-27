@@ -1,0 +1,144 @@
+{
+  "asin": "B0BSMKF5BQ",
+  "promptVersion": "transcribe@2026-10-27.1",
+  "model": "gemini-3.5-flash-lite",
+  "usage": {
+    "inputTokens": 14332,
+    "outputTokens": 1246
+  },
+  "images": 13,
+  "modelOutput": [
+    {
+      "imageId": "img.0",
+      "claims": [
+        "EXPERIENCE A HIGH PERFORMANCE GEL PEN",
+        "CONTOURED RUBBER GRIP for a comfortable writing experience",
+        "ALWAYS VIVID WRITING with intensely bold ink colors",
+        "NO SMEAR, NO BLEED TECHNOLOGY for an exceptional writing experience",
+        "DÉCOUVREZ UN STYLO À ENCRE GEL DE HAUTE PERFORMANCE",
+        "POIGNÉE EN CAOUTCHOUC PROFILÉE pour une expérience d'écriture confortable",
+        "TOUJOURS UNE ÉCRITURE VIVE avec des couleurs d'encre intensément vives",
+        "TECHNOLOGIE SANS BAVURE, NI FUITE pour une expérience d'écriture exceptionnelle",
+        "NO SMEAR NO BLEED TECHNOLOGY",
+        "ALWAYS VIVID WRITING",
+        "GREEN INK",
+        "MEDIUM 0.7mm",
+        "12 PENS",
+        "0.5mm",
+        "FINE 0.5mm",
+        "MEDIUM 0.7mm",
+        "BOLD / GRAS 1.0mm",
+        "Product contains a wick seal to prevent leakage during shipping",
+        "Please remove prior to use",
+        "Le produit à un bouchon de protection contre les fuites pendant le transport",
+        "Veuillez retirer avant d'utiliser",
+        "newell",
+        "We would love to hear from you! / Nous serions ravis de recevoir vos commentaires",
+        "www.sharpie.com",
+        "BLUE INK ENCRE BLEUE"
+      ]
+    },
+    {
+      "imageId": "img.1",
+      "claims": [
+        "GREEN INK",
+        "NO SMEAR NO BLEED TECHNOLOGY",
+        "ALWAYS VIVID WRITING",
+        "MEDIUM 0.7mm",
+        "12",
+        "12 PENS"
+      ]
+    },
+    {
+      "imageId": "img.2",
+      "claims": [
+        "EXPERIENCE A HIGH PERFORMANCE GEL PEN",
+        "CONTOURED RUBBER GRIP for a comfortable writing experience",
+        "ALWAYS VIVID WRITING with intensely bold ink colors",
+        "NO SMEAR, NO BLEED TECHNOLOGY for an exceptional writing experience",
+        "DÉCOUVREZ UN STYLO À ENCRE GEL DE HAUTE PERFORMANCE",
+        "POIGNÉE EN CAOUTCHOUC PROFILÉE pour une expérience d'écriture confortable",
+        "TOUJOURS UNE ÉCRITURE VIVE avec des couleurs d'encre intensément vives",
+        "TECHNOLOGIE SANS BAVURE, NI FUITE pour une expérience d'écriture exceptionnelle",
+        "GREEN",
+        "NO SMEAR NO BLEED TECHNOLOGY",
+        "ALWAYS VIVID WRITING",
+        "GREEN INK",
+        "MEDIUM 0.7mm",
+        "12 PENS"
+      ]
+    },
+    {
+      "imageId": "img.3",
+      "claims": [
+        "0.7",
+        "S-GEL"
+      ]
+    },
+    {
+      "imageId": "img.4",
+      "claims": [
+        "BLUE INK",
+        "NO SMEAR NO BLEED TECHNOLOGY",
+        "ALWAYS VIVID WRITING",
+        "12",
+        "FINE 0.5mm",
+        "12 PENS"
+      ]
+    },
+    {
+      "imageId": "img.5",
+      "claims": [
+        "BLUE BLEU",
+        "2096146",
+        "PEN STYLO",
+        "EXPERIENCE A HIGH PERFORMANCE GEL PEN",
+        "CONTOURED RUBBER GRIP for a comfortable writing experience",
+        "ALWAYS VIVID WRITING with intensely bold ink colors",
+        "NO SMEAR, NO BLEED TECHNOLOGY for an exceptional writing experience",
+        "DÉCOUVREZ UN STYLO À ENCRE GEL DE HAUTE PERFORMANCE",
+        "POIGNÉE EN CAOUTCHOUC PROFILÉE pour une expérience d'écriture confortable",
+        "TOUJOURS UNE ÉCRITURE VIVE avec des couleurs d'encre intensément vives",
+        "TECHNOLOGIE SANS BAVURE, NI FUITE pour une expérience d'écriture exceptionnelle",
+        "NO SMEAR NO BLEED TECHNOLOGY",
+        "ALWAYS VIVID WRITING",
+        "TOUJOURS UNE ÉCRITURE VIVE",
+        "TECHNOLOGIE SANS BAVURE, NI FUITE",
+        "12 PENS STYLOS",
+        "BLUE INK ENCRE BLEUE",
+        "FINE 0.5mm"
+      ]
+    },
+    {
+      "imageId": "img.6",
+      "claims": [
+        "0.5",
+        "S-GEL"
+      ]
+    },
+    {
+      "imageId": "img.7",
+      "claims": []
+    },
+    {
+      "imageId": "img.8",
+      "claims": []
+    },
+    {
+      "imageId": "img.9",
+      "claims": []
+    },
+    {
+      "imageId": "img.10",
+      "claims": []
+    },
+    {
+      "imageId": "img.11",
+      "claims": []
+    },
+    {
+      "imageId": "img.12",
+      "claims": []
+    }
+  ]
+}

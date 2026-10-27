@@ -1,0 +1,234 @@
+{
+  "data": [
+    {
+      "claimId": "ic.0",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.1",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Gel Pens"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.2",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.color",
+          "text": "Morandi"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.3",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "6 Pcs"
+        }
+      ],
+      "intentId": "pack_contents"
+    },
+    {
+      "claimId": "ic.4",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.5",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.item_diameter",
+          "text": "10 millimeters"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.6",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.7",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.8",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "easy to carry"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.9",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Retractable"
+        }
+      ],
+      "intentId": "retractable"
+    },
+    {
+      "claimId": "ic.10",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.11",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.12",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "0.5mm"
+        }
+      ],
+      "intentId": "tip_size"
+    },
+    {
+      "claimId": "ic.13",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "ink_flow"
+    },
+    {
+      "claimId": "ic.14",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "convenient clip design"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.15",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.16",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "0.5mm"
+        },
+        {
+          "fieldId": "title",
+          "text": "Black Ink"
+        }
+      ],
+      "intentId": "tip_size"
+    },
+    {
+      "claimId": "ic.17",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "ink_flow"
+    },
+    {
+      "claimId": "ic.18",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "0.5mm"
+        },
+        {
+          "fieldId": "attr.ink_color",
+          "text": "Black"
+        },
+        {
+          "fieldId": "title",
+          "text": "6 Pcs"
+        }
+      ],
+      "intentId": "tip_size"
+    },
+    {
+      "claimId": "ic.19",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "smudge_left_handed"
+    },
+    {
+      "claimId": "ic.20",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "modern minimalist design"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.21",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "You will receive 6pc quick-drying ink pens with a modern minimalist design to suit your needs Daily use and replacement needs"
+        }
+      ],
+      "intentId": "pack_contents"
+    },
+    {
+      "claimId": "ic.22",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.additional_features",
+          "text": "Soft Grip"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.23",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "easy to carry"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.24",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "the rollerball ink dries quickly"
+        }
+      ],
+      "intentId": "dry_time"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "coverage@2026-10-27.1",
+  "usage": {
+    "inputTokens": 1423,
+    "outputTokens": 1498
+  },
+  "latencyMs": 4283,
+  "cached": false
+}

@@ -1,0 +1,128 @@
+{
+  "asin": "B0BGPYR8Q3",
+  "promptVersion": "transcribe@2026-10-27.1",
+  "model": "gemini-3.5-flash-lite",
+  "usage": {
+    "inputTokens": 16940,
+    "outputTokens": 859
+  },
+  "images": 16,
+  "skippedImageIds": [
+    "img.15"
+  ],
+  "modelOutput": [
+    {
+      "imageId": "img.0",
+      "claims": [
+        "EXTRA SMOOTH GEL PEN",
+        "SMEAR RESISTANT WRITING",
+        "QUICK DRY",
+        "12 ASSORTED INK",
+        "POINTE MOYENNE",
+        "0,7 mm",
+        "STYLOS GEL"
+      ]
+    },
+    {
+      "imageId": "img.1",
+      "claims": [
+        "For Making Your Lists...",
+        "12 ASSORTED INK MEDIUM 0.7mm GEL PENS",
+        "QUICK DRY",
+        "GEL PEN",
+        "SMEAR RESISTANT WRITING",
+        "GEL"
+      ]
+    },
+    {
+      "imageId": "img.2",
+      "claims": [
+        "MEDIUM",
+        "0.7MM POINT",
+        "IS PERFECT FOR",
+        "EVERYDAY",
+        "WRITING"
+      ]
+    },
+    {
+      "imageId": "img.3",
+      "claims": [
+        "6.1 in",
+        "15 cm"
+      ]
+    },
+    {
+      "imageId": "img.4",
+      "claims": [
+        "GREAT FOR",
+        "LEFT-HANDED WRITERS"
+      ]
+    },
+    {
+      "imageId": "img.5",
+      "claims": [
+        "PLASTIC CLIP ATTACHES",
+        "TO POCKETS, NOTEBOOKS",
+        "AND MORE"
+      ]
+    },
+    {
+      "imageId": "img.6",
+      "claims": [
+        "SUPER-SMOOTH,",
+        "EASY-FLOWING INK",
+        "FOR VIBRANT WRITING"
+      ]
+    },
+    {
+      "imageId": "img.7",
+      "claims": []
+    },
+    {
+      "imageId": "img.8",
+      "claims": [
+        "CONVENIENT RETRACTABLE DESIGN LETS YOU START WRITING WITH JUST ONE CLICK",
+        "FULL-LENGTH GRIP OFFERS COMFORT AND CONTROL"
+      ]
+    },
+    {
+      "imageId": "img.9",
+      "claims": []
+    },
+    {
+      "imageId": "img.10",
+      "claims": [
+        "QUICK DRY",
+        "SMOOTH AND SMEAR RESISTANT*",
+        "EXTRA SMOOTH",
+        "*Quick-drying ink dries in as little as 5 seconds."
+      ]
+    },
+    {
+      "imageId": "img.11",
+      "claims": [
+        "Comfortable, Full-Grip Barrel",
+        "A comfortable grip that extends across the length of the barrel for a firm, controlled writing experience.",
+        "Choose Your Favorite Color",
+        "Choose from a variety of fun, vibrant colors with a 0.7mm medium point.",
+        "Quick Drying Ink",
+        "Available in 17 vibrant colors, vivid ink that dries up to 3x faster.*",
+        "*vs BIC Gelocity Original based on average dry times of blue, black, and red. Individual dry times may vary by color.",
+        "Color, with Convenience",
+        "The convenient retractable design means one quick click of the top button and you're ready to start writing!"
+      ]
+    },
+    {
+      "imageId": "img.12",
+      "claims": []
+    },
+    {
+      "imageId": "img.13",
+      "claims": []
+    },
+    {
+      "imageId": "img.14",
+      "claims": []
+    }
+  ]
+}

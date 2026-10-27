@@ -1,0 +1,170 @@
+{
+  "asin": "B001GAOTSW",
+  "promptVersion": "transcribe@2026-10-27.1",
+  "model": "gemini-3.5-flash-lite",
+  "usage": {
+    "inputTokens": 17623,
+    "outputTokens": 1358
+  },
+  "images": 16,
+  "modelOutput": [
+    {
+      "imageId": "img.0",
+      "claims": [
+        "PREMIUM GEL ROLLER",
+        "BOLA RODANTE RETRÁCTIL CON TINTA DE GEL",
+        "1 Selling Gel Pen",
+        "Super Smooth",
+        "Super Suave",
+        "Refillable",
+        "Recargable",
+        "Comfort Grip",
+        "Grip Confortable",
+        "12 Pens/Piezas",
+        "BLACK",
+        "NEGRA",
+        "FINE",
+        "FINO",
+        "0.7 mm"
+      ]
+    },
+    {
+      "imageId": "img.1",
+      "claims": [
+        "America's Favorite Pen*",
+        "*G2 is the #1 Selling Pen Brand / Circana / Retail & Commercial / Dollar Sales / Data on file."
+      ]
+    },
+    {
+      "imageId": "img.2",
+      "claims": [
+        "Super Smooth Writing",
+        "Comfortable Rubber Grip",
+        "Quick Drying",
+        "LONGEST WRITING",
+        "vs. top gel brands*",
+        "*Independent ISO testing: Average of G2 write out (all point sizes) compared to the average of the top branded gel ink pens tested (all point sizes). Data on file."
+      ]
+    },
+    {
+      "imageId": "img.3",
+      "claims": []
+    },
+    {
+      "imageId": "img.4",
+      "claims": [
+        "Reliable & Durable",
+        "Retractable",
+        "Sturdy Clip",
+        "Refillable",
+        "Comfort Grip",
+        "Smooth Gel Ink"
+      ]
+    },
+    {
+      "imageId": "img.5",
+      "claims": [
+        "Available in Four Point Sizes",
+        "Ultra Fine 0.38mm",
+        "Extra Fine 0.5mm",
+        "Fine 0.7mm",
+        "Bold 1.0mm",
+        "FINE",
+        "0.7mm",
+        "A favorite for school, work, & everyday writing"
+      ]
+    },
+    {
+      "imageId": "img.6",
+      "claims": [
+        "ARCHIVAL SAFE",
+        "ACID FREE INK",
+        "Tested & Trusted Performance"
+      ]
+    },
+    {
+      "imageId": "img.7",
+      "claims": [
+        "The Smooth Writing,",
+        "LONGEST LASTING;",
+        "#1 Selling Pen",
+        "IN AMERICA.",
+        "*Independent ISO testing: Average of G2 write out (all point sizes) compared to the average of the top branded gel ink pens tested (all point sizes). Data on file.",
+        "**G2 is the #1 Selling Pen Brand/Circana/Retail & Commercial/Dollar Sales/Data on file."
+      ]
+    },
+    {
+      "imageId": "img.8",
+      "claims": [
+        "Refillable for Continued Use",
+        "Re-Think & Re-Ink"
+      ]
+    },
+    {
+      "imageId": "img.9",
+      "claims": [
+        "PREMIUM GEL ROLLER",
+        "AMERICA'S GO-2 GEL INK PEN, DESIGNED FOR EVERYDAY OVERACHIEVERS",
+        "Get exceptional value from the G2 Premium Gel Roller - proven to be the longest writing gel ink pen",
+        "Overachievers Grant",
+        "At Pilot we want to give Overachievers who go above and beyond their 9-to-5 role the recognition they deserve.",
+        "For the last 8 years, G2 has been rewarding those who make a difference in the lives of others. The $100,000 G2 Overachievers Grant recognizes those who make their communities and our world a better place."
+      ]
+    },
+    {
+      "imageId": "img.10",
+      "claims": []
+    },
+    {
+      "imageId": "img.11",
+      "claims": []
+    },
+    {
+      "imageId": "img.12",
+      "claims": []
+    },
+    {
+      "imageId": "img.13",
+      "claims": []
+    },
+    {
+      "imageId": "img.14",
+      "claims": [
+        "Fuel your imagination, express your thoughts, and create an oasis of calm away from the digital deluge. G2 pens are ideal for:",
+        "EVERYDAY WRITING",
+        "NOTE-TAKING",
+        "JOURNALING",
+        "SKETCHING",
+        "DOODLING",
+        "CARDMAKING",
+        "SCRAPBOOKING",
+        "IT'S CLEAR WHY G2 IS AMERICA'S GO-2 GEL INK PEN.",
+        "PREMIUM GEL INK PENS",
+        "SELLING PEN",
+        "PREFERRED BY OVERACHIEVERS",
+        "41 COLORS",
+        "STYLES INCLUDE:",
+        "Fashion MINERAL ART",
+        "Harmony Limited Edition",
+        "Metallic Neons",
+        "mini PASTELS",
+        "EXTRA FINE 0.38mm",
+        "ULTRA FINE 0.5mm",
+        "FINE 0.7mm",
+        "BOLD 1.0mm",
+        "4 POINT SIZES"
+      ]
+    },
+    {
+      "imageId": "img.15",
+      "claims": [
+        "G2 FINE POINT (0.7 MM) PENS are ideal for your everyday writing needs and the number one selling point size.",
+        "Available in Four Point Sizes with Assorted Ink Colors",
+        "Ultra Fine Point / 0.38mm",
+        "Extra Fine Point / 0.5mm",
+        "Fine Point / 0.7mm",
+        "Bold Point / 1.0mm"
+      ]
+    }
+  ]
+}

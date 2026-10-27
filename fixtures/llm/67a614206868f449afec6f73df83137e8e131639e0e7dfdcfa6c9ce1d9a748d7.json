@@ -1,0 +1,382 @@
+{
+  "data": [
+    {
+      "claimId": "ic.0",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.additional_features",
+          "text": "Smear Resistant"
+        }
+      ],
+      "intentId": "ink_flow"
+    },
+    {
+      "claimId": "ic.1",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.additional_features",
+          "text": "Smear Resistant"
+        }
+      ],
+      "intentId": "smudge"
+    },
+    {
+      "claimId": "ic.2",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "QUICK DRY"
+        }
+      ],
+      "intentId": "dry_time"
+    },
+    {
+      "claimId": "ic.3",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Assorted Colors"
+        }
+      ],
+      "intentId": "pack_contents"
+    },
+    {
+      "claimId": "ic.4",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.drill_point",
+          "text": "Medium"
+        }
+      ],
+      "intentId": "tip_size"
+    },
+    {
+      "claimId": "ic.5",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "0.7 mm"
+        }
+      ],
+      "intentId": "tip_size"
+    },
+    {
+      "claimId": "ic.6",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.writing_instrument_form",
+          "text": "Gel Pen"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.7",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.8",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Assorted Colors Gel Pens, 12-Count Pack, 0.7 mm"
+        }
+      ],
+      "intentId": "pack_contents"
+    },
+    {
+      "claimId": "ic.9",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.writing_instrument_form",
+          "text": "Gel Pen"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.10",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.writing_instrument_form",
+          "text": "Gel"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.11",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.drill_point",
+          "text": "Medium"
+        }
+      ],
+      "intentId": "tip_size"
+    },
+    {
+      "claimId": "ic.12",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "0.7 mm"
+        }
+      ],
+      "intentId": "tip_size"
+    },
+    {
+      "claimId": "ic.13",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.14",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.15",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.recommended_uses_for_product",
+          "text": "Writing"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.16",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.17",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.18",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.19",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "left-handed students"
+        }
+      ],
+      "intentId": "smudge_left_handed"
+    },
+    {
+      "claimId": "ic.20",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.6",
+          "text": "plastic clip keeps pens attached to notebooks and folders"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.21",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.6",
+          "text": "notebooks and folders"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.22",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.23",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "Easy-flowing gel ink writes fluidly"
+        }
+      ],
+      "intentId": "ink_flow"
+    },
+    {
+      "claimId": "ic.24",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "Easy-flowing gel ink"
+        }
+      ],
+      "intentId": "ink_flow"
+    },
+    {
+      "claimId": "ic.25",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Vibrant ink"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.26",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.6",
+          "text": "One click to start writing"
+        }
+      ],
+      "intentId": "retractable"
+    },
+    {
+      "claimId": "ic.27",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "full-length grip that keeps writing comfortable"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.28",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.additional_features",
+          "text": "Smear Resistant"
+        }
+      ],
+      "intentId": "smudge"
+    },
+    {
+      "claimId": "ic.29",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.30",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "dries in as little as five seconds"
+        }
+      ],
+      "intentId": "dry_time"
+    },
+    {
+      "claimId": "ic.31",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.grip_type",
+          "text": "Full-length"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.32",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "full-length grip that keeps writing comfortable during class note-taking"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.33",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Assorted Colors"
+        }
+      ],
+      "intentId": "pack_contents"
+    },
+    {
+      "claimId": "ic.34",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "0.7 mm"
+        }
+      ],
+      "intentId": "tip_size"
+    },
+    {
+      "claimId": "ic.35",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "QUICK DRY"
+        }
+      ],
+      "intentId": "dry_time"
+    },
+    {
+      "claimId": "ic.36",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "dries in as little as five seconds"
+        }
+      ],
+      "intentId": "dry_time"
+    },
+    {
+      "claimId": "ic.37",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.38",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.39",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.6",
+          "text": "One click to start writing"
+        }
+      ],
+      "intentId": "retractable"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "coverage@2026-10-27.1",
+  "usage": {
+    "inputTokens": 1963,
+    "outputTokens": 2536
+  },
+  "latencyMs": 5942,
+  "cached": false
+}

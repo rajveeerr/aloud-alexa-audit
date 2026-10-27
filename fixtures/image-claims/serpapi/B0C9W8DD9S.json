@@ -1,0 +1,131 @@
+{
+  "asin": "B0C9W8DD9S",
+  "promptVersion": "transcribe@2026-10-27.1",
+  "model": "gemini-3.5-flash-lite",
+  "usage": {
+    "inputTokens": 17642,
+    "outputTokens": 842
+  },
+  "images": 16,
+  "modelOutput": [
+    {
+      "imageId": "img.0",
+      "claims": [
+        "ZS012 Startraveler",
+        "Gel Ink Pen",
+        "Morandi",
+        "6 pcs"
+      ]
+    },
+    {
+      "imageId": "img.1",
+      "claims": [
+        "ZS012 Startraveler",
+        "Gel Ink Pen",
+        "Morandi",
+        "5.7in/145mm"
+      ]
+    },
+    {
+      "imageId": "img.2",
+      "claims": [
+        "0.39in/10MM",
+        "5.7in/145.9MM",
+        "Durable Clip",
+        "Convenient To Take to Anywhere",
+        "Retractable Design",
+        "Easy to Use",
+        "Each Pen is Sealed with Waxto Prevent ink from Drying",
+        "0.5mm Fine Point",
+        "Smooth Writing without Skipping"
+      ]
+    },
+    {
+      "imageId": "img.3",
+      "claims": [
+        "Pen clip design",
+        "The steel ball pen clip slides without marks, effectively reducing the scratch on the paper"
+      ]
+    },
+    {
+      "imageId": "img.4",
+      "claims": [
+        "0.5mm black ink refill writing fluently"
+      ]
+    },
+    {
+      "imageId": "img.5",
+      "claims": []
+    },
+    {
+      "imageId": "img.6",
+      "claims": []
+    },
+    {
+      "imageId": "img.7",
+      "claims": []
+    },
+    {
+      "imageId": "img.8",
+      "claims": [
+        "ZS012 Startraveler",
+        "Gel Ink Pen",
+        "Morandi",
+        "6 pcs",
+        "Smooth Writing",
+        "Fine Tip: 0.5 mm Black 6 colors",
+        "No Smear: Perfect for Left-Handed"
+      ]
+    },
+    {
+      "imageId": "img.9",
+      "claims": []
+    },
+    {
+      "imageId": "img.10",
+      "claims": []
+    },
+    {
+      "imageId": "img.11",
+      "claims": [
+        "0.39in/10MM",
+        "5.7in/145.9MM",
+        "Durable Clip",
+        "Convenient To Take to Anywhere",
+        "Retractable Design",
+        "Easy to Use",
+        "Each Pen is Sealed with Waxto Prevent ink from Drying",
+        "0.5mm Fine Point",
+        "Smooth Writing without Skipping"
+      ]
+    },
+    {
+      "imageId": "img.12",
+      "claims": [
+        "Gel ink Pen"
+      ]
+    },
+    {
+      "imageId": "img.13",
+      "claims": []
+    },
+    {
+      "imageId": "img.14",
+      "claims": [
+        "Modern Minimalist Design",
+        "6 Quick drying ink pens to meet your daily use and replacement needs",
+        "Soft Comfortable Grip",
+        "Durable Clip Convenient To Take to Anywhere"
+      ]
+    },
+    {
+      "imageId": "img.15",
+      "claims": [
+        "Retractable Design",
+        "Easy to Use",
+        "The rollerball ink dries quickly",
+        "Each Pen is Sealed withWaxto Prevent ink from Drying"
+      ]
+    }
+  ]
+}

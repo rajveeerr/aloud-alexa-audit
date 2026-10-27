@@ -103,3 +103,35 @@ export type Grade = {
   modelStatus: GradeStatus;
   flags: GradeFlag[];
 };
+
+/** A claim printed inside one or more of the listing's images, transcribed word for word. */
+export type ImageClaim = {
+  id: string;
+  text: string;
+  /** Every image it appears in, e.g. the same callout on a gallery and an A+ image. */
+  imageIds: string[];
+};
+
+/**
+ * in_text: the readable text already says it. partial: the text says part of it.
+ * image_only: only an image says it, so Alexa may not read it.
+ */
+export type ClaimCoverage = "in_text" | "partial" | "image_only";
+
+export type ClaimMatch = {
+  claimId: string;
+  coverage: ClaimCoverage;
+  /** Verified quotes from text fields that cover the claim. Empty for image_only. */
+  quotes: Quote[];
+  /** The shopper question the claim answers, if any. */
+  intentId?: string;
+  flags: ("quote_not_found" | "unverified_coverage" | "unknown_intent")[];
+};
+
+/** The lead finding: the brand already answers a question, but only inside an image. */
+export type HiddenAnswer = {
+  intentId: string;
+  /** How the readable text does on that question: missing or partial. */
+  textStatus: "missing" | "partial";
+  claims: ImageClaim[];
+};

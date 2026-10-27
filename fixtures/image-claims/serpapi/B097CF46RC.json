@@ -1,0 +1,101 @@
+{
+  "asin": "B097CF46RC",
+  "promptVersion": "transcribe@2026-10-27.1",
+  "model": "gemini-3.5-flash-lite",
+  "usage": {
+    "inputTokens": 8827,
+    "outputTokens": 558
+  },
+  "images": 8,
+  "modelOutput": [
+    {
+      "imageId": "img.0",
+      "claims": [
+        "25665",
+        "0.7",
+        "LIQUID GEL PEN",
+        "M",
+        "Medium",
+        "0.7mm",
+        "INK COLORS",
+        "SMOOTHEST WRITING INK*",
+        "QUICK DRYING INK"
+      ]
+    },
+    {
+      "imageId": "img.1",
+      "claims": [
+        "07",
+        "Liquid Gel Ink"
+      ]
+    },
+    {
+      "imageId": "img.2",
+      "claims": [
+        "07",
+        "Liquid Gel Ink"
+      ]
+    },
+    {
+      "imageId": "img.3",
+      "claims": [
+        "07",
+        "Liquid Gel Ink"
+      ]
+    },
+    {
+      "imageId": "img.4",
+      "claims": [
+        "Liquid Gel Ink"
+      ]
+    },
+    {
+      "imageId": "img.5",
+      "claims": [
+        "07",
+        "mm ball",
+        "Metal Tip",
+        "0.7",
+        "Liquid Gel Ink"
+      ]
+    },
+    {
+      "imageId": "img.6",
+      "claims": [
+        "RED",
+        "0.7MM",
+        "1.0MM",
+        "GREEN",
+        "0.7MM",
+        "1.0MM",
+        "BROWN",
+        "0.7MM",
+        "ORANGE",
+        "0.7MM",
+        "PINK",
+        "0.7MM",
+        "LIME GREEN",
+        "0.7MM",
+        "BLACK",
+        "0.7MM",
+        "1.0MM",
+        "BLUE",
+        "0.7MM",
+        "1.0MM",
+        "VIOLET",
+        "0.7MM",
+        "1.0MM",
+        "NAVY BLUE",
+        "0.7MM",
+        "SKY BLUE",
+        "0.7MM",
+        "TURQUOISE BLUE",
+        "0.7MM"
+      ]
+    },
+    {
+      "imageId": "img.7",
+      "claims": []
+    }
+  ]
+}
