@@ -1,0 +1,165 @@
+{
+  "data": [
+    {
+      "intentId": "tip_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.line_size",
+          "text": "0.7 Millimeters"
+        }
+      ],
+      "value": "0.7 Millimeters"
+    },
+    {
+      "intentId": "smudge",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "smear-proof"
+        }
+      ],
+      "value": "smear-proof"
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "dry_time",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "ink_flow",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "smooth writing"
+        }
+      ],
+      "value": "smooth writing"
+    },
+    {
+      "intentId": "longevity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Longest Lasting"
+        }
+      ],
+      "value": "Longest Lasting"
+    },
+    {
+      "intentId": "bleed_through",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "refillable",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Refillable"
+        }
+      ],
+      "value": "Refillable"
+    },
+    {
+      "intentId": "retractable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.closure",
+          "text": "Retractable"
+        }
+      ],
+      "value": "Retractable"
+    },
+    {
+      "intentId": "pack_contents",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.size",
+          "text": "12 Count (Pack of 1)"
+        },
+        {
+          "fieldId": "attr.color",
+          "text": "Navy Ink"
+        }
+      ],
+      "value": "12 Count, Navy Ink"
+    },
+    {
+      "intentId": "water_resistance",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "leaking",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "surface_compatibility",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "opacity",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "durability",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "weight",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "0.48 ounces"
+        }
+      ],
+      "value": "0.48 ounces"
+    },
+    {
+      "intentId": "erasable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "erasable"
+        }
+      ],
+      "value": "erasable"
+    },
+    {
+      "intentId": "glitter_level",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "scent",
+      "status": "not_applicable",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+gel-ink-pens@2026-10-27.1",
+  "usage": {
+    "inputTokens": 1986,
+    "outputTokens": 995
+  },
+  "latencyMs": 3384,
+  "cached": false
+}

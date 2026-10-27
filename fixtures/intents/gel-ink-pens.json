@@ -1,0 +1,31 @@
+{
+  "categoryId": "gel-ink-pens",
+  "version": "2026-10-27.1",
+  "source": "Mined from 600 reviews (10 most helpful from each of the 60 most-reviewed gel pens, Amazon Reviews 2023), clustered, then reviewed by hand.",
+  "sampleSize": 600,
+  "intents": [
+    { "id": "tip_size", "kind": "spec", "frequency": 130, "question": "What is the tip size or line width?", "rubric": "answered: states a tip or line size in mm. partial: only a word like fine, medium or bold." },
+    { "id": "smudge", "kind": "claim", "frequency": 84, "question": "Does the ink smudge or smear?", "rubric": "answered: says the ink is smudge-free, smear-resistant or similar. partial: only implies it, e.g. quick-drying with no mention of smudging." },
+    { "id": "smudge_left_handed", "kind": "claim", "frequency": 11, "question": "Does it smudge for left-handed writers?", "rubric": "answered: says it suits left-handed writers without smudging. partial: mentions left-handed or ambidextrous use but not smudging." },
+    { "id": "dry_time", "kind": "claim", "frequency": 87, "question": "How quickly does the ink dry?", "rubric": "answered: gives a dry time or says quick-drying or fast-drying. partial: only says it doesn't smudge." },
+    { "id": "ink_flow", "kind": "claim", "frequency": 171, "question": "Does the ink flow consistently without skipping or clogging?", "rubric": "answered: says it writes without skipping, blobbing or clogging, or promises consistent flow. partial: only says smooth writing." },
+    { "id": "longevity", "kind": "claim", "frequency": 108, "question": "How long does the ink last?", "rubric": "answered: gives a writing length (meters, pages) or says long-lasting ink. partial: only mentions ink capacity or a large reservoir without a claim." },
+    { "id": "bleed_through", "kind": "claim", "frequency": 43, "question": "Does the ink bleed through paper?", "rubric": "answered: says no bleed-through, no show-through or no feathering. partial: names paper types it works on without mentioning bleed." },
+    { "id": "refillable", "kind": "spec", "frequency": 48, "question": "Is the pen refillable, and with which refills?", "rubric": "answered: says refillable and names the refill. partial: says refillable without naming the refill, or names refills without saying the pen takes them." },
+    { "id": "retractable", "kind": "spec", "frequency": 9, "question": "Is it retractable (click) or capped?", "rubric": "answered: says retractable, click or capped. Attribute closure or closure_type counts." },
+    { "id": "pack_contents", "kind": "spec", "frequency": 39, "question": "How many pens and which ink colors are in the pack?", "rubric": "answered: states both the count and the ink colors. partial: only one of the two." },
+    { "id": "water_resistance", "kind": "claim", "frequency": 13, "question": "Is the ink waterproof, fade-resistant or archival?", "rubric": "answered: says waterproof, water-resistant, fade-resistant, archival or acid-free. partial: says permanent without saying how." },
+    { "id": "leaking", "kind": "claim", "frequency": 29, "question": "Does the pen leak or blob?", "rubric": "answered: says leak-proof, leak-resistant or no blobs. partial: only mentions a sealed or tight cap." },
+    { "id": "surface_compatibility", "kind": "claim", "frequency": 28, "question": "What paper or surfaces does it write on?", "rubric": "answered: names surfaces or paper types, e.g. notebook paper, cardstock, dark paper, glossy photos. partial: only says everyday writing." },
+    { "id": "opacity", "kind": "claim", "frequency": 39, "question": "Does the ink show up on dark or colored paper?", "rubric": "answered: says opaque or shows on dark or black paper. Only for pens sold for dark paper, such as white, metallic or gel-art pens.", "conditional": true },
+    { "id": "durability", "kind": "claim", "frequency": 38, "question": "How durable is the pen body and tip?", "rubric": "answered: names a durable material or construction, e.g. metal tip, sturdy barrel, or gives a warranty. partial: only says durable or heavy duty." },
+    { "id": "weight", "kind": "spec", "frequency": 18, "question": "How heavy is the pen and how is it balanced?", "rubric": "answered: gives the weight of one pen or describes its balance. partial: only the package weight." },
+    { "id": "erasable", "kind": "spec", "frequency": 74, "question": "Is the ink erasable?", "rubric": "answered: says erasable or not erasable. Only for erasable pens such as FriXion.", "conditional": true },
+    { "id": "glitter_level", "kind": "spec", "frequency": 28, "question": "How much glitter or shimmer is in the ink?", "rubric": "answered: describes the glitter, metallic or shimmer effect. Only for glitter or metallic pens.", "conditional": true },
+    { "id": "scent", "kind": "spec", "frequency": 15, "question": "Is the pen scented, and what does it smell like?", "rubric": "answered: says scented and names the scent. Only for scented pens.", "conditional": true },
+    { "id": "smoothness", "kind": "experience", "frequency": 234, "question": "How smoothly does it write?", "rubric": "Experience: only buyers can judge. A listing saying smooth is a claim, not proof." },
+    { "id": "grip_comfort", "kind": "experience", "frequency": 96, "question": "Is the grip comfortable for long writing?", "rubric": "Experience: only buyers can judge. A listed grip type is evidence, not proof." },
+    { "id": "color_vibrancy", "kind": "experience", "frequency": 79, "question": "How vibrant and dark is the ink?", "rubric": "Experience: only buyers can judge." },
+    { "id": "color_accuracy", "kind": "experience", "frequency": 30, "question": "Does the ink match the barrel color?", "rubric": "Experience: only buyers can judge." }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "data": [
+    {
+      "intentId": "tip_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Fine Point 0.7mm"
+        }
+      ],
+      "value": "0.7mm"
+    },
+    {
+      "intentId": "smudge",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "helps prevent smudges and smears"
+        }
+      ],
+      "value": "helps prevent smudges and smears"
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "dry_time",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "quick drying ink"
+        }
+      ],
+      "value": "quick drying"
+    },
+    {
+      "intentId": "ink_flow",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "smooth writing experience"
+        }
+      ],
+      "value": "smooth writing"
+    },
+    {
+      "intentId": "longevity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "longest-lasting gel ink pens"
+        }
+      ],
+      "value": "longest-lasting gel ink pens"
+    },
+    {
+      "intentId": "bleed_through",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "refillable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Refillable & Quick Drying: You can save money and reduce waste with these black ink pens and Pilot G2 refills"
+        }
+      ],
+      "value": "Refillable"
+    },
+    {
+      "intentId": "retractable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.closure_type",
+          "text": "Retractable"
+        }
+      ],
+      "value": "Retractable"
+    },
+    {
+      "intentId": "pack_contents",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Black Ink, 12-Pack"
+        }
+      ],
+      "value": "12-Pack Black Ink"
+    },
+    {
+      "intentId": "water_resistance",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "archival-safe, acid-free black ink is fade-resistant"
+        }
+      ],
+      "value": "archival-safe, acid-free, fade-resistant"
+    },
+    {
+      "intentId": "leaking",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "surface_compatibility",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "everyday writing tasks"
+        }
+      ],
+      "value": "everyday writing"
+    },
+    {
+      "intentId": "opacity",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "durability",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "weight",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "4.96 ounces"
+        }
+      ],
+      "value": "4.96 ounces"
+    },
+    {
+      "intentId": "erasable",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "glitter_level",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "scent",
+      "status": "not_applicable",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+gel-ink-pens@2026-10-27.1",
+  "usage": {
+    "inputTokens": 2358,
+    "outputTokens": 1100
+  },
+  "latencyMs": 4047,
+  "cached": false
+}

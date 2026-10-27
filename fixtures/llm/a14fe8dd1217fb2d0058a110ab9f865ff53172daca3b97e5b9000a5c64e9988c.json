@@ -1,0 +1,167 @@
+{
+  "data": [
+    {
+      "intentId": "tip_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "0.7 mm"
+        }
+      ],
+      "value": "0.7 mm"
+    },
+    {
+      "intentId": "smudge",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "doesn't smear"
+        }
+      ],
+      "value": "doesn't smear"
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "dependable choice for left-handed students"
+        }
+      ],
+      "value": "dependable choice for left-handed students"
+    },
+    {
+      "intentId": "dry_time",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "dries in as little as five seconds"
+        }
+      ],
+      "value": "dries in as little as five seconds"
+    },
+    {
+      "intentId": "ink_flow",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "writes smoothly and consistently"
+        }
+      ],
+      "value": "writes smoothly and consistently"
+    },
+    {
+      "intentId": "longevity",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "bleed_through",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "refillable",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "retractable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.6",
+          "text": "RETRACTABLE"
+        }
+      ],
+      "value": "Retractable"
+    },
+    {
+      "intentId": "pack_contents",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Assorted Colors Gel Pens, 12-Count Pack"
+        }
+      ],
+      "value": "12-Count Pack, Assorted Colors"
+    },
+    {
+      "intentId": "water_resistance",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "leaking",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "surface_compatibility",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "lined paper, notebooks, and index cards"
+        }
+      ],
+      "value": "lined paper, notebooks, and index cards"
+    },
+    {
+      "intentId": "opacity",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "durability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.warranty_description",
+          "text": "LIFETIME"
+        }
+      ],
+      "value": "LIFETIME"
+    },
+    {
+      "intentId": "weight",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "0.27 g"
+        }
+      ],
+      "value": "0.27 g"
+    },
+    {
+      "intentId": "erasable",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "glitter_level",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "scent",
+      "status": "not_applicable",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+gel-ink-pens@2026-10-27.1",
+  "usage": {
+    "inputTokens": 2312,
+    "outputTokens": 1047
+  },
+  "latencyMs": 3176,
+  "cached": false
+}

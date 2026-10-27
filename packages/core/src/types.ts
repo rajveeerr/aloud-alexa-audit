@@ -55,3 +55,51 @@ export type Listing = {
   /** Hash of fields and images. Same content gives the same hash, whatever order it came in. */
   contentHash: string;
 };
+
+/** Three kinds of shopper question. Only spec and claim count toward the score. */
+export type IntentKind = "spec" | "claim" | "experience";
+
+/** A question shoppers in a category ask, mined from reviews and reviewed by hand. */
+export type Intent = {
+  id: string;
+  kind: IntentKind;
+  question: string;
+  /** One line saying what counts as answered and partial. The grader sees it. */
+  rubric: string;
+  /** How many sampled reviews raised it. Weights the score. */
+  frequency: number;
+  /** True when the question only applies to some products (scent, glitter). */
+  conditional?: boolean;
+};
+
+export type IntentSet = {
+  categoryId: string;
+  version: string;
+  sampleSize: number;
+  intents: Intent[];
+};
+
+export type GradeStatus = "answered" | "partial" | "missing" | "contradicted" | "not_applicable";
+
+export type Quote = { fieldId: string; text: string };
+
+/** Why the verifier changed or doubted what the model said. Shown in the UI. */
+export type GradeFlag =
+  | "quote_not_found"
+  | "quote_field_corrected"
+  | "unverified_answer"
+  | "unverified_contradiction"
+  | "not_applicable_rejected"
+  | "not_graded";
+
+export type Grade = {
+  intentId: string;
+  status: GradeStatus;
+  /** Only quotes that passed the verifier. */
+  quotes: Quote[];
+  /** The answer in the listing's words, e.g. "0.5 mm". */
+  value?: string;
+  /** What the model said before verification, kept for evals and the UI. */
+  modelStatus: GradeStatus;
+  flags: GradeFlag[];
+};

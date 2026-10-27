@@ -1,0 +1,147 @@
+{
+  "data": [
+    {
+      "intentId": "tip_size",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.point_type",
+          "text": "Medium"
+        }
+      ],
+      "value": "Medium"
+    },
+    {
+      "intentId": "smudge",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "dry_time",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "ink_flow",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "longevity",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "bleed_through",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "refillable",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "retractable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.closure",
+          "text": "Snap"
+        }
+      ],
+      "value": "Snap"
+    },
+    {
+      "intentId": "pack_contents",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "8 Count"
+        },
+        {
+          "fieldId": "attr.ink_color",
+          "text": "Multicolor"
+        }
+      ],
+      "value": "8 Count, Multicolor"
+    },
+    {
+      "intentId": "water_resistance",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "leaking",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "surface_compatibility",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "opacity",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "durability",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "weight",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "Item weight: 7.4 ounces"
+        }
+      ],
+      "value": "7.4 ounces"
+    },
+    {
+      "intentId": "erasable",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "glitter_level",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Glitter Gel Smens"
+        }
+      ],
+      "value": "Glitter"
+    },
+    {
+      "intentId": "scent",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Aloha Unicorn Scented Pens"
+        }
+      ],
+      "value": "Aloha Unicorn"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+gel-ink-pens@2026-10-27.1",
+  "usage": {
+    "inputTokens": 1581,
+    "outputTokens": 858
+  },
+  "latencyMs": 2768,
+  "cached": false
+}
