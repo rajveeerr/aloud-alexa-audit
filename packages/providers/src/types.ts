@@ -49,6 +49,8 @@ export class ProviderError extends Error {
     readonly provider: string,
     readonly status?: number,
     readonly retryable = false,
+    /** Why the model stopped without content, e.g. "SAFETY" or "RECITATION". */
+    readonly finishReason?: string,
   ) {
     super(message);
     this.name = "ProviderError";

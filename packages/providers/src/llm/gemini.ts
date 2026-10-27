@@ -65,7 +65,8 @@ export class GeminiLlm implements LlmProvider {
     const candidate = json.candidates?.[0];
     const text = candidate?.content?.parts?.map((p) => p.text ?? "").join("") ?? "";
     if (!text) {
-      throw new ProviderError(`Gemini returned no content (finishReason ${candidate?.finishReason ?? "none"})`, this.name);
+      const reason = candidate?.finishReason ?? "none";
+      throw new ProviderError(`Gemini returned no content (finishReason ${reason})`, this.name, undefined, false, reason);
     }
     let data: T;
     try {
