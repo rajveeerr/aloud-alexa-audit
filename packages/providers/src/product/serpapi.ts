@@ -2,6 +2,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { isRetryableStatus, withRetry, type RetryOptions } from "../retry";
 import { ProviderError, type ProductDataProvider, type RawListing } from "../types";
+import { fetchWithTimeout } from "../timeout";
 
 const ENDPOINT = "https://serpapi.com/search.json";
 
@@ -43,7 +44,9 @@ export class SerpApiProductData implements ProductDataProvider {
     url.searchParams.set("api_key", this.opts.apiKey);
 
     const body = await withRetry(async () => {
-      const res = await this.fetch(url);
+      const res = await fetchWithTimeout(this.fetch, url, {}, 60_000).catch((err: Error) => {
+        throw new ProviderError(`Request failed: ${err.message}`, "serpapi", undefined, true);
+      });
       if (!res.ok) {
         throw new ProviderError(`SerpApi returned ${res.status}`, this.name, res.status, isRetryableStatus(res.status));
       }
@@ -54,6 +57,10 @@ export class SerpApiProductData implements ProductDataProvider {
       if (/hasn't returned any results|no results/i.test(body.error)) return null;
       throw new ProviderError(`SerpApi: ${body.error}`, this.name);
     }
+    // Keep just the ASINs of related products: a fallback list of competitors that costs no
+    // extra search when Amazon search returns nothing.
+    const related = Array.isArray(body.related_products) ? (body.related_products as { asin?: unknown }[]) : [];
+    body.related_asins = [...new Set(related.map((r) => r.asin).filter((a): a is string => typeof a === "string" && a !== asin))];
     for (const key of DROP_KEYS) delete body[key];
 
     if (this.opts.snapshotDir) {

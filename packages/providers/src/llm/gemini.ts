@@ -1,4 +1,5 @@
 import { isRetryableStatus, withRetry, type RetryOptions } from "../retry";
+import { fetchWithTimeout } from "../timeout";
 import { ProviderError, type LlmProvider, type LlmRequest, type LlmResult } from "../types";
 
 const BASE = "https://generativelanguage.googleapis.com/v1beta/models";
@@ -16,6 +17,8 @@ export class QuotaExhaustedError extends ProviderError {
 
 export type GeminiOptions = {
   apiKey: string;
+  /** A request that hasn't answered by then is aborted and retried. Default 90 s. */
+  timeoutMs?: number;
   fetch?: typeof fetch;
   retry?: RetryOptions;
 };
@@ -91,13 +94,20 @@ export class GeminiLlm implements LlmProvider {
   private async post(model: string, body: unknown): Promise<GeminiResponse> {
     let res: Response;
     try {
-      res = await this.fetch(`${BASE}/${model}:generateContent`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json", "x-goog-api-key": this.opts.apiKey },
-        body: JSON.stringify(body),
-      });
+      // Without a deadline, a connection that never answers hangs the caller forever.
+      res = await fetchWithTimeout(
+        this.fetch,
+        `${BASE}/${model}:generateContent`,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json", "x-goog-api-key": this.opts.apiKey },
+          body: JSON.stringify(body),
+        },
+        this.opts.timeoutMs ?? 90_000,
+      );
     } catch (err) {
-      throw new ProviderError(`Gemini request failed: ${(err as Error).message}`, this.name, undefined, true);
+      const timedOut = (err as Error).name === "TimeoutError";
+      throw new ProviderError(`Gemini request ${timedOut ? "timed out" : `failed: ${(err as Error).message}`}`, this.name, undefined, true);
     }
     if (res.ok) return (await res.json()) as GeminiResponse;
 

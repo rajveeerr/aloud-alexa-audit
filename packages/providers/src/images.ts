@@ -3,6 +3,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { isRetryableStatus, withRetry, type RetryOptions } from "./retry";
 import { ProviderError } from "./types";
+import { fetchWithTimeout } from "./timeout";
 
 export type ImageData = { mimeType: string; base64: string };
 
@@ -41,7 +42,9 @@ export class ImageStore {
 
     if (!bytes) {
       bytes = await withRetry(async () => {
-        const res = await this.fetch(url);
+        const res = await fetchWithTimeout(this.fetch, url, {}, 30_000).catch((err: Error) => {
+          throw new ProviderError(`Image fetch failed: ${err.message}`, "images", undefined, true);
+        });
         if (res.status === 404) return null;
         if (!res.ok) throw new ProviderError(`Image fetch returned ${res.status}`, "images", res.status, isRetryableStatus(res.status));
         return new Uint8Array(await res.arrayBuffer());

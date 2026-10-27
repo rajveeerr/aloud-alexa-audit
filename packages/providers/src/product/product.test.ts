@@ -66,6 +66,7 @@ describe("SerpApiProductData", () => {
     expect(data.related_products).toBeUndefined();
     expect(data.search_metadata).toBeUndefined();
     expect(data.about_item).toEqual(["bullet"]);
+    expect(data.related_asins).toEqual(["OTHER"]);
 
     const saved = await readFile(join(dir, "B0TEST.json"), "utf8");
     expect(saved).not.toContain("secret");
@@ -88,5 +89,39 @@ describe("SerpApiProductData", () => {
     const fetch = (async () => (++n === 1 ? new Response("", { status: 503 }) : new Response(JSON.stringify(body)))) as unknown as typeof globalThis.fetch;
     await new SerpApiProductData({ apiKey: "k", fetch, retry: noSleep }).getListing("B0TEST");
     expect(n).toBe(2);
+  });
+});
+
+describe("SerpApiSearch and pickCompetitors", () => {
+  const { SerpApiSearch, pickCompetitors } = require("./search") as typeof import("./search");
+  const body = {
+    organic_results: [
+      { asin: "B0AD000001", title: "Ad", sponsored: true, reviews: 900 },
+      { asin: "B0TARGET01", title: "Me", reviews: 50 },
+      { asin: "B0RIVAL001", title: "One", reviews: 80 },
+      { asin: "B0RIVAL001", title: "One again", reviews: 80 },
+      { asin: "B0RIVAL002", title: "Two" },
+    ],
+  };
+
+  test("dedupes results and picks organic competitors, excluding the target", async () => {
+    const fetch = (async () => new Response(JSON.stringify(body))) as unknown as typeof globalThis.fetch;
+    const results = await new SerpApiSearch({ apiKey: "k", fetch, retry: noSleep }).search("gel pens");
+    expect(results.map((r) => r.asin)).toEqual(["B0AD000001", "B0TARGET01", "B0RIVAL001", "B0RIVAL002"]);
+    expect(pickCompetitors(results, ["B0TARGET01"], 4)).toEqual(["B0RIVAL001", "B0RIVAL002"]);
+  });
+
+  test("reuses a saved search instead of calling again", async () => {
+    const dir = await mkdtemp(join(tmpdir(), "search-"));
+    let calls = 0;
+    const fetch = (async () => {
+      calls++;
+      return new Response(JSON.stringify(body));
+    }) as unknown as typeof globalThis.fetch;
+    const s = new SerpApiSearch({ apiKey: "k", fetch, snapshotDir: dir, retry: noSleep });
+    await s.search("Gel Pens");
+    await s.search("Gel Pens");
+    expect(calls).toBe(1);
+    await rm(dir, { recursive: true, force: true });
   });
 });

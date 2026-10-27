@@ -93,6 +93,21 @@ describe("GeminiLlm", () => {
     expect(calls).toHaveLength(3);
   });
 
+  test("aborts a request that never answers, and retries it", async () => {
+    let calls = 0;
+    const hang = (async (_url: string | URL | Request, init?: RequestInit) => {
+      calls++;
+      if (calls === 1) {
+        return new Promise<Response>((_, reject) => init?.signal?.addEventListener("abort", () => reject(init.signal!.reason)));
+      }
+      return ok();
+    }) as typeof fetch;
+    const llm = new GeminiLlm({ apiKey: "k", fetch: hang, retry: noSleep, timeoutMs: 20 });
+    const res = await llm.generateJson(req);
+    expect(calls).toBe(2);
+    expect(res.data).toEqual({ status: "answered" });
+  });
+
   test("rejects output that isn't JSON", async () => {
     const bad = respond(200, { candidates: [{ content: { parts: [{ text: "not json" }] } }] });
     const { fn } = fakeFetch(bad);
