@@ -1,0 +1,947 @@
+{
+  "product_results": {
+    "categories": [
+      {
+        "position": 1,
+        "name": "Office Products",
+        "link": "https://www.amazon.com/Office-Products/b/ref=dp_bc_1?ie=UTF8&node=1064954",
+        "node": "1064954",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1064954"
+      },
+      {
+        "position": 2,
+        "name": "Office & School Supplies",
+        "link": "https://www.amazon.com/Office-Supplies/b/ref=dp_bc_2?ie=UTF8&node=1069242",
+        "node": "1069242",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1069242"
+      },
+      {
+        "position": 3,
+        "name": "Writing & Correction Supplies",
+        "link": "https://www.amazon.com/Writing-Correction-Supplies-Office-School/b/ref=dp_bc_3?ie=UTF8&node=1069784",
+        "node": "1069784",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1069784"
+      },
+      {
+        "position": 4,
+        "name": "Pens & Refills",
+        "link": "https://www.amazon.com/Pens/b/ref=dp_bc_4?ie=UTF8&node=1069820",
+        "node": "1069820",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1069820"
+      },
+      {
+        "position": 5,
+        "name": "Rollerball Pens",
+        "link": "https://www.amazon.com/Rollerball-Pens/b/ref=dp_bc_5?ie=UTF8&node=1069838",
+        "node": "1069838",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1069838"
+      },
+      {
+        "position": 6,
+        "name": "Gel Ink Rollerball Pens",
+        "link": "https://www.amazon.com/Gel-Ink-Pens/b/ref=dp_bc_6?ie=UTF8&node=1069828",
+        "node": "1069828",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1069828"
+      }
+    ],
+    "asin": "B001GAOTSW",
+    "title": "PILOT G2 Premium Gel Pens, Fine Point 0.7mm, Black Ink, 12-Pack",
+    "link": "https://www.amazon.com/PILOT-refillable-retractable-journaling-quick-drying/dp/B001GAOTSW/",
+    "link_clean": "https://www.amazon.com/dp/B001GAOTSW/",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B001GAOTSW&device=desktop&engine=amazon_product",
+    "badges": [
+      "Amazon's Choice"
+    ],
+    "variants": [
+      {
+        "title": "Color",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B001GAOTSW",
+            "name": "Black Ink",
+            "image": "https://m.media-amazon.com/images/I/31YiTmFsDPL._SS64_.jpg",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B001GAOTSW&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B001AQPQ5W",
+            "name": "Green Ink",
+            "image": "https://m.media-amazon.com/images/I/31a+qI2nGLL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B001AQPQ5W&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B000JE8U5E",
+            "name": "Navy Ink",
+            "image": "https://m.media-amazon.com/images/I/311hCw0SfOL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B000JE8U5E&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 4,
+            "asin": "B0006SVCA8",
+            "name": "Purple Ink",
+            "image": "https://m.media-amazon.com/images/I/31xw47aTn+L._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0006SVCA8&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 5,
+            "asin": "B00006JNJD",
+            "name": "Red Ink",
+            "image": "https://m.media-amazon.com/images/I/31Ei8vOEFuL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B00006JNJD&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 6,
+            "asin": "B00OCPFPK4",
+            "name": "Black",
+            "image": "https://m.media-amazon.com/images/I/51ilq0ahNbL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B00OCPFPK4&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 7,
+            "asin": "B00006JNJC",
+            "name": "Blue Ink",
+            "image": "https://m.media-amazon.com/images/I/31IDXi-NIBL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B00006JNJC&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 8,
+            "asin": "B0GHCSW9TM",
+            "name": "Red",
+            "image": "https://m.media-amazon.com/images/I/41R1SeespzL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GHCSW9TM&device=desktop&engine=amazon_product"
+          }
+        ]
+      },
+      {
+        "title": "Size",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B00006JNJC",
+            "name": "1 Count (Pack of 12)",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B00006JNJC&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B00OCPFPK4",
+            "name": "1 Count (Pack of 36)",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B00OCPFPK4&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B0GHDPKHJC",
+            "name": "1 Count (Pack of 72)",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GHDPKHJC&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 4,
+            "asin": "B001GAOTSW",
+            "name": "12 Count (Pack of 1)",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B001GAOTSW&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 5,
+            "asin": "B0GHCSW9TM",
+            "name": "12 Count (Pack of 2)",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GHCSW9TM&device=desktop&engine=amazon_product"
+          }
+        ]
+      }
+    ],
+    "variant_combinations": [
+      {
+        "dimensions": {
+          "color": "Black",
+          "size": "1 Count (Pack of 12)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Black",
+          "size": "1 Count (Pack of 36)"
+        },
+        "asin": "B00OCPFPK4",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B00OCPFPK4&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Black",
+          "size": "1 Count (Pack of 72)"
+        },
+        "asin": "B0GHDPKHJC",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GHDPKHJC&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Black",
+          "size": "12 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Black",
+          "size": "12 Count (Pack of 2)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Black Ink",
+          "size": "1 Count (Pack of 12)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Black Ink",
+          "size": "1 Count (Pack of 36)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Black Ink",
+          "size": "1 Count (Pack of 72)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Black Ink",
+          "size": "12 Count (Pack of 1)"
+        },
+        "asin": "B001GAOTSW",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B001GAOTSW&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Black Ink",
+          "size": "12 Count (Pack of 2)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Blue Ink",
+          "size": "1 Count (Pack of 12)"
+        },
+        "asin": "B00006JNJC",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B00006JNJC&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Blue Ink",
+          "size": "1 Count (Pack of 36)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Blue Ink",
+          "size": "1 Count (Pack of 72)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Blue Ink",
+          "size": "12 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Blue Ink",
+          "size": "12 Count (Pack of 2)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Green Ink",
+          "size": "1 Count (Pack of 12)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Green Ink",
+          "size": "1 Count (Pack of 36)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Green Ink",
+          "size": "1 Count (Pack of 72)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Green Ink",
+          "size": "12 Count (Pack of 1)"
+        },
+        "asin": "B001AQPQ5W",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B001AQPQ5W&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Green Ink",
+          "size": "12 Count (Pack of 2)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Navy Ink",
+          "size": "1 Count (Pack of 12)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Navy Ink",
+          "size": "1 Count (Pack of 36)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Navy Ink",
+          "size": "1 Count (Pack of 72)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Navy Ink",
+          "size": "12 Count (Pack of 1)"
+        },
+        "asin": "B000JE8U5E",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B000JE8U5E&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Navy Ink",
+          "size": "12 Count (Pack of 2)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Purple Ink",
+          "size": "1 Count (Pack of 12)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Purple Ink",
+          "size": "1 Count (Pack of 36)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Purple Ink",
+          "size": "1 Count (Pack of 72)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Purple Ink",
+          "size": "12 Count (Pack of 1)"
+        },
+        "asin": "B0006SVCA8",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0006SVCA8&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Purple Ink",
+          "size": "12 Count (Pack of 2)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Red",
+          "size": "1 Count (Pack of 12)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Red",
+          "size": "1 Count (Pack of 36)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Red",
+          "size": "1 Count (Pack of 72)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Red",
+          "size": "12 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Red",
+          "size": "12 Count (Pack of 2)"
+        },
+        "asin": "B0GHCSW9TM",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GHCSW9TM&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Red Ink",
+          "size": "1 Count (Pack of 12)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Red Ink",
+          "size": "1 Count (Pack of 36)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Red Ink",
+          "size": "1 Count (Pack of 72)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Red Ink",
+          "size": "12 Count (Pack of 1)"
+        },
+        "asin": "B00006JNJD",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B00006JNJD&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Red Ink",
+          "size": "12 Count (Pack of 2)"
+        },
+        "unavailable": true
+      }
+    ],
+    "brand": "Visit the PILOT Store",
+    "thumbnail": "https://m.media-amazon.com/images/I/713GdY+wh4L._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "thumbnails": [
+      "https://m.media-amazon.com/images/I/713GdY+wh4L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/811w3+WzmmL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81KW6JkpH4L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31ARaf88JsL._AC_.jpg",
+      "https://m.media-amazon.com/images/I/715j0Ax3qvL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71JPzJEcDaL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81hKqnz4SsL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71vs15yiS4L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91mZ5kFQh+L._AC_SL1500_.jpg"
+    ],
+    "rating": 4.8,
+    "reviews": 56668,
+    "bought_last_month": "30K+ bought in past month",
+    "price": "$14.39",
+    "extracted_price": 14.39,
+    "price_unit": "$1.20 / count",
+    "extracted_price_unit": 1.2,
+    "prime": true,
+    "delivery": [
+      "FREE delivery Sunday, November 1 on orders shipped by Amazon over $35",
+      "Or Prime members get FREE delivery Tomorrow, October 28. Order within 11 hrs 46 mins."
+    ],
+    "stock": "In Stock",
+    "description": "G2 Gel Roller pens are perfect for everything from taking notes to journaling or drawing, keep your ideas flowing. Available in many color options and 4 tip sizes, these fine point gel pens cater to your writing needs and style. The quick-drying ink prevents smears and smudges, ensuring neat work. Create masterpieces with these smooth-flowing pens for vivid lines. Ideal for everyday writing, these 0.7 mm fine point pen offers a balance between fine and bold lines. Their archival-safe, acid-free black ink is fade-resistant, ensuring longevity. The comfortable rubber grip offers an ergonomic design to reduce hand fatigue in lengthy projects. Pilot's G2 line fuses smooth writing with long-lasting ink for a precise, comfortable experience—making them some of the best pens for smooth writing."
+  },
+  "purchase_options": {
+    "buy_new": {
+      "caption": "Buy New",
+      "price": "$14.39",
+      "extracted_price": 14.39,
+      "price_unit": "$1.20 / count",
+      "extracted_price_unit": 1.2,
+      "delivery": [
+        "FREE delivery Sunday, November 1 on orders shipped by Amazon over $35",
+        "Or Prime members get FREE delivery Tomorrow, October 28. Order within 11 hrs 46 mins."
+      ],
+      "stock": "In Stock",
+      "features": {
+        "shipper_seller": {
+          "text": "Amazon.com",
+          "details": {
+            "heading": "Shipper / Seller",
+            "content": "Amazon.com"
+          }
+        },
+        "returns": {
+          "text": "FREE 30-day refund/replacement",
+          "details": {
+            "heading": "FREE 30-day refund/replacement"
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "payment": {
+          "text": "Secure transaction",
+          "details": {
+            "heading": "Your transaction is secure",
+            "content": "We work hard to protect your security and privacy. Our payment security system encrypts your information during transmission. We don’t share your credit card details with third-party sellers, and we don’t sell your information to others. Learn more"
+          },
+          "link": {
+            "text": "Learn more",
+            "link": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201909010"
+          }
+        }
+      }
+    },
+    "buy_used": {
+      "caption": "Used - Like New",
+      "price": "$12.50",
+      "extracted_price": 12.5,
+      "price_unit": "$1.04 / count",
+      "extracted_price_unit": 1.04,
+      "delivery": [
+        "FREE delivery Sunday, November 1 on orders shipped by Amazon over $35",
+        "Or Prime members get FREE delivery Friday, October 30. Order within 11 hrs 46 mins."
+      ],
+      "stock": "In Stock",
+      "features": {
+        "ships_from": "Amazon",
+        "sold_by": "Amazon Resale"
+      }
+    },
+    "subscribe_and_save": {
+      "caption": "Subscribe & Save",
+      "price": "$14.39",
+      "extracted_price": 14.39,
+      "price_unit": "$1.20 / count",
+      "extracted_price_unit": 1.2,
+      "delivery": [
+        "FREE delivery Sunday, November 1 on orders shipped by Amazon over $35",
+        "Or Prime members get FREE delivery Tomorrow, October 28. Order within 11 hrs 46 mins."
+      ],
+      "stock": "In Stock",
+      "features": {
+        "shipper_seller": {
+          "text": "Amazon.com",
+          "details": {
+            "heading": "Shipper / Seller",
+            "content": "Amazon.com"
+          }
+        },
+        "returns": {
+          "text": "FREE 30-day refund/replacement",
+          "details": {
+            "heading": "FREE 30-day refund/replacement"
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "subscription": "No fees. Skip or cancel anytime."
+      }
+    }
+  },
+  "item_specifications": {
+    "brand": "PILOT",
+    "writing_instrument_form": "Roller Ball Pen",
+    "color": "Black Ink",
+    "ink_color": "Black",
+    "age_range_description": "Adult"
+  },
+  "about_item": [
+    "Smooth & Long-lasting: Enjoy a smooth writing experience with these black gel pens—Pilot pens that glide effortlessly across the page. Proven to be the longest-lasting gel ink pens (Data on File), they let you write more and refill less",
+    "Pilot Gel Pens: Express yourself effortlessly with Pilot's line of innovative writing tools, including these gel pens black, fountain pens, rollerball pens, ballpoint pens, erasable pens, & dry erase markers & more",
+    "Versatile: These black G2 pens are perfect for everyday writing tasks such as taking notes and jotting down grocery lists; The G2 tip delivers crisp, clean lines ideal for writing, intricate designs, drawing, sketching or doodling",
+    "Refillable & Quick Drying: You can save money and reduce waste with these black ink pens and Pilot G2 refills (sold separately); the vibrant, quick drying ink in these ink pens for writing helps prevent smudges and smears",
+    "Comfortable Grip: These G2 black pens fine point have a contoured rubber grip to provide ergonomic support, making long writing projects easier. Available in ultra-fine, extra-fine, fine, and bold point sizes"
+  ],
+  "product_description": [
+    {
+      "position": 1,
+      "title": "America&amp;#39;s Go-2 Gel Ink Pen, Designed for Everyday Overachievers",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/15ecb344-a1d1-43ec-8be0-b1d5510663b0.__CR0,0,4042,2500_PT0_SX970_V1___.jpg"
+    },
+    {
+      "position": 2,
+      "features": [
+        {
+          "position": 1,
+          "title": "A Pen That Works As Hard As You Do",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0b2c7673-7ab9-4fdf-96ad-7f672b269e1b.__CR0,0,917,917_PT0_SX220_V1___.jpg"
+        },
+        {
+          "position": 2,
+          "title": "Super Smooth Writing",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/45854238-5077-4ea3-bee5-7aeb126810c9.__CR0,0,917,917_PT0_SX220_V1___.jpg"
+        },
+        {
+          "position": 3,
+          "title": "Contoured Ergonomic Grip for Long-Lasting Comfort",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a1bbd64c-4e57-4abb-bda9-4f54fefa95d6.__CR0,0,917,917_PT0_SX220_V1___.jpg"
+        },
+        {
+          "position": 4,
+          "title": "Re-Think & Re-Ink",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/6130989f-3ee7-4d1b-a7a2-2ee3176526d6.__CR0,0,917,917_PT0_SX220_V1___.jpg"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "title": "Fuel your imagination, express your thoughts, and create an oasis of calm",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/90cf670c-985b-4735-afff-e91a56e3216b.__CR0,0,4042,2500_PT0_SX970_V1___.jpg"
+    },
+    {
+      "position": 4,
+      "title": "G2 Fine Point (0.7 mm) pens are ideal for your everyday writing needs",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/8cb867f5-8555-4827-8f4c-9ac683b51fe2.__CR0,0,4042,1250_PT0_SX970_V1___.jpg"
+    },
+    {
+      "position": 5,
+      "title": "Pilot. Power to the pen!",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/92700086-6b98-4339-b834-c7e01265b517.__CR530,0,1940,600_PT0_SX970_V1___.jpg"
+    }
+  ],
+  "product_details": {
+    "writing_instrument_form": "Roller Ball Pen",
+    "ink_color": "Black",
+    "drill_point": "Fine",
+    "additional_features": "Pocket Clip, Refillable, Retractable",
+    "line_size": "0.7 millimeters",
+    "hand_orientation": "Left",
+    "grip_type": "Contoured",
+    "hardness": "HB",
+    "writing_technique": "Gel Ink Rollerball",
+    "closure_type": "Retractable",
+    "color": "Black Ink",
+    "style": "Fine Pt",
+    "body_shape": "Round",
+    "pattern": "Solid",
+    "material_type": "Plastic, Rubber",
+    "ink_base": "Water",
+    "brand_name": "PILOT",
+    "age_range_description": "Adult",
+    "model_name": "G2 Premium Fine Point 12 Pack",
+    "recommended_uses_for_product": "Writing",
+    "included_components": "Pens (12)",
+    "model_number": "31020",
+    "upc": "072838310200",
+    "manufacturer": "0",
+    "item_type_name": "Fine",
+    "warranty_description": "see packagin",
+    "best_sellers_rank": [
+      {
+        "text": "#20 in Office Products (See Top 100 in Office Products)",
+        "extracted_rank": 20,
+        "link": "https://www.amazon.com/gp/bestsellers/office-products/ref=pd_zg_ts_office-products",
+        "link_text": "See Top 100 in Office Products"
+      },
+      {
+        "text": "#2 in Gel Ink Pens",
+        "extracted_rank": 2,
+        "link": "https://www.amazon.com/gp/bestsellers/office-products/1069828/ref=pd_zg_hrsr_office-products",
+        "link_text": "Gel Ink Pens"
+      }
+    ],
+    "asin": "B001GAOTSW",
+    "customer_reviews": "4.8 out of 5 stars",
+    "rating": 4.8,
+    "reviews": 56668,
+    "unit_count": "12 Count",
+    "item_dimensions": "1 x 2.8 x 5.75 inches",
+    "item_weight": "4.96 ounces",
+    "item_diameter": "0.7 millimeters"
+  },
+  "reviews_information": {
+    "summary": {
+      "text": "Customers find these gel pens to be their favorite writing instruments, praising their smooth writing experience without skipping, long-lasting ink, and reliable performance. They appreciate the vibrant ink color, with purple being a popular choice, and consider them well worth the price. The smudge resistance receives mixed feedback - while some customers report no smearing issues, others mention the ink tends to smear.",
+      "insights": [
+        {
+          "title": "Quality",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 4900,
+            "positive": 4671,
+            "negative": 231
+          },
+          "summary": "Customers love these gel pens, describing them as their favorite writing instruments.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...As go-to as it comes. Five stars.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1BRGJN0NPF8CC"
+            },
+            {
+              "position": 2,
+              "snippet": "Great pens We use lots of them but if you are looking for a package of IE the BOX of PENS looks some place else these get shipped in a envelope so...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1K5SS5FS0TDQW"
+            },
+            {
+              "position": 3,
+              "snippet": "Love these pens, the design has been around for a while. Noticed its made in Japan which speaks to the higher quality. Love its thick black writing....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1Q5AGAHHTOUPK"
+            },
+            {
+              "position": 4,
+              "snippet": "These are my favorite pens. I was happy to find purple, just wish I could get purple in the “bold” writing tip. The fine tip doesn’t show up as well....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2ZD0RW18614JO"
+            }
+          ]
+        },
+        {
+          "title": "Writing performance",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 1200,
+            "positive": 1143,
+            "negative": 117
+          },
+          "summary": "Customers find that these pens write very nicely.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Love these pens...they write so well...dark black line! Smooth writing...only problem...they seem to have legs on them...cause they sure walk away...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RWVKHK9YOOA12"
+            },
+            {
+              "position": 2,
+              "snippet": "...They write smoothly, no smears, no smudged fingers because the ink dries quickly, no discernible skips. They are the best roller pen I've ever used.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2F7R0RI2FHTJL"
+            },
+            {
+              "position": 3,
+              "snippet": "How much can a guy really say about a pen? It writes smoothly, doesn't dry out even if you leave it clicked, it lasts longer than a...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2H3Q38BTQ6U8F"
+            },
+            {
+              "position": 4,
+              "snippet": "Good quality pen. Lasts a long time. Writes well, with little to no skipping. Very comfortable grips. Will most likely purchase more.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1NG8W9VQ7VZO5"
+            }
+          ]
+        },
+        {
+          "title": "Value for money",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 1000,
+            "positive": 939,
+            "negative": 106
+          },
+          "summary": "Customers find these gel pens to be well worth the price, noting that they don't break the bank.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Great price, they work, but I don't like the way they wright. Personally, I don't like when the pen point is really fine. I like a bigger ball point....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RO3T7S0BS7ATJ"
+            },
+            {
+              "position": 2,
+              "snippet": "...We only buy this brand and model. Great to get them at such a good price and in larger quantities than what is available at the local drugstore.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R34WY2VBE3UWG8"
+            },
+            {
+              "position": 3,
+              "snippet": "Authentic. Great value for someone who uses these pens often ( I use them for work). Came in timely fashion (came before estimated time)....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R25FT8W6I1GDUU"
+            },
+            {
+              "position": 4,
+              "snippet": "...I purchase them for work because they are a good value and one of the better reasonably priced pens available. No blotting, running or smearing....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1GHCLQ582FBLH"
+            }
+          ]
+        },
+        {
+          "title": "Durability",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 723,
+            "positive": 579,
+            "negative": 144
+          },
+          "summary": "Customers find these pens durable, noting that the ink lasts a long time and the cartridge is sturdy.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Pilot pens are great!! I like the fine point version. They last a long time and always produce a solid line. I am so glad I can get them on Amazon !",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R344R66APRB74P"
+            },
+            {
+              "position": 2,
+              "snippet": "The Pilot G2 is my favorite pen and used every day. These are long lasting, and somehow they magically make my writing look better than other pens....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3UL67G5TQP267"
+            },
+            {
+              "position": 3,
+              "snippet": "Good quality pen. Lasts a long time. Writes well, with little to no skipping. Very comfortable grips. Will most likely purchase more.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1NG8W9VQ7VZO5"
+            },
+            {
+              "position": 4,
+              "snippet": "...Otherwise these Pilot G2 Pens are the durable, handy, reliable, refillable, easy to write/draw with and better when you buy them in bulk, rather...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3ALQJRVGL6ZSV"
+            }
+          ]
+        },
+        {
+          "title": "Functionality",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 575,
+            "positive": 483,
+            "negative": 92
+          },
+          "summary": "Customers find that these pens work well, never failing them, and one customer mentions they perform effectively in all types of weather.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "The pens I have used so far work great. I use these pens for home and work. I work construction and they get dirty and still write great.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RDA4A70Y38DHF"
+            },
+            {
+              "position": 2,
+              "snippet": "The Pilot G2 Roller Ball Retractable Gel Pen, Green Ink, Fine works great, no smudging dries instantly and each pen lasts for a long time",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2HZ1Z9WUFN9X2"
+            },
+            {
+              "position": 3,
+              "snippet": "...I have quit looking fro replacements at this point. Works well and no complaints other than I keep misplacing them, but that ones on me.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3AEA6EPR2Y3Q"
+            },
+            {
+              "position": 4,
+              "snippet": "...Careful to give the ink a few extra seconds to dry, but they work great! I reorder whenever I run low at home & at work.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R5JJ75NVV4LA9"
+            }
+          ]
+        },
+        {
+          "title": "Smoothness",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 542,
+            "positive": 505,
+            "negative": 37
+          },
+          "summary": "Customers praise the pen's smooth writing experience, noting that it glides without skipping and feels great in hand.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "I am not even sure how I got my first one of these, but I love them. Smooth, no blobs of ink to smear and they seem to be better at writing on more...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R112U42YUPWKGM"
+            },
+            {
+              "position": 2,
+              "snippet": "...all to get it to write for you which is great because it makes it very smooth and relaxed to write on. There is no smoother pen than this brand....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RVUR5UQ4RO4O0"
+            },
+            {
+              "position": 3,
+              "snippet": "...They are just so smooth and glide so well! They are expensive but this was a pretty good deal. If you've never tried these pens TRY THEM!...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1O975XUOZVOBP"
+            },
+            {
+              "position": 4,
+              "snippet": "...Smooth writing pen. They come in three sizes, I like the .7 middle size it's just \"write\"!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R23N57UELMAXDD"
+            }
+          ]
+        },
+        {
+          "title": "Color",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 500,
+            "positive": 410,
+            "negative": 90
+          },
+          "summary": "Customers love the ink color of these pens, particularly the black and purple varieties, with one customer noting that the red ink stands out well.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "These are great pens; I love the color and the way the ink rolls. They have nice grip, and are weighty enough to feel sturdy without being bulky....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RRYE5PF5JEZC9"
+            },
+            {
+              "position": 2,
+              "snippet": "Just LOVE these purple Pilot pens. Write easily, great color, very distinctive. Good for check writing, cannot be erased....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R61XKOP3NVAVM"
+            },
+            {
+              "position": 3,
+              "snippet": "...They are so smooth and dark and last a decently long time. I write a lot of notes for my graduate program and I go through about a pen a week....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3R4XCQM8UX1F2"
+            },
+            {
+              "position": 4,
+              "snippet": "My new favorite pen for daily use. Dark ink and glides smoothly over the paper....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2WLU9EGSXF7ZE"
+            }
+          ]
+        },
+        {
+          "title": "Smudge-resistant",
+          "sentiment": "mixed",
+          "mentions": {
+            "total": 394,
+            "positive": 232,
+            "negative": 162
+          },
+          "summary": "Customers have mixed experiences with the smudge resistance of these pens, with some reporting that they write without smudging and have no skips or blotches, while others mention that the ink can smear.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "This is my favorite pen. Period. It writes smoothly, doesn't smear, and is downright reliable. They last a long time too....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R12WVRU5UYRU9J"
+            },
+            {
+              "position": 2,
+              "snippet": "Love these pens for our office! Only downside is they do smear if you do not let them dry right after use!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2JN4RQ74OYBV0"
+            },
+            {
+              "position": 3,
+              "snippet": "...ink not only binds to the paper better but also dries faster and does not smear, making it easier to read and more durable than ballpoints",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RTHP8GCUP5TDK"
+            },
+            {
+              "position": 4,
+              "snippet": "...The only drawbacks are that they do not last long and they smudge. In terms of how long the ink lasts, I take a lot of notes throughout the day....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RWD0LSTVU3L2Q"
+            }
+          ]
+        }
+      ],
+      "customer_reviews": {
+        "5 star": 89,
+        "4 star": 8,
+        "3 star": 2,
+        "2 star": 0,
+        "1 star": 1
+      }
+    }
+  }
+}

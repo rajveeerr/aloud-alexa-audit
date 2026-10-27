@@ -1,0 +1,1103 @@
+{
+  "product_results": {
+    "categories": [
+      {
+        "position": 1,
+        "name": "Office Products",
+        "link": "https://www.amazon.com/Office-Products/b/ref=dp_bc_1?ie=UTF8&node=1064954",
+        "node": "1064954",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1064954"
+      },
+      {
+        "position": 2,
+        "name": "Office & School Supplies",
+        "link": "https://www.amazon.com/Office-Supplies/b/ref=dp_bc_2?ie=UTF8&node=1069242",
+        "node": "1069242",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1069242"
+      },
+      {
+        "position": 3,
+        "name": "Writing & Correction Supplies",
+        "link": "https://www.amazon.com/Writing-Correction-Supplies-Office-School/b/ref=dp_bc_3?ie=UTF8&node=1069784",
+        "node": "1069784",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1069784"
+      },
+      {
+        "position": 4,
+        "name": "Pens & Refills",
+        "link": "https://www.amazon.com/Pens/b/ref=dp_bc_4?ie=UTF8&node=1069820",
+        "node": "1069820",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1069820"
+      },
+      {
+        "position": 5,
+        "name": "Rollerball Pens",
+        "link": "https://www.amazon.com/Rollerball-Pens/b/ref=dp_bc_5?ie=UTF8&node=1069838",
+        "node": "1069838",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1069838"
+      },
+      {
+        "position": 6,
+        "name": "Gel Ink Rollerball Pens",
+        "link": "https://www.amazon.com/Gel-Ink-Pens/b/ref=dp_bc_6?ie=UTF8&node=1069828",
+        "node": "1069828",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1069828"
+      }
+    ],
+    "asin": "B018UJ2YWE",
+    "title": "Pentel EnerGel RTX Retractable Liquid Gel Pen, Medium Line, Metal Tip, Assorted Ink 4-Pk (BL77BP4M)",
+    "link": "https://www.amazon.com/Pentel-Energel-Liquid-Uni-Ball/dp/B097CF46RC/",
+    "link_clean": "https://www.amazon.com/dp/B097CF46RC/",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B018UJ2YWE&device=desktop&engine=amazon_product",
+    "badges": [
+      "Amazon's Choice"
+    ],
+    "variants": [
+      {
+        "title": "Style",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B018UJ2YWE",
+            "name": "0.7mm",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B018UJ2YWE&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B01G7C1BK2",
+            "name": "1.0mm",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B01G7C1BK2&device=desktop&engine=amazon_product"
+          }
+        ]
+      },
+      {
+        "title": "Color",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B018UJ2YWE",
+            "name": "Assorted",
+            "image": "https://m.media-amazon.com/images/I/41cyo8bO4lL._SS64_.jpg",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B018UJ2YWE&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B01G7C1BTS",
+            "name": "Black",
+            "image": "https://m.media-amazon.com/images/I/41dK0aQL0OL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B01G7C1BTS&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B007HJOMP6",
+            "name": "Black/Pink Barrel",
+            "image": "https://m.media-amazon.com/images/I/41lGWHeeKPL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B007HJOMP6&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 4,
+            "asin": "B072BB7R7W",
+            "name": "Black/USA Barrel",
+            "image": "https://m.media-amazon.com/images/I/41QYcWeKEDL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B072BB7R7W&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 5,
+            "asin": "B01MS9P9IT",
+            "name": "Blue",
+            "image": "https://m.media-amazon.com/images/I/21gKLNeK-2L._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B01MS9P9IT&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 6,
+            "asin": "B01H1IQYJE",
+            "name": "Green",
+            "image": "https://m.media-amazon.com/images/I/21xGTAD37ML._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B01H1IQYJE&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 7,
+            "asin": "B00WQPXEPK",
+            "name": "Orange",
+            "image": "https://m.media-amazon.com/images/I/21MbHAf+yfL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B00WQPXEPK&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 8,
+            "asin": "B01H1IQY8U",
+            "name": "Red",
+            "image": "https://m.media-amazon.com/images/I/21sveqM-b+L._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B01H1IQY8U&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 9,
+            "asin": "B01G7C1F94",
+            "name": "Violet",
+            "image": "https://m.media-amazon.com/images/I/21SOKLk9SGL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B01G7C1F94&device=desktop&engine=amazon_product"
+          }
+        ]
+      },
+      {
+        "title": "Size",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B01G7C1BTS",
+            "name": "1 Count (Pack of 1)",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B01G7C1BTS&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B072BB7R7W",
+            "name": "2 Count (Pack of 1)",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B072BB7R7W&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B01MZC2F5D",
+            "name": "3 Count (Pack of 1)",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B01MZC2F5D&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 4,
+            "asin": "B018UJ2YWE",
+            "name": "4 Count (Pack of 1)",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B018UJ2YWE&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 5,
+            "asin": "B01G7C1BK2",
+            "name": "5 Count (Pack of 1)",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B01G7C1BK2&device=desktop&engine=amazon_product"
+          }
+        ]
+      }
+    ],
+    "variant_combinations": [
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Assorted",
+          "size": "1 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Assorted",
+          "size": "2 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Assorted",
+          "size": "3 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Assorted",
+          "size": "4 Count (Pack of 1)"
+        },
+        "asin": "B018UJ2YWE",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B018UJ2YWE&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Assorted",
+          "size": "5 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Black",
+          "size": "1 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Black",
+          "size": "2 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Black",
+          "size": "3 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Black",
+          "size": "4 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Black",
+          "size": "5 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Black/Pink Barrel",
+          "size": "1 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Black/Pink Barrel",
+          "size": "2 Count (Pack of 1)"
+        },
+        "asin": "B007HJOMP6",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B007HJOMP6&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Black/Pink Barrel",
+          "size": "3 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Black/Pink Barrel",
+          "size": "4 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Black/Pink Barrel",
+          "size": "5 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Black/USA Barrel",
+          "size": "1 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Black/USA Barrel",
+          "size": "2 Count (Pack of 1)"
+        },
+        "asin": "B072BB7R7W",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B072BB7R7W&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Black/USA Barrel",
+          "size": "3 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Black/USA Barrel",
+          "size": "4 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Black/USA Barrel",
+          "size": "5 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Blue",
+          "size": "1 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Blue",
+          "size": "2 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Blue",
+          "size": "3 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Blue",
+          "size": "4 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Blue",
+          "size": "5 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Green",
+          "size": "1 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Green",
+          "size": "2 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Green",
+          "size": "3 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Green",
+          "size": "4 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Green",
+          "size": "5 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Orange",
+          "size": "1 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Orange",
+          "size": "2 Count (Pack of 1)"
+        },
+        "asin": "B00WQPXEPK",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B00WQPXEPK&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Orange",
+          "size": "3 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Orange",
+          "size": "4 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Orange",
+          "size": "5 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Red",
+          "size": "1 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Red",
+          "size": "2 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Red",
+          "size": "3 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Red",
+          "size": "4 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Red",
+          "size": "5 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Violet",
+          "size": "1 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Violet",
+          "size": "2 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Violet",
+          "size": "3 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Violet",
+          "size": "4 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "0.7mm",
+          "color": "Violet",
+          "size": "5 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Assorted",
+          "size": "1 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Assorted",
+          "size": "2 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Assorted",
+          "size": "3 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Assorted",
+          "size": "4 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Assorted",
+          "size": "5 Count (Pack of 1)"
+        },
+        "asin": "B01G7C1BK2",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B01G7C1BK2&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Black",
+          "size": "1 Count (Pack of 1)"
+        },
+        "asin": "B01G7C1BTS",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B01G7C1BTS&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Black",
+          "size": "2 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Black",
+          "size": "3 Count (Pack of 1)"
+        },
+        "asin": "B01MZC2F5D",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B01MZC2F5D&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Black",
+          "size": "4 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Black",
+          "size": "5 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Black/Pink Barrel",
+          "size": "1 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Black/Pink Barrel",
+          "size": "2 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Black/Pink Barrel",
+          "size": "3 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Black/Pink Barrel",
+          "size": "4 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Black/Pink Barrel",
+          "size": "5 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Black/USA Barrel",
+          "size": "1 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Black/USA Barrel",
+          "size": "2 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Black/USA Barrel",
+          "size": "3 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Black/USA Barrel",
+          "size": "4 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Black/USA Barrel",
+          "size": "5 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Blue",
+          "size": "1 Count (Pack of 1)"
+        },
+        "asin": "B01MS9P9IT",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B01MS9P9IT&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Blue",
+          "size": "2 Count (Pack of 1)"
+        },
+        "asin": "B01G7C1BG6",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B01G7C1BG6&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Blue",
+          "size": "3 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Blue",
+          "size": "4 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Blue",
+          "size": "5 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Green",
+          "size": "1 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Green",
+          "size": "2 Count (Pack of 1)"
+        },
+        "asin": "B01H1IQYJE",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B01H1IQYJE&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Green",
+          "size": "3 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Green",
+          "size": "4 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Green",
+          "size": "5 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Orange",
+          "size": "1 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Orange",
+          "size": "2 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Orange",
+          "size": "3 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Orange",
+          "size": "4 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Orange",
+          "size": "5 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Red",
+          "size": "1 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Red",
+          "size": "2 Count (Pack of 1)"
+        },
+        "asin": "B01H1IQY8U",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B01H1IQY8U&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Red",
+          "size": "3 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Red",
+          "size": "4 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Red",
+          "size": "5 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Violet",
+          "size": "1 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Violet",
+          "size": "2 Count (Pack of 1)"
+        },
+        "asin": "B01G7C1F94",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B01G7C1F94&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Violet",
+          "size": "3 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Violet",
+          "size": "4 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "style": "1.0mm",
+          "color": "Violet",
+          "size": "5 Count (Pack of 1)"
+        },
+        "unavailable": true
+      }
+    ],
+    "brand": "Visit the Pentel Store",
+    "thumbnail": "https://m.media-amazon.com/images/I/611uqQ1qm1L._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "thumbnails": [
+      "https://m.media-amazon.com/images/I/611uqQ1qm1L._AC_SL1200_.jpg",
+      "https://m.media-amazon.com/images/I/71ue8XD0KJL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71Z21m1FDtL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81DCzxgYlmL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/814lIDR4zVL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71PaqESgDZL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91uxUsFotiL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/A1HRQ+LFGEL._AC_SL1500_.jpg"
+    ],
+    "rating": 4.8,
+    "reviews": 5005,
+    "price": "$9.99",
+    "extracted_price": 9.99,
+    "price_unit": "$2.50 / count",
+    "extracted_price_unit": 2.5,
+    "prime": true,
+    "delivery": [
+      "FREE delivery Thursday, November 5 on orders shipped by Amazon over $35",
+      "Or Prime members get FREE delivery Friday, October 30."
+    ],
+    "stock": "Only 14 left in stock - order soon.",
+    "description": "The EnerGel RTX offers a luxury feel and a smooth, effortless writing experience. High performance ink technology combines the best qualities of liquid and gel ink. Fast-drying liquid gel ink is great for left handers - no smears, no smudges, no globs. The sleek and stylish barrel design features stainless steel accents for a professional look. The latex-free grip provides extended comfort and control when writing. It is available with a 0.7mm stainless steel tip writes medium lines, 1.0mm tip writes bold lines. Refillable with any size and/or color EnerGel refill. It is backed by a Limited Lifetime Warranty."
+  },
+  "purchase_options": {
+    "buy_new": {
+      "caption": "One-time purchase",
+      "price": "$9.99",
+      "extracted_price": 9.99,
+      "price_unit": "$2.50 / count",
+      "extracted_price_unit": 2.5,
+      "delivery": [
+        "FREE delivery Thursday, November 5 on orders shipped by Amazon over $35",
+        "Or Prime members get FREE delivery Friday, October 30."
+      ],
+      "stock": "Only 14 left in stock - order soon.",
+      "features": {
+        "ships_from": {
+          "text": "Amazon",
+          "details": {
+            "heading": "Ships from",
+            "content": "Amazon"
+          }
+        },
+        "sold_by": {
+          "text": "Zbeem",
+          "details": {
+            "heading": "Sold by",
+            "content": "Zbeem"
+          },
+          "link": {
+            "text": "Zbeem",
+            "link": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A29PFSLE3D9XFX&asin=B018UJ2YWE&ref_=dp_merchant_link&isAmazonFulfilled=1"
+          }
+        },
+        "returns": {
+          "text": "30-day refund / replacement",
+          "details": {
+            "heading": "30-day refund / replacement"
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "payment": {
+          "text": "Secure transaction",
+          "details": {
+            "heading": "Your transaction is secure",
+            "content": "We work hard to protect your security and privacy. Our payment security system encrypts your information during transmission. We don’t share your credit card details with third-party sellers, and we don’t sell your information to others. Learn more"
+          },
+          "link": {
+            "text": "Learn more",
+            "link": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201909010"
+          }
+        }
+      }
+    },
+    "subscribe_and_save": {
+      "caption": "Subscribe & Save",
+      "price": "$9.99",
+      "extracted_price": 9.99,
+      "price_unit": "$2.50 / count",
+      "extracted_price_unit": 2.5,
+      "delivery": [
+        "FREE delivery Thursday, November 5 on orders shipped by Amazon over $35",
+        "Or Prime members get FREE delivery Friday, October 30."
+      ],
+      "stock": "Only 14 left in stock - order soon.",
+      "features": {
+        "ships_from": {
+          "text": "Amazon",
+          "details": {
+            "heading": "Ships from",
+            "content": "Amazon"
+          }
+        },
+        "sold_by": {
+          "text": "Zbeem",
+          "details": {
+            "heading": "Sold by",
+            "content": "Zbeem"
+          },
+          "link": {
+            "text": "Zbeem",
+            "link": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A29PFSLE3D9XFX&asin=B018UJ2YWE&ref_=dp_merchant_link&isAmazonFulfilled=1"
+          }
+        },
+        "returns": {
+          "text": "30-day refund / replacement",
+          "details": {
+            "heading": "30-day refund / replacement"
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "subscription": "No fees. Skip or cancel anytime."
+      }
+    }
+  },
+  "item_specifications": {
+    "brand": "Pentel",
+    "writing_instrument_form": "Gel Pen",
+    "color": "Assorted",
+    "ink_color": "Multicolor",
+    "age_range_description": "Adult"
+  },
+  "about_item": [
+    "High performance ink technology combines the best qualities of liquid and gel ink for a super-smooth writing experience",
+    "Liquid gel ink dries so fast even left handed writers love it - no smears, no smudges, no globs",
+    "EnerGel ink writes more smoothly than the leading brand (Internally tested to be smoother writing than the leading gel pen on standard writing paper)",
+    "Sleek & stylish barrel design with metal accents for a Professional look",
+    "Latex-free grip for writing comfort and control",
+    "0.7mm stainless steel tip writes medium lines; 1.0mm stainless steel tip writes bold lines",
+    "Limited Lifetime Warranty"
+  ],
+  "product_details": {
+    "writing_instrument_form": "Gel Pen",
+    "ink_color": "Multicolor",
+    "drill_point": "Medium",
+    "additional_features": "Refillable, Retractable",
+    "line_size": "0.7",
+    "hand_orientation": "Left",
+    "grip_type": "Soft",
+    "hardness": "HB",
+    "writing_technique": "gel ink",
+    "closure_type": "Retractable",
+    "color": "Assorted",
+    "style": "0.7mm",
+    "body_shape": "Round",
+    "unit_count": "4 Count",
+    "item_dimensions": "0.75 x 3.25 x 7.38 inches",
+    "item_weight": "1.44 ounces",
+    "item_diameter": "0.7 millimeters",
+    "brand_name": "Pentel",
+    "age_range_description": "Adult",
+    "model_name": "Pentel EnerGel RTX Retractable Liquid Gel Pen, Medium Line, Metal Tip, Assorted Ink 4-Pk (BL77BP4M)",
+    "recommended_uses_for_product": "Writing",
+    "included_components": "Pen (3)",
+    "model_number": "BL77BP4M",
+    "upc": "072512256657",
+    "global_trade_identification_number": "00072512256657",
+    "manufacturer": "Pentel",
+    "warranty_description": "Limited Lifetime Warranty",
+    "best_sellers_rank": [
+      {
+        "text": "#5,479 in Office Products (See Top 100 in Office Products)",
+        "extracted_rank": 5479,
+        "link": "https://www.amazon.com/gp/bestsellers/office-products/ref=pd_zg_ts_office-products",
+        "link_text": "See Top 100 in Office Products"
+      },
+      {
+        "text": "#190 in Gel Ink Pens",
+        "extracted_rank": 190,
+        "link": "https://www.amazon.com/gp/bestsellers/office-products/1069828/ref=pd_zg_hrsr_office-products",
+        "link_text": "Gel Ink Pens"
+      }
+    ],
+    "asin": "B018UJ2YWE",
+    "customer_reviews": "4.8 out of 5 stars",
+    "rating": 4.8,
+    "reviews": 5005,
+    "material_type": "Plastic",
+    "ink_base": "Hybrid"
+  }
+}

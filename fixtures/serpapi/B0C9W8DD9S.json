@@ -1,0 +1,1227 @@
+{
+  "product_results": {
+    "categories": [
+      {
+        "position": 1,
+        "name": "Office Products",
+        "link": "https://www.amazon.com/Office-Products/b/ref=dp_bc_1?ie=UTF8&node=1064954",
+        "node": "1064954",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1064954"
+      },
+      {
+        "position": 2,
+        "name": "Office & School Supplies",
+        "link": "https://www.amazon.com/Office-Supplies/b/ref=dp_bc_2?ie=UTF8&node=1069242",
+        "node": "1069242",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1069242"
+      },
+      {
+        "position": 3,
+        "name": "Writing & Correction Supplies",
+        "link": "https://www.amazon.com/Writing-Correction-Supplies-Office-School/b/ref=dp_bc_3?ie=UTF8&node=1069784",
+        "node": "1069784",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1069784"
+      },
+      {
+        "position": 4,
+        "name": "Pens & Refills",
+        "link": "https://www.amazon.com/Pens/b/ref=dp_bc_4?ie=UTF8&node=1069820",
+        "node": "1069820",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1069820"
+      },
+      {
+        "position": 5,
+        "name": "Rollerball Pens",
+        "link": "https://www.amazon.com/Rollerball-Pens/b/ref=dp_bc_5?ie=UTF8&node=1069838",
+        "node": "1069838",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1069838"
+      },
+      {
+        "position": 6,
+        "name": "Gel Ink Rollerball Pens",
+        "link": "https://www.amazon.com/Gel-Ink-Pens/b/ref=dp_bc_6?ie=UTF8&node=1069828",
+        "node": "1069828",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1069828"
+      }
+    ],
+    "asin": "B0C9W8DD9S",
+    "title": "Ddaowanx Gel Pens,6 Pcs 0.5mm Retractable Quick Dry Black Ink Pens",
+    "link": "https://www.amazon.com/Ddaowanx-Gel-Smooth-Writing-Supplies/dp/B0C9W8DD9S/",
+    "link_clean": "https://www.amazon.com/dp/B0C9W8DD9S/",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0C9W8DD9S&device=desktop&engine=amazon_product",
+    "badges": [
+      "Amazon's Choice",
+      "Limited time deal"
+    ],
+    "variants": [
+      {
+        "title": "Color",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B0C9W8DD9S",
+            "name": "Morandi",
+            "image": "https://m.media-amazon.com/images/I/316QWJlhVyL._SS64_.jpg",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0C9W8DD9S&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B0CPXBTHL3",
+            "name": "Vintage",
+            "image": "https://m.media-amazon.com/images/I/41sJHFeWZeL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CPXBTHL3&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B0CDWP5Q3F",
+            "name": "Gradient",
+            "image": "https://m.media-amazon.com/images/I/31YvPstXcHL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CDWP5Q3F&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 4,
+            "asin": "B0CPXCWRXM",
+            "name": "Morandi Cat",
+            "image": "https://m.media-amazon.com/images/I/31gccc3ZzqL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CPXCWRXM&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 5,
+            "asin": "B0CPXB9383",
+            "name": "Vintage+Morandi",
+            "image": "https://m.media-amazon.com/images/I/41amSwlbJkL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CPXB9383&device=desktop&engine=amazon_product"
+          }
+        ]
+      },
+      {
+        "title": "Size",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B0CPXCWRXM",
+            "name": "4 Count (Pack of 1)",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CPXCWRXM&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B0CDWP5Q3F",
+            "name": "5 Count (Pack of 1)",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CDWP5Q3F&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B0HDB2ZJ66",
+            "name": "5 Count (Pack of 2)",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0HDB2ZJ66&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 4,
+            "asin": "B0C9W8DD9S",
+            "name": "6 Count (Pack of 1)",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0C9W8DD9S&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 5,
+            "asin": "B0HD9QFB5B",
+            "name": "6 Count (Pack of 2)",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0HD9QFB5B&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 6,
+            "asin": "B0CPXC1KZ8",
+            "name": "8 Count (Pack of 1)",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CPXC1KZ8&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 7,
+            "asin": "B0CPXD4H8D",
+            "name": "10 Count (Pack of 1)",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CPXD4H8D&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 8,
+            "asin": "B0HD9XCZ7R",
+            "name": "10 Count (Pack of 2)",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0HD9XCZ7R&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 9,
+            "asin": "B0CPXB8B92",
+            "name": "12 Count (Pack of 1)",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CPXB8B92&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 10,
+            "asin": "B0D1DZWYK7",
+            "name": "24 Count (Pack of 1)",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0D1DZWYK7&device=desktop&engine=amazon_product"
+          }
+        ]
+      }
+    ],
+    "variant_combinations": [
+      {
+        "dimensions": {
+          "color": "Gradient",
+          "size": "4 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Gradient",
+          "size": "5 Count (Pack of 1)"
+        },
+        "asin": "B0CDWP5Q3F",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CDWP5Q3F&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Gradient",
+          "size": "5 Count (Pack of 2)"
+        },
+        "asin": "B0HDB2ZJ66",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0HDB2ZJ66&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Gradient",
+          "size": "6 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Gradient",
+          "size": "6 Count (Pack of 2)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Gradient",
+          "size": "8 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Gradient",
+          "size": "10 Count (Pack of 1)"
+        },
+        "asin": "B0CPXD4H8D",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CPXD4H8D&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Gradient",
+          "size": "10 Count (Pack of 2)"
+        },
+        "asin": "B0HD9XCZ7R",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0HD9XCZ7R&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Gradient",
+          "size": "12 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Gradient",
+          "size": "24 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Morandi",
+          "size": "4 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Morandi",
+          "size": "5 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Morandi",
+          "size": "5 Count (Pack of 2)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Morandi",
+          "size": "6 Count (Pack of 1)"
+        },
+        "asin": "B0C9W8DD9S",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0C9W8DD9S&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Morandi",
+          "size": "6 Count (Pack of 2)"
+        },
+        "asin": "B0HD9QFB5B",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0HD9QFB5B&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Morandi",
+          "size": "8 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Morandi",
+          "size": "10 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Morandi",
+          "size": "10 Count (Pack of 2)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Morandi",
+          "size": "12 Count (Pack of 1)"
+        },
+        "asin": "B0CPXB8B92",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CPXB8B92&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Morandi",
+          "size": "24 Count (Pack of 1)"
+        },
+        "asin": "B0D1DZWYK7",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0D1DZWYK7&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Morandi Cat",
+          "size": "4 Count (Pack of 1)"
+        },
+        "asin": "B0CPXCWRXM",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CPXCWRXM&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Morandi Cat",
+          "size": "5 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Morandi Cat",
+          "size": "5 Count (Pack of 2)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Morandi Cat",
+          "size": "6 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Morandi Cat",
+          "size": "6 Count (Pack of 2)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Morandi Cat",
+          "size": "8 Count (Pack of 1)"
+        },
+        "asin": "B0CPXC1KZ8",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CPXC1KZ8&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Morandi Cat",
+          "size": "10 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Morandi Cat",
+          "size": "10 Count (Pack of 2)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Morandi Cat",
+          "size": "12 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Morandi Cat",
+          "size": "24 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Vintage",
+          "size": "4 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Vintage",
+          "size": "5 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Vintage",
+          "size": "5 Count (Pack of 2)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Vintage",
+          "size": "6 Count (Pack of 1)"
+        },
+        "asin": "B0CPXBTHL3",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CPXBTHL3&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Vintage",
+          "size": "6 Count (Pack of 2)"
+        },
+        "asin": "B0HD9V63HT",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0HD9V63HT&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Vintage",
+          "size": "8 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Vintage",
+          "size": "10 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Vintage",
+          "size": "10 Count (Pack of 2)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Vintage",
+          "size": "12 Count (Pack of 1)"
+        },
+        "asin": "B0CPXBGZWJ",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CPXBGZWJ&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Vintage",
+          "size": "24 Count (Pack of 1)"
+        },
+        "asin": "B0D1DBQY4W",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0D1DBQY4W&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Vintage+Morandi",
+          "size": "4 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Vintage+Morandi",
+          "size": "5 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Vintage+Morandi",
+          "size": "5 Count (Pack of 2)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Vintage+Morandi",
+          "size": "6 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Vintage+Morandi",
+          "size": "6 Count (Pack of 2)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Vintage+Morandi",
+          "size": "8 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Vintage+Morandi",
+          "size": "10 Count (Pack of 1)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Vintage+Morandi",
+          "size": "10 Count (Pack of 2)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Vintage+Morandi",
+          "size": "12 Count (Pack of 1)"
+        },
+        "asin": "B0CPXB9383",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CPXB9383&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Vintage+Morandi",
+          "size": "24 Count (Pack of 1)"
+        },
+        "asin": "B0D1FDFQ86",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0D1FDFQ86&device=desktop&engine=amazon_product"
+      }
+    ],
+    "brand": "Visit the Ddaowanx Store",
+    "thumbnail": "https://m.media-amazon.com/images/I/61ruPpZ1CfL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "thumbnails": [
+      "https://m.media-amazon.com/images/I/61ruPpZ1CfL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51zf+g1L0mL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61MI9ezQUfL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61ReRuAR7qL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61n2GWTY++L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71BGQ9HKdNL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71x24fBm8WL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/7111toK6n2L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/8103G6A1nJL._AC_SL1500_.jpg"
+    ],
+    "rating": 4.6,
+    "reviews": 9723,
+    "bought_last_month": "20K+ bought in past month",
+    "discount": "-33%",
+    "price": "$7.99",
+    "extracted_price": 7.99,
+    "price_unit": "$1.33 / count",
+    "extracted_price_unit": 1.33,
+    "old_price": "$11.99",
+    "extracted_old_price": 11.99,
+    "prime": true,
+    "delivery": [
+      "FREE delivery Sunday, November 1 on orders shipped by Amazon over $35",
+      "Or Prime members get FREE delivery Tomorrow, October 28. Order within 10 hrs 6 mins."
+    ],
+    "stock": "In Stock"
+  },
+  "purchase_options": {
+    "buy_new": {
+      "caption": "One-time purchase",
+      "price": "$7.99",
+      "extracted_price": 7.99,
+      "price_unit": "$1.33 / count",
+      "extracted_price_unit": 1.33,
+      "delivery": [
+        "FREE delivery Sunday, November 1 on orders shipped by Amazon over $35",
+        "Or Prime members get FREE delivery Tomorrow, October 28. Order within 10 hrs 6 mins."
+      ],
+      "stock": "In Stock",
+      "features": {
+        "ships_from": {
+          "text": "Amazon",
+          "details": {
+            "heading": "Ships from",
+            "content": "Amazon"
+          }
+        },
+        "sold_by": {
+          "text": "Tongyika",
+          "details": {
+            "heading": "Sold by",
+            "content": "Tongyika"
+          },
+          "link": {
+            "text": "Tongyika",
+            "link": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A3518WNJG52CRY&asin=B0C9W8DD9S&ref_=dp_merchant_link&isAmazonFulfilled=1"
+          }
+        },
+        "returns": {
+          "text": "FREE 30-day refund/replacement",
+          "details": {
+            "heading": "FREE 30-day refund/replacement"
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "payment": {
+          "text": "Secure transaction",
+          "details": {
+            "heading": "Your transaction is secure",
+            "content": "We work hard to protect your security and privacy. Our payment security system encrypts your information during transmission. We don’t share your credit card details with third-party sellers, and we don’t sell your information to others. Learn more"
+          },
+          "link": {
+            "text": "Learn more",
+            "link": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201909010"
+          }
+        }
+      }
+    },
+    "subscribe_and_save": {
+      "caption": "Subscribe & Save",
+      "price": "$7.59",
+      "extracted_price": 7.59,
+      "price_unit": "$1.27 / count",
+      "extracted_price_unit": 1.27,
+      "delivery": [
+        "FREE delivery Sunday, November 1 on orders shipped by Amazon over $35",
+        "Or Prime members get FREE delivery Tomorrow, October 28. Order within 10 hrs 6 mins."
+      ],
+      "stock": "In Stock",
+      "features": {
+        "ships_from": {
+          "text": "Amazon",
+          "details": {
+            "heading": "Ships from",
+            "content": "Amazon"
+          }
+        },
+        "sold_by": {
+          "text": "Tongyika",
+          "details": {
+            "heading": "Sold by",
+            "content": "Tongyika"
+          },
+          "link": {
+            "text": "Tongyika",
+            "link": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A3518WNJG52CRY&asin=B0C9W8DD9S&ref_=dp_merchant_link&isAmazonFulfilled=1"
+          }
+        },
+        "returns": {
+          "text": "FREE 30-day refund/replacement",
+          "details": {
+            "heading": "FREE 30-day refund/replacement"
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "subscription": "No fees. Skip or cancel anytime."
+      }
+    }
+  },
+  "item_specifications": {
+    "brand": "Ddaowanx",
+    "writing_instrument_form": "Roller Ball Pen",
+    "color": "Morandi",
+    "ink_color": "Black",
+    "age_range_description": "Adult"
+  },
+  "about_item": [
+    "Gel Pens: You will receive 6pc quick-drying ink pens with a modern minimalist design to suit your needs Daily use and replacement needs",
+    "Quick-Drying Ink: These retractable roller ball gel pens feature reliable ink that won't fade or smudge easily; the rollerball ink dries quickly that help you keep work neat and organized",
+    "Practical and Simple Design: The convenient clip design can firmly clip the neutral ink ballpoint pen to a book, notebook or bag, easy to carry, without worrying about losing; retractable design, gently press the cap, the pen end automatically retracts",
+    "Scope of use: 6pc gel pen is suitable for children and adults for writing, diary, sketching, painting, scrapbooking, making gift cards, etc., to meet your various needs in daily study and work",
+    "Practical Gifts: You can give these colored gel pens as practical gifts to your family, friends, students, classmates and colleagues to express your feelings on various occasions such as birthdays, thanksgiving, Christmas stockings stuffers, graduations, classroom activities, parties, etc. love and blessings"
+  ],
+  "sustainability_features": {
+    "summary": "This product has sustainability features recognized by trusted certifications.",
+    "climate_pledge_friendly": true,
+    "learn_more_link": "https://www.amazon.com/climatepledgefriendly",
+    "features": [
+      {
+        "position": 1,
+        "title": "Recycled materials",
+        "text": "Contains at least 50% recycled material.",
+        "certified_by": [
+          {
+            "name": "Global Recycled Standard",
+            "logo": "https://m.media-amazon.com/images/I/51IhSrucIyL._SS128_.png",
+            "description": "Global Recycled Standard (GRS) certified products contain recycled content (>50%) that has been independently verified at each stage of the supply chain, from the source to the final product and meet social, environmental, and chemical requirements. The purchase of Global Recycled Standard (GRS) certified products supports the use of recycled content in the supply chain.",
+            "link": "https://textileexchange.org/integrity/"
+          }
+        ]
+      },
+      {
+        "position": 2,
+        "title": "Safer chemicals",
+        "text": "Made with chemicals safer for human health and the environment.",
+        "certified_by": [
+          {
+            "name": "Global Recycled Standard",
+            "logo": "https://m.media-amazon.com/images/I/51IhSrucIyL._SS128_.png",
+            "description": "Global Recycled Standard (GRS) certified products contain recycled content (>50%) that has been independently verified at each stage of the supply chain, from the source to the final product and meet social, environmental, and chemical requirements. The purchase of Global Recycled Standard (GRS) certified products supports the use of recycled content in the supply chain.",
+            "link": "https://textileexchange.org/integrity/"
+          }
+        ]
+      },
+      {
+        "position": 3,
+        "title": "Worker well-being",
+        "text": "Manufactured on farms or in facilities that protect the rights and/or health of workers.",
+        "certified_by": [
+          {
+            "name": "Global Recycled Standard",
+            "logo": "https://m.media-amazon.com/images/I/51IhSrucIyL._SS128_.png",
+            "description": "Global Recycled Standard (GRS) certified products contain recycled content (>50%) that has been independently verified at each stage of the supply chain, from the source to the final product and meet social, environmental, and chemical requirements. The purchase of Global Recycled Standard (GRS) certified products supports the use of recycled content in the supply chain.",
+            "link": "https://textileexchange.org/integrity/"
+          }
+        ]
+      }
+    ]
+  },
+  "product_description": [
+    {
+      "position": 1,
+      "carousel_images": [
+        {
+          "position": 1,
+          "title": "5",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/5f338d09-80e3-47c6-bf0d-0b878f494033.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 2,
+          "title": "6",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/22533384-13ab-4748-9592-adb61f81a7f8.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 3,
+          "title": "4",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/cd9dc6b5-c85b-4418-a57c-c70d064ed671.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "title": "1",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a71cb23c-e715-488e-8897-e1f4b6c32277.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 3,
+      "title": "2",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2e092062-a155-45e9-98fe-7a1f4ec3ac84.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 4,
+      "interactive": {
+        "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/e4077184-eb4d-4f34-bc9b-2ff9baccb0dd.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg",
+        "texts": [
+          {
+            "position": 1,
+            "title": "No Smear, No Smudge, No Bleed Technology",
+            "text": "For an exceptional writing experience."
+          },
+          {
+            "position": 2,
+            "title": "Soft Comfortable Grip",
+            "text": "For a comfortable writing experience."
+          },
+          {
+            "position": 3,
+            "title": "Point Sizes",
+            "text": "fine (0.5 mm), medium (0.7 mm)"
+          }
+        ]
+      }
+    },
+    {
+      "position": 5,
+      "title": "6",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d6e46d1b-a168-42f6-a876-4933e1f0871d.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 6,
+      "title": "7",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/b9361e02-0107-411a-b93f-864b577e85db.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 7,
+      "compare_with_similar": [
+        {
+          "position": 1,
+          "asin": "B0C9W8DD9S",
+          "title": "Gel Pens",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/80cf82eb-c4b4-4dea-b5f0-8ff304811f87.__CR0,0,800,900_PT0_SX200_V1___.jpg",
+          "link": "https://www.amazon.com/dp/B0C9W8DD9S?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0C9W8DD9S&device=desktop&engine=amazon_product",
+          "rating": 4.6,
+          "reviews": 9723,
+          "price": "$7.99",
+          "extracted_price": 7.99,
+          "ink_color": "Black",
+          "tip_size": "0.5mm",
+          "additional_features": "Quick Drying,Soft Grip",
+          "age_range_description": "Adult,Teen",
+          "retractable": "✔"
+        },
+        {
+          "position": 2,
+          "asin": "B0FH14QF99",
+          "title": "Gel Pens Black Ink 0.7 mm",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/126abcd7-9273-4712-9bd0-835a5c7f510d.__CR0,0,800,900_PT0_SX200_V1___.jpg",
+          "link": "https://www.amazon.com/dp/B0FH14QF99?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FH14QF99&device=desktop&engine=amazon_product",
+          "rating": 4.7,
+          "reviews": 658,
+          "price": "$9.99",
+          "extracted_price": 9.99,
+          "ink_color": "Black",
+          "tip_size": "0.7mm",
+          "additional_features": "Quick Drying,Soft Grip",
+          "age_range_description": "Adult,Teen",
+          "retractable": "✔"
+        },
+        {
+          "position": 3,
+          "asin": "B0FH1V13KS",
+          "title": "Aesthetics Gel Pens",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/19d2e291-9e12-4311-bbcc-5b07d1cbc786.__CR0,0,800,900_PT0_SX200_V1___.jpg",
+          "link": "https://www.amazon.com/dp/B0FH1V13KS?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FH1V13KS&device=desktop&engine=amazon_product",
+          "rating": 4.8,
+          "reviews": 291,
+          "price": "$9.99",
+          "extracted_price": 9.99,
+          "ink_color": "Black",
+          "tip_size": "0.7mm",
+          "additional_features": "Quick Drying,Soft Grip",
+          "age_range_description": "Adult,Teen",
+          "retractable": "✔"
+        },
+        {
+          "position": 4,
+          "asin": "B0D91FZWGH",
+          "title": "Colorful Pens",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/f36406af-1881-43d0-a7e6-516ed3eeefb0.__CR0,0,800,900_PT0_SX200_V1___.jpg",
+          "link": "https://www.amazon.com/dp/B0D91FZWGH?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0D91FZWGH&device=desktop&engine=amazon_product",
+          "rating": 4.5,
+          "reviews": 4719,
+          "price": "$9.99",
+          "extracted_price": 9.99,
+          "ink_color": "Assorted",
+          "tip_size": "0.5mm",
+          "additional_features": "Quick Drying,Soft Grip",
+          "age_range_description": "Adult,Teen",
+          "retractable": "✔"
+        },
+        {
+          "position": 5,
+          "asin": "B0D91DHKCX",
+          "title": "Colored Pens",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/dac42c07-cb4f-4662-9136-187d06324063.__CR0,0,800,900_PT0_SX200_V1___.jpg",
+          "link": "https://www.amazon.com/dp/B0D91DHKCX?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0D91DHKCX&device=desktop&engine=amazon_product",
+          "rating": 4.5,
+          "reviews": 4719,
+          "price": "$9.99",
+          "extracted_price": 9.99,
+          "ink_color": "Assorted",
+          "tip_size": "0.5mm",
+          "additional_features": "Quick Drying,Soft Grip",
+          "age_range_description": "Adult,Teen",
+          "retractable": "✔"
+        },
+        {
+          "position": 6,
+          "asin": "B0D5TH23Z6",
+          "title": "Gel Pens Blue Ink",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/26fd5d44-e0de-4798-b16c-b00e3df0b18e.__CR0,0,800,900_PT0_SX200_V1___.jpg",
+          "link": "https://www.amazon.com/dp/B0D5TH23Z6?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0D5TH23Z6&device=desktop&engine=amazon_product",
+          "rating": 4.5,
+          "reviews": 4719,
+          "price": "$9.99",
+          "extracted_price": 9.99,
+          "ink_color": "Blue",
+          "tip_size": "0.5mm",
+          "additional_features": "Quick Drying,Soft Grip",
+          "age_range_description": "Adult,Teen",
+          "retractable": "✔"
+        },
+        {
+          "position": 7,
+          "asin": "B0FH1JBRRT",
+          "title": "Cat Pens",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/cfd46f6b-5299-4300-b953-f82cac7d28d8.__CR0,0,800,900_PT0_SX200_V1___.jpg",
+          "link": "https://www.amazon.com/dp/B0FH1JBRRT?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FH1JBRRT&device=desktop&engine=amazon_product",
+          "rating": 4.4,
+          "reviews": 148,
+          "price": "$9.99",
+          "extracted_price": 9.99,
+          "ink_color": "Assorted",
+          "tip_size": "0.7mm",
+          "additional_features": "Quick Drying,Soft Grip",
+          "age_range_description": "Adult,Teen",
+          "retractable": "✔"
+        }
+      ]
+    }
+  ],
+  "product_details": {
+    "writing_instrument_form": "Roller Ball Pen",
+    "ink_color": "Black",
+    "drill_point": "Fine",
+    "additional_features": "Heavy Duty, Quick Drying, Soft Grip",
+    "line_size": "0.5 Millimeters",
+    "hand_orientation": "Ambidextrous",
+    "grip_type": "Soft",
+    "writing_technique": "gel ink, rollerball",
+    "closure_type": "Retractable",
+    "color": "Morandi",
+    "theme": "Office Modern Style",
+    "style": "Modern",
+    "body_shape": "Round",
+    "material_type": "Alloy Steel, Plastic",
+    "ink_base": "Water",
+    "brand_name": "Ddaowanx",
+    "age_range_description": "Adult",
+    "recommended_uses_for_product": "Office",
+    "included_components": "6 retractable gel pens",
+    "model_number": "Gel Pen-01",
+    "upc": "741421002302",
+    "manufacturer": "Ddaowanx",
+    "warranty_description": "30 Days",
+    "best_sellers_rank": [
+      {
+        "text": "#49 in Office Products (See Top 100 in Office Products)",
+        "extracted_rank": 49,
+        "link": "https://www.amazon.com/gp/bestsellers/office-products/ref=pd_zg_ts_office-products",
+        "link_text": "See Top 100 in Office Products"
+      },
+      {
+        "text": "#4 in Gel Ink Pens",
+        "extracted_rank": 4,
+        "link": "https://www.amazon.com/gp/bestsellers/office-products/1069828/ref=pd_zg_hrsr_office-products",
+        "link_text": "Gel Ink Pens"
+      }
+    ],
+    "asin": "B0C9W8DD9S",
+    "customer_reviews": "4.6 out of 5 stars",
+    "rating": 4.6,
+    "reviews": 9723,
+    "unit_count": "6 Count",
+    "item_dimensions": "2.36 x 0.55 x 5.9 inches",
+    "item_weight": "3.84 ounces",
+    "item_diameter": "10 millimeters"
+  },
+  "reviews_information": {
+    "summary": {
+      "text": "Customers find these gel pens to be of good quality, with smooth writing performance and a buttery feel that fits comfortably in the hand. They appreciate the muted pastel colors and dark, bold ink. The ink flow receives mixed reviews - while some say it doesn't smear at all, others report it smudges badly.",
+      "insights": [
+        {
+          "title": "Quality",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 1300,
+            "positive": 1129,
+            "negative": 252
+          },
+          "summary": "Customers find these pens to be wonderful, with one mentioning they are perfect for their needs.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Great pens! They write smoothly with a very fine tip. The weight of the pen is slightly more then normal which I find helpful for penmanship....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2IFSLFVYG6LMO"
+            },
+            {
+              "position": 2,
+              "snippet": "Love these pens! Very fine point which I love and the hand feel of the pens is soft and kinda a smooth rubber feel to it! Nice feel on the hand!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1CI7E0D5D9Z02"
+            },
+            {
+              "position": 3,
+              "snippet": "Looks just like Picture Shown here on Amazon. I love these pens they feel buttery smooth and write the same as well omg I love these pens worth the...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R33TOLTR8JD9G7"
+            },
+            {
+              "position": 4,
+              "snippet": "Love these, I’ve ordered them twice now. Love the cute colors, and the smooth writing ink, and slim tip. This writes slim elegant lines....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R6K5GNDRZH5GK"
+            }
+          ]
+        },
+        {
+          "title": "Writing performance",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 937,
+            "positive": 735,
+            "negative": 202
+          },
+          "summary": "Customers praise how smoothly these gel pens write.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "I love these pens. Smooth writing and easy to use. Typically I am one to smudge my writing but rarely if ever do with this pen.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RMQZZ9NT6A49H"
+            },
+            {
+              "position": 2,
+              "snippet": "I really like these pens! They write smoothly and consistently without skipping, and the ink dries quickly enough that I don’t have to worry much...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3M6SUFVXLCNQR"
+            },
+            {
+              "position": 3,
+              "snippet": "...I love the sleek design and pale/ pastel colors! The pen writes smooth and thin and doesn’t smear which is what I need, while also being comfortable...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1FAALUSAE0CCN"
+            },
+            {
+              "position": 4,
+              "snippet": "Does not write smoothly and leaves gaps in whatever you are writing. Had to go over each word multiple times for it to look presentable.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1DCZQF4ORHUIQ"
+            }
+          ]
+        },
+        {
+          "title": "Appearance",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 534,
+            "positive": 524,
+            "negative": 10
+          },
+          "summary": "Customers appreciate the appearance of these pens, describing them as lovely and noting that they write beautifully, with one customer mentioning they look expensive.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "These pens are cute and all, but in order for you to be able to highlight something you have to wait until it completely dries and that takes a while...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R26Z84H0V35UUM"
+            },
+            {
+              "position": 2,
+              "snippet": "These pens are pretty, and the feel is soft to the touch, which is great, but the ink comes out spotty, which makes them difficult to use for taking...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1UKZ9OZ5FMSUN"
+            },
+            {
+              "position": 3,
+              "snippet": "...I love them so much and they are super cute, I have bought many times and they just work so well I get compliments on them all the time because they...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3PMFOOTZW7XK9"
+            },
+            {
+              "position": 4,
+              "snippet": "These pens are beautiful. They have a nice simple design which makes them look elegant. I love fine point pens and these seemed like a good choice....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2MG0MAXS16JS"
+            }
+          ]
+        },
+        {
+          "title": "Ergonomics",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 331,
+            "positive": 320,
+            "negative": 11
+          },
+          "summary": "Customers appreciate the pens' ergonomic design, noting they feel buttery smooth, are soft to touch, and fit comfortably in the hand.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...OMG, theyre even better in person! Soft, matte, pastel colors, they write very smoothly, and are very comfortable to hold. I absolutely love them....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1FZQXYLLUJEGW"
+            },
+            {
+              "position": 2,
+              "snippet": "Love the feel of them- the grip, the texture, the colors. They write good- when they work....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2WAEGMJE3KCJW"
+            },
+            {
+              "position": 3,
+              "snippet": "...They are so soft and glide well on paper. I’ve even had some doctors ask me for the brand name. They come in different colors and the price isn’t bad.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RG3YELPQK9QLX"
+            },
+            {
+              "position": 4,
+              "snippet": "These are very nice. Write great, feel good in the hand and look pretty, too. My husband is always swiping them from my office. He must like em, too 😁",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3C089FKYUW4AP"
+            }
+          ]
+        },
+        {
+          "title": "Smoothness",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 299,
+            "positive": 258,
+            "negative": 41
+          },
+          "summary": "Customers appreciate the smoothness of these gel pens, noting their smooth glide and excellent ink flow.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...and the functionality was working good too since I liked how thin and smooth it felt on paper but it’s only been a couple of times in a week and now...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3UR4B8HDH03YD"
+            },
+            {
+              "position": 2,
+              "snippet": "Very smooth, with great ink flow. Easy to glide across the page when writing alot of information. Adorable aesthetic, Im very happy with my purchase.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R21DU1Y5T9PYV9"
+            },
+            {
+              "position": 3,
+              "snippet": "...I've purchased them three times. They are so smooth, glide across your paper and love the creamy colors. Great quality for low price.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R23LXA1TL4A4QP"
+            },
+            {
+              "position": 4,
+              "snippet": "...to stand out in the work room or in class, get these pens, they are super smooth and comfortable to write with for extended periods of time as well....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R30INMFYY8IC2B"
+            }
+          ]
+        },
+        {
+          "title": "Color",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 279,
+            "positive": 259,
+            "negative": 20
+          },
+          "summary": "Customers like the pens' colors, particularly the muted pastel shades and dark black ink.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...I am surprised with the smoothness of the strokes, i love the colors and overall feel of the pens. I more than pleased with this purchase....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2D8N1KIOF9DBS"
+            },
+            {
+              "position": 2,
+              "snippet": "I was very excited for these pens—the colors are beautiful and exactly what I was looking for. Unfortunately, they are completely unreliable....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2GRGA64JQOPXN"
+            },
+            {
+              "position": 3,
+              "snippet": "Beautiful colors. Nice rubbery material on exterior to hold. Writes smoothly and good consistency of ink flow....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2O4NG5ARIETOZ"
+            },
+            {
+              "position": 4,
+              "snippet": "...They sit In a cup on my desk until I use them. Pretty colors, but they don't last. They also don't write very smoothly.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2EUKKKWXRGO6Z"
+            }
+          ]
+        },
+        {
+          "title": "Smudge-resistant",
+          "sentiment": "mixed",
+          "mentions": {
+            "total": 246,
+            "positive": 154,
+            "negative": 92
+          },
+          "summary": "Customers have mixed experiences with the pens' smudge resistance, with some reporting that the ink does not smear at all, while others mention that it smudges badly and gets all over their hands.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...Writes smoothly and no smearing. This is the only pens i’ll re order every time and when it goes on sale you better believe i’m stocking up!!!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2NTRFX2P665QN"
+            },
+            {
+              "position": 2,
+              "snippet": "Yes, they are \"cute\" BUT they are NOT \"quick dry ink\", they smudge & mess up whatever you are writing!...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2QBI1NQCNDNV6"
+            },
+            {
+              "position": 3,
+              "snippet": "Perfect glide and I’m picky about my pens. No smear, not gaps in the writing, easy to use and fits perfectly in my journal spiral binding",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2C7QL9Y7R6QNT"
+            },
+            {
+              "position": 4,
+              "snippet": "...There’s no skipping, no smudging (for the most part!), and no dragging. It feels like the pen is just flowing as you write....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3JF2MJ78EHVX8"
+            }
+          ]
+        },
+        {
+          "title": "Ink flow",
+          "sentiment": "negative",
+          "mentions": {
+            "total": 323,
+            "positive": 96,
+            "negative": 227
+          },
+          "summary": "Customers report issues with ink flow in these pens, noting that the ink does not flow well, skips constantly, and gets all over the place.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Ink skips!! Every few words the ink skips, so your words will look inconsistent....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3V0VJ3060YMQU"
+            },
+            {
+              "position": 2,
+              "snippet": "...Soft and the colors are great. They do not write well at all. The ink skips and then you have to drawl on scratch paper until they start writing...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1TIB9XSPDMTQH"
+            },
+            {
+              "position": 3,
+              "snippet": "These write so smooth & easy! The pen and ink just glides! Ink flow is great & and the feel of the pen is smooth & soft. Easy to hold & handle....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1IMKNSWRJAMCI"
+            },
+            {
+              "position": 4,
+              "snippet": "Poor ink flow and leak after a few days",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1F9O6BM5Q36Y1"
+            }
+          ]
+        }
+      ],
+      "customer_reviews": {
+        "5 star": 82,
+        "4 star": 7,
+        "3 star": 4,
+        "2 star": 3,
+        "1 star": 4
+      }
+    }
+  }
+}

@@ -1,0 +1,740 @@
+{
+  "product_results": {
+    "categories": [
+      {
+        "position": 1,
+        "name": "Office Products",
+        "link": "https://www.amazon.com/Office-Products/b/ref=dp_bc_1?ie=UTF8&node=1064954",
+        "node": "1064954",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1064954"
+      },
+      {
+        "position": 2,
+        "name": "Office & School Supplies",
+        "link": "https://www.amazon.com/Office-Supplies/b/ref=dp_bc_2?ie=UTF8&node=1069242",
+        "node": "1069242",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1069242"
+      },
+      {
+        "position": 3,
+        "name": "Writing & Correction Supplies",
+        "link": "https://www.amazon.com/Writing-Correction-Supplies-Office-School/b/ref=dp_bc_3?ie=UTF8&node=1069784",
+        "node": "1069784",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1069784"
+      },
+      {
+        "position": 4,
+        "name": "Pens & Refills",
+        "link": "https://www.amazon.com/Pens/b/ref=dp_bc_4?ie=UTF8&node=1069820",
+        "node": "1069820",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1069820"
+      },
+      {
+        "position": 5,
+        "name": "Rollerball Pens",
+        "link": "https://www.amazon.com/Rollerball-Pens/b/ref=dp_bc_5?ie=UTF8&node=1069838",
+        "node": "1069838",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1069838"
+      },
+      {
+        "position": 6,
+        "name": "Gel Ink Rollerball Pens",
+        "link": "https://www.amazon.com/Gel-Ink-Pens/b/ref=dp_bc_6?ie=UTF8&node=1069828",
+        "node": "1069828",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1069828"
+      }
+    ],
+    "asin": "B0744D6P4V",
+    "title": "BIC Gelocity Quick Dry Assorted Colors Gel Pens, 12-Count Pack, 0.7 mm",
+    "link": "https://www.amazon.com/BIC-Gel-ocity-Retractable-Assorted-12-Count/dp/B0BGPYR8Q3/",
+    "link_clean": "https://www.amazon.com/dp/B0BGPYR8Q3/",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0744D6P4V&device=desktop&engine=amazon_product",
+    "badges": [
+      "Amazon's Choice"
+    ],
+    "variants": [
+      {
+        "title": "Size",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B0744D6P4V",
+            "name": "12 Count (Pack of 1)",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0744D6P4V&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B0878WLDZX",
+            "name": "12 Count (Pack of 18)",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0878WLDZX&device=desktop&engine=amazon_product"
+          }
+        ]
+      },
+      {
+        "title": "Color",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B0744D6P4V",
+            "name": "Assorted",
+            "image": "https://m.media-amazon.com/images/I/51JLXw5aOTL._SS64_.jpg",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0744D6P4V&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B01MSBOBM7",
+            "name": "Black",
+            "image": "https://m.media-amazon.com/images/I/51EXRKDhfTS._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B01MSBOBM7&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B0CFL9JF39",
+            "name": "Black, Blue, Red",
+            "image": "https://m.media-amazon.com/images/I/510SrDEn-2L._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CFL9JF39&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 4,
+            "asin": "B01N7WCYUD",
+            "name": "Blue",
+            "image": "https://m.media-amazon.com/images/I/51K-jfUsgxL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B01N7WCYUD&device=desktop&engine=amazon_product"
+          }
+        ]
+      }
+    ],
+    "variant_combinations": [
+      {
+        "dimensions": {
+          "size": "12 Count (Pack of 1)",
+          "color": "Assorted"
+        },
+        "asin": "B0744D6P4V",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0744D6P4V&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "size": "12 Count (Pack of 1)",
+          "color": "Black"
+        },
+        "asin": "B01MSBOBM7",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B01MSBOBM7&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "size": "12 Count (Pack of 1)",
+          "color": "Black, Blue, Red"
+        },
+        "asin": "B0CFL9JF39",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CFL9JF39&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "size": "12 Count (Pack of 1)",
+          "color": "Blue"
+        },
+        "asin": "B01N7WCYUD",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B01N7WCYUD&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "size": "12 Count (Pack of 18)",
+          "color": "Assorted"
+        },
+        "asin": "B0878WLDZX",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0878WLDZX&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "size": "12 Count (Pack of 18)",
+          "color": "Black"
+        },
+        "asin": "B08524JT7N",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B08524JT7N&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "size": "12 Count (Pack of 18)",
+          "color": "Black, Blue, Red"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "size": "12 Count (Pack of 18)",
+          "color": "Blue"
+        },
+        "unavailable": true
+      }
+    ],
+    "brand": "Visit the BIC Store",
+    "thumbnail": "https://m.media-amazon.com/images/I/813g4h89eGL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "thumbnails": [
+      "https://m.media-amazon.com/images/I/813g4h89eGL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71rqT9gkdsL._AC_SL1204_.jpg",
+      "https://m.media-amazon.com/images/I/7126Z28iFEL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31sPeQJirnL._AC_.jpg",
+      "https://m.media-amazon.com/images/I/713Jh3F-pNL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81fClsPHN6L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81oqUv36ECL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61ejckvFOxL._AC_.jpg",
+      "https://m.media-amazon.com/images/I/71Rx0h0wc1L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71JfbbydRGL._AC_SL1179_.jpg"
+    ],
+    "rating": 4.8,
+    "reviews": 22348,
+    "bought_last_month": "3K+ bought in past month",
+    "discount": "-26%",
+    "price": "$14.79",
+    "extracted_price": 14.79,
+    "price_unit": "$1.23 / count",
+    "extracted_price_unit": 1.23,
+    "old_price": "$19.99",
+    "extracted_old_price": 19.99,
+    "prime": true,
+    "delivery": [
+      "FREE delivery Sunday, November 1 on orders shipped by Amazon over $35",
+      "Or Prime members get FREE delivery Tomorrow, October 28. Order within 12 hrs 47 mins."
+    ],
+    "stock": "In Stock",
+    "description": "When the school supply list calls for colored pens, BIC Gelocity Quick Dry Assorted Colors Gel Pens give students and teachers a reliable option built for the demands of the school year. Twelve different colors let students color-code class notes by subject, mark up reading assignments, annotate study guides, and keep their work organized from the first day of school through finals. Teachers reach for these pens for grading, marking handouts, and keeping color-coded records without smearing across the page. Quick-dry ink dries in as little as five seconds, making these a dependable choice for left-handed students and anyone who needs work to stay clean and readable. Easy-flowing gel ink writes smoothly and consistently across lined paper, notebooks, and index cards. A full-length grip keeps writing comfortable during long sessions, from taking notes in class to finishing homework at the kitchen table. The retractable design means one click to start, with a plastic clip that keeps pens attached to notebooks throughout the school day. A reliable choice for any school supply list or classroom supply drawer."
+  },
+  "purchase_options": {
+    "buy_new": {
+      "caption": "Buy New",
+      "price": "$14.79",
+      "extracted_price": 14.79,
+      "price_unit": "$1.23 / count",
+      "extracted_price_unit": 1.23,
+      "delivery": [
+        "FREE delivery Sunday, November 1 on orders shipped by Amazon over $35",
+        "Or Prime members get FREE delivery Tomorrow, October 28. Order within 12 hrs 47 mins."
+      ],
+      "stock": "In Stock",
+      "features": {
+        "shipper_seller": {
+          "text": "Amazon.com",
+          "details": {
+            "heading": "Shipper / Seller",
+            "content": "Amazon.com"
+          }
+        },
+        "returns": {
+          "text": "FREE 30-day refund/replacement",
+          "details": {
+            "heading": "FREE 30-day refund/replacement"
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "payment": {
+          "text": "Secure transaction",
+          "details": {
+            "heading": "Your transaction is secure",
+            "content": "We work hard to protect your security and privacy. Our payment security system encrypts your information during transmission. We don’t share your credit card details with third-party sellers, and we don’t sell your information to others. Learn more"
+          },
+          "link": {
+            "text": "Learn more",
+            "link": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201909010"
+          }
+        }
+      }
+    },
+    "buy_used": {
+      "caption": "Used - Very Good",
+      "price": "$13.16",
+      "extracted_price": 13.16,
+      "price_unit": "$1.10 / count",
+      "extracted_price_unit": 1.1,
+      "delivery": [
+        "FREE delivery Sunday, November 1 on orders shipped by Amazon over $35",
+        "Or Prime members get FREE delivery Tomorrow, October 28. Order within 12 hrs 2 mins."
+      ],
+      "stock": "Only 3 left in stock - order soon.",
+      "features": {
+        "ships_from": "Amazon",
+        "sold_by": "Amazon Resale"
+      }
+    },
+    "subscribe_and_save": {
+      "caption": "Subscribe & Save",
+      "price": "$14.05",
+      "extracted_price": 14.05,
+      "price_unit": "$1.17 / count",
+      "extracted_price_unit": 1.17,
+      "delivery": [
+        "FREE delivery Sunday, November 1 on orders shipped by Amazon over $35",
+        "Or Prime members get FREE delivery Tomorrow, October 28. Order within 12 hrs 47 mins."
+      ],
+      "stock": "In Stock",
+      "features": {
+        "shipper_seller": {
+          "text": "Amazon.com",
+          "details": {
+            "heading": "Shipper / Seller",
+            "content": "Amazon.com"
+          }
+        },
+        "returns": {
+          "text": "FREE 30-day refund/replacement",
+          "details": {
+            "heading": "FREE 30-day refund/replacement"
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "subscription": "No fees. Skip or cancel anytime."
+      }
+    }
+  },
+  "item_specifications": {
+    "brand": "BIC",
+    "writing_instrument_form": "Gel Pen",
+    "color": "Assorted",
+    "ink_color": "Assorted",
+    "age_range_description": "Adult"
+  },
+  "about_item": [
+    "BUY A BIC AND WE’LL GIVE A BIC: This back to school season, when you purchase BIC gel pens, we will donate one to teachers and classrooms in need",
+    "BACK TO SCHOOL ESSENTIAL: One 12-count pack of BIC Gelocity Quick Dry Assorted Colors Gel Pens, sized for a student's pencil case, backpack, or a teacher's desk drawer for grading and color-coded marking",
+    "BUILT FOR STUDENTS AND TEACHERS: Twelve different colors let students color-code notes by subject, annotate reading assignments, and organize study guides; teachers reach for these pens for grading handouts and keeping color-coded classroom records",
+    "QUICK DRY INK THAT DOESN'T SMEAR: Vibrant ink dries in as little as five seconds, making these a dependable choice for left-handed students and anyone who needs notes and assignments to stay clean and readable",
+    "SMOOTH WRITING FOR LONG SESSIONS: Easy-flowing gel ink writes fluidly with a full-length grip that keeps writing comfortable during class note-taking, homework, and school projects from the first day of school through finals",
+    "RETRACTABLE WITH A CLIP FOR ON-THE-GO: One click to start writing; the plastic clip keeps pens attached to notebooks and folders so they stay accessible throughout the school day and don't disappear into a backpack"
+  ],
+  "product_description": [
+    {
+      "position": 1,
+      "title": "image",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/6949c5f8-b3f3-4bc1-ba5f-75f603efc636.__CR0,0,1940,1200_PT0_SX970_V1___.jpg"
+    },
+    {
+      "position": 2,
+      "title": "image",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/12a9aa71-a20e-466b-8298-34f57ec38c4c.__CR0,0,1940,1200_PT0_SX970_V1___.jpg"
+    },
+    {
+      "position": 3,
+      "features": [
+        {
+          "position": 1,
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/3ecc6130-f855-4a75-9e7e-662118f37e55.__CR0,0,600,600_PT0_SX300_V1___.jpg"
+        },
+        {
+          "position": 2,
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/4e4d8001-3a49-44e8-9924-7b825b358463.__CR0,0,600,600_PT0_SX300_V1___.jpg"
+        },
+        {
+          "position": 3,
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/6efec4e2-f903-4716-b499-220aad371fb1.__CR0,0,600,600_PT0_SX300_V1___.jpg"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "title": "image",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/53bef529-151c-4aca-a436-bfb4f73fac8a.__CR0,0,1940,600_PT0_SX970_V1___.jpg"
+    },
+    {
+      "position": 5,
+      "compare_with_similar": [
+        {
+          "position": 1,
+          "asin": "B0744D6P4V",
+          "title": "Gelocity Quick Dry",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d5bf356e-965c-44d7-8609-a45631016e81.__CR0,0,300,600_PT0_SX150_V1___.jpg",
+          "link": "https://www.amazon.com/dp/B0744D6P4V?ref=emc_s_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0744D6P4V&device=desktop&engine=amazon_product",
+          "rating": 4.8,
+          "reviews": 22348,
+          "price": "$14.79",
+          "extracted_price": 14.79,
+          "product_name": "Gelocity Quick Dry",
+          "type": "Gel Pen",
+          "point_size": "0.7mm",
+          "key_features": "Vibrant colorful ink dries in as little as five seconds to prevent smearing",
+          "closure_type": "Retractable"
+        },
+        {
+          "position": 2,
+          "asin": "B09V89H8SH",
+          "title": "Gelocity Smooth Stic",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/20b62d81-bef0-435c-843c-98b9fbd93dc2.__CR0,0,300,600_PT0_SX150_V1___.jpg",
+          "link": "https://www.amazon.com/dp/B09V89H8SH?ref=emc_s_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09V89H8SH&device=desktop&engine=amazon_product",
+          "rating": 4.4,
+          "reviews": 937,
+          "price": "$8.89",
+          "extracted_price": 8.89,
+          "product_name": "Gelocity Smooth Stic",
+          "type": "Gel Pen",
+          "point_size": "0.7mm",
+          "key_features": "Vibrant, smooth gel ink is ideal for notes, lists, and other everyday writing tasks - great pens for note taking",
+          "closure_type": "Snap Cap"
+        },
+        {
+          "position": 3,
+          "asin": "B0DDTWW3GQ",
+          "title": "Gelocity Pro",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d018c0fe-7cc7-41d0-a3ca-c71863b193ac.__CR0,0,300,600_PT0_SX150_V1___.jpg",
+          "link": "https://www.amazon.com/dp/B0DDTWW3GQ?ref=emc_s_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DDTWW3GQ&device=desktop&engine=amazon_product",
+          "rating": 4.8,
+          "reviews": 230,
+          "price": "$11.99",
+          "extracted_price": 11.99,
+          "product_name": "Gelocity Pro",
+          "type": "Gel Pen",
+          "point_size": "0.7mm",
+          "key_features": "30% smoother writing than the leading gel competitor with smear-resistant ink and an ultra-comfortable grip in a sleek barrel",
+          "closure_type": "Retractable"
+        },
+        {
+          "position": 4,
+          "asin": "B002JFR8Q8",
+          "title": "4-Color Original",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/86534619-ff0a-45d5-b355-4052e3d2feeb.__CR0,0,300,600_PT0_SX150_V1___.jpg",
+          "link": "https://www.amazon.com/dp/B002JFR8Q8?ref=emc_s_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B002JFR8Q8&device=desktop&engine=amazon_product",
+          "rating": 4.8,
+          "reviews": 26673,
+          "price": "$5.99",
+          "extracted_price": 5.99,
+          "product_name": "4-Color Original",
+          "type": "Ball Pen",
+          "point_size": "1.0mm",
+          "key_features": "These BIC pens feature four long lasting colors in one pen: black, blue, red and green that are perfect for everyday writing at work, school or home",
+          "closure_type": "Retractable"
+        }
+      ]
+    }
+  ],
+  "product_details": {
+    "writing_instrument_form": "Gel Pen",
+    "ink_color": "Assorted",
+    "drill_point": "Medium",
+    "additional_features": "Pocket Clip, Retractable, Smear Resistant",
+    "line_size": "0.7",
+    "hand_orientation": "Ambidextrous",
+    "grip_type": "Full-length",
+    "hardness": "HB",
+    "writing_technique": "Gel Ink",
+    "closure_type": "Retractable",
+    "color": "Assorted",
+    "theme": "Stationery",
+    "style": "Vibrant Themed",
+    "body_shape": "Round",
+    "pattern": "Gel Pens",
+    "material_type": "Plastic",
+    "ink_base": "Water",
+    "brand_name": "BIC",
+    "age_range_description": "Adult",
+    "model_name": "GELOCITY FASHION FULL GRIP 0.7",
+    "recommended_uses_for_product": "Writing",
+    "included_components": "gel pens (12)",
+    "model_number": "RGLCGA11-A-AST",
+    "upc": "070330358157",
+    "global_trade_identification_number": "00070330358157",
+    "manufacturer": "BIC Corporation",
+    "warranty_description": "LIFETIME",
+    "best_sellers_rank": [
+      {
+        "text": "#258 in Office Products (See Top 100 in Office Products)",
+        "extracted_rank": 258,
+        "link": "https://www.amazon.com/gp/bestsellers/office-products/ref=pd_zg_ts_office-products",
+        "link_text": "See Top 100 in Office Products"
+      },
+      {
+        "text": "#16 in Gel Ink Pens",
+        "extracted_rank": 16,
+        "link": "https://www.amazon.com/gp/bestsellers/office-products/1069828/ref=pd_zg_hrsr_office-products",
+        "link_text": "Gel Ink Pens"
+      }
+    ],
+    "asin": "B0744D6P4V",
+    "customer_reviews": "4.8 out of 5 stars",
+    "rating": 4.8,
+    "reviews": 22348,
+    "unit_count": "12 Count",
+    "item_dimensions": "1.31 x 6 x 2.75 inches",
+    "item_weight": "0.27 g",
+    "item_diameter": "0.7 millimeters"
+  },
+  "reviews_information": {
+    "summary": {
+      "text": "Customers find these gel pens to be of good quality, with smooth writing performance and vibrant, dark ink that doesn't smudge or bleed. The pens are comfortable to hold, particularly during long writing sessions, and customers appreciate their quick-drying ink and even flow.",
+      "insights": [
+        {
+          "title": "Quality",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 1600,
+            "positive": 1525,
+            "negative": 111
+          },
+          "summary": "Customers find these pens to be of good quality, describing them as their absolute favorite.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "I’d have to agree with ALL THE OTHER REVIEWS! They’re great pens. I love them. But it sucks that everyone is not getting the orange pen!...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R15PSNY3VCHWMI"
+            },
+            {
+              "position": 2,
+              "snippet": "Love these pens. Love the colors and the way they write. A few of the colors don't write dark enough. But love the pink, purple, and teal blue.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R15V29OB9HBXF1"
+            },
+            {
+              "position": 3,
+              "snippet": "I’m very disappointed in this company, although I love these pens I do not like the fact that these have very little ink in them so you end up with...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R19DVXKBOMO5A9"
+            },
+            {
+              "position": 4,
+              "snippet": "Way cheaper than buying 2 at the store for 5 bucks. These are my favorite pens they make it smooth to write and great support when holding.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R36LH08NH1XCTW"
+            }
+          ]
+        },
+        {
+          "title": "Writing performance",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 723,
+            "positive": 674,
+            "negative": 49
+          },
+          "summary": "Customers praise how smoothly these pens write.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...But, the rest of the aspects of the pen - the smooth writing, the bold, rich lines, and the bright colors - make it worth ignoring the discomfort...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R30Y189HQ0B39K"
+            },
+            {
+              "position": 2,
+              "snippet": "These pens write smoothly--however, the ink will smear if touched before it dries. I use them for everything--so much so--that they run out of ink.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1KSZMEBRRHFBU"
+            },
+            {
+              "position": 3,
+              "snippet": "...I have them in all the colors! They write so smooth and the full rubber grip on the entire pen means no matter how YOU hold your pen, you have the...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1IPKT882AD92M"
+            },
+            {
+              "position": 4,
+              "snippet": "Beautiful colors and writes well. I love these pens and use them often for color coding, graphing and making a note pop with color to catch my eye.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3E880DB2Z1PC2"
+            }
+          ]
+        },
+        {
+          "title": "Color",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 626,
+            "positive": 510,
+            "negative": 116
+          },
+          "summary": "Customers appreciate the pens' colors, describing them as vibrant and very pigmented.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Great colors but multiple pens stopped working very quickly. Plenty of ink left, but ink won't flow even heating the end didnt help.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R10NZXPES36XXK"
+            },
+            {
+              "position": 2,
+              "snippet": "I love the colors and all the shades. I bought these because of the brand and the fact they were 0.7 mm. Did not disappoint in that regard....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RDVJEY2CHPNHG"
+            },
+            {
+              "position": 3,
+              "snippet": "...I can comment on how awesome other aspects of these pens are. The colors are vibrant, the ink is super smooth and the do indeed dry quickly....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RBO3V9Q3MX3J5"
+            },
+            {
+              "position": 4,
+              "snippet": "Beautiful colors and writes well. I love these pens and use them often for color coding, graphing and making a note pop with color to catch my eye.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3E880DB2Z1PC2"
+            }
+          ]
+        },
+        {
+          "title": "Smoothness",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 326,
+            "positive": 313,
+            "negative": 13
+          },
+          "summary": "Customers appreciate the smoothness of these pens, describing them as the smoothest with a great feel when writing.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...to find the pack of blue but as a left handed writer these pens are smooth and dry quickly so that I do not have ink running down the side of my hand...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1DA6MW5XKJ0AV"
+            },
+            {
+              "position": 2,
+              "snippet": "...These are my absolute favorite. They're so smooth, the ink flow is beautiful, you can get fun colors if you like, and the best part, they dry FAST!...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2UC4OWVAR8N1R"
+            },
+            {
+              "position": 3,
+              "snippet": "...The photo shows my very first write with each pen. Very smooth and fast drying. They have great pigment. I love the rubbery texture of the pens....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R4AF7DWENFOHO"
+            },
+            {
+              "position": 4,
+              "snippet": "Love the pens. Super smooth and last a long time. This however was a used opened box with 1 pen missing the plastic tip and two duplicate blue pens.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1F03NJGN3R9HT"
+            }
+          ]
+        },
+        {
+          "title": "Smudge-resistant",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 294,
+            "positive": 249,
+            "negative": 45
+          },
+          "summary": "Customers praise these pens for their smudge-resistant properties, noting that the ink doesn't smear, bleed, or leave blotches.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...are medium point and another great feature they dry really fast so no smearing and you get 12 pens in the box so they are a good value",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3AZOH49VEGVT6"
+            },
+            {
+              "position": 2,
+              "snippet": "...They write smoothly and leave a nice line, though it is a bit thick. No smudging and the design makes it easy to hold, though very small hands may...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2PKW9FUBRTT25"
+            },
+            {
+              "position": 3,
+              "snippet": "...Not only have they worked great and don't smear but I've had this pack for almost a year and 3 of the pens just started to run out... after one year...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R39EMOJQZED61A"
+            },
+            {
+              "position": 4,
+              "snippet": "...The ink dries quickly, so there are no smudges when I’m scribbling notes in a hurry, and the grip is comfortable enough for long writing sessions....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RNBKJVOD51MVX"
+            }
+          ]
+        },
+        {
+          "title": "Drying time",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 280,
+            "positive": 234,
+            "negative": 46
+          },
+          "summary": "Customers appreciate that these pens dry quickly and never run dry, with one customer noting they last a long time without drying out.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...These pens right so smooth and dry quickly. These will definitely be the pens I use from now on. These pens don’t clog or get spotty when writing....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R25JDCTR6WZ8ZR"
+            },
+            {
+              "position": 2,
+              "snippet": "...Cute colors and quick dry I would highly recommend these to someone looking for fun pens. Attached is the pink color!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2LIZR23O4XOMH"
+            },
+            {
+              "position": 3,
+              "snippet": "Writes smoothly, dries quickly and it is a nice medium-point. Loves these for work and will be buying more to share with my colleagues.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1UEL7BCJ2K050"
+            },
+            {
+              "position": 4,
+              "snippet": "...and wasn’t even closed correctly and I love how the pen write and the dry fast and work great I just didn’t like how the plastic part broke and I...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3RPVR6Y2CY9A3"
+            }
+          ]
+        },
+        {
+          "title": "Ink flow",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 224,
+            "positive": 167,
+            "negative": 57
+          },
+          "summary": "Customers appreciate the ink flow of these pens, describing it as smooth and even, with one customer noting that it doesn't bleed through much.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...felt tip pen, with the added bonus of extremely smooth writing, and no bleeding. I'm about to order a second box for work....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2BS93759DRM7X"
+            },
+            {
+              "position": 2,
+              "snippet": "Love these pens! Great flow",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R22U6UCNX8BTJX"
+            },
+            {
+              "position": 3,
+              "snippet": "Full of ink and won't work at all... not the only color like this either",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1J64KZN1ZKAS1"
+            },
+            {
+              "position": 4,
+              "snippet": "The best pens. They are the right amount of juicy, have a good ink flow and don’t smudge with my left handedness",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R21AGIU53ANYZJ"
+            }
+          ]
+        },
+        {
+          "title": "Comfort",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 194,
+            "positive": 176,
+            "negative": 18
+          },
+          "summary": "Customers find these pens comfortable to hold, particularly noting that the grip is suitable for long writing sessions and easy on their hands.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...The pen is comfortable to hold and fits a lot of hands; my second favorite pen is the Pilot G-Tec C4, but the tiny, friction-attracting tip makes it...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R17XJJTVBIYKHI"
+            },
+            {
+              "position": 2,
+              "snippet": "I am a big of a pen snob and seek out pens that are comfortable and smooth, but at the same time cheap and so they need to be inexpensive enough...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RM3W0W1097T35"
+            },
+            {
+              "position": 3,
+              "snippet": "As advertised. Very smooth writing. Good longevity. Comfortable grip. Decent, fairly broad writing tip. I definitely recommend these pens.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3OV5WKK5OWR6Y"
+            },
+            {
+              "position": 4,
+              "snippet": "These pens are everything!! Writes so smooth & comfortable to write with!! I’m am obsessed!! Colors are so vibrant & doesn’t bleed or run!!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2BPPDNU0TRM86"
+            }
+          ]
+        }
+      ],
+      "customer_reviews": {
+        "5 star": 87,
+        "4 star": 8,
+        "3 star": 3,
+        "2 star": 1,
+        "1 star": 1
+      }
+    }
+  }
+}

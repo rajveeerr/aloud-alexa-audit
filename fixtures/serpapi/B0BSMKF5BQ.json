@@ -1,0 +1,191 @@
+{
+  "product_results": {
+    "categories": [
+      {
+        "position": 1,
+        "name": "Office Products",
+        "link": "https://www.amazon.com/Office-Products/b/ref=dp_bc_1?ie=UTF8&node=1064954",
+        "node": "1064954",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1064954"
+      },
+      {
+        "position": 2,
+        "name": "Office & School Supplies",
+        "link": "https://www.amazon.com/Office-Supplies/b/ref=dp_bc_2?ie=UTF8&node=1069242",
+        "node": "1069242",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1069242"
+      },
+      {
+        "position": 3,
+        "name": "Writing & Correction Supplies",
+        "link": "https://www.amazon.com/Writing-Correction-Supplies-Office-School/b/ref=dp_bc_3?ie=UTF8&node=1069784",
+        "node": "1069784",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1069784"
+      },
+      {
+        "position": 4,
+        "name": "Pens & Refills",
+        "link": "https://www.amazon.com/Pens/b/ref=dp_bc_4?ie=UTF8&node=1069820",
+        "node": "1069820",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1069820"
+      },
+      {
+        "position": 5,
+        "name": "Rollerball Pens",
+        "link": "https://www.amazon.com/Rollerball-Pens/b/ref=dp_bc_5?ie=UTF8&node=1069838",
+        "node": "1069838",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1069838"
+      },
+      {
+        "position": 6,
+        "name": "Gel Ink Rollerball Pens",
+        "link": "https://www.amazon.com/Gel-Ink-Pens/b/ref=dp_bc_6?ie=UTF8&node=1069828",
+        "node": "1069828",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1069828"
+      }
+    ],
+    "asin": "B0BYPTVZH6",
+    "title": "SHARPIE S-Gel Gel Pens, Medium Point (0.7mm) Green, Fine Point (0.5mm) Blue, 24 Count",
+    "link": "https://www.amazon.com/SHARPIE-S-Gel-Medium-Point-0-7mm/dp/B0BSMKF5BQ/",
+    "link_clean": "https://www.amazon.com/dp/B0BSMKF5BQ/",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0BYPTVZH6&device=desktop&engine=amazon_product",
+    "brand": "Sharpie Format: Product Bundle",
+    "thumbnail": "https://m.media-amazon.com/images/I/51ZMo1f12fL._SY300_SX300_QL70_FMwebp_.jpg",
+    "thumbnails": [
+      "https://m.media-amazon.com/images/I/61U0nCAaBHL._SL1001_.jpg",
+      "https://m.media-amazon.com/images/I/81sw7neiDvL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81mYgOn+hGL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/612o7NFwIJL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81Z-lBBwIGL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81mWWlnMh0L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61hRACRjusL._SL1500_.jpg"
+    ],
+    "price": "$36.98",
+    "extracted_price": 36.98,
+    "price_unit": "$1.54 / count",
+    "extracted_price_unit": 1.54,
+    "delivery": [
+      "Delivery Tomorrow, October 28. Order within 10 hrs 47 mins"
+    ],
+    "stock": "In Stock",
+    "description": "SHARPIE S-Gel, Gel Pens, Medium Point (0.7mm), Green Gel Ink Pens, 12 CountThe power of Sharpie is now in a gel pen with the Sharpie S-Gel. With no smear, no bleed technology and bold, best-in-class ink, this Sharpie pen delivers always-vivid writing. It’s a high-performance gel pen with a sleek, professional look that makes it a writing instrument you won't want to loan out. And the contoured rubber grip makes for comfortable writing during any task. Available in multiple point sizes, barrel finishes and gel ink colors, Sharpie S-Gel offers a smooth writing experience perfect for homes, schools, or offices.SHARPIE S-Gel, Gel Pens, Fine Point (0.5mm), Blue Ink Gel Pen, 12 CountThe power of Sharpie is now in a gel pen with the Sharpie S-Gel. With no smear, no bleed technology and bold, best-in-class ink, this Sharpie pen delivers always-vivid writing. It’s a high-performance gel pen with a sleek, professional look that makes it a writing instrument you won't want to loan out. And the contoured rubber grip makes for comfortable writing during any task. Available in multiple point sizes, barrel finishes and gel ink colors, Sharpie S-Gel offers a smooth writing experience perfect for homes, schools, or offices."
+  },
+  "purchase_options": {
+    "single_offer": {
+      "price": "$36.98",
+      "extracted_price": 36.98,
+      "price_unit": "$1.54 / count",
+      "extracted_price_unit": 1.54,
+      "delivery": [
+        "Delivery Tomorrow, October 28. Order within 10 hrs 47 mins"
+      ],
+      "stock": "In Stock",
+      "features": {
+        "shipper_seller": {
+          "text": "Amazon.com",
+          "details": {
+            "heading": "Shipper / Seller",
+            "content": "Amazon.com"
+          }
+        },
+        "returns": {
+          "text": "30-day refund / replacement",
+          "details": {
+            "heading": "30-day refund / replacement"
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "payment": {
+          "text": "Secure transaction",
+          "details": {
+            "heading": "Your transaction is secure",
+            "content": "We work hard to protect your security and privacy. Our payment security system encrypts your information during transmission. We don’t share your credit card details with third-party sellers, and we don’t sell your information to others. Learn more"
+          },
+          "link": {
+            "text": "Learn more",
+            "link": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201909010"
+          }
+        },
+        "gift_options": {
+          "text": "Available at checkout Available at checkout This item is a gift. Change",
+          "details": {
+            "content": "Add gift options at checkout"
+          }
+        }
+      }
+    }
+  },
+  "item_specifications": {
+    "brand": "Sharpie",
+    "writing_instrument_form": "Multifunction Writing Instruments",
+    "color": "Green",
+    "ink_color": "Blue,Green",
+    "age_range_description": "Adult"
+  },
+  "product_description": [
+    {
+      "position": 1,
+      "title": "1",
+      "image": "https://m.media-amazon.com/images/S/aplus-media/vc/87648442-3eea-495a-9dae-de9add69abda.__CR0,0,970,300_PT0_SX970_V1___.jpg"
+    },
+    {
+      "position": 2
+    },
+    {
+      "position": 3,
+      "features": [
+        {
+          "position": 1,
+          "title": "No Smear, No Bleed Technology",
+          "image": "https://m.media-amazon.com/images/S/aplus-media/vc/c7733727-1610-449c-989c-0daf9a47495a.__CR0,0,440,440_PT0_SX220_V1___.jpg"
+        },
+        {
+          "position": 2,
+          "title": "Contoured Rubber Grip",
+          "image": "https://m.media-amazon.com/images/S/aplus-media/vc/9923d845-e90f-4d63-af45-896764e55900.__CR0,0,440,440_PT0_SX220_V1___.jpg"
+        },
+        {
+          "position": 3,
+          "title": "Vivid Ink Colors",
+          "image": "https://m.media-amazon.com/images/S/aplus-media/vc/a1f5ead0-e4d6-42cb-acf8-057159e2d849.__CR0,0,440,440_PT0_SX220_V1___.jpg"
+        },
+        {
+          "position": 4,
+          "title": "Multiple Point Sizes",
+          "image": "https://m.media-amazon.com/images/S/aplus-media/vc/352e0487-efdb-4049-9f7e-045b34d8bd41.__CR0,0,440,440_PT0_SX220_V1___.jpg"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "title": "1",
+      "image": "https://m.media-amazon.com/images/S/aplus-media/vc/7b9954ae-39d3-4367-bd4c-cf9a703e450d.__CR0,0,970,300_PT0_SX970_V1___.jpg"
+    },
+    {
+      "position": 5
+    }
+  ],
+  "product_details": {
+    "manufacturer": "SHARPIE",
+    "date_first_available": "March 16, 2023",
+    "label": "SHARPIE",
+    "asin": "B0BYPTVZH6",
+    "best_sellers_rank": [
+      {
+        "text": "#513,928 in Office Products (See Top 100 in Office Products)",
+        "extracted_rank": 513928,
+        "link": "https://www.amazon.com/gp/bestsellers/office-products/ref=pd_zg_ts_office-products",
+        "link_text": "See Top 100 in Office Products"
+      },
+      {
+        "text": "#6,206 in Gel Ink Pens",
+        "extracted_rank": 6206,
+        "link": "https://www.amazon.com/gp/bestsellers/office-products/1069828/ref=pd_zg_hrsr_office-products",
+        "link_text": "Gel Ink Pens"
+      }
+    ]
+  }
+}
