@@ -1,0 +1,84 @@
+{
+  "asin": "B09YP9YYZG",
+  "promptVersion": "transcribe@2026-10-27.1",
+  "model": "gemini-3.5-flash-lite",
+  "usage": {
+    "inputTokens": 7697,
+    "outputTokens": 483
+  },
+  "images": 7,
+  "skippedImageIds": [],
+  "modelOutput": [
+    {
+      "imageId": "img.0",
+      "claims": [
+        "PREMIUM GEL ROLLER",
+        "BOLA RODANTE RETRÁCTIL CON TINTA DE GEL",
+        "Selling Gel Pen",
+        "Super Smooth",
+        "Super Suave",
+        "Refillable",
+        "Recargable",
+        "Comfort Grip",
+        "Grip Confortable",
+        "12 Pens/Piezas",
+        "NAVY",
+        "AZUL MARINO",
+        "FINE",
+        "FINO",
+        "0.7 mm"
+      ]
+    },
+    {
+      "imageId": "img.1",
+      "claims": [
+        "PREMIUM GEL ROLLER",
+        "BOLA RODANTE RETRÁCTIL CON TINTA DE GEL",
+        "Selling Gel Pen",
+        "Super Smooth",
+        "Super Suave",
+        "Refillable",
+        "Recargable",
+        "Comfort Grip",
+        "Grip Confortable",
+        "12 Pens/Piezas",
+        "NAVY",
+        "AZUL MARINO",
+        "FINE",
+        "FINO",
+        "0.7 mm"
+      ]
+    },
+    {
+      "imageId": "img.2",
+      "claims": [
+        "Refillable"
+      ]
+    },
+    {
+      "imageId": "img.3",
+      "claims": [
+        "AMERICA'S #1 SELLING PEN",
+        "PROVEN #1 LONGEST WRITING GEL PEN",
+        "SUPER SMOOTH & QUICK DRYING"
+      ]
+    },
+    {
+      "imageId": "img.4",
+      "claims": [
+        "Retractable",
+        "Sturdy Clip",
+        "Refillable",
+        "Comfort Grip"
+      ]
+    },
+    {
+      "imageId": "img.5",
+      "claims": []
+    },
+    {
+      "imageId": "img.6",
+      "claims": []
+    }
+  ]
+}

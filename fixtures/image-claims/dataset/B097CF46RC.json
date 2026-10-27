@@ -1,0 +1,108 @@
+{
+  "asin": "B097CF46RC",
+  "promptVersion": "transcribe@2026-10-27.1",
+  "model": "gemini-3.5-flash-lite",
+  "usage": {
+    "inputTokens": 7763,
+    "outputTokens": 651
+  },
+  "images": 7,
+  "skippedImageIds": [],
+  "modelOutput": [
+    {
+      "imageId": "img.0",
+      "claims": [
+        "26233",
+        "LIQUID GEL PEN",
+        "B",
+        "Bold",
+        "1.0mm",
+        "BLACK INK",
+        "SMOOTHEST WRITING INK*",
+        "QUICK DRYING INK",
+        "Liquid Gel Ink"
+      ]
+    },
+    {
+      "imageId": "img.1",
+      "claims": [
+        "1.0",
+        "Liquid Gel Ink"
+      ]
+    },
+    {
+      "imageId": "img.2",
+      "claims": [
+        "1.0",
+        "Liquid Gel Ink"
+      ]
+    },
+    {
+      "imageId": "img.3",
+      "claims": [
+        "Liquid Gel Ink"
+      ]
+    },
+    {
+      "imageId": "img.4",
+      "claims": [
+        "Metal Tip",
+        "1.0",
+        "mm ball",
+        "Liquid Gel Ink"
+      ]
+    },
+    {
+      "imageId": "img.5",
+      "claims": [
+        "RED",
+        "0.7MM",
+        "1.0MM",
+        "GREEN",
+        "0.7 MM",
+        "1.0 MM",
+        "BROWN",
+        "0.7 MM",
+        "ORANGE",
+        "0.7MM",
+        "PINK",
+        "0.7MM",
+        "LIME GREEN",
+        "0.7MM",
+        "BLACK",
+        "0.7MM",
+        "1.0MM",
+        "BLUE",
+        "0.7 MM",
+        "1.0 MM",
+        "VIOLET",
+        "0.7 MM",
+        "1.0 MM",
+        "NAVY BLUE",
+        "0.7 MM",
+        "SKY BLUE",
+        "0.7 MM",
+        "TURQUOISE BLUE",
+        "0.7 MM"
+      ]
+    },
+    {
+      "imageId": "img.6",
+      "claims": [
+        "Metal Tip 0.7 mm",
+        "Metal Tip 1.0",
+        "Metal Tip 1.0",
+        "Metal Tip 1.0",
+        "Metal Tip 1.0",
+        "Metal Tip 0.7",
+        "Metal Tip 0.7",
+        "Metal Tip 0.7",
+        "Metal Tip 0.7",
+        "Metal Tip 0.7",
+        "Metal Tip 0.7",
+        "Metal Tip 0.7",
+        "Metal Tip 0.7"
+      ]
+    }
+  ]
+}

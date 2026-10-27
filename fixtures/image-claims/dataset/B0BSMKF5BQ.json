@@ -1,0 +1,95 @@
+{
+  "asin": "B0BSMKF5BQ",
+  "promptVersion": "transcribe@2026-10-27.1",
+  "model": "gemini-3.5-flash-lite",
+  "usage": {
+    "inputTokens": 8912,
+    "outputTokens": 747
+  },
+  "images": 8,
+  "skippedImageIds": [],
+  "modelOutput": [
+    {
+      "imageId": "img.0",
+      "claims": [
+        "0.7"
+      ]
+    },
+    {
+      "imageId": "img.1",
+      "claims": [
+        "RED ROUGE",
+        "12 RED | ENCRE ROUGE GEL PENS | STYLOS 0.7mm",
+        "Available in | Disponible en 3 POINT SIZES 3 TAILLES DE POINTES:",
+        "FINE 0.5mm",
+        "MEDIUM | MOYENNE 0.7mm",
+        "BOLD | GRASSE 1.0mm",
+        "Product contains a wax tip seal to prevent damage during shipping. Please remove prior to use. | La pointe du produit a un bouchon de cire pour empêcher des dommages pendant l'expédition. Veuillez le retirer avant de l'utiliser.",
+        "We would love to hear from you | Nous serions ravis de recevoir vos commentaires www.sharpie.com",
+        "ASSEMBLED IN USA | ASSEMBLÉ AUX ÉTATS-UNIS",
+        "©2020 NEWELL OFFICE BRANDS PRODUCT OF | PRODUIT DE: NEWELL OFFICE BRANDS 6655 PEACHTREE DUNWOODY ROAD NE ATLANTA, GA 30328",
+        "NO SMEAR NO BLEED TECHNOLOGY TECHNOLOGIE SANS BAVURE, NI FUITE",
+        "ALWAYS VIVID WRITING TOUJOURS UNE ÉCRITURE VIVE",
+        "12 PENS STYLOS",
+        "RED INK ENCRE ROUGE",
+        "MEDIUM MOYENNE 0.7mm",
+        "0.7"
+      ]
+    },
+    {
+      "imageId": "img.2",
+      "claims": [
+        "S-GEL COLLECTION COMES IN MULTIPLE TIP SIZES",
+        "(TIP SIZE AVAILABILITY VARIES BY INK COLOR)",
+        "FINE 0.5 MM",
+        "MEDIUM 0.7 MM",
+        "BOLD 1.0 MM"
+      ]
+    },
+    {
+      "imageId": "img.3",
+      "claims": [
+        "CHOOSE FROM A VARIETY OF GEL INK COLORS",
+        "BLACK",
+        "BLUE",
+        "RED",
+        "GREEN",
+        "PURPLE"
+      ]
+    },
+    {
+      "imageId": "img.4",
+      "claims": [
+        "NO BLEED, NO SMEAR TECHNOLOGY",
+        "ALWAYS VIVID WRITING",
+        "0.7"
+      ]
+    },
+    {
+      "imageId": "img.5",
+      "claims": [
+        "0.7",
+        "0.7",
+        "0.7",
+        "0.7"
+      ]
+    },
+    {
+      "imageId": "img.6",
+      "claims": [
+        "0.7",
+        "0.7"
+      ]
+    },
+    {
+      "imageId": "img.7",
+      "claims": [
+        "0.7",
+        "Color Red",
+        "Material Rubber",
+        "Ink Color Red",
+        "Point Type Medium"
+      ]
+    }
+  ]
+}
