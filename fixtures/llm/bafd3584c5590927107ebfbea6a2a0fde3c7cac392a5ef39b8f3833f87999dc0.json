@@ -1,0 +1,196 @@
+{
+  "data": [
+    {
+      "claimId": "ic.0",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Gel Pens"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.1",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Retractable Rolling Ball Gel Pens"
+        }
+      ],
+      "intentId": "retractable"
+    },
+    {
+      "claimId": "ic.2",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "Gel Ink Pen"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.3",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "smooth writing"
+        }
+      ],
+      "intentId": "ink_flow"
+    },
+    {
+      "claimId": "ic.4",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "ink_flow"
+    },
+    {
+      "claimId": "ic.5",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Refillable"
+        }
+      ],
+      "intentId": "refillable"
+    },
+    {
+      "claimId": "ic.6",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "refillable"
+    },
+    {
+      "claimId": "ic.7",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "comfortable rubber grip"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.8",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.9",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "12-Pack"
+        }
+      ],
+      "intentId": "pack_contents"
+    },
+    {
+      "claimId": "ic.10",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Navy Blue Ink"
+        }
+      ],
+      "intentId": "pack_contents"
+    },
+    {
+      "claimId": "ic.11",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "pack_contents"
+    },
+    {
+      "claimId": "ic.12",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Fine Point"
+        }
+      ],
+      "intentId": "tip_size"
+    },
+    {
+      "claimId": "ic.13",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "tip_size"
+    },
+    {
+      "claimId": "ic.14",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.line_size",
+          "text": "0.7 Millimeters"
+        }
+      ],
+      "intentId": "tip_size"
+    },
+    {
+      "claimId": "ic.15",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "America's #1 selling Gel Ink Pen"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.16",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Longest Lasting, Refillable Gel Ink"
+        }
+      ],
+      "intentId": "longevity"
+    },
+    {
+      "claimId": "ic.17",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "smooth-writing"
+        }
+      ],
+      "intentId": "ink_flow"
+    },
+    {
+      "claimId": "ic.18",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Retractable"
+        }
+      ],
+      "intentId": "retractable"
+    },
+    {
+      "claimId": "ic.19",
+      "coverage": "image_only",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "coverage@2026-10-27.1",
+  "usage": {
+    "inputTokens": 1282,
+    "outputTokens": 1245
+  },
+  "latencyMs": 14134,
+  "cached": false
+}

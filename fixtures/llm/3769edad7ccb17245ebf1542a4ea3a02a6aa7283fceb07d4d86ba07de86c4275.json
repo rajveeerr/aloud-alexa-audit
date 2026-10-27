@@ -1,0 +1,74 @@
+{
+  "data": [
+    {
+      "intentId": "ink_flow",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.13",
+          "text": "Smooth Writing without Skipping"
+        }
+      ],
+      "draft": "Smooth Writing without Skipping: Enjoy consistent lines and reliable performance for all your everyday writing tasks."
+    },
+    {
+      "intentId": "longevity",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Please provide the writing longevity in meters, pages, or a long-lasting ink claim to answer this question."
+    },
+    {
+      "intentId": "refillable",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Please specify if the pen is refillable and which refill type is compatible."
+    },
+    {
+      "intentId": "bleed_through",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Please state whether the ink prevents bleed-through or show-through on paper."
+    },
+    {
+      "intentId": "leaking",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.11",
+          "text": "Each Pen is Sealed with Waxto Prevent ink from Drying"
+        }
+      ],
+      "draft": "Leak Prevention: Each pen is sealed with wax to prevent ink from drying out and leaking."
+    },
+    {
+      "intentId": "weight",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "attr.item_weight",
+          "text": "3.84 ounces"
+        }
+      ],
+      "draft": "Item Weight: The total package item weight is 3.84 ounces for the set."
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.19",
+          "text": "No Smear: Perfect for Left-Handed"
+        }
+      ],
+      "draft": "No Smear: Perfect for Left-Handed writers, the quick-drying ink helps keep your work clean."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.1",
+  "usage": {
+    "inputTokens": 2103,
+    "outputTokens": 552
+  },
+  "latencyMs": 4162,
+  "cached": false
+}

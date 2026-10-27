@@ -1,6 +1,8 @@
 #!/usr/bin/env bun
 /**
- * bun cli audit <asin> [--source serpapi|dataset] [--record]
+ * bun cli audit <asin> [--source serpapi|dataset] [--competitors A,B,C] [--record]
+ *
+ * Competitors default to every other fixture from the same source.
  *
  * Prints a report from fixtures. By default LLM calls replay from fixtures/llm and fail on a
  * miss, so running it costs nothing. --record calls Gemini for misses and saves the answers.
@@ -9,16 +11,20 @@
  * image bytes. Recording fetches the images into data/images (not in git).
  */
 import { join } from "node:path";
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import {
   checkCoverage,
   collectClaims,
+  computeGaps,
+  draftBriefs,
   findHiddenAnswers,
   gradeListing,
   normalize,
   scoreGrades,
   transcribeImages,
   TRANSCRIBE_PROMPT_VERSION,
+  type Brief,
+  type Gap,
   type Grade,
   type ImageBytes,
   type ImageClaim,
@@ -56,11 +62,28 @@ const run = await gradeListing(listing, intentSet, llm, MODEL);
 const score = scoreGrades(run.grades, intentSet.intents);
 printReport(listing, intentSet, run.grades, score, run);
 
-const claims = await loadImageClaims(listing, gemini);
-if (claims) {
-  const coverage = await checkCoverage(listing, claims, intentSet.intents, llm, MODEL);
-  const hidden = findHiddenAnswers(run.grades, claims, coverage.matches, intentSet.intents);
-  printHidden(listing, intentSet, claims, coverage.matches, hidden);
+const claims = (await loadImageClaims(listing, gemini)) ?? [];
+const coverage = await checkCoverage(listing, claims, intentSet.intents, llm, MODEL);
+const hidden = findHiddenAnswers(run.grades, claims, coverage.matches, intentSet.intents);
+if (claims.length) printHidden(listing, intentSet, claims, coverage.matches, hidden);
+
+const competitorAsins = await pickCompetitors();
+const competitors = [];
+for (const c of competitorAsins) {
+  const craw = await new FixtureProductData(join(ROOT, "fixtures"), source).getListing(c);
+  if (!craw) continue;
+  const cl = normalize(craw);
+  competitors.push({ listing: cl, grades: (await gradeListing(cl, intentSet, llm, MODEL)).grades });
+}
+const gaps = computeGaps({ listing, grades: run.grades }, competitors, intentSet.intents, hidden);
+const briefs = await draftBriefs(listing, gaps, run.grades, claims, intentSet.intents, llm, MODEL);
+printFixes(intentSet, gaps, briefs.briefs, competitors.map((c) => c.listing.meta.brand ?? c.listing.asin));
+
+async function pickCompetitors(): Promise<string[]> {
+  const flag = args.indexOf("--competitors");
+  if (flag >= 0) return (args[flag + 1] ?? "").split(",").filter(Boolean);
+  const files = await readdir(join(ROOT, "fixtures", source));
+  return files.map((f) => f.replace(".json", "")).filter((a) => a !== asin);
 }
 
 async function loadImageClaims(l: Listing, model: GeminiLlm | null): Promise<ImageClaim[] | null> {
@@ -132,4 +155,20 @@ function printHidden(
     console.log(`  ${i.question} (${i.frequency}) — text: ${h.textStatus}`);
     for (const c of h.claims) console.log(`    "${c.text}"  in ${c.imageIds.map((id) => `${id} (${kinds.get(id)})`).join(", ")}`);
   }
+}
+
+function printFixes(set: IntentSet, gaps: Gap[], briefs: Brief[], competitorNames: string[]) {
+  const intents = new Map(set.intents.map((i) => [i.id, i]));
+  console.log(`\nGaps against ${competitorNames.join(", ")}: ${gaps.length}`);
+  console.log(`\nFix list (top ${briefs.length})`);
+  briefs.forEach((b, n) => {
+    const gap = gaps.find((g) => g.intentId === b.intentId)!;
+    const share = gap.competitorShare === null ? "" : `, ${gap.competitorsAnswering.length} of ${competitorNames.length} competitors answer it`;
+    console.log(`\n${n + 1}. ${intents.get(b.intentId)!.question}  [priority ${b.priority}: ${gap.frequency} asking${share}]`);
+    console.log(`   ${b.action} → ${b.target}${b.flags.length ? `  [${b.flags.join(", ")}]` : ""}`);
+    if (b.draft) console.log(`   draft: "${b.draft}"`);
+    if (b.rejectedStatements) console.log(`   rejected from model draft: ${b.rejectedStatements.map((x) => `"${x}"`).join(", ")}`);
+    if (b.needsFromBrand) console.log(`   needs from brand: ${b.needsFromBrand}`);
+    for (const s of b.sources) console.log(`   source ${s.kind} ${s.id}: "${s.text}"`);
+  });
 }

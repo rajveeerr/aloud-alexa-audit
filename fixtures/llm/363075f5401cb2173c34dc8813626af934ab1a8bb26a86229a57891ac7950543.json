@@ -1,0 +1,91 @@
+{
+  "data": [
+    {
+      "intentId": "ink_flow",
+      "target": "bullet.1",
+      "sources": [
+        {
+          "id": "bullet.1",
+          "text": "Smooth & Long-lasting: Enjoy a smooth writing experience with these black gel pens—Pilot pens that glide effortlessly across the page."
+        },
+        {
+          "id": "ic.3",
+          "text": "Super Smooth"
+        }
+      ],
+      "draft": "Smooth & Long-lasting: Enjoy a super smooth writing experience with these black gel pens—Pilot pens that glide effortlessly and consistently across the page."
+    },
+    {
+      "intentId": "durability",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.23",
+          "text": "Reliable & Durable"
+        },
+        {
+          "id": "attr.warranty_description",
+          "text": "Warranty description: see packagin"
+        }
+      ],
+      "draft": "Reliable & Durable: These dependable pens are built for everyday use, with warranty details available on the packaging."
+    },
+    {
+      "intentId": "bleed_through",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Does the brand state that the ink does not bleed through paper?"
+    },
+    {
+      "intentId": "leaking",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Does the brand state that the pens are leak-proof or do not blob?"
+    },
+    {
+      "intentId": "surface_compatibility",
+      "target": "bullet.3",
+      "sources": [
+        {
+          "id": "bullet.3",
+          "text": "Versatile: These black G2 pens are perfect for everyday writing tasks such as taking notes and jotting down grocery lists"
+        },
+        {
+          "id": "ic.32",
+          "text": "A favorite for school, work, & everyday writing"
+        }
+      ],
+      "draft": "Versatile: These black G2 pens are perfect for everyday writing tasks such as taking notes, jotting down grocery lists, school, and work."
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "attr.hand_orientation",
+          "text": "Hand orientation: Left"
+        }
+      ],
+      "needsFromBrand": "Does the brand state that the quick-drying ink prevents smudging specifically for left-handed writers?"
+    },
+    {
+      "intentId": "weight",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "attr.item_weight",
+          "text": "Item weight: 4.96 ounces"
+        }
+      ],
+      "needsFromBrand": "What is the exact weight of a single pen?"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.1",
+  "usage": {
+    "inputTokens": 3404,
+    "outputTokens": 714
+  },
+  "latencyMs": 9011,
+  "cached": false
+}

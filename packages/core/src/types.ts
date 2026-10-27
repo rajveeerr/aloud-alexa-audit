@@ -135,3 +135,40 @@ export type HiddenAnswer = {
   textStatus: "missing" | "partial";
   claims: ImageClaim[];
 };
+
+/** One question the listing doesn't fully answer, ranked against its competitors. */
+export type Gap = {
+  intentId: string;
+  /** The listing's own verified status on this question. */
+  status: "missing" | "partial" | "contradicted";
+  frequency: number;
+  /** Share of competitors that answer it: answered counts 1, partial 0.5. Null with no competitors. */
+  competitorShare: number | null;
+  competitorsAnswering: { asin: string; brand?: string; quote: Quote }[];
+  /** Answers the brand already gives, but only in images. */
+  hiddenClaims: ImageClaim[];
+  priority: number;
+};
+
+export type BriefAction = "fix_contradiction" | "move_from_image" | "edit_field" | "add_bullet" | "request_fact";
+
+export type BriefSource = { kind: "field" | "image"; id: string; text: string };
+
+/** A fix ready for a copy tool like Creative Studio. Facts only ever come from the brand's own data. */
+export type Brief = {
+  intentId: string;
+  question: string;
+  action: BriefAction;
+  /** Existing field id to edit, "new_bullet", or "attr.<key>". */
+  target: string;
+  /** Suggested copy. Absent for request_fact. */
+  draft?: string;
+  /** Brand data the draft is built from, verified to exist. */
+  sources: BriefSource[];
+  /** For request_fact: what the brand needs to supply. */
+  needsFromBrand?: string;
+  priority: number;
+  flags: ("source_not_found" | "unsourced_number" | "invalid_target" | "no_brand_source" | "not_drafted" | "unsupported_claim")[];
+  /** Statements the faithfulness check found in the model's draft that the sources don't support. */
+  rejectedStatements?: string[];
+};

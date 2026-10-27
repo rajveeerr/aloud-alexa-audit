@@ -1,0 +1,228 @@
+{
+  "data": [
+    {
+      "claimId": "ic.0",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.1",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "liquid and gel ink"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.2",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Bold Line"
+        }
+      ],
+      "intentId": "tip_size"
+    },
+    {
+      "claimId": "ic.3",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "1.0mm tip writes bold lines."
+        }
+      ],
+      "intentId": "tip_size"
+    },
+    {
+      "claimId": "ic.4",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Black Ink"
+        }
+      ],
+      "intentId": "pack_contents"
+    },
+    {
+      "claimId": "ic.5",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "EnerGel ink writes more smoothly than the leading brand"
+        }
+      ],
+      "intentId": "ink_flow"
+    },
+    {
+      "claimId": "ic.6",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Liquid gel ink dries so fast"
+        }
+      ],
+      "intentId": "dry_time"
+    },
+    {
+      "claimId": "ic.7",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "liquid and gel ink"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.8",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Metal Tip"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.9",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.10",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.11",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": " description.1",
+          "text": "0.7mm"
+        }
+      ],
+      "intentId": "tip_size"
+    },
+    {
+      "claimId": "ic.12",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.13",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.14",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.15",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.16",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.17",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.color",
+          "text": "Black"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.18",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.19",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.20",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.21",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.22",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.23",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Metal Tip"
+        },
+        {
+          "fieldId": "attr.line_size",
+          "text": "0.7 Millimeters"
+        }
+      ],
+      "intentId": "tip_size"
+    },
+    {
+      "claimId": "ic.24",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Metal Tip"
+        },
+        {
+          "fieldId": "description.1",
+          "text": "1.0mm"
+        }
+      ],
+      "intentId": "tip_size"
+    },
+    {
+      "claimId": "ic.25",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Metal Tip"
+        },
+        {
+          "fieldId": "attr.line_size",
+          "text": "0.7 Millimeters"
+        }
+      ],
+      "intentId": "tip_size"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "coverage@2026-10-27.1",
+  "usage": {
+    "inputTokens": 1187,
+    "outputTokens": 1487
+  },
+  "latencyMs": 10372,
+  "cached": false
+}

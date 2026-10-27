@@ -1,0 +1,76 @@
+{
+  "data": [
+    {
+      "intentId": "dry_time",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "description.1",
+          "text": "With no smear, no bleed technology and bold, best-in-class ink, this Sharpie pen delivers always-vivid writing."
+        }
+      ],
+      "needsFromBrand": "The brand's data does not specify a drying time in seconds or minutes, only that it features no smear, no bleed technology."
+    },
+    {
+      "intentId": "longevity",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "The brand's data does not state how long the ink lasts in terms of writing length or page count."
+    },
+    {
+      "intentId": "refillable",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "The brand's data does not state whether the pens are refillable or which refills fit them."
+    },
+    {
+      "intentId": "durability",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "The brand's data does not mention specific durability materials, sturdy construction, or warranty details for the pen body and tip."
+    },
+    {
+      "intentId": "surface_compatibility",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "description.1",
+          "text": "a smooth writing experience perfect for homes, schools, or offices."
+        }
+      ],
+      "needsFromBrand": "The brand's data mentions it is perfect for homes, schools, or offices, but does not list specific paper types or surfaces like cardstock or index cards."
+    },
+    {
+      "intentId": "leaking",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.16",
+          "text": "Product contains a wick seal to prevent leakage during shipping"
+        }
+      ],
+      "draft": "Product contains a wick seal to prevent leakage during shipping.",
+      "needsFromBrand": ""
+    },
+    {
+      "intentId": "weight",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "The brand's data does not provide the weight of an individual pen or its balance description."
+    },
+    {
+      "intentId": "water_resistance",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "The brand's data does not mention if the ink is waterproof, water-resistant, fade-resistant, or archival."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.1",
+  "usage": {
+    "inputTokens": 2225,
+    "outputTokens": 643
+  },
+  "latencyMs": 6690,
+  "cached": false
+}

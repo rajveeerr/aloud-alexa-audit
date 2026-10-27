@@ -1,0 +1,53 @@
+{
+  "data": [
+    {
+      "intentId": "longevity",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "The brand's data does not contain any information about how long the ink lasts or a writing length in meters or pages."
+    },
+    {
+      "intentId": "refillable",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "The brand's data does not state whether the pens are refillable or which refills they use."
+    },
+    {
+      "intentId": "bleed_through",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "The brand's data does not contain any information regarding whether the ink bleeds through paper."
+    },
+    {
+      "intentId": "leaking",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "The brand's data does not mention if the pen leaks or is blob-resistant."
+    },
+    {
+      "intentId": "water_resistance",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "The brand's data does not state whether the ink is waterproof, water-resistant, fade-resistant, or archival."
+    },
+    {
+      "intentId": "weight",
+      "target": "attr.item_weight",
+      "sources": [
+        {
+          "id": "attr.item_weight",
+          "text": "Item weight: 0.27 g"
+        }
+      ],
+      "draft": "0.27 g"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.1",
+  "usage": {
+    "inputTokens": 2540,
+    "outputTokens": 395
+  },
+  "latencyMs": 6630,
+  "cached": false
+}

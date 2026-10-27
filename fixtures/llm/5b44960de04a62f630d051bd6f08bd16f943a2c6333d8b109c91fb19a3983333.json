@@ -1,0 +1,75 @@
+{
+  "data": [
+    {
+      "intentId": "ink_flow",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.17",
+          "text": "SUPER SMOOTH & QUICK DRYING"
+        }
+      ],
+      "draft": "Super smooth and quick drying ink ensures a consistent writing experience without skipping."
+    },
+    {
+      "intentId": "dry_time",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.17",
+          "text": "SUPER SMOOTH & QUICK DRYING"
+        }
+      ],
+      "draft": "Super smooth and quick drying formula prevents smudging."
+    },
+    {
+      "intentId": "bleed_through",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Does the brand state that the ink does not bleed through paper?"
+    },
+    {
+      "intentId": "durability",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Does the brand state any specific details about pen body or tip durability, materials, or warranty?"
+    },
+    {
+      "intentId": "leaking",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Does the brand explicitly state that the pen is leak-proof or does not blob?"
+    },
+    {
+      "intentId": "refillable",
+      "target": "bullet.2",
+      "sources": [
+        {
+          "id": "description.1",
+          "text": "Retractable and refillable, G2 offers extreme value with longest lasting ink!"
+        }
+      ],
+      "draft": "Longest Lasting, Refillable Gel Ink: Proven to be the longest writing gel ink pen among top brands, the retractable and refillable G2 gel ink pen is a classic choice for all your writing needs."
+    },
+    {
+      "intentId": "surface_compatibility",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Does the brand specify particular paper types or surfaces the pen is compatible with?"
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Does the brand state that the pen is suitable for left-handed writers or smudge-free for lefties?"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.1",
+  "usage": {
+    "inputTokens": 1965,
+    "outputTokens": 589
+  },
+  "latencyMs": 3943,
+  "cached": false
+}

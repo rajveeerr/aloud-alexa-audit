@@ -1,0 +1,31 @@
+{
+  "data": [
+    {
+      "intentId": "ink_flow",
+      "unsupported": [
+        "ensures a consistent writing experience without skipping."
+      ]
+    },
+    {
+      "intentId": "dry_time",
+      "unsupported": [
+        "formula prevents smudging."
+      ]
+    },
+    {
+      "intentId": "refillable",
+      "unsupported": [
+        "Proven to be the longest writing gel ink pen among top brands",
+        "G2 gel ink pen is a classic choice for all your writing needs."
+      ]
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "faithfulness@2026-10-27.1",
+  "usage": {
+    "inputTokens": 242,
+    "outputTokens": 138
+  },
+  "latencyMs": 5272,
+  "cached": false
+}

@@ -14,3 +14,17 @@ export {
 export { scoreGrades, type Score } from "./score";
 export * from "./images";
 export type { JsonRequest, JsonResponse, PromptPart } from "./llm";
+export { computeGaps, type GradedListing } from "./gaps";
+export {
+  draftBriefs,
+  verifyBriefs,
+  applyFaithfulness,
+  buildBriefPrompt,
+  buildFaithfulnessPrompt,
+  BRIEF_PROMPT_VERSION,
+  FAITHFULNESS_PROMPT_VERSION,
+  BRIEF_SCHEMA,
+  FAITHFULNESS_SCHEMA,
+  MAX_BRIEFS,
+  type BriefRun,
+} from "./briefs";
