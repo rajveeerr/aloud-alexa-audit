@@ -1,0 +1,74 @@
+[
+  {
+    "asin": "B0C9W8DD9S",
+    "source": "serpapi",
+    "brand": "Ddaowanx",
+    "title": "Ddaowanx Gel Pens,6 Pcs 0.5mm Retractable Quick Dry Black Ink Pens",
+    "category": "Gel Ink Rollerball Pens",
+    "score": 52,
+    "contentHash": "8166aa612fa7a20e36f5f0524d9d2075483d141948b3c5cb87ee289aa898faf2"
+  },
+  {
+    "asin": "B001GAOTSW",
+    "source": "serpapi",
+    "brand": "PILOT",
+    "title": "PILOT G2 Premium Gel Pens, Fine Point 0.7mm, Black Ink, 12-Pack",
+    "category": "Gel Ink Rollerball Pens",
+    "score": 73,
+    "contentHash": "ed7edf60c7df87851f0365c0c965ae95d3f7aff6cc7151dc0ca61a3b0fe31e67"
+  },
+  {
+    "asin": "B097CF46RC",
+    "source": "serpapi",
+    "brand": "Pentel",
+    "title": "Pentel EnerGel RTX Retractable Liquid Gel Pen, Medium Line, Metal Tip, Assorted Ink 4-Pk (BL77BP4M)",
+    "category": "Gel Ink Rollerball Pens",
+    "score": 73,
+    "contentHash": "f86f50d9e74e5bad7e8005a957036f93569a57ea5a5df582951d62a1d7dcbba0"
+  },
+  {
+    "asin": "B0BGPYR8Q3",
+    "source": "serpapi",
+    "brand": "BIC",
+    "title": "BIC Gelocity Quick Dry Assorted Colors Gel Pens, 12-Count Pack, 0.7 mm",
+    "category": "Gel Ink Rollerball Pens",
+    "score": 71,
+    "contentHash": "fd318e3021e9c6fce45745dcd098ba1ba0885c1d1dbddda3ecf8dc045e3339ce"
+  },
+  {
+    "asin": "B0BSMKF5BQ",
+    "source": "serpapi",
+    "brand": "Sharpie",
+    "title": "SHARPIE S-Gel Gel Pens, Medium Point (0.7mm) Green, Fine Point (0.5mm) Blue, 24 Count",
+    "category": "Gel Ink Rollerball Pens",
+    "score": 55,
+    "contentHash": "e8604d963b3b5018c7add250a5e98c2f5adade35c8f485a35b8cb14449011515"
+  },
+  {
+    "asin": "B09VD1Z3TK",
+    "source": "dataset",
+    "brand": "U Brands",
+    "title": "U Brands Contempo Magnetic Dry Erase Board, 11 x 14 Inches, White Frame",
+    "category": "Dry Erase Boards",
+    "score": 84,
+    "contentHash": "4f240ee06159656e0491d9a22f5ad2b67cb20c8074f767f23c71298b6482b8ba"
+  },
+  {
+    "asin": "B08PD98HYG",
+    "source": "dataset",
+    "brand": "Pentel",
+    "title": "Pentel GraphGear 1000 Mechanical Pencil, (0.5mm), Black Barrel, 1 Each (PG1015A), Metallic Grey & GraphGear 500 Automatic Drafting Pencil Black (PG525A)",
+    "category": "Mechanical Pencils",
+    "score": 59,
+    "contentHash": "92e7d38997073d39d19edc7211613304f3a6174023bdbf630322c65accc27a42"
+  },
+  {
+    "asin": "B00P6N6LC2",
+    "source": "dataset",
+    "brand": "CamelBak",
+    "title": "CamelBak eddy 20oz Insulated Water Bottle (Discontinued Styles)",
+    "category": "Water Bottles",
+    "score": 60,
+    "contentHash": "9403269f1725348528c2c6f341d8c208a2d1cca8b3b2edfab08e75292aab6b86"
+  }
+]

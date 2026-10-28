@@ -1,0 +1,1986 @@
+{
+  "listing": {
+    "asin": "B09VD1Z3TK",
+    "requestedAsin": "B09VD1Z3TK",
+    "marketplace": "amazon.com",
+    "source": "dataset",
+    "fetchedAt": "2023-09-01T00:00:00.000Z",
+    "fields": [
+      {
+        "id": "title",
+        "kind": "title",
+        "text": "U Brands Contempo Magnetic Dry Erase Board, 11 x 14 Inches, White Frame"
+      },
+      {
+        "id": "bullet.1",
+        "kind": "bullet",
+        "text": "The premium magnetic dry erase surface is highly durable, never stains or ghosts, erases easily and duals as a bulletin board with magnet included"
+      },
+      {
+        "id": "bullet.2",
+        "kind": "bullet",
+        "text": "Dry erase marker included, featuring a magnetic cap with built-in felt eraser and a contoured marker cap shape which prevents the markers from rolling off any flat surface or tray"
+      },
+      {
+        "id": "bullet.3",
+        "kind": "bullet",
+        "text": "The slim and stylish white Contempo frame design provides a modern look to any office, home or commercial environment"
+      },
+      {
+        "id": "bullet.4",
+        "kind": "bullet",
+        "text": "Customize your board with U Brands Gruv snap-in frame accessories (sold separately) that can be easily snapped into any side of the frame"
+      },
+      {
+        "id": "bullet.5",
+        "kind": "bullet",
+        "text": "Easily mount your 11\" x 14\" board with the included hassle-free mounting hardware and instructions"
+      },
+      {
+        "id": "description.1",
+        "kind": "description",
+        "text": "This contemporary white plastic frame magnetic dry erase board is a perfect and functional solution for the frequent usage areas of your home, office, school classroom, any commercial space. This feature-packed magnetic whiteboard is an exemplary solution to keep your life organized well beyond the board's dry erase function. The whiteboard's magnetic writing surface requires minimal ongoing cleaning care to ensure the best performance and resist ink staining and ghosting. Simply use any dry erase board spray or wet dry erase board wipes after continuous use to clean the writing surface. Although all dry erase markers work well with this board, the U Brands dry erase markers provide the ultimate writing experience. A medium point black dry erase marker is included with the whiteboard and features a built-in eraser for easy and convenient erasability. The board's magnetic writing surface functions as a bulletin board as well, by simply using any board magnets to pin all of your notes, messages, pictures, memos, calendars, menus, reminders and more. You may also customize your board with U Brands Gruv snap-in frame accessories (sold separately). All U Brands Gruv accessories and marker clip can be snapped into any side of the frame to customize the board and its function to your specific needs and usage. The modern white plastic frame provides a firm and rigid board construction. This contemporary dry erase board features U-Mount hassle free mounting system as well, which makes hanging this board a simple breeze. The easy mounting system features double sided velcro mounting strips, which are included with the board and enable you to mount your white board on almost any surface. U Brands dry erase boards are designed from the ground up with U in mind!"
+      },
+      {
+        "id": "attr.manufacturer",
+        "kind": "attribute",
+        "key": "manufacturer",
+        "text": "Manufacturer: U Brands LLC"
+      },
+      {
+        "id": "attr.brand",
+        "kind": "attribute",
+        "key": "brand",
+        "text": "Brand: U Brands"
+      },
+      {
+        "id": "attr.item_weight",
+        "kind": "attribute",
+        "key": "item_weight",
+        "text": "Item weight: 10.2 ounces"
+      },
+      {
+        "id": "attr.product_dimensions",
+        "kind": "attribute",
+        "key": "product_dimensions",
+        "text": "Product dimensions: 11 x 0.88 x 14.75 inches"
+      },
+      {
+        "id": "attr.color",
+        "kind": "attribute",
+        "key": "color",
+        "text": "Color: White"
+      },
+      {
+        "id": "attr.material_type",
+        "kind": "attribute",
+        "key": "material_type",
+        "text": "Material type: Plastic"
+      },
+      {
+        "id": "attr.number_of_items",
+        "kind": "attribute",
+        "key": "number_of_items",
+        "text": "Number of items: 1"
+      },
+      {
+        "id": "attr.size",
+        "kind": "attribute",
+        "key": "size",
+        "text": "Size: 11\" x 14\""
+      },
+      {
+        "id": "attr.domestic_shipping",
+        "kind": "attribute",
+        "key": "domestic_shipping",
+        "text": "Domestic shipping: Item can be shipped within U.S."
+      },
+      {
+        "id": "attr.international_shipping",
+        "kind": "attribute",
+        "key": "international_shipping",
+        "text": "International shipping: This item is not eligible for international shipping. Learn More"
+      }
+    ],
+    "images": [
+      {
+        "id": "img.0",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/613SjiVp0mL._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.1",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/515NvbHjxLL._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.2",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/513aMlvq-EL._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.3",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/71bq4X07TLL._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.4",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/81uT+nCTH0L._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.5",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/713ViZaHCrL._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.6",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/71JSKEPEe4L._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.7",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/71vGD3tUZjL._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.8",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/713XJUEUIfL._AC_SL1500_.jpg"
+      }
+    ],
+    "meta": {
+      "brand": "U Brands",
+      "rating": 4.6,
+      "reviewCount": 41857,
+      "price": 7.99,
+      "categories": [
+        "Office Products",
+        "Office & School Supplies",
+        "Presentation Boards",
+        "Dry Erase Boards"
+      ],
+      "salesRanks": [
+        {
+          "category": "Office Products",
+          "rank": 953
+        },
+        {
+          "category": "Dry Erase Boards",
+          "rank": 10
+        }
+      ]
+    },
+    "contentHash": "4f240ee06159656e0491d9a22f5ad2b67cb20c8074f767f23c71298b6482b8ba"
+  },
+  "intentSet": {
+    "categoryId": "dry-erase-boards",
+    "categoryName": "Dry Erase Boards",
+    "match": [
+      "Dry Erase Boards"
+    ],
+    "version": "mined-2026-10-27.1",
+    "basis": "mined",
+    "reviewed": false,
+    "sampleSize": 600,
+    "intents": [
+      {
+        "id": "erasability_and_staining",
+        "kind": "claim",
+        "question": "Does the board erase cleanly without staining or leaving ghost marks?",
+        "rubric": "answered: states ease of erasing and stain resistance; partial: mentions erasing performance.",
+        "frequency": 186
+      },
+      {
+        "id": "durability_and_sturdiness",
+        "kind": "claim",
+        "question": "How sturdy and durable is the board against warping and wear?",
+        "rubric": "answered: details structural durability and build quality; partial: mentions general sturdiness.",
+        "frequency": 183
+      },
+      {
+        "id": "magnetic_properties",
+        "kind": "spec",
+        "question": "Is the board magnetic and how strong is the magnet?",
+        "rubric": "answered: specifies magnetic surface and magnet strength; partial: mentions magnetic without strength.",
+        "frequency": 182
+      },
+      {
+        "id": "board_size",
+        "kind": "spec",
+        "question": "What are the dimensions and writing space of the board?",
+        "rubric": "answered: dimensions or writing space stated; partial: only general size mentioned.",
+        "frequency": 130
+      },
+      {
+        "id": "mounting_hardware_and_options",
+        "kind": "spec",
+        "question": "What mounting hardware and installation options are provided?",
+        "rubric": "answered: details hardware and mounting options; partial: mentions wall mounting only.",
+        "frequency": 104
+      },
+      {
+        "id": "included_accessories",
+        "kind": "spec",
+        "question": "What accessories like markers, erasers, and trays are included?",
+        "rubric": "answered: lists included accessories; partial: mentions accessories generally without list.",
+        "frequency": 75
+      },
+      {
+        "id": "portability_and_weight",
+        "kind": "claim",
+        "question": "Is the board lightweight and easy to transport?",
+        "rubric": "answered: gives weight and portability details; partial: mentions weight only.",
+        "frequency": 52,
+        "conditional": true
+      },
+      {
+        "id": "marker_performance",
+        "kind": "claim",
+        "question": "How vibrant, long-lasting, and smudge-resistant are the included markers?",
+        "rubric": "answered: details marker performance and ink quality; partial: mentions markers briefly.",
+        "frequency": 48,
+        "conditional": true
+      },
+      {
+        "id": "double_sided_feature",
+        "kind": "spec",
+        "question": "Is the board double-sided?",
+        "rubric": "answered: explicitly states single or double-sided; partial: unclear description.",
+        "frequency": 38,
+        "conditional": true
+      },
+      {
+        "id": "board_material",
+        "kind": "spec",
+        "question": "What materials are used for the writing surface, frame, and backing?",
+        "rubric": "answered: states materials for surface and frame; partial: states only surface material.",
+        "frequency": 33
+      },
+      {
+        "id": "board_layout",
+        "kind": "spec",
+        "question": "Does the board have a calendar, grid lines, or special layout?",
+        "rubric": "answered: describes layout type; partial: vague layout mention.",
+        "frequency": 29,
+        "conditional": true
+      },
+      {
+        "id": "special_features",
+        "kind": "spec",
+        "question": "Does the board include a cork board, stand, or storage compartments?",
+        "rubric": "answered: lists extra functional features; partial: mentions one feature.",
+        "frequency": 23,
+        "conditional": true
+      },
+      {
+        "id": "surface_smoothness_and_flatness",
+        "kind": "claim",
+        "question": "Is the writing surface completely smooth and flat?",
+        "rubric": "answered: specifies surface smoothness and flatness; partial: mentions texture.",
+        "frequency": 17
+      },
+      {
+        "id": "adhesive_installation",
+        "kind": "claim",
+        "question": "Does the adhesive mount securely to walls without damage?",
+        "rubric": "answered: describes adhesive strength and wall safety; partial: mentions adhesion.",
+        "frequency": 15,
+        "conditional": true
+      },
+      {
+        "id": "frameless_and_border_design",
+        "kind": "spec",
+        "question": "Is the board frameless or borderless?",
+        "rubric": "answered: specifies frameless design; partial: unstated frame style.",
+        "frequency": 6,
+        "conditional": true
+      }
+    ],
+    "source": "Mined from 600 reviews (Amazon Reviews 2023). Not yet reviewed by hand."
+  },
+  "grades": [
+    {
+      "intentId": "erasability_and_staining",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "erases easily"
+        },
+        {
+          "fieldId": "bullet.1",
+          "text": "never stains or ghosts"
+        }
+      ],
+      "value": "erases easily, never stains or ghosts",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "durability_and_sturdiness",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "highly durable"
+        },
+        {
+          "fieldId": "description.1",
+          "text": "modern white plastic frame provides a firm and rigid board construction"
+        }
+      ],
+      "value": "highly durable, firm and rigid board construction",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "magnetic_properties",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "magnetic dry erase surface"
+        }
+      ],
+      "value": "magnetic",
+      "modelStatus": "partial",
+      "flags": []
+    },
+    {
+      "intentId": "board_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "11 x 14 Inches"
+        }
+      ],
+      "value": "11 x 14 Inches",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "mounting_hardware_and_options",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "included hassle-free mounting hardware"
+        },
+        {
+          "fieldId": "description.1",
+          "text": "double sided velcro mounting strips, which are included with the board"
+        }
+      ],
+      "value": "hassle-free mounting hardware and double sided velcro mounting strips",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "included_accessories",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Dry erase marker included, featuring a magnetic cap with built-in felt eraser"
+        }
+      ],
+      "value": "Dry erase marker included, featuring a magnetic cap with built-in felt eraser",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "portability_and_weight",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "Item weight: 10.2 ounces"
+        }
+      ],
+      "value": "10.2 ounces",
+      "modelStatus": "partial",
+      "flags": []
+    },
+    {
+      "intentId": "marker_performance",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "U Brands dry erase markers provide the ultimate writing experience"
+        }
+      ],
+      "value": "ultimate writing experience",
+      "modelStatus": "partial",
+      "flags": []
+    },
+    {
+      "intentId": "double_sided_feature",
+      "status": "not_applicable",
+      "quotes": [],
+      "modelStatus": "missing",
+      "flags": [
+        "conditional_unaddressed"
+      ]
+    },
+    {
+      "intentId": "board_material",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "magnetic dry erase surface"
+        },
+        {
+          "fieldId": "description.1",
+          "text": "contemporary white plastic frame"
+        }
+      ],
+      "value": "magnetic dry erase surface, white plastic frame",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "board_layout",
+      "status": "not_applicable",
+      "quotes": [],
+      "modelStatus": "missing",
+      "flags": [
+        "conditional_unaddressed"
+      ]
+    },
+    {
+      "intentId": "special_features",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "duals as a bulletin board"
+        }
+      ],
+      "value": "duals as a bulletin board",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "surface_smoothness_and_flatness",
+      "status": "missing",
+      "quotes": [],
+      "modelStatus": "missing",
+      "flags": []
+    },
+    {
+      "intentId": "adhesive_installation",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "double sided velcro mounting strips, which are included with the board and enable you to mount your white board on almost any surface"
+        }
+      ],
+      "value": "double sided velcro mounting strips",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "frameless_and_border_design",
+      "status": "contradicted",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "White Frame"
+        },
+        {
+          "fieldId": "bullet.3",
+          "text": "white Contempo frame design"
+        }
+      ],
+      "modelStatus": "contradicted",
+      "flags": []
+    }
+  ],
+  "score": {
+    "score": 84,
+    "answered": 8,
+    "partial": 3,
+    "missing": 1,
+    "contradicted": 1,
+    "counted": 13,
+    "notApplicable": 2
+  },
+  "imageClaims": [
+    {
+      "id": "ic.0",
+      "text": "MEDIUM",
+      "imageIds": [
+        "img.0"
+      ]
+    },
+    {
+      "id": "ic.1",
+      "text": "DRY ERASE MARKER",
+      "imageIds": [
+        "img.0"
+      ]
+    },
+    {
+      "id": "ic.2",
+      "text": "contempo frame",
+      "imageIds": [
+        "img.3"
+      ]
+    },
+    {
+      "id": "ic.3",
+      "text": "dry erase board",
+      "imageIds": [
+        "img.3"
+      ]
+    },
+    {
+      "id": "ic.4",
+      "text": "because your messages need to be seen",
+      "imageIds": [
+        "img.3"
+      ]
+    },
+    {
+      "id": "ic.5",
+      "text": "easy to mount",
+      "imageIds": [
+        "img.3"
+      ]
+    },
+    {
+      "id": "ic.6",
+      "text": "premium magnetic dry erase surface",
+      "imageIds": [
+        "img.3"
+      ]
+    },
+    {
+      "id": "ic.7",
+      "text": "11 in x 14 in",
+      "imageIds": [
+        "img.3"
+      ]
+    },
+    {
+      "id": "ic.8",
+      "text": "(27.9 cm x 35.5 cm)",
+      "imageIds": [
+        "img.3"
+      ]
+    },
+    {
+      "id": "ic.9",
+      "text": "market list",
+      "imageIds": [
+        "img.3",
+        "img.4"
+      ]
+    },
+    {
+      "id": "ic.10",
+      "text": "- vanilla yogurt",
+      "imageIds": [
+        "img.3",
+        "img.4"
+      ]
+    },
+    {
+      "id": "ic.11",
+      "text": "- red grapes",
+      "imageIds": [
+        "img.3",
+        "img.4"
+      ]
+    },
+    {
+      "id": "ic.12",
+      "text": "- strawberries",
+      "imageIds": [
+        "img.3",
+        "img.4"
+      ]
+    },
+    {
+      "id": "ic.13",
+      "text": "- blueberries",
+      "imageIds": [
+        "img.3",
+        "img.4"
+      ]
+    },
+    {
+      "id": "ic.14",
+      "text": "- raspberries",
+      "imageIds": [
+        "img.3",
+        "img.4"
+      ]
+    },
+    {
+      "id": "ic.15",
+      "text": "* REMEMBER",
+      "imageIds": [
+        "img.3",
+        "img.4"
+      ]
+    },
+    {
+      "id": "ic.16",
+      "text": "TO BRING",
+      "imageIds": [
+        "img.3",
+        "img.4"
+      ]
+    },
+    {
+      "id": "ic.17",
+      "text": "OWN TOTE",
+      "imageIds": [
+        "img.3",
+        "img.4"
+      ]
+    },
+    {
+      "id": "ic.18",
+      "text": "Marker",
+      "imageIds": [
+        "img.5"
+      ]
+    },
+    {
+      "id": "ic.19",
+      "text": "Mount vertically",
+      "imageIds": [
+        "img.6"
+      ]
+    },
+    {
+      "id": "ic.20",
+      "text": "or horizontally",
+      "imageIds": [
+        "img.6"
+      ]
+    },
+    {
+      "id": "ic.21",
+      "text": "TOOLS NEEDED:",
+      "imageIds": [
+        "img.7"
+      ]
+    },
+    {
+      "id": "ic.22",
+      "text": "- HAMMER",
+      "imageIds": [
+        "img.7"
+      ]
+    },
+    {
+      "id": "ic.23",
+      "text": "- LEVEL",
+      "imageIds": [
+        "img.7"
+      ]
+    },
+    {
+      "id": "ic.24",
+      "text": "- PENCIL",
+      "imageIds": [
+        "img.7"
+      ]
+    },
+    {
+      "id": "ic.25",
+      "text": "- TAPE MEASURE",
+      "imageIds": [
+        "img.7"
+      ]
+    },
+    {
+      "id": "ic.26",
+      "text": "CONTEMPO FRAME MOUNTING INSTRUCTIONS",
+      "imageIds": [
+        "img.7"
+      ]
+    },
+    {
+      "id": "ic.27",
+      "text": "BACK",
+      "imageIds": [
+        "img.7"
+      ]
+    },
+    {
+      "id": "ic.28",
+      "text": "BOARD",
+      "imageIds": [
+        "img.7"
+      ]
+    },
+    {
+      "id": "ic.29",
+      "text": "SEC",
+      "imageIds": [
+        "img.7"
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "claimId": "ic.0",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "MEDIUM"
+        }
+      ],
+      "intentId": "marker_performance",
+      "flags": []
+    },
+    {
+      "claimId": "ic.1",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "DRY ERASE MARKER"
+        }
+      ],
+      "intentId": "included_accessories",
+      "flags": []
+    },
+    {
+      "claimId": "ic.2",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "contempo frame"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "claimId": "ic.3",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "dry erase board"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "claimId": "ic.4",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.5",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "mounting_hardware_and_options",
+      "flags": [
+        "quote_not_found",
+        "unverified_coverage"
+      ]
+    },
+    {
+      "claimId": "ic.6",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "premium magnetic dry erase surface"
+        }
+      ],
+      "intentId": "magnetic_properties",
+      "flags": []
+    },
+    {
+      "claimId": "ic.7",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "11 x 14 Inches"
+        }
+      ],
+      "intentId": "board_size",
+      "flags": []
+    },
+    {
+      "claimId": "ic.8",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "board_size",
+      "flags": []
+    },
+    {
+      "claimId": "ic.9",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.10",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.11",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.12",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.13",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.14",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.15",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.16",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.17",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.18",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Marker"
+        }
+      ],
+      "intentId": "included_accessories",
+      "flags": []
+    },
+    {
+      "claimId": "ic.19",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "mounting_hardware_and_options",
+      "flags": []
+    },
+    {
+      "claimId": "ic.20",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "mounting_hardware_and_options",
+      "flags": []
+    },
+    {
+      "claimId": "ic.21",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "mounting_hardware_and_options",
+      "flags": []
+    },
+    {
+      "claimId": "ic.22",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "mounting_hardware_and_options",
+      "flags": []
+    },
+    {
+      "claimId": "ic.23",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "mounting_hardware_and_options",
+      "flags": []
+    },
+    {
+      "claimId": "ic.24",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "mounting_hardware_and_options",
+      "flags": []
+    },
+    {
+      "claimId": "ic.25",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "mounting_hardware_and_options",
+      "flags": []
+    },
+    {
+      "claimId": "ic.26",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "mounting_hardware_and_options",
+      "flags": []
+    },
+    {
+      "claimId": "ic.27",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.28",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "BOARD"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "claimId": "ic.29",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    }
+  ],
+  "hiddenAnswers": [],
+  "skippedImageIds": [],
+  "competitors": [
+    {
+      "asin": "B0BLYMHFVY",
+      "brand": "VIZ-PRO",
+      "title": "VIZ-PRO Magnetic Dry Erase Board, 48 X 24 Inches, Silver Aluminium Frame",
+      "score": {
+        "score": 68,
+        "answered": 4,
+        "partial": 5,
+        "missing": 0,
+        "contradicted": 0,
+        "counted": 9,
+        "notApplicable": 6
+      },
+      "grades": [
+        {
+          "intentId": "erasability_and_staining",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "easily drywipe with all dry-erase markers"
+            }
+          ],
+          "value": "easily drywipe with all dry-erase markers",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "durability_and_sturdiness",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "Smooth & durable magnetic writing surface"
+            }
+          ],
+          "value": "durable",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "magnetic_properties",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "magnetic writing surface"
+            }
+          ],
+          "value": "magnetic",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "board_size",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.1",
+              "text": "Overall size: 48\" x 24\" ( frame included); Writing surface size: 46\" x 22\""
+            }
+          ],
+          "value": "Overall size: 48\" x 24\" ( frame included); Writing surface size: 46\" x 22\"",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "mounting_hardware_and_options",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.4",
+              "text": "Easy installation with fixing kits, can be mounted vertically or horizontally"
+            },
+            {
+              "fieldId": "bullet.5",
+              "text": "Include fixing kits"
+            }
+          ],
+          "value": "fixing kits, can be mounted vertically or horizontally",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "included_accessories",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.5",
+              "text": "pentray"
+            }
+          ],
+          "value": "pentray",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "portability_and_weight",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "attr.item_weight",
+              "text": "Item weight: 8.13 pounds"
+            }
+          ],
+          "value": "8.13 pounds",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "marker_performance",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "double_sided_feature",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "board_material",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.3",
+              "text": "Silver finished aluminium frame, ABS plastic corner with screw-fixing in corners"
+            },
+            {
+              "fieldId": "attr.material",
+              "text": "Material: Acrylonitrile Butadiene Styr"
+            }
+          ],
+          "value": "aluminium frame, ABS plastic corner",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "board_layout",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "special_features",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "surface_smoothness_and_flatness",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "Smooth & durable magnetic writing surface"
+            }
+          ],
+          "value": "Smooth",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "adhesive_installation",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "frameless_and_border_design",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        }
+      ]
+    },
+    {
+      "asin": "B0B42X682C",
+      "brand": "Amazon Basics",
+      "title": "Amazon Basics Whiteboard Drywipe Magnetic with Pen Tray and Aluminium Trim, 90 cm x 60 cm (WxH)",
+      "score": {
+        "score": 52,
+        "answered": 3,
+        "partial": 6,
+        "missing": 1,
+        "contradicted": 0,
+        "counted": 10,
+        "notApplicable": 5
+      },
+      "grades": [
+        {
+          "intentId": "erasability_and_staining",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "durability_and_sturdiness",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "bullet.3",
+              "text": "Durable design"
+            }
+          ],
+          "value": "Durable design",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "magnetic_properties",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "bullet.1",
+              "text": "Magnetic dry-wipe board"
+            }
+          ],
+          "value": "Magnetic",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "board_size",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.5",
+              "text": "Dimensions: 35.5 x 23.5 x 0.67 inches"
+            }
+          ],
+          "value": "35.5 x 23.5 x 0.67 inches",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "mounting_hardware_and_options",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "bullet.3",
+              "text": "wall-mountable (kit included)"
+            }
+          ],
+          "value": "wall-mountable",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "included_accessories",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.4",
+              "text": "Includes 6 magnets, 1 eraser, and 2 dry-erase markers"
+            }
+          ],
+          "value": "6 magnets, 1 eraser, and 2 dry-erase markers",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "portability_and_weight",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "attr.item_weight",
+              "text": "Item weight: 6.39 pounds"
+            }
+          ],
+          "value": "6.39 pounds",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "marker_performance",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "double_sided_feature",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "board_material",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "attr.material_type",
+              "text": "Material type: Aluminum"
+            }
+          ],
+          "value": "Aluminum",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "board_layout",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "special_features",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "bullet.3",
+              "text": "pen tray"
+            }
+          ],
+          "value": "pen tray",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "surface_smoothness_and_flatness",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "Smooth, magnetic writing surface"
+            }
+          ],
+          "value": "Smooth",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "adhesive_installation",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "frameless_and_border_design",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        }
+      ]
+    },
+    {
+      "asin": "B091NQVBF3",
+      "brand": "Quartet",
+      "title": "Quartet Whiteboard, Dry Erase Board, Magnetic, 17\" x 23\", 1 Dry Erase Marker and 2 Magnets, White Frame (MDW1723W-AZS)",
+      "score": {
+        "score": 59,
+        "answered": 5,
+        "partial": 4,
+        "missing": 1,
+        "contradicted": 0,
+        "counted": 10,
+        "notApplicable": 5
+      },
+      "grades": [
+        {
+          "intentId": "erasability_and_staining",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "durability_and_sturdiness",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "bullet.3",
+              "text": "Sturdy wooden white frame"
+            }
+          ],
+          "value": "Sturdy wooden white frame",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "magnetic_properties",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "Magnetic"
+            }
+          ],
+          "value": "Magnetic",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "board_size",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "Full board is 17 inches x 23 inches with 14 7/8 inches x 20 7/8 inches of dry-erase writing section"
+            }
+          ],
+          "value": "17 inches x 23 inches with 14 7/8 inches x 20 7/8 inches of dry-erase writing section",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "mounting_hardware_and_options",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.4",
+              "text": "Board can be hung in either portrait or landscape orientation"
+            },
+            {
+              "fieldId": "bullet.5",
+              "text": "Mounting hardware, dry erase marker and magnet accessories included"
+            }
+          ],
+          "value": "Mounting hardware, dry erase marker and magnet accessories included",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "included_accessories",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "1 Dry Erase Marker and 2 Magnets"
+            }
+          ],
+          "value": "1 Dry Erase Marker and 2 Magnets",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "portability_and_weight",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "attr.item_weight",
+              "text": "Item weight: 2.7 pounds"
+            }
+          ],
+          "value": "2.7 pounds",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "marker_performance",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "double_sided_feature",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "board_material",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.3",
+              "text": "Sturdy wooden white frame around a painted steel writing surface"
+            }
+          ],
+          "value": "Sturdy wooden white frame around a painted steel writing surface",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "board_layout",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "special_features",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "surface_smoothness_and_flatness",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.1",
+              "text": "smooth writing surface"
+            }
+          ],
+          "value": "smooth writing surface",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "adhesive_installation",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "frameless_and_border_design",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "White Frame"
+            }
+          ],
+          "value": "White Frame",
+          "modelStatus": "partial",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "asin": "B0BT55V3C5",
+      "brand": "Scribbledo",
+      "title": "Set of 12 Small White Board Dry Erase Boards Classroom Pack Mini White Boards 9\"x12” Double Sided Personal Whiteboards for Students Teachers School Supplies Lapboards l 12 Mini Whiteboard Erasers Incl",
+      "score": {
+        "score": 60,
+        "answered": 4,
+        "partial": 5,
+        "missing": 1,
+        "contradicted": 1,
+        "counted": 11,
+        "notApplicable": 4
+      },
+      "grades": [
+        {
+          "intentId": "erasability_and_staining",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "Use the board to post, write, erase your notes"
+            }
+          ],
+          "value": "erase",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "durability_and_sturdiness",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "bullet.5",
+              "text": "Made with lightweight but durable material"
+            }
+          ],
+          "value": "durable material",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "magnetic_properties",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "attr.special_feature",
+              "text": "Magnetic Surface"
+            }
+          ],
+          "value": "Magnetic Surface",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "board_size",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "9\"x12”"
+            }
+          ],
+          "value": "9\"x12\"",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "mounting_hardware_and_options",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "attr.mounting_type",
+              "text": "Wall Mount"
+            }
+          ],
+          "value": "Wall Mount",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "included_accessories",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "12 Mini Whiteboard Erasers Incl"
+            }
+          ],
+          "value": "12 Mini Whiteboard Erasers",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "portability_and_weight",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.item_weight",
+              "text": "Item weight: 5.1 pounds"
+            },
+            {
+              "fieldId": "bullet.5",
+              "text": "made with lightweight but durable material which makes it easy for students to use in a classroom setting"
+            }
+          ],
+          "value": "5.1 pounds",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "marker_performance",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "double_sided_feature",
+          "status": "contradicted",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "Double Sided"
+            },
+            {
+              "fieldId": "bullet.3",
+              "text": "Single sided"
+            }
+          ],
+          "modelStatus": "contradicted",
+          "flags": []
+        },
+        {
+          "intentId": "board_material",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "board_layout",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.1",
+              "text": "large blank writing surface"
+            }
+          ],
+          "value": "blank",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "special_features",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "surface_smoothness_and_flatness",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "bullet.3",
+              "text": "smooth finish backing"
+            }
+          ],
+          "value": "smooth finish",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "adhesive_installation",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "frameless_and_border_design",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "intentId": "magnetic_properties",
+      "status": "partial",
+      "frequency": 182,
+      "competitorShare": 0.5,
+      "competitorsAnswering": [
+        {
+          "asin": "B0BLYMHFVY",
+          "brand": "VIZ-PRO",
+          "quote": {
+            "fieldId": "bullet.2",
+            "text": "magnetic writing surface"
+          }
+        },
+        {
+          "asin": "B0B42X682C",
+          "brand": "Amazon Basics",
+          "quote": {
+            "fieldId": "bullet.1",
+            "text": "Magnetic dry-wipe board"
+          }
+        },
+        {
+          "asin": "B091NQVBF3",
+          "brand": "Quartet",
+          "quote": {
+            "fieldId": "title",
+            "text": "Magnetic"
+          }
+        },
+        {
+          "asin": "B0BT55V3C5",
+          "brand": "Scribbledo",
+          "quote": {
+            "fieldId": "attr.special_feature",
+            "text": "Magnetic Surface"
+          }
+        }
+      ],
+      "hiddenClaims": [],
+      "priority": 68.3
+    },
+    {
+      "intentId": "portability_and_weight",
+      "status": "partial",
+      "frequency": 52,
+      "competitorShare": 0.625,
+      "competitorsAnswering": [
+        {
+          "asin": "B0BLYMHFVY",
+          "brand": "VIZ-PRO",
+          "quote": {
+            "fieldId": "attr.item_weight",
+            "text": "Item weight: 8.13 pounds"
+          }
+        },
+        {
+          "asin": "B0B42X682C",
+          "brand": "Amazon Basics",
+          "quote": {
+            "fieldId": "attr.item_weight",
+            "text": "Item weight: 6.39 pounds"
+          }
+        },
+        {
+          "asin": "B091NQVBF3",
+          "brand": "Quartet",
+          "quote": {
+            "fieldId": "attr.item_weight",
+            "text": "Item weight: 2.7 pounds"
+          }
+        },
+        {
+          "asin": "B0BT55V3C5",
+          "brand": "Scribbledo",
+          "quote": {
+            "fieldId": "attr.item_weight",
+            "text": "Item weight: 5.1 pounds"
+          }
+        }
+      ],
+      "hiddenClaims": [],
+      "priority": 21.1
+    },
+    {
+      "intentId": "surface_smoothness_and_flatness",
+      "status": "missing",
+      "frequency": 17,
+      "competitorShare": 0.75,
+      "competitorsAnswering": [
+        {
+          "asin": "B0BLYMHFVY",
+          "brand": "VIZ-PRO",
+          "quote": {
+            "fieldId": "bullet.2",
+            "text": "Smooth & durable magnetic writing surface"
+          }
+        },
+        {
+          "asin": "B0B42X682C",
+          "brand": "Amazon Basics",
+          "quote": {
+            "fieldId": "bullet.2",
+            "text": "Smooth, magnetic writing surface"
+          }
+        },
+        {
+          "asin": "B091NQVBF3",
+          "brand": "Quartet",
+          "quote": {
+            "fieldId": "bullet.1",
+            "text": "smooth writing surface"
+          }
+        },
+        {
+          "asin": "B0BT55V3C5",
+          "brand": "Scribbledo",
+          "quote": {
+            "fieldId": "bullet.3",
+            "text": "smooth finish backing"
+          }
+        }
+      ],
+      "hiddenClaims": [],
+      "priority": 14.9
+    },
+    {
+      "intentId": "marker_performance",
+      "status": "partial",
+      "frequency": 48,
+      "competitorShare": null,
+      "competitorsAnswering": [],
+      "hiddenClaims": [],
+      "priority": 12
+    },
+    {
+      "intentId": "frameless_and_border_design",
+      "status": "contradicted",
+      "frequency": 6,
+      "competitorShare": 0.5,
+      "competitorsAnswering": [
+        {
+          "asin": "B091NQVBF3",
+          "brand": "Quartet",
+          "quote": {
+            "fieldId": "title",
+            "text": "White Frame"
+          }
+        }
+      ],
+      "hiddenClaims": [],
+      "priority": 4.5
+    }
+  ],
+  "briefs": [
+    {
+      "intentId": "magnetic_properties",
+      "question": "Is the board magnetic and how strong is the magnet?",
+      "priority": 68.3,
+      "action": "request_fact",
+      "target": "bullet.1",
+      "needsFromBrand": "Confirm the Gauss strength or pull rating of the magnetic surface.",
+      "sources": [],
+      "flags": []
+    },
+    {
+      "intentId": "portability_and_weight",
+      "question": "Is the board lightweight and easy to transport?",
+      "priority": 21.1,
+      "action": "request_fact",
+      "target": "bullet.5",
+      "sources": [
+        {
+          "kind": "field",
+          "id": "attr.item_weight",
+          "text": "Item weight: 10.2 ounces"
+        },
+        {
+          "kind": "image",
+          "id": "ic.7",
+          "text": "11 in x 14 in"
+        }
+      ],
+      "flags": [
+        "unsupported_claim"
+      ],
+      "needsFromBrand": "The brand's answer to \"Is the board lightweight and easy to transport\". A drafted version went beyond what the listing says, so it was held back.",
+      "rejectedStatements": [
+        "versatile placement"
+      ]
+    },
+    {
+      "intentId": "surface_smoothness_and_flatness",
+      "question": "Is the writing surface completely smooth and flat?",
+      "priority": 14.9,
+      "action": "request_fact",
+      "target": "new_bullet",
+      "needsFromBrand": "Confirm if the writing surface features a completely smooth and flat texture.",
+      "sources": [],
+      "flags": []
+    },
+    {
+      "intentId": "marker_performance",
+      "question": "How vibrant, long-lasting, and smudge-resistant are the included markers?",
+      "priority": 12,
+      "action": "request_fact",
+      "target": "bullet.2",
+      "sources": [
+        {
+          "kind": "field",
+          "id": "description.1",
+          "text": "A medium point black dry erase marker is included with the whiteboard and features a built-in eraser for easy and convenient erasability."
+        }
+      ],
+      "flags": [
+        "off_question"
+      ],
+      "needsFromBrand": "The brand's answer to \"How vibrant, long-lasting, and smudge-resistant are the included markers\". A drafted version went beyond what the listing says, so it was held back."
+    },
+    {
+      "intentId": "frameless_and_border_design",
+      "question": "Is the board frameless or borderless?",
+      "priority": 4.5,
+      "action": "fix_contradiction",
+      "target": "title",
+      "sources": [
+        {
+          "kind": "field",
+          "id": "title",
+          "text": "White Frame"
+        },
+        {
+          "kind": "field",
+          "id": "bullet.3",
+          "text": "white Contempo frame design"
+        }
+      ],
+      "needsFromBrand": "Which is right: \"White Frame\" (title) or \"white Contempo frame design\" (bullet.3)? Then make every field say the same.",
+      "flags": []
+    }
+  ],
+  "usage": {
+    "requests": 8,
+    "cachedRequests": 8,
+    "inputTokens": 11701,
+    "outputTokens": 7162
+  },
+  "notes": [
+    "The \"Dry Erase Boards\" questions haven't been reviewed by a person yet."
+  ]
+}

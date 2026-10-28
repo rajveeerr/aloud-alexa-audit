@@ -1,0 +1,1250 @@
+{
+  "listing": {
+    "asin": "B00P6N6LC2",
+    "requestedAsin": "B00P6N6LC2",
+    "marketplace": "amazon.com",
+    "source": "dataset",
+    "fetchedAt": "2023-09-01T00:00:00.000Z",
+    "fields": [
+      {
+        "id": "title",
+        "kind": "title",
+        "text": "CamelBak eddy 20oz Insulated Water Bottle (Discontinued Styles)"
+      },
+      {
+        "id": "bullet.1",
+        "kind": "bullet",
+        "text": "BPA-Free / Polypropylene"
+      },
+      {
+        "id": "bullet.2",
+        "kind": "bullet",
+        "text": "The New Eddy goes insulated!"
+      },
+      {
+        "id": "bullet.3",
+        "kind": "bullet",
+        "text": "Prevents your bottle from sweating."
+      },
+      {
+        "id": "bullet.4",
+        "kind": "bullet",
+        "text": "Double-wall keeps your water colder longer."
+      },
+      {
+        "id": "bullet.5",
+        "kind": "bullet",
+        "text": "Redesigned cap and bite valve provide faster flow and enhanced durability"
+      },
+      {
+        "id": "bullet.6",
+        "kind": "bullet",
+        "text": "CamelBak got your BakTM Lifetime guarantee"
+      },
+      {
+        "id": "description.1",
+        "kind": "description",
+        "text": "Eddy Insulated..Keep cool, no sweat!"
+      },
+      {
+        "id": "attr.brand",
+        "kind": "attribute",
+        "key": "brand",
+        "text": "Brand: CamelBak"
+      },
+      {
+        "id": "attr.material",
+        "kind": "attribute",
+        "key": "material",
+        "text": "Material: blend"
+      },
+      {
+        "id": "attr.color",
+        "kind": "attribute",
+        "key": "color",
+        "text": "Color: Cobalt"
+      },
+      {
+        "id": "attr.capacity",
+        "kind": "attribute",
+        "key": "capacity",
+        "text": "Capacity: 1.3 Pounds"
+      },
+      {
+        "id": "attr.special_feature",
+        "kind": "attribute",
+        "key": "special_feature",
+        "text": "Special feature: Double Wall, Insulated, Carrying Loop"
+      },
+      {
+        "id": "attr.age_range_description",
+        "kind": "attribute",
+        "key": "age_range_description",
+        "text": "Age range description: Any Age Group"
+      },
+      {
+        "id": "attr.recommended_uses_for_product",
+        "kind": "attribute",
+        "key": "recommended_uses_for_product",
+        "text": "Recommended uses for product: Travel, School"
+      },
+      {
+        "id": "attr.number_of_items",
+        "kind": "attribute",
+        "key": "number_of_items",
+        "text": "Number of items: 1"
+      },
+      {
+        "id": "attr.reusability",
+        "kind": "attribute",
+        "key": "reusability",
+        "text": "Reusability: Reusable"
+      },
+      {
+        "id": "attr.unit_count",
+        "kind": "attribute",
+        "key": "unit_count",
+        "text": "Unit count: 1.0 Count"
+      },
+      {
+        "id": "attr.item_package_dimensions_l_x_w_x_h",
+        "kind": "attribute",
+        "key": "item_package_dimensions_l_x_w_x_h",
+        "text": "Item package dimensions l x w x h: 10.4 x 3.5 x 3.2 inches"
+      },
+      {
+        "id": "attr.package_weight",
+        "kind": "attribute",
+        "key": "package_weight",
+        "text": "Package weight: 0.5 Pounds"
+      },
+      {
+        "id": "attr.item_dimensions_lx_wx_h",
+        "kind": "attribute",
+        "key": "item_dimensions_lx_wx_h",
+        "text": "Item dimensions lx wx h: 10.63 x 3.27 x 3.27 inches"
+      },
+      {
+        "id": "attr.item_weight",
+        "kind": "attribute",
+        "key": "item_weight",
+        "text": "Item weight: 0.27 Kilograms"
+      },
+      {
+        "id": "attr.brand_name",
+        "kind": "attribute",
+        "key": "brand_name",
+        "text": "Brand name: CamelBak"
+      },
+      {
+        "id": "attr.suggested_users",
+        "kind": "attribute",
+        "key": "suggested_users",
+        "text": "Suggested users: unisex-adult"
+      },
+      {
+        "id": "attr.manufacturer",
+        "kind": "attribute",
+        "key": "manufacturer",
+        "text": "Manufacturer: Camelbak"
+      },
+      {
+        "id": "attr.model_year",
+        "kind": "attribute",
+        "key": "model_year",
+        "text": "Model year: 2015"
+      },
+      {
+        "id": "attr.size",
+        "kind": "attribute",
+        "key": "size",
+        "text": "Size: 0.6-Liter/20-Ounce"
+      }
+    ],
+    "images": [
+      {
+        "id": "img.0",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/61IdUUsJMvL._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.1",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/61qo7x4sAYL._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.2",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/61-RlIBoWPL._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.3",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/61tJM-S2EfL._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.4",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/318+eGWSbAL._AC_.jpg"
+      }
+    ],
+    "meta": {
+      "brand": "CamelBak",
+      "rating": 4.2,
+      "reviewCount": 683,
+      "categories": [
+        "Sports & Outdoors",
+        "Back to School Essentials in Outdoor Recreation",
+        "Water Bottles"
+      ],
+      "salesRanks": [
+        {
+          "category": "Sports & Outdoors",
+          "rank": 605020
+        },
+        {
+          "category": "Sports & Outdoor Recreation Accessories",
+          "rank": 43513
+        }
+      ]
+    },
+    "contentHash": "9403269f1725348528c2c6f341d8c208a2d1cca8b3b2edfab08e75292aab6b86"
+  },
+  "intentSet": {
+    "categoryId": "water-bottles",
+    "categoryName": "Water Bottles",
+    "match": [
+      "Water Bottles"
+    ],
+    "version": "estimated-2026-10-27.1",
+    "basis": "estimated",
+    "reviewed": false,
+    "sampleSize": 0,
+    "intents": [
+      {
+        "id": "capacity_oz",
+        "kind": "spec",
+        "question": "What is the total fluid capacity of the water bottle in ounces or liters?",
+        "rubric": "answered: specifies exact volume in oz or liters. partial: gives vague size description.",
+        "frequency": 1
+      },
+      {
+        "id": "bpa_free",
+        "kind": "claim",
+        "question": "Is the water bottle made from BPA-free materials?",
+        "rubric": "answered: explicitly states BPA-free status. partial: mentions safe plastics without confirming BPA.",
+        "frequency": 1
+      },
+      {
+        "id": "leak_proof",
+        "kind": "claim",
+        "question": "Is the cap and valve completely leak-proof when closed and tossed into a bag?",
+        "rubric": "answered: details leak-proof performance and valve sealing mechanism. partial: mentions general spill resistance.",
+        "frequency": 1
+      },
+      {
+        "id": "cup_holder_fit",
+        "kind": "spec",
+        "question": "Does the bottle fit standard bicycle water bottle cages and car cup holders?",
+        "rubric": "answered: confirms compatibility with bike cages or car cup holders. partial: mentions ergonomic shape only.",
+        "frequency": 1
+      },
+      {
+        "id": "insulation_type",
+        "kind": "spec",
+        "question": "Does the bottle feature double-wall insulation to keep drinks cold and prevent sweating?",
+        "rubric": "answered: states insulation type and thermal performance. partial: mentions insulation without performance details.",
+        "frequency": 1,
+        "conditional": true
+      },
+      {
+        "id": "dishwasher_safe",
+        "kind": "claim",
+        "question": "Can the water bottle and its cap be safely washed in a dishwasher?",
+        "rubric": "answered: states whether dishwasher safe. partial: gives general cleaning instructions without dishwasher details.",
+        "frequency": 1
+      },
+      {
+        "id": "material_composition",
+        "kind": "spec",
+        "question": "What specific material is the bottle made of (e.g., stainless steel, plastic, glass)?",
+        "rubric": "answered: identifies exact material composition. partial: mentions plastic or metal broadly.",
+        "frequency": 1
+      },
+      {
+        "id": "easy_cleaning_cap",
+        "kind": "experience",
+        "question": "Can the cap be easily disassembled for thorough cleaning to prevent mold buildup?",
+        "rubric": "answered: explains how to take apart the cap for cleaning. partial: mentions it is easy to wash generally.",
+        "frequency": 1
+      },
+      {
+        "id": "ice_cube_compatibility",
+        "kind": "spec",
+        "question": "Is the opening wide enough to easily add ice cubes or fruit pieces?",
+        "rubric": "answered: gives mouth diameter or confirms ice cube fit. partial: mentions top opening vaguely.",
+        "frequency": 1
+      },
+      {
+        "id": "weight_empty",
+        "kind": "spec",
+        "question": "How much does the water bottle weigh when empty?",
+        "rubric": "answered: provides exact empty weight in ounces or grams. partial: describes it as lightweight.",
+        "frequency": 1
+      },
+      {
+        "id": "flow_rate",
+        "kind": "experience",
+        "question": "Does the cap design provide a high water flow rate for quick hydration during intense activity?",
+        "rubric": "answered: describes flow rate mechanism or high-flow capability. partial: mentions drink delivery.",
+        "frequency": 1
+      },
+      {
+        "id": "carrying_strap",
+        "kind": "spec",
+        "question": "Does the bottle include a carrying loop, handle, or strap for convenient transport?",
+        "rubric": "answered: confirms presence of handle or strap. partial: mentions portability without specifying a strap.",
+        "frequency": 1,
+        "conditional": true
+      },
+      {
+        "id": "measurement_markings",
+        "kind": "spec",
+        "question": "Are there volume measurement markings on the side to track water intake?",
+        "rubric": "answered: confirms measurement scales are present. partial: mentions semi-transparent body.",
+        "frequency": 1,
+        "conditional": true
+      },
+      {
+        "id": "durability_drops",
+        "kind": "experience",
+        "question": "How durable is the bottle body against dents, cracks, or shattering when dropped?",
+        "rubric": "answered: details drop resistance and material toughness. partial: mentions durable build.",
+        "frequency": 1
+      },
+      {
+        "id": "taste_odor_retention",
+        "kind": "experience",
+        "question": "Does the material retain flavors or odors from previous drinks like sports drinks or smoothies?",
+        "rubric": "answered: addresses flavor retention or odor neutrality. partial: mentions food-grade plastic.",
+        "frequency": 1
+      }
+    ],
+    "source": "Estimated from listings; no reviews were mined. Not yet reviewed by hand."
+  },
+  "grades": [
+    {
+      "intentId": "capacity_oz",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "20oz"
+        }
+      ],
+      "value": "20oz",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "bpa_free",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "BPA-Free"
+        }
+      ],
+      "value": "BPA-Free",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "leak_proof",
+      "status": "missing",
+      "quotes": [],
+      "modelStatus": "missing",
+      "flags": []
+    },
+    {
+      "intentId": "cup_holder_fit",
+      "status": "missing",
+      "quotes": [],
+      "modelStatus": "missing",
+      "flags": []
+    },
+    {
+      "intentId": "insulation_type",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Double-wall keeps your water colder longer."
+        }
+      ],
+      "value": "Double-wall",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "dishwasher_safe",
+      "status": "missing",
+      "quotes": [],
+      "modelStatus": "missing",
+      "flags": []
+    },
+    {
+      "intentId": "material_composition",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Polypropylene"
+        }
+      ],
+      "value": "Polypropylene",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "ice_cube_compatibility",
+      "status": "missing",
+      "quotes": [],
+      "modelStatus": "missing",
+      "flags": []
+    },
+    {
+      "intentId": "weight_empty",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "0.27 Kilograms"
+        }
+      ],
+      "value": "0.27 Kilograms",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "carrying_strap",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.special_feature",
+          "text": "Carrying Loop"
+        }
+      ],
+      "value": "Carrying Loop",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "measurement_markings",
+      "status": "not_applicable",
+      "quotes": [],
+      "modelStatus": "missing",
+      "flags": [
+        "conditional_unaddressed"
+      ]
+    }
+  ],
+  "score": {
+    "score": 60,
+    "answered": 6,
+    "partial": 0,
+    "missing": 4,
+    "contradicted": 0,
+    "counted": 10,
+    "notApplicable": 1
+  },
+  "imageClaims": [
+    {
+      "id": "ic.0",
+      "text": "INSULATED",
+      "imageIds": [
+        "img.2"
+      ]
+    },
+    {
+      "id": "ic.1",
+      "text": "11 in",
+      "imageIds": [
+        "img.4"
+      ]
+    },
+    {
+      "id": "ic.2",
+      "text": "28 cm",
+      "imageIds": [
+        "img.4"
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "claimId": "ic.0",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "INSULATED"
+        }
+      ],
+      "intentId": "insulation_type",
+      "flags": []
+    },
+    {
+      "claimId": "ic.1",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.2",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    }
+  ],
+  "hiddenAnswers": [],
+  "skippedImageIds": [],
+  "competitors": [
+    {
+      "asin": "B08QF3C1B1",
+      "brand": "GEMFUL",
+      "title": "GEMFUL Water Bottle Biking BPA Free 24 Ounce 2 Pack",
+      "score": {
+        "score": 88,
+        "answered": 7,
+        "partial": 0,
+        "missing": 1,
+        "contradicted": 0,
+        "counted": 8,
+        "notApplicable": 3
+      },
+      "grades": [
+        {
+          "intentId": "capacity_oz",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "24 Ounce"
+            }
+          ],
+          "value": "24 Ounce",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "bpa_free",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "BPA Free"
+            }
+          ],
+          "value": "BPA Free",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "leak_proof",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "HIGH QUALITY LEAK PROOF VALVE: Our water bottles use a threaded lid with a up/down valve that seals your water bottle."
+            }
+          ],
+          "value": "HIGH QUALITY LEAK PROOF VALVE",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "cup_holder_fit",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.3",
+              "text": "Optimized to fit into any water bottle cage, backpack pocket or cup holder."
+            }
+          ],
+          "value": "Optimized to fit into any water bottle cage, backpack pocket or cup holder",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "insulation_type",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "dishwasher_safe",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.product_care_instructions",
+              "text": "Machine Wash"
+            }
+          ],
+          "value": "Machine Wash",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "material_composition",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.material",
+              "text": "Polypropylene"
+            }
+          ],
+          "value": "Polypropylene",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "ice_cube_compatibility",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "weight_empty",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.item_weight",
+              "text": "5.3 ounces"
+            }
+          ],
+          "value": "5.3 ounces",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "carrying_strap",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "measurement_markings",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        }
+      ]
+    },
+    {
+      "asin": "B0832N947Y",
+      "brand": "RICWINANN",
+      "title": "RICWINANN Water Jug 2.2L Large Sport Water Bottle Big Capacity Leakproof Container BPA Free Plastic with Carrying Loop Fitness for Camping Training Bicycle Hiking Gym Outdoor (Black)",
+      "score": {
+        "score": 90,
+        "answered": 9,
+        "partial": 0,
+        "missing": 1,
+        "contradicted": 0,
+        "counted": 10,
+        "notApplicable": 1
+      },
+      "grades": [
+        {
+          "intentId": "capacity_oz",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "2.2L"
+            }
+          ],
+          "value": "2.2L",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "bpa_free",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.3",
+              "text": "BPA-Free"
+            }
+          ],
+          "value": "BPA-Free",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "leak_proof",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "Lid with silicone seal, absolutely 100% leakproof, even under fiercely shake."
+            }
+          ],
+          "value": "100% leakproof",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "cup_holder_fit",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "insulation_type",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "dishwasher_safe",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.product_care_instructions",
+              "text": "Hand Wash Only"
+            }
+          ],
+          "value": "Hand Wash Only",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "material_composition",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.material",
+              "text": "Plastic"
+            }
+          ],
+          "value": "Plastic",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "ice_cube_compatibility",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.1",
+              "text": "Opening on the top is perfect for filling the bottle with ice cubes, fruit or different sports drinks."
+            }
+          ],
+          "value": "Opening on the top is perfect for filling the bottle with ice cubes",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "weight_empty",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.item_weight",
+              "text": "3.52 ounces"
+            }
+          ],
+          "value": "3.52 ounces",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "carrying_strap",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "Half gallon water bottle with anti-slip handle and strong nylon strap enables the gym water bottle easy to carry and be hung anywhere."
+            }
+          ],
+          "value": "anti-slip handle and strong nylon strap",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "measurement_markings",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.1",
+              "text": "The water level is easy to read via measurement scales on the semi-transparent bottle."
+            }
+          ],
+          "value": "measurement scales",
+          "modelStatus": "answered",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "asin": "B00G8QHUV2",
+      "brand": "Elite",
+      "title": "ELITE Corsa 550 Water Bottle Red 2016",
+      "score": {
+        "score": 63,
+        "answered": 5,
+        "partial": 0,
+        "missing": 3,
+        "contradicted": 0,
+        "counted": 8,
+        "notApplicable": 3
+      },
+      "grades": [
+        {
+          "intentId": "capacity_oz",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.capacity",
+              "text": "950 Milliliters"
+            }
+          ],
+          "value": "950 Milliliters",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "bpa_free",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.4",
+              "text": "BPA-free"
+            }
+          ],
+          "value": "BPA-free",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "leak_proof",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "cup_holder_fit",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "insulation_type",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "dishwasher_safe",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.4",
+              "text": "dishwasher safe"
+            }
+          ],
+          "value": "dishwasher safe",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "material_composition",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "corn - rather than oil - based plastic"
+            }
+          ],
+          "value": "corn - rather than oil - based plastic",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "ice_cube_compatibility",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "weight_empty",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.item_weight",
+              "text": "0.11 Kilograms"
+            }
+          ],
+          "value": "0.11 Kilograms",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "carrying_strap",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "measurement_markings",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        }
+      ]
+    },
+    {
+      "asin": "B08GZ7ZYSC",
+      "brand": "Polar Bottle",
+      "title": "Polar Bottle Breakaway Wave Lightweight Bike Water Bottle - BPA-Free, Cycling & Sports Squeeze Bottle",
+      "score": {
+        "score": 78,
+        "answered": 6,
+        "partial": 2,
+        "missing": 1,
+        "contradicted": 0,
+        "counted": 9,
+        "notApplicable": 2
+      },
+      "grades": [
+        {
+          "intentId": "capacity_oz",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.model_name",
+              "text": "30 oz"
+            }
+          ],
+          "value": "30 oz",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "bpa_free",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "BPA-Free"
+            }
+          ],
+          "value": "BPA-Free",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "leak_proof",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "pushes closed for leakproof transport"
+            }
+          ],
+          "value": "leakproof",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "cup_holder_fit",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.1",
+              "text": "fits most bike cages"
+            }
+          ],
+          "value": "fits most bike cages",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "insulation_type",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "attr.special_feature",
+              "text": "Insulated"
+            }
+          ],
+          "value": "Insulated",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "dishwasher_safe",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.3",
+              "text": "dishwasher safe"
+            }
+          ],
+          "value": "dishwasher safe",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "material_composition",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "attr.material",
+              "text": "Plastic"
+            }
+          ],
+          "value": "Plastic",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "ice_cube_compatibility",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "weight_empty",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.item_weight",
+              "text": "110 Grams"
+            }
+          ],
+          "value": "110 Grams",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "carrying_strap",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "measurement_markings",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "intentId": "dishwasher_safe",
+      "status": "missing",
+      "frequency": 1,
+      "competitorShare": 1,
+      "competitorsAnswering": [
+        {
+          "asin": "B08QF3C1B1",
+          "brand": "GEMFUL",
+          "quote": {
+            "fieldId": "attr.product_care_instructions",
+            "text": "Machine Wash"
+          }
+        },
+        {
+          "asin": "B0832N947Y",
+          "brand": "RICWINANN",
+          "quote": {
+            "fieldId": "attr.product_care_instructions",
+            "text": "Hand Wash Only"
+          }
+        },
+        {
+          "asin": "B00G8QHUV2",
+          "brand": "Elite",
+          "quote": {
+            "fieldId": "bullet.4",
+            "text": "dishwasher safe"
+          }
+        },
+        {
+          "asin": "B08GZ7ZYSC",
+          "brand": "Polar Bottle",
+          "quote": {
+            "fieldId": "bullet.3",
+            "text": "dishwasher safe"
+          }
+        }
+      ],
+      "hiddenClaims": [],
+      "priority": 1
+    },
+    {
+      "intentId": "leak_proof",
+      "status": "missing",
+      "frequency": 1,
+      "competitorShare": 0.75,
+      "competitorsAnswering": [
+        {
+          "asin": "B08QF3C1B1",
+          "brand": "GEMFUL",
+          "quote": {
+            "fieldId": "bullet.2",
+            "text": "HIGH QUALITY LEAK PROOF VALVE: Our water bottles use a threaded lid with a up/down valve that seals your water bottle."
+          }
+        },
+        {
+          "asin": "B0832N947Y",
+          "brand": "RICWINANN",
+          "quote": {
+            "fieldId": "bullet.2",
+            "text": "Lid with silicone seal, absolutely 100% leakproof, even under fiercely shake."
+          }
+        },
+        {
+          "asin": "B08GZ7ZYSC",
+          "brand": "Polar Bottle",
+          "quote": {
+            "fieldId": "bullet.2",
+            "text": "pushes closed for leakproof transport"
+          }
+        }
+      ],
+      "hiddenClaims": [],
+      "priority": 0.9
+    },
+    {
+      "intentId": "cup_holder_fit",
+      "status": "missing",
+      "frequency": 1,
+      "competitorShare": 0.5,
+      "competitorsAnswering": [
+        {
+          "asin": "B08QF3C1B1",
+          "brand": "GEMFUL",
+          "quote": {
+            "fieldId": "bullet.3",
+            "text": "Optimized to fit into any water bottle cage, backpack pocket or cup holder."
+          }
+        },
+        {
+          "asin": "B08GZ7ZYSC",
+          "brand": "Polar Bottle",
+          "quote": {
+            "fieldId": "bullet.1",
+            "text": "fits most bike cages"
+          }
+        }
+      ],
+      "hiddenClaims": [],
+      "priority": 0.8
+    },
+    {
+      "intentId": "ice_cube_compatibility",
+      "status": "missing",
+      "frequency": 1,
+      "competitorShare": 0.25,
+      "competitorsAnswering": [
+        {
+          "asin": "B0832N947Y",
+          "brand": "RICWINANN",
+          "quote": {
+            "fieldId": "bullet.1",
+            "text": "Opening on the top is perfect for filling the bottle with ice cubes, fruit or different sports drinks."
+          }
+        }
+      ],
+      "hiddenClaims": [],
+      "priority": 0.6
+    }
+  ],
+  "briefs": [
+    {
+      "intentId": "dishwasher_safe",
+      "question": "Can the water bottle and its cap be safely washed in a dishwasher?",
+      "priority": 1,
+      "action": "request_fact",
+      "target": "new_bullet",
+      "needsFromBrand": "Confirm whether the water bottle and its cap are dishwasher safe.",
+      "sources": [],
+      "flags": []
+    },
+    {
+      "intentId": "leak_proof",
+      "question": "Is the cap and valve completely leak-proof when closed and tossed into a bag?",
+      "priority": 0.9,
+      "action": "request_fact",
+      "target": "new_bullet",
+      "needsFromBrand": "Confirm whether the cap and valve are completely leak-proof when closed.",
+      "sources": [],
+      "flags": []
+    },
+    {
+      "intentId": "cup_holder_fit",
+      "question": "Does the bottle fit standard bicycle water bottle cages and car cup holders?",
+      "priority": 0.8,
+      "action": "request_fact",
+      "target": "new_bullet",
+      "needsFromBrand": "Confirm whether the bottle fits standard bicycle water bottle cages and car cup holders.",
+      "sources": [],
+      "flags": []
+    },
+    {
+      "intentId": "ice_cube_compatibility",
+      "question": "Is the opening wide enough to easily add ice cubes or fruit pieces?",
+      "priority": 0.6,
+      "action": "request_fact",
+      "target": "new_bullet",
+      "needsFromBrand": "Confirm whether the opening is wide enough to easily add ice cubes or fruit pieces.",
+      "sources": [],
+      "flags": []
+    }
+  ],
+  "usage": {
+    "requests": 7,
+    "cachedRequests": 7,
+    "inputTokens": 10275,
+    "outputTokens": 3719
+  },
+  "notes": [
+    "The \"Water Bottles\" questions haven't been reviewed by a person yet.",
+    "The \"Water Bottles\" questions are estimated, not mined from reviews, so every question weighs the same."
+  ]
+}

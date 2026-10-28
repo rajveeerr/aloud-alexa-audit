@@ -1,0 +1,1234 @@
+{
+  "listing": {
+    "asin": "B08PD98HYG",
+    "requestedAsin": "B08PD98HYG",
+    "marketplace": "amazon.com",
+    "source": "dataset",
+    "fetchedAt": "2023-09-01T00:00:00.000Z",
+    "fields": [
+      {
+        "id": "title",
+        "kind": "title",
+        "text": "Pentel GraphGear 1000 Mechanical Pencil, (0.5mm), Black Barrel, 1 Each (PG1015A), Metallic Grey & GraphGear 500 Automatic Drafting Pencil Black (PG525A)"
+      },
+      {
+        "id": "bullet.1",
+        "kind": "bullet",
+        "text": "Product 1: Chiseled metallic grip inlaid with soft latex-free pads provides writing comfort"
+      },
+      {
+        "id": "bullet.2",
+        "kind": "bullet",
+        "text": "Product 1: Dual-action retractor advances and retracts tip for easy use"
+      },
+      {
+        "id": "bullet.3",
+        "kind": "bullet",
+        "text": "Product 1: Superior drafting pencil for general and technical writing"
+      },
+      {
+        "id": "bullet.4",
+        "kind": "bullet",
+        "text": "Product 1: Refillable with Pentel Super Hi-Polymer Lead and Z2-1 eraser"
+      },
+      {
+        "id": "bullet.5",
+        "kind": "bullet",
+        "text": "Product 2: 4mm tip length makes it ideal for use with rulers and templates"
+      },
+      {
+        "id": "bullet.6",
+        "kind": "bullet",
+        "text": "Product 2: Metallic mesh grip on a slim, beveled barrel promotes control when writing"
+      },
+      {
+        "id": "bullet.7",
+        "kind": "bullet",
+        "text": "Product 2: Weighted at your fingertips for precise drafting and template work"
+      },
+      {
+        "id": "bullet.8",
+        "kind": "bullet",
+        "text": "Product 2: Pre-loaded with Pentel Super Hi-Polymer HB lead; never needs sharpening, is super strong and produces a clear dark line"
+      },
+      {
+        "id": "description.1",
+        "kind": "description",
+        "text": "Pentel GraphGear 1000 Mechanical Pencil, (0.5mm), Black Barrel, 1 Each (PG1015A),BrownFinely chiseled metallic grip inlaid with soft latex-free pads. Dual-function pocket clip releases heavy spring mechanism to retract tip. Sophisticated brushed metal barrel. Writes crisp, .5mm fine lines of consistent density. Refillable with Pentel Super Hi-Polymer Lead and Z2-1 refill eraser.Pentel GraphGear 500 Automatic Drafting Pencil Black (PG525A)GraphGear 500 technical drafting pencil features a 4mm fixed sleeve for template work and technical drawings. Metallic-mesh grip delivers precision and control. Drafting pencil offers a top click, stationary eraser and tip. Refillable with Pentel Super Hi-Polymer Lead and Z21 refill eraser.Superior drafting pencil for professionals and enthusiasts. 0. 5mm lead produces fine lines of consistent density. Metallic mesh grip on a slim, beveled barrel. 4mm fixed sleeve helps prevent lead from breaking and is ideal for template work. Penndel Super Hi-Polymer Lead never needs sharpening and is equivalent to a #2 pencil. Refillable with Penndel Super Hi-Polymer Lead and Z2-1 eraser."
+      },
+      {
+        "id": "attr.manufacturer",
+        "kind": "attribute",
+        "key": "manufacturer",
+        "text": "Manufacturer: Pentel"
+      },
+      {
+        "id": "attr.brand",
+        "kind": "attribute",
+        "key": "brand",
+        "text": "Brand: Pentel"
+      },
+      {
+        "id": "attr.color",
+        "kind": "attribute",
+        "key": "color",
+        "text": "Color: 1 Pack"
+      },
+      {
+        "id": "attr.closure",
+        "kind": "attribute",
+        "key": "closure",
+        "text": "Closure: Retractable"
+      },
+      {
+        "id": "attr.pencil_lead_degree_hardness",
+        "kind": "attribute",
+        "key": "pencil_lead_degree_hardness",
+        "text": "Pencil lead degree hardness: HB"
+      },
+      {
+        "id": "attr.material_type",
+        "kind": "attribute",
+        "key": "material_type",
+        "text": "Material type: Metal"
+      },
+      {
+        "id": "attr.size",
+        "kind": "attribute",
+        "key": "size",
+        "text": "Size: 0.5mm"
+      },
+      {
+        "id": "attr.point_type",
+        "kind": "attribute",
+        "key": "point_type",
+        "text": "Point type: Fine"
+      },
+      {
+        "id": "attr.line_size",
+        "kind": "attribute",
+        "key": "line_size",
+        "text": "Line size: 0.5 Millimeters"
+      },
+      {
+        "id": "attr.ink_color",
+        "kind": "attribute",
+        "key": "ink_color",
+        "text": "Ink color: Black"
+      },
+      {
+        "id": "attr.tip_type",
+        "kind": "attribute",
+        "key": "tip_type",
+        "text": "Tip type: Metal"
+      },
+      {
+        "id": "attr.writing_instrument_form",
+        "kind": "attribute",
+        "key": "writing_instrument_form",
+        "text": "Writing instrument form: Technical Pen"
+      },
+      {
+        "id": "attr.age_range_description",
+        "kind": "attribute",
+        "key": "age_range_description",
+        "text": "Age range description: Adult"
+      }
+    ],
+    "images": [
+      {
+        "id": "img.0",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/512t3mlnguL._AC_SL1001_.jpg"
+      },
+      {
+        "id": "img.1",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/71FfU6J7y9L._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.2",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/816KYMf2vqL._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.3",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/71W4kjeFKUL._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.4",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/81y7VNqIZ3L._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.5",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/81VOkyF-0DL._AC_SL1500_.jpg"
+      }
+    ],
+    "meta": {
+      "brand": "Pentel",
+      "rating": 4.7,
+      "reviewCount": 23699,
+      "price": 19.33,
+      "categories": [
+        "Office Products",
+        "Office & School Supplies",
+        "Writing & Correction Supplies",
+        "Pencils",
+        "Mechanical Pencils"
+      ],
+      "salesRanks": [
+        {
+          "category": "Office Products",
+          "rank": 369
+        },
+        {
+          "category": "Mechanical Pencils",
+          "rank": 9
+        }
+      ]
+    },
+    "contentHash": "92e7d38997073d39d19edc7211613304f3a6174023bdbf630322c65accc27a42"
+  },
+  "intentSet": {
+    "categoryId": "mechanical-pencils",
+    "categoryName": "Mechanical Pencils",
+    "match": [
+      "Mechanical Pencils"
+    ],
+    "version": "mined-2026-10-27.1",
+    "basis": "mined",
+    "reviewed": false,
+    "sampleSize": 600,
+    "intents": [
+      {
+        "id": "durability",
+        "kind": "claim",
+        "question": "How durable is the pencil construction and clip over time?",
+        "rubric": "answered: claims durable build quality or metal parts partial: mentions sturdy construction",
+        "frequency": 157
+      },
+      {
+        "id": "lead_breakage_resistance",
+        "kind": "claim",
+        "question": "Does the lead resist breaking during writing?",
+        "rubric": "answered: claims break-resistant lead technology partial: mentions strong lead",
+        "frequency": 141
+      },
+      {
+        "id": "grip_comfort",
+        "kind": "experience",
+        "question": "How comfortable is the grip for long writing sessions?",
+        "rubric": "answered: describes ergonomic grip cushioning or texture partial: mentions rubber grip",
+        "frequency": 127
+      },
+      {
+        "id": "lead_size",
+        "kind": "spec",
+        "question": "What size of lead does the mechanical pencil use?",
+        "rubric": "answered: specifies lead size like 0.5mm or 0.7mm partial: mentions mm in description",
+        "frequency": 92
+      },
+      {
+        "id": "eraser_presence",
+        "kind": "spec",
+        "question": "Does the pencil come with an eraser?",
+        "rubric": "answered: states eraser is included under cap partial: mentions eraser size",
+        "frequency": 74
+      },
+      {
+        "id": "weight_and_balance",
+        "kind": "experience",
+        "question": "How does the weight and balance feel in the hand?",
+        "rubric": "answered: describes weight distribution and overall heft partial: mentions lightweight or heavy",
+        "frequency": 73
+      },
+      {
+        "id": "advancement_mechanism",
+        "kind": "experience",
+        "question": "How satisfying and reliable is the lead advancement click?",
+        "rubric": "answered: describes clicker feedback and lead feed consistency partial: mentions button feel",
+        "frequency": 62
+      },
+      {
+        "id": "smoothness",
+        "kind": "claim",
+        "question": "Does the lead write smoothly without scratching?",
+        "rubric": "answered: claims smooth writing experience partial: mentions smooth graphite",
+        "frequency": 51
+      },
+      {
+        "id": "erasability",
+        "kind": "claim",
+        "question": "Does the eraser remove marks cleanly without smudging or tearing paper?",
+        "rubric": "answered: claims clean erasing partial: mentions smudge-free eraser",
+        "frequency": 42
+      },
+      {
+        "id": "retractable",
+        "kind": "spec",
+        "question": "Is the tip retractable?",
+        "rubric": "answered: states if the tip or sleeve retracts partial: mentions retractable tip",
+        "frequency": 38,
+        "conditional": true
+      },
+      {
+        "id": "refillable",
+        "kind": "spec",
+        "question": "Can the lead and erasers be refilled?",
+        "rubric": "answered: states if lead and eraser replacements are available partial: mentions refillable",
+        "frequency": 37
+      },
+      {
+        "id": "built_in_sharpener",
+        "kind": "spec",
+        "question": "Does the pencil include a built-in sharpener?",
+        "rubric": "answered: states presence of sharpener partial: mentions eraser cap sharpener",
+        "frequency": 31,
+        "conditional": true
+      },
+      {
+        "id": "auto_rotation",
+        "kind": "spec",
+        "question": "Does the pencil feature automatic lead rotation?",
+        "rubric": "answered: states auto-rotation mechanism included partial: mentions rotating mechanism",
+        "frequency": 28,
+        "conditional": true
+      },
+      {
+        "id": "body_material",
+        "kind": "spec",
+        "question": "What material is the body of the pencil made of?",
+        "rubric": "answered: states barrel material such as metal, plastic, or brass partial: mentions material in specs",
+        "frequency": 27
+      },
+      {
+        "id": "jamming",
+        "kind": "claim",
+        "question": "Does the lead mechanism jam during use?",
+        "rubric": "answered: claims anti-jamming mechanism partial: mentions smooth lead advance",
+        "frequency": 21
+      },
+      {
+        "id": "smudge_resistance",
+        "kind": "claim",
+        "question": "Does the lead resist smudging on the page?",
+        "rubric": "answered: claims smear-proof or smudge-resistant graphite partial: mentions quick dry or clean lines",
+        "frequency": 9
+      }
+    ],
+    "source": "Mined from 600 reviews (Amazon Reviews 2023). Not yet reviewed by hand."
+  },
+  "grades": [
+    {
+      "intentId": "durability",
+      "status": "missing",
+      "quotes": [],
+      "modelStatus": "missing",
+      "flags": []
+    },
+    {
+      "intentId": "lead_breakage_resistance",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.8",
+          "text": "never needs sharpening, is super strong"
+        }
+      ],
+      "value": "super strong",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "lead_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.size",
+          "text": "0.5mm"
+        }
+      ],
+      "value": "0.5mm",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "eraser_presence",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Z2-1 eraser"
+        }
+      ],
+      "value": "Z2-1 eraser",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "smoothness",
+      "status": "missing",
+      "quotes": [],
+      "modelStatus": "missing",
+      "flags": []
+    },
+    {
+      "intentId": "erasability",
+      "status": "missing",
+      "quotes": [],
+      "modelStatus": "missing",
+      "flags": []
+    },
+    {
+      "intentId": "retractable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.closure",
+          "text": "Retractable"
+        }
+      ],
+      "value": "Retractable",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "refillable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Refillable with Pentel Super Hi-Polymer Lead and Z2-1 eraser"
+        }
+      ],
+      "value": "Refillable with Pentel Super Hi-Polymer Lead and Z2-1 eraser",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "built_in_sharpener",
+      "status": "not_applicable",
+      "quotes": [],
+      "modelStatus": "missing",
+      "flags": [
+        "conditional_unaddressed"
+      ]
+    },
+    {
+      "intentId": "auto_rotation",
+      "status": "not_applicable",
+      "quotes": [],
+      "modelStatus": "missing",
+      "flags": [
+        "conditional_unaddressed"
+      ]
+    },
+    {
+      "intentId": "body_material",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.material_type",
+          "text": "Metal"
+        }
+      ],
+      "value": "Metal",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "jamming",
+      "status": "missing",
+      "quotes": [],
+      "modelStatus": "missing",
+      "flags": []
+    },
+    {
+      "intentId": "smudge_resistance",
+      "status": "missing",
+      "quotes": [],
+      "modelStatus": "missing",
+      "flags": []
+    }
+  ],
+  "score": {
+    "score": 59,
+    "answered": 6,
+    "partial": 0,
+    "missing": 5,
+    "contradicted": 0,
+    "counted": 11,
+    "notApplicable": 2
+  },
+  "imageClaims": [
+    {
+      "id": "ic.0",
+      "text": "PG1015",
+      "imageIds": [
+        "img.0",
+        "img.1",
+        "img.2"
+      ]
+    },
+    {
+      "id": "ic.1",
+      "text": "JAPAN",
+      "imageIds": [
+        "img.0",
+        "img.1",
+        "img.2"
+      ]
+    },
+    {
+      "id": "ic.2",
+      "text": "PG525",
+      "imageIds": [
+        "img.0",
+        "img.3",
+        "img.4"
+      ]
+    },
+    {
+      "id": "ic.3",
+      "text": "Drafting Pencil",
+      "imageIds": [
+        "img.3",
+        "img.4",
+        "img.5"
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "claimId": "ic.0",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "PG1015"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "claimId": "ic.1",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.2",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "PG525"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "claimId": "ic.3",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Drafting Pencil"
+        }
+      ],
+      "flags": []
+    }
+  ],
+  "hiddenAnswers": [],
+  "skippedImageIds": [],
+  "competitors": [
+    {
+      "asin": "B0BM4LCNPL",
+      "brand": "Pica",
+      "title": "Pica-Dry Longlife Automatic Pencil 3030",
+      "score": {
+        "score": 24,
+        "answered": 1,
+        "partial": 0,
+        "missing": 9,
+        "contradicted": 0,
+        "counted": 10,
+        "notApplicable": 3
+      },
+      "grades": [
+        {
+          "intentId": "durability",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "Made to withstand even the toughest jobs"
+            }
+          ],
+          "value": "Made to withstand even the toughest jobs",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "lead_breakage_resistance",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "lead_size",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "eraser_presence",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "smoothness",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "erasability",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "retractable",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "refillable",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "built_in_sharpener",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "auto_rotation",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "body_material",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "jamming",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "smudge_resistance",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "asin": "B077Q4B6YN",
+      "brand": "Paper Mate",
+      "title": "Paper Mate Handwriting Triangular Mechanical Pencil Set with Lead & Eraser Refills, 1.3mm, Fun Barrel Colors, 8 Count",
+      "score": {
+        "score": 59,
+        "answered": 6,
+        "partial": 0,
+        "missing": 5,
+        "contradicted": 0,
+        "counted": 11,
+        "notApplicable": 2
+      },
+      "grades": [
+        {
+          "intentId": "durability",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "lead_breakage_resistance",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.3",
+              "text": "Thick 1.3mm lead for less breakage"
+            }
+          ],
+          "value": "Thick 1.3mm lead for less breakage",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "lead_size",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.line_size",
+              "text": "1.3"
+            }
+          ],
+          "value": "1.3",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "eraser_presence",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "Eraser Refills"
+            }
+          ],
+          "value": "Eraser Refills",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "smoothness",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "erasability",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "retractable",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.closure",
+              "text": "Retractable"
+            }
+          ],
+          "value": "Retractable",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "refillable",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "Lead & Eraser Refills"
+            }
+          ],
+          "value": "Lead & Eraser Refills",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "built_in_sharpener",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "auto_rotation",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "body_material",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.material_type",
+              "text": "Lead, Plastic, Rubber"
+            }
+          ],
+          "value": "Lead, Plastic, Rubber",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "jamming",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "smudge_resistance",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "asin": "B0BZQYP39K",
+      "brand": "BIC",
+      "title": "BIC Xtra Sparkle Mechanical Pencil 144CT",
+      "score": {
+        "score": 36,
+        "answered": 5,
+        "partial": 0,
+        "missing": 6,
+        "contradicted": 0,
+        "counted": 11,
+        "notApplicable": 2
+      },
+      "grades": [
+        {
+          "intentId": "durability",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "lead_breakage_resistance",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "lead_size",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "0.7mm"
+            }
+          ],
+          "value": "0.7mm",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "eraser_presence",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.1",
+              "text": "With Erasers"
+            }
+          ],
+          "value": "Erasers included",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "smoothness",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "erasability",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.4",
+              "text": "erases cleanly"
+            }
+          ],
+          "value": "erases cleanly",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "retractable",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "refillable",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "built_in_sharpener",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "description.1",
+              "text": "never need sharpening"
+            }
+          ],
+          "value": "never need sharpening",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "auto_rotation",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "body_material",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "jamming",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "smudge_resistance",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.4",
+              "text": "doesn’t smudge"
+            }
+          ],
+          "value": "doesn't smudge",
+          "modelStatus": "answered",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "asin": "B0BKSDXL36",
+      "brand": "Parker",
+      "title": "Parker Jotter Stainless Steel Chrome Color Trim Mechanical Pencil, Medium Point (0.5 mm)",
+      "score": {
+        "score": 46,
+        "answered": 4,
+        "partial": 0,
+        "missing": 7,
+        "contradicted": 0,
+        "counted": 11,
+        "notApplicable": 2
+      },
+      "grades": [
+        {
+          "intentId": "durability",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "description.1",
+              "text": "durability"
+            }
+          ],
+          "value": "durability",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "lead_breakage_resistance",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "lead_size",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.4",
+              "text": "0.5mm"
+            }
+          ],
+          "value": "0.5mm",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "eraser_presence",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "smoothness",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "erasability",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "retractable",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.closure",
+              "text": "Retractable"
+            }
+          ],
+          "value": "Retractable",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "refillable",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "built_in_sharpener",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "auto_rotation",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "body_material",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "Stainless steel"
+            }
+          ],
+          "value": "Stainless steel",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "jamming",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "smudge_resistance",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "intentId": "durability",
+      "status": "missing",
+      "frequency": 157,
+      "competitorShare": 0.5,
+      "competitorsAnswering": [
+        {
+          "asin": "B0BM4LCNPL",
+          "brand": "Pica",
+          "quote": {
+            "fieldId": "bullet.2",
+            "text": "Made to withstand even the toughest jobs"
+          }
+        },
+        {
+          "asin": "B0BKSDXL36",
+          "brand": "Parker",
+          "quote": {
+            "fieldId": "description.1",
+            "text": "durability"
+          }
+        }
+      ],
+      "hiddenClaims": [],
+      "priority": 117.8
+    },
+    {
+      "intentId": "erasability",
+      "status": "missing",
+      "frequency": 42,
+      "competitorShare": 0.25,
+      "competitorsAnswering": [
+        {
+          "asin": "B0BZQYP39K",
+          "brand": "BIC",
+          "quote": {
+            "fieldId": "bullet.4",
+            "text": "erases cleanly"
+          }
+        }
+      ],
+      "hiddenClaims": [],
+      "priority": 26.3
+    },
+    {
+      "intentId": "smoothness",
+      "status": "missing",
+      "frequency": 51,
+      "competitorShare": 0,
+      "competitorsAnswering": [],
+      "hiddenClaims": [],
+      "priority": 25.5
+    },
+    {
+      "intentId": "jamming",
+      "status": "missing",
+      "frequency": 21,
+      "competitorShare": 0,
+      "competitorsAnswering": [],
+      "hiddenClaims": [],
+      "priority": 10.5
+    },
+    {
+      "intentId": "smudge_resistance",
+      "status": "missing",
+      "frequency": 9,
+      "competitorShare": 0.25,
+      "competitorsAnswering": [
+        {
+          "asin": "B0BZQYP39K",
+          "brand": "BIC",
+          "quote": {
+            "fieldId": "bullet.4",
+            "text": "doesn’t smudge"
+          }
+        }
+      ],
+      "hiddenClaims": [],
+      "priority": 5.6
+    }
+  ],
+  "briefs": [
+    {
+      "intentId": "durability",
+      "question": "How durable is the pencil construction and clip over time?",
+      "priority": 117.8,
+      "action": "request_fact",
+      "target": "new_bullet",
+      "needsFromBrand": "Confirm whether the pencil has any specific durability claims for its construction or clip over time.",
+      "sources": [],
+      "flags": []
+    },
+    {
+      "intentId": "erasability",
+      "question": "Does the eraser remove marks cleanly without smudging or tearing paper?",
+      "priority": 26.3,
+      "action": "request_fact",
+      "target": "new_bullet",
+      "needsFromBrand": "Confirm whether the eraser removes marks cleanly without smudging or tearing paper.",
+      "sources": [],
+      "flags": []
+    },
+    {
+      "intentId": "smoothness",
+      "question": "Does the lead write smoothly without scratching?",
+      "priority": 25.5,
+      "action": "request_fact",
+      "target": "new_bullet",
+      "needsFromBrand": "Confirm whether the lead writes smoothly without scratching.",
+      "sources": [],
+      "flags": []
+    },
+    {
+      "intentId": "jamming",
+      "question": "Does the lead mechanism jam during use?",
+      "priority": 10.5,
+      "action": "request_fact",
+      "target": "new_bullet",
+      "needsFromBrand": "Confirm whether the lead mechanism features anti-jamming properties.",
+      "sources": [],
+      "flags": []
+    },
+    {
+      "intentId": "smudge_resistance",
+      "question": "Does the lead resist smudging on the page?",
+      "priority": 5.6,
+      "action": "request_fact",
+      "target": "new_bullet",
+      "needsFromBrand": "Confirm whether the lead specifically resists smudging on the page.",
+      "sources": [],
+      "flags": []
+    }
+  ],
+  "usage": {
+    "requests": 7,
+    "cachedRequests": 7,
+    "inputTokens": 9815,
+    "outputTokens": 3642
+  },
+  "notes": [
+    "The \"Mechanical Pencils\" questions haven't been reviewed by a person yet."
+  ]
+}

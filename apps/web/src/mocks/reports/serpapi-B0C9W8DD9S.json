@@ -1,0 +1,2324 @@
+{
+  "listing": {
+    "asin": "B0C9W8DD9S",
+    "requestedAsin": "B0C9W8DD9S",
+    "marketplace": "amazon.com",
+    "source": "serpapi",
+    "fetchedAt": "2026-10-27T00:00:00.000Z",
+    "fields": [
+      {
+        "id": "title",
+        "kind": "title",
+        "text": "Ddaowanx Gel Pens,6 Pcs 0.5mm Retractable Quick Dry Black Ink Pens"
+      },
+      {
+        "id": "bullet.1",
+        "kind": "bullet",
+        "text": "Gel Pens: You will receive 6pc quick-drying ink pens with a modern minimalist design to suit your needs Daily use and replacement needs"
+      },
+      {
+        "id": "bullet.2",
+        "kind": "bullet",
+        "text": "Quick-Drying Ink: These retractable roller ball gel pens feature reliable ink that won't fade or smudge easily; the rollerball ink dries quickly that help you keep work neat and organized"
+      },
+      {
+        "id": "bullet.3",
+        "kind": "bullet",
+        "text": "Practical and Simple Design: The convenient clip design can firmly clip the neutral ink ballpoint pen to a book, notebook or bag, easy to carry, without worrying about losing; retractable design, gently press the cap, the pen end automatically retracts"
+      },
+      {
+        "id": "bullet.4",
+        "kind": "bullet",
+        "text": "Scope of use: 6pc gel pen is suitable for children and adults for writing, diary, sketching, painting, scrapbooking, making gift cards, etc., to meet your various needs in daily study and work"
+      },
+      {
+        "id": "bullet.5",
+        "kind": "bullet",
+        "text": "Practical Gifts: You can give these colored gel pens as practical gifts to your family, friends, students, classmates and colleagues to express your feelings on various occasions such as birthdays, thanksgiving, Christmas stockings stuffers, graduations, classroom activities, parties, etc. love and blessings"
+      },
+      {
+        "id": "attr.brand",
+        "kind": "attribute",
+        "key": "brand",
+        "text": "Brand: Ddaowanx"
+      },
+      {
+        "id": "attr.writing_instrument_form",
+        "kind": "attribute",
+        "key": "writing_instrument_form",
+        "text": "Writing instrument form: Roller Ball Pen"
+      },
+      {
+        "id": "attr.color",
+        "kind": "attribute",
+        "key": "color",
+        "text": "Color: Morandi"
+      },
+      {
+        "id": "attr.ink_color",
+        "kind": "attribute",
+        "key": "ink_color",
+        "text": "Ink color: Black"
+      },
+      {
+        "id": "attr.age_range_description",
+        "kind": "attribute",
+        "key": "age_range_description",
+        "text": "Age range description: Adult"
+      },
+      {
+        "id": "attr.drill_point",
+        "kind": "attribute",
+        "key": "drill_point",
+        "text": "Drill point: Fine"
+      },
+      {
+        "id": "attr.additional_features",
+        "kind": "attribute",
+        "key": "additional_features",
+        "text": "Additional features: Heavy Duty, Quick Drying, Soft Grip"
+      },
+      {
+        "id": "attr.line_size",
+        "kind": "attribute",
+        "key": "line_size",
+        "text": "Line size: 0.5 Millimeters"
+      },
+      {
+        "id": "attr.hand_orientation",
+        "kind": "attribute",
+        "key": "hand_orientation",
+        "text": "Hand orientation: Ambidextrous"
+      },
+      {
+        "id": "attr.grip_type",
+        "kind": "attribute",
+        "key": "grip_type",
+        "text": "Grip type: Soft"
+      },
+      {
+        "id": "attr.writing_technique",
+        "kind": "attribute",
+        "key": "writing_technique",
+        "text": "Writing technique: gel ink, rollerball"
+      },
+      {
+        "id": "attr.closure_type",
+        "kind": "attribute",
+        "key": "closure_type",
+        "text": "Closure type: Retractable"
+      },
+      {
+        "id": "attr.theme",
+        "kind": "attribute",
+        "key": "theme",
+        "text": "Theme: Office Modern Style"
+      },
+      {
+        "id": "attr.style",
+        "kind": "attribute",
+        "key": "style",
+        "text": "Style: Modern"
+      },
+      {
+        "id": "attr.body_shape",
+        "kind": "attribute",
+        "key": "body_shape",
+        "text": "Body shape: Round"
+      },
+      {
+        "id": "attr.material_type",
+        "kind": "attribute",
+        "key": "material_type",
+        "text": "Material type: Alloy Steel, Plastic"
+      },
+      {
+        "id": "attr.ink_base",
+        "kind": "attribute",
+        "key": "ink_base",
+        "text": "Ink base: Water"
+      },
+      {
+        "id": "attr.brand_name",
+        "kind": "attribute",
+        "key": "brand_name",
+        "text": "Brand name: Ddaowanx"
+      },
+      {
+        "id": "attr.recommended_uses_for_product",
+        "kind": "attribute",
+        "key": "recommended_uses_for_product",
+        "text": "Recommended uses for product: Office"
+      },
+      {
+        "id": "attr.included_components",
+        "kind": "attribute",
+        "key": "included_components",
+        "text": "Included components: 6 retractable gel pens"
+      },
+      {
+        "id": "attr.manufacturer",
+        "kind": "attribute",
+        "key": "manufacturer",
+        "text": "Manufacturer: Ddaowanx"
+      },
+      {
+        "id": "attr.warranty_description",
+        "kind": "attribute",
+        "key": "warranty_description",
+        "text": "Warranty description: 30 Days"
+      },
+      {
+        "id": "attr.unit_count",
+        "kind": "attribute",
+        "key": "unit_count",
+        "text": "Unit count: 6 Count"
+      },
+      {
+        "id": "attr.item_dimensions",
+        "kind": "attribute",
+        "key": "item_dimensions",
+        "text": "Item dimensions: 2.36 x 0.55 x 5.9 inches"
+      },
+      {
+        "id": "attr.item_weight",
+        "kind": "attribute",
+        "key": "item_weight",
+        "text": "Item weight: 3.84 ounces"
+      },
+      {
+        "id": "attr.item_diameter",
+        "kind": "attribute",
+        "key": "item_diameter",
+        "text": "Item diameter: 10 millimeters"
+      }
+    ],
+    "images": [
+      {
+        "id": "img.0",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/61ruPpZ1CfL._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.1",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/51zf+g1L0mL._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.2",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/61MI9ezQUfL._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.3",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/61ReRuAR7qL._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.4",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/61n2GWTY++L._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.5",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/71BGQ9HKdNL._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.6",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/71x24fBm8WL._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.7",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/7111toK6n2L._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.8",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/8103G6A1nJL._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.9",
+        "kind": "aplus",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/5f338d09-80e3-47c6-bf0d-0b878f494033.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg"
+      },
+      {
+        "id": "img.10",
+        "kind": "aplus",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/22533384-13ab-4748-9592-adb61f81a7f8.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg"
+      },
+      {
+        "id": "img.11",
+        "kind": "aplus",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/cd9dc6b5-c85b-4418-a57c-c70d064ed671.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg"
+      },
+      {
+        "id": "img.12",
+        "kind": "aplus",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a71cb23c-e715-488e-8897-e1f4b6c32277.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg"
+      },
+      {
+        "id": "img.13",
+        "kind": "aplus",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2e092062-a155-45e9-98fe-7a1f4ec3ac84.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg"
+      },
+      {
+        "id": "img.14",
+        "kind": "aplus",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d6e46d1b-a168-42f6-a876-4933e1f0871d.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg"
+      },
+      {
+        "id": "img.15",
+        "kind": "aplus",
+        "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/b9361e02-0107-411a-b93f-864b577e85db.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg"
+      }
+    ],
+    "meta": {
+      "brand": "Ddaowanx",
+      "rating": 4.6,
+      "reviewCount": 9723,
+      "price": 7.99,
+      "categories": [
+        "Office Products",
+        "Office & School Supplies",
+        "Writing & Correction Supplies",
+        "Pens & Refills",
+        "Rollerball Pens",
+        "Gel Ink Rollerball Pens"
+      ],
+      "salesRanks": [
+        {
+          "category": "Office Products",
+          "rank": 49
+        },
+        {
+          "category": "Gel Ink Pens",
+          "rank": 4
+        }
+      ],
+      "available": true
+    },
+    "contentHash": "8166aa612fa7a20e36f5f0524d9d2075483d141948b3c5cb87ee289aa898faf2"
+  },
+  "intentSet": {
+    "categoryId": "gel-ink-pens",
+    "categoryName": "Gel Ink Rollerball Pens",
+    "match": [
+      "Gel Ink Rollerball Pens",
+      "Gel Ink Pens"
+    ],
+    "version": "2026-10-27.1",
+    "basis": "mined",
+    "reviewed": true,
+    "source": "Mined from 600 reviews (10 most helpful from each of the 60 most-reviewed gel pens, Amazon Reviews 2023), clustered, then reviewed by hand.",
+    "sampleSize": 600,
+    "intents": [
+      {
+        "id": "tip_size",
+        "kind": "spec",
+        "frequency": 130,
+        "question": "What is the tip size or line width?",
+        "rubric": "answered: states a tip or line size in mm. partial: only a word like fine, medium or bold."
+      },
+      {
+        "id": "smudge",
+        "kind": "claim",
+        "frequency": 84,
+        "question": "Does the ink smudge or smear?",
+        "rubric": "answered: says the ink is smudge-free, smear-resistant or similar. partial: only implies it, e.g. quick-drying with no mention of smudging."
+      },
+      {
+        "id": "smudge_left_handed",
+        "kind": "claim",
+        "frequency": 11,
+        "question": "Does it smudge for left-handed writers?",
+        "rubric": "answered: says it suits left-handed writers without smudging. partial: mentions left-handed or ambidextrous use but not smudging."
+      },
+      {
+        "id": "dry_time",
+        "kind": "claim",
+        "frequency": 87,
+        "question": "How quickly does the ink dry?",
+        "rubric": "answered: gives a dry time or says quick-drying or fast-drying. partial: only says it doesn't smudge."
+      },
+      {
+        "id": "ink_flow",
+        "kind": "claim",
+        "frequency": 171,
+        "question": "Does the ink flow consistently without skipping or clogging?",
+        "rubric": "answered: says it writes without skipping, blobbing or clogging, or promises consistent flow. partial: only says smooth writing."
+      },
+      {
+        "id": "longevity",
+        "kind": "claim",
+        "frequency": 108,
+        "question": "How long does the ink last?",
+        "rubric": "answered: gives a writing length (meters, pages) or says long-lasting ink. partial: only mentions ink capacity or a large reservoir without a claim."
+      },
+      {
+        "id": "bleed_through",
+        "kind": "claim",
+        "frequency": 43,
+        "question": "Does the ink bleed through paper?",
+        "rubric": "answered: says no bleed-through, no show-through or no feathering. partial: names paper types it works on without mentioning bleed."
+      },
+      {
+        "id": "refillable",
+        "kind": "spec",
+        "frequency": 48,
+        "question": "Is the pen refillable, and with which refills?",
+        "rubric": "answered: says refillable and names the refill. partial: says refillable without naming the refill, or names refills without saying the pen takes them."
+      },
+      {
+        "id": "retractable",
+        "kind": "spec",
+        "frequency": 9,
+        "question": "Is it retractable (click) or capped?",
+        "rubric": "answered: says retractable, click or capped. Attribute closure or closure_type counts."
+      },
+      {
+        "id": "pack_contents",
+        "kind": "spec",
+        "frequency": 39,
+        "question": "How many pens and which ink colors are in the pack?",
+        "rubric": "answered: states both the count and the ink colors. partial: only one of the two."
+      },
+      {
+        "id": "water_resistance",
+        "kind": "claim",
+        "frequency": 13,
+        "question": "Is the ink waterproof, fade-resistant or archival?",
+        "rubric": "answered: says waterproof, water-resistant, fade-resistant, archival or acid-free. partial: says permanent without saying how."
+      },
+      {
+        "id": "leaking",
+        "kind": "claim",
+        "frequency": 29,
+        "question": "Does the pen leak or blob?",
+        "rubric": "answered: says leak-proof, leak-resistant or no blobs. partial: only mentions a sealed or tight cap."
+      },
+      {
+        "id": "surface_compatibility",
+        "kind": "claim",
+        "frequency": 28,
+        "question": "What paper or surfaces does it write on?",
+        "rubric": "answered: names surfaces or paper types, e.g. notebook paper, cardstock, dark paper, glossy photos. partial: only says everyday writing."
+      },
+      {
+        "id": "opacity",
+        "kind": "claim",
+        "frequency": 39,
+        "question": "Does the ink show up on dark or colored paper?",
+        "rubric": "answered: says opaque or shows on dark or black paper. Only for pens sold for dark paper, such as white, metallic or gel-art pens.",
+        "conditional": true
+      },
+      {
+        "id": "durability",
+        "kind": "claim",
+        "frequency": 38,
+        "question": "How durable is the pen body and tip?",
+        "rubric": "answered: names a durable material or construction, e.g. metal tip, sturdy barrel, or gives a warranty. partial: only says durable or heavy duty."
+      },
+      {
+        "id": "weight",
+        "kind": "spec",
+        "frequency": 18,
+        "question": "How heavy is the pen and how is it balanced?",
+        "rubric": "answered: gives the weight of one pen or describes its balance. partial: only the package weight."
+      },
+      {
+        "id": "erasable",
+        "kind": "spec",
+        "frequency": 74,
+        "question": "Is the ink erasable?",
+        "rubric": "answered: says erasable or not erasable. Only for erasable pens such as FriXion.",
+        "conditional": true
+      },
+      {
+        "id": "glitter_level",
+        "kind": "spec",
+        "frequency": 28,
+        "question": "How much glitter or shimmer is in the ink?",
+        "rubric": "answered: describes the glitter, metallic or shimmer effect. Only for glitter or metallic pens.",
+        "conditional": true
+      },
+      {
+        "id": "scent",
+        "kind": "spec",
+        "frequency": 15,
+        "question": "Is the pen scented, and what does it smell like?",
+        "rubric": "answered: says scented and names the scent. Only for scented pens.",
+        "conditional": true
+      },
+      {
+        "id": "smoothness",
+        "kind": "experience",
+        "frequency": 234,
+        "question": "How smoothly does it write?",
+        "rubric": "Experience: only buyers can judge. A listing saying smooth is a claim, not proof."
+      },
+      {
+        "id": "grip_comfort",
+        "kind": "experience",
+        "frequency": 96,
+        "question": "Is the grip comfortable for long writing?",
+        "rubric": "Experience: only buyers can judge. A listed grip type is evidence, not proof."
+      },
+      {
+        "id": "color_vibrancy",
+        "kind": "experience",
+        "frequency": 79,
+        "question": "How vibrant and dark is the ink?",
+        "rubric": "Experience: only buyers can judge."
+      },
+      {
+        "id": "color_accuracy",
+        "kind": "experience",
+        "frequency": 30,
+        "question": "Does the ink match the barrel color?",
+        "rubric": "Experience: only buyers can judge."
+      }
+    ]
+  },
+  "grades": [
+    {
+      "intentId": "tip_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.line_size",
+          "text": "0.5 Millimeters"
+        }
+      ],
+      "value": "0.5 Millimeters",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "smudge",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "won't fade or smudge easily"
+        }
+      ],
+      "value": "won't fade or smudge easily",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.hand_orientation",
+          "text": "Ambidextrous"
+        }
+      ],
+      "value": "Ambidextrous",
+      "modelStatus": "partial",
+      "flags": []
+    },
+    {
+      "intentId": "dry_time",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Quick-Drying"
+        }
+      ],
+      "value": "Quick-Drying",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "ink_flow",
+      "status": "missing",
+      "quotes": [],
+      "modelStatus": "missing",
+      "flags": []
+    },
+    {
+      "intentId": "longevity",
+      "status": "missing",
+      "quotes": [],
+      "modelStatus": "missing",
+      "flags": []
+    },
+    {
+      "intentId": "bleed_through",
+      "status": "missing",
+      "quotes": [],
+      "modelStatus": "missing",
+      "flags": []
+    },
+    {
+      "intentId": "refillable",
+      "status": "missing",
+      "quotes": [],
+      "modelStatus": "missing",
+      "flags": []
+    },
+    {
+      "intentId": "retractable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.closure_type",
+          "text": "Retractable"
+        }
+      ],
+      "value": "Retractable",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "pack_contents",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "6 Pcs"
+        },
+        {
+          "fieldId": "attr.ink_color",
+          "text": "Black"
+        }
+      ],
+      "value": "6 Pcs, Black",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "water_resistance",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "won't fade"
+        }
+      ],
+      "value": "won't fade",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "leaking",
+      "status": "missing",
+      "quotes": [],
+      "modelStatus": "missing",
+      "flags": []
+    },
+    {
+      "intentId": "surface_compatibility",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "book, notebook or bag"
+        }
+      ],
+      "value": "book, notebook or bag",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "opacity",
+      "status": "not_applicable",
+      "quotes": [],
+      "modelStatus": "not_applicable",
+      "flags": []
+    },
+    {
+      "intentId": "durability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.additional_features",
+          "text": "Heavy Duty"
+        },
+        {
+          "fieldId": "attr.warranty_description",
+          "text": "30 Days"
+        }
+      ],
+      "value": "Heavy Duty",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "weight",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "3.84 ounces"
+        }
+      ],
+      "value": "3.84 ounces",
+      "modelStatus": "partial",
+      "flags": []
+    },
+    {
+      "intentId": "erasable",
+      "status": "not_applicable",
+      "quotes": [],
+      "modelStatus": "not_applicable",
+      "flags": []
+    },
+    {
+      "intentId": "glitter_level",
+      "status": "not_applicable",
+      "quotes": [],
+      "modelStatus": "not_applicable",
+      "flags": []
+    },
+    {
+      "intentId": "scent",
+      "status": "not_applicable",
+      "quotes": [],
+      "modelStatus": "not_applicable",
+      "flags": []
+    }
+  ],
+  "score": {
+    "score": 52,
+    "answered": 8,
+    "partial": 2,
+    "missing": 5,
+    "contradicted": 0,
+    "counted": 15,
+    "notApplicable": 4
+  },
+  "imageClaims": [
+    {
+      "id": "ic.0",
+      "text": "ZS012 Startraveler",
+      "imageIds": [
+        "img.0",
+        "img.1",
+        "img.8"
+      ]
+    },
+    {
+      "id": "ic.1",
+      "text": "Gel Ink Pen",
+      "imageIds": [
+        "img.0",
+        "img.1",
+        "img.8",
+        "img.12"
+      ]
+    },
+    {
+      "id": "ic.2",
+      "text": "Morandi",
+      "imageIds": [
+        "img.0",
+        "img.1",
+        "img.8"
+      ]
+    },
+    {
+      "id": "ic.3",
+      "text": "6 pcs",
+      "imageIds": [
+        "img.0",
+        "img.8"
+      ]
+    },
+    {
+      "id": "ic.4",
+      "text": "5.7in/145mm",
+      "imageIds": [
+        "img.1"
+      ]
+    },
+    {
+      "id": "ic.5",
+      "text": "0.39in/10MM",
+      "imageIds": [
+        "img.2",
+        "img.11"
+      ]
+    },
+    {
+      "id": "ic.6",
+      "text": "5.7in/145.9MM",
+      "imageIds": [
+        "img.2",
+        "img.11"
+      ]
+    },
+    {
+      "id": "ic.7",
+      "text": "Durable Clip",
+      "imageIds": [
+        "img.2",
+        "img.11"
+      ]
+    },
+    {
+      "id": "ic.8",
+      "text": "Convenient To Take to Anywhere",
+      "imageIds": [
+        "img.2",
+        "img.11"
+      ]
+    },
+    {
+      "id": "ic.9",
+      "text": "Retractable Design",
+      "imageIds": [
+        "img.2",
+        "img.11",
+        "img.15"
+      ]
+    },
+    {
+      "id": "ic.10",
+      "text": "Easy to Use",
+      "imageIds": [
+        "img.2",
+        "img.11",
+        "img.15"
+      ]
+    },
+    {
+      "id": "ic.11",
+      "text": "Each Pen is Sealed with Waxto Prevent ink from Drying",
+      "imageIds": [
+        "img.2",
+        "img.11",
+        "img.15"
+      ]
+    },
+    {
+      "id": "ic.12",
+      "text": "0.5mm Fine Point",
+      "imageIds": [
+        "img.2",
+        "img.11"
+      ]
+    },
+    {
+      "id": "ic.13",
+      "text": "Smooth Writing without Skipping",
+      "imageIds": [
+        "img.2",
+        "img.11"
+      ]
+    },
+    {
+      "id": "ic.14",
+      "text": "Pen clip design",
+      "imageIds": [
+        "img.3"
+      ]
+    },
+    {
+      "id": "ic.15",
+      "text": "The steel ball pen clip slides without marks, effectively reducing the scratch on the paper",
+      "imageIds": [
+        "img.3"
+      ]
+    },
+    {
+      "id": "ic.16",
+      "text": "0.5mm black ink refill writing fluently",
+      "imageIds": [
+        "img.4"
+      ]
+    },
+    {
+      "id": "ic.17",
+      "text": "Smooth Writing",
+      "imageIds": [
+        "img.8"
+      ]
+    },
+    {
+      "id": "ic.18",
+      "text": "Fine Tip: 0.5 mm Black 6 colors",
+      "imageIds": [
+        "img.8"
+      ]
+    },
+    {
+      "id": "ic.19",
+      "text": "No Smear: Perfect for Left-Handed",
+      "imageIds": [
+        "img.8"
+      ]
+    },
+    {
+      "id": "ic.20",
+      "text": "Modern Minimalist Design",
+      "imageIds": [
+        "img.14"
+      ]
+    },
+    {
+      "id": "ic.21",
+      "text": "6 Quick drying ink pens to meet your daily use and replacement needs",
+      "imageIds": [
+        "img.14"
+      ]
+    },
+    {
+      "id": "ic.22",
+      "text": "Soft Comfortable Grip",
+      "imageIds": [
+        "img.14"
+      ]
+    },
+    {
+      "id": "ic.23",
+      "text": "Durable Clip Convenient To Take to Anywhere",
+      "imageIds": [
+        "img.14"
+      ]
+    },
+    {
+      "id": "ic.24",
+      "text": "The rollerball ink dries quickly",
+      "imageIds": [
+        "img.15"
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "claimId": "ic.0",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.1",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Gel Pens"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "claimId": "ic.2",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.color",
+          "text": "Morandi"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "claimId": "ic.3",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "6 pcs"
+        }
+      ],
+      "intentId": "pack_contents",
+      "flags": []
+    },
+    {
+      "claimId": "ic.4",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.5",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.item_diameter",
+          "text": "10 millimeters"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "claimId": "ic.6",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.7",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.8",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "easy to carry"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "claimId": "ic.9",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Retractable Design"
+        }
+      ],
+      "intentId": "retractable",
+      "flags": []
+    },
+    {
+      "claimId": "ic.10",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.11",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.12",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "0.5mm"
+        }
+      ],
+      "intentId": "tip_size",
+      "flags": []
+    },
+    {
+      "claimId": "ic.13",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "ink_flow",
+      "flags": []
+    },
+    {
+      "claimId": "ic.14",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "convenient clip design"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "claimId": "ic.15",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.16",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "0.5mm"
+        },
+        {
+          "fieldId": "title",
+          "text": "Black Ink"
+        }
+      ],
+      "intentId": "tip_size",
+      "flags": []
+    },
+    {
+      "claimId": "ic.17",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "ink_flow",
+      "flags": []
+    },
+    {
+      "claimId": "ic.18",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "0.5mm"
+        },
+        {
+          "fieldId": "attr.ink_color",
+          "text": "Black"
+        },
+        {
+          "fieldId": "title",
+          "text": "6 Pcs"
+        }
+      ],
+      "intentId": "tip_size",
+      "flags": []
+    },
+    {
+      "claimId": "ic.19",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "smudge_left_handed",
+      "flags": []
+    },
+    {
+      "claimId": "ic.20",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Modern Minimalist Design"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "claimId": "ic.21",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "You will receive 6pc quick-drying ink pens with a modern minimalist design to suit your needs Daily use and replacement needs"
+        }
+      ],
+      "intentId": "pack_contents",
+      "flags": []
+    },
+    {
+      "claimId": "ic.22",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.additional_features",
+          "text": "Soft Grip"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "claimId": "ic.23",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "easy to carry"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "claimId": "ic.24",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "The rollerball ink dries quickly"
+        }
+      ],
+      "intentId": "dry_time",
+      "flags": []
+    }
+  ],
+  "hiddenAnswers": [
+    {
+      "intentId": "ink_flow",
+      "textStatus": "missing",
+      "claims": [
+        {
+          "id": "ic.13",
+          "text": "Smooth Writing without Skipping",
+          "imageIds": [
+            "img.2",
+            "img.11"
+          ]
+        },
+        {
+          "id": "ic.17",
+          "text": "Smooth Writing",
+          "imageIds": [
+            "img.8"
+          ]
+        }
+      ]
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "textStatus": "partial",
+      "claims": [
+        {
+          "id": "ic.19",
+          "text": "No Smear: Perfect for Left-Handed",
+          "imageIds": [
+            "img.8"
+          ]
+        }
+      ]
+    }
+  ],
+  "skippedImageIds": [],
+  "competitors": [
+    {
+      "asin": "B0744D6P4V",
+      "brand": "BIC",
+      "title": "BIC Gelocity Quick Dry Assorted Colors Gel Pens, 12-Count Pack, 0.7 mm",
+      "score": {
+        "score": 71,
+        "answered": 9,
+        "partial": 1,
+        "missing": 5,
+        "contradicted": 0,
+        "counted": 15,
+        "notApplicable": 4
+      },
+      "grades": [
+        {
+          "intentId": "tip_size",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "0.7 mm"
+            }
+          ],
+          "value": "0.7 mm",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "smudge",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.4",
+              "text": "doesn't smear"
+            }
+          ],
+          "value": "doesn't smear",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "smudge_left_handed",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.4",
+              "text": "dependable choice for left-handed students"
+            }
+          ],
+          "value": "dependable choice for left-handed students",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "dry_time",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.4",
+              "text": "dries in as little as five seconds"
+            }
+          ],
+          "value": "dries in as little as five seconds",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "ink_flow",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "description.1",
+              "text": "writes smoothly and consistently"
+            }
+          ],
+          "value": "writes smoothly and consistently",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "longevity",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "bleed_through",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "refillable",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "retractable",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.6",
+              "text": "RETRACTABLE"
+            }
+          ],
+          "value": "Retractable",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "pack_contents",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "Assorted Colors Gel Pens, 12-Count Pack"
+            }
+          ],
+          "value": "12-Count Pack, Assorted Colors",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "water_resistance",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "leaking",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "surface_compatibility",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "description.1",
+              "text": "lined paper, notebooks, and index cards"
+            }
+          ],
+          "value": "lined paper, notebooks, and index cards",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "opacity",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "durability",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.warranty_description",
+              "text": "LIFETIME"
+            }
+          ],
+          "value": "LIFETIME",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "weight",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "attr.item_weight",
+              "text": "0.27 g"
+            }
+          ],
+          "value": "0.27 g",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "erasable",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "glitter_level",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "scent",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "asin": "B0BYPTVZH6",
+      "brand": "Sharpie",
+      "title": "SHARPIE S-Gel Gel Pens, Medium Point (0.7mm) Green, Fine Point (0.5mm) Blue, 24 Count",
+      "score": {
+        "score": 55,
+        "answered": 5,
+        "partial": 0,
+        "missing": 10,
+        "contradicted": 0,
+        "counted": 15,
+        "notApplicable": 4
+      },
+      "grades": [
+        {
+          "intentId": "tip_size",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "Medium Point (0.7mm) Green, Fine Point (0.5mm) Blue"
+            }
+          ],
+          "value": "0.7mm, 0.5mm",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "smudge",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "aplus.1",
+              "text": "No Smear"
+            }
+          ],
+          "value": "No Smear",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "smudge_left_handed",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "dry_time",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "ink_flow",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "description.1",
+              "text": "offers a smooth writing experience"
+            }
+          ],
+          "value": "smooth writing experience",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "longevity",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "bleed_through",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "aplus.1",
+              "text": "No Bleed Technology"
+            }
+          ],
+          "value": "No Bleed Technology",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "refillable",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "retractable",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "pack_contents",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "Green, Fine Point (0.5mm) Blue, 24 Count"
+            }
+          ],
+          "value": "24 Count, Green, Blue",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "water_resistance",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "leaking",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "surface_compatibility",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "opacity",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "durability",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "weight",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "erasable",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "glitter_level",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "scent",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "asin": "B001GAOTSW",
+      "brand": "PILOT",
+      "title": "PILOT G2 Premium Gel Pens, Fine Point 0.7mm, Black Ink, 12-Pack",
+      "score": {
+        "score": 73,
+        "answered": 8,
+        "partial": 3,
+        "missing": 4,
+        "contradicted": 0,
+        "counted": 15,
+        "notApplicable": 4
+      },
+      "grades": [
+        {
+          "intentId": "tip_size",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "Fine Point 0.7mm"
+            }
+          ],
+          "value": "0.7mm",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "smudge",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.4",
+              "text": "helps prevent smudges and smears"
+            }
+          ],
+          "value": "helps prevent smudges and smears",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "smudge_left_handed",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "dry_time",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.4",
+              "text": "quick drying ink"
+            }
+          ],
+          "value": "quick drying",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "ink_flow",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "bullet.1",
+              "text": "smooth writing experience"
+            }
+          ],
+          "value": "smooth writing",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "longevity",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.1",
+              "text": "longest-lasting gel ink pens"
+            }
+          ],
+          "value": "longest-lasting gel ink pens",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "bleed_through",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "refillable",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.4",
+              "text": "Refillable & Quick Drying: You can save money and reduce waste with these black ink pens and Pilot G2 refills"
+            }
+          ],
+          "value": "Refillable",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "retractable",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.closure_type",
+              "text": "Retractable"
+            }
+          ],
+          "value": "Retractable",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "pack_contents",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "Black Ink, 12-Pack"
+            }
+          ],
+          "value": "12-Pack Black Ink",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "water_resistance",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "description.1",
+              "text": "archival-safe, acid-free black ink is fade-resistant"
+            }
+          ],
+          "value": "archival-safe, acid-free, fade-resistant",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "leaking",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "surface_compatibility",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "bullet.3",
+              "text": "everyday writing tasks"
+            }
+          ],
+          "value": "everyday writing",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "opacity",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "durability",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "weight",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "attr.item_weight",
+              "text": "4.96 ounces"
+            }
+          ],
+          "value": "4.96 ounces",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "erasable",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "glitter_level",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "scent",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "asin": "B018UJ2YWE",
+      "brand": "Pentel",
+      "title": "Pentel EnerGel RTX Retractable Liquid Gel Pen, Medium Line, Metal Tip, Assorted Ink 4-Pk (BL77BP4M)",
+      "score": {
+        "score": 73,
+        "answered": 10,
+        "partial": 0,
+        "missing": 4,
+        "contradicted": 1,
+        "counted": 15,
+        "notApplicable": 4
+      },
+      "grades": [
+        {
+          "intentId": "tip_size",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.6",
+              "text": "0.7mm stainless steel tip writes medium lines; 1.0mm stainless steel tip writes bold lines"
+            }
+          ],
+          "value": "0.7mm and 1.0mm",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "smudge",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "no smears, no smudges"
+            }
+          ],
+          "value": "no smears, no smudges",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "smudge_left_handed",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "even left handed writers love it - no smears, no smudges"
+            }
+          ],
+          "value": "even left handed writers love it - no smears, no smudges",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "dry_time",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "dries so fast"
+            }
+          ],
+          "value": "dries so fast",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "ink_flow",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.1",
+              "text": "super-smooth writing experience"
+            }
+          ],
+          "value": "super-smooth writing experience",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "longevity",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "bleed_through",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "refillable",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "description.1",
+              "text": "Refillable with any size and/or color EnerGel refill."
+            }
+          ],
+          "value": "Refillable with any size and/or color EnerGel refill.",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "retractable",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.closure_type",
+              "text": "Retractable"
+            }
+          ],
+          "value": "Retractable",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "pack_contents",
+          "status": "contradicted",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "Assorted Ink 4-Pk"
+            },
+            {
+              "fieldId": "attr.included_components",
+              "text": "Pen (3)"
+            }
+          ],
+          "modelStatus": "contradicted",
+          "flags": []
+        },
+        {
+          "intentId": "water_resistance",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "leaking",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "no globs"
+            }
+          ],
+          "value": "no globs",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "surface_compatibility",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "opacity",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "durability",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.7",
+              "text": "Limited Lifetime Warranty"
+            }
+          ],
+          "value": "Limited Lifetime Warranty",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "weight",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.item_weight",
+              "text": "1.44 ounces"
+            }
+          ],
+          "value": "1.44 ounces",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "erasable",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "glitter_level",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "scent",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "intentId": "ink_flow",
+      "status": "missing",
+      "frequency": 171,
+      "competitorShare": 0.875,
+      "competitorsAnswering": [
+        {
+          "asin": "B0744D6P4V",
+          "brand": "BIC",
+          "quote": {
+            "fieldId": "description.1",
+            "text": "writes smoothly and consistently"
+          }
+        },
+        {
+          "asin": "B0BYPTVZH6",
+          "brand": "Sharpie",
+          "quote": {
+            "fieldId": "description.1",
+            "text": "offers a smooth writing experience"
+          }
+        },
+        {
+          "asin": "B001GAOTSW",
+          "brand": "PILOT",
+          "quote": {
+            "fieldId": "bullet.1",
+            "text": "smooth writing experience"
+          }
+        },
+        {
+          "asin": "B018UJ2YWE",
+          "brand": "Pentel",
+          "quote": {
+            "fieldId": "bullet.1",
+            "text": "super-smooth writing experience"
+          }
+        }
+      ],
+      "hiddenClaims": [
+        {
+          "id": "ic.13",
+          "text": "Smooth Writing without Skipping",
+          "imageIds": [
+            "img.2",
+            "img.11"
+          ]
+        },
+        {
+          "id": "ic.17",
+          "text": "Smooth Writing",
+          "imageIds": [
+            "img.8"
+          ]
+        }
+      ],
+      "priority": 160.3
+    },
+    {
+      "intentId": "longevity",
+      "status": "missing",
+      "frequency": 108,
+      "competitorShare": 0.25,
+      "competitorsAnswering": [
+        {
+          "asin": "B001GAOTSW",
+          "brand": "PILOT",
+          "quote": {
+            "fieldId": "bullet.1",
+            "text": "longest-lasting gel ink pens"
+          }
+        }
+      ],
+      "hiddenClaims": [],
+      "priority": 67.5
+    },
+    {
+      "intentId": "refillable",
+      "status": "missing",
+      "frequency": 48,
+      "competitorShare": 0.5,
+      "competitorsAnswering": [
+        {
+          "asin": "B001GAOTSW",
+          "brand": "PILOT",
+          "quote": {
+            "fieldId": "bullet.4",
+            "text": "Refillable & Quick Drying: You can save money and reduce waste with these black ink pens and Pilot G2 refills"
+          }
+        },
+        {
+          "asin": "B018UJ2YWE",
+          "brand": "Pentel",
+          "quote": {
+            "fieldId": "description.1",
+            "text": "Refillable with any size and/or color EnerGel refill."
+          }
+        }
+      ],
+      "hiddenClaims": [],
+      "priority": 36
+    },
+    {
+      "intentId": "bleed_through",
+      "status": "missing",
+      "frequency": 43,
+      "competitorShare": 0.25,
+      "competitorsAnswering": [
+        {
+          "asin": "B0BYPTVZH6",
+          "brand": "Sharpie",
+          "quote": {
+            "fieldId": "aplus.1",
+            "text": "No Bleed Technology"
+          }
+        }
+      ],
+      "hiddenClaims": [],
+      "priority": 26.9
+    },
+    {
+      "intentId": "leaking",
+      "status": "missing",
+      "frequency": 29,
+      "competitorShare": 0.25,
+      "competitorsAnswering": [
+        {
+          "asin": "B018UJ2YWE",
+          "brand": "Pentel",
+          "quote": {
+            "fieldId": "bullet.2",
+            "text": "no globs"
+          }
+        }
+      ],
+      "hiddenClaims": [],
+      "priority": 18.1
+    },
+    {
+      "intentId": "weight",
+      "status": "partial",
+      "frequency": 18,
+      "competitorShare": 0.5,
+      "competitorsAnswering": [
+        {
+          "asin": "B0744D6P4V",
+          "brand": "BIC",
+          "quote": {
+            "fieldId": "attr.item_weight",
+            "text": "0.27 g"
+          }
+        },
+        {
+          "asin": "B001GAOTSW",
+          "brand": "PILOT",
+          "quote": {
+            "fieldId": "attr.item_weight",
+            "text": "4.96 ounces"
+          }
+        },
+        {
+          "asin": "B018UJ2YWE",
+          "brand": "Pentel",
+          "quote": {
+            "fieldId": "attr.item_weight",
+            "text": "1.44 ounces"
+          }
+        }
+      ],
+      "hiddenClaims": [],
+      "priority": 6.8
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "status": "partial",
+      "frequency": 11,
+      "competitorShare": 0.5,
+      "competitorsAnswering": [
+        {
+          "asin": "B0744D6P4V",
+          "brand": "BIC",
+          "quote": {
+            "fieldId": "bullet.4",
+            "text": "dependable choice for left-handed students"
+          }
+        },
+        {
+          "asin": "B018UJ2YWE",
+          "brand": "Pentel",
+          "quote": {
+            "fieldId": "bullet.2",
+            "text": "even left handed writers love it - no smears, no smudges"
+          }
+        }
+      ],
+      "hiddenClaims": [
+        {
+          "id": "ic.19",
+          "text": "No Smear: Perfect for Left-Handed",
+          "imageIds": [
+            "img.8"
+          ]
+        }
+      ],
+      "priority": 4.1
+    }
+  ],
+  "briefs": [
+    {
+      "intentId": "ink_flow",
+      "question": "Does the ink flow consistently without skipping or clogging?",
+      "priority": 160.3,
+      "action": "move_from_image",
+      "target": "new_bullet",
+      "draft": "Smooth Writing without Skipping",
+      "sources": [
+        {
+          "kind": "image",
+          "id": "ic.13",
+          "text": "Smooth Writing without Skipping"
+        },
+        {
+          "kind": "image",
+          "id": "ic.17",
+          "text": "Smooth Writing"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "intentId": "longevity",
+      "question": "How long does the ink last?",
+      "priority": 67.5,
+      "action": "request_fact",
+      "target": "new_bullet",
+      "needsFromBrand": "Confirm how long the ink lasts or provide a writing length in meters or pages.",
+      "sources": [],
+      "flags": []
+    },
+    {
+      "intentId": "refillable",
+      "question": "Is the pen refillable, and with which refills?",
+      "priority": 36,
+      "action": "request_fact",
+      "target": "new_bullet",
+      "needsFromBrand": "Confirm whether the pen is refillable and specify which refills are compatible.",
+      "sources": [],
+      "flags": []
+    },
+    {
+      "intentId": "bleed_through",
+      "question": "Does the ink bleed through paper?",
+      "priority": 26.9,
+      "action": "request_fact",
+      "target": "new_bullet",
+      "needsFromBrand": "Confirm whether the ink prevents bleed-through on standard paper.",
+      "sources": [],
+      "flags": []
+    },
+    {
+      "intentId": "leaking",
+      "question": "Does the pen leak or blob?",
+      "priority": 18.1,
+      "action": "request_fact",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "kind": "image",
+          "id": "ic.11",
+          "text": "Each Pen is Sealed with Waxto Prevent ink from Drying"
+        }
+      ],
+      "flags": [
+        "unsupported_claim"
+      ],
+      "needsFromBrand": "The brand's answer to \"Does the pen leak or blob\". A drafted version went beyond what the listing says, so it was held back.",
+      "rejectedStatements": [
+        "and leaking"
+      ]
+    },
+    {
+      "intentId": "weight",
+      "question": "How heavy is the pen and how is it balanced?",
+      "priority": 6.8,
+      "action": "add_bullet",
+      "target": "new_bullet",
+      "draft": "Item Weight: The package has an item weight of 3.84 ounces.",
+      "sources": [
+        {
+          "kind": "field",
+          "id": "attr.item_weight",
+          "text": "3.84 ounces"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "question": "Does it smudge for left-handed writers?",
+      "priority": 4.1,
+      "action": "move_from_image",
+      "target": "new_bullet",
+      "draft": "No Smear: Perfect for Left-Handed",
+      "sources": [
+        {
+          "kind": "image",
+          "id": "ic.19",
+          "text": "No Smear: Perfect for Left-Handed"
+        }
+      ],
+      "flags": []
+    }
+  ],
+  "usage": {
+    "requests": 8,
+    "cachedRequests": 8,
+    "inputTokens": 14433,
+    "outputTokens": 7332
+  },
+  "notes": []
+}
