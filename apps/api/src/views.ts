@@ -73,12 +73,28 @@ export function toBulkJob(job: BulkJobRow, audits: { id: string; asin: string; s
   };
 }
 
+/** Visitors see a fixed sentence per error code, never the stored message. */
+export function publicReason(code: string | undefined): string {
+  switch (code) {
+    case "listing_not_found":
+    case "not_recorded":
+      return "We can't audit this product yet. Try one of the example products.";
+    case "provider_unavailable":
+    case "enqueue_failed":
+    case "stalled":
+      return "The audit couldn't finish right now. Please try again later.";
+    default:
+      return "The audit couldn't be completed.";
+  }
+}
+
 /**
  * The widget's teaser: the score and the three highest-priority gaps, never the full report.
  * The rest is the reason to leave an email.
  */
 export function toPublicResult(row: AuditRow, emailCaptured: boolean): PublicAuditResult {
   const out: PublicAuditResult = { id: row.id, status: row.status, asin: row.asin, emailCaptured };
+  if (row.status === "failed") return { ...out, reason: publicReason((row.error as { code?: string } | null)?.code) };
   if (row.status !== "done" || !row.report) return out;
   const report = row.report as AuditReport;
   const questions = new Map(report.intentSet.intents.map((i) => [i.id, i.question]));

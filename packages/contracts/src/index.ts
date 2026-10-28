@@ -122,6 +122,8 @@ export type PublicAuditResult = {
   scoreBasis?: "mined" | "estimated";
   topGaps?: { question: string; status: string; competitorShare: number | null; hiddenInImage: boolean }[];
   emailCaptured: boolean;
+  /** When status is "failed": a short reason that's safe to show a visitor. */
+  reason?: string;
 };
 
 /** GET /v1/listings?source=: saved listings the UI can offer as demo products. */

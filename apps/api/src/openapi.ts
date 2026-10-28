@@ -13,7 +13,12 @@ const status = { type: "string", enum: ["queued", "running", "done", "failed"] }
 const origin = { type: "string", enum: ["app", "api", "widget", "rescore", "bulk"] };
 const source = { type: "string", enum: ["serpapi", "dataset", "paste"] };
 const keyed = { security: [{ apiKey: [] }] };
-const common = { "400": error("Validation error"), "401": error("Missing or invalid API key"), "429": error("Rate limited") };
+const common = {
+  "400": error("Validation error"),
+  "401": error("Missing or invalid API key"),
+  "429": error("Rate limited"),
+  "503": error("Redis or MySQL unavailable (dependency_unavailable), or the audit couldn't be queued (enqueue_failed)"),
+};
 
 export const openApiDocument = {
   openapi: "3.1.0",
@@ -152,6 +157,7 @@ export const openApiDocument = {
             },
           },
           emailCaptured: { type: "boolean" },
+          reason: { type: "string", description: "When failed: a short reason safe to show a visitor." },
         },
       },
       SavedListing: {
@@ -275,7 +281,7 @@ export const openApiDocument = {
           required: true,
           ...json({ type: "object", required: ["asin"], properties: { asin, email: { type: "string", format: "email" } } }),
         },
-        responses: { "202": { description: "Queued", ...json(ref("PublicAuditResult")) }, "400": error("Validation error"), "429": error("Too many audits from this IP") },
+        responses: { "202": { description: "Queued", ...json(ref("PublicAuditResult")) }, "400": error("Validation error"), "429": error("Too many audits from this IP"), "503": error("A backing service is unavailable") },
       },
     },
     "/v1/public/audits/{id}": {

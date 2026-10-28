@@ -1,6 +1,5 @@
 import type { Server } from "node:http";
 import type { AddressInfo } from "node:net";
-import type { Worker } from "bullmq";
 import { connect, DEFAULT_DATABASE_URL, ensureApiKey } from "@answerable/db";
 import { fsStores, type AuditDeps, type AuditRequest } from "@answerable/pipeline";
 import {
@@ -12,6 +11,7 @@ import {
   redisConnection,
   startWorker,
   webhookFromEnv,
+  type RunningWorker,
   type WebhookConfig,
 } from "@answerable/worker";
 import { createApp, type AppConfig } from "./app";
@@ -23,7 +23,7 @@ export type ServerConfig = AppConfig & {
   redisUrl: string;
   /** Run the audit worker in this process too: the single free-tier service deploy. */
   runWorker: boolean;
-  /** Seeded as an API key on startup outside production. */
+  /** Seeded as an API key on startup, only when API_KEY_DEV is set and not in production. */
   devApiKey: string | null;
   fixturesDir: string;
   webhook: WebhookConfig | null;
@@ -31,22 +31,40 @@ export type ServerConfig = AppConfig & {
   backoffMs: number;
 };
 
-export function configFromEnv(env: Record<string, string | undefined> = process.env, argv: string[] = process.argv): ServerConfig {
+/**
+ * TRUST_PROXY is the number of proxy hops in front of the API (1 on Render or Fly). Express's
+ * `true` would trust any X-Forwarded-For a client sends, letting anyone dodge the per-IP limit,
+ * so "true" is read as 1 hop with a warning and anything else that isn't a count is refused.
+ */
+export function parseTrustProxy(value: string | undefined, warn: (message: string) => void): number | false {
+  if (value === undefined || value === "" || value === "0" || value === "false") return false;
+  if (/^\d+$/.test(value)) return Number(value);
+  if (value === "true") {
+    warn('TRUST_PROXY=true trusts any client-sent X-Forwarded-For; using 1 hop instead. Set TRUST_PROXY to the hop count.');
+    return 1;
+  }
+  throw new Error(`TRUST_PROXY must be a hop count such as 1, got "${value}"`);
+}
+
+export function configFromEnv(
+  env: Record<string, string | undefined> = process.env,
+  argv: string[] = process.argv,
+  warn: (message: string) => void = (m) => console.warn(m),
+): ServerConfig {
   const production = env.NODE_ENV === "production";
-  const trust = env.TRUST_PROXY;
   return {
     port: Number(env.PORT || 4100),
     databaseUrl: env.DATABASE_URL || DEFAULT_DATABASE_URL,
     redisUrl: env.REDIS_URL || DEFAULT_REDIS_URL,
     redisPrefix: env.REDIS_PREFIX || DEFAULT_REDIS_PREFIX,
     webOrigin: env.WEB_ORIGIN || "http://localhost:5180",
-    // "1" means one proxy hop (Render, Fly); a number counts hops, anything else is a list of addresses.
-    trustProxy: trust === undefined || trust === "" ? false : /^\d+$/.test(trust) ? Number(trust) : trust === "true" ? true : trust,
+    trustProxy: parseTrustProxy(env.TRUST_PROXY, warn),
     publicRateLimit: Number(env.PUBLIC_RATE_LIMIT || 5),
     publicWindowSec: Number(env.PUBLIC_RATE_WINDOW_SEC || 3600),
     publicLive: env.PUBLIC_LIVE === "1",
     runWorker: argv.includes("--with-worker") || env.RUN_WORKER === "1",
-    devApiKey: production ? null : (env.API_KEY_DEV || "dev-key"),
+    // Never a built-in default: a deploy that forgets NODE_ENV mustn't accept a well-known key.
+    devApiKey: !production && env.API_KEY_DEV ? env.API_KEY_DEV : null,
     fixturesDir: depsConfigFromEnv(env).fixturesDir,
     webhook: webhookFromEnv(env),
     backoffMs: Number(env.RETRY_BACKOFF_MS || 10_000),
@@ -56,7 +74,7 @@ export function configFromEnv(env: Record<string, string | undefined> = process.
 export type RunningServer = {
   url: string;
   port: number;
-  worker: Worker | null;
+  worker: RunningWorker | null;
   close: () => Promise<void>;
 };
 
@@ -71,23 +89,30 @@ export async function startServer(
   const log = opts.log ?? ((m: string) => console.log(m));
   const { db, close: closeDb } = connect(cfg.databaseUrl);
   const redis = redisConnection(cfg.redisUrl);
+  // ioredis emits an error on every failed reconnect; log the first of a run, not hundreds.
+  let redisDown = false;
+  redis.on("error", (err) => {
+    if (!redisDown) log(`redis error: ${err.message}`);
+    redisDown = true;
+  });
+  redis.on("ready", () => (redisDown = false));
   const queue = createAuditQueue({ connection: redis, prefix: cfg.redisPrefix, backoffMs: cfg.backoffMs });
+  queue.on("error", () => {});
   const stores = fsStores({ fixturesDir: cfg.fixturesDir, imageCacheDir: depsConfigFromEnv().imageCacheDir });
 
   if (cfg.devApiKey) await ensureApiKey(db, { name: "dev", hash: hashKey(cfg.devApiKey) });
 
-  let worker: Worker | null = null;
-  if (cfg.runWorker) {
-    // The worker blocks on its own connection, so it doesn't share the API's.
-    worker = startWorker({
-      db,
-      connection: redisConnection(cfg.redisUrl),
-      prefix: cfg.redisPrefix,
-      makeDeps: opts.deps ?? makeDeps(depsConfigFromEnv()),
-      webhook: cfg.webhook,
-      log,
-    });
-  }
+  // The worker opens its own blocking connection, separate from the API's fail-fast one.
+  const worker = cfg.runWorker
+    ? startWorker({
+        db,
+        redisUrl: cfg.redisUrl,
+        prefix: cfg.redisPrefix,
+        makeDeps: opts.deps ?? makeDeps(depsConfigFromEnv()),
+        webhook: cfg.webhook,
+        log,
+      })
+    : null;
 
   const app = createApp({ db, redis, queue, listings: stores.listings, config: cfg, log });
   const server: Server = await new Promise((resolve) => {
@@ -102,8 +127,8 @@ export async function startServer(
     async close() {
       await new Promise<void>((resolve) => server.close(() => resolve()));
       if (worker) await worker.close();
-      await queue.close();
-      await redis.quit();
+      await queue.close().catch(() => {});
+      await redis.quit().catch(() => redis.disconnect());
       await closeDb();
     },
   };

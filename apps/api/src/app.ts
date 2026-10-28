@@ -25,8 +25,8 @@ import { toAuditJob, toBriefs, toBulkJob, toHistory, toPublicResult, toSummary }
 
 export type AppConfig = {
   webOrigin: string;
-  /** Passed to Express's "trust proxy", so req.ip is the client behind a load balancer. */
-  trustProxy: boolean | number | string;
+  /** Proxy hops in front of the API, for Express's "trust proxy". False ignores X-Forwarded-For. */
+  trustProxy: number | false;
   redisPrefix: string;
   /** Widget audits per IP per window. */
   publicRateLimit: number;
@@ -62,7 +62,7 @@ function originOf(req: Request): AuditOrigin {
 
 export function createApp(ctx: AppContext): express.Express {
   const { db, redis, queue, config } = ctx;
-  const jobs = { db, queue };
+  const jobs = { db, queue, log: ctx.log };
   const app = express();
   app.set("trust proxy", config.trustProxy);
   app.disable("x-powered-by");
@@ -97,8 +97,18 @@ export function createApp(ctx: AppContext): express.Express {
     const body = PublicAuditBody.parse(req.body);
     const source = await publicSource(ctx.listings, body.asin);
     const row = await submitAudit(jobs, { asin: body.asin, source, origin: "widget", request: { live: config.publicLive } });
-    if (body.email) await addLead(db, { email: body.email, asin: body.asin, auditId: row.id });
-    res.status(202).json(toPublicResult(row, !!body.email));
+    // The audit is already queued, so a lead that fails to save mustn't turn this into a 500.
+    let captured = false;
+    if (body.email) {
+      captured = await addLead(db, { email: body.email, asin: body.asin, auditId: row.id }).then(
+        () => true,
+        (err) => {
+          ctx.log(`couldn't save lead for audit ${row.id}: ${(err as Error).stack ?? String(err)}`);
+          return false;
+        },
+      );
+    }
+    res.status(202).json(toPublicResult(row, captured));
   });
 
   app.get("/v1/public/audits/:id", async (req, res) => {

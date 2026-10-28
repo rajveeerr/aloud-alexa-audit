@@ -3,8 +3,10 @@ import { z } from "zod";
 import { CreateAuditBody } from "@answerable/contracts";
 import type { AuditRow } from "@answerable/db";
 import { AuditError } from "@answerable/pipeline";
+import { EnqueueError } from "@answerable/worker";
 import { HttpError, toApiError } from "./errors";
-import { toAuditJob, toBulkJob, toPublicResult } from "./views";
+import { parseTrustProxy } from "./server";
+import { publicReason, toAuditJob, toBulkJob, toPublicResult } from "./views";
 
 const at = new Date("2026-10-30T12:00:00Z");
 
@@ -114,5 +116,51 @@ describe("toApiError", () => {
     expect(toApiError(Object.assign(new SyntaxError("Unexpected token"), { type: "entity.parse.failed" })).body.error.code).toBe("invalid_json");
     expect(toApiError(new Error("db password is hunter2"))).toEqual({ status: 500, body: { error: { code: "internal", message: "Something went wrong" } } });
     expect(toApiError(new z.ZodError([])).status).toBe(400);
+  });
+
+  test("an unreachable Redis or MySQL is a 503, including when wrapped", () => {
+    const redisDown = Object.assign(new Error("Reached the max retries per request limit (which is 1)."), { name: "MaxRetriesPerRequestError" });
+    expect(toApiError(redisDown)).toMatchObject({ status: 503, body: { error: { code: "dependency_unavailable" } } });
+    const dbDown = new Error("Failed query: select 1", { cause: Object.assign(new Error("connect ECONNREFUSED"), { code: "ECONNREFUSED" }) });
+    expect(toApiError(dbDown).status).toBe(503);
+  });
+
+  test("an audit that couldn't be queued is a 503 naming the failed audits", () => {
+    expect(toApiError(new EnqueueError(["a1"], new Error("redis down")))).toMatchObject({
+      status: 503,
+      body: { error: { code: "enqueue_failed", details: { auditIds: ["a1"] } } },
+    });
+  });
+});
+
+describe("public failure reasons", () => {
+  test("a failed widget audit gets a fixed, safe sentence, never the stored message", () => {
+    const r = toPublicResult(row({ status: "failed", error: { code: "internal", message: "stack trace with secrets" } }), false);
+    expect(r.reason).toBe("The audit couldn't be completed.");
+    expect(JSON.stringify(r)).not.toContain("secrets");
+    expect(publicReason("listing_not_found")).toContain("can't audit this product");
+    expect(publicReason("provider_unavailable")).toContain("try again");
+  });
+});
+
+describe("parseTrustProxy", () => {
+  const warnings: string[] = [];
+  const warn = (m: string) => void warnings.push(m);
+
+  test("unset or zero ignores X-Forwarded-For", () => {
+    expect(parseTrustProxy(undefined, warn)).toBe(false);
+    expect(parseTrustProxy("", warn)).toBe(false);
+    expect(parseTrustProxy("0", warn)).toBe(false);
+  });
+
+  test("a hop count is used as is", () => {
+    expect(parseTrustProxy("1", warn)).toBe(1);
+    expect(parseTrustProxy("2", warn)).toBe(2);
+  });
+
+  test('"true" becomes 1 hop with a warning; anything else is refused', () => {
+    expect(parseTrustProxy("true", warn)).toBe(1);
+    expect(warnings.at(-1)).toContain("hop count");
+    expect(() => parseTrustProxy("loopback", warn)).toThrow("hop count");
   });
 });
