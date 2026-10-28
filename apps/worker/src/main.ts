@@ -3,27 +3,22 @@
 import { connect } from "@answerable/db";
 import { depsConfigFromEnv, makeDeps } from "./deps";
 import { webhookFromEnv } from "./env";
-import { redisConnection } from "./queue";
+import { onShutdown } from "./shutdown";
 import { startWorker } from "./worker";
 
+const log = (m: string) => console.log(m);
 const { db, close } = connect();
-const connection = redisConnection();
 const cfg = depsConfigFromEnv();
 const worker = startWorker({
   db,
-  connection,
   ...(process.env.REDIS_PREFIX && { prefix: process.env.REDIS_PREFIX }),
   makeDeps: makeDeps(cfg),
   webhook: webhookFromEnv(),
-  log: (m) => console.log(m),
+  log,
 });
 console.log(`worker running (${cfg.geminiApiKey ? "recording new model calls" : "replay only"}, ${cfg.geminiRpm} rpm)`);
 
-async function shutdown() {
+onShutdown(async () => {
   await worker.close();
-  await connection.quit();
   await close();
-  process.exit(0);
-}
-process.on("SIGINT", shutdown);
-process.on("SIGTERM", shutdown);
+}, log);

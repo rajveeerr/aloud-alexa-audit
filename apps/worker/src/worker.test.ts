@@ -1,7 +1,8 @@
 import { describe, expect, test } from "bun:test";
 import { AuditError } from "@answerable/pipeline";
-import { ProviderError, QuotaExhaustedError, type LlmProvider, type LlmRequest } from "@answerable/providers";
-import { classify } from "./errors";
+import { CachedLlm, ProviderError, QuotaExhaustedError, type LlmProvider, type LlmRequest } from "@answerable/providers";
+import { classify, INTERNAL_MESSAGE } from "./errors";
+import { isRedisDown } from "./queue";
 import { rateLimited } from "./limiter";
 import { toAuditRequest } from "./processor";
 import { sendWebhook, sign, SIGNATURE_HEADER, verify } from "./webhook";
@@ -21,9 +22,25 @@ describe("classify", () => {
     expect(classify(new ProviderError("refused", "gemini", undefined, false, "SAFETY"))).toMatchObject({ kind: "fail", code: "provider_error" });
   });
 
-  test("anything else retries and ends as internal", () => {
-    expect(classify(new TypeError("x is undefined"))).toMatchObject({ kind: "retry", code: "internal" });
-    expect(classify("thrown string")).toMatchObject({ kind: "retry", code: "internal", message: "thrown string" });
+  test("a missing replay recording is not_recorded, not a provider error", async () => {
+    const llm = new CachedLlm(null, "/tmp/answerable-empty-llm-cache", "replay");
+    const err = await llm.generateJson({ model: "m", parts: [{ text: "never recorded" }], schema: {}, promptVersion: "v" }).catch((e) => e);
+    expect(classify(err)).toMatchObject({ kind: "fail", code: "not_recorded" });
+    expect(classify(err).message).not.toContain("No recorded");
+  });
+
+  test("anything else retries and ends as internal, with a message that hides the details", () => {
+    expect(classify(new TypeError("cannot read 'password' of undefined"))).toEqual({ kind: "retry", code: "internal", message: INTERNAL_MESSAGE });
+    expect(classify("thrown string")).toMatchObject({ kind: "retry", code: "internal", message: INTERNAL_MESSAGE });
+  });
+});
+
+describe("isRedisDown", () => {
+  test("redis outages are told apart from command errors", () => {
+    expect(isRedisDown(Object.assign(new Error("Reached the max retries per request limit (which is 1)."), { name: "MaxRetriesPerRequestError" }))).toBe(true);
+    expect(isRedisDown(new Error("Command timed out"))).toBe(true);
+    expect(isRedisDown(new Error("connect ECONNREFUSED 127.0.0.1:6399"))).toBe(true);
+    expect(isRedisDown(new Error("WRONGTYPE Operation against a key holding the wrong kind of value"))).toBe(false);
   });
 });
 

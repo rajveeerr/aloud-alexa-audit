@@ -10,9 +10,29 @@ export const DEFAULT_REDIS_URL = "redis://127.0.0.1:6389";
 /** Every key this app writes starts with it, so a shared Redis (or a test run) stays separate. */
 export const DEFAULT_REDIS_PREFIX = "answerable";
 
-/** BullMQ needs maxRetriesPerRequest null so its blocking commands wait instead of erroring. */
-export function redisConnection(url = process.env.REDIS_URL || DEFAULT_REDIS_URL): Redis {
+/**
+ * For the worker only. BullMQ needs maxRetriesPerRequest null there so its blocking commands
+ * wait out a Redis restart instead of erroring.
+ */
+export function workerRedisConnection(url = process.env.REDIS_URL || DEFAULT_REDIS_URL): Redis {
   return new IORedis(url, { maxRetriesPerRequest: null });
+}
+
+/**
+ * For request handlers and enqueueing. Commands fail fast while Redis is down (one retry,
+ * a 3 s cap) so an HTTP request answers 503 instead of hanging until Redis comes back.
+ */
+export function redisConnection(url = process.env.REDIS_URL || DEFAULT_REDIS_URL): Redis {
+  return new IORedis(url, { maxRetriesPerRequest: 1, commandTimeout: 3_000 });
+}
+
+/** ioredis errors that mean Redis is unreachable, not that a command was wrong. */
+export function isRedisDown(err: unknown): boolean {
+  if (!(err instanceof Error)) return false;
+  return (
+    err.name === "MaxRetriesPerRequestError" ||
+    /Command timed out|Connection is closed|Stream isn't writeable|ECONNREFUSED|Reached the max retries/i.test(err.message)
+  );
 }
 
 /**

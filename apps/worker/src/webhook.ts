@@ -4,6 +4,8 @@ import { fetchWithTimeout } from "@answerable/providers";
 export type WebhookConfig = { url: string; secret: string; timeoutMs?: number; fetch?: typeof fetch };
 
 export type AuditCompletedEvent = { type: "audit.completed"; auditId: string; asin: string; score: number | null };
+export type AuditFailedEvent = { type: "audit.failed"; auditId: string; asin: string; error: { code: string; message: string } };
+export type AuditEvent = AuditCompletedEvent | AuditFailedEvent;
 
 export const SIGNATURE_HEADER = "x-answerable-signature";
 
@@ -23,7 +25,7 @@ export function verify(body: string, secret: string, signature: string): boolean
  * Posts the event once. A slow or broken receiver must never hold up or fail an audit,
  * so callers don't await this for the job's sake and errors only get logged.
  */
-export async function sendWebhook(cfg: WebhookConfig, event: AuditCompletedEvent): Promise<void> {
+export async function sendWebhook(cfg: WebhookConfig, event: AuditEvent): Promise<void> {
   const body = JSON.stringify(event);
   const res = await fetchWithTimeout(
     cfg.fetch ?? fetch,
@@ -31,5 +33,5 @@ export async function sendWebhook(cfg: WebhookConfig, event: AuditCompletedEvent
     { method: "POST", headers: { "Content-Type": "application/json", [SIGNATURE_HEADER]: sign(body, cfg.secret) }, body },
     cfg.timeoutMs ?? 5_000,
   );
-  if (!res.ok) throw new Error(`Webhook returned HTTP ${res.status}`);
+  if (!res.ok) throw new Error(`Webhook ${cfg.url} returned HTTP ${res.status}`);
 }

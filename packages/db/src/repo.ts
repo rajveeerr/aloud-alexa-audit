@@ -72,6 +72,12 @@ export async function markFailed(db: Db, id: string, error: AuditFailure): Promi
   await db.update(audits).set({ status: "failed", error, note: null, completedAt: new Date() }).where(eq(audits.id, id));
 }
 
+/** For audits that never reached the queue, so they don't sit "queued" with no job behind them. */
+export async function markManyFailed(db: Db, ids: string[], error: AuditFailure): Promise<void> {
+  if (ids.length === 0) return;
+  await db.update(audits).set({ status: "failed", error, note: null, completedAt: new Date() }).where(inArray(audits.id, ids));
+}
+
 /** Everything but the report, which can be large. */
 const { report: _report, ...summaryColumns } = getTableColumns(audits);
 export type AuditSummaryRow = Omit<AuditRow, "report">;
@@ -95,6 +101,17 @@ export async function latestDone(db: Db, asin: string, source: AuditSource): Pro
     .from(audits)
     .where(and(eq(audits.status, "done"), eq(audits.source, source), or(eq(audits.asin, asin), eq(audits.requestedAsin, asin))))
     .orderBy(desc(audits.completedAt))
+    .limit(1);
+  return rows[0] ?? null;
+}
+
+/** A queued or running audit of the listing, so a burst of rescore webhooks queues it only once. */
+export async function pendingAudit(db: Db, asin: string, source: AuditSource): Promise<AuditSummaryRow | null> {
+  const rows = await db
+    .select(summaryColumns)
+    .from(audits)
+    .where(and(inArray(audits.status, ["queued", "running"]), eq(audits.source, source), or(eq(audits.asin, asin), eq(audits.requestedAsin, asin))))
+    .orderBy(desc(audits.createdAt))
     .limit(1);
   return rows[0] ?? null;
 }
