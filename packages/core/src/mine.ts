@@ -13,7 +13,7 @@ export const EXTRACT_PROMPT_VERSION = "extract-needs@2026-10-27.1";
 export const CLUSTER_PROMPT_VERSION = "cluster-needs@2026-10-27.1";
 export const ESTIMATE_PROMPT_VERSION = "estimate-intents@2026-10-27.1";
 
-export type ReviewText = { asin: string; title: string; text: string; helpfulVotes: number };
+export type ReviewText = { asin: string; title: string; text: string; helpfulVotes: number; rating?: number };
 
 export type SampleOptions = {
   /** Reviews taken from each product, most helpful first. */
