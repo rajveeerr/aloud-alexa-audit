@@ -71,6 +71,8 @@ export type AuditJob = {
   completedAt?: string;
   score?: number | null;
   contentHash?: string;
+  /** Why a queued audit is waiting, e.g. for the model's daily quota to reset or for a retry. */
+  note?: string;
   /** Present when status is "done". */
   report?: AuditReport;
 };
@@ -121,6 +123,13 @@ export type PublicAuditResult = {
   topGaps?: { question: string; status: string; competitorShare: number | null; hiddenInImage: boolean }[];
   emailCaptured: boolean;
 };
+
+/** GET /v1/listings?source=: saved listings the UI can offer as demo products. */
+export const ListingsQuery = z.object({ source: z.enum(["serpapi", "dataset"]).optional() });
+export type SavedListing = { asin: string; source: "serpapi" | "dataset"; brand?: string; title: string; category?: string };
+
+/** GET /v1/health. 503 when either dependency is down. */
+export type Health = { ok: boolean; db: boolean; redis: boolean };
 
 /** Every error response. */
 export type ApiError = { error: { code: string; message: string; details?: unknown } };
