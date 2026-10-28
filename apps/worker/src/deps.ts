@@ -1,6 +1,6 @@
 import { join } from "node:path";
 import { fsStores, type AuditDeps, type AuditRequest } from "@answerable/pipeline";
-import { CachedLlm, GeminiLlm } from "@answerable/providers";
+import { CachedLlm, GeminiLlm, PATIENT_RETRY } from "@answerable/providers";
 import { rateLimited } from "./limiter";
 
 export const ROOT = join(import.meta.dir, "../../..");
@@ -33,7 +33,7 @@ export function depsConfigFromEnv(env: Record<string, string | undefined> = proc
  * Live SerpApi fetches happen only when the audit asked for them and a key is configured.
  */
 export function makeDeps(cfg: DepsConfig): (req: AuditRequest) => AuditDeps {
-  const gemini = cfg.geminiApiKey ? rateLimited(new GeminiLlm({ apiKey: cfg.geminiApiKey }), cfg.geminiRpm) : null;
+  const gemini = cfg.geminiApiKey ? rateLimited(new GeminiLlm({ apiKey: cfg.geminiApiKey, retry: PATIENT_RETRY }), cfg.geminiRpm) : null;
   const llm = new CachedLlm(gemini, cfg.llmCacheDir, gemini ? "record" : "replay");
 
   return (req) => {

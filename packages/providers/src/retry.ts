@@ -7,6 +7,12 @@ export type RetryOptions = {
   sleep?: (ms: number) => Promise<void>;
 };
 
+/**
+ * For long recording runs on the free tier (10 requests a minute): six tries, backing off from
+ * 5 s up to a minute, so a per-minute 429 or a 503 "high demand" waits it out instead of failing.
+ */
+export const PATIENT_RETRY: RetryOptions = { attempts: 6, baseDelayMs: 5000 };
+
 const defaultSleep = (ms: number) => new Promise<void>((r) => setTimeout(r, ms));
 
 /** Retries only errors marked retryable (429, 5xx, network), with exponential backoff and jitter. */

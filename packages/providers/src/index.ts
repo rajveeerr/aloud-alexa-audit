@@ -1,5 +1,5 @@
 export * from "./types";
-export { withRetry, isRetryableStatus, type RetryOptions } from "./retry";
+export { withRetry, isRetryableStatus, PATIENT_RETRY, type RetryOptions } from "./retry";
 export { fetchWithTimeout } from "./timeout";
 export { FixtureProductData } from "./product/fixtures";
 export { SerpApiProductData, type SerpApiOptions } from "./product/serpapi";

@@ -12,7 +12,7 @@
 import { join } from "node:path";
 import type { AuditResult } from "@answerable/pipeline";
 import { AuditError, fsStores, runAudit } from "@answerable/pipeline";
-import { CachedLlm, GeminiLlm } from "@answerable/providers";
+import { CachedLlm, GeminiLlm, PATIENT_RETRY } from "@answerable/providers";
 
 const ROOT = join(import.meta.dir, "../../..");
 const FIXTURES = join(ROOT, "fixtures");
@@ -33,7 +33,7 @@ if (!asin) {
   process.exit(1);
 }
 
-const gemini = record ? new GeminiLlm({ apiKey: process.env.GEMINI_API_KEY ?? "", retry: { attempts: 6, baseDelayMs: 5000 } }) : null;
+const gemini = record ? new GeminiLlm({ apiKey: process.env.GEMINI_API_KEY ?? "", retry: PATIENT_RETRY }) : null;
 const llm = new CachedLlm(gemini, join(FIXTURES, "llm"), record ? "record" : "replay");
 const stores = fsStores({
   fixturesDir: FIXTURES,

@@ -11,7 +11,7 @@
  */
 import { readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
-import { CachedLlm, GeminiLlm } from "@answerable/providers";
+import { CachedLlm, GeminiLlm, PATIENT_RETRY } from "@answerable/providers";
 import {
   baselineOf,
   checkAgainst,
@@ -29,7 +29,7 @@ import {
 
 const args = process.argv.slice(2);
 const record = args.includes("--record");
-const gemini = record ? new GeminiLlm({ apiKey: process.env.GEMINI_API_KEY ?? "", retry: { attempts: 6, baseDelayMs: 5000 } }) : null;
+const gemini = record ? new GeminiLlm({ apiKey: process.env.GEMINI_API_KEY ?? "", retry: PATIENT_RETRY }) : null;
 const llm = new CachedLlm(gemini, join(FIXTURES, "llm"), record ? "record" : "replay");
 const baselinePath = join(import.meta.dir, "baseline.json");
 
