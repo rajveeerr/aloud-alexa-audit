@@ -25,12 +25,50 @@ export interface ImageClaimStore {
   save(source: ListingSource, asin: string, record: { promptVersion: string; modelOutput: unknown; [k: string]: unknown }): Promise<void>;
 }
 
+/** A product's saved reviews. `badLines` counts lines that couldn't be read and were skipped. */
+export type ReviewSet = { reviews: ReviewText[]; badLines: number };
+
 /**
  * A product's review text, for promise vs proof. Null when there's none: live SerpApi pages don't
  * include review text, and a pasted listing has none.
  */
 export interface ReviewStore {
-  get(source: ListingSource, asin: string): Promise<ReviewText[] | null>;
+  get(source: ListingSource, asin: string): Promise<ReviewSet | null>;
+}
+
+/**
+ * Reads saved reviews, one JSON object per line: {r: rating, t: title, x: text, h: helpful votes}.
+ * A broken line (a truncated write, a stray character) is skipped and counted, never thrown: one
+ * bad review shouldn't cost the product its whole check. A line with neither title nor text is skipped the same way.
+ */
+export function parseReviewLines(asin: string, text: string): ReviewSet {
+  const reviews: ReviewText[] = [];
+  let badLines = 0;
+  for (const line of text.split("\n")) {
+    if (!line.trim()) continue;
+    let l: { r?: unknown; t?: unknown; x?: unknown; h?: unknown };
+    try {
+      l = JSON.parse(line);
+    } catch {
+      badLines++;
+      continue;
+    }
+    const title = typeof l?.t === "string" ? l.t : "";
+    const body = typeof l?.x === "string" ? l.x : "";
+    // A title alone still counts ("Mine broke after barely using it."); nothing at all doesn't.
+    if (!title.trim() && !body.trim()) {
+      badLines++;
+      continue;
+    }
+    reviews.push({
+      asin,
+      title,
+      text: body,
+      helpfulVotes: typeof l.h === "number" ? l.h : 0,
+      ...(typeof l.r === "number" && { rating: l.r }),
+    });
+  }
+  return { reviews, badLines };
 }
 
 export interface ImageFetcher {
@@ -103,12 +141,7 @@ export function fsStores(opts: FsStoresOptions): {
       async get(source, asin) {
         if (source !== "dataset") return null;
         const text = await readFile(join(reviewsDir, `${asin}.jsonl`), "utf8").catch(() => null);
-        if (text === null) return null;
-        return text
-          .split("\n")
-          .filter((l) => l.trim())
-          .map((l) => JSON.parse(l) as { r?: number; t?: string; x?: string; h?: number })
-          .map((l) => ({ asin, title: l.t ?? "", text: l.x ?? "", helpfulVotes: l.h ?? 0, ...(typeof l.r === "number" && { rating: l.r }) }));
+        return text === null ? null : parseReviewLines(asin, text);
       },
     },
   };

@@ -8,4 +8,6 @@ export {
   type ImageClaimStore,
   type ImageFetcher,
   type ReviewStore,
+  type ReviewSet,
+  parseReviewLines,
 } from "./stores";
