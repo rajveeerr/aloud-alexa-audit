@@ -1,6 +1,6 @@
 export { startWorker, type WorkerOptions } from "./worker";
 export { processAudit, toAuditRequest, type ProcessorContext, type ProcessResult } from "./processor";
-export { createAuditQueue, enqueueAudits, redisConnection, jobOptions, AUDIT_QUEUE, DEFAULT_REDIS_URL, type AuditJobData } from "./queue";
+export { createAuditQueue, enqueueAudits, redisConnection, jobOptions, AUDIT_QUEUE, DEFAULT_REDIS_URL, DEFAULT_REDIS_PREFIX, type AuditJobData } from "./queue";
 export { submitAudit, rescore, startBulk, type JobsContext } from "./jobs";
 export { makeDeps, depsConfigFromEnv, ROOT, type DepsConfig } from "./deps";
 export { webhookFromEnv } from "./env";

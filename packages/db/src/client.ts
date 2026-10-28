@@ -11,7 +11,7 @@ export type Db = MySql2Database<typeof schema>;
 export type DbHandle = { db: Db; pool: mysql.Pool; close: () => Promise<void> };
 
 /** Times are stored and read as UTC so the server's own timezone never shifts them. */
-export function connect(url = process.env.DATABASE_URL ?? DEFAULT_DATABASE_URL): DbHandle {
+export function connect(url = process.env.DATABASE_URL || DEFAULT_DATABASE_URL): DbHandle {
   const pool = mysql.createPool({ uri: url, timezone: "Z", connectionLimit: 10 });
   const db = drizzle(pool, { schema, mode: "default" });
   return { db, pool, close: () => pool.end() };

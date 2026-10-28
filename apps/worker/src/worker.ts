@@ -1,6 +1,6 @@
 import { Worker } from "bullmq";
 import type { Redis } from "ioredis";
-import { AUDIT_QUEUE, type AuditJobData } from "./queue";
+import { AUDIT_QUEUE, DEFAULT_REDIS_PREFIX, type AuditJobData } from "./queue";
 import { processAudit, type ProcessorContext, type ProcessResult } from "./processor";
 
 export type WorkerOptions = ProcessorContext & {
@@ -13,7 +13,7 @@ export type WorkerOptions = ProcessorContext & {
 export function startWorker(o: WorkerOptions): Worker<AuditJobData, ProcessResult> {
   const worker = new Worker<AuditJobData, ProcessResult>(AUDIT_QUEUE, (job, token) => processAudit(job, token, o), {
     connection: o.connection,
-    ...(o.prefix && { prefix: o.prefix }),
+    prefix: o.prefix ?? DEFAULT_REDIS_PREFIX,
     concurrency: o.concurrency ?? 1,
   });
   // Without a listener, an error event (e.g. Redis dropping) would crash the process.

@@ -7,8 +7,11 @@ export type AuditJobData = { auditId: string };
 
 export const DEFAULT_REDIS_URL = "redis://127.0.0.1:6389";
 
+/** Every key this app writes starts with it, so a shared Redis (or a test run) stays separate. */
+export const DEFAULT_REDIS_PREFIX = "answerable";
+
 /** BullMQ needs maxRetriesPerRequest null so its blocking commands wait instead of erroring. */
-export function redisConnection(url = process.env.REDIS_URL ?? DEFAULT_REDIS_URL): Redis {
+export function redisConnection(url = process.env.REDIS_URL || DEFAULT_REDIS_URL): Redis {
   return new IORedis(url, { maxRetriesPerRequest: null });
 }
 
@@ -31,7 +34,7 @@ export type QueueOptions = { connection: Redis; prefix?: string; backoffMs?: num
 export function createAuditQueue(o: QueueOptions): Queue<AuditJobData> {
   return new Queue<AuditJobData>(AUDIT_QUEUE, {
     connection: o.connection,
-    ...(o.prefix && { prefix: o.prefix }),
+    prefix: o.prefix ?? DEFAULT_REDIS_PREFIX,
     defaultJobOptions: jobOptions(o.backoffMs ?? 10_000),
   });
 }

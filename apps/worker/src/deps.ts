@@ -17,11 +17,11 @@ export type DepsConfig = {
 
 export function depsConfigFromEnv(env: Record<string, string | undefined> = process.env): DepsConfig {
   return {
-    fixturesDir: env.FIXTURES_DIR ?? join(ROOT, "fixtures"),
-    llmCacheDir: env.LLM_CACHE_DIR ?? join(ROOT, "fixtures/llm"),
-    imageCacheDir: env.IMAGE_CACHE_DIR ?? join(ROOT, "data/images"),
-    model: env.GEMINI_MODEL ?? "gemini-3.5-flash-lite",
-    geminiRpm: Number(env.GEMINI_RPM ?? 10),
+    fixturesDir: env.FIXTURES_DIR || join(ROOT, "fixtures"),
+    llmCacheDir: env.LLM_CACHE_DIR || join(ROOT, "fixtures/llm"),
+    imageCacheDir: env.IMAGE_CACHE_DIR || join(ROOT, "data/images"),
+    model: env.GEMINI_MODEL || "gemini-3.5-flash-lite",
+    geminiRpm: Number(env.GEMINI_RPM || 10),
     ...(env.GEMINI_API_KEY && { geminiApiKey: env.GEMINI_API_KEY }),
     ...(env.SERPAPI_KEY && { serpApiKey: env.SERPAPI_KEY }),
   };

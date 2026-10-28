@@ -9,7 +9,14 @@ import { startWorker } from "./worker";
 const { db, close } = connect();
 const connection = redisConnection();
 const cfg = depsConfigFromEnv();
-const worker = startWorker({ db, connection, makeDeps: makeDeps(cfg), webhook: webhookFromEnv(), log: (m) => console.log(m) });
+const worker = startWorker({
+  db,
+  connection,
+  ...(process.env.REDIS_PREFIX && { prefix: process.env.REDIS_PREFIX }),
+  makeDeps: makeDeps(cfg),
+  webhook: webhookFromEnv(),
+  log: (m) => console.log(m),
+});
 console.log(`worker running (${cfg.geminiApiKey ? "recording new model calls" : "replay only"}, ${cfg.geminiRpm} rpm)`);
 
 async function shutdown() {
