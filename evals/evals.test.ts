@@ -1,6 +1,7 @@
 import { describe, expect, test } from "bun:test";
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
+import { GRADE_PROMPT_VERSION, PROOF_PROMPT_VERSION } from "@answerable/core";
 import { CachedLlm } from "@answerable/providers";
 import { accuracy, checkAgainst, confusion, FIXTURES, perLabel, readJsonl, runEvals, STATUSES, verifierEffect, type Baseline, type GoldGrade, type GoldProof } from "./lib";
 
@@ -71,9 +72,19 @@ describe("evals (replayed, no network)", () => {
     expect(row("B097CF46RC", "tip_size").verified).toBe("contradicted");
   }, 30_000);
 
-  test("the check fails on a drop", () => {
-    const base: Baseline = { gradeAccuracy: 0.9, proofAccuracy: 0.9, gradePairs: 1, proofPairs: 1, gradePromptVersion: "", proofPromptVersion: "" };
-    const fake = { grades: { accuracy: 0.87 }, proof: { accuracy: 0.89 } } as Parameters<typeof checkAgainst>[0];
-    expect(checkAgainst(fake, base)).toHaveLength(1);
+  const fakeRun = (gradeAccuracy: number, proofAccuracy: number, gradePairs = 2, proofPairs = 1) =>
+    ({ grades: { accuracy: gradeAccuracy, rows: Array(gradePairs) }, proof: { accuracy: proofAccuracy, rows: Array(proofPairs) } }) as unknown as Parameters<typeof checkAgainst>[0];
+  const base: Baseline = { gradeAccuracy: 0.9, proofAccuracy: 0.9, gradePairs: 2, proofPairs: 1, gradePromptVersion: GRADE_PROMPT_VERSION, proofPromptVersion: PROOF_PROMPT_VERSION };
+
+  test("the check fails on a drop of more than 2 points, not on a smaller one", () => {
+    expect(checkAgainst(fakeRun(0.87, 0.89), base)).toHaveLength(1);
+    expect(checkAgainst(fakeRun(0.885, 0.89), base)).toEqual([]);
+  });
+
+  test("the check fails when the baseline was measured on another gold set or prompt", () => {
+    const problems = checkAgainst(fakeRun(0.95, 0.95, 3, 2), { ...base, gradePromptVersion: "grade@old", proofPromptVersion: "proof-labels@old" });
+    expect(problems).toHaveLength(4);
+    expect(problems.every((p) => p.includes("--update-baseline"))).toBe(true);
+    expect(problems[0]).toContain("2 grade pairs, this run has 3");
   });
 });

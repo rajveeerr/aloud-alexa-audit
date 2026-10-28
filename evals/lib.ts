@@ -306,9 +306,19 @@ export function baselineOf(r: EvalResult): Baseline {
   };
 }
 
-/** Problems that should fail CI: accuracy more than CHECK_TOLERANCE below the stored baseline. */
+/**
+ * Problems that should fail CI: accuracy more than CHECK_TOLERANCE below the stored baseline, or a
+ * baseline that was measured on something else. A changed gold set or prompt makes the old number
+ * meaningless to compare against, so the check stops and asks for a deliberate re-baseline.
+ */
 export function checkAgainst(r: EvalResult, base: Baseline): string[] {
+  const now = baselineOf(r);
   const problems: string[] = [];
+  const fix = "review the change, then run `bun evals --update-baseline`";
+  if (now.gradePairs !== base.gradePairs) problems.push(`the baseline was measured on ${base.gradePairs} grade pairs, this run has ${now.gradePairs}: ${fix}`);
+  if (now.proofPairs !== base.proofPairs) problems.push(`the baseline was measured on ${base.proofPairs} proof pairs, this run has ${now.proofPairs}: ${fix}`);
+  if (now.gradePromptVersion !== base.gradePromptVersion) problems.push(`the baseline is for ${base.gradePromptVersion}, this run uses ${now.gradePromptVersion}: ${fix}`);
+  if (now.proofPromptVersion !== base.proofPromptVersion) problems.push(`the baseline is for ${base.proofPromptVersion}, this run uses ${now.proofPromptVersion}: ${fix}`);
   if (r.grades.accuracy < base.gradeAccuracy - CHECK_TOLERANCE) problems.push(`grade accuracy ${pct(r.grades.accuracy)} is below baseline ${pct(base.gradeAccuracy)} minus ${pct(CHECK_TOLERANCE)}`);
   if (r.proof.accuracy < base.proofAccuracy - CHECK_TOLERANCE) problems.push(`proof label accuracy ${pct(r.proof.accuracy)} is below baseline ${pct(base.proofAccuracy)} minus ${pct(CHECK_TOLERANCE)}`);
   return problems;
