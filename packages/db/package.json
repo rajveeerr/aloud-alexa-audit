@@ -1,0 +1,20 @@
+{
+  "name": "@answerable/db",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "generate": "drizzle-kit generate",
+    "migrate": "bun src/migrate.ts"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.45.4",
+    "mysql2": "^3.24.6"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.11"
+  }
+}

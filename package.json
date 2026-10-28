@@ -9,7 +9,9 @@
   "scripts": {
     "test": "bun test",
     "typecheck": "tsc -b",
-    "cli": "bun apps/cli/src/audit.ts"
+    "cli": "bun apps/cli/src/audit.ts",
+    "db:up": "docker compose up -d",
+    "db:migrate": "bun packages/db/src/migrate.ts"
   },
   "devDependencies": {
     "@types/bun": "latest",
