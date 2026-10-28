@@ -1,0 +1,1115 @@
+{
+  "data": [
+    {
+      "i": 300,
+      "needs": [
+        "sturdiness",
+        "frame_thickness",
+        "tray_included",
+        "backing_material"
+      ]
+    },
+    {
+      "i": 301,
+      "needs": [
+        "size",
+        "sturdiness",
+        "frame_shape",
+        "surface_smoothness"
+      ]
+    },
+    {
+      "i": 302,
+      "needs": [
+        "size",
+        "weight",
+        "sturdiness",
+        "erasability"
+      ]
+    },
+    {
+      "i": 303,
+      "needs": []
+    },
+    {
+      "i": 304,
+      "needs": [
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 305,
+      "needs": []
+    },
+    {
+      "i": 306,
+      "needs": [
+        "corner_protection"
+      ]
+    },
+    {
+      "i": 307,
+      "needs": [
+        "ease_of_hanging",
+        "magnetic",
+        "smooth_writing",
+        "erasability"
+      ]
+    },
+    {
+      "i": 308,
+      "needs": [
+        "erasability"
+      ]
+    },
+    {
+      "i": 309,
+      "needs": [
+        "material_quality",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 310,
+      "needs": [
+        "magnetic",
+        "marker_quality",
+        "marker_magnetism"
+      ]
+    },
+    {
+      "i": 311,
+      "needs": [
+        "marker_quality"
+      ]
+    },
+    {
+      "i": 312,
+      "needs": [
+        "marker_vibrancy"
+      ]
+    },
+    {
+      "i": 313,
+      "needs": [
+        "marker_longevity",
+        "layout_size"
+      ]
+    },
+    {
+      "i": 314,
+      "needs": [
+        "marker_vibrancy",
+        "magnetic_strength",
+        "quality"
+      ]
+    },
+    {
+      "i": 315,
+      "needs": [
+        "size",
+        "magnetic_strength",
+        "writing_space",
+        "marker_vibrancy",
+        "marker_magnetism"
+      ]
+    },
+    {
+      "i": 316,
+      "needs": [
+        "magnetic_coverage",
+        "erasability"
+      ]
+    },
+    {
+      "i": 317,
+      "needs": [
+        "size"
+      ]
+    },
+    {
+      "i": 318,
+      "needs": [
+        "sturdiness",
+        "flexibility",
+        "magnetic_strength"
+      ]
+    },
+    {
+      "i": 319,
+      "needs": [
+        "thickness",
+        "magnetic_strength",
+        "marker_ease_of_use",
+        "erasability",
+        "marker_vibrancy"
+      ]
+    },
+    {
+      "i": 320,
+      "needs": [
+        "size",
+        "magnetic_adhesion"
+      ]
+    },
+    {
+      "i": 321,
+      "needs": [
+        "versatility",
+        "adhesion"
+      ]
+    },
+    {
+      "i": 322,
+      "needs": [
+        "erasability"
+      ]
+    },
+    {
+      "i": 323,
+      "needs": [
+        "magnetic_accessories"
+      ]
+    },
+    {
+      "i": 324,
+      "needs": [
+        "size",
+        "magnetic_strength"
+      ]
+    },
+    {
+      "i": 325,
+      "needs": [
+        "cutability",
+        "sturdiness",
+        "included_accessories"
+      ]
+    },
+    {
+      "i": 326,
+      "needs": [
+        "combinability"
+      ]
+    },
+    {
+      "i": 327,
+      "needs": [
+        "accessory_quality"
+      ]
+    },
+    {
+      "i": 328,
+      "needs": [
+        "adhesion",
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 329,
+      "needs": [
+        "multifunctionality",
+        "magnetic_accessories",
+        "erasability"
+      ]
+    },
+    {
+      "i": 330,
+      "needs": [
+        "magnetic",
+        "marker_longevity"
+      ]
+    },
+    {
+      "i": 331,
+      "needs": [
+        "thickness",
+        "magnetic_strength",
+        "marker_variety",
+        "marker_erasers"
+      ]
+    },
+    {
+      "i": 332,
+      "needs": [
+        "marker_quality",
+        "erasability",
+        "set_quantity"
+      ]
+    },
+    {
+      "i": 333,
+      "needs": [
+        "magnetic_adhesion",
+        "size",
+        "marker_quality",
+        "design"
+      ]
+    },
+    {
+      "i": 334,
+      "needs": [
+        "set_quantity",
+        "visibility",
+        "marker_vibrancy",
+        "marker_magnetism"
+      ]
+    },
+    {
+      "i": 335,
+      "needs": [
+        "magnetic"
+      ]
+    },
+    {
+      "i": 336,
+      "needs": [
+        "marker_magnetism",
+        "calendar_layout"
+      ]
+    },
+    {
+      "i": 337,
+      "needs": [
+        "marker_magnetism",
+        "calendar_layout"
+      ]
+    },
+    {
+      "i": 338,
+      "needs": [
+        "durability",
+        "coating_quality",
+        "magnetic_adhesion"
+      ]
+    },
+    {
+      "i": 339,
+      "needs": [
+        "magnetic_adhesion"
+      ]
+    },
+    {
+      "i": 340,
+      "needs": [
+        "quality",
+        "double_sided",
+        "portability"
+      ]
+    },
+    {
+      "i": 341,
+      "needs": [
+        "portability",
+        "stand_feature",
+        "erasability"
+      ]
+    },
+    {
+      "i": 342,
+      "needs": [
+        "size",
+        "sturdiness",
+        "erasability"
+      ]
+    },
+    {
+      "i": 343,
+      "needs": [
+        "double_sided",
+        "erasability",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 344,
+      "needs": [
+        "size",
+        "quality",
+        "portability",
+        "foldability",
+        "double_sided"
+      ]
+    },
+    {
+      "i": 345,
+      "needs": [
+        "double_sided",
+        "marker_vibrancy",
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 346,
+      "needs": [
+        "magnetic_strength",
+        "marker_erasers",
+        "erasability",
+        "portability"
+      ]
+    },
+    {
+      "i": 347,
+      "needs": [
+        "size",
+        "marker_magnetism"
+      ]
+    },
+    {
+      "i": 348,
+      "needs": [
+        "sturdiness",
+        "double_sided"
+      ]
+    },
+    {
+      "i": 349,
+      "needs": [
+        "size",
+        "sturdiness",
+        "double_sided",
+        "magnetic_strength"
+      ]
+    },
+    {
+      "i": 350,
+      "needs": [
+        "layout",
+        "magnetic_strength"
+      ]
+    },
+    {
+      "i": 351,
+      "needs": [
+        "ease_of_hanging",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 352,
+      "needs": [
+        "writing_surface",
+        "erasability"
+      ]
+    },
+    {
+      "i": 353,
+      "needs": [
+        "thickness",
+        "sturdiness",
+        "marker_erasers"
+      ]
+    },
+    {
+      "i": 354,
+      "needs": [
+        "erasability",
+        "layout",
+        "marker_tip_size"
+      ]
+    },
+    {
+      "i": 355,
+      "needs": [
+        "sturdiness",
+        "marker_odor",
+        "writing_space"
+      ]
+    },
+    {
+      "i": 356,
+      "needs": [
+        "magnetic_adhesion",
+        "marker_quality"
+      ]
+    },
+    {
+      "i": 357,
+      "needs": [
+        "size",
+        "marker_tip_size",
+        "marker_ink_quality",
+        "marker_erasers"
+      ]
+    },
+    {
+      "i": 358,
+      "needs": [
+        "marker_bleed_resistance",
+        "writing_space",
+        "magnetic_strength"
+      ]
+    },
+    {
+      "i": 359,
+      "needs": [
+        "magnetic_coverage",
+        "writing_space",
+        "marker_magnetism"
+      ]
+    },
+    {
+      "i": 360,
+      "needs": [
+        "size",
+        "marker_magnetism",
+        "ease_of_installation",
+        "mounting_hardware"
+      ]
+    },
+    {
+      "i": 361,
+      "needs": [
+        "visibility",
+        "mounting_hardware",
+        "depth"
+      ]
+    },
+    {
+      "i": 362,
+      "needs": [
+        "surface_condition"
+      ]
+    },
+    {
+      "i": 363,
+      "needs": [
+        "outline_durability"
+      ]
+    },
+    {
+      "i": 364,
+      "needs": [
+        "hanging_hardware",
+        "tray",
+        "protective_film_removal"
+      ]
+    },
+    {
+      "i": 365,
+      "needs": [
+        "mounting_hardware"
+      ]
+    },
+    {
+      "i": 366,
+      "needs": [
+        "outline_durability",
+        "marker_magnetism",
+        "stain_resistance"
+      ]
+    },
+    {
+      "i": 367,
+      "needs": [
+        "protective_coating"
+      ]
+    },
+    {
+      "i": 368,
+      "needs": [
+        "material_durability"
+      ]
+    },
+    {
+      "i": 369,
+      "needs": [
+        "marker_magnetism"
+      ]
+    },
+    {
+      "i": 370,
+      "needs": [
+        "material_quality",
+        "magnetic_strength",
+        "mounting_hardware",
+        "pen_holder"
+      ]
+    },
+    {
+      "i": 371,
+      "needs": [
+        "size",
+        "mounting_options",
+        "marker_tip_size",
+        "erasability"
+      ]
+    },
+    {
+      "i": 372,
+      "needs": [
+        "marker_quality",
+        "erasability"
+      ]
+    },
+    {
+      "i": 373,
+      "needs": [
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 374,
+      "needs": [
+        "erasability",
+        "magnetic_strength",
+        "size"
+      ]
+    },
+    {
+      "i": 375,
+      "needs": [
+        "warp_resistance",
+        "flatness"
+      ]
+    },
+    {
+      "i": 376,
+      "needs": [
+        "flatness",
+        "magnetic_strength",
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 377,
+      "needs": [
+        "sturdiness",
+        "corner_protection"
+      ]
+    },
+    {
+      "i": 378,
+      "needs": [
+        "erasability"
+      ]
+    },
+    {
+      "i": 379,
+      "needs": [
+        "erasability"
+      ]
+    },
+    {
+      "i": 380,
+      "needs": [
+        "sturdiness",
+        "double_sided",
+        "foldability",
+        "stand_feature"
+      ]
+    },
+    {
+      "i": 381,
+      "needs": [
+        "portability",
+        "magnetic",
+        "sturdiness",
+        "erasability"
+      ]
+    },
+    {
+      "i": 382,
+      "needs": [
+        "double_sided",
+        "magnetic",
+        "sturdiness",
+        "size",
+        "erasability"
+      ]
+    },
+    {
+      "i": 383,
+      "needs": [
+        "magnetic",
+        "portability",
+        "durability",
+        "erasability"
+      ]
+    },
+    {
+      "i": 384,
+      "needs": [
+        "size",
+        "portability",
+        "stand_feature",
+        "double_sided",
+        "magnetic",
+        "erasability"
+      ]
+    },
+    {
+      "i": 385,
+      "needs": [
+        "sturdiness",
+        "double_sided",
+        "marker_magnetism",
+        "marker_tip_size"
+      ]
+    },
+    {
+      "i": 386,
+      "needs": [
+        "erasability",
+        "sturdiness",
+        "size"
+      ]
+    },
+    {
+      "i": 387,
+      "needs": [
+        "size",
+        "portability",
+        "stand_feature",
+        "protective_coating"
+      ]
+    },
+    {
+      "i": 388,
+      "needs": [
+        "quality",
+        "weight"
+      ]
+    },
+    {
+      "i": 389,
+      "needs": [
+        "size",
+        "stand_feature",
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 390,
+      "needs": [
+        "double_sided",
+        "sturdiness",
+        "erasability"
+      ]
+    },
+    {
+      "i": 391,
+      "needs": [
+        "double_sided",
+        "layout"
+      ]
+    },
+    {
+      "i": 392,
+      "needs": [
+        "size"
+      ]
+    },
+    {
+      "i": 393,
+      "needs": [
+        "portability"
+      ]
+    },
+    {
+      "i": 394,
+      "needs": [
+        "sturdiness",
+        "double_sided"
+      ]
+    },
+    {
+      "i": 395,
+      "needs": [
+        "erasability"
+      ]
+    },
+    {
+      "i": 396,
+      "needs": [
+        "quality"
+      ]
+    },
+    {
+      "i": 397,
+      "needs": [
+        "erasability",
+        "layout"
+      ]
+    },
+    {
+      "i": 398,
+      "needs": [
+        "erasability",
+        "double_sided",
+        "box_size"
+      ]
+    },
+    {
+      "i": 399,
+      "needs": [
+        "quality",
+        "erasability",
+        "double_sided"
+      ]
+    },
+    {
+      "i": 400,
+      "needs": [
+        "template_accuracy",
+        "quality",
+        "erasability"
+      ]
+    },
+    {
+      "i": 401,
+      "needs": [
+        "appearance",
+        "material_quality",
+        "mounting_template"
+      ]
+    },
+    {
+      "i": 402,
+      "needs": [
+        "appearance",
+        "marker_compatibility"
+      ]
+    },
+    {
+      "i": 403,
+      "needs": [
+        "ease_of_hanging",
+        "erasability",
+        "sturdiness",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 404,
+      "needs": [
+        "appearance",
+        "erasability"
+      ]
+    },
+    {
+      "i": 405,
+      "needs": [
+        "appearance",
+        "ease_of_installation"
+      ]
+    },
+    {
+      "i": 406,
+      "needs": [
+        "mounting_template",
+        "glare_resistance"
+      ]
+    },
+    {
+      "i": 407,
+      "needs": [
+        "ease_of_installation",
+        "appearance",
+        "hardware_sturdiness"
+      ]
+    },
+    {
+      "i": 408,
+      "needs": [
+        "writing_surface",
+        "glare_resistance"
+      ]
+    },
+    {
+      "i": 409,
+      "needs": [
+        "mounting_template",
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 410,
+      "needs": [
+        "layout"
+      ]
+    },
+    {
+      "i": 411,
+      "needs": [
+        "layout",
+        "erasability"
+      ]
+    },
+    {
+      "i": 412,
+      "needs": [
+        "adhesion",
+        "erasability"
+      ]
+    },
+    {
+      "i": 413,
+      "needs": [
+        "size",
+        "laminate_quality",
+        "magnetic_strength",
+        "marker_quality"
+      ]
+    },
+    {
+      "i": 414,
+      "needs": [
+        "thickness",
+        "vibrancy",
+        "magnetic_strength"
+      ]
+    },
+    {
+      "i": 415,
+      "needs": [
+        "size",
+        "marker_quantity",
+        "erasability"
+      ]
+    },
+    {
+      "i": 416,
+      "needs": [
+        "layout"
+      ]
+    },
+    {
+      "i": 417,
+      "needs": [
+        "quality"
+      ]
+    },
+    {
+      "i": 418,
+      "needs": [
+        "size"
+      ]
+    },
+    {
+      "i": 419,
+      "needs": [
+        "adhesion",
+        "size"
+      ]
+    },
+    {
+      "i": 420,
+      "needs": [
+        "erasability",
+        "mounting_hardware",
+        "protective_film_removal"
+      ]
+    },
+    {
+      "i": 421,
+      "needs": [
+        "size",
+        "sturdiness",
+        "frame_material",
+        "appearance"
+      ]
+    },
+    {
+      "i": 422,
+      "needs": [
+        "packaging_protection"
+      ]
+    },
+    {
+      "i": 423,
+      "needs": []
+    },
+    {
+      "i": 424,
+      "needs": [
+        "erasability",
+        "ease_of_hanging",
+        "tray"
+      ]
+    },
+    {
+      "i": 425,
+      "needs": [
+        "size",
+        "ease_of_installation",
+        "appearance"
+      ]
+    },
+    {
+      "i": 426,
+      "needs": [
+        "size",
+        "ease_of_installation",
+        "appearance"
+      ]
+    },
+    {
+      "i": 427,
+      "needs": [
+        "sturdiness",
+        "ease_of_installation"
+      ]
+    },
+    {
+      "i": 428,
+      "needs": [
+        "erasability"
+      ]
+    },
+    {
+      "i": 429,
+      "needs": [
+        "erasability"
+      ]
+    },
+    {
+      "i": 430,
+      "needs": [
+        "size"
+      ]
+    },
+    {
+      "i": 431,
+      "needs": [
+        "packaging_protection"
+      ]
+    },
+    {
+      "i": 432,
+      "needs": [
+        "appearance",
+        "thickness",
+        "ease_of_installation"
+      ]
+    },
+    {
+      "i": 433,
+      "needs": [
+        "size"
+      ]
+    },
+    {
+      "i": 434,
+      "needs": [
+        "size"
+      ]
+    },
+    {
+      "i": 435,
+      "needs": [
+        "surface_friction"
+      ]
+    },
+    {
+      "i": 436,
+      "needs": [
+        "erasability",
+        "magnetic",
+        "quality"
+      ]
+    },
+    {
+      "i": 437,
+      "needs": [
+        "ease_of_hanging",
+        "erasability"
+      ]
+    },
+    {
+      "i": 438,
+      "needs": [
+        "magnetic",
+        "weight"
+      ]
+    },
+    {
+      "i": 439,
+      "needs": []
+    },
+    {
+      "i": 440,
+      "needs": [
+        "magnetic_strength",
+        "size"
+      ]
+    },
+    {
+      "i": 441,
+      "needs": [
+        "magnetic_strength",
+        "surface_smoothness",
+        "marker_compatibility"
+      ]
+    },
+    {
+      "i": 442,
+      "needs": [
+        "erasability"
+      ]
+    },
+    {
+      "i": 443,
+      "needs": [
+        "size",
+        "cutability",
+        "packaging_protection",
+        "erasability"
+      ]
+    },
+    {
+      "i": 444,
+      "needs": [
+        "packaging_protection"
+      ]
+    },
+    {
+      "i": 445,
+      "needs": [
+        "thickness",
+        "magnetic_adhesion",
+        "marker_erasers"
+      ]
+    },
+    {
+      "i": 446,
+      "needs": [
+        "packaging_protection",
+        "thickness",
+        "flatness",
+        "marker_magnetism"
+      ]
+    },
+    {
+      "i": 447,
+      "needs": [
+        "magnetic_coverage",
+        "marker_variety"
+      ]
+    },
+    {
+      "i": 448,
+      "needs": [
+        "magnetic_strength",
+        "writing_surface",
+        "marker_quantity",
+        "marker_magnetism"
+      ]
+    },
+    {
+      "i": 449,
+      "needs": [
+        "size",
+        "marker_variety"
+      ]
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "extract-needs@2026-10-27.1+dry-erase-boards",
+  "usage": {
+    "inputTokens": 16591,
+    "outputTokens": 6087
+  },
+  "latencyMs": 19294,
+  "cached": false
+}

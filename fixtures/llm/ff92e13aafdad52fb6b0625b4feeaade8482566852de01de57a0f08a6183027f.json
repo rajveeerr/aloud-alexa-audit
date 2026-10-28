@@ -1,0 +1,157 @@
+{
+  "data": [
+    {
+      "claimId": "ic.0",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "crafted in Colorado for cyclists by cyclists"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.1",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "optimally designed for easier squeeze and grip for use on the go"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.2",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "light, durable, compact"
+        }
+      ],
+      "intentId": "weight_empty"
+    },
+    {
+      "claimId": "ic.3",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Breakaway Surge Cap"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.4",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "maximizes flow rate and self-seals to eliminate spills and splatter: It’s spill-proof when open and pushes closed for leakproof transport"
+        }
+      ],
+      "intentId": "leak_proof"
+    },
+    {
+      "claimId": "ic.5",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "EASY TO CLEAN"
+        }
+      ],
+      "intentId": "dishwasher_safe"
+    },
+    {
+      "claimId": "ic.6",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "The innovative cap is two pieces - cap and valve - simply twist and pull for complete access cleaning; all our squeeze water bottles and caps are dishwasher safe"
+        }
+      ],
+      "intentId": "dishwasher_safe"
+    },
+    {
+      "claimId": "ic.7",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "Lifetime Warranty"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.8",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.warranty_description",
+          "text": "Lifetime Warranty"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.9",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.10",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "100% BPA-free"
+        }
+      ],
+      "intentId": "bpa_free"
+    },
+    {
+      "claimId": "ic.11",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "crafted in Colorado"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.12",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "source all our parts in the USA"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.13",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.14",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "produce all Polar Bottle products in Colorado"
+        }
+      ]
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "coverage@2026-10-27.1",
+  "usage": {
+    "inputTokens": 1479,
+    "outputTokens": 1031
+  },
+  "latencyMs": 67902,
+  "cached": false
+}

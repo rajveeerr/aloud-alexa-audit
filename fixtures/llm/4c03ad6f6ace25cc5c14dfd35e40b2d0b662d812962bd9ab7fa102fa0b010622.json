@@ -1,0 +1,121 @@
+{
+  "data": [
+    {
+      "intentId": "capacity_oz",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "2.2L"
+        }
+      ],
+      "value": "2.2L"
+    },
+    {
+      "intentId": "bpa_free",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "BPA-Free"
+        }
+      ],
+      "value": "BPA-Free"
+    },
+    {
+      "intentId": "leak_proof",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Lid with silicone seal, absolutely 100% leakproof, even under fiercely shake."
+        }
+      ],
+      "value": "100% leakproof"
+    },
+    {
+      "intentId": "cup_holder_fit",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "insulation_type",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "dishwasher_safe",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_care_instructions",
+          "text": "Hand Wash Only"
+        }
+      ],
+      "value": "Hand Wash Only"
+    },
+    {
+      "intentId": "material_composition",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.material",
+          "text": "Plastic"
+        }
+      ],
+      "value": "Plastic"
+    },
+    {
+      "intentId": "ice_cube_compatibility",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Opening on the top is perfect for filling the bottle with ice cubes, fruit or different sports drinks."
+        }
+      ],
+      "value": "Opening on the top is perfect for filling the bottle with ice cubes"
+    },
+    {
+      "intentId": "weight_empty",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "3.52 ounces"
+        }
+      ],
+      "value": "3.52 ounces"
+    },
+    {
+      "intentId": "carrying_strap",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Half gallon water bottle with anti-slip handle and strong nylon strap enables the gym water bottle easy to carry and be hung anywhere."
+        }
+      ],
+      "value": "anti-slip handle and strong nylon strap"
+    },
+    {
+      "intentId": "measurement_markings",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "The water level is easy to read via measurement scales on the semi-transparent bottle."
+        }
+      ],
+      "value": "measurement scales"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+water-bottles@estimated-2026-10-27.1",
+  "usage": {
+    "inputTokens": 1717,
+    "outputTokens": 805
+  },
+  "latencyMs": 47001,
+  "cached": false
+}

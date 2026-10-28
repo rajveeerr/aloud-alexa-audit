@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "intentId": "smoothness",
+      "unsupported": [
+        "for all your everyday tasks"
+      ],
+      "answersQuestion": true
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "faithfulness@2026-10-27.2",
+  "usage": {
+    "inputTokens": 148,
+    "outputTokens": 45
+  },
+  "latencyMs": 4558,
+  "cached": false
+}

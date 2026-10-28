@@ -1,0 +1,48 @@
+{
+  "asin": "B0BLYMHFVY",
+  "promptVersion": "transcribe@2026-10-27.1",
+  "model": "gemini-3.5-flash-lite",
+  "usage": {
+    "inputTokens": 6645,
+    "outputTokens": 208
+  },
+  "images": 6,
+  "skippedImageIds": [],
+  "modelOutput": [
+    {
+      "imageId": "img.0",
+      "claims": [
+        "Magnetic Dry Erase Board"
+      ]
+    },
+    {
+      "imageId": "img.1",
+      "claims": [
+        "Easy to write and clean"
+      ]
+    },
+    {
+      "imageId": "img.2",
+      "claims": [
+        "Install horizontally or vertically",
+        "Detachable marker tray",
+        "Easy installation with fixing kits",
+        "Silver finished aluminium frame"
+      ]
+    },
+    {
+      "imageId": "img.3",
+      "claims": [
+        "Please remove the film before use"
+      ]
+    },
+    {
+      "imageId": "img.4",
+      "claims": []
+    },
+    {
+      "imageId": "img.5",
+      "claims": []
+    }
+  ]
+}

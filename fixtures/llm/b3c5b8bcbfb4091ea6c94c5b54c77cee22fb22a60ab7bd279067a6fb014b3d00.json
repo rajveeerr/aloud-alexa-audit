@@ -1,0 +1,183 @@
+{
+  "data": [
+    {
+      "claimId": "ic.0",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.1",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "food grade safe"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.2",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "BPA Free"
+        }
+      ],
+      "intentId": "bpa_free"
+    },
+    {
+      "claimId": "ic.3",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.4",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.5",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "LEAK PROOF"
+        }
+      ],
+      "intentId": "leak_proof"
+    },
+    {
+      "claimId": "ic.6",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "ice_cube_compatibility"
+    },
+    {
+      "claimId": "ic.7",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Optimized to fit into any water bottle cage, backpack pocket or cup holder."
+        }
+      ],
+      "intentId": "cup_holder_fit"
+    },
+    {
+      "claimId": "ic.8",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.9",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.product_dimensions",
+          "text": "9.45 inches"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.10",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.product_dimensions",
+          "text": "2.76 x 2.76"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.11",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.12",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "high water flow rate."
+        }
+      ]
+    },
+    {
+      "claimId": "ic.13",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.14",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.brand",
+          "text": "Brand: GEMFUL"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.15",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.bottle_type",
+          "text": "Bike Squeeze"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.16",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.model_name",
+          "text": "GF001"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.17",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.capacity",
+          "text": "750 Milliliters"
+        }
+      ],
+      "intentId": "capacity_oz"
+    },
+    {
+      "claimId": "ic.18",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.product_dimensions",
+          "text": "2.76 x 2.76 x 9.45 inches"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.19",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "5.3 ounces"
+        }
+      ],
+      "intentId": "weight_empty"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "coverage@2026-10-27.1",
+  "usage": {
+    "inputTokens": 1309,
+    "outputTokens": 1177
+  },
+  "latencyMs": 4294,
+  "cached": false
+}

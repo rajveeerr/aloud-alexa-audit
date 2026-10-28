@@ -1,0 +1,90 @@
+{
+  "asin": "B0832N947Y",
+  "promptVersion": "transcribe@2026-10-27.1",
+  "model": "gemini-3.5-flash-lite",
+  "usage": {
+    "inputTokens": 8884,
+    "outputTokens": 649
+  },
+  "images": 8,
+  "skippedImageIds": [],
+  "modelOutput": [
+    {
+      "imageId": "img.0",
+      "claims": [
+        "2000ML",
+        "1750",
+        "1500",
+        "1250",
+        "1000",
+        "750",
+        "250"
+      ]
+    },
+    {
+      "imageId": "img.1",
+      "claims": [
+        "Flip Top Cap",
+        "more convenient and easier to drink with a flip top cap compare with traditional twist off cap top.",
+        "Two Ways To Drink",
+        "It's perfect to drink directly and add small ice cubes for summer drinking, cool way to use.",
+        "Frosted & Ergonomic Handle",
+        "Specially designed frosted handle, combine ergonomic, easy to hold the bottle, not easy to slip from your hand.",
+        "High-Quality Hand Strip",
+        "High-grade and durable strap, make it easy to carry the huge water jug by one hand or finger.",
+        "Measurement Scale",
+        "Embossed capacity markings, track the waters you drink every, always hydrated your body and water jug with enough water."
+      ]
+    },
+    {
+      "imageId": "img.2",
+      "claims": [
+        "Patent Design & 100% Leak Proof",
+        "Fashion and pactical Design:",
+        "the sports water bottle is designed with strong handle for easy carrying, easy to pour water out."
+      ]
+    },
+    {
+      "imageId": "img.3",
+      "claims": [
+        "Safe and non-toxic and tasteless, Sealed and Leakproof.",
+        "Blance the pressure to keep the water flowingently",
+        "When you hear the thump, the cap is tight and leak proof guarantee.",
+        "When you drink water, the special design will avoid water spill."
+      ]
+    },
+    {
+      "imageId": "img.4",
+      "claims": [
+        "Two Ways to Hold",
+        "DURABLE STRAP",
+        "premium Strap to lift the bottle"
+      ]
+    },
+    {
+      "imageId": "img.5",
+      "claims": [
+        "Front",
+        "Back",
+        "Side",
+        "2.2L",
+        "260mm/10.3 inch",
+        "126mm/5 inch"
+      ]
+    },
+    {
+      "imageId": "img.6",
+      "claims": [
+        "BPA FREE",
+        "Flip Top Cap",
+        "more convenient and easier to drink with a flip top cap compare with traditional twist off cap top."
+      ]
+    },
+    {
+      "imageId": "img.7",
+      "claims": [
+        "BPA FREE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,973 @@
+{
+  "data": [
+    {
+      "i": 0,
+      "needs": [
+        "refillable"
+      ]
+    },
+    {
+      "i": 1,
+      "needs": [
+        "retractable",
+        "durability",
+        "portability"
+      ]
+    },
+    {
+      "i": 2,
+      "needs": [
+        "weight",
+        "grip",
+        "retractable",
+        "tip_size",
+        "hardness",
+        "eraser"
+      ]
+    },
+    {
+      "i": 3,
+      "needs": [
+        "durability",
+        "jamming"
+      ]
+    },
+    {
+      "i": 4,
+      "needs": [
+        "lead_breakage",
+        "weight",
+        "retractable",
+        "grip"
+      ]
+    },
+    {
+      "i": 5,
+      "needs": [
+        "grip",
+        "durability"
+      ]
+    },
+    {
+      "i": 6,
+      "needs": [
+        "weight"
+      ]
+    },
+    {
+      "i": 7,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 8,
+      "needs": [
+        "hardness",
+        "grip",
+        "retractable"
+      ]
+    },
+    {
+      "i": 9,
+      "needs": [
+        "refillable"
+      ]
+    },
+    {
+      "i": 10,
+      "needs": []
+    },
+    {
+      "i": 11,
+      "needs": [
+        "material"
+      ]
+    },
+    {
+      "i": 12,
+      "needs": [
+        "material"
+      ]
+    },
+    {
+      "i": 13,
+      "needs": [
+        "grip"
+      ]
+    },
+    {
+      "i": 14,
+      "needs": [
+        "refillable"
+      ]
+    },
+    {
+      "i": 15,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 16,
+      "needs": []
+    },
+    {
+      "i": 17,
+      "needs": [
+        "grip"
+      ]
+    },
+    {
+      "i": 18,
+      "needs": [
+        "refillable",
+        "grip",
+        "weight",
+        "eraser"
+      ]
+    },
+    {
+      "i": 19,
+      "needs": []
+    },
+    {
+      "i": 20,
+      "needs": []
+    },
+    {
+      "i": 21,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 22,
+      "needs": [
+        "durability",
+        "lead_breakage",
+        "tip_size"
+      ]
+    },
+    {
+      "i": 23,
+      "needs": [
+        "jamming"
+      ]
+    },
+    {
+      "i": 24,
+      "needs": [
+        "jamming",
+        "weight",
+        "durability"
+      ]
+    },
+    {
+      "i": 25,
+      "needs": [
+        "weight",
+        "grip",
+        "eraser",
+        "durability"
+      ]
+    },
+    {
+      "i": 26,
+      "needs": []
+    },
+    {
+      "i": 27,
+      "needs": []
+    },
+    {
+      "i": 28,
+      "needs": [
+        "grip"
+      ]
+    },
+    {
+      "i": 29,
+      "needs": [
+        "tip_size"
+      ]
+    },
+    {
+      "i": 30,
+      "needs": [
+        "grip",
+        "weight"
+      ]
+    },
+    {
+      "i": 31,
+      "needs": [
+        "tip_size",
+        "durability"
+      ]
+    },
+    {
+      "i": 32,
+      "needs": [
+        "weight",
+        "tip_size",
+        "eraser"
+      ]
+    },
+    {
+      "i": 33,
+      "needs": [
+        "grip",
+        "auto_rotation"
+      ]
+    },
+    {
+      "i": 34,
+      "needs": [
+        "auto_rotation"
+      ]
+    },
+    {
+      "i": 35,
+      "needs": [
+        "lead_breakage"
+      ]
+    },
+    {
+      "i": 36,
+      "needs": [
+        "auto_rotation",
+        "material",
+        "grip"
+      ]
+    },
+    {
+      "i": 37,
+      "needs": [
+        "auto_rotation",
+        "weight",
+        "grip"
+      ]
+    },
+    {
+      "i": 38,
+      "needs": [
+        "grip",
+        "auto_rotation",
+        "eraser"
+      ]
+    },
+    {
+      "i": 39,
+      "needs": [
+        "weight",
+        "auto_rotation"
+      ]
+    },
+    {
+      "i": 40,
+      "needs": []
+    },
+    {
+      "i": 41,
+      "needs": [
+        "eraser",
+        "grip",
+        "lead_breakage",
+        "refillable"
+      ]
+    },
+    {
+      "i": 42,
+      "needs": [
+        "eraser"
+      ]
+    },
+    {
+      "i": 43,
+      "needs": [
+        "weight",
+        "eraser"
+      ]
+    },
+    {
+      "i": 44,
+      "needs": [
+        "eraser",
+        "jamming"
+      ]
+    },
+    {
+      "i": 45,
+      "needs": [
+        "retractable"
+      ]
+    },
+    {
+      "i": 46,
+      "needs": [
+        "tip_size",
+        "eraser",
+        "refillable"
+      ]
+    },
+    {
+      "i": 47,
+      "needs": []
+    },
+    {
+      "i": 48,
+      "needs": [
+        "durability",
+        "eraser",
+        "tip_size"
+      ]
+    },
+    {
+      "i": 49,
+      "needs": [
+        "grip",
+        "durability",
+        "hardness"
+      ]
+    },
+    {
+      "i": 50,
+      "needs": [
+        "lead_breakage",
+        "hardness"
+      ]
+    },
+    {
+      "i": 51,
+      "needs": [
+        "eraser",
+        "auto_rotation"
+      ]
+    },
+    {
+      "i": 52,
+      "needs": [
+        "auto_rotation"
+      ]
+    },
+    {
+      "i": 53,
+      "needs": [
+        "lead_breakage",
+        "retractable"
+      ]
+    },
+    {
+      "i": 54,
+      "needs": [
+        "auto_rotation",
+        "lead_breakage",
+        "grip"
+      ]
+    },
+    {
+      "i": 55,
+      "needs": [
+        "auto_rotation"
+      ]
+    },
+    {
+      "i": 56,
+      "needs": [
+        "tip_size",
+        "auto_rotation"
+      ]
+    },
+    {
+      "i": 57,
+      "needs": [
+        "eraser",
+        "auto_rotation"
+      ]
+    },
+    {
+      "i": 58,
+      "needs": [
+        "lead_breakage",
+        "hardness"
+      ]
+    },
+    {
+      "i": 59,
+      "needs": [
+        "auto_rotation",
+        "durability"
+      ]
+    },
+    {
+      "i": 60,
+      "needs": [
+        "refillable"
+      ]
+    },
+    {
+      "i": 61,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 62,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 63,
+      "needs": [
+        "durability",
+        "grip"
+      ]
+    },
+    {
+      "i": 64,
+      "needs": [
+        "jamming",
+        "durability"
+      ]
+    },
+    {
+      "i": 65,
+      "needs": [
+        "durability",
+        "auto_rotation"
+      ]
+    },
+    {
+      "i": 66,
+      "needs": [
+        "material",
+        "weight"
+      ]
+    },
+    {
+      "i": 67,
+      "needs": [
+        "grip",
+        "tip_size"
+      ]
+    },
+    {
+      "i": 68,
+      "needs": [
+        "weight",
+        "tip_size"
+      ]
+    },
+    {
+      "i": 69,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 70,
+      "needs": []
+    },
+    {
+      "i": 71,
+      "needs": [
+        "tip_size",
+        "eraser"
+      ]
+    },
+    {
+      "i": 72,
+      "needs": [
+        "retractable",
+        "eraser",
+        "tip_size"
+      ]
+    },
+    {
+      "i": 73,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 74,
+      "needs": []
+    },
+    {
+      "i": 75,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 76,
+      "needs": [
+        "tip_size",
+        "lead_breakage",
+        "durability"
+      ]
+    },
+    {
+      "i": 77,
+      "needs": [
+        "tip_size",
+        "lead_breakage"
+      ]
+    },
+    {
+      "i": 78,
+      "needs": [
+        "tip_size",
+        "lead_breakage"
+      ]
+    },
+    {
+      "i": 79,
+      "needs": [
+        "tip_size",
+        "lead_breakage"
+      ]
+    },
+    {
+      "i": 80,
+      "needs": [
+        "eraser"
+      ]
+    },
+    {
+      "i": 81,
+      "needs": [
+        "lead_breakage"
+      ]
+    },
+    {
+      "i": 82,
+      "needs": []
+    },
+    {
+      "i": 83,
+      "needs": [
+        "durability",
+        "eraser"
+      ]
+    },
+    {
+      "i": 84,
+      "needs": []
+    },
+    {
+      "i": 85,
+      "needs": [
+        "eraser"
+      ]
+    },
+    {
+      "i": 86,
+      "needs": [
+        "durability",
+        "jamming"
+      ]
+    },
+    {
+      "i": 87,
+      "needs": [
+        "durability",
+        "grip",
+        "refillable"
+      ]
+    },
+    {
+      "i": 88,
+      "needs": []
+    },
+    {
+      "i": 89,
+      "needs": []
+    },
+    {
+      "i": 90,
+      "needs": []
+    },
+    {
+      "i": 91,
+      "needs": [
+        "lead_breakage",
+        "tip_size"
+      ]
+    },
+    {
+      "i": 92,
+      "needs": [
+        "tip_size"
+      ]
+    },
+    {
+      "i": 93,
+      "needs": [
+        "tip_size",
+        "eraser"
+      ]
+    },
+    {
+      "i": 94,
+      "needs": [
+        "tip_size",
+        "eraser"
+      ]
+    },
+    {
+      "i": 95,
+      "needs": [
+        "tip_size"
+      ]
+    },
+    {
+      "i": 96,
+      "needs": [
+        "jamming",
+        "tip_size",
+        "refillable"
+      ]
+    },
+    {
+      "i": 97,
+      "needs": [
+        "tip_size"
+      ]
+    },
+    {
+      "i": 98,
+      "needs": [
+        "weight",
+        "lead_breakage"
+      ]
+    },
+    {
+      "i": 99,
+      "needs": []
+    },
+    {
+      "i": 100,
+      "needs": [
+        "lead_breakage",
+        "grip"
+      ]
+    },
+    {
+      "i": 101,
+      "needs": [
+        "grip",
+        "eraser"
+      ]
+    },
+    {
+      "i": 102,
+      "needs": [
+        "eraser",
+        "refillable",
+        "jamming",
+        "grip"
+      ]
+    },
+    {
+      "i": 103,
+      "needs": [
+        "grip",
+        "eraser"
+      ]
+    },
+    {
+      "i": 104,
+      "needs": [
+        "lead_breakage",
+        "eraser"
+      ]
+    },
+    {
+      "i": 105,
+      "needs": [
+        "retractable",
+        "eraser"
+      ]
+    },
+    {
+      "i": 106,
+      "needs": [
+        "eraser"
+      ]
+    },
+    {
+      "i": 107,
+      "needs": [
+        "refillable",
+        "hardness",
+        "eraser"
+      ]
+    },
+    {
+      "i": 108,
+      "needs": []
+    },
+    {
+      "i": 109,
+      "needs": []
+    },
+    {
+      "i": 110,
+      "needs": [
+        "lead_breakage",
+        "grip"
+      ]
+    },
+    {
+      "i": 111,
+      "needs": [
+        "tip_size",
+        "lead_breakage",
+        "jamming"
+      ]
+    },
+    {
+      "i": 112,
+      "needs": []
+    },
+    {
+      "i": 113,
+      "needs": [
+        "eraser"
+      ]
+    },
+    {
+      "i": 114,
+      "needs": [
+        "tip_size",
+        "lead_breakage",
+        "eraser"
+      ]
+    },
+    {
+      "i": 115,
+      "needs": [
+        "jamming"
+      ]
+    },
+    {
+      "i": 116,
+      "needs": [
+        "tip_size",
+        "lead_breakage",
+        "eraser"
+      ]
+    },
+    {
+      "i": 117,
+      "needs": [
+        "jamming",
+        "eraser"
+      ]
+    },
+    {
+      "i": 118,
+      "needs": [
+        "lead_breakage"
+      ]
+    },
+    {
+      "i": 119,
+      "needs": [
+        "eraser"
+      ]
+    },
+    {
+      "i": 120,
+      "needs": [
+        "tip_size"
+      ]
+    },
+    {
+      "i": 121,
+      "needs": [
+        "lead_breakage",
+        "jamming"
+      ]
+    },
+    {
+      "i": 122,
+      "needs": []
+    },
+    {
+      "i": 123,
+      "needs": []
+    },
+    {
+      "i": 124,
+      "needs": [
+        "lead_breakage",
+        "jamming"
+      ]
+    },
+    {
+      "i": 125,
+      "needs": [
+        "lead_breakage"
+      ]
+    },
+    {
+      "i": 126,
+      "needs": [
+        "lead_breakage"
+      ]
+    },
+    {
+      "i": 127,
+      "needs": [
+        "lead_breakage",
+        "eraser",
+        "tip_size"
+      ]
+    },
+    {
+      "i": 128,
+      "needs": [
+        "durability",
+        "jamming"
+      ]
+    },
+    {
+      "i": 129,
+      "needs": [
+        "grip",
+        "eraser"
+      ]
+    },
+    {
+      "i": 130,
+      "needs": [
+        "tip_size",
+        "lead_breakage"
+      ]
+    },
+    {
+      "i": 131,
+      "needs": [
+        "tip_size",
+        "lead_breakage",
+        "jamming"
+      ]
+    },
+    {
+      "i": 132,
+      "needs": [
+        "durability",
+        "eraser"
+      ]
+    },
+    {
+      "i": 133,
+      "needs": [
+        "grip",
+        "weight",
+        "durability",
+        "eraser"
+      ]
+    },
+    {
+      "i": 134,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 135,
+      "needs": [
+        "tip_size",
+        "weight"
+      ]
+    },
+    {
+      "i": 136,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 137,
+      "needs": [
+        "grip",
+        "eraser"
+      ]
+    },
+    {
+      "i": 138,
+      "needs": [
+        "tip_size",
+        "lead_breakage",
+        "eraser"
+      ]
+    },
+    {
+      "i": 139,
+      "needs": [
+        "eraser"
+      ]
+    },
+    {
+      "i": 140,
+      "needs": [
+        "eraser"
+      ]
+    },
+    {
+      "i": 141,
+      "needs": []
+    },
+    {
+      "i": 142,
+      "needs": [
+        "eraser"
+      ]
+    },
+    {
+      "i": 143,
+      "needs": []
+    },
+    {
+      "i": 144,
+      "needs": []
+    },
+    {
+      "i": 145,
+      "needs": [
+        "eraser"
+      ]
+    },
+    {
+      "i": 146,
+      "needs": []
+    },
+    {
+      "i": 147,
+      "needs": []
+    },
+    {
+      "i": 148,
+      "needs": [
+        "eraser"
+      ]
+    },
+    {
+      "i": 149,
+      "needs": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "extract-needs@2026-10-27.1+mechanical-pencils",
+  "usage": {
+    "inputTokens": 20019,
+    "outputTokens": 5010
+  },
+  "latencyMs": 14399,
+  "cached": false
+}

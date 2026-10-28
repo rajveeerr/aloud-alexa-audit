@@ -1,0 +1,109 @@
+{
+  "data": [
+    {
+      "intentId": "capacity_oz",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "24 Ounce"
+        }
+      ],
+      "value": "24 Ounce"
+    },
+    {
+      "intentId": "bpa_free",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "BPA Free"
+        }
+      ],
+      "value": "BPA Free"
+    },
+    {
+      "intentId": "leak_proof",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "HIGH QUALITY LEAK PROOF VALVE: Our water bottles use a threaded lid with a up/down valve that seals your water bottle."
+        }
+      ],
+      "value": "HIGH QUALITY LEAK PROOF VALVE"
+    },
+    {
+      "intentId": "cup_holder_fit",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Optimized to fit into any water bottle cage, backpack pocket or cup holder."
+        }
+      ],
+      "value": "Optimized to fit into any water bottle cage, backpack pocket or cup holder"
+    },
+    {
+      "intentId": "insulation_type",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "dishwasher_safe",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_care_instructions",
+          "text": "Machine Wash"
+        }
+      ],
+      "value": "Machine Wash"
+    },
+    {
+      "intentId": "material_composition",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.material",
+          "text": "Polypropylene"
+        }
+      ],
+      "value": "Polypropylene"
+    },
+    {
+      "intentId": "ice_cube_compatibility",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "weight_empty",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "5.3 ounces"
+        }
+      ],
+      "value": "5.3 ounces"
+    },
+    {
+      "intentId": "carrying_strap",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "measurement_markings",
+      "status": "missing",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+water-bottles@estimated-2026-10-27.1",
+  "usage": {
+    "inputTokens": 1682,
+    "outputTokens": 684
+  },
+  "latencyMs": 16764,
+  "cached": false
+}

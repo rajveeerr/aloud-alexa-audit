@@ -1,0 +1,77 @@
+{
+  "asin": "B0B42X682C",
+  "promptVersion": "transcribe@2026-10-27.1",
+  "model": "gemini-3.5-flash-lite",
+  "usage": {
+    "inputTokens": 13279,
+    "outputTokens": 531
+  },
+  "images": 12,
+  "skippedImageIds": [],
+  "modelOutput": [
+    {
+      "imageId": "img.0",
+      "claims": []
+    },
+    {
+      "imageId": "img.1",
+      "claims": []
+    },
+    {
+      "imageId": "img.2",
+      "claims": [
+        "Optimal Service Temperature:10°-25°",
+        "Optimal Service Humidity:40%-60%"
+      ]
+    },
+    {
+      "imageId": "img.3",
+      "claims": [
+        "23.6 in",
+        "60 cm",
+        "35.4 in",
+        "90 cm"
+      ]
+    },
+    {
+      "imageId": "img.4",
+      "claims": []
+    },
+    {
+      "imageId": "img.5",
+      "claims": []
+    },
+    {
+      "imageId": "img.6",
+      "claims": []
+    },
+    {
+      "imageId": "img.7",
+      "claims": [
+        "Whiteboard Dry wipe with Pen Tray and Aluminum Frame",
+        "Tableau Blanc Effaçable à Sec Avec Porte-stylos Et Cadre En Aluminium",
+        "Magnettafel mit Stiftablage und Aluminiumrahmen",
+        "Lavagna Bianca Cancellabile a Secco con Porta Penne e Cornice in Alluminio",
+        "Pizarra Blanca Para Rotuladores De Borrado En Seco Con Marco de Aluminio y Bandeja",
+        "ホワイトボード ドライワイプ、ペントレイおよびアルミフレーム付き",
+        "B077T5RQF7, B0784XMVB4, B078C9XLVH, B077T5HKMG, B077T5QFDP, B078C8YZTB, B077TGBB72, B077TD1JRS"
+      ]
+    },
+    {
+      "imageId": "img.8",
+      "claims": []
+    },
+    {
+      "imageId": "img.9",
+      "claims": []
+    },
+    {
+      "imageId": "img.10",
+      "claims": []
+    },
+    {
+      "imageId": "img.11",
+      "claims": []
+    }
+  ]
+}

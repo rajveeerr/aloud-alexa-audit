@@ -1,0 +1,103 @@
+{
+  "data": [
+    {
+      "intentId": "capacity_oz",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "20oz"
+        }
+      ],
+      "value": "20oz"
+    },
+    {
+      "intentId": "bpa_free",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "BPA-Free"
+        }
+      ],
+      "value": "BPA-Free"
+    },
+    {
+      "intentId": "leak_proof",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "cup_holder_fit",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "insulation_type",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Double-wall keeps your water colder longer."
+        }
+      ],
+      "value": "Double-wall"
+    },
+    {
+      "intentId": "dishwasher_safe",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "material_composition",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Polypropylene"
+        }
+      ],
+      "value": "Polypropylene"
+    },
+    {
+      "intentId": "ice_cube_compatibility",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "weight_empty",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "0.27 Kilograms"
+        }
+      ],
+      "value": "0.27 Kilograms"
+    },
+    {
+      "intentId": "carrying_strap",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.special_feature",
+          "text": "Carrying Loop"
+        }
+      ],
+      "value": "Carrying Loop"
+    },
+    {
+      "intentId": "measurement_markings",
+      "status": "missing",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+water-bottles@estimated-2026-10-27.1",
+  "usage": {
+    "inputTokens": 1454,
+    "outputTokens": 604
+  },
+  "latencyMs": 13829,
+  "cached": false
+}

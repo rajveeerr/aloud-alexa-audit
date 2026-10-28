@@ -1,0 +1,294 @@
+{
+  "data": [
+    {
+      "claimId": "ic.0",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "capacity_oz"
+    },
+    {
+      "claimId": "ic.1",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "capacity_oz"
+    },
+    {
+      "claimId": "ic.2",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "capacity_oz"
+    },
+    {
+      "claimId": "ic.3",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "capacity_oz"
+    },
+    {
+      "claimId": "ic.4",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "capacity_oz"
+    },
+    {
+      "claimId": "ic.5",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "capacity_oz"
+    },
+    {
+      "claimId": "ic.6",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "capacity_oz"
+    },
+    {
+      "claimId": "ic.7",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "One-Step Flip Cap"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.8",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.9",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.10",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Opening on the top is perfect for filling the bottle with ice cubes"
+        }
+      ],
+      "intentId": "ice_cube_compatibility"
+    },
+    {
+      "claimId": "ic.11",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "anti-slip handle"
+        }
+      ],
+      "intentId": "carrying_strap"
+    },
+    {
+      "claimId": "ic.12",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "anti-slip handle"
+        }
+      ],
+      "intentId": "carrying_strap"
+    },
+    {
+      "claimId": "ic.13",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "strong nylon strap"
+        }
+      ],
+      "intentId": "carrying_strap"
+    },
+    {
+      "claimId": "ic.14",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "strong nylon strap enables the gym water bottle easy to carry and be hung anywhere."
+        }
+      ],
+      "intentId": "carrying_strap"
+    },
+    {
+      "claimId": "ic.15",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "measurement scales"
+        }
+      ],
+      "intentId": "measurement_markings"
+    },
+    {
+      "claimId": "ic.16",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "measurement scales on the semi-transparent bottle."
+        }
+      ],
+      "intentId": "measurement_markings"
+    },
+    {
+      "claimId": "ic.17",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "100% leakproof"
+        }
+      ],
+      "intentId": "leak_proof"
+    },
+    {
+      "claimId": "ic.18",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.19",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "anti-slip handle and strong nylon strap enables the gym water bottle easy to carry"
+        }
+      ],
+      "intentId": "carrying_strap"
+    },
+    {
+      "claimId": "ic.20",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "100% leakproof"
+        }
+      ],
+      "intentId": "leak_proof"
+    },
+    {
+      "claimId": "ic.21",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.22",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "100% leakproof"
+        }
+      ],
+      "intentId": "leak_proof"
+    },
+    {
+      "claimId": "ic.23",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.24",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.25",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "strong nylon strap"
+        }
+      ],
+      "intentId": "carrying_strap"
+    },
+    {
+      "claimId": "ic.26",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "strong nylon strap"
+        }
+      ],
+      "intentId": "carrying_strap"
+    },
+    {
+      "claimId": "ic.27",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.28",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.29",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.30",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "2.2L"
+        }
+      ],
+      "intentId": "capacity_oz"
+    },
+    {
+      "claimId": "ic.31",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.product_dimensions",
+          "text": "10.24 inches"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.32",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.product_dimensions",
+          "text": "4.96"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.33",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "BPA Free"
+        }
+      ],
+      "intentId": "bpa_free"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "coverage@2026-10-27.1",
+  "usage": {
+    "inputTokens": 1635,
+    "outputTokens": 1993
+  },
+  "latencyMs": 6651,
+  "cached": false
+}

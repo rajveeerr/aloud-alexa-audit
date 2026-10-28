@@ -1,0 +1,73 @@
+{
+  "data": [
+    {
+      "intentId": "durability_and_sturdiness",
+      "target": "bullet.5",
+      "sources": [
+        {
+          "id": "bullet.5",
+          "text": "Made with lightweight but durable material which makes it easy for students to use in a classroom setting"
+        }
+      ],
+      "draft": "Made with lightweight and durable material designed for students to use in a classroom setting."
+    },
+    {
+      "intentId": "magnetic_properties",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "attr.special_feature",
+          "text": "Special feature: Double Sided,Dry Erase,Lightweight,Magnetic Surface"
+        }
+      ],
+      "needsFromBrand": "Specify the magnet strength or additional details regarding the magnetic surface."
+    },
+    {
+      "intentId": "erasability_and_staining",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.12",
+          "text": "LEAVES NO RESIDUE"
+        }
+      ],
+      "draft": "Designed to leave no residue for clean erasing after use."
+    },
+    {
+      "intentId": "mounting_hardware_and_options",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "attr.mounting_type",
+          "text": "Mounting type: Wall Mount"
+        }
+      ],
+      "needsFromBrand": "Detail what specific mounting hardware and installation options are provided."
+    },
+    {
+      "intentId": "board_material",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "State the specific materials used for the writing surface, frame, and backing."
+    },
+    {
+      "intentId": "surface_smoothness_and_flatness",
+      "target": "bullet.3",
+      "sources": [
+        {
+          "id": "bullet.3",
+          "text": "Single sided to allow for a smooth finish backing for best comfort to hold in hand or place on lap."
+        }
+      ],
+      "needsFromBrand": "Specify details about the writing surface smoothness and flatness."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.2",
+  "usage": {
+    "inputTokens": 1863,
+    "outputTokens": 540
+  },
+  "latencyMs": 5782,
+  "cached": false
+}

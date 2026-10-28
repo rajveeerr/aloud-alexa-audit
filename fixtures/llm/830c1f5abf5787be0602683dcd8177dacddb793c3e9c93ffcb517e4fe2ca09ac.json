@@ -1,0 +1,117 @@
+{
+  "data": [
+    {
+      "id": "capacity_oz",
+      "question": "What is the total fluid capacity of the water bottle in ounces or liters?",
+      "kind": "spec",
+      "rubric": "answered: specifies exact volume in oz or liters. partial: gives vague size description.",
+      "conditional": false
+    },
+    {
+      "id": "bpa_free",
+      "question": "Is the water bottle made from BPA-free materials?",
+      "kind": "claim",
+      "rubric": "answered: explicitly states BPA-free status. partial: mentions safe plastics without confirming BPA.",
+      "conditional": false
+    },
+    {
+      "id": "leak_proof",
+      "question": "Is the cap and valve completely leak-proof when closed and tossed into a bag?",
+      "kind": "claim",
+      "rubric": "answered: details leak-proof performance and valve sealing mechanism. partial: mentions general spill resistance.",
+      "conditional": false
+    },
+    {
+      "id": "cup_holder_fit",
+      "question": "Does the bottle fit standard bicycle water bottle cages and car cup holders?",
+      "kind": "spec",
+      "rubric": "answered: confirms compatibility with bike cages or car cup holders. partial: mentions ergonomic shape only.",
+      "conditional": false
+    },
+    {
+      "id": "insulation_type",
+      "question": "Does the bottle feature double-wall insulation to keep drinks cold and prevent sweating?",
+      "kind": "spec",
+      "rubric": "answered: states insulation type and thermal performance. partial: mentions insulation without performance details.",
+      "conditional": true
+    },
+    {
+      "id": "dishwasher_safe",
+      "question": "Can the water bottle and its cap be safely washed in a dishwasher?",
+      "kind": "claim",
+      "rubric": "answered: states whether dishwasher safe. partial: gives general cleaning instructions without dishwasher details.",
+      "conditional": false
+    },
+    {
+      "id": "material_composition",
+      "question": "What specific material is the bottle made of (e.g., stainless steel, plastic, glass)?",
+      "kind": "spec",
+      "rubric": "answered: identifies exact material composition. partial: mentions plastic or metal broadly.",
+      "conditional": false
+    },
+    {
+      "id": "easy_cleaning_cap",
+      "question": "Can the cap be easily disassembled for thorough cleaning to prevent mold buildup?",
+      "kind": "experience",
+      "rubric": "answered: explains how to take apart the cap for cleaning. partial: mentions it is easy to wash generally.",
+      "conditional": false
+    },
+    {
+      "id": "ice_cube_compatibility",
+      "question": "Is the opening wide enough to easily add ice cubes or fruit pieces?",
+      "kind": "spec",
+      "rubric": "answered: gives mouth diameter or confirms ice cube fit. partial: mentions top opening vaguely.",
+      "conditional": false
+    },
+    {
+      "id": "weight_empty",
+      "question": "How much does the water bottle weigh when empty?",
+      "kind": "spec",
+      "rubric": "answered: provides exact empty weight in ounces or grams. partial: describes it as lightweight.",
+      "conditional": false
+    },
+    {
+      "id": "flow_rate",
+      "question": "Does the cap design provide a high water flow rate for quick hydration during intense activity?",
+      "kind": "experience",
+      "rubric": "answered: describes flow rate mechanism or high-flow capability. partial: mentions drink delivery.",
+      "conditional": false
+    },
+    {
+      "id": "carrying_strap",
+      "question": "Does the bottle include a carrying loop, handle, or strap for convenient transport?",
+      "kind": "spec",
+      "rubric": "answered: confirms presence of handle or strap. partial: mentions portability without specifying a strap.",
+      "conditional": true
+    },
+    {
+      "id": "measurement_markings",
+      "question": "Are there volume measurement markings on the side to track water intake?",
+      "kind": "spec",
+      "rubric": "answered: confirms measurement scales are present. partial: mentions semi-transparent body.",
+      "conditional": true
+    },
+    {
+      "id": "durability_drops",
+      "question": "How durable is the bottle body against dents, cracks, or shattering when dropped?",
+      "kind": "experience",
+      "rubric": "answered: details drop resistance and material toughness. partial: mentions durable build.",
+      "conditional": false
+    },
+    {
+      "id": "taste_odor_retention",
+      "question": "Does the material retain flavors or odors from previous drinks like sports drinks or smoothies?",
+      "kind": "experience",
+      "rubric": "answered: addresses flavor retention or odor neutrality. partial: mentions food-grade plastic.",
+      "conditional": false
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "estimate-intents@2026-10-27.1+water-bottles",
+  "usage": {
+    "inputTokens": 844,
+    "outputTokens": 1150
+  },
+  "latencyMs": 16385,
+  "cached": false
+}

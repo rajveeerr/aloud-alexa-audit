@@ -1,0 +1,113 @@
+{
+  "data": [
+    {
+      "intentId": "durability",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "lead_breakage_resistance",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Thick 1.3mm lead for less breakage"
+        }
+      ],
+      "value": "Thick 1.3mm lead for less breakage"
+    },
+    {
+      "intentId": "lead_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.line_size",
+          "text": "1.3"
+        }
+      ],
+      "value": "1.3"
+    },
+    {
+      "intentId": "eraser_presence",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Eraser Refills"
+        }
+      ],
+      "value": "Eraser Refills"
+    },
+    {
+      "intentId": "smoothness",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "erasability",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "retractable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.closure",
+          "text": "Retractable"
+        }
+      ],
+      "value": "Retractable"
+    },
+    {
+      "intentId": "refillable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Lead & Eraser Refills"
+        }
+      ],
+      "value": "Lead & Eraser Refills"
+    },
+    {
+      "intentId": "built_in_sharpener",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "auto_rotation",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "body_material",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.material_type",
+          "text": "Lead, Plastic, Rubber"
+        }
+      ],
+      "value": "Lead, Plastic, Rubber"
+    },
+    {
+      "intentId": "jamming",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "smudge_resistance",
+      "status": "missing",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+mechanical-pencils@mined-2026-10-27.1",
+  "usage": {
+    "inputTokens": 1414,
+    "outputTokens": 674
+  },
+  "latencyMs": 7666,
+  "cached": false
+}

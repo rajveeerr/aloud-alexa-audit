@@ -1,0 +1,145 @@
+{
+  "data": [
+    {
+      "intentId": "erasability_and_staining",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "durability_and_sturdiness",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Sturdy wooden white frame"
+        }
+      ],
+      "value": "Sturdy wooden white frame"
+    },
+    {
+      "intentId": "magnetic_properties",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Magnetic"
+        }
+      ],
+      "value": "Magnetic"
+    },
+    {
+      "intentId": "board_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Full board is 17 inches x 23 inches with 14 7/8 inches x 20 7/8 inches of dry-erase writing section"
+        }
+      ],
+      "value": "17 inches x 23 inches with 14 7/8 inches x 20 7/8 inches of dry-erase writing section"
+    },
+    {
+      "intentId": "mounting_hardware_and_options",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Board can be hung in either portrait or landscape orientation"
+        },
+        {
+          "fieldId": "bullet.5",
+          "text": "Mounting hardware, dry erase marker and magnet accessories included"
+        }
+      ],
+      "value": "Mounting hardware, dry erase marker and magnet accessories included"
+    },
+    {
+      "intentId": "included_accessories",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "1 Dry Erase Marker and 2 Magnets"
+        }
+      ],
+      "value": "1 Dry Erase Marker and 2 Magnets"
+    },
+    {
+      "intentId": "portability_and_weight",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "Item weight: 2.7 pounds"
+        }
+      ],
+      "value": "2.7 pounds"
+    },
+    {
+      "intentId": "marker_performance",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "double_sided_feature",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "board_material",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Sturdy wooden white frame around a painted steel writing surface"
+        }
+      ],
+      "value": "Sturdy wooden white frame around a painted steel writing surface"
+    },
+    {
+      "intentId": "board_layout",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "special_features",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "surface_smoothness_and_flatness",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "smooth writing surface"
+        }
+      ],
+      "value": "smooth writing surface"
+    },
+    {
+      "intentId": "adhesive_installation",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "frameless_and_border_design",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "White Frame"
+        }
+      ],
+      "value": "White Frame"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+dry-erase-boards@mined-2026-10-27.1",
+  "usage": {
+    "inputTokens": 1563,
+    "outputTokens": 1004
+  },
+  "latencyMs": 8068,
+  "cached": false
+}

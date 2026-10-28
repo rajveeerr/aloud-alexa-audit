@@ -1,0 +1,80 @@
+{
+  "data": [
+    {
+      "intentId": "dry_time",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "aplus.1",
+          "text": "No Smear, No Bleed Technology"
+        }
+      ],
+      "draft": "No smear, no bleed technology ensures clean writing without smudging."
+    },
+    {
+      "intentId": "longevity",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm how long the ink lasts in writing distance or time."
+    },
+    {
+      "intentId": "refillable",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm whether the pen is refillable and specify which refills fit."
+    },
+    {
+      "intentId": "durability",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.0",
+          "text": "EXPERIENCE A HIGH PERFORMANCE GEL PEN"
+        }
+      ],
+      "draft": "High performance gel pen design built for reliable daily use."
+    },
+    {
+      "intentId": "surface_compatibility",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "description.1",
+          "text": "Available in multiple point sizes, barrel finishes and gel ink colors, Sharpie S-Gel offers a smooth writing experience perfect for homes, schools, or offices."
+        }
+      ],
+      "draft": "Smooth writing experience perfect for use at home, school, or the office."
+    },
+    {
+      "intentId": "leaking",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.16",
+          "text": "Product contains a wick seal to prevent leakage during shipping"
+        }
+      ],
+      "draft": "Includes a wick seal to prevent leakage during shipping."
+    },
+    {
+      "intentId": "weight",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Send the exact weight of a single pen in grams or ounces."
+    },
+    {
+      "intentId": "water_resistance",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm if the ink is waterproof, water-resistant, fade-resistant, or archival."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.2",
+  "usage": {
+    "inputTokens": 2295,
+    "outputTokens": 585
+  },
+  "latencyMs": 20212,
+  "cached": false
+}

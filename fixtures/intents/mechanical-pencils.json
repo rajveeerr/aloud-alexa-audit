@@ -1,0 +1,129 @@
+{
+  "categoryId": "mechanical-pencils",
+  "categoryName": "Mechanical Pencils",
+  "match": [
+    "Mechanical Pencils"
+  ],
+  "version": "mined-2026-10-27.1",
+  "basis": "mined",
+  "reviewed": false,
+  "sampleSize": 600,
+  "intents": [
+    {
+      "id": "durability",
+      "kind": "claim",
+      "question": "How durable is the pencil construction and clip over time?",
+      "rubric": "answered: claims durable build quality or metal parts partial: mentions sturdy construction",
+      "frequency": 157
+    },
+    {
+      "id": "lead_breakage_resistance",
+      "kind": "claim",
+      "question": "Does the lead resist breaking during writing?",
+      "rubric": "answered: claims break-resistant lead technology partial: mentions strong lead",
+      "frequency": 141
+    },
+    {
+      "id": "grip_comfort",
+      "kind": "experience",
+      "question": "How comfortable is the grip for long writing sessions?",
+      "rubric": "answered: describes ergonomic grip cushioning or texture partial: mentions rubber grip",
+      "frequency": 127
+    },
+    {
+      "id": "lead_size",
+      "kind": "spec",
+      "question": "What size of lead does the mechanical pencil use?",
+      "rubric": "answered: specifies lead size like 0.5mm or 0.7mm partial: mentions mm in description",
+      "frequency": 92
+    },
+    {
+      "id": "eraser_presence",
+      "kind": "spec",
+      "question": "Does the pencil come with an eraser?",
+      "rubric": "answered: states eraser is included under cap partial: mentions eraser size",
+      "frequency": 74
+    },
+    {
+      "id": "weight_and_balance",
+      "kind": "experience",
+      "question": "How does the weight and balance feel in the hand?",
+      "rubric": "answered: describes weight distribution and overall heft partial: mentions lightweight or heavy",
+      "frequency": 73
+    },
+    {
+      "id": "advancement_mechanism",
+      "kind": "experience",
+      "question": "How satisfying and reliable is the lead advancement click?",
+      "rubric": "answered: describes clicker feedback and lead feed consistency partial: mentions button feel",
+      "frequency": 62
+    },
+    {
+      "id": "smoothness",
+      "kind": "claim",
+      "question": "Does the lead write smoothly without scratching?",
+      "rubric": "answered: claims smooth writing experience partial: mentions smooth graphite",
+      "frequency": 51
+    },
+    {
+      "id": "erasability",
+      "kind": "claim",
+      "question": "Does the eraser remove marks cleanly without smudging or tearing paper?",
+      "rubric": "answered: claims clean erasing partial: mentions smudge-free eraser",
+      "frequency": 42
+    },
+    {
+      "id": "retractable",
+      "kind": "spec",
+      "question": "Is the tip retractable?",
+      "rubric": "answered: states if the tip or sleeve retracts partial: mentions retractable tip",
+      "frequency": 38,
+      "conditional": true
+    },
+    {
+      "id": "refillable",
+      "kind": "spec",
+      "question": "Can the lead and erasers be refilled?",
+      "rubric": "answered: states if lead and eraser replacements are available partial: mentions refillable",
+      "frequency": 37
+    },
+    {
+      "id": "built_in_sharpener",
+      "kind": "spec",
+      "question": "Does the pencil include a built-in sharpener?",
+      "rubric": "answered: states presence of sharpener partial: mentions eraser cap sharpener",
+      "frequency": 31,
+      "conditional": true
+    },
+    {
+      "id": "auto_rotation",
+      "kind": "spec",
+      "question": "Does the pencil feature automatic lead rotation?",
+      "rubric": "answered: states auto-rotation mechanism included partial: mentions rotating mechanism",
+      "frequency": 28,
+      "conditional": true
+    },
+    {
+      "id": "body_material",
+      "kind": "spec",
+      "question": "What material is the body of the pencil made of?",
+      "rubric": "answered: states barrel material such as metal, plastic, or brass partial: mentions material in specs",
+      "frequency": 27
+    },
+    {
+      "id": "jamming",
+      "kind": "claim",
+      "question": "Does the lead mechanism jam during use?",
+      "rubric": "answered: claims anti-jamming mechanism partial: mentions smooth lead advance",
+      "frequency": 21
+    },
+    {
+      "id": "smudge_resistance",
+      "kind": "claim",
+      "question": "Does the lead resist smudging on the page?",
+      "rubric": "answered: claims smear-proof or smudge-resistant graphite partial: mentions quick dry or clean lines",
+      "frequency": 9
+    }
+  ],
+  "source": "Mined from 600 reviews (Amazon Reviews 2023). Not yet reviewed by hand."
+}

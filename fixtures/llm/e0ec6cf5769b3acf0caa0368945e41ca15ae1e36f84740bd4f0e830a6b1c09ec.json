@@ -1,0 +1,38 @@
+{
+  "data": [
+    {
+      "intentId": "ink_flow",
+      "unsupported": [],
+      "answersQuestion": true
+    },
+    {
+      "intentId": "leaking",
+      "unsupported": [
+        "and leaking"
+      ],
+      "answersQuestion": true
+    },
+    {
+      "intentId": "weight",
+      "unsupported": [
+        "The package has an item weight of"
+      ],
+      "answersQuestion": true
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "unsupported": [
+        "Designed with no smear technology"
+      ],
+      "answersQuestion": true
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "faithfulness@2026-10-27.2",
+  "usage": {
+    "inputTokens": 330,
+    "outputTokens": 162
+  },
+  "latencyMs": 8776,
+  "cached": false
+}

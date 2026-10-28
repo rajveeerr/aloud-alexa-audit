@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "intentId": "lead_size",
+      "unsupported": [],
+      "answersQuestion": true
+    },
+    {
+      "intentId": "body_material",
+      "unsupported": [],
+      "answersQuestion": true
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "faithfulness@2026-10-27.2",
+  "usage": {
+    "inputTokens": 198,
+    "outputTokens": 65
+  },
+  "latencyMs": 4545,
+  "cached": false
+}

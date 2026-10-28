@@ -1,0 +1,996 @@
+{
+  "data": [
+    {
+      "i": 450,
+      "needs": [
+        "size",
+        "staining",
+        "smearing"
+      ]
+    },
+    {
+      "i": 451,
+      "needs": [
+        "double_sided",
+        "staining",
+        "scratch_resistance"
+      ]
+    },
+    {
+      "i": 452,
+      "needs": [
+        "size",
+        "double_sided",
+        "staining",
+        "durability"
+      ]
+    },
+    {
+      "i": 453,
+      "needs": [
+        "double_sided",
+        "durability"
+      ]
+    },
+    {
+      "i": 454,
+      "needs": [
+        "staining"
+      ]
+    },
+    {
+      "i": 455,
+      "needs": [
+        "double_sided",
+        "staining",
+        "size"
+      ]
+    },
+    {
+      "i": 456,
+      "needs": []
+    },
+    {
+      "i": 457,
+      "needs": [
+        "staining",
+        "double_sided",
+        "durability"
+      ]
+    },
+    {
+      "i": 458,
+      "needs": [
+        "durability",
+        "staining",
+        "double_sided"
+      ]
+    },
+    {
+      "i": 459,
+      "needs": [
+        "double_sided"
+      ]
+    },
+    {
+      "i": 460,
+      "needs": [
+        "durability",
+        "grid_lines",
+        "double_sided",
+        "staining"
+      ]
+    },
+    {
+      "i": 461,
+      "needs": [
+        "grid_lines",
+        "staining",
+        "durability"
+      ]
+    },
+    {
+      "i": 462,
+      "needs": [
+        "grid_lines",
+        "double_sided",
+        "durability",
+        "weight",
+        "size"
+      ]
+    },
+    {
+      "i": 463,
+      "needs": [
+        "grid_lines",
+        "staining",
+        "weight",
+        "durability"
+      ]
+    },
+    {
+      "i": 464,
+      "needs": [
+        "grid_lines",
+        "double_sided"
+      ]
+    },
+    {
+      "i": 465,
+      "needs": [
+        "durability",
+        "staining",
+        "size"
+      ]
+    },
+    {
+      "i": 466,
+      "needs": [
+        "durability",
+        "frame",
+        "double_sided",
+        "grid_lines",
+        "size"
+      ]
+    },
+    {
+      "i": 467,
+      "needs": [
+        "double_sided",
+        "grid_lines"
+      ]
+    },
+    {
+      "i": 468,
+      "needs": [
+        "staining"
+      ]
+    },
+    {
+      "i": 469,
+      "needs": [
+        "grid_lines",
+        "staining"
+      ]
+    },
+    {
+      "i": 470,
+      "needs": [
+        "size",
+        "frame"
+      ]
+    },
+    {
+      "i": 471,
+      "needs": [
+        "wall_mounting",
+        "durability"
+      ]
+    },
+    {
+      "i": 472,
+      "needs": [
+        "durability",
+        "size"
+      ]
+    },
+    {
+      "i": 473,
+      "needs": [
+        "wall_mounting"
+      ]
+    },
+    {
+      "i": 474,
+      "needs": [
+        "staining"
+      ]
+    },
+    {
+      "i": 475,
+      "needs": [
+        "staining"
+      ]
+    },
+    {
+      "i": 476,
+      "needs": [
+        "wall_mounting",
+        "staining"
+      ]
+    },
+    {
+      "i": 477,
+      "needs": [
+        "durability",
+        "frame",
+        "wall_mounting",
+        "staining",
+        "discoloration_resistance"
+      ]
+    },
+    {
+      "i": 478,
+      "needs": [
+        "staining"
+      ]
+    },
+    {
+      "i": 479,
+      "needs": [
+        "staining",
+        "frame"
+      ]
+    },
+    {
+      "i": 480,
+      "needs": [
+        "staining",
+        "surface_texture"
+      ]
+    },
+    {
+      "i": 481,
+      "needs": [
+        "wall_mounting",
+        "durability"
+      ]
+    },
+    {
+      "i": 482,
+      "needs": [
+        "size"
+      ]
+    },
+    {
+      "i": 483,
+      "needs": [
+        "size",
+        "wall_mounting"
+      ]
+    },
+    {
+      "i": 484,
+      "needs": [
+        "scratch_resistance"
+      ]
+    },
+    {
+      "i": 485,
+      "needs": [
+        "surface_texture",
+        "staining"
+      ]
+    },
+    {
+      "i": 486,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 487,
+      "needs": [
+        "size",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 488,
+      "needs": [
+        "size",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 489,
+      "needs": []
+    },
+    {
+      "i": 490,
+      "needs": [
+        "magnetic",
+        "cork_board"
+      ]
+    },
+    {
+      "i": 491,
+      "needs": [
+        "durability",
+        "wall_mounting"
+      ]
+    },
+    {
+      "i": 492,
+      "needs": []
+    },
+    {
+      "i": 493,
+      "needs": [
+        "cork_board"
+      ]
+    },
+    {
+      "i": 494,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 495,
+      "needs": [
+        "size"
+      ]
+    },
+    {
+      "i": 496,
+      "needs": [
+        "frame",
+        "wall_mounting",
+        "cork_board"
+      ]
+    },
+    {
+      "i": 497,
+      "needs": [
+        "durability",
+        "wall_mounting",
+        "cork_board"
+      ]
+    },
+    {
+      "i": 498,
+      "needs": [
+        "cork_board"
+      ]
+    },
+    {
+      "i": 499,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 500,
+      "needs": [
+        "magnetic"
+      ]
+    },
+    {
+      "i": 501,
+      "needs": [
+        "magnetic"
+      ]
+    },
+    {
+      "i": 502,
+      "needs": [
+        "magnetic"
+      ]
+    },
+    {
+      "i": 503,
+      "needs": [
+        "magnetic"
+      ]
+    },
+    {
+      "i": 504,
+      "needs": [
+        "durability",
+        "size",
+        "staining"
+      ]
+    },
+    {
+      "i": 505,
+      "needs": [
+        "durability",
+        "size",
+        "staining"
+      ]
+    },
+    {
+      "i": 506,
+      "needs": []
+    },
+    {
+      "i": 507,
+      "needs": [
+        "magnetic"
+      ]
+    },
+    {
+      "i": 508,
+      "needs": [
+        "durability",
+        "staining"
+      ]
+    },
+    {
+      "i": 509,
+      "needs": [
+        "magnetic"
+      ]
+    },
+    {
+      "i": 510,
+      "needs": [
+        "wall_mounting",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 511,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 512,
+      "needs": [
+        "wall_mounting"
+      ]
+    },
+    {
+      "i": 513,
+      "needs": [
+        "size"
+      ]
+    },
+    {
+      "i": 514,
+      "needs": [
+        "frame",
+        "double_sided"
+      ]
+    },
+    {
+      "i": 515,
+      "needs": [
+        "double_sided",
+        "wall_mounting",
+        "staining"
+      ]
+    },
+    {
+      "i": 516,
+      "needs": [
+        "durability",
+        "staining",
+        "wall_mounting"
+      ]
+    },
+    {
+      "i": 517,
+      "needs": [
+        "double_sided",
+        "wall_mounting"
+      ]
+    },
+    {
+      "i": 518,
+      "needs": [
+        "double_sided",
+        "cork_board",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 519,
+      "needs": [
+        "staining",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 520,
+      "needs": [
+        "portability",
+        "staining"
+      ]
+    },
+    {
+      "i": 521,
+      "needs": []
+    },
+    {
+      "i": 522,
+      "needs": []
+    },
+    {
+      "i": 523,
+      "needs": [
+        "wall_mounting",
+        "durability"
+      ]
+    },
+    {
+      "i": 524,
+      "needs": [
+        "wall_mounting"
+      ]
+    },
+    {
+      "i": 525,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 526,
+      "needs": [
+        "wall_mounting",
+        "durability"
+      ]
+    },
+    {
+      "i": 527,
+      "needs": [
+        "staining",
+        "durability"
+      ]
+    },
+    {
+      "i": 528,
+      "needs": [
+        "durability",
+        "wall_mounting"
+      ]
+    },
+    {
+      "i": 529,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 530,
+      "needs": [
+        "wall_mounting"
+      ]
+    },
+    {
+      "i": 531,
+      "needs": [
+        "staining"
+      ]
+    },
+    {
+      "i": 532,
+      "needs": []
+    },
+    {
+      "i": 533,
+      "needs": [
+        "wall_mounting"
+      ]
+    },
+    {
+      "i": 534,
+      "needs": [
+        "wall_mounting"
+      ]
+    },
+    {
+      "i": 535,
+      "needs": [
+        "wall_mounting"
+      ]
+    },
+    {
+      "i": 536,
+      "needs": [
+        "wall_mounting",
+        "durability"
+      ]
+    },
+    {
+      "i": 537,
+      "needs": []
+    },
+    {
+      "i": 538,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 539,
+      "needs": [
+        "wall_mounting",
+        "durability"
+      ]
+    },
+    {
+      "i": 540,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 541,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 542,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 543,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 544,
+      "needs": [
+        "staining"
+      ]
+    },
+    {
+      "i": 545,
+      "needs": [
+        "durability",
+        "frame"
+      ]
+    },
+    {
+      "i": 546,
+      "needs": []
+    },
+    {
+      "i": 547,
+      "needs": [
+        "scratch_resistance"
+      ]
+    },
+    {
+      "i": 548,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 549,
+      "needs": [
+        "size"
+      ]
+    },
+    {
+      "i": 550,
+      "needs": [
+        "magnetic",
+        "wall_mounting",
+        "staining"
+      ]
+    },
+    {
+      "i": 551,
+      "needs": [
+        "magnetic",
+        "wall_mounting"
+      ]
+    },
+    {
+      "i": 552,
+      "needs": [
+        "wall_mounting",
+        "magnetic",
+        "staining"
+      ]
+    },
+    {
+      "i": 553,
+      "needs": [
+        "frame",
+        "durability"
+      ]
+    },
+    {
+      "i": 554,
+      "needs": [
+        "weight",
+        "magnetic",
+        "wall_mounting"
+      ]
+    },
+    {
+      "i": 555,
+      "needs": [
+        "magnetic",
+        "wall_mounting"
+      ]
+    },
+    {
+      "i": 556,
+      "needs": [
+        "wall_mounting"
+      ]
+    },
+    {
+      "i": 557,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 558,
+      "needs": [
+        "frame",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 559,
+      "needs": [
+        "magnetic"
+      ]
+    },
+    {
+      "i": 560,
+      "needs": [
+        "wall_mounting"
+      ]
+    },
+    {
+      "i": 561,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 562,
+      "needs": [
+        "size",
+        "magnetic",
+        "portability"
+      ]
+    },
+    {
+      "i": 563,
+      "needs": [
+        "wall_mounting"
+      ]
+    },
+    {
+      "i": 564,
+      "needs": []
+    },
+    {
+      "i": 565,
+      "needs": [
+        "wall_mounting"
+      ]
+    },
+    {
+      "i": 566,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 567,
+      "needs": [
+        "wall_mounting"
+      ]
+    },
+    {
+      "i": 568,
+      "needs": [
+        "weight",
+        "staining"
+      ]
+    },
+    {
+      "i": 569,
+      "needs": [
+        "portability",
+        "size",
+        "staining"
+      ]
+    },
+    {
+      "i": 570,
+      "needs": [
+        "wall_mounting"
+      ]
+    },
+    {
+      "i": 571,
+      "needs": [
+        "staining",
+        "magnetic",
+        "wall_mounting"
+      ]
+    },
+    {
+      "i": 572,
+      "needs": [
+        "wall_mounting",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 573,
+      "needs": [
+        "staining",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 574,
+      "needs": [
+        "wall_mounting",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 575,
+      "needs": [
+        "wall_mounting"
+      ]
+    },
+    {
+      "i": 576,
+      "needs": []
+    },
+    {
+      "i": 577,
+      "needs": [
+        "wall_mounting"
+      ]
+    },
+    {
+      "i": 578,
+      "needs": [
+        "magnetic"
+      ]
+    },
+    {
+      "i": 579,
+      "needs": [
+        "magnetic",
+        "staining"
+      ]
+    },
+    {
+      "i": 580,
+      "needs": []
+    },
+    {
+      "i": 581,
+      "needs": [
+        "weight",
+        "durability"
+      ]
+    },
+    {
+      "i": 582,
+      "needs": [
+        "portability",
+        "size"
+      ]
+    },
+    {
+      "i": 583,
+      "needs": [
+        "size"
+      ]
+    },
+    {
+      "i": 584,
+      "needs": []
+    },
+    {
+      "i": 585,
+      "needs": [
+        "size",
+        "staining"
+      ]
+    },
+    {
+      "i": 586,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 587,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 588,
+      "needs": [
+        "durability",
+        "staining"
+      ]
+    },
+    {
+      "i": 589,
+      "needs": []
+    },
+    {
+      "i": 590,
+      "needs": [
+        "size",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 591,
+      "needs": [
+        "durability",
+        "staining",
+        "wall_mounting",
+        "cork_board"
+      ]
+    },
+    {
+      "i": 592,
+      "needs": [
+        "wall_mounting"
+      ]
+    },
+    {
+      "i": 593,
+      "needs": [
+        "wall_mounting"
+      ]
+    },
+    {
+      "i": 594,
+      "needs": [
+        "staining",
+        "wall_mounting"
+      ]
+    },
+    {
+      "i": 595,
+      "needs": [
+        "wall_mounting",
+        "frame"
+      ]
+    },
+    {
+      "i": 596,
+      "needs": [
+        "size",
+        "wall_mounting"
+      ]
+    },
+    {
+      "i": 597,
+      "needs": [
+        "wall_mounting",
+        "size",
+        "staining"
+      ]
+    },
+    {
+      "i": 598,
+      "needs": []
+    },
+    {
+      "i": 599,
+      "needs": [
+        "wall_mounting",
+        "staining"
+      ]
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "extract-needs@2026-10-27.1+dry-erase-boards",
+  "usage": {
+    "inputTokens": 17232,
+    "outputTokens": 5229
+  },
+  "latencyMs": 29924,
+  "cached": false
+}

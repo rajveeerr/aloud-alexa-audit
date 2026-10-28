@@ -1,0 +1,23 @@
+{
+  "data": [
+    {
+      "claimId": "ic.0",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "550"
+        }
+      ],
+      "intentId": "capacity_oz"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "coverage@2026-10-27.1",
+  "usage": {
+    "inputTokens": 883,
+    "outputTokens": 75
+  },
+  "latencyMs": 1164,
+  "cached": false
+}

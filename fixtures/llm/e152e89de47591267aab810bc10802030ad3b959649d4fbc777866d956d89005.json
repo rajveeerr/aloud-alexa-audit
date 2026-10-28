@@ -1,0 +1,41 @@
+{
+  "data": [
+    {
+      "intentId": "longevity",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm how long the ink lasts in terms of writing length or if it is long-lasting."
+    },
+    {
+      "intentId": "bleed_through",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm whether the ink prevents bleed-through or show-through on standard writing paper."
+    },
+    {
+      "intentId": "surface_compatibility",
+      "target": "bullet.3",
+      "sources": [
+        {
+          "id": "bullet.3",
+          "text": "EnerGel ink writes more smoothly than the leading brand (Internally tested to be smoother writing than the leading gel pen on standard writing paper)"
+        }
+      ],
+      "draft": "EnerGel ink writes smoothly on standard writing paper."
+    },
+    {
+      "intentId": "water_resistance",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm whether the ink is waterproof, water-resistant, fade-resistant, or archival."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.2",
+  "usage": {
+    "inputTokens": 1782,
+    "outputTokens": 281
+  },
+  "latencyMs": 6745,
+  "cached": false
+}

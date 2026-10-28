@@ -1,0 +1,340 @@
+{
+  "data": [
+    {
+      "claimId": "ic.0",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Thick 1.3mm lead for less breakage"
+        }
+      ],
+      "intentId": "lead_breakage_resistance"
+    },
+    {
+      "claimId": "ic.1",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Handwriting"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.2",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "#2"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.3",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Designed for kids"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.4",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "1.3mm"
+        }
+      ],
+      "intentId": "lead_size"
+    },
+    {
+      "claimId": "ic.5",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "1 lead refill set"
+        }
+      ],
+      "intentId": "refillable"
+    },
+    {
+      "claimId": "ic.6",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "2 eraser refills"
+        }
+      ],
+      "intentId": "refillable"
+    },
+    {
+      "claimId": "ic.7",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "lead_breakage_resistance"
+    },
+    {
+      "claimId": "ic.8",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.9",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Triangular shape"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.10",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.11",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.12",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "refillable"
+    },
+    {
+      "claimId": "ic.13",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "refillable"
+    },
+    {
+      "claimId": "ic.14",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.15",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Paper Mate Handwriting"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.16",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Triangular Mechanical"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.17",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "pencil provides control for"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.18",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "early writers!"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.19",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "thick 1.3 mm lead"
+        }
+      ],
+      "intentId": "lead_size"
+    },
+    {
+      "claimId": "ic.20",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "for less breakage"
+        }
+      ],
+      "intentId": "lead_breakage_resistance"
+    },
+    {
+      "claimId": "ic.21",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "that guides finger placement"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.22",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.23",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.24",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "1.3mm"
+        }
+      ],
+      "intentId": "lead_size"
+    },
+    {
+      "claimId": "ic.25",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "1 lead refill set"
+        }
+      ],
+      "intentId": "refillable"
+    },
+    {
+      "claimId": "ic.26",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "2 eraser refills"
+        }
+      ],
+      "intentId": "refillable"
+    },
+    {
+      "claimId": "ic.27",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.28",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.29",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.30",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.31",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.32",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.33",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.34",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "lead_breakage_resistance"
+    },
+    {
+      "claimId": "ic.35",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "lead_size"
+    },
+    {
+      "claimId": "ic.36",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "lead_breakage_resistance"
+    },
+    {
+      "claimId": "ic.37",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.38",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.39",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.40",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.41",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "lead_size"
+    },
+    {
+      "claimId": "ic.42",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "refillable"
+    },
+    {
+      "claimId": "ic.43",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "refillable"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "coverage@2026-10-27.1",
+  "usage": {
+    "inputTokens": 1388,
+    "outputTokens": 2244
+  },
+  "latencyMs": 9759,
+  "cached": false
+}

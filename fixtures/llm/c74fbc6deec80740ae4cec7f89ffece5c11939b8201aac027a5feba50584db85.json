@@ -1,0 +1,228 @@
+{
+  "data": [
+    {
+      "id": "lead_size",
+      "question": "What size of lead does the mechanical pencil use?",
+      "kind": "spec",
+      "rubric": "answered: specifies lead size like 0.5mm or 0.7mm partial: mentions mm in description",
+      "members": [
+        "tip_size",
+        "lead_size",
+        "lead_gauge"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "body_material",
+      "question": "What material is the body of the pencil made of?",
+      "kind": "spec",
+      "rubric": "answered: states barrel material such as metal, plastic, or brass partial: mentions material in specs",
+      "members": [
+        "body_material",
+        "material",
+        "barrel_material",
+        "grip_material",
+        "clip_material",
+        "tip_material"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "refillable",
+      "question": "Can the lead and erasers be refilled?",
+      "kind": "spec",
+      "rubric": "answered: states if lead and eraser replacements are available partial: mentions refillable",
+      "members": [
+        "refillable",
+        "replacement_erasers",
+        "spare_nibs",
+        "eraser_replacement",
+        "lead_refills",
+        "replacement_nibs"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "retractable",
+      "question": "Is the tip retractable?",
+      "kind": "spec",
+      "rubric": "answered: states if the tip or sleeve retracts partial: mentions retractable tip",
+      "members": [
+        "lead_retraction",
+        "retractable",
+        "retractable_tip",
+        "tip_retraction",
+        "tip_retention"
+      ],
+      "conditional": true
+    },
+    {
+      "id": "built_in_sharpener",
+      "question": "Does the pencil include a built-in sharpener?",
+      "kind": "spec",
+      "rubric": "answered: states presence of sharpener partial: mentions eraser cap sharpener",
+      "members": [
+        "built_in_sharpener",
+        "sharpener_compatibility"
+      ],
+      "conditional": true
+    },
+    {
+      "id": "auto_rotation",
+      "question": "Does the pencil feature automatic lead rotation?",
+      "kind": "spec",
+      "rubric": "answered: states auto-rotation mechanism included partial: mentions rotating mechanism",
+      "members": [
+        "auto_rotation",
+        "rotating_mechanism",
+        "lead_rotation"
+      ],
+      "conditional": true
+    },
+    {
+      "id": "eraser_presence",
+      "question": "Does the pencil come with an eraser?",
+      "kind": "spec",
+      "rubric": "answered: states eraser is included under cap partial: mentions eraser size",
+      "members": [
+        "eraser",
+        "eraser_size",
+        "eraser_presence"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "lead_breakage_resistance",
+      "question": "Does the lead resist breaking during writing?",
+      "kind": "claim",
+      "rubric": "answered: claims break-resistant lead technology partial: mentions strong lead",
+      "members": [
+        "lead_breakage",
+        "lead_breakage_resistance",
+        "lead_break_resistance",
+        "pressure_resistance",
+        "lead_strength"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "smoothness",
+      "question": "Does the lead write smoothly without scratching?",
+      "kind": "claim",
+      "rubric": "answered: claims smooth writing experience partial: mentions smooth graphite",
+      "members": [
+        "smoothness",
+        "lead_smoothness",
+        "lead_mechanism_smoothness"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "erasability",
+      "question": "Does the eraser remove marks cleanly without smudging or tearing paper?",
+      "kind": "claim",
+      "rubric": "answered: claims clean erasing partial: mentions smudge-free eraser",
+      "members": [
+        "erasability",
+        "eraser_quality",
+        "eraser_effectiveness",
+        "eraser_performance"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "jamming",
+      "question": "Does the lead mechanism jam during use?",
+      "kind": "claim",
+      "rubric": "answered: claims anti-jamming mechanism partial: mentions smooth lead advance",
+      "members": [
+        "jamming",
+        "lead_jamming",
+        "lead_jam_resistance"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "smudge_resistance",
+      "question": "Does the lead resist smudging on the page?",
+      "kind": "claim",
+      "rubric": "answered: claims smear-proof or smudge-resistant graphite partial: mentions quick dry or clean lines",
+      "members": [
+        "smudge_resistance",
+        "smudging"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "durability",
+      "question": "How durable is the pencil construction and clip over time?",
+      "kind": "claim",
+      "rubric": "answered: claims durable build quality or metal parts partial: mentions sturdy construction",
+      "members": [
+        "durability",
+        "build_quality",
+        "material_quality",
+        "clip_durability",
+        "quality",
+        "tip_durability",
+        "longevity",
+        "barrel_durability",
+        "cap_durability",
+        "construction_quality",
+        "mechanism_durability"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "grip_comfort",
+      "question": "How comfortable is the grip for long writing sessions?",
+      "kind": "experience",
+      "rubric": "answered: describes ergonomic grip cushioning or texture partial: mentions rubber grip",
+      "members": [
+        "grip_comfort",
+        "grip",
+        "ergonomics",
+        "grip_feel",
+        "grip_thickness",
+        "comfort",
+        "grip_cushioning"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "weight_and_balance",
+      "question": "How does the weight and balance feel in the hand?",
+      "kind": "experience",
+      "rubric": "answered: describes weight distribution and overall heft partial: mentions lightweight or heavy",
+      "members": [
+        "weight",
+        "weight_and_balance",
+        "balance",
+        "weight_distribution"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "advancement_mechanism",
+      "question": "How satisfying and reliable is the lead advancement click?",
+      "kind": "experience",
+      "rubric": "answered: describes clicker feedback and lead feed consistency partial: mentions button feel",
+      "members": [
+        "lead_feeding_mechanism",
+        "advancement_mechanism",
+        "lead_advancement_mechanism",
+        "button_placement",
+        "click_smoothness"
+      ],
+      "conditional": false
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "cluster-needs@2026-10-27.1+mechanical-pencils",
+  "usage": {
+    "inputTokens": 2205,
+    "outputTokens": 1771
+  },
+  "latencyMs": 9497,
+  "cached": false
+}

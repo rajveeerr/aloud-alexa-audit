@@ -1,0 +1,186 @@
+{
+  "asin": "B077Q4B6YN",
+  "promptVersion": "transcribe@2026-10-27.1",
+  "model": "gemini-3.5-flash-lite",
+  "usage": {
+    "inputTokens": 9925,
+    "outputTokens": 1169
+  },
+  "images": 9,
+  "skippedImageIds": [],
+  "modelOutput": [
+    {
+      "imageId": "img.0",
+      "claims": [
+        "THICK LEAD, LESS BREAKAGE",
+        "Handwriting",
+        "#2 PENCIL",
+        "DESIGNED FOR KIDS!",
+        "5",
+        "1.3mm mechanical PENCILS",
+        "+1 lead set",
+        "+2 erasers",
+        "1.3",
+        "HB",
+        "Handwriting",
+        "Handwriting",
+        "Handwriting",
+        "Handwriting",
+        "Handwriting",
+        "#2",
+        "#2",
+        "#2",
+        "#2",
+        "#2"
+      ]
+    },
+    {
+      "imageId": "img.1",
+      "claims": [
+        "THICK LEAD, LESS BREAKAGE",
+        "MINE ÉPAISSE, MOINS DE CASSURES",
+        "Handwriting",
+        "#2 PENCIL",
+        "PORTEMINE Nº 2",
+        "triangular shape",
+        "forme triangulaire",
+        "5",
+        "1.3mm mechanical PENCILS",
+        "PORTEMINES",
+        "+ 1 lead set / mines de rechange",
+        "+ 2 erasers / gommes",
+        "8 PIECES / UNITÉS",
+        "1.3",
+        "HB",
+        "Handwriting",
+        "Handwriting",
+        "Handwriting",
+        "Handwriting",
+        "Handwriting",
+        "#2",
+        "#2",
+        "#2",
+        "#2",
+        "#2"
+      ]
+    },
+    {
+      "imageId": "img.2",
+      "claims": [
+        "1.3",
+        "HB",
+        "Handwriting",
+        "Handwriting",
+        "Handwriting",
+        "Handwriting",
+        "Handwriting",
+        "#2",
+        "#2",
+        "#2",
+        "#2",
+        "#2"
+      ]
+    },
+    {
+      "imageId": "img.3",
+      "claims": [
+        "1.3",
+        "HB",
+        "Handwriting",
+        "Handwriting",
+        "Handwriting",
+        "Handwriting",
+        "Handwriting",
+        "#2",
+        "#2",
+        "#2",
+        "#2",
+        "#2"
+      ]
+    },
+    {
+      "imageId": "img.4",
+      "claims": [
+        "Handwriting",
+        "Handwriting",
+        "Handwriting",
+        "Handwriting",
+        "Handwriting",
+        "#2",
+        "#2",
+        "#2",
+        "#2",
+        "#2"
+      ]
+    },
+    {
+      "imageId": "img.5",
+      "claims": [
+        "Handwriting",
+        "Handwriting",
+        "Handwriting",
+        "Handwriting",
+        "Handwriting"
+      ]
+    },
+    {
+      "imageId": "img.6",
+      "claims": [
+        "Handwriting",
+        "Handwriting",
+        "Handwriting",
+        "Handwriting",
+        "Handwriting",
+        "#2",
+        "#2",
+        "#2",
+        "#2"
+      ]
+    },
+    {
+      "imageId": "img.7",
+      "claims": [
+        "Handwriting",
+        "DESIGNED FOR KIDS!",
+        "THE PAPER MATE® HANDWRITING",
+        "TRIANGULAR MECHANICAL",
+        "PENCIL PROVIDES CONTROL FOR",
+        "EARLY WRITERS!",
+        "THICK 1.3MM #2 LEAD",
+        "FOR LESS BREAKAGE",
+        "TRIANGULAR SHAPE",
+        "THAT GUIDES FINGER PLACEMENT",
+        "LET'S GET READY",
+        "TO WRITE!",
+        "5 1.3MM HB #2 MECHANICAL PENCILS",
+        "1 LEAD REFILL SET",
+        "2 ERASER REFILLS",
+        "CONÇU POUR LES",
+        "ENFANTS!",
+        "LE PORTEMINE TRIANGULAIRE",
+        "DE PAPER MATE®",
+        "HANDWRITING OFFRE LE",
+        "CONTRÔLE POUR LES JEUNES",
+        "ÉCRIVAINS!",
+        "MINE ÉPAISSE",
+        "Nº 2 DE 1,3MM",
+        "POUR MOINS DE CASSURES",
+        "FORME TRIANGULAIRE",
+        "QUI GUIDE LE PLACEMENT",
+        "DES DOIGTS",
+        "PRÉPARONS-NOUS",
+        "À ÉCRIRE!",
+        "5 PORTEMINES HB Nº 2 DE 1,3MM",
+        "1 MINES DE RECHANGE",
+        "2 GOMMES DE RECHANGE"
+      ]
+    },
+    {
+      "imageId": "img.8",
+      "claims": [
+        "1.3",
+        "HB"
+      ]
+    }
+  ]
+}

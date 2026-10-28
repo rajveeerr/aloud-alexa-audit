@@ -1,0 +1,154 @@
+{
+  "data": [
+    {
+      "intentId": "erasability_and_staining",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Use the board to post, write, erase your notes"
+        }
+      ],
+      "value": "erase"
+    },
+    {
+      "intentId": "durability_and_sturdiness",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "Made with lightweight but durable material"
+        }
+      ],
+      "value": "durable material"
+    },
+    {
+      "intentId": "magnetic_properties",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.special_feature",
+          "text": "Magnetic Surface"
+        }
+      ],
+      "value": "Magnetic Surface"
+    },
+    {
+      "intentId": "board_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "9\"x12”"
+        }
+      ],
+      "value": "9\"x12\""
+    },
+    {
+      "intentId": "mounting_hardware_and_options",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.mounting_type",
+          "text": "Wall Mount"
+        }
+      ],
+      "value": "Wall Mount"
+    },
+    {
+      "intentId": "included_accessories",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "12 Mini Whiteboard Erasers Incl"
+        }
+      ],
+      "value": "12 Mini Whiteboard Erasers"
+    },
+    {
+      "intentId": "portability_and_weight",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "Item weight: 5.1 pounds"
+        },
+        {
+          "fieldId": "bullet.5",
+          "text": "made with lightweight but durable material which makes it easy for students to use in a classroom setting"
+        }
+      ],
+      "value": "5.1 pounds"
+    },
+    {
+      "intentId": "marker_performance",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "double_sided_feature",
+      "status": "contradicted",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Double Sided"
+        },
+        {
+          "fieldId": "bullet.3",
+          "text": "Single sided"
+        }
+      ]
+    },
+    {
+      "intentId": "board_material",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "board_layout",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "large blank writing surface"
+        }
+      ],
+      "value": "blank"
+    },
+    {
+      "intentId": "special_features",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "surface_smoothness_and_flatness",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "smooth finish backing"
+        }
+      ],
+      "value": "smooth finish"
+    },
+    {
+      "intentId": "adhesive_installation",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "frameless_and_border_design",
+      "status": "missing",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+dry-erase-boards@mined-2026-10-27.1",
+  "usage": {
+    "inputTokens": 1879,
+    "outputTokens": 981
+  },
+  "latencyMs": 7474,
+  "cached": false
+}

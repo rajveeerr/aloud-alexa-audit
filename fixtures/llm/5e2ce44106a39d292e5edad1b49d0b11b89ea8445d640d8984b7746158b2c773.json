@@ -1,0 +1,178 @@
+{
+  "data": [
+    {
+      "intentId": "erasability_and_staining",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "erases easily"
+        },
+        {
+          "fieldId": "bullet.1",
+          "text": "never stains or ghosts"
+        }
+      ],
+      "value": "erases easily, never stains or ghosts"
+    },
+    {
+      "intentId": "durability_and_sturdiness",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "highly durable"
+        },
+        {
+          "fieldId": "description.1",
+          "text": "modern white plastic frame provides a firm and rigid board construction"
+        }
+      ],
+      "value": "highly durable, firm and rigid board construction"
+    },
+    {
+      "intentId": "magnetic_properties",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "magnetic dry erase surface"
+        }
+      ],
+      "value": "magnetic"
+    },
+    {
+      "intentId": "board_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "11 x 14 Inches"
+        }
+      ],
+      "value": "11 x 14 Inches"
+    },
+    {
+      "intentId": "mounting_hardware_and_options",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "included hassle-free mounting hardware"
+        },
+        {
+          "fieldId": "description.1",
+          "text": "double sided velcro mounting strips, which are included with the board"
+        }
+      ],
+      "value": "hassle-free mounting hardware and double sided velcro mounting strips"
+    },
+    {
+      "intentId": "included_accessories",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Dry erase marker included, featuring a magnetic cap with built-in felt eraser"
+        }
+      ],
+      "value": "Dry erase marker included, featuring a magnetic cap with built-in felt eraser"
+    },
+    {
+      "intentId": "portability_and_weight",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "Item weight: 10.2 ounces"
+        }
+      ],
+      "value": "10.2 ounces"
+    },
+    {
+      "intentId": "marker_performance",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "U Brands dry erase markers provide the ultimate writing experience"
+        }
+      ],
+      "value": "ultimate writing experience"
+    },
+    {
+      "intentId": "double_sided_feature",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "board_material",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "magnetic dry erase surface"
+        },
+        {
+          "fieldId": "description.1",
+          "text": "contemporary white plastic frame"
+        }
+      ],
+      "value": "magnetic dry erase surface, white plastic frame"
+    },
+    {
+      "intentId": "board_layout",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "special_features",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "duals as a bulletin board"
+        }
+      ],
+      "value": "duals as a bulletin board"
+    },
+    {
+      "intentId": "surface_smoothness_and_flatness",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "adhesive_installation",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "double sided velcro mounting strips, which are included with the board and enable you to mount your white board on almost any surface"
+        }
+      ],
+      "value": "double sided velcro mounting strips"
+    },
+    {
+      "intentId": "frameless_and_border_design",
+      "status": "contradicted",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "White Frame"
+        },
+        {
+          "fieldId": "bullet.3",
+          "text": "white Contempo frame design"
+        }
+      ]
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+dry-erase-boards@mined-2026-10-27.1",
+  "usage": {
+    "inputTokens": 1800,
+    "outputTokens": 1223
+  },
+  "latencyMs": 7361,
+  "cached": false
+}

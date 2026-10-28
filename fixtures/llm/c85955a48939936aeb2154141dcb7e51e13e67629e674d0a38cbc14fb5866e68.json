@@ -1,0 +1,83 @@
+{
+  "data": [
+    {
+      "claimId": "ic.0",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Magnetic Dry Erase Board"
+        }
+      ],
+      "intentId": "magnetic_properties"
+    },
+    {
+      "claimId": "ic.1",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Smooth & durable magnetic writing surface, easily drywipe with all dry-erase markers"
+        }
+      ],
+      "intentId": "erasability_and_staining"
+    },
+    {
+      "claimId": "ic.2",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "can be mounted vertically or horizontally"
+        }
+      ],
+      "intentId": "mounting_hardware_and_options"
+    },
+    {
+      "claimId": "ic.3",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "pentray"
+        }
+      ],
+      "intentId": "included_accessories"
+    },
+    {
+      "claimId": "ic.4",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Easy installation with fixing kits"
+        }
+      ],
+      "intentId": "mounting_hardware_and_options"
+    },
+    {
+      "claimId": "ic.5",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Silver finished aluminium frame"
+        }
+      ],
+      "intentId": "board_material"
+    },
+    {
+      "claimId": "ic.6",
+      "coverage": "image_only",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "coverage@2026-10-27.1",
+  "usage": {
+    "inputTokens": 829,
+    "outputTokens": 506
+  },
+  "latencyMs": 2196,
+  "cached": false
+}

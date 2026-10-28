@@ -1,0 +1,217 @@
+{
+  "data": [
+    {
+      "claimId": "ic.0",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "medium point"
+        }
+      ],
+      "intentId": "marker_performance"
+    },
+    {
+      "claimId": "ic.1",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Dry erase marker"
+        }
+      ],
+      "intentId": "included_accessories"
+    },
+    {
+      "claimId": "ic.2",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Contempo frame"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.3",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Dry Erase Board"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.4",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.5",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "Easy to mount"
+        }
+      ],
+      "intentId": "mounting_hardware_and_options"
+    },
+    {
+      "claimId": "ic.6",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "premium magnetic dry erase surface"
+        }
+      ],
+      "intentId": "magnetic_properties"
+    },
+    {
+      "claimId": "ic.7",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "11 x 14 Inches"
+        }
+      ],
+      "intentId": "board_size"
+    },
+    {
+      "claimId": "ic.8",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "board_size"
+    },
+    {
+      "claimId": "ic.9",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.10",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.11",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.12",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.13",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.14",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.15",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.16",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.17",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.18",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "marker"
+        }
+      ],
+      "intentId": "included_accessories"
+    },
+    {
+      "claimId": "ic.19",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "mounting_hardware_and_options"
+    },
+    {
+      "claimId": "ic.20",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "mounting_hardware_and_options"
+    },
+    {
+      "claimId": "ic.21",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "mounting_hardware_and_options"
+    },
+    {
+      "claimId": "ic.22",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "mounting_hardware_and_options"
+    },
+    {
+      "claimId": "ic.23",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "mounting_hardware_and_options"
+    },
+    {
+      "claimId": "ic.24",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "mounting_hardware_and_options"
+    },
+    {
+      "claimId": "ic.25",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "mounting_hardware_and_options"
+    },
+    {
+      "claimId": "ic.26",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "mounting_hardware_and_options"
+    },
+    {
+      "claimId": "ic.27",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.28",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.29",
+      "coverage": "image_only",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "coverage@2026-10-27.1",
+  "usage": {
+    "inputTokens": 1448,
+    "outputTokens": 1454
+  },
+  "latencyMs": 11011,
+  "cached": false
+}

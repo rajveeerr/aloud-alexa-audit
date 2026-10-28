@@ -1,0 +1,153 @@
+{
+  "data": [
+    {
+      "claimId": "ic.0",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Magnetic"
+        }
+      ],
+      "intentId": "magnetic_properties"
+    },
+    {
+      "claimId": "ic.1",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "included_accessories"
+    },
+    {
+      "claimId": "ic.2",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "1 Dry Erase Marker"
+        }
+      ],
+      "intentId": "included_accessories"
+    },
+    {
+      "claimId": "ic.3",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "2 Magnets"
+        }
+      ],
+      "intentId": "included_accessories"
+    },
+    {
+      "claimId": "ic.4",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "Mounting hardware"
+        }
+      ],
+      "intentId": "mounting_hardware_and_options"
+    },
+    {
+      "claimId": "ic.5",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "14 7/8 inches"
+        }
+      ],
+      "intentId": "board_size"
+    },
+    {
+      "claimId": "ic.6",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "20 7/8 inches"
+        }
+      ],
+      "intentId": "board_size"
+    },
+    {
+      "claimId": "ic.7",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "allows flexibility"
+        }
+      ],
+      "intentId": "mounting_hardware_and_options"
+    },
+    {
+      "claimId": "ic.8",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "portrait or landscape orientation"
+        }
+      ],
+      "intentId": "mounting_hardware_and_options"
+    },
+    {
+      "claimId": "ic.9",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Sturdy wooden white frame"
+        }
+      ],
+      "intentId": "board_material"
+    },
+    {
+      "claimId": "ic.10",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "included_accessories"
+    },
+    {
+      "claimId": "ic.11",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "included_accessories"
+    },
+    {
+      "claimId": "ic.12",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "included_accessories"
+    },
+    {
+      "claimId": "ic.13",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "included_accessories"
+    },
+    {
+      "claimId": "ic.14",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "included_accessories"
+    },
+    {
+      "claimId": "ic.15",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "included_accessories"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "coverage@2026-10-27.1",
+  "usage": {
+    "inputTokens": 1083,
+    "outputTokens": 999
+  },
+  "latencyMs": 4057,
+  "cached": false
+}

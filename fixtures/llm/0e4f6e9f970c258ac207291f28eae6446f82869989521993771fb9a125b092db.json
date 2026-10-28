@@ -1,0 +1,113 @@
+{
+  "data": [
+    {
+      "intentId": "durability",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "lead_breakage_resistance",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.8",
+          "text": "never needs sharpening, is super strong"
+        }
+      ],
+      "value": "super strong"
+    },
+    {
+      "intentId": "lead_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.size",
+          "text": "0.5mm"
+        }
+      ],
+      "value": "0.5mm"
+    },
+    {
+      "intentId": "eraser_presence",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Z2-1 eraser"
+        }
+      ],
+      "value": "Z2-1 eraser"
+    },
+    {
+      "intentId": "smoothness",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "erasability",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "retractable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.closure",
+          "text": "Retractable"
+        }
+      ],
+      "value": "Retractable"
+    },
+    {
+      "intentId": "refillable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Refillable with Pentel Super Hi-Polymer Lead and Z2-1 eraser"
+        }
+      ],
+      "value": "Refillable with Pentel Super Hi-Polymer Lead and Z2-1 eraser"
+    },
+    {
+      "intentId": "built_in_sharpener",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "auto_rotation",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "body_material",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.material_type",
+          "text": "Metal"
+        }
+      ],
+      "value": "Metal"
+    },
+    {
+      "intentId": "jamming",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "smudge_resistance",
+      "status": "missing",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+mechanical-pencils@mined-2026-10-27.1",
+  "usage": {
+    "inputTokens": 1671,
+    "outputTokens": 684
+  },
+  "latencyMs": 5739,
+  "cached": false
+}

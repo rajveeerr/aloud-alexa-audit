@@ -1,0 +1,1075 @@
+{
+  "data": [
+    {
+      "i": 150,
+      "needs": [
+        "magnetic",
+        "tip_size",
+        "eraser",
+        "dry_time"
+      ]
+    },
+    {
+      "i": 151,
+      "needs": []
+    },
+    {
+      "i": 152,
+      "needs": [
+        "magnetic",
+        "laminate_quality",
+        "eraser"
+      ]
+    },
+    {
+      "i": 153,
+      "needs": [
+        "eraser",
+        "magnet_strength"
+      ]
+    },
+    {
+      "i": 154,
+      "needs": [
+        "writing_space",
+        "magnet_strength"
+      ]
+    },
+    {
+      "i": 155,
+      "needs": [
+        "writing_space",
+        "ease_of_cleaning"
+      ]
+    },
+    {
+      "i": 156,
+      "needs": [
+        "ease_of_cleaning"
+      ]
+    },
+    {
+      "i": 157,
+      "needs": [
+        "magnetic",
+        "writing_space",
+        "tip_size"
+      ]
+    },
+    {
+      "i": 158,
+      "needs": [
+        "magnet_strength",
+        "ease_of_cleaning",
+        "size"
+      ]
+    },
+    {
+      "i": 159,
+      "needs": [
+        "included_accessories"
+      ]
+    },
+    {
+      "i": 160,
+      "needs": [
+        "build_quality"
+      ]
+    },
+    {
+      "i": 161,
+      "needs": []
+    },
+    {
+      "i": 162,
+      "needs": [
+        "magnetic",
+        "residue_free"
+      ]
+    },
+    {
+      "i": 163,
+      "needs": [
+        "size",
+        "marker_storage",
+        "eraser"
+      ]
+    },
+    {
+      "i": 164,
+      "needs": [
+        "build_quality",
+        "glossiness"
+      ]
+    },
+    {
+      "i": 165,
+      "needs": [
+        "installation_ease",
+        "size",
+        "ease_of_cleaning"
+      ]
+    },
+    {
+      "i": 166,
+      "needs": [
+        "ease_of_cleaning"
+      ]
+    },
+    {
+      "i": 167,
+      "needs": [
+        "size",
+        "installation_ease"
+      ]
+    },
+    {
+      "i": 168,
+      "needs": [
+        "installation_ease",
+        "ease_of_cleaning"
+      ]
+    },
+    {
+      "i": 169,
+      "needs": [
+        "installation_ease"
+      ]
+    },
+    {
+      "i": 170,
+      "needs": [
+        "durability",
+        "ease_of_cleaning",
+        "writing_space",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 171,
+      "needs": [
+        "magnetic",
+        "size"
+      ]
+    },
+    {
+      "i": 172,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 173,
+      "needs": []
+    },
+    {
+      "i": 174,
+      "needs": [
+        "weight",
+        "double_sided",
+        "sturdiness",
+        "ease_of_cleaning"
+      ]
+    },
+    {
+      "i": 175,
+      "needs": []
+    },
+    {
+      "i": 176,
+      "needs": []
+    },
+    {
+      "i": 177,
+      "needs": [
+        "build_quality",
+        "magnetic",
+        "weight"
+      ]
+    },
+    {
+      "i": 178,
+      "needs": [
+        "build_quality",
+        "packaging"
+      ]
+    },
+    {
+      "i": 179,
+      "needs": [
+        "magnetic",
+        "ease_of_cleaning",
+        "weight"
+      ]
+    },
+    {
+      "i": 180,
+      "needs": [
+        "magnetic",
+        "ease_of_cleaning"
+      ]
+    },
+    {
+      "i": 181,
+      "needs": [
+        "shipping_condition",
+        "installation_ease"
+      ]
+    },
+    {
+      "i": 182,
+      "needs": [
+        "size"
+      ]
+    },
+    {
+      "i": 183,
+      "needs": [
+        "build_quality",
+        "installation_ease",
+        "sturdiness",
+        "size",
+        "ease_of_cleaning"
+      ]
+    },
+    {
+      "i": 184,
+      "needs": [
+        "shipping_condition",
+        "magnetic",
+        "included_accessories",
+        "size"
+      ]
+    },
+    {
+      "i": 185,
+      "needs": [
+        "packaging",
+        "ease_of_cleaning",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 186,
+      "needs": [
+        "shipping_condition",
+        "installation_ease",
+        "weight",
+        "magnet_strength"
+      ]
+    },
+    {
+      "i": 187,
+      "needs": [
+        "shipping_condition"
+      ]
+    },
+    {
+      "i": 188,
+      "needs": [
+        "size",
+        "writing_space",
+        "magnetic",
+        "mounting_hardware"
+      ]
+    },
+    {
+      "i": 189,
+      "needs": [
+        "shipping_condition"
+      ]
+    },
+    {
+      "i": 190,
+      "needs": [
+        "mounting_hardware",
+        "installation_ease",
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 191,
+      "needs": [
+        "included_accessories"
+      ]
+    },
+    {
+      "i": 192,
+      "needs": [
+        "installation_ease"
+      ]
+    },
+    {
+      "i": 193,
+      "needs": [
+        "magnetic",
+        "heat_resistance"
+      ]
+    },
+    {
+      "i": 194,
+      "needs": [
+        "magnetic",
+        "dimensions",
+        "hanging_mechanism"
+      ]
+    },
+    {
+      "i": 195,
+      "needs": [
+        "sturdiness",
+        "mounting"
+      ]
+    },
+    {
+      "i": 196,
+      "needs": [
+        "magnetic",
+        "build_quality",
+        "magnet_strength",
+        "mounting"
+      ]
+    },
+    {
+      "i": 197,
+      "needs": [
+        "mounting_hardware",
+        "packaging"
+      ]
+    },
+    {
+      "i": 198,
+      "needs": [
+        "magnetic",
+        "size",
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 199,
+      "needs": [
+        "magnetic",
+        "installation_ease"
+      ]
+    },
+    {
+      "i": 200,
+      "needs": [
+        "sturdiness",
+        "weight",
+        "frame_material",
+        "protective_film",
+        "mounting_hardware",
+        "pen_tray",
+        "included_accessories"
+      ]
+    },
+    {
+      "i": 201,
+      "needs": [
+        "size",
+        "installation_ease",
+        "pen_tray"
+      ]
+    },
+    {
+      "i": 202,
+      "needs": [
+        "protective_film"
+      ]
+    },
+    {
+      "i": 203,
+      "needs": [
+        "sturdiness",
+        "protective_film"
+      ]
+    },
+    {
+      "i": 204,
+      "needs": [
+        "size",
+        "included_accessories",
+        "surface_quality",
+        "frame_quality"
+      ]
+    },
+    {
+      "i": 205,
+      "needs": [
+        "included_accessories",
+        "protective_film"
+      ]
+    },
+    {
+      "i": 206,
+      "needs": [
+        "shipping_condition"
+      ]
+    },
+    {
+      "i": 207,
+      "needs": [
+        "size",
+        "pen_tray"
+      ]
+    },
+    {
+      "i": 208,
+      "needs": [
+        "size",
+        "protective_film",
+        "included_accessories"
+      ]
+    },
+    {
+      "i": 209,
+      "needs": [
+        "build_quality",
+        "magnetic",
+        "included_accessories"
+      ]
+    },
+    {
+      "i": 210,
+      "needs": [
+        "installation_ease",
+        "magnet_strength"
+      ]
+    },
+    {
+      "i": 211,
+      "needs": [
+        "magnet_strength",
+        "mounting",
+        "visibility"
+      ]
+    },
+    {
+      "i": 212,
+      "needs": [
+        "ease_of_cleaning",
+        "marker_visibility",
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 213,
+      "needs": [
+        "magnet_strength",
+        "included_accessories"
+      ]
+    },
+    {
+      "i": 214,
+      "needs": [
+        "magnet_strength",
+        "design"
+      ]
+    },
+    {
+      "i": 215,
+      "needs": [
+        "installation_ease",
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 216,
+      "needs": [
+        "installation_ease",
+        "reflectivity"
+      ]
+    },
+    {
+      "i": 217,
+      "needs": [
+        "mounting_hardware"
+      ]
+    },
+    {
+      "i": 218,
+      "needs": [
+        "installation_ease",
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 219,
+      "needs": [
+        "mounting_template",
+        "magnet_strength",
+        "shipping_condition"
+      ]
+    },
+    {
+      "i": 220,
+      "needs": [
+        "packaging",
+        "shipping_condition"
+      ]
+    },
+    {
+      "i": 221,
+      "needs": []
+    },
+    {
+      "i": 222,
+      "needs": [
+        "mounting_hardware",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 223,
+      "needs": [
+        "size",
+        "mounting",
+        "writing_space",
+        "ease_of_cleaning",
+        "frame_quality"
+      ]
+    },
+    {
+      "i": 224,
+      "needs": [
+        "marker_bleeding"
+      ]
+    },
+    {
+      "i": 225,
+      "needs": [
+        "writing_space",
+        "design",
+        "mounting_hardware"
+      ]
+    },
+    {
+      "i": 226,
+      "needs": [
+        "frame_quality",
+        "surface_flatness"
+      ]
+    },
+    {
+      "i": 227,
+      "needs": [
+        "marker_compatibility",
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 228,
+      "needs": [
+        "size",
+        "writing_space",
+        "mounting_hardware",
+        "included_accessories"
+      ]
+    },
+    {
+      "i": 229,
+      "needs": [
+        "build_quality",
+        "shipping_condition"
+      ]
+    },
+    {
+      "i": 230,
+      "needs": [
+        "magnetic",
+        "thickness",
+        "sturdiness",
+        "ease_of_cleaning",
+        "marker_thickness"
+      ]
+    },
+    {
+      "i": 231,
+      "needs": [
+        "ease_of_cleaning",
+        "magnetic",
+        "cutability",
+        "packaging"
+      ]
+    },
+    {
+      "i": 232,
+      "needs": [
+        "packaging",
+        "protective_film"
+      ]
+    },
+    {
+      "i": 233,
+      "needs": [
+        "durability",
+        "surface_smoothness",
+        "ease_of_cleaning",
+        "refillable"
+      ]
+    },
+    {
+      "i": 234,
+      "needs": [
+        "magnet_strength"
+      ]
+    },
+    {
+      "i": 235,
+      "needs": [
+        "magnet_strength"
+      ]
+    },
+    {
+      "i": 236,
+      "needs": [
+        "magnet_strength"
+      ]
+    },
+    {
+      "i": 237,
+      "needs": [
+        "size",
+        "ease_of_cleaning",
+        "included_accessories"
+      ]
+    },
+    {
+      "i": 238,
+      "needs": [
+        "thickness",
+        "magnetic",
+        "included_accessories",
+        "packaging"
+      ]
+    },
+    {
+      "i": 239,
+      "needs": [
+        "magnetic",
+        "packaging",
+        "included_accessories",
+        "size"
+      ]
+    },
+    {
+      "i": 240,
+      "needs": [
+        "size",
+        "magnet_strength"
+      ]
+    },
+    {
+      "i": 241,
+      "needs": [
+        "magnet_strength",
+        "ease_of_cleaning"
+      ]
+    },
+    {
+      "i": 242,
+      "needs": [
+        "size",
+        "writing_space",
+        "ease_of_cleaning"
+      ]
+    },
+    {
+      "i": 243,
+      "needs": [
+        "mounting_template",
+        "mounting_hardware"
+      ]
+    },
+    {
+      "i": 244,
+      "needs": [
+        "writing_space",
+        "ease_of_cleaning",
+        "mounting_hardware"
+      ]
+    },
+    {
+      "i": 245,
+      "needs": [
+        "size",
+        "layout",
+        "mounting_hardware"
+      ]
+    },
+    {
+      "i": 246,
+      "needs": [
+        "shipping_condition",
+        "size",
+        "layout"
+      ]
+    },
+    {
+      "i": 247,
+      "needs": [
+        "thickness",
+        "durability"
+      ]
+    },
+    {
+      "i": 248,
+      "needs": [
+        "marker_storage",
+        "mounting_hardware",
+        "sturdiness",
+        "ease_of_cleaning",
+        "size"
+      ]
+    },
+    {
+      "i": 249,
+      "needs": []
+    },
+    {
+      "i": 250,
+      "needs": [
+        "double_sided",
+        "size",
+        "durability",
+        "ease_of_cleaning"
+      ]
+    },
+    {
+      "i": 251,
+      "needs": [
+        "ease_of_cleaning",
+        "packaging",
+        "durability"
+      ]
+    },
+    {
+      "i": 252,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 253,
+      "needs": [
+        "sturdiness",
+        "ease_of_cleaning",
+        "shipping_condition"
+      ]
+    },
+    {
+      "i": 254,
+      "needs": [
+        "ease_of_cleaning",
+        "durability"
+      ]
+    },
+    {
+      "i": 255,
+      "needs": [
+        "ease_of_cleaning"
+      ]
+    },
+    {
+      "i": 256,
+      "needs": []
+    },
+    {
+      "i": 257,
+      "needs": [
+        "packaging",
+        "size",
+        "dry_time",
+        "ease_of_cleaning"
+      ]
+    },
+    {
+      "i": 258,
+      "needs": [
+        "packaging",
+        "build_quality"
+      ]
+    },
+    {
+      "i": 259,
+      "needs": [
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 260,
+      "needs": [
+        "shipping_condition",
+        "included_accessories",
+        "refillable",
+        "ease_of_cleaning"
+      ]
+    },
+    {
+      "i": 261,
+      "needs": [
+        "size",
+        "ease_of_cleaning"
+      ]
+    },
+    {
+      "i": 262,
+      "needs": [
+        "weight"
+      ]
+    },
+    {
+      "i": 263,
+      "needs": [
+        "sturdiness",
+        "ease_of_cleaning"
+      ]
+    },
+    {
+      "i": 264,
+      "needs": [
+        "shipping_condition",
+        "size",
+        "magnetic",
+        "included_accessories"
+      ]
+    },
+    {
+      "i": 265,
+      "needs": [
+        "surface_smoothness",
+        "ease_of_cleaning",
+        "tip_size"
+      ]
+    },
+    {
+      "i": 266,
+      "needs": [
+        "marker_storage",
+        "mounting_hardware"
+      ]
+    },
+    {
+      "i": 267,
+      "needs": [
+        "size",
+        "installation_ease",
+        "magnet_strength",
+        "marker_storage"
+      ]
+    },
+    {
+      "i": 268,
+      "needs": [
+        "double_sided"
+      ]
+    },
+    {
+      "i": 269,
+      "needs": [
+        "magnetic",
+        "sturdiness",
+        "mounting_hardware"
+      ]
+    },
+    {
+      "i": 270,
+      "needs": [
+        "storage_compartment",
+        "included_accessories"
+      ]
+    },
+    {
+      "i": 271,
+      "needs": [
+        "storage_capacity",
+        "material",
+        "stain_resistance"
+      ]
+    },
+    {
+      "i": 272,
+      "needs": [
+        "material",
+        "included_accessories",
+        "storage_capacity"
+      ]
+    },
+    {
+      "i": 273,
+      "needs": [
+        "material",
+        "ease_of_cleaning",
+        "included_accessories"
+      ]
+    },
+    {
+      "i": 274,
+      "needs": [
+        "sturdiness",
+        "ease_of_writing",
+        "storage_capacity"
+      ]
+    },
+    {
+      "i": 275,
+      "needs": [
+        "storage_compartment"
+      ]
+    },
+    {
+      "i": 276,
+      "needs": [
+        "material",
+        "sturdiness",
+        "storage_compartment",
+        "marker_visibility"
+      ]
+    },
+    {
+      "i": 277,
+      "needs": [
+        "marker_visibility",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 278,
+      "needs": [
+        "size"
+      ]
+    },
+    {
+      "i": 279,
+      "needs": [
+        "material",
+        "ease_of_cleaning",
+        "storage_compartment",
+        "depth"
+      ]
+    },
+    {
+      "i": 280,
+      "needs": [
+        "magnetic",
+        "ease_of_cleaning",
+        "included_accessories",
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 281,
+      "needs": [
+        "tip_size",
+        "eraser",
+        "ease_of_cleaning"
+      ]
+    },
+    {
+      "i": 282,
+      "needs": []
+    },
+    {
+      "i": 283,
+      "needs": [
+        "flexibility",
+        "ease_of_cleaning",
+        "borderless"
+      ]
+    },
+    {
+      "i": 284,
+      "needs": [
+        "magnet_strength"
+      ]
+    },
+    {
+      "i": 285,
+      "needs": [
+        "magnet_strength"
+      ]
+    },
+    {
+      "i": 286,
+      "needs": [
+        "magnetic",
+        "magnet_strength",
+        "ease_of_cleaning"
+      ]
+    },
+    {
+      "i": 287,
+      "needs": [
+        "ease_of_cleaning",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 288,
+      "needs": [
+        "ease_of_cleaning"
+      ]
+    },
+    {
+      "i": 289,
+      "needs": [
+        "shipping_condition"
+      ]
+    },
+    {
+      "i": 290,
+      "needs": []
+    },
+    {
+      "i": 291,
+      "needs": [
+        "adhesion"
+      ]
+    },
+    {
+      "i": 292,
+      "needs": []
+    },
+    {
+      "i": 293,
+      "needs": []
+    },
+    {
+      "i": 294,
+      "needs": []
+    },
+    {
+      "i": 295,
+      "needs": []
+    },
+    {
+      "i": 296,
+      "needs": []
+    },
+    {
+      "i": 297,
+      "needs": []
+    },
+    {
+      "i": 298,
+      "needs": [
+        "adhesion"
+      ]
+    },
+    {
+      "i": 299,
+      "needs": [
+        "build_quality"
+      ]
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "extract-needs@2026-10-27.1+dry-erase-boards",
+  "usage": {
+    "inputTokens": 18609,
+    "outputTokens": 5888
+  },
+  "latencyMs": 19182,
+  "cached": false
+}

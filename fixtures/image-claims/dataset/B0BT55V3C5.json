@@ -1,0 +1,73 @@
+{
+  "asin": "B0BT55V3C5",
+  "promptVersion": "transcribe@2026-10-27.1",
+  "model": "gemini-3.5-flash-lite",
+  "usage": {
+    "inputTokens": 9968,
+    "outputTokens": 365
+  },
+  "images": 9,
+  "skippedImageIds": [],
+  "modelOutput": [
+    {
+      "imageId": "img.0",
+      "claims": [
+        "12 PACK",
+        "DRY-ERASE",
+        "LAP BOARDS",
+        "with 12 erasers"
+      ]
+    },
+    {
+      "imageId": "img.1",
+      "claims": []
+    },
+    {
+      "imageId": "img.2",
+      "claims": [
+        "12 PERSONAL",
+        "DRY ERASERS INCLUDED",
+        "ALLOWING THE BOARDS TO BE USED OVER AND OVER AGAIN"
+      ]
+    },
+    {
+      "imageId": "img.3",
+      "claims": []
+    },
+    {
+      "imageId": "img.4",
+      "claims": []
+    },
+    {
+      "imageId": "img.5",
+      "claims": [
+        "Perfect Size"
+      ]
+    },
+    {
+      "imageId": "img.6",
+      "claims": [
+        "#1 TEACHER RECOMMENDED BOARD",
+        "FOR STUDY GROUPS"
+      ]
+    },
+    {
+      "imageId": "img.7",
+      "claims": [
+        "WHITEBOARD DIMENSIONS",
+        "2\"",
+        "2\"",
+        "9\"",
+        "12\""
+      ]
+    },
+    {
+      "imageId": "img.8",
+      "claims": [
+        "WIDE RANGE OF APPLICATIONS",
+        "LEAVES NO RESIDUE",
+        "SUPERIOR PERFORMANCE"
+      ]
+    }
+  ]
+}

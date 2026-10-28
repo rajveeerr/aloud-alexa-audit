@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "intentId": "durability_and_sturdiness",
+      "unsupported": [],
+      "answersQuestion": true
+    },
+    {
+      "intentId": "mounting_hardware_and_options",
+      "unsupported": [],
+      "answersQuestion": true
+    },
+    {
+      "intentId": "board_material",
+      "unsupported": [],
+      "answersQuestion": true
+    },
+    {
+      "intentId": "special_features",
+      "unsupported": [],
+      "answersQuestion": true
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "faithfulness@2026-10-27.2",
+  "usage": {
+    "inputTokens": 379,
+    "outputTokens": 136
+  },
+  "latencyMs": 6299,
+  "cached": false
+}

@@ -1,0 +1,141 @@
+{
+  "data": [
+    {
+      "intentId": "erasability_and_staining",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "durability_and_sturdiness",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Durable design"
+        }
+      ],
+      "value": "Durable design"
+    },
+    {
+      "intentId": "magnetic_properties",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Magnetic dry-wipe board"
+        }
+      ],
+      "value": "Magnetic"
+    },
+    {
+      "intentId": "board_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "Dimensions: 35.5 x 23.5 x 0.67 inches"
+        }
+      ],
+      "value": "35.5 x 23.5 x 0.67 inches"
+    },
+    {
+      "intentId": "mounting_hardware_and_options",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "wall-mountable (kit included)"
+        }
+      ],
+      "value": "wall-mountable"
+    },
+    {
+      "intentId": "included_accessories",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Includes 6 magnets, 1 eraser, and 2 dry-erase markers"
+        }
+      ],
+      "value": "6 magnets, 1 eraser, and 2 dry-erase markers"
+    },
+    {
+      "intentId": "portability_and_weight",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "Item weight: 6.39 pounds"
+        }
+      ],
+      "value": "6.39 pounds"
+    },
+    {
+      "intentId": "marker_performance",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "double_sided_feature",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "board_material",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.material_type",
+          "text": "Material type: Aluminum"
+        }
+      ],
+      "value": "Aluminum"
+    },
+    {
+      "intentId": "board_layout",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "special_features",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "pen tray"
+        }
+      ],
+      "value": "pen tray"
+    },
+    {
+      "intentId": "surface_smoothness_and_flatness",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Smooth, magnetic writing surface"
+        }
+      ],
+      "value": "Smooth"
+    },
+    {
+      "intentId": "adhesive_installation",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "frameless_and_border_design",
+      "status": "missing",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+dry-erase-boards@mined-2026-10-27.1",
+  "usage": {
+    "inputTokens": 1462,
+    "outputTokens": 926
+  },
+  "latencyMs": 5248,
+  "cached": false
+}

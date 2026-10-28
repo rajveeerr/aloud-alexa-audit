@@ -1,0 +1,149 @@
+{
+  "data": [
+    {
+      "intentId": "erasability_and_staining",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "easily drywipe with all dry-erase markers"
+        }
+      ],
+      "value": "easily drywipe with all dry-erase markers"
+    },
+    {
+      "intentId": "durability_and_sturdiness",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Smooth & durable magnetic writing surface"
+        }
+      ],
+      "value": "durable"
+    },
+    {
+      "intentId": "magnetic_properties",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "magnetic writing surface"
+        }
+      ],
+      "value": "magnetic"
+    },
+    {
+      "intentId": "board_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Overall size: 48\" x 24\" ( frame included); Writing surface size: 46\" x 22\""
+        }
+      ],
+      "value": "Overall size: 48\" x 24\" ( frame included); Writing surface size: 46\" x 22\""
+    },
+    {
+      "intentId": "mounting_hardware_and_options",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Easy installation with fixing kits, can be mounted vertically or horizontally"
+        },
+        {
+          "fieldId": "bullet.5",
+          "text": "Include fixing kits"
+        }
+      ],
+      "value": "fixing kits, can be mounted vertically or horizontally"
+    },
+    {
+      "intentId": "included_accessories",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "pentray"
+        }
+      ],
+      "value": "pentray"
+    },
+    {
+      "intentId": "portability_and_weight",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "Item weight: 8.13 pounds"
+        }
+      ],
+      "value": "8.13 pounds"
+    },
+    {
+      "intentId": "marker_performance",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "double_sided_feature",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "board_material",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Silver finished aluminium frame, ABS plastic corner with screw-fixing in corners"
+        },
+        {
+          "fieldId": "attr.material",
+          "text": "Material: Acrylonitrile Butadiene Styr"
+        }
+      ],
+      "value": "aluminium frame, ABS plastic corner"
+    },
+    {
+      "intentId": "board_layout",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "special_features",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "surface_smoothness_and_flatness",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Smooth & durable magnetic writing surface"
+        }
+      ],
+      "value": "Smooth"
+    },
+    {
+      "intentId": "adhesive_installation",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "frameless_and_border_design",
+      "status": "missing",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+dry-erase-boards@mined-2026-10-27.1",
+  "usage": {
+    "inputTokens": 1414,
+    "outputTokens": 1021
+  },
+  "latencyMs": 6089,
+  "cached": false
+}

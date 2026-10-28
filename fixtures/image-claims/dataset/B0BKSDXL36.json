@@ -1,0 +1,50 @@
+{
+  "asin": "B0BKSDXL36",
+  "promptVersion": "transcribe@2026-10-27.1",
+  "model": "gemini-3.5-flash-lite",
+  "usage": {
+    "inputTokens": 7783,
+    "outputTokens": 272
+  },
+  "images": 7,
+  "skippedImageIds": [],
+  "modelOutput": [
+    {
+      "imageId": "img.0",
+      "claims": []
+    },
+    {
+      "imageId": "img.1",
+      "claims": []
+    },
+    {
+      "imageId": "img.2",
+      "claims": []
+    },
+    {
+      "imageId": "img.3",
+      "claims": [
+        "COMES IN AN ELEGANT GIFT BOX"
+      ]
+    },
+    {
+      "imageId": "img.4",
+      "claims": [
+        "STAINLESS STEEL BARREL",
+        "ERASER UNDER CAP"
+      ]
+    },
+    {
+      "imageId": "img.5",
+      "claims": [
+        "MEDIUM POINT, 0.5MM LEAD"
+      ]
+    },
+    {
+      "imageId": "img.6",
+      "claims": [
+        "With years of experience and innovation, Parker's commitment to quality has ensured that each pen delivers the best writing experience for when it matters most. For better first thoughts, for better final drafts, for better thinking, you don't just need a pen, you need a Parker."
+      ]
+    }
+  ]
+}

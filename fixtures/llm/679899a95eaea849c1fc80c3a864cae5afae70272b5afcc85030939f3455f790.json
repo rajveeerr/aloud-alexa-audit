@@ -1,0 +1,147 @@
+{
+  "data": [
+    {
+      "claimId": "ic.0",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.1",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "colorful barrels with eye-catching sparkles"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.2",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "0.7mm"
+        }
+      ],
+      "intentId": "lead_size"
+    },
+    {
+      "claimId": "ic.3",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "smoothness"
+    },
+    {
+      "claimId": "ic.4",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "erases cleanly"
+        }
+      ],
+      "intentId": "erasability"
+    },
+    {
+      "claimId": "ic.5",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "24-count"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.6",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.7",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Cute mechanical pencils for girls, boys and adults, featuring colorful barrels with eye-catching sparkles"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.8",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "0.7mm"
+        },
+        {
+          "fieldId": "bullet.1",
+          "text": "Number 2"
+        }
+      ],
+      "intentId": "lead_size"
+    },
+    {
+      "claimId": "ic.9",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Versatile 0.7mm medium point is ideal for a variety of everyday writing activities"
+        }
+      ],
+      "intentId": "lead_size"
+    },
+    {
+      "claimId": "ic.10",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "compatible with most standardized tests"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.11",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.12",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.13",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "simply click the built-in eraser"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.14",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "High-quality lead doesn’ smudge and erases cleanly"
+        }
+      ],
+      "intentId": "smudge_resistance"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "coverage@2026-10-27.1",
+  "usage": {
+    "inputTokens": 1174,
+    "outputTokens": 944
+  },
+  "latencyMs": 11336,
+  "cached": false
+}

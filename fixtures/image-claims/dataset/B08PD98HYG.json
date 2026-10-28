@@ -1,0 +1,73 @@
+{
+  "asin": "B08PD98HYG",
+  "promptVersion": "transcribe@2026-10-27.1",
+  "model": "gemini-3.5-flash-lite",
+  "usage": {
+    "inputTokens": 6681,
+    "outputTokens": 351
+  },
+  "images": 6,
+  "skippedImageIds": [],
+  "modelOutput": [
+    {
+      "imageId": "img.0",
+      "claims": [
+        ".5",
+        "PG1015",
+        "JAPAN",
+        "7C",
+        "HB",
+        "0.5",
+        "PG525",
+        "7F"
+      ]
+    },
+    {
+      "imageId": "img.1",
+      "claims": [
+        "PG1015",
+        "JAPAN",
+        "7C",
+        ".5",
+        "HB"
+      ]
+    },
+    {
+      "imageId": "img.2",
+      "claims": [
+        "PG1015",
+        "JAPAN",
+        "7C",
+        ".5",
+        "HB"
+      ]
+    },
+    {
+      "imageId": "img.3",
+      "claims": [
+        "PG525",
+        "0.5",
+        "7F",
+        "0.5",
+        "Drafting Pencil"
+      ]
+    },
+    {
+      "imageId": "img.4",
+      "claims": [
+        "PG525",
+        "0.5",
+        "7F",
+        "0.5",
+        "Drafting Pencil"
+      ]
+    },
+    {
+      "imageId": "img.5",
+      "claims": [
+        "0.5",
+        "Drafting Pencil"
+      ]
+    }
+  ]
+}

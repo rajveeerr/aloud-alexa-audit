@@ -1,0 +1,1204 @@
+{
+  "data": [
+    {
+      "i": 150,
+      "needs": [
+        "eraser_quality",
+        "smudge_resistance",
+        "clip_durability",
+        "lead_feeding_mechanism",
+        "cushion_point",
+        "lead_breakage_resistance",
+        "smoothness"
+      ]
+    },
+    {
+      "i": 151,
+      "needs": [
+        "smoothness",
+        "eraser_quality",
+        "lead_breakage_resistance",
+        "lead_length_control"
+      ]
+    },
+    {
+      "i": 152,
+      "needs": []
+    },
+    {
+      "i": 153,
+      "needs": [
+        "eraser_quality",
+        "smudge_resistance",
+        "lead_feeding_mechanism",
+        "manufacturing_quality"
+      ]
+    },
+    {
+      "i": 154,
+      "needs": [
+        "cushion_point",
+        "lead_breakage_resistance"
+      ]
+    },
+    {
+      "i": 155,
+      "needs": []
+    },
+    {
+      "i": 156,
+      "needs": [
+        "design",
+        "eraser_size",
+        "smoothness",
+        "lead_darkness",
+        "eraser_quality",
+        "pressure_resistance",
+        "barrel_stability"
+      ]
+    },
+    {
+      "i": 157,
+      "needs": [
+        "tip_size",
+        "lead_breakage_resistance",
+        "smoothness",
+        "eraser_quality",
+        "refillable"
+      ]
+    },
+    {
+      "i": 158,
+      "needs": []
+    },
+    {
+      "i": 159,
+      "needs": [
+        "smoothness",
+        "ergonomics",
+        "lead_retraction",
+        "lead_breakage_resistance",
+        "refillable",
+        "environmental_impact"
+      ]
+    },
+    {
+      "i": 160,
+      "needs": [
+        "lead_breakage_resistance",
+        "cushion_point",
+        "lead_feeding_mechanism",
+        "point_retention"
+      ]
+    },
+    {
+      "i": 161,
+      "needs": [
+        "smoothness",
+        "lead_breakage_resistance"
+      ]
+    },
+    {
+      "i": 162,
+      "needs": [
+        "lead_capacity",
+        "refillable"
+      ]
+    },
+    {
+      "i": 163,
+      "needs": [
+        "graphite_hardness",
+        "graphite_texture",
+        "eraser_quality"
+      ]
+    },
+    {
+      "i": 164,
+      "needs": [
+        "lead_breakage_resistance",
+        "retractable"
+      ]
+    },
+    {
+      "i": 165,
+      "needs": [
+        "dirt_resistance",
+        "lead_darkness"
+      ]
+    },
+    {
+      "i": 166,
+      "needs": [
+        "refillable"
+      ]
+    },
+    {
+      "i": 167,
+      "needs": [
+        "lead_breakage_resistance"
+      ]
+    },
+    {
+      "i": 168,
+      "needs": []
+    },
+    {
+      "i": 169,
+      "needs": []
+    },
+    {
+      "i": 170,
+      "needs": [
+        "color_accuracy",
+        "eraser_quality"
+      ]
+    },
+    {
+      "i": 171,
+      "needs": [
+        "color_vibrancy"
+      ]
+    },
+    {
+      "i": 172,
+      "needs": [
+        "lead_hardness"
+      ]
+    },
+    {
+      "i": 173,
+      "needs": [
+        "color_vibrancy",
+        "pressure_resistance",
+        "lead_breakage_resistance",
+        "lead_hardness"
+      ]
+    },
+    {
+      "i": 174,
+      "needs": [
+        "tip_size",
+        "grip_comfort",
+        "color_vibrancy",
+        "lead_hardness",
+        "eraser_quality"
+      ]
+    },
+    {
+      "i": 175,
+      "needs": [
+        "color_lead",
+        "smoothness",
+        "lead_breakage_resistance",
+        "pressure_resistance",
+        "eraser_quality"
+      ]
+    },
+    {
+      "i": 176,
+      "needs": []
+    },
+    {
+      "i": 177,
+      "needs": [
+        "barrel_durability",
+        "color_vibrancy"
+      ]
+    },
+    {
+      "i": 178,
+      "needs": [
+        "durability",
+        "lead_feeding_mechanism",
+        "lead_breakage_resistance"
+      ]
+    },
+    {
+      "i": 179,
+      "needs": [
+        "ergonomics",
+        "grip_comfort",
+        "graphite_texture",
+        "color_vibrancy",
+        "lead_breakage_resistance"
+      ]
+    },
+    {
+      "i": 180,
+      "needs": [
+        "lead_breakage_resistance",
+        "tip_size",
+        "sensory_issues"
+      ]
+    },
+    {
+      "i": 181,
+      "needs": [
+        "grip_comfort",
+        "barrel_shape",
+        "replacement_erasers"
+      ]
+    },
+    {
+      "i": 182,
+      "needs": [
+        "ergonomics",
+        "barrel_shape",
+        "tip_size",
+        "lead_breakage_resistance",
+        "lead_darkness"
+      ]
+    },
+    {
+      "i": 183,
+      "needs": [
+        "barrel_shape",
+        "tip_size",
+        "replacement_erasers"
+      ]
+    },
+    {
+      "i": 184,
+      "needs": [
+        "tip_size",
+        "lead_breakage_resistance",
+        "barrel_shape",
+        "eraser_quality",
+        "lead_capacity"
+      ]
+    },
+    {
+      "i": 185,
+      "needs": [
+        "replacement_erasers",
+        "eraser_quality",
+        "grip_comfort",
+        "lead_breakage_resistance",
+        "paper_tear_resistance",
+        "tip_size",
+        "lead_darkness",
+        "barrel_durability"
+      ]
+    },
+    {
+      "i": 186,
+      "needs": [
+        "barrel_shape",
+        "lead_breakage_resistance",
+        "point_retention"
+      ]
+    },
+    {
+      "i": 187,
+      "needs": [
+        "lead_capacity",
+        "lead_breakage_resistance",
+        "barrel_shape",
+        "barrel_size"
+      ]
+    },
+    {
+      "i": 188,
+      "needs": [
+        "lead_breakage_resistance",
+        "eraser_retention",
+        "replacement_erasers"
+      ]
+    },
+    {
+      "i": 189,
+      "needs": [
+        "durability",
+        "handwriting_improvement",
+        "lead_breakage_resistance"
+      ]
+    },
+    {
+      "i": 190,
+      "needs": [
+        "matte_finish",
+        "quality"
+      ]
+    },
+    {
+      "i": 191,
+      "needs": [
+        "quality",
+        "grip_comfort",
+        "matte_finish",
+        "graphite_texture"
+      ]
+    },
+    {
+      "i": 192,
+      "needs": [
+        "material_quality",
+        "lead_feeding_mechanism",
+        "eraser_retention"
+      ]
+    },
+    {
+      "i": 193,
+      "needs": [
+        "barrel_shape",
+        "grip_comfort",
+        "sensory_issues",
+        "smoothness",
+        "lead_breakage_resistance"
+      ]
+    },
+    {
+      "i": 194,
+      "needs": [
+        "tip_size",
+        "grip_comfort",
+        "built_in_sharpener"
+      ]
+    },
+    {
+      "i": 195,
+      "needs": [
+        "barrel_shape",
+        "grip_comfort",
+        "roll_resistance",
+        "cushion",
+        "lead_darkness",
+        "eraser_retention",
+        "clip_durability"
+      ]
+    },
+    {
+      "i": 196,
+      "needs": [
+        "lead_breakage_resistance",
+        "built_in_sharpener"
+      ]
+    },
+    {
+      "i": 197,
+      "needs": [
+        "quality"
+      ]
+    },
+    {
+      "i": 198,
+      "needs": [
+        "durability",
+        "tip_size"
+      ]
+    },
+    {
+      "i": 199,
+      "needs": [
+        "eraser_replacement",
+        "lead_feeding_mechanism"
+      ]
+    },
+    {
+      "i": 200,
+      "needs": [
+        "graphite_texture",
+        "barrel_size",
+        "color_vibrancy",
+        "shading"
+      ]
+    },
+    {
+      "i": 201,
+      "needs": [
+        "lead_rotation",
+        "grip_comfort",
+        "color_vibrancy"
+      ]
+    },
+    {
+      "i": 202,
+      "needs": [
+        "color_vibrancy",
+        "tip_size"
+      ]
+    },
+    {
+      "i": 203,
+      "needs": [
+        "erasability",
+        "lead_hardness",
+        "lead_breakage_resistance"
+      ]
+    },
+    {
+      "i": 204,
+      "needs": [
+        "color_vibrancy",
+        "pressure_resistance",
+        "erasability"
+      ]
+    },
+    {
+      "i": 205,
+      "needs": [
+        "point_retention",
+        "erasability"
+      ]
+    },
+    {
+      "i": 206,
+      "needs": []
+    },
+    {
+      "i": 207,
+      "needs": [
+        "color_vibrancy",
+        "smoothness",
+        "erasability",
+        "eraser_size",
+        "replacement_erasers"
+      ]
+    },
+    {
+      "i": 208,
+      "needs": [
+        "color_vibrancy",
+        "grip_comfort",
+        "smoothness",
+        "lead_breakage_resistance"
+      ]
+    },
+    {
+      "i": 209,
+      "needs": [
+        "smoothness",
+        "erasability"
+      ]
+    },
+    {
+      "i": 210,
+      "needs": [
+        "durability",
+        "lead_feeding_mechanism"
+      ]
+    },
+    {
+      "i": 211,
+      "needs": [
+        "grip_comfort",
+        "point_retention"
+      ]
+    },
+    {
+      "i": 212,
+      "needs": [
+        "tip_size",
+        "lead_hardness",
+        "grip_comfort"
+      ]
+    },
+    {
+      "i": 213,
+      "needs": [
+        "tip_size",
+        "grip_comfort",
+        "spring_loaded_tip",
+        "pressure_resistance"
+      ]
+    },
+    {
+      "i": 214,
+      "needs": [
+        "weight",
+        "grip_comfort",
+        "tip_size",
+        "lead_darkness"
+      ]
+    },
+    {
+      "i": 215,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 216,
+      "needs": [
+        "grip_comfort",
+        "durability",
+        "tip_size",
+        "lead_breakage_resistance",
+        "lead_darkness"
+      ]
+    },
+    {
+      "i": 217,
+      "needs": [
+        "lead_capacity",
+        "lead_feeding_mechanism",
+        "cushion",
+        "weight"
+      ]
+    },
+    {
+      "i": 218,
+      "needs": [
+        "grip_comfort",
+        "barrel_material",
+        "tip_size",
+        "clip_durability",
+        "weight",
+        "weight_distribution"
+      ]
+    },
+    {
+      "i": 219,
+      "needs": [
+        "tip_size",
+        "smoothness",
+        "durability",
+        "grip_comfort"
+      ]
+    },
+    {
+      "i": 220,
+      "needs": [
+        "material_quality",
+        "durability",
+        "lead_retraction"
+      ]
+    },
+    {
+      "i": 221,
+      "needs": [
+        "tip_stability",
+        "lead_retraction",
+        "pocket_safety",
+        "durability"
+      ]
+    },
+    {
+      "i": 222,
+      "needs": [
+        "lead_breakage_resistance",
+        "smoothness",
+        "lead_retraction"
+      ]
+    },
+    {
+      "i": 223,
+      "needs": [
+        "lead_retraction",
+        "lead_breakage_resistance",
+        "material_quality",
+        "balance"
+      ]
+    },
+    {
+      "i": 224,
+      "needs": [
+        "lead_retraction",
+        "lead_breakage_resistance",
+        "smoothness"
+      ]
+    },
+    {
+      "i": 225,
+      "needs": [
+        "material_quality"
+      ]
+    },
+    {
+      "i": 226,
+      "needs": [
+        "lead_retraction",
+        "lead_breakage_resistance",
+        "tip_stability",
+        "weight",
+        "grip_comfort",
+        "lead_capacity"
+      ]
+    },
+    {
+      "i": 227,
+      "needs": [
+        "barrel_shape",
+        "roll_resistance",
+        "lead_retraction",
+        "mechanism_play"
+      ]
+    },
+    {
+      "i": 228,
+      "needs": [
+        "lead_breakage_resistance",
+        "weight",
+        "grip_comfort",
+        "design"
+      ]
+    },
+    {
+      "i": 229,
+      "needs": [
+        "durability",
+        "twist_mechanism",
+        "material_quality"
+      ]
+    },
+    {
+      "i": 230,
+      "needs": [
+        "lead_feeding_mechanism",
+        "lead_breakage_resistance",
+        "eraser_quality",
+        "smudge_resistance",
+        "advance_button_placement"
+      ]
+    },
+    {
+      "i": 231,
+      "needs": [
+        "barrel_size",
+        "durability",
+        "eraser_retention"
+      ]
+    },
+    {
+      "i": 232,
+      "needs": [
+        "grip_comfort",
+        "lead_hardness",
+        "smoothness",
+        "lead_breakage_resistance"
+      ]
+    },
+    {
+      "i": 233,
+      "needs": [
+        "tip_size",
+        "clip_durability",
+        "lead_darkness",
+        "eraser_quality"
+      ]
+    },
+    {
+      "i": 234,
+      "needs": [
+        "durability",
+        "lead_darkness",
+        "pressure_resistance"
+      ]
+    },
+    {
+      "i": 235,
+      "needs": [
+        "advance_button_placement",
+        "lead_feeding_mechanism"
+      ]
+    },
+    {
+      "i": 236,
+      "needs": [
+        "lead_breakage_resistance",
+        "grip_comfort"
+      ]
+    },
+    {
+      "i": 237,
+      "needs": [
+        "lead_feeding_mechanism",
+        "durability"
+      ]
+    },
+    {
+      "i": 238,
+      "needs": [
+        "lead_feeding_mechanism",
+        "durability"
+      ]
+    },
+    {
+      "i": 239,
+      "needs": [
+        "durability",
+        "color_vibrancy"
+      ]
+    },
+    {
+      "i": 240,
+      "needs": [
+        "lead_breakage_resistance",
+        "lead_darkness"
+      ]
+    },
+    {
+      "i": 241,
+      "needs": [
+        "eraser_size",
+        "lead_feeding_mechanism",
+        "replacement_erasers",
+        "lead_rotation",
+        "tip_stability",
+        "barrel_finish",
+        "lead_retraction"
+      ]
+    },
+    {
+      "i": 242,
+      "needs": [
+        "lead_rotation",
+        "lead_retraction"
+      ]
+    },
+    {
+      "i": 243,
+      "needs": [
+        "lead_rotation",
+        "lead_retraction",
+        "tip_stability",
+        "eraser_size"
+      ]
+    },
+    {
+      "i": 244,
+      "needs": [
+        "smoothness",
+        "weight",
+        "eraser_quality"
+      ]
+    },
+    {
+      "i": 245,
+      "needs": [
+        "lead_rotation",
+        "handwriting_improvement"
+      ]
+    },
+    {
+      "i": 246,
+      "needs": [
+        "lead_rotation"
+      ]
+    },
+    {
+      "i": 247,
+      "needs": [
+        "lead_feeding_mechanism"
+      ]
+    },
+    {
+      "i": 248,
+      "needs": [
+        "erasability",
+        "lead_breakage_resistance",
+        "line_crispness"
+      ]
+    },
+    {
+      "i": 249,
+      "needs": [
+        "lead_retraction",
+        "tip_size"
+      ]
+    },
+    {
+      "i": 250,
+      "needs": [
+        "lead_breakage_resistance",
+        "tip_size",
+        "barrel_size",
+        "barrel_shape"
+      ]
+    },
+    {
+      "i": 251,
+      "needs": [
+        "lead_breakage_resistance",
+        "tip_size",
+        "barrel_size",
+        "barrel_shape"
+      ]
+    },
+    {
+      "i": 252,
+      "needs": [
+        "tip_size",
+        "durability",
+        "eraser_quality"
+      ]
+    },
+    {
+      "i": 253,
+      "needs": [
+        "barrel_shape",
+        "grip_comfort",
+        "lead_breakage_resistance",
+        "lead_hardness",
+        "line_darkness"
+      ]
+    },
+    {
+      "i": 254,
+      "needs": [
+        "barrel_shape",
+        "grip_comfort",
+        "tip_size",
+        "lead_breakage_resistance",
+        "lead_capacity"
+      ]
+    },
+    {
+      "i": 255,
+      "needs": [
+        "lead_breakage_resistance",
+        "barrel_size",
+        "grip_comfort"
+      ]
+    },
+    {
+      "i": 256,
+      "needs": [
+        "lead_breakage_resistance",
+        "tip_size"
+      ]
+    },
+    {
+      "i": 257,
+      "needs": [
+        "lead_breakage_resistance",
+        "barrel_size",
+        "grip_comfort"
+      ]
+    },
+    {
+      "i": 258,
+      "needs": [
+        "barrel_shape",
+        "grip_comfort",
+        "lead_feeding_mechanism"
+      ]
+    },
+    {
+      "i": 259,
+      "needs": [
+        "lead_feeding_mechanism",
+        "durability"
+      ]
+    },
+    {
+      "i": 260,
+      "needs": [
+        "smoothness",
+        "ink_flow"
+      ]
+    },
+    {
+      "i": 261,
+      "needs": [
+        "ink_flow",
+        "writing_angle"
+      ]
+    },
+    {
+      "i": 262,
+      "needs": [
+        "smoothness"
+      ]
+    },
+    {
+      "i": 263,
+      "needs": [
+        "smoothness",
+        "erasability",
+        "line_crispness",
+        "smudge_resistance"
+      ]
+    },
+    {
+      "i": 264,
+      "needs": [
+        "smoothness",
+        "erasability"
+      ]
+    },
+    {
+      "i": 265,
+      "needs": [
+        "smoothness",
+        "graphite_texture",
+        "lead_retraction"
+      ]
+    },
+    {
+      "i": 266,
+      "needs": [
+        "erasability"
+      ]
+    },
+    {
+      "i": 267,
+      "needs": [
+        "ink_flow",
+        "erasability",
+        "lead_breakage_resistance"
+      ]
+    },
+    {
+      "i": 268,
+      "needs": [
+        "point_retention",
+        "lead_breakage_resistance"
+      ]
+    },
+    {
+      "i": 269,
+      "needs": [
+        "ink_flow",
+        "erasability"
+      ]
+    },
+    {
+      "i": 270,
+      "needs": [
+        "tip_size",
+        "lead_breakage_resistance",
+        "line_width",
+        "eraser_durability",
+        "grip_comfort"
+      ]
+    },
+    {
+      "i": 271,
+      "needs": [
+        "lead_breakage_resistance",
+        "lead_feeding_mechanism"
+      ]
+    },
+    {
+      "i": 272,
+      "needs": [
+        "durability",
+        "tip_stability"
+      ]
+    },
+    {
+      "i": 273,
+      "needs": [
+        "refillable",
+        "lead_guide_material",
+        "lead_darkness",
+        "eraser_size",
+        "lead_feeding_mechanism"
+      ]
+    },
+    {
+      "i": 274,
+      "needs": [
+        "lead_breakage_resistance",
+        "lead_feeding_mechanism",
+        "durability"
+      ]
+    },
+    {
+      "i": 275,
+      "needs": [
+        "grip_comfort",
+        "eraser_durability",
+        "lead_feeding_mechanism"
+      ]
+    },
+    {
+      "i": 276,
+      "needs": [
+        "smoothness",
+        "grip_comfort",
+        "eraser_size"
+      ]
+    },
+    {
+      "i": 277,
+      "needs": [
+        "quality"
+      ]
+    },
+    {
+      "i": 278,
+      "needs": [
+        "tip_size",
+        "lead_capacity"
+      ]
+    },
+    {
+      "i": 279,
+      "needs": [
+        "weight",
+        "grip_comfort",
+        "eraser_size"
+      ]
+    },
+    {
+      "i": 280,
+      "needs": [
+        "tip_size",
+        "precision",
+        "lead_breakage_resistance"
+      ]
+    },
+    {
+      "i": 281,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 282,
+      "needs": [
+        "lead_feeding_mechanism",
+        "lead_retraction",
+        "clip",
+        "tip_size"
+      ]
+    },
+    {
+      "i": 283,
+      "needs": [
+        "lead_breakage_resistance"
+      ]
+    },
+    {
+      "i": 284,
+      "needs": [
+        "material_quality",
+        "lead_hardness_indicator",
+        "lead_retraction",
+        "weight",
+        "grip_comfort"
+      ]
+    },
+    {
+      "i": 285,
+      "needs": [
+        "tip_size",
+        "erasability",
+        "lead_breakage_resistance",
+        "grip_comfort",
+        "lead_retraction",
+        "weight",
+        "eraser_quality",
+        "lead_capacity"
+      ]
+    },
+    {
+      "i": 286,
+      "needs": [
+        "durability",
+        "material_quality"
+      ]
+    },
+    {
+      "i": 287,
+      "needs": [
+        "lead_breakage_resistance",
+        "durability"
+      ]
+    },
+    {
+      "i": 288,
+      "needs": [
+        "durability",
+        "lead_breakage_resistance"
+      ]
+    },
+    {
+      "i": 289,
+      "needs": [
+        "tip_size",
+        "lead_breakage_resistance",
+        "lead_retraction"
+      ]
+    },
+    {
+      "i": 290,
+      "needs": [
+        "grip_comfort",
+        "smoothness"
+      ]
+    },
+    {
+      "i": 291,
+      "needs": [
+        "ink_flow",
+        "durability"
+      ]
+    },
+    {
+      "i": 292,
+      "needs": [
+        "lead_feeding_mechanism",
+        "lead_capacity"
+      ]
+    },
+    {
+      "i": 293,
+      "needs": [
+        "ink_flow",
+        "grip_comfort"
+      ]
+    },
+    {
+      "i": 294,
+      "needs": [
+        "smoothness"
+      ]
+    },
+    {
+      "i": 295,
+      "needs": [
+        "grip_comfort",
+        "smoothness",
+        "lead_retraction",
+        "eraser_size"
+      ]
+    },
+    {
+      "i": 296,
+      "needs": [
+        "durability",
+        "smoothness",
+        "smudge_resistance",
+        "weight",
+        "grip_comfort"
+      ]
+    },
+    {
+      "i": 297,
+      "needs": [
+        "smoothness",
+        "smudge_resistance",
+        "barrel_size",
+        "durability"
+      ]
+    },
+    {
+      "i": 298,
+      "needs": [
+        "weight",
+        "durability"
+      ]
+    },
+    {
+      "i": 299,
+      "needs": [
+        "grip_comfort",
+        "smoothness",
+        "ink_color",
+        "smudge_resistance"
+      ]
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "extract-needs@2026-10-27.1+mechanical-pencils",
+  "usage": {
+    "inputTokens": 20409,
+    "outputTokens": 7093
+  },
+  "latencyMs": 17774,
+  "cached": false
+}

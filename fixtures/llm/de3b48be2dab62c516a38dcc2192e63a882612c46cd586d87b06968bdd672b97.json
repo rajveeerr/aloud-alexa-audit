@@ -1,0 +1,97 @@
+{
+  "data": [
+    {
+      "intentId": "capacity_oz",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.capacity",
+          "text": "950 Milliliters"
+        }
+      ],
+      "value": "950 Milliliters"
+    },
+    {
+      "intentId": "bpa_free",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "BPA-free"
+        }
+      ],
+      "value": "BPA-free"
+    },
+    {
+      "intentId": "leak_proof",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "cup_holder_fit",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "insulation_type",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "dishwasher_safe",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "dishwasher safe"
+        }
+      ],
+      "value": "dishwasher safe"
+    },
+    {
+      "intentId": "material_composition",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "corn - rather than oil - based plastic"
+        }
+      ],
+      "value": "corn - rather than oil - based plastic"
+    },
+    {
+      "intentId": "ice_cube_compatibility",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "weight_empty",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "0.11 Kilograms"
+        }
+      ],
+      "value": "0.11 Kilograms"
+    },
+    {
+      "intentId": "carrying_strap",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "measurement_markings",
+      "status": "missing",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+water-bottles@estimated-2026-10-27.1",
+  "usage": {
+    "inputTokens": 1474,
+    "outputTokens": 575
+  },
+  "latencyMs": 17881,
+  "cached": false
+}

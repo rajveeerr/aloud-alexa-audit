@@ -1,6 +1,10 @@
 {
   "categoryId": "gel-ink-pens",
+  "categoryName": "Gel Ink Rollerball Pens",
+  "match": ["Gel Ink Rollerball Pens", "Gel Ink Pens"],
   "version": "2026-10-27.1",
+  "basis": "mined",
+  "reviewed": true,
   "source": "Mined from 600 reviews (10 most helpful from each of the 60 most-reviewed gel pens, Amazon Reviews 2023), clustered, then reviewed by hand.",
   "sampleSize": 600,
   "intents": [

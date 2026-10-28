@@ -1,0 +1,126 @@
+{
+  "categoryId": "dry-erase-boards",
+  "categoryName": "Dry Erase Boards",
+  "match": [
+    "Dry Erase Boards"
+  ],
+  "version": "mined-2026-10-27.1",
+  "basis": "mined",
+  "reviewed": false,
+  "sampleSize": 600,
+  "intents": [
+    {
+      "id": "erasability_and_staining",
+      "kind": "claim",
+      "question": "Does the board erase cleanly without staining or leaving ghost marks?",
+      "rubric": "answered: states ease of erasing and stain resistance; partial: mentions erasing performance.",
+      "frequency": 186
+    },
+    {
+      "id": "durability_and_sturdiness",
+      "kind": "claim",
+      "question": "How sturdy and durable is the board against warping and wear?",
+      "rubric": "answered: details structural durability and build quality; partial: mentions general sturdiness.",
+      "frequency": 183
+    },
+    {
+      "id": "magnetic_properties",
+      "kind": "spec",
+      "question": "Is the board magnetic and how strong is the magnet?",
+      "rubric": "answered: specifies magnetic surface and magnet strength; partial: mentions magnetic without strength.",
+      "frequency": 182
+    },
+    {
+      "id": "board_size",
+      "kind": "spec",
+      "question": "What are the dimensions and writing space of the board?",
+      "rubric": "answered: dimensions or writing space stated; partial: only general size mentioned.",
+      "frequency": 130
+    },
+    {
+      "id": "mounting_hardware_and_options",
+      "kind": "spec",
+      "question": "What mounting hardware and installation options are provided?",
+      "rubric": "answered: details hardware and mounting options; partial: mentions wall mounting only.",
+      "frequency": 104
+    },
+    {
+      "id": "included_accessories",
+      "kind": "spec",
+      "question": "What accessories like markers, erasers, and trays are included?",
+      "rubric": "answered: lists included accessories; partial: mentions accessories generally without list.",
+      "frequency": 75
+    },
+    {
+      "id": "portability_and_weight",
+      "kind": "claim",
+      "question": "Is the board lightweight and easy to transport?",
+      "rubric": "answered: gives weight and portability details; partial: mentions weight only.",
+      "frequency": 52,
+      "conditional": true
+    },
+    {
+      "id": "marker_performance",
+      "kind": "claim",
+      "question": "How vibrant, long-lasting, and smudge-resistant are the included markers?",
+      "rubric": "answered: details marker performance and ink quality; partial: mentions markers briefly.",
+      "frequency": 48,
+      "conditional": true
+    },
+    {
+      "id": "double_sided_feature",
+      "kind": "spec",
+      "question": "Is the board double-sided?",
+      "rubric": "answered: explicitly states single or double-sided; partial: unclear description.",
+      "frequency": 38,
+      "conditional": true
+    },
+    {
+      "id": "board_material",
+      "kind": "spec",
+      "question": "What materials are used for the writing surface, frame, and backing?",
+      "rubric": "answered: states materials for surface and frame; partial: states only surface material.",
+      "frequency": 33
+    },
+    {
+      "id": "board_layout",
+      "kind": "spec",
+      "question": "Does the board have a calendar, grid lines, or special layout?",
+      "rubric": "answered: describes layout type; partial: vague layout mention.",
+      "frequency": 29,
+      "conditional": true
+    },
+    {
+      "id": "special_features",
+      "kind": "spec",
+      "question": "Does the board include a cork board, stand, or storage compartments?",
+      "rubric": "answered: lists extra functional features; partial: mentions one feature.",
+      "frequency": 23,
+      "conditional": true
+    },
+    {
+      "id": "surface_smoothness_and_flatness",
+      "kind": "claim",
+      "question": "Is the writing surface completely smooth and flat?",
+      "rubric": "answered: specifies surface smoothness and flatness; partial: mentions texture.",
+      "frequency": 17
+    },
+    {
+      "id": "adhesive_installation",
+      "kind": "claim",
+      "question": "Does the adhesive mount securely to walls without damage?",
+      "rubric": "answered: describes adhesive strength and wall safety; partial: mentions adhesion.",
+      "frequency": 15,
+      "conditional": true
+    },
+    {
+      "id": "frameless_and_border_design",
+      "kind": "spec",
+      "question": "Is the board frameless or borderless?",
+      "rubric": "answered: specifies frameless design; partial: unstated frame style.",
+      "frequency": 6,
+      "conditional": true
+    }
+  ],
+  "source": "Mined from 600 reviews (Amazon Reviews 2023). Not yet reviewed by hand."
+}

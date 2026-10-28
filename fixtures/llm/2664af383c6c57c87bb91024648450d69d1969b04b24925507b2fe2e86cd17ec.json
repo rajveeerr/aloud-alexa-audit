@@ -1,0 +1,251 @@
+{
+  "data": [
+    {
+      "id": "board_size",
+      "question": "What are the dimensions and writing space of the board?",
+      "kind": "spec",
+      "rubric": "answered: dimensions or writing space stated; partial: only general size mentioned.",
+      "members": [
+        "size",
+        "writing_space",
+        "dimensions",
+        "layout_size"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "magnetic_properties",
+      "question": "Is the board magnetic and how strong is the magnet?",
+      "kind": "spec",
+      "rubric": "answered: specifies magnetic surface and magnet strength; partial: mentions magnetic without strength.",
+      "members": [
+        "magnetic",
+        "magnet_strength",
+        "magnetic_strength",
+        "marker_magnetism",
+        "magnetic_adhesion",
+        "magnetic_coverage"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "double_sided_feature",
+      "question": "Is the board double-sided?",
+      "kind": "spec",
+      "rubric": "answered: explicitly states single or double-sided; partial: unclear description.",
+      "members": [
+        "double_sided"
+      ],
+      "conditional": true
+    },
+    {
+      "id": "board_material",
+      "question": "What materials are used for the writing surface, frame, and backing?",
+      "kind": "spec",
+      "rubric": "answered: states materials for surface and frame; partial: states only surface material.",
+      "members": [
+        "material",
+        "frame",
+        "thickness",
+        "depth",
+        "material_quality",
+        "frame_material",
+        "frame_thickness",
+        "backing_material",
+        "frame_shape"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "board_layout",
+      "question": "Does the board have a calendar, grid lines, or special layout?",
+      "kind": "spec",
+      "rubric": "answered: describes layout type; partial: vague layout mention.",
+      "members": [
+        "calendar_layout",
+        "layout",
+        "grid_lines",
+        "ruled"
+      ],
+      "conditional": true
+    },
+    {
+      "id": "included_accessories",
+      "question": "What accessories like markers, erasers, and trays are included?",
+      "kind": "spec",
+      "rubric": "answered: lists included accessories; partial: mentions accessories generally without list.",
+      "members": [
+        "accessories_included",
+        "included_accessories",
+        "eraser",
+        "marker_erasers",
+        "pen_tray",
+        "tray",
+        "marker_quantity",
+        "tray_included",
+        "pen_holder",
+        "marker_variety"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "mounting_hardware_and_options",
+      "question": "What mounting hardware and installation options are provided?",
+      "kind": "spec",
+      "rubric": "answered: details hardware and mounting options; partial: mentions wall mounting only.",
+      "members": [
+        "wall_mounting",
+        "mounting_hardware",
+        "installation_ease",
+        "mounting_template",
+        "mounting",
+        "ease_of_installation",
+        "ease_of_hanging",
+        "mounting_options",
+        "hanging_mechanism",
+        "hanging_hardware"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "frameless_and_border_design",
+      "question": "Is the board frameless or borderless?",
+      "kind": "spec",
+      "rubric": "answered: specifies frameless design; partial: unstated frame style.",
+      "members": [
+        "frameless",
+        "borderless"
+      ],
+      "conditional": true
+    },
+    {
+      "id": "special_features",
+      "question": "Does the board include a cork board, stand, or storage compartments?",
+      "kind": "spec",
+      "rubric": "answered: lists extra functional features; partial: mentions one feature.",
+      "members": [
+        "cork_board",
+        "stand_feature",
+        "marker_storage",
+        "storage_compartment",
+        "storage_capacity"
+      ],
+      "conditional": true
+    },
+    {
+      "id": "erasability_and_staining",
+      "question": "Does the board erase cleanly without staining or leaving ghost marks?",
+      "kind": "claim",
+      "rubric": "answered: states ease of erasing and stain resistance; partial: mentions erasing performance.",
+      "members": [
+        "erase_cleanliness",
+        "staining",
+        "erasability",
+        "ease_of_cleaning",
+        "stain_resistance",
+        "residue_free",
+        "discoloration_resistance"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "durability_and_sturdiness",
+      "question": "How sturdy and durable is the board against warping and wear?",
+      "kind": "claim",
+      "rubric": "answered: details structural durability and build quality; partial: mentions general sturdiness.",
+      "members": [
+        "durability",
+        "sturdiness",
+        "build_quality",
+        "scratch_resistance",
+        "laminate_quality",
+        "outline_durability",
+        "frame_quality",
+        "material_durability",
+        "warp_resistance",
+        "hardware_sturdiness"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "surface_smoothness_and_flatness",
+      "question": "Is the writing surface completely smooth and flat?",
+      "kind": "claim",
+      "rubric": "answered: specifies surface smoothness and flatness; partial: mentions texture.",
+      "members": [
+        "surface_smoothness",
+        "flatness",
+        "surface_texture",
+        "surface_flatness",
+        "surface_quality",
+        "surface_friction",
+        "surface_condition"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "marker_performance",
+      "question": "How vibrant, long-lasting, and smudge-resistant are the included markers?",
+      "kind": "claim",
+      "rubric": "answered: details marker performance and ink quality; partial: mentions markers briefly.",
+      "members": [
+        "marker_quality",
+        "marker_vibrancy",
+        "smudging",
+        "tip_size",
+        "marker_tip_size",
+        "visibility",
+        "marker_visibility",
+        "marker_compatibility",
+        "dry_time",
+        "marker_longevity",
+        "glare_resistance",
+        "vibrancy",
+        "smearing",
+        "marker_bleeding",
+        "marker_thickness",
+        "ease_of_writing",
+        "marker_ease_of_use",
+        "accessory_quality",
+        "coating_quality",
+        "marker_odor",
+        "marker_ink_quality",
+        "marker_bleed_resistance",
+        "smooth_writing"
+      ],
+      "conditional": true
+    },
+    {
+      "id": "portability_and_weight",
+      "question": "Is the board lightweight and easy to transport?",
+      "kind": "claim",
+      "rubric": "answered: gives weight and portability details; partial: mentions weight only.",
+      "members": [
+        "weight",
+        "portability",
+        "flexibility",
+        "foldability"
+      ],
+      "conditional": true
+    },
+    {
+      "id": "adhesive_installation",
+      "question": "Does the adhesive mount securely to walls without damage?",
+      "kind": "claim",
+      "rubric": "answered: describes adhesive strength and wall safety; partial: mentions adhesion.",
+      "members": [
+        "adhesive_quality",
+        "adhesion"
+      ],
+      "conditional": true
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "cluster-needs@2026-10-27.1+dry-erase-boards",
+  "usage": {
+    "inputTokens": 1147,
+    "outputTokens": 1930
+  },
+  "latencyMs": 8605,
+  "cached": false
+}

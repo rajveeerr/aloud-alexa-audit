@@ -1,0 +1,63 @@
+{
+  "asin": "B0BZQYP39K",
+  "promptVersion": "transcribe@2026-10-27.1",
+  "model": "gemini-3.5-flash-lite",
+  "usage": {
+    "inputTokens": 6690,
+    "outputTokens": 386
+  },
+  "images": 6,
+  "skippedImageIds": [],
+  "modelOutput": [
+    {
+      "imageId": "img.0",
+      "claims": [
+        "TRUSTED QUALITY AMAZING VALUE",
+        "NEW BARREL COLORS",
+        "0.7 mm",
+        "#2",
+        "Smooth Dark Writing",
+        "Erases Cleanly",
+        "24 ct",
+        "Blisters"
+      ]
+    },
+    {
+      "imageId": "img.1",
+      "claims": [
+        "RELIABLE MECHANICAL PENCILS WITH SPARKLY, FUN DESIGNS",
+        "Pencil 0.7mm HB#2",
+        "Pencil 0.7mm HB#2",
+        "Pencil 0.7mm HB#2",
+        "Pencil 0.7mm HB#2"
+      ]
+    },
+    {
+      "imageId": "img.2",
+      "claims": [
+        "MEDIUM 0.7MM POINT IS PERFECT FOR EVERYDAY WRITING"
+      ]
+    },
+    {
+      "imageId": "img.3",
+      "claims": [
+        "THE SMART CHOICE FOR STANDARDIZED TESTS"
+      ]
+    },
+    {
+      "imageId": "img.4",
+      "claims": [
+        "1 BIC MECHANICAL PENCIL",
+        "=",
+        "2.5 WOOD CASE PENCILS"
+      ]
+    },
+    {
+      "imageId": "img.5",
+      "claims": [
+        "CLICK THE BUILT-IN ERASER TO ADVANCE THE LEAD",
+        "DARK, SMOOTH-WRITING LEAD DOESN'T SMUDGE AND ERASES CLEANLY"
+      ]
+    }
+  ]
+}

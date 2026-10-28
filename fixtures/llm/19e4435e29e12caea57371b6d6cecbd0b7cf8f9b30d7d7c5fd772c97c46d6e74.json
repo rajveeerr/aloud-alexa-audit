@@ -1,0 +1,1090 @@
+{
+  "data": [
+    {
+      "i": 300,
+      "needs": [
+        "durability",
+        "refillable"
+      ]
+    },
+    {
+      "i": 301,
+      "needs": [
+        "durability",
+        "lead_mechanism_jamming",
+        "longevity"
+      ]
+    },
+    {
+      "i": 302,
+      "needs": [
+        "portability",
+        "lead_breakage",
+        "color_pigmentation",
+        "color_blending",
+        "color_selection"
+      ]
+    },
+    {
+      "i": 303,
+      "needs": [
+        "lead_breakage",
+        "durability"
+      ]
+    },
+    {
+      "i": 304,
+      "needs": [
+        "color_selection",
+        "grip_comfort",
+        "portability",
+        "color_blending"
+      ]
+    },
+    {
+      "i": 305,
+      "needs": [
+        "lead_smoothness",
+        "lead_breakage",
+        "lead_mechanism_smoothness"
+      ]
+    },
+    {
+      "i": 306,
+      "needs": [
+        "portability",
+        "lead_mechanism_smoothness",
+        "color_pigmentation",
+        "lead_softness",
+        "refillable"
+      ]
+    },
+    {
+      "i": 307,
+      "needs": [
+        "lead_feeding_mechanism",
+        "color_selection",
+        "paper_compatibility"
+      ]
+    },
+    {
+      "i": 308,
+      "needs": [
+        "lead_mechanism_smoothness",
+        "lead_jamming"
+      ]
+    },
+    {
+      "i": 309,
+      "needs": [
+        "color_selection",
+        "paper_compatibility",
+        "longevity"
+      ]
+    },
+    {
+      "i": 310,
+      "needs": [
+        "rotating_mechanism",
+        "writing_pressure",
+        "eraser_replacement",
+        "refillable",
+        "weight_and_material"
+      ]
+    },
+    {
+      "i": 311,
+      "needs": [
+        "material_finish",
+        "rotating_mechanism",
+        "lead_sharpness"
+      ]
+    },
+    {
+      "i": 312,
+      "needs": [
+        "durability",
+        "rotating_mechanism",
+        "lead_sharpness",
+        "eraser_size"
+      ]
+    },
+    {
+      "i": 313,
+      "needs": [
+        "lead_size",
+        "rotating_mechanism",
+        "lead_breakage"
+      ]
+    },
+    {
+      "i": 314,
+      "needs": [
+        "rotating_mechanism",
+        "lead_sharpness",
+        "lead_smoothness",
+        "smudging"
+      ]
+    },
+    {
+      "i": 315,
+      "needs": [
+        "rotating_mechanism",
+        "lead_breakage"
+      ]
+    },
+    {
+      "i": 316,
+      "needs": [
+        "durability",
+        "refillable"
+      ]
+    },
+    {
+      "i": 317,
+      "needs": []
+    },
+    {
+      "i": 318,
+      "needs": [
+        "rotating_mechanism",
+        "lead_sharpness",
+        "lead_breakage"
+      ]
+    },
+    {
+      "i": 319,
+      "needs": [
+        "durability",
+        "lead_smoothness",
+        "rotating_mechanism",
+        "lead_breakage"
+      ]
+    },
+    {
+      "i": 320,
+      "needs": [
+        "material_construction",
+        "weight_and_balance",
+        "built_in_sharpener"
+      ]
+    },
+    {
+      "i": 321,
+      "needs": [
+        "lead_breakage",
+        "wobble"
+      ]
+    },
+    {
+      "i": 322,
+      "needs": [
+        "grip_texture",
+        "built_in_sharpener",
+        "lead_compatibility",
+        "click_mechanism"
+      ]
+    },
+    {
+      "i": 323,
+      "needs": [
+        "durability",
+        "weight_and_balance",
+        "grip_cleanliness"
+      ]
+    },
+    {
+      "i": 324,
+      "needs": [
+        "lead_sleeve_length",
+        "grip_texture",
+        "weight"
+      ]
+    },
+    {
+      "i": 325,
+      "needs": [
+        "durability",
+        "eraser_size"
+      ]
+    },
+    {
+      "i": 326,
+      "needs": []
+    },
+    {
+      "i": 327,
+      "needs": [
+        "lead_size",
+        "sharpener_compatibility",
+        "build_quality"
+      ]
+    },
+    {
+      "i": 328,
+      "needs": [
+        "sharpener_compatibility"
+      ]
+    },
+    {
+      "i": 329,
+      "needs": [
+        "lead_size",
+        "cap_security"
+      ]
+    },
+    {
+      "i": 330,
+      "needs": [
+        "eraser_size",
+        "lead_size"
+      ]
+    },
+    {
+      "i": 331,
+      "needs": [
+        "erasability",
+        "lead_longevity",
+        "lead_breakage",
+        "eraser_effectiveness"
+      ]
+    },
+    {
+      "i": 332,
+      "needs": [
+        "grip_comfort",
+        "lead_smoothness",
+        "refillable"
+      ]
+    },
+    {
+      "i": 333,
+      "needs": [
+        "durability",
+        "lead_stability",
+        "eraser_wear",
+        "lead_sharpness"
+      ]
+    },
+    {
+      "i": 334,
+      "needs": [
+        "grip_comfort",
+        "eraser_size",
+        "cap_durability"
+      ]
+    },
+    {
+      "i": 335,
+      "needs": [
+        "lead_smoothness"
+      ]
+    },
+    {
+      "i": 336,
+      "needs": []
+    },
+    {
+      "i": 337,
+      "needs": [
+        "lead_breakage",
+        "color_selection",
+        "lead_size"
+      ]
+    },
+    {
+      "i": 338,
+      "needs": [
+        "lead_size",
+        "lead_darkness",
+        "eraser_cleanliness"
+      ]
+    },
+    {
+      "i": 339,
+      "needs": [
+        "lead_breakage",
+        "color_pigmentation",
+        "erasability"
+      ]
+    },
+    {
+      "i": 340,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 341,
+      "needs": [
+        "grip_texture",
+        "weight_and_balance",
+        "retractable_tip",
+        "lead_size",
+        "lead_breakage",
+        "pocket_clip"
+      ]
+    },
+    {
+      "i": 342,
+      "needs": [
+        "retractable_tip",
+        "weight_and_balance"
+      ]
+    },
+    {
+      "i": 343,
+      "needs": [
+        "material_construction",
+        "retractable_tip",
+        "pocket_portability",
+        "weight_and_balance",
+        "lead_breakage",
+        "lead_size"
+      ]
+    },
+    {
+      "i": 344,
+      "needs": [
+        "cap_security"
+      ]
+    },
+    {
+      "i": 345,
+      "needs": [
+        "weight",
+        "grip_texture"
+      ]
+    },
+    {
+      "i": 346,
+      "needs": [
+        "cap_security",
+        "eraser_protection"
+      ]
+    },
+    {
+      "i": 347,
+      "needs": [
+        "lead_size",
+        "lead_jamming",
+        "retractable_tip"
+      ]
+    },
+    {
+      "i": 348,
+      "needs": [
+        "lead_size",
+        "lead_jamming",
+        "retractable_tip"
+      ]
+    },
+    {
+      "i": 349,
+      "needs": [
+        "lead_size",
+        "noise_vibration"
+      ]
+    },
+    {
+      "i": 350,
+      "needs": [
+        "lead_size",
+        "grip_thickness",
+        "lead_breakage"
+      ]
+    },
+    {
+      "i": 351,
+      "needs": [
+        "lead_feeding_mechanism",
+        "lead_jamming"
+      ]
+    },
+    {
+      "i": 352,
+      "needs": [
+        "grip_comfort",
+        "lead_size",
+        "lead_breakage",
+        "eraser_size",
+        "erasability"
+      ]
+    },
+    {
+      "i": 353,
+      "needs": [
+        "grip_comfort",
+        "lead_size",
+        "grip_thickness",
+        "lead_breakage",
+        "eraser_size",
+        "retractable_tip"
+      ]
+    },
+    {
+      "i": 354,
+      "needs": [
+        "lead_size",
+        "eraser_size",
+        "grip_thickness",
+        "durability"
+      ]
+    },
+    {
+      "i": 355,
+      "needs": [
+        "lead_size",
+        "eraser_type",
+        "shading_ability",
+        "grip_comfort"
+      ]
+    },
+    {
+      "i": 356,
+      "needs": [
+        "grip_thickness",
+        "eraser_replacement"
+      ]
+    },
+    {
+      "i": 357,
+      "needs": [
+        "ergonomics",
+        "lead_smoothness",
+        "lead_darkness"
+      ]
+    },
+    {
+      "i": 358,
+      "needs": [
+        "lead_smoothness",
+        "smudging",
+        "grip_comfort",
+        "eraser_size",
+        "weight_and_balance",
+        "pencil_length"
+      ]
+    },
+    {
+      "i": 359,
+      "needs": [
+        "grip_material",
+        "grip_cleanliness"
+      ]
+    },
+    {
+      "i": 360,
+      "needs": [
+        "ink_smell"
+      ]
+    },
+    {
+      "i": 361,
+      "needs": [
+        "durability",
+        "sanitizer_resistance"
+      ]
+    },
+    {
+      "i": 362,
+      "needs": [
+        "retraction_mechanism"
+      ]
+    },
+    {
+      "i": 363,
+      "needs": [
+        "ink_versatility",
+        "pocket_portability"
+      ]
+    },
+    {
+      "i": 364,
+      "needs": [
+        "lead_locking_mechanism"
+      ]
+    },
+    {
+      "i": 365,
+      "needs": [
+        "weight"
+      ]
+    },
+    {
+      "i": 366,
+      "needs": [
+        "ink_type",
+        "weather_resistance",
+        "durability"
+      ]
+    },
+    {
+      "i": 367,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 368,
+      "needs": [
+        "weight",
+        "clip_durability",
+        "click_smoothness"
+      ]
+    },
+    {
+      "i": 369,
+      "needs": [
+        "weight",
+        "pocket_portability",
+        "grip_comfort"
+      ]
+    },
+    {
+      "i": 370,
+      "needs": [
+        "eraser_replacement"
+      ]
+    },
+    {
+      "i": 371,
+      "needs": []
+    },
+    {
+      "i": 372,
+      "needs": [
+        "lead_feeding_mechanism",
+        "eraser_effectiveness",
+        "lead_breakage"
+      ]
+    },
+    {
+      "i": 373,
+      "needs": []
+    },
+    {
+      "i": 374,
+      "needs": [
+        "lead_feeding_mechanism"
+      ]
+    },
+    {
+      "i": 375,
+      "needs": [
+        "lead_breakage",
+        "lead_advancement_mechanism"
+      ]
+    },
+    {
+      "i": 376,
+      "needs": [
+        "lead_stability",
+        "lead_advancement_length",
+        "eraser_quality"
+      ]
+    },
+    {
+      "i": 377,
+      "needs": [
+        "lead_sharpness"
+      ]
+    },
+    {
+      "i": 378,
+      "needs": [
+        "ergonomics",
+        "precision"
+      ]
+    },
+    {
+      "i": 379,
+      "needs": []
+    },
+    {
+      "i": 380,
+      "needs": [
+        "lead_breakage",
+        "lead_size",
+        "grip_comfort"
+      ]
+    },
+    {
+      "i": 381,
+      "needs": [
+        "grip_comfort",
+        "lead_darkness"
+      ]
+    },
+    {
+      "i": 382,
+      "needs": [
+        "lead_breakage",
+        "grip_comfort"
+      ]
+    },
+    {
+      "i": 383,
+      "needs": [
+        "lead_size",
+        "lead_smoothness",
+        "eraser_cap"
+      ]
+    },
+    {
+      "i": 384,
+      "needs": [
+        "weight_and_balance",
+        "grip_cushioning",
+        "writing_fatigue"
+      ]
+    },
+    {
+      "i": 385,
+      "needs": [
+        "lead_size",
+        "eraser_extension"
+      ]
+    },
+    {
+      "i": 386,
+      "needs": [
+        "durability",
+        "grip_comfort",
+        "lead_breakage",
+        "eraser_size"
+      ]
+    },
+    {
+      "i": 387,
+      "needs": []
+    },
+    {
+      "i": 388,
+      "needs": [
+        "durability",
+        "environmental_resistance"
+      ]
+    },
+    {
+      "i": 389,
+      "needs": []
+    },
+    {
+      "i": 390,
+      "needs": [
+        "lead_darkness",
+        "lead_breakage",
+        "eraser_size",
+        "grip_comfort",
+        "lead_advancement_mechanism"
+      ]
+    },
+    {
+      "i": 391,
+      "needs": [
+        "ergonomics",
+        "lead_jamming"
+      ]
+    },
+    {
+      "i": 392,
+      "needs": [
+        "weight",
+        "eraser_quality"
+      ]
+    },
+    {
+      "i": 393,
+      "needs": [
+        "durability",
+        "grip_comfort",
+        "lead_size",
+        "lead_darkness",
+        "lead_smoothness",
+        "lead_breakage"
+      ]
+    },
+    {
+      "i": 394,
+      "needs": [
+        "eraser_size",
+        "lead_advancement_mechanism",
+        "weight"
+      ]
+    },
+    {
+      "i": 395,
+      "needs": []
+    },
+    {
+      "i": 396,
+      "needs": [
+        "grip_comfort",
+        "eraser_stability"
+      ]
+    },
+    {
+      "i": 397,
+      "needs": [
+        "ergonomics",
+        "eraser_size",
+        "grip_comfort",
+        "lead_strength"
+      ]
+    },
+    {
+      "i": 398,
+      "needs": [
+        "lead_size",
+        "eraser_stability"
+      ]
+    },
+    {
+      "i": 399,
+      "needs": [
+        "eraser_adjustment",
+        "lead_breakage",
+        "grip_comfort",
+        "grip_thickness"
+      ]
+    },
+    {
+      "i": 400,
+      "needs": [
+        "built_in_sharpener"
+      ]
+    },
+    {
+      "i": 401,
+      "needs": [
+        "lead_size",
+        "weight",
+        "built_in_sharpener"
+      ]
+    },
+    {
+      "i": 402,
+      "needs": [
+        "lead_darkness"
+      ]
+    },
+    {
+      "i": 403,
+      "needs": [
+        "weight_and_balance",
+        "lead_hardness"
+      ]
+    },
+    {
+      "i": 404,
+      "needs": [
+        "lead_hardness"
+      ]
+    },
+    {
+      "i": 405,
+      "needs": [
+        "durability",
+        "grip_comfort",
+        "built_in_sharpener"
+      ]
+    },
+    {
+      "i": 406,
+      "needs": [
+        "weight",
+        "durability"
+      ]
+    },
+    {
+      "i": 407,
+      "needs": [
+        "weight",
+        "grip_texture",
+        "clutch_mechanism"
+      ]
+    },
+    {
+      "i": 408,
+      "needs": [
+        "lead_advancement_mechanism",
+        "clutch_mechanism"
+      ]
+    },
+    {
+      "i": 409,
+      "needs": [
+        "weight",
+        "grip_comfort",
+        "lead_marking"
+      ]
+    },
+    {
+      "i": 410,
+      "needs": []
+    },
+    {
+      "i": 411,
+      "needs": [
+        "lead_size",
+        "weight"
+      ]
+    },
+    {
+      "i": 412,
+      "needs": [
+        "grip_comfort",
+        "writing_fatigue"
+      ]
+    },
+    {
+      "i": 413,
+      "needs": [
+        "ergonomics"
+      ]
+    },
+    {
+      "i": 414,
+      "needs": [
+        "lead_sharpness",
+        "weight",
+        "grip_comfort",
+        "lead_breakage"
+      ]
+    },
+    {
+      "i": 415,
+      "needs": [
+        "sharpener_compatibility"
+      ]
+    },
+    {
+      "i": 416,
+      "needs": [
+        "weight"
+      ]
+    },
+    {
+      "i": 417,
+      "needs": []
+    },
+    {
+      "i": 418,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 419,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 420,
+      "needs": [
+        "grip_comfort"
+      ]
+    },
+    {
+      "i": 421,
+      "needs": [
+        "lead_advancement_mechanism",
+        "weight"
+      ]
+    },
+    {
+      "i": 422,
+      "needs": [
+        "lead_breakage",
+        "color_switching"
+      ]
+    },
+    {
+      "i": 423,
+      "needs": []
+    },
+    {
+      "i": 424,
+      "needs": [
+        "durability",
+        "pocket_clip"
+      ]
+    },
+    {
+      "i": 425,
+      "needs": []
+    },
+    {
+      "i": 426,
+      "needs": [
+        "durability",
+        "grip_thickness"
+      ]
+    },
+    {
+      "i": 427,
+      "needs": [
+        "color_pigmentation",
+        "eraser_size"
+      ]
+    },
+    {
+      "i": 428,
+      "needs": [
+        "weight",
+        "durability"
+      ]
+    },
+    {
+      "i": 429,
+      "needs": [
+        "durability",
+        "lead_feeding_mechanism"
+      ]
+    },
+    {
+      "i": 430,
+      "needs": [
+        "built_in_sharpener"
+      ]
+    },
+    {
+      "i": 431,
+      "needs": []
+    },
+    {
+      "i": 432,
+      "needs": [
+        "lead_breakage",
+        "collet_tightness"
+      ]
+    },
+    {
+      "i": 433,
+      "needs": [
+        "lead_breakage"
+      ]
+    },
+    {
+      "i": 434,
+      "needs": [
+        "lead_holding_mechanism",
+        "weight"
+      ]
+    },
+    {
+      "i": 435,
+      "needs": [
+        "lead_breakage",
+        "built_in_sharpener"
+      ]
+    },
+    {
+      "i": 436,
+      "needs": [
+        "lead_breakage",
+        "lead_support"
+      ]
+    },
+    {
+      "i": 437,
+      "needs": [
+        "weight",
+        "built_in_sharpener",
+        "lead_darkness",
+        "lead_smoothness"
+      ]
+    },
+    {
+      "i": 438,
+      "needs": [
+        "lead_length_adjustment",
+        "durability"
+      ]
+    },
+    {
+      "i": 439,
+      "needs": [
+        "built_in_sharpener",
+        "eraser_presence"
+      ]
+    },
+    {
+      "i": 440,
+      "needs": [
+        "eraser_size",
+        "eraser_texture",
+        "eraser_effectiveness"
+      ]
+    },
+    {
+      "i": 441,
+      "needs": [
+        "lead_advancement_mechanism",
+        "eraser_extension",
+        "lead_hardness"
+      ]
+    },
+    {
+      "i": 442,
+      "needs": []
+    },
+    {
+      "i": 443,
+      "needs": [
+        "eraser_stability"
+      ]
+    },
+    {
+      "i": 444,
+      "needs": [
+        "eraser_size",
+        "eraser_extension"
+      ]
+    },
+    {
+      "i": 445,
+      "needs": [
+        "grip_comfort",
+        "eraser_stability"
+      ]
+    },
+    {
+      "i": 446,
+      "needs": [
+        "lead_advancement_mechanism",
+        "eraser_stability"
+      ]
+    },
+    {
+      "i": 447,
+      "needs": [
+        "grip_thickness",
+        "lead_strength",
+        "erasability"
+      ]
+    },
+    {
+      "i": 448,
+      "needs": [
+        "eraser_presence"
+      ]
+    },
+    {
+      "i": 449,
+      "needs": [
+        "eraser_stability"
+      ]
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "extract-needs@2026-10-27.1+mechanical-pencils",
+  "usage": {
+    "inputTokens": 18128,
+    "outputTokens": 6231
+  },
+  "latencyMs": 40126,
+  "cached": false
+}

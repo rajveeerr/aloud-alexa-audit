@@ -1,0 +1,57 @@
+{
+  "asin": "B08GZ7ZYSC",
+  "promptVersion": "transcribe@2026-10-27.1",
+  "model": "gemini-3.5-flash-lite",
+  "usage": {
+    "inputTokens": 6681,
+    "outputTokens": 318
+  },
+  "images": 6,
+  "skippedImageIds": [],
+  "modelOutput": [
+    {
+      "imageId": "img.0",
+      "claims": []
+    },
+    {
+      "imageId": "img.1",
+      "claims": [
+        "Made by cyclists for cyclists."
+      ]
+    },
+    {
+      "imageId": "img.2",
+      "claims": [
+        "Effortless Squeeze",
+        "Lightweight, durable, and compact."
+      ]
+    },
+    {
+      "imageId": "img.3",
+      "claims": [
+        "Surge Cap",
+        "Engineered for high flow when you squeeze & for leakproof transport as you go."
+      ]
+    },
+    {
+      "imageId": "img.4",
+      "claims": [
+        "Easy to Clean",
+        "Our innovative caps feature removable nozzles for easy cleaning. Plus our bottles are dishwasher safe.",
+        "Lifetime Warranty",
+        "We stand behind our products with a manufacturing warranty.",
+        "Safe & Reliable",
+        "100% PBA & PVC Free",
+        "Crafted in Colorado",
+        "We proudly produce our bottles right here in the U.S.A."
+      ]
+    },
+    {
+      "imageId": "img.5",
+      "claims": [
+        "Purpose-built products",
+        "All our bottles are produced in Colorado, USA"
+      ]
+    }
+  ]
+}

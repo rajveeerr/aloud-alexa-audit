@@ -1,0 +1,107 @@
+{
+  "data": [
+    {
+      "intentId": "durability",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "lead_breakage_resistance",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "lead_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "0.7mm"
+        }
+      ],
+      "value": "0.7mm"
+    },
+    {
+      "intentId": "eraser_presence",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "With Erasers"
+        }
+      ],
+      "value": "Erasers included"
+    },
+    {
+      "intentId": "smoothness",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "erasability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "erases cleanly"
+        }
+      ],
+      "value": "erases cleanly"
+    },
+    {
+      "intentId": "retractable",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "refillable",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "built_in_sharpener",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "never need sharpening"
+        }
+      ],
+      "value": "never need sharpening"
+    },
+    {
+      "intentId": "auto_rotation",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "body_material",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "jamming",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "smudge_resistance",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "doesn’t smudge"
+        }
+      ],
+      "value": "doesn't smudge"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+mechanical-pencils@mined-2026-10-27.1",
+  "usage": {
+    "inputTokens": 1564,
+    "outputTokens": 612
+  },
+  "latencyMs": 3377,
+  "cached": false
+}

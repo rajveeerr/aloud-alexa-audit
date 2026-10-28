@@ -1,0 +1,71 @@
+{
+  "data": [
+    {
+      "intentId": "durability_and_sturdiness",
+      "target": "bullet.3",
+      "sources": [
+        {
+          "id": "bullet.3",
+          "text": "Silver finished aluminium frame, ABS plastic corner with screw-fixing in corners"
+        }
+      ],
+      "draft": "Silver finished aluminium frame with ABS plastic corners featuring secure screw-fixing in corners for structural stability."
+    },
+    {
+      "intentId": "magnetic_properties",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "bullet.2",
+          "text": "Smooth & durable magnetic writing surface, easily drywipe with all dry-erase markers"
+        }
+      ],
+      "needsFromBrand": "Confirm the magnetic strength or holding power details for the board."
+    },
+    {
+      "intentId": "erasability_and_staining",
+      "target": "bullet.2",
+      "sources": [
+        {
+          "id": "bullet.2",
+          "text": "Smooth & durable magnetic writing surface, easily drywipe with all dry-erase markers"
+        },
+        {
+          "id": "ic.1",
+          "text": "Easy to write and clean"
+        }
+      ],
+      "draft": "Features a smooth magnetic writing surface that is easy to write and clean, wiping away easily with all dry-erase markers."
+    },
+    {
+      "intentId": "portability_and_weight",
+      "target": "attr.item_weight",
+      "sources": [
+        {
+          "id": "attr.item_weight",
+          "text": "Item weight: 8.13 pounds"
+        }
+      ],
+      "needsFromBrand": "Confirm whether the board includes any specific portability or transport features."
+    },
+    {
+      "intentId": "surface_smoothness_and_flatness",
+      "target": "bullet.2",
+      "sources": [
+        {
+          "id": "bullet.2",
+          "text": "Smooth & durable magnetic writing surface, easily drywipe with all dry-erase markers"
+        }
+      ],
+      "draft": "Designed with a smooth and durable magnetic writing surface for consistent flatness during use."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.2",
+  "usage": {
+    "inputTokens": 1191,
+    "outputTokens": 535
+  },
+  "latencyMs": 2235,
+  "cached": false
+}

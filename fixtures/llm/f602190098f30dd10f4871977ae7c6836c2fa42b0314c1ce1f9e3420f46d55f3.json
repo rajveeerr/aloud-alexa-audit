@@ -1,0 +1,60 @@
+{
+  "data": [
+    {
+      "intentId": "magnetic_properties",
+      "target": "bullet.1",
+      "sources": [
+        {
+          "id": "bullet.1",
+          "text": "The premium magnetic dry erase surface is highly durable, never stains or ghosts, erases easily and duals as a bulletin board with magnet included"
+        }
+      ],
+      "needsFromBrand": "Confirm the Gauss strength or pull rating of the magnetic surface."
+    },
+    {
+      "intentId": "portability_and_weight",
+      "target": "bullet.5",
+      "sources": [
+        {
+          "id": "attr.item_weight",
+          "text": "Item weight: 10.2 ounces"
+        },
+        {
+          "id": "ic.7",
+          "text": "11 in x 14 in"
+        }
+      ],
+      "draft": "Weighing only 10.2 ounces, this 11 x 14 inch board is lightweight and easy to transport for versatile placement."
+    },
+    {
+      "intentId": "surface_smoothness_and_flatness",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "bullet.1",
+          "text": "The premium magnetic dry erase surface is highly durable, never stains or ghosts, erases easily and duals as a bulletin board with magnet included"
+        }
+      ],
+      "needsFromBrand": "Confirm if the writing surface features a completely smooth and flat texture."
+    },
+    {
+      "intentId": "marker_performance",
+      "target": "bullet.2",
+      "sources": [
+        {
+          "id": "description.1",
+          "text": "A medium point black dry erase marker is included with the whiteboard and features a built-in eraser for easy and convenient erasability."
+        }
+      ],
+      "draft": "Includes a medium point black dry erase marker featuring a built-in felt eraser for convenient erasability."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.2",
+  "usage": {
+    "inputTokens": 1864,
+    "outputTokens": 475
+  },
+  "latencyMs": 3589,
+  "cached": false
+}

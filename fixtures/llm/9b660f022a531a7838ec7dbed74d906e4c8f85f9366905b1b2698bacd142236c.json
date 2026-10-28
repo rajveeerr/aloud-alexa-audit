@@ -1,0 +1,1065 @@
+{
+  "data": [
+    {
+      "i": 0,
+      "needs": [
+        "erase_cleanliness",
+        "smudging"
+      ]
+    },
+    {
+      "i": 1,
+      "needs": [
+        "erase_cleanliness",
+        "durability"
+      ]
+    },
+    {
+      "i": 2,
+      "needs": [
+        "erase_cleanliness",
+        "sturdiness",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 3,
+      "needs": [
+        "sturdiness",
+        "weight",
+        "portability"
+      ]
+    },
+    {
+      "i": 4,
+      "needs": [
+        "staining",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 5,
+      "needs": [
+        "size",
+        "accessories_included"
+      ]
+    },
+    {
+      "i": 6,
+      "needs": [
+        "size"
+      ]
+    },
+    {
+      "i": 7,
+      "needs": [
+        "sturdiness",
+        "erase_cleanliness"
+      ]
+    },
+    {
+      "i": 8,
+      "needs": [
+        "size",
+        "sturdiness",
+        "portability",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 9,
+      "needs": [
+        "erase_cleanliness"
+      ]
+    },
+    {
+      "i": 10,
+      "needs": [
+        "size",
+        "frameless",
+        "sturdiness",
+        "weight",
+        "erase_cleanliness"
+      ]
+    },
+    {
+      "i": 11,
+      "needs": [
+        "sturdiness",
+        "durability",
+        "frameless",
+        "erase_cleanliness",
+        "smudging"
+      ]
+    },
+    {
+      "i": 12,
+      "needs": [
+        "durability",
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 13,
+      "needs": [
+        "portability",
+        "surface_smoothness"
+      ]
+    },
+    {
+      "i": 14,
+      "needs": [
+        "frameless",
+        "weight",
+        "surface_smoothness",
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 15,
+      "needs": [
+        "sturdiness",
+        "weight",
+        "erase_cleanliness"
+      ]
+    },
+    {
+      "i": 16,
+      "needs": [
+        "portability",
+        "surface_smoothness",
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 17,
+      "needs": [
+        "durability",
+        "sturdiness",
+        "double_sided"
+      ]
+    },
+    {
+      "i": 18,
+      "needs": [
+        "erase_cleanliness",
+        "durability"
+      ]
+    },
+    {
+      "i": 19,
+      "needs": [
+        "frameless",
+        "durability",
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 20,
+      "needs": [
+        "sturdiness",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 21,
+      "needs": [
+        "erase_cleanliness",
+        "weight",
+        "staining"
+      ]
+    },
+    {
+      "i": 22,
+      "needs": [
+        "erase_cleanliness",
+        "magnetic",
+        "size",
+        "weight",
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 23,
+      "needs": [
+        "erase_cleanliness",
+        "sturdiness",
+        "size"
+      ]
+    },
+    {
+      "i": 24,
+      "needs": [
+        "size",
+        "portability",
+        "sturdiness",
+        "weight"
+      ]
+    },
+    {
+      "i": 25,
+      "needs": [
+        "magnetic",
+        "accessories_included"
+      ]
+    },
+    {
+      "i": 26,
+      "needs": [
+        "magnetic"
+      ]
+    },
+    {
+      "i": 27,
+      "needs": [
+        "sturdiness",
+        "durability"
+      ]
+    },
+    {
+      "i": 28,
+      "needs": [
+        "weight",
+        "sturdiness",
+        "size"
+      ]
+    },
+    {
+      "i": 29,
+      "needs": [
+        "erase_cleanliness",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 30,
+      "needs": [
+        "weight",
+        "sturdiness",
+        "double_sided"
+      ]
+    },
+    {
+      "i": 31,
+      "needs": [
+        "sturdiness",
+        "durability"
+      ]
+    },
+    {
+      "i": 32,
+      "needs": [
+        "erase_cleanliness",
+        "smudging"
+      ]
+    },
+    {
+      "i": 33,
+      "needs": [
+        "erase_cleanliness",
+        "sturdiness",
+        "ruled"
+      ]
+    },
+    {
+      "i": 34,
+      "needs": []
+    },
+    {
+      "i": 35,
+      "needs": [
+        "ruled",
+        "sturdiness",
+        "portability",
+        "frameless",
+        "erase_cleanliness",
+        "double_sided"
+      ]
+    },
+    {
+      "i": 36,
+      "needs": [
+        "durability",
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 37,
+      "needs": [
+        "double_sided",
+        "ruled"
+      ]
+    },
+    {
+      "i": 38,
+      "needs": [
+        "portability"
+      ]
+    },
+    {
+      "i": 39,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 40,
+      "needs": [
+        "erase_cleanliness",
+        "staining"
+      ]
+    },
+    {
+      "i": 41,
+      "needs": [
+        "erase_cleanliness",
+        "smudging"
+      ]
+    },
+    {
+      "i": 42,
+      "needs": [
+        "size",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 43,
+      "needs": [
+        "magnetic",
+        "accessories_included",
+        "erase_cleanliness"
+      ]
+    },
+    {
+      "i": 44,
+      "needs": [
+        "size",
+        "erase_cleanliness",
+        "sturdiness",
+        "durability"
+      ]
+    },
+    {
+      "i": 45,
+      "needs": [
+        "size",
+        "magnetic",
+        "accessories_included"
+      ]
+    },
+    {
+      "i": 46,
+      "needs": [
+        "magnetic",
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 47,
+      "needs": [
+        "size",
+        "magnetic",
+        "accessories_included"
+      ]
+    },
+    {
+      "i": 48,
+      "needs": [
+        "magnetic",
+        "size",
+        "accessories_included"
+      ]
+    },
+    {
+      "i": 49,
+      "needs": [
+        "accessories_included",
+        "weight",
+        "portability",
+        "size"
+      ]
+    },
+    {
+      "i": 50,
+      "needs": [
+        "durability",
+        "erase_cleanliness"
+      ]
+    },
+    {
+      "i": 51,
+      "needs": [
+        "weight",
+        "sturdiness",
+        "accessories_included",
+        "erase_cleanliness"
+      ]
+    },
+    {
+      "i": 52,
+      "needs": [
+        "accessories_included",
+        "surface_smoothness"
+      ]
+    },
+    {
+      "i": 53,
+      "needs": [
+        "accessories_included",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 54,
+      "needs": []
+    },
+    {
+      "i": 55,
+      "needs": [
+        "magnetic",
+        "accessories_included"
+      ]
+    },
+    {
+      "i": 56,
+      "needs": [
+        "magnetic",
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 57,
+      "needs": [
+        "size",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 58,
+      "needs": []
+    },
+    {
+      "i": 59,
+      "needs": [
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 60,
+      "needs": [
+        "magnetic"
+      ]
+    },
+    {
+      "i": 61,
+      "needs": [
+        "size",
+        "sturdiness",
+        "weight",
+        "magnetic",
+        "accessories_included",
+        "erase_cleanliness"
+      ]
+    },
+    {
+      "i": 62,
+      "needs": [
+        "magnetic"
+      ]
+    },
+    {
+      "i": 63,
+      "needs": [
+        "magnetic"
+      ]
+    },
+    {
+      "i": 64,
+      "needs": [
+        "magnetic",
+        "accessories_included",
+        "erase_cleanliness"
+      ]
+    },
+    {
+      "i": 65,
+      "needs": [
+        "sturdiness",
+        "magnetic",
+        "staining"
+      ]
+    },
+    {
+      "i": 66,
+      "needs": [
+        "size",
+        "erase_cleanliness",
+        "accessories_included"
+      ]
+    },
+    {
+      "i": 67,
+      "needs": [
+        "magnetic",
+        "erase_cleanliness"
+      ]
+    },
+    {
+      "i": 68,
+      "needs": [
+        "magnetic",
+        "erase_cleanliness"
+      ]
+    },
+    {
+      "i": 69,
+      "needs": [
+        "magnetic",
+        "erase_cleanliness",
+        "accessories_included"
+      ]
+    },
+    {
+      "i": 70,
+      "needs": [
+        "adhesive_quality"
+      ]
+    },
+    {
+      "i": 71,
+      "needs": [
+        "staining",
+        "erase_cleanliness"
+      ]
+    },
+    {
+      "i": 72,
+      "needs": [
+        "adhesive_quality",
+        "staining",
+        "erase_cleanliness"
+      ]
+    },
+    {
+      "i": 73,
+      "needs": [
+        "adhesive_quality",
+        "erase_cleanliness"
+      ]
+    },
+    {
+      "i": 74,
+      "needs": [
+        "staining"
+      ]
+    },
+    {
+      "i": 75,
+      "needs": [
+        "staining"
+      ]
+    },
+    {
+      "i": 76,
+      "needs": [
+        "adhesive_quality",
+        "erase_cleanliness",
+        "durability"
+      ]
+    },
+    {
+      "i": 77,
+      "needs": [
+        "adhesive_quality"
+      ]
+    },
+    {
+      "i": 78,
+      "needs": [
+        "adhesive_quality"
+      ]
+    },
+    {
+      "i": 79,
+      "needs": [
+        "adhesive_quality"
+      ]
+    },
+    {
+      "i": 80,
+      "needs": [
+        "adhesive_quality",
+        "erase_cleanliness",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 81,
+      "needs": [
+        "size",
+        "magnetic",
+        "accessories_included"
+      ]
+    },
+    {
+      "i": 82,
+      "needs": [
+        "sturdiness",
+        "accessories_included"
+      ]
+    },
+    {
+      "i": 83,
+      "needs": [
+        "size",
+        "accessories_included",
+        "erase_cleanliness",
+        "weight"
+      ]
+    },
+    {
+      "i": 84,
+      "needs": [
+        "magnetic",
+        "sturdiness",
+        "erase_cleanliness"
+      ]
+    },
+    {
+      "i": 85,
+      "needs": [
+        "size",
+        "durability"
+      ]
+    },
+    {
+      "i": 86,
+      "needs": [
+        "magnetic",
+        "accessories_included",
+        "durability"
+      ]
+    },
+    {
+      "i": 87,
+      "needs": [
+        "magnetic"
+      ]
+    },
+    {
+      "i": 88,
+      "needs": [
+        "size",
+        "erase_cleanliness"
+      ]
+    },
+    {
+      "i": 89,
+      "needs": [
+        "size",
+        "durability"
+      ]
+    },
+    {
+      "i": 90,
+      "needs": [
+        "calendar_layout"
+      ]
+    },
+    {
+      "i": 91,
+      "needs": [
+        "calendar_layout",
+        "accessories_included",
+        "erase_cleanliness",
+        "size"
+      ]
+    },
+    {
+      "i": 92,
+      "needs": [
+        "magnetic",
+        "erase_cleanliness"
+      ]
+    },
+    {
+      "i": 93,
+      "needs": [
+        "calendar_layout"
+      ]
+    },
+    {
+      "i": 94,
+      "needs": [
+        "calendar_layout"
+      ]
+    },
+    {
+      "i": 95,
+      "needs": [
+        "calendar_layout"
+      ]
+    },
+    {
+      "i": 96,
+      "needs": [
+        "calendar_layout"
+      ]
+    },
+    {
+      "i": 97,
+      "needs": [
+        "calendar_layout"
+      ]
+    },
+    {
+      "i": 98,
+      "needs": [
+        "magnetic"
+      ]
+    },
+    {
+      "i": 99,
+      "needs": [
+        "weight",
+        "magnetic",
+        "accessories_included"
+      ]
+    },
+    {
+      "i": 100,
+      "needs": [
+        "size"
+      ]
+    },
+    {
+      "i": 101,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 102,
+      "needs": [
+        "durability",
+        "erase_cleanliness"
+      ]
+    },
+    {
+      "i": 103,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 104,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 105,
+      "needs": [
+        "erase_cleanliness",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 106,
+      "needs": [
+        "sturdiness",
+        "durability"
+      ]
+    },
+    {
+      "i": 107,
+      "needs": [
+        "durability",
+        "erase_cleanliness"
+      ]
+    },
+    {
+      "i": 108,
+      "needs": [
+        "durability",
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 109,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 110,
+      "needs": [
+        "accessories_included",
+        "erase_cleanliness",
+        "sturdiness",
+        "weight"
+      ]
+    },
+    {
+      "i": 111,
+      "needs": [
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 112,
+      "needs": [
+        "weight",
+        "size"
+      ]
+    },
+    {
+      "i": 113,
+      "needs": [
+        "size",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 114,
+      "needs": [
+        "accessories_included"
+      ]
+    },
+    {
+      "i": 115,
+      "needs": [
+        "magnetic"
+      ]
+    },
+    {
+      "i": 116,
+      "needs": [
+        "size"
+      ]
+    },
+    {
+      "i": 117,
+      "needs": [
+        "accessories_included"
+      ]
+    },
+    {
+      "i": 118,
+      "needs": [
+        "accessories_included"
+      ]
+    },
+    {
+      "i": 119,
+      "needs": [
+        "accessories_included",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 120,
+      "needs": [
+        "size",
+        "magnetic",
+        "accessories_included"
+      ]
+    },
+    {
+      "i": 121,
+      "needs": [
+        "magnetic",
+        "adhesive_quality"
+      ]
+    },
+    {
+      "i": 122,
+      "needs": [
+        "size",
+        "accessories_included"
+      ]
+    },
+    {
+      "i": 123,
+      "needs": []
+    },
+    {
+      "i": 124,
+      "needs": [
+        "weight",
+        "accessories_included",
+        "magnetic"
+      ]
+    },
+    {
+      "i": 125,
+      "needs": []
+    },
+    {
+      "i": 126,
+      "needs": [
+        "durability"
+      ]
+    },
+    {
+      "i": 127,
+      "needs": []
+    },
+    {
+      "i": 128,
+      "needs": [
+        "accessories_included",
+        "magnetic",
+        "erase_cleanliness"
+      ]
+    },
+    {
+      "i": 129,
+      "needs": [
+        "size",
+        "magnetic",
+        "accessories_included",
+        "durability"
+      ]
+    },
+    {
+      "i": 130,
+      "needs": [
+        "magnetic"
+      ]
+    },
+    {
+      "i": 131,
+      "needs": [
+        "accessories_included"
+      ]
+    },
+    {
+      "i": 132,
+      "needs": [
+        "erase_cleanliness"
+      ]
+    },
+    {
+      "i": 133,
+      "needs": [
+        "magnetic",
+        "durability",
+        "erase_cleanliness"
+      ]
+    },
+    {
+      "i": 134,
+      "needs": [
+        "erase_cleanliness"
+      ]
+    },
+    {
+      "i": 135,
+      "needs": [
+        "magnetic",
+        "durability"
+      ]
+    },
+    {
+      "i": 136,
+      "needs": []
+    },
+    {
+      "i": 137,
+      "needs": [
+        "magnetic",
+        "accessories_included",
+        "erase_cleanliness",
+        "durability"
+      ]
+    },
+    {
+      "i": 138,
+      "needs": [
+        "magnetic",
+        "accessories_included",
+        "erase_cleanliness"
+      ]
+    },
+    {
+      "i": 139,
+      "needs": [
+        "magnetic",
+        "size",
+        "accessories_included",
+        "erase_cleanliness"
+      ]
+    },
+    {
+      "i": 140,
+      "needs": []
+    },
+    {
+      "i": 141,
+      "needs": [
+        "magnetic"
+      ]
+    },
+    {
+      "i": 142,
+      "needs": [
+        "magnetic",
+        "erase_cleanliness"
+      ]
+    },
+    {
+      "i": 143,
+      "needs": [
+        "magnetic",
+        "erase_cleanliness"
+      ]
+    },
+    {
+      "i": 144,
+      "needs": [
+        "magnetic"
+      ]
+    },
+    {
+      "i": 145,
+      "needs": [
+        "magnetic"
+      ]
+    },
+    {
+      "i": 146,
+      "needs": [
+        "magnetic"
+      ]
+    },
+    {
+      "i": 147,
+      "needs": [
+        "magnetic"
+      ]
+    },
+    {
+      "i": 148,
+      "needs": [
+        "magnetic",
+        "erase_cleanliness"
+      ]
+    },
+    {
+      "i": 149,
+      "needs": [
+        "magnetic"
+      ]
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "extract-needs@2026-10-27.1+dry-erase-boards",
+  "usage": {
+    "inputTokens": 18249,
+    "outputTokens": 5578
+  },
+  "latencyMs": 59999,
+  "cached": false
+}

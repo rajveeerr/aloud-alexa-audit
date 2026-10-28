@@ -1,0 +1,83 @@
+{
+  "data": [
+    {
+      "intentId": "durability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Made to withstand even the toughest jobs"
+        }
+      ],
+      "value": "Made to withstand even the toughest jobs"
+    },
+    {
+      "intentId": "lead_breakage_resistance",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "lead_size",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "eraser_presence",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "smoothness",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "erasability",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "retractable",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "refillable",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "built_in_sharpener",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "auto_rotation",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "body_material",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "jamming",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "smudge_resistance",
+      "status": "missing",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+mechanical-pencils@mined-2026-10-27.1",
+  "usage": {
+    "inputTokens": 1310,
+    "outputTokens": 456
+  },
+  "latencyMs": 7653,
+  "cached": false
+}
