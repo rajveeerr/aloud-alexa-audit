@@ -6,12 +6,30 @@
  */
 import { afterAll, beforeAll, describe, expect, test } from "bun:test";
 import { randomUUID } from "node:crypto";
-import type { Worker } from "bullmq";
+import type { Job, Queue } from "bullmq";
+import { eq } from "drizzle-orm";
 import type { AsinHistory, AuditJob, AuditSummary, BulkJob, PublicAuditResult, RescoreResult, SavedListing, StudioBriefs } from "@answerable/contracts";
-import { connect, createAudit, dropDatabase, ensureDatabase, getAudit, leadsFor, runMigrations, type DbHandle } from "@answerable/db";
-import { QuotaExhaustedError } from "@answerable/providers";
-import { createAuditQueue, depsConfigFromEnv, enqueueAudits, makeDeps, redisConnection, startWorker } from "@answerable/worker";
-import { configFromEnv, startServer, type RunningServer } from "./server";
+import type { JsonModel } from "@answerable/core";
+import { audits, connect, createAudit, dropDatabase, ensureDatabase, getAudit, leadsFor, markFailed, markRunning, runMigrations, type DbHandle } from "@answerable/db";
+import { ProviderError, QuotaExhaustedError } from "@answerable/providers";
+import {
+  createAuditQueue,
+  depsConfigFromEnv,
+  EnqueueError,
+  enqueueAudits,
+  INTERNAL_MESSAGE,
+  makeDeps,
+  onJobFailed,
+  redisConnection,
+  SIGNATURE_HEADER,
+  startBulk,
+  startWorker,
+  submitAudit,
+  verify,
+  type AuditJobData,
+  type WebhookConfig,
+} from "@answerable/worker";
+import { configFromEnv, startServer, type RunningServer, type ServerConfig } from "./server";
 
 const DB_URL = process.env.TEST_DATABASE_URL || "mysql://root:answerable@127.0.0.1:3317/answerable_test";
 const REDIS_URL = process.env.TEST_REDIS_URL || "redis://127.0.0.1:6389";
@@ -27,13 +45,48 @@ const replayDeps = makeDeps(depsConfigFromEnv({}));
 let server: RunningServer;
 let handle: DbHandle;
 
-async function call<T = any>(method: string, path: string, body?: unknown, headers: Record<string, string> = { "x-api-key": KEY }) {
-  const res = await fetch(`${server.url}${path}`, {
+function serverConfig(prefix: string): ServerConfig {
+  return {
+    ...configFromEnv({}, []),
+    port: 0,
+    databaseUrl: DB_URL,
+    redisUrl: REDIS_URL,
+    redisPrefix: prefix,
+    runWorker: true,
+    devApiKey: KEY,
+    trustProxy: 1,
+    publicRateLimit: PUBLIC_LIMIT,
+    webhook: null,
+    backoffMs: 50,
+  };
+}
+
+async function callAt<T = any>(base: string, method: string, path: string, body?: unknown, headers: Record<string, string> = { "x-api-key": KEY }) {
+  const res = await fetch(`${base}${path}`, {
     method,
     headers: { "content-type": "application/json", ...headers },
     ...(body !== undefined && { body: typeof body === "string" ? body : JSON.stringify(body) }),
   });
   return { status: res.status, headers: res.headers, body: (await res.json()) as T };
+}
+
+const call = <T = any>(method: string, path: string, body?: unknown, headers?: Record<string, string>) => callAt<T>(server.url, method, path, body, headers);
+
+/** A worker on its own queue prefix whose model is swapped out, for failure paths. */
+function sideWorker(name: string, model: () => JsonModel, webhook: WebhookConfig | null = null) {
+  const prefix = `${PREFIX}-${name}`;
+  const connection = redisConnection(REDIS_URL);
+  const queue = createAuditQueue({ connection, prefix, backoffMs: 10 });
+  const worker = startWorker({ db: handle.db, redisUrl: REDIS_URL, prefix, makeDeps: (req) => ({ ...replayDeps(req), llm: model() }), webhook, log: () => {} });
+  return {
+    queue,
+    async close() {
+      await worker.close();
+      await queue.obliterate({ force: true });
+      await queue.close();
+      await connection.quit();
+    },
+  };
 }
 
 async function until<T>(fn: () => Promise<T>, done: (v: T) => boolean, timeoutMs = 20_000): Promise<T> {
@@ -63,22 +116,7 @@ describe.skipIf(process.env.SKIP_INTEGRATION === "1")("api + worker (compose, re
     await ensureDatabase(DB_URL);
     handle = connect(DB_URL);
     await runMigrations(handle.db);
-    server = await startServer(
-      {
-        ...configFromEnv({}, []),
-        port: 0,
-        databaseUrl: DB_URL,
-        redisUrl: REDIS_URL,
-        redisPrefix: PREFIX,
-        runWorker: true,
-        devApiKey: KEY,
-        trustProxy: true,
-        publicRateLimit: PUBLIC_LIMIT,
-        webhook: null,
-        backoffMs: 50,
-      },
-      { deps: replayDeps, log: () => {} },
-    );
+    server = await startServer(serverConfig(PREFIX), { deps: replayDeps, log: () => {} });
   });
 
   afterAll(async () => {
@@ -153,6 +191,8 @@ describe.skipIf(process.env.SKIP_INTEGRATION === "1")("api + worker (compose, re
     // Created without a job, so it stays queued.
     const queued = await createAudit(handle.db, { asin: "B0C9W8DD9S", source: "serpapi", origin: "api", request: { live: false } });
     expect(await call("POST", `/v1/audits/${queued.id}/briefs`)).toMatchObject({ status: 409, body: { error: { code: "not_done" } } });
+    // Clean up, or the rescore test would see it as an audit already pending.
+    await markFailed(handle.db, queued.id, { code: "internal", message: "test cleanup" });
 
     const res = await call<StudioBriefs>("POST", `/v1/audits/${hero.id}/briefs`);
     expect(res.status).toBe(200);
@@ -254,17 +294,14 @@ describe.skipIf(process.env.SKIP_INTEGRATION === "1")("api + worker (compose, re
   });
 
   test("a used-up model quota delays the job and leaves the audit queued", async () => {
-    const prefix = `${PREFIX}-quota`;
-    const connection = redisConnection(REDIS_URL);
-    const queue = createAuditQueue({ connection, prefix });
     const quota = {
       generateJson: async () => {
         throw new QuotaExhaustedError("Gemini daily quota exhausted: GenerateRequestsPerDayPerProjectPerModel-FreeTier", "GenerateRequestsPerDayPerProjectPerModel-FreeTier");
       },
     };
-    let worker: Worker | undefined;
+    const side = sideWorker("quota", () => quota);
+    const { queue } = side;
     try {
-      worker = startWorker({ db: handle.db, connection: redisConnection(REDIS_URL), prefix, makeDeps: (req) => ({ ...replayDeps(req), llm: quota }), log: () => {} });
       const row = await createAudit(handle.db, { asin: "B0C9W8DD9S", source: "serpapi", origin: "api", request: { live: false } });
       await enqueueAudits(queue, [row.id]);
 
@@ -282,10 +319,147 @@ describe.skipIf(process.env.SKIP_INTEGRATION === "1")("api + worker (compose, re
       expect(after.note).toContain("quota");
       expect((await call<AuditJob>("GET", `/v1/audits/${row.id}`)).body).toMatchObject({ status: "queued", note: expect.stringContaining("quota") });
     } finally {
-      await worker?.close();
-      await queue.obliterate({ force: true });
-      await queue.close();
-      await connection.quit();
+      await side.close();
     }
   }, 30_000);
+
+  test("retryable model errors retry 3 times, then fail; the bulk job still finishes", async () => {
+    const events: { body: string; signature: string | null }[] = [];
+    const receiver = Bun.serve({
+      port: 0,
+      fetch: async (req) => {
+        events.push({ body: await req.text(), signature: req.headers.get(SIGNATURE_HEADER) });
+        return new Response("ok");
+      },
+    });
+    let calls = 0;
+    const flaky = {
+      generateJson: async () => {
+        calls++;
+        throw new ProviderError("Gemini: 503 overloaded", "gemini", 503, true);
+      },
+    };
+    const side = sideWorker("retry", () => flaky, { url: `http://127.0.0.1:${receiver.port}/hook`, secret: "hook-secret" });
+    try {
+      const { id } = await startBulk({ db: handle.db, queue: side.queue }, { name: "flaky", asins: ["B09YP9YYZG", "B0143LMAEK"], source: "dataset", live: false });
+      const bulk = await until(async () => (await call<BulkJob>("GET", `/v1/bulk/${id}`)).body, (b) => b.status === "done", 30_000);
+      expect(bulk).toMatchObject({ status: "done", total: 2, done: 0, failed: 2 });
+
+      for (const a of bulk.audits) {
+        const row = (await getAudit(handle.db, a.id))!;
+        expect(row.error).toMatchObject({ code: "provider_unavailable" });
+        expect((await side.queue.getJob(a.id))!.attemptsMade).toBe(3);
+      }
+      expect(calls).toBe(6);
+
+      const failed = await until(async () => events, (e) => e.length >= 2, 5_000);
+      for (const e of failed) {
+        expect(verify(e.body, "hook-secret", e.signature ?? "")).toBe(true);
+        expect(JSON.parse(e.body)).toMatchObject({ type: "audit.failed", error: { code: "provider_unavailable" } });
+      }
+    } finally {
+      await side.close();
+      receiver.stop(true);
+    }
+  }, 40_000);
+
+  test("an unexpected error ends as internal with a generic message", async () => {
+    const side = sideWorker("internal", () => ({
+      generateJson: async () => {
+        throw new TypeError("cannot read 'secret' of undefined");
+      },
+    }));
+    try {
+      const row = await createAudit(handle.db, { asin: "B09VD1Z3TK", source: "dataset", origin: "api", request: { live: false } });
+      await enqueueAudits(side.queue, [row.id]);
+      const done = await until(async () => (await call<AuditJob>("GET", `/v1/audits/${row.id}`)).body, (a) => finished(a.status));
+      expect(done).toMatchObject({ status: "failed", error: { code: "internal", message: INTERNAL_MESSAGE } });
+      expect(JSON.stringify(done)).not.toContain("secret");
+    } finally {
+      await side.close();
+    }
+  }, 30_000);
+
+  test("an audit needing unrecorded model calls fails at once as not_recorded", async () => {
+    const a = await createAndWait({
+      asin: "B0PASTE001",
+      source: "paste",
+      category: "Gel Ink Rollerball Pens",
+      paste: { title: `A pen nobody recorded ${randomUUID()}`, bullets: ["Writes in blue"] },
+    });
+    expect(a).toMatchObject({ status: "failed", error: { code: "not_recorded" } });
+  }, 30_000);
+
+  test("a job that stalled out is marked failed by the failed listener", async () => {
+    const row = await createAudit(handle.db, { asin: "B09VD1Z3TK", source: "dataset", origin: "api", request: { live: false } });
+    await markRunning(handle.db, row.id);
+    const job = { id: row.id, data: { auditId: row.id }, attemptsMade: 1, opts: { attempts: 3 } } as unknown as Job<AuditJobData>;
+    await onJobFailed(job, new Error("job stalled more than allowable limit"), { db: handle.db, makeDeps: replayDeps });
+    expect((await getAudit(handle.db, row.id))!).toMatchObject({ status: "failed", error: { code: "stalled" } });
+
+    // A retry that still has attempts left is left alone.
+    const other = await createAudit(handle.db, { asin: "B09VD1Z3TK", source: "dataset", origin: "api", request: { live: false } });
+    await onJobFailed({ ...job, data: { auditId: other.id } } as Job<AuditJobData>, new Error("503"), { db: handle.db, makeDeps: replayDeps });
+    expect((await getAudit(handle.db, other.id))!.status).toBe("queued");
+  });
+
+  test("audits that can't be queued are marked enqueue_failed, so a bulk job still finishes", async () => {
+    const broken = { addBulk: async () => Promise.reject(new Error("Connection is closed.")) } as unknown as Queue<AuditJobData>;
+    const err = await submitAudit({ db: handle.db, queue: broken }, { asin: "B09VD1Z3TK", source: "dataset", origin: "api", request: {} }).catch((e) => e);
+    expect(err).toBeInstanceOf(EnqueueError);
+    expect((await getAudit(handle.db, err.auditIds[0]))!).toMatchObject({ status: "failed", error: { code: "enqueue_failed" } });
+
+    const bulkErr = await startBulk({ db: handle.db, queue: broken }, { name: "no queue", asins: ["B09YP9YYZG", "B0143LMAEK"], source: "dataset", live: false }).catch((e) => e);
+    expect(bulkErr).toBeInstanceOf(EnqueueError);
+    const ids = await handle.db.select({ bulkJobId: audits.bulkJobId }).from(audits).where(eq(audits.id, bulkErr.auditIds[0]));
+    const bulk = await call<BulkJob>("GET", `/v1/bulk/${ids[0]!.bulkJobId}`);
+    expect(bulk.body).toMatchObject({ status: "done", total: 2, done: 0, failed: 2 });
+  });
+
+  test("two rescore webhooks in a row queue one audit", async () => {
+    const body = { asin: "B0BGPYR8Q3", source: "serpapi", reason: "listing updated" };
+    const [a, b] = [await call<RescoreResult>("POST", "/v1/rescore", body), await call<RescoreResult>("POST", "/v1/rescore", body)];
+    expect(a.body.skipped).toBe(false);
+    // The second sees the first still pending (skipped false) or already done and unchanged (skipped true).
+    expect(b.body.auditId).toBe(a.body.auditId);
+  });
+
+  test("a widget lead that can't be saved still queues the audit", async () => {
+    const tooLong = `brand@${"x".repeat(60)}.${"y".repeat(60)}.${"z".repeat(60)}.${"w".repeat(60)}.${"v".repeat(60)}.${"u".repeat(60)}.com`;
+    const res = await call<PublicAuditResult>("POST", "/v1/public/audits", { asin: "B09VD1Z3TK", email: tooLong }, { "x-forwarded-for": "10.0.0.5" });
+    expect(res.status).toBe(202);
+    expect(res.body).toMatchObject({ status: "queued", emailCaptured: false });
+    expect(await leadsFor(handle.db, res.body.id)).toEqual([]);
+  });
+
+  test("a failed widget audit says why, in safe words", async () => {
+    const res = await call<PublicAuditResult>("POST", "/v1/public/audits", { asin: "B000000000" }, { "x-forwarded-for": "10.0.0.6" });
+    const done = await until(async () => (await call<PublicAuditResult>("GET", `/v1/public/audits/${res.body.id}`, undefined, {})).body, (r) => finished(r.status));
+    expect(done).toMatchObject({ status: "failed", reason: expect.stringContaining("can't audit this product") });
+  }, 30_000);
+
+  test("without trust proxy, X-Forwarded-For can't dodge the per-IP limit", async () => {
+    const strict = await startServer({ ...serverConfig(`${PREFIX}-strict`), runWorker: false, trustProxy: false, publicRateLimit: 1 }, { log: () => {} });
+    try {
+      const first = await callAt(strict.url, "POST", "/v1/public/audits", { asin: "B09VD1Z3TK" }, { "x-forwarded-for": "10.1.0.1" });
+      const second = await callAt(strict.url, "POST", "/v1/public/audits", { asin: "B09VD1Z3TK" }, { "x-forwarded-for": "10.1.0.2" });
+      expect(first.status).toBe(202);
+      expect(second).toMatchObject({ status: 429, body: { error: { code: "rate_limited" } } });
+    } finally {
+      await strict.close();
+    }
+  });
+
+  test("with Redis down, requests answer 503 quickly instead of hanging", async () => {
+    const down = await startServer({ ...serverConfig(`${PREFIX}-down`), runWorker: false, redisUrl: "redis://127.0.0.1:6399" }, { log: () => {} });
+    try {
+      const started = Date.now();
+      expect(await callAt(down.url, "GET", "/v1/health", undefined, {})).toMatchObject({ status: 503, body: { ok: false, db: true, redis: false } });
+      expect(await callAt(down.url, "POST", "/v1/audits", { asin: "B0C9W8DD9S" })).toMatchObject({ status: 503, body: { error: { code: "dependency_unavailable" } } });
+      expect(await callAt(down.url, "POST", "/v1/public/audits", { asin: "B0C9W8DD9S" }, {})).toMatchObject({ status: 503, body: { error: { code: "dependency_unavailable" } } });
+      expect(Date.now() - started).toBeLessThan(10_000);
+    } finally {
+      await down.close();
+    }
+  }, 20_000);
 });
