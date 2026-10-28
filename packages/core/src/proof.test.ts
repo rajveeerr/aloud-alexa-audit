@@ -4,6 +4,7 @@ import type { ReviewText } from "./mine";
 import {
   checkProof,
   claimKeywords,
+  dedupeReviews,
   exampleText,
   listingClaims,
   mentions,
@@ -98,6 +99,29 @@ describe("finding reviews about a claim", () => {
     expect(a.map((r) => r.text)).toEqual(b.map((r) => r.text));
     // Seeded by claim: another claim draws a different sample from the same reviews.
     expect(sampleForClaim("leaking", reviews, 150).map((r) => r.text)).not.toEqual(a.map((r) => r.text));
+  });
+
+  test("identical reviews count once, keeping the most helpful copy", () => {
+    const out = dedupeReviews([review("smudges", 1), review("smudges", 7), review("never smudges", 2), { ...review("smudges", 7), rating: 5 }]);
+    expect(out).toHaveLength(2);
+    expect(out.find((r) => r.text === "smudges")).toMatchObject({ helpfulVotes: 7, rating: 5 });
+  });
+
+  test("duplicates that reach the sampler are ordered by helpful votes then rating, whatever the input order", () => {
+    const dupes = [{ ...review("same text", 1), rating: 2 }, { ...review("same text", 9), rating: 1 }, { ...review("same text", 9), rating: 4 }];
+    const a = sampleForClaim("smudge", dupes, 3);
+    const b = sampleForClaim("smudge", [...dupes].reverse(), 3);
+    expect(a).toEqual(b);
+    expect(a.map((r) => [r.helpfulVotes, r.rating])).toEqual([[9, 4], [9, 1], [1, 2]]);
+  });
+
+  test("checkProof counts a doubled review once", async () => {
+    const llm = fakeLabeller();
+    const reviews = Array.from({ length: 29 }, (_, i) => review(`never smudges ${i}`));
+    const run = await checkProof([smudgeClaim], intents, [...reviews, review("never smudges 0")], llm, "fake");
+    expect(run.reviews).toBe(29);
+    expect(run.claims[0]).toMatchObject({ matching: 29, verdict: "not_enough_evidence" });
+    expect(llm.requests).toHaveLength(0);
   });
 
   test("examples start near the keyword in a long review", () => {

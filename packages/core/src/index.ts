@@ -51,6 +51,7 @@ export {
   claimKeywords,
   mentions,
   sampleForClaim,
+  dedupeReviews,
   buildProofPrompt,
   exampleText,
   CLAIM_KEYWORDS,

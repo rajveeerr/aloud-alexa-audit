@@ -128,13 +128,33 @@ export function mentions(review: Pick<ReviewText, "title" | "text">, terms: stri
  * A random sample that's the same on every run: reviews are ordered by a hash of the claim and the
  * review text, and the first `max` are taken. Seeding by claim means each claim gets its own sample.
  */
-export function sampleForClaim<T extends Pick<ReviewText, "title" | "text">>(intentId: string, reviews: T[], max = MAX_SAMPLE): T[] {
+export function sampleForClaim<T extends Pick<ReviewText, "title" | "text"> & Partial<Pick<ReviewText, "helpfulVotes" | "rating">>>(
+  intentId: string,
+  reviews: T[],
+  max = MAX_SAMPLE,
+): T[] {
   const key = (r: T) => createHash("sha1").update(`${intentId}\n${r.title}\n${r.text}`).digest("hex");
+  // Identical texts share a hash. checkProof removes them first, but if any reach here the order
+  // still mustn't depend on input order: more helpful first, then higher rated.
   return reviews
     .map((r) => ({ r, k: key(r) }))
-    .sort((a, b) => (a.k < b.k ? -1 : a.k > b.k ? 1 : 0))
+    .sort((a, b) => (a.k < b.k ? -1 : a.k > b.k ? 1 : (b.r.helpfulVotes ?? 0) - (a.r.helpfulVotes ?? 0) || (b.r.rating ?? 0) - (a.r.rating ?? 0)))
     .slice(0, max)
     .map((x) => x.r);
+}
+
+/**
+ * The same title and text twice (a review shown on two variants, a double post) is one buyer's
+ * word, so it's counted once. The copy with the most helpful votes is kept.
+ */
+export function dedupeReviews(reviews: ReviewText[]): ReviewText[] {
+  const best = new Map<string, ReviewText>();
+  for (const r of reviews) {
+    const k = `${r.title}\n${r.text}`;
+    const seen = best.get(k);
+    if (!seen || r.helpfulVotes > seen.helpfulVotes || (r.helpfulVotes === seen.helpfulVotes && (r.rating ?? 0) > (seen.rating ?? 0))) best.set(k, r);
+  }
+  return [...best.values()];
 }
 
 /**
@@ -357,7 +377,8 @@ export function summarize(
  * Checks every claim the listing makes against this product's reviews. A claim with fewer than
  * MIN_EVIDENCE matching reviews costs nothing: no model call, verdict "not enough evidence".
  */
-export async function checkProof(claims: ListingClaim[], intents: Intent[], reviews: ReviewText[], llm: JsonModel, model: string): Promise<ProofRun> {
+export async function checkProof(claims: ListingClaim[], intents: Intent[], allReviews: ReviewText[], llm: JsonModel, model: string): Promise<ProofRun> {
+  const reviews = dedupeReviews(allReviews);
   const usage = { inputTokens: 0, outputTokens: 0, requests: 0 };
   const modelOutputs: unknown[] = [];
   const out: ClaimProof[] = [];
