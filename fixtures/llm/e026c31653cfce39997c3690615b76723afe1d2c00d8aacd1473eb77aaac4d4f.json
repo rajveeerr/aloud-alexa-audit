@@ -1,0 +1,276 @@
+{
+  "data": [
+    {
+      "i": 0,
+      "label": "contradicts"
+    },
+    {
+      "i": 1,
+      "label": "supports"
+    },
+    {
+      "i": 2,
+      "label": "supports"
+    },
+    {
+      "i": 3,
+      "label": "supports"
+    },
+    {
+      "i": 4,
+      "label": "supports"
+    },
+    {
+      "i": 5,
+      "label": "supports"
+    },
+    {
+      "i": 6,
+      "label": "supports"
+    },
+    {
+      "i": 7,
+      "label": "mixed"
+    },
+    {
+      "i": 8,
+      "label": "contradicts"
+    },
+    {
+      "i": 9,
+      "label": "supports"
+    },
+    {
+      "i": 10,
+      "label": "contradicts"
+    },
+    {
+      "i": 11,
+      "label": "contradicts"
+    },
+    {
+      "i": 12,
+      "label": "contradicts"
+    },
+    {
+      "i": 13,
+      "label": "supports"
+    },
+    {
+      "i": 14,
+      "label": "contradicts"
+    },
+    {
+      "i": 15,
+      "label": "contradicts"
+    },
+    {
+      "i": 16,
+      "label": "mixed"
+    },
+    {
+      "i": 17,
+      "label": "contradicts"
+    },
+    {
+      "i": 18,
+      "label": "mixed"
+    },
+    {
+      "i": 19,
+      "label": "supports"
+    },
+    {
+      "i": 20,
+      "label": "contradicts"
+    },
+    {
+      "i": 21,
+      "label": "contradicts"
+    },
+    {
+      "i": 22,
+      "label": "contradicts"
+    },
+    {
+      "i": 23,
+      "label": "supports"
+    },
+    {
+      "i": 24,
+      "label": "contradicts"
+    },
+    {
+      "i": 25,
+      "label": "contradicts"
+    },
+    {
+      "i": 26,
+      "label": "contradicts"
+    },
+    {
+      "i": 27,
+      "label": "supports"
+    },
+    {
+      "i": 28,
+      "label": "contradicts"
+    },
+    {
+      "i": 29,
+      "label": "contradicts"
+    },
+    {
+      "i": 30,
+      "label": "contradicts"
+    },
+    {
+      "i": 31,
+      "label": "supports"
+    },
+    {
+      "i": 32,
+      "label": "mixed"
+    },
+    {
+      "i": 33,
+      "label": "supports"
+    },
+    {
+      "i": 34,
+      "label": "contradicts"
+    },
+    {
+      "i": 35,
+      "label": "supports"
+    },
+    {
+      "i": 36,
+      "label": "contradicts"
+    },
+    {
+      "i": 37,
+      "label": "supports"
+    },
+    {
+      "i": 38,
+      "label": "supports"
+    },
+    {
+      "i": 39,
+      "label": "supports"
+    },
+    {
+      "i": 40,
+      "label": "contradicts"
+    },
+    {
+      "i": 41,
+      "label": "supports"
+    },
+    {
+      "i": 42,
+      "label": "contradicts"
+    },
+    {
+      "i": 43,
+      "label": "mixed"
+    },
+    {
+      "i": 44,
+      "label": "supports"
+    },
+    {
+      "i": 45,
+      "label": "contradicts"
+    },
+    {
+      "i": 46,
+      "label": "contradicts"
+    },
+    {
+      "i": 47,
+      "label": "supports"
+    },
+    {
+      "i": 48,
+      "label": "supports"
+    },
+    {
+      "i": 49,
+      "label": "contradicts"
+    },
+    {
+      "i": 50,
+      "label": "supports"
+    },
+    {
+      "i": 51,
+      "label": "contradicts"
+    },
+    {
+      "i": 52,
+      "label": "supports"
+    },
+    {
+      "i": 53,
+      "label": "contradicts"
+    },
+    {
+      "i": 54,
+      "label": "supports"
+    },
+    {
+      "i": 55,
+      "label": "contradicts"
+    },
+    {
+      "i": 56,
+      "label": "supports"
+    },
+    {
+      "i": 57,
+      "label": "contradicts"
+    },
+    {
+      "i": 58,
+      "label": "supports"
+    },
+    {
+      "i": 59,
+      "label": "supports"
+    },
+    {
+      "i": 60,
+      "label": "supports"
+    },
+    {
+      "i": 61,
+      "label": "supports"
+    },
+    {
+      "i": 62,
+      "label": "contradicts"
+    },
+    {
+      "i": 63,
+      "label": "contradicts"
+    },
+    {
+      "i": 64,
+      "label": "contradicts"
+    },
+    {
+      "i": 65,
+      "label": "supports"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "proof-labels@2026-10-28.2",
+  "usage": {
+    "inputTokens": 4290,
+    "outputTokens": 1014
+  },
+  "latencyMs": 3587,
+  "cached": false
+}

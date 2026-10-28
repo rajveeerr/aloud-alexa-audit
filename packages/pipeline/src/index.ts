@@ -7,4 +7,5 @@ export {
   type IntentSetStore,
   type ImageClaimStore,
   type ImageFetcher,
+  type ReviewStore,
 } from "./stores";

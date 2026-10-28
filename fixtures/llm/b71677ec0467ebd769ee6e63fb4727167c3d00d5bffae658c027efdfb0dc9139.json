@@ -1,0 +1,324 @@
+{
+  "data": [
+    {
+      "i": 0,
+      "label": "supports"
+    },
+    {
+      "i": 1,
+      "label": "supports"
+    },
+    {
+      "i": 2,
+      "label": "supports"
+    },
+    {
+      "i": 3,
+      "label": "supports"
+    },
+    {
+      "i": 4,
+      "label": "supports"
+    },
+    {
+      "i": 5,
+      "label": "supports"
+    },
+    {
+      "i": 6,
+      "label": "supports"
+    },
+    {
+      "i": 7,
+      "label": "unrelated"
+    },
+    {
+      "i": 8,
+      "label": "unrelated"
+    },
+    {
+      "i": 9,
+      "label": "supports"
+    },
+    {
+      "i": 10,
+      "label": "contradicts"
+    },
+    {
+      "i": 11,
+      "label": "supports"
+    },
+    {
+      "i": 12,
+      "label": "supports"
+    },
+    {
+      "i": 13,
+      "label": "supports"
+    },
+    {
+      "i": 14,
+      "label": "supports"
+    },
+    {
+      "i": 15,
+      "label": "supports"
+    },
+    {
+      "i": 16,
+      "label": "supports"
+    },
+    {
+      "i": 17,
+      "label": "supports"
+    },
+    {
+      "i": 18,
+      "label": "unrelated"
+    },
+    {
+      "i": 19,
+      "label": "unrelated"
+    },
+    {
+      "i": 20,
+      "label": "supports"
+    },
+    {
+      "i": 21,
+      "label": "supports"
+    },
+    {
+      "i": 22,
+      "label": "supports"
+    },
+    {
+      "i": 23,
+      "label": "contradicts"
+    },
+    {
+      "i": 24,
+      "label": "contradicts"
+    },
+    {
+      "i": 25,
+      "label": "unrelated"
+    },
+    {
+      "i": 26,
+      "label": "supports"
+    },
+    {
+      "i": 27,
+      "label": "supports"
+    },
+    {
+      "i": 28,
+      "label": "supports"
+    },
+    {
+      "i": 29,
+      "label": "supports"
+    },
+    {
+      "i": 30,
+      "label": "contradicts"
+    },
+    {
+      "i": 31,
+      "label": "supports"
+    },
+    {
+      "i": 32,
+      "label": "supports"
+    },
+    {
+      "i": 33,
+      "label": "supports"
+    },
+    {
+      "i": 34,
+      "label": "unrelated"
+    },
+    {
+      "i": 35,
+      "label": "supports"
+    },
+    {
+      "i": 36,
+      "label": "supports"
+    },
+    {
+      "i": 37,
+      "label": "supports"
+    },
+    {
+      "i": 38,
+      "label": "unrelated"
+    },
+    {
+      "i": 39,
+      "label": "supports"
+    },
+    {
+      "i": 40,
+      "label": "supports"
+    },
+    {
+      "i": 41,
+      "label": "supports"
+    },
+    {
+      "i": 42,
+      "label": "supports"
+    },
+    {
+      "i": 43,
+      "label": "supports"
+    },
+    {
+      "i": 44,
+      "label": "supports"
+    },
+    {
+      "i": 45,
+      "label": "supports"
+    },
+    {
+      "i": 46,
+      "label": "supports"
+    },
+    {
+      "i": 47,
+      "label": "supports"
+    },
+    {
+      "i": 48,
+      "label": "supports"
+    },
+    {
+      "i": 49,
+      "label": "supports"
+    },
+    {
+      "i": 50,
+      "label": "supports"
+    },
+    {
+      "i": 51,
+      "label": "supports"
+    },
+    {
+      "i": 52,
+      "label": "supports"
+    },
+    {
+      "i": 53,
+      "label": "supports"
+    },
+    {
+      "i": 54,
+      "label": "unrelated"
+    },
+    {
+      "i": 55,
+      "label": "supports"
+    },
+    {
+      "i": 56,
+      "label": "supports"
+    },
+    {
+      "i": 57,
+      "label": "supports"
+    },
+    {
+      "i": 58,
+      "label": "supports"
+    },
+    {
+      "i": 59,
+      "label": "supports"
+    },
+    {
+      "i": 60,
+      "label": "supports"
+    },
+    {
+      "i": 61,
+      "label": "supports"
+    },
+    {
+      "i": 62,
+      "label": "unrelated"
+    },
+    {
+      "i": 63,
+      "label": "supports"
+    },
+    {
+      "i": 64,
+      "label": "supports"
+    },
+    {
+      "i": 65,
+      "label": "supports"
+    },
+    {
+      "i": 66,
+      "label": "supports"
+    },
+    {
+      "i": 67,
+      "label": "supports"
+    },
+    {
+      "i": 68,
+      "label": "supports"
+    },
+    {
+      "i": 69,
+      "label": "supports"
+    },
+    {
+      "i": 70,
+      "label": "supports"
+    },
+    {
+      "i": 71,
+      "label": "supports"
+    },
+    {
+      "i": 72,
+      "label": "contradicts"
+    },
+    {
+      "i": 73,
+      "label": "supports"
+    },
+    {
+      "i": 74,
+      "label": "supports"
+    },
+    {
+      "i": 75,
+      "label": "supports"
+    },
+    {
+      "i": 76,
+      "label": "supports"
+    },
+    {
+      "i": 77,
+      "label": "supports"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "proof-labels@2026-10-28.2",
+  "usage": {
+    "inputTokens": 6247,
+    "outputTokens": 1177
+  },
+  "latencyMs": 3096,
+  "cached": false
+}

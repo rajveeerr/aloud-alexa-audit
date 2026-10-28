@@ -33,7 +33,7 @@ if (!asin) {
   process.exit(1);
 }
 
-const gemini = record ? new GeminiLlm({ apiKey: process.env.GEMINI_API_KEY ?? "" }) : null;
+const gemini = record ? new GeminiLlm({ apiKey: process.env.GEMINI_API_KEY ?? "", retry: { attempts: 6, baseDelayMs: 5000 } }) : null;
 const llm = new CachedLlm(gemini, join(FIXTURES, "llm"), record ? "record" : "replay");
 const stores = fsStores({
   fixturesDir: FIXTURES,
@@ -89,6 +89,24 @@ function print(r: AuditResult) {
       const i = intents.get(h.intentId)!;
       console.log(`  ${i.question}${estimated ? "" : ` (${i.frequency})`} — text: ${h.textStatus}`);
       for (const c of h.claims) console.log(`    "${c.text}"  in ${c.imageIds.map((id) => `${id} (${kinds.get(id)})`).join(", ")}`);
+    }
+  }
+
+  if (r.proof) {
+    const pct = (x: number) => `${Math.round(x * 100)}%`;
+    const verdict = { backed: "backed", contested: "CONTESTED", not_enough_evidence: "not enough evidence" } as const;
+    console.log(`\nPromise vs proof: ${r.proof.claims.length} claims checked against ${r.proof.reviews} saved reviews`);
+    for (const c of r.proof.claims) {
+      const where = c.sources.map((s) => s.id).join(", ");
+      console.log(`  ${verdict[c.verdict]}: ${intents.get(c.intentId)?.question}  "${c.claim}" (${where})`);
+      const n = c.counts;
+      console.log(`    ${c.matching} reviews mention it, ${c.sampled} labelled: ${n.supports} support, ${n.contradicts} contradict, ${n.mixed} mixed, ${n.unrelated} unrelated${n.unlabelled ? `, ${n.unlabelled} unlabelled` : ""}`);
+      if (c.contradiction && c.support) {
+        console.log(`    contradicted by ${pct(c.contradiction.rate)} (${pct(c.contradiction.low)}-${pct(c.contradiction.high)}), supported by ${pct(c.support.rate)} (${pct(c.support.low)}-${pct(c.support.high)}) of reviews that discuss it`);
+      }
+      for (const t of c.examples.contradicts) console.log(`    ✗ "${t}"`);
+      for (const t of c.examples.mixed.slice(0, 1)) console.log(`    ~ "${t}"`);
+      for (const t of c.examples.supports.slice(0, c.verdict === "contested" ? 1 : 2)) console.log(`    ✓ "${t}"`);
     }
   }
 

@@ -32,6 +32,35 @@ describe("runAudit (replayed, no network)", () => {
     expect(r.notes.some((n) => n.includes("estimated"))).toBe(true);
   });
 
+  test("promise vs proof on Pentel 2023: smudging complaints found but not enough to contest; leaking contested", async () => {
+    const r = await runAudit({ asin: "B097CF46RC", source: "dataset" }, deps);
+    const proof = r.proof!;
+    expect(proof.reviews).toBe(400);
+    const smudge = proof.claims.find((c) => c.intentId === "smudge")!;
+    expect(smudge.sources[0]).toEqual({ kind: "field", id: "bullet.2", text: "no smears, no smudges, no globs" });
+    expect(smudge.sampled).toBe(117);
+    expect(smudge.counts.contradicts).toBeGreaterThan(0);
+    expect(smudge.counts.mixed).toBeGreaterThan(0);
+    expect(smudge.examples.contradicts).toHaveLength(3);
+    expect(smudge.verdict).toBe("backed");
+    const leaking = proof.claims.find((c) => c.intentId === "leaking")!;
+    expect(leaking.verdict).toBe("contested");
+    expect(leaking.contradiction!.low).toBeGreaterThanOrEqual(0.05);
+  });
+
+  test("a product with 5 reviews: every claim is not enough evidence, at no model cost", async () => {
+    const r = await runAudit({ asin: "B0B42X682C", source: "dataset" }, deps);
+    expect(r.proof!.claims.length).toBeGreaterThan(0);
+    expect(r.proof!.claims.every((c) => c.verdict === "not_enough_evidence" && c.contradiction === undefined)).toBe(true);
+    expect(r.proof!.usage.requests).toBe(0);
+  });
+
+  test("a live listing has no review text, and the notes say so", async () => {
+    const r = await runAudit({ asin: "B097CF46RC", source: "serpapi" }, deps);
+    expect(r.proof).toBeUndefined();
+    expect(r.notes).toContain("Live listings come without review text, so promise vs proof wasn't checked.");
+  });
+
   test("an unknown ASIN without live access is a clear error", async () => {
     await expect(runAudit({ asin: "B000000000", source: "serpapi" }, deps)).rejects.toBeInstanceOf(AuditError);
   });

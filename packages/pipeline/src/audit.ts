@@ -1,5 +1,7 @@
 import {
   checkCoverage,
+  checkProof,
+  listingClaims,
   collectClaims,
   computeGaps,
   draftBriefs,
@@ -25,11 +27,12 @@ import {
   type Listing,
   type ListingSource,
   type PastedListing,
+  type ProofRun,
   type RawListing,
   type Score,
 } from "@answerable/core";
 import { pickCompetitors } from "@answerable/providers";
-import type { ImageClaimStore, ImageFetcher, IntentSetStore, ListingStore, SearchStore } from "./stores";
+import type { ImageClaimStore, ImageFetcher, IntentSetStore, ListingStore, ReviewStore, SearchStore } from "./stores";
 
 export type AuditRequest = {
   asin: string;
@@ -55,6 +58,8 @@ export type AuditDeps = {
   intentSets: IntentSetStore;
   imageClaims: ImageClaimStore;
   images: ImageFetcher | null;
+  /** Product reviews for promise vs proof. Absent, or null for a product, means the check is skipped. */
+  reviews?: ReviewStore | null;
   maxImages?: number;
   maxCompetitors?: number;
   log?: (message: string) => void;
@@ -75,6 +80,8 @@ export type AuditResult = {
   competitors: CompetitorResult[];
   gaps: Gap[];
   briefs: Brief[];
+  /** Promise vs proof: the listing's claims checked against its own reviews. Only when reviews exist. */
+  proof?: ProofRun;
   usage: { requests: number; cachedRequests: number; inputTokens: number; outputTokens: number };
   /** Things worth telling the user: an estimated question set, a failed search, missing competitors. */
   notes: string[];
@@ -106,7 +113,8 @@ function metered(model: JsonModel, usage: AuditResult["usage"]): JsonModel {
 
 /**
  * The whole audit for one listing:
- * fetch → normalize → question set → grade → read images → hidden answers → competitors → gaps → fixes.
+ * fetch → normalize → question set → grade → read images → hidden answers → promise vs proof
+ * → competitors → gaps → fixes.
  * The CLI, the API worker and the tests all call this, so they can't drift apart.
  */
 export async function runAudit(req: AuditRequest, deps: AuditDeps): Promise<AuditResult> {
@@ -135,6 +143,17 @@ export async function runAudit(req: AuditRequest, deps: AuditDeps): Promise<Audi
   const coverage = (await checkCoverage(listing, claims, intentSet.intents, llm, deps.model)).matches;
   const hiddenAnswers = findHiddenAnswers(grades, claims, coverage, intentSet.intents);
 
+  const reviews = deps.reviews ? await deps.reviews.get(listing.source, listing.requestedAsin) : null;
+  let proof: ProofRun | undefined;
+  if (reviews && reviews.length > 0) {
+    proof = await checkProof(listingClaims(grades, intentSet.intents, claims, coverage), intentSet.intents, reviews, llm, deps.model);
+    log(`proof: ${proof.claims.length} claims checked against ${reviews.length} reviews`);
+  } else if (listing.source === "serpapi") {
+    notes.push("Live listings come without review text, so promise vs proof wasn't checked.");
+  } else {
+    notes.push("No reviews are saved for this product, so promise vs proof wasn't checked.");
+  }
+
   const competitorResults: CompetitorResult[] = [];
   for (const c of competitors) {
     const cg = (await gradeListing(c, intentSet, llm, deps.model)).grades;
@@ -155,7 +174,22 @@ export async function runAudit(req: AuditRequest, deps: AuditDeps): Promise<Audi
   );
   const briefs = (await draftBriefs(listing, gaps, grades, claims, intentSet.intents, llm, deps.model)).briefs;
 
-  return { listing, intentSet, grades, score, imageClaims: claims, coverage, hiddenAnswers, skippedImageIds: skipped, competitors: competitorResults, gaps, briefs, usage, notes };
+  return {
+    listing,
+    intentSet,
+    grades,
+    score,
+    imageClaims: claims,
+    coverage,
+    hiddenAnswers,
+    skippedImageIds: skipped,
+    competitors: competitorResults,
+    gaps,
+    briefs,
+    ...(proof && { proof }),
+    usage,
+    notes,
+  };
 }
 
 async function loadRaw(req: AuditRequest, deps: AuditDeps): Promise<RawListing | null> {

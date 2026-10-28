@@ -1,0 +1,252 @@
+{
+  "data": [
+    {
+      "i": 0,
+      "label": "unrelated"
+    },
+    {
+      "i": 1,
+      "label": "unrelated"
+    },
+    {
+      "i": 2,
+      "label": "supports"
+    },
+    {
+      "i": 3,
+      "label": "unrelated"
+    },
+    {
+      "i": 4,
+      "label": "unrelated"
+    },
+    {
+      "i": 5,
+      "label": "supports"
+    },
+    {
+      "i": 6,
+      "label": "supports"
+    },
+    {
+      "i": 7,
+      "label": "supports"
+    },
+    {
+      "i": 8,
+      "label": "contradicts"
+    },
+    {
+      "i": 9,
+      "label": "supports"
+    },
+    {
+      "i": 10,
+      "label": "supports"
+    },
+    {
+      "i": 11,
+      "label": "contradicts"
+    },
+    {
+      "i": 12,
+      "label": "supports"
+    },
+    {
+      "i": 13,
+      "label": "unrelated"
+    },
+    {
+      "i": 14,
+      "label": "supports"
+    },
+    {
+      "i": 15,
+      "label": "unrelated"
+    },
+    {
+      "i": 16,
+      "label": "contradicts"
+    },
+    {
+      "i": 17,
+      "label": "contradicts"
+    },
+    {
+      "i": 18,
+      "label": "supports"
+    },
+    {
+      "i": 19,
+      "label": "contradicts"
+    },
+    {
+      "i": 20,
+      "label": "supports"
+    },
+    {
+      "i": 21,
+      "label": "unrelated"
+    },
+    {
+      "i": 22,
+      "label": "supports"
+    },
+    {
+      "i": 23,
+      "label": "contradicts"
+    },
+    {
+      "i": 24,
+      "label": "contradicts"
+    },
+    {
+      "i": 25,
+      "label": "contradicts"
+    },
+    {
+      "i": 26,
+      "label": "contradicts"
+    },
+    {
+      "i": 27,
+      "label": "supports"
+    },
+    {
+      "i": 28,
+      "label": "contradicts"
+    },
+    {
+      "i": 29,
+      "label": "supports"
+    },
+    {
+      "i": 30,
+      "label": "supports"
+    },
+    {
+      "i": 31,
+      "label": "supports"
+    },
+    {
+      "i": 32,
+      "label": "contradicts"
+    },
+    {
+      "i": 33,
+      "label": "contradicts"
+    },
+    {
+      "i": 34,
+      "label": "supports"
+    },
+    {
+      "i": 35,
+      "label": "supports"
+    },
+    {
+      "i": 36,
+      "label": "unrelated"
+    },
+    {
+      "i": 37,
+      "label": "contradicts"
+    },
+    {
+      "i": 38,
+      "label": "supports"
+    },
+    {
+      "i": 39,
+      "label": "contradicts"
+    },
+    {
+      "i": 40,
+      "label": "contradicts"
+    },
+    {
+      "i": 41,
+      "label": "supports"
+    },
+    {
+      "i": 42,
+      "label": "supports"
+    },
+    {
+      "i": 43,
+      "label": "supports"
+    },
+    {
+      "i": 44,
+      "label": "contradicts"
+    },
+    {
+      "i": 45,
+      "label": "supports"
+    },
+    {
+      "i": 46,
+      "label": "contradicts"
+    },
+    {
+      "i": 47,
+      "label": "supports"
+    },
+    {
+      "i": 48,
+      "label": "supports"
+    },
+    {
+      "i": 49,
+      "label": "contradicts"
+    },
+    {
+      "i": 50,
+      "label": "supports"
+    },
+    {
+      "i": 51,
+      "label": "mixed"
+    },
+    {
+      "i": 52,
+      "label": "contradicts"
+    },
+    {
+      "i": 53,
+      "label": "supports"
+    },
+    {
+      "i": 54,
+      "label": "mixed"
+    },
+    {
+      "i": 55,
+      "label": "supports"
+    },
+    {
+      "i": 56,
+      "label": "supports"
+    },
+    {
+      "i": 57,
+      "label": "contradicts"
+    },
+    {
+      "i": 58,
+      "label": "contradicts"
+    },
+    {
+      "i": 59,
+      "label": "supports"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "proof-labels@2026-10-28.2",
+  "usage": {
+    "inputTokens": 5118,
+    "outputTokens": 922
+  },
+  "latencyMs": 4394,
+  "cached": false
+}

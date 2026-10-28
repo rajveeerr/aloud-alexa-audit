@@ -1,6 +1,6 @@
 import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
-import type { IntentSet, ListingSource, RawListing } from "@answerable/core";
+import type { IntentSet, ListingSource, RawListing, ReviewText } from "@answerable/core";
 import { FixtureProductData, ImageStore, SerpApiProductData, SerpApiSearch, type ImageData, type SearchResult } from "@answerable/providers";
 
 /** Where listings come from. Snapshots first, a live fetch only when allowed and nothing is saved. */
@@ -25,12 +25,20 @@ export interface ImageClaimStore {
   save(source: ListingSource, asin: string, record: { promptVersion: string; modelOutput: unknown; [k: string]: unknown }): Promise<void>;
 }
 
+/**
+ * A product's review text, for promise vs proof. Null when there's none: live SerpApi pages don't
+ * include review text, and a pasted listing has none.
+ */
+export interface ReviewStore {
+  get(source: ListingSource, asin: string): Promise<ReviewText[] | null>;
+}
+
 export interface ImageFetcher {
   get(url: string): Promise<ImageData | null>;
 }
 
 export type FsStoresOptions = {
-  /** The fixtures directory: <root>/{serpapi,dataset,intents,image-claims,serpapi-search}. */
+  /** The fixtures directory: <root>/{serpapi,dataset,intents,image-claims,serpapi-search,reviews}. */
   fixturesDir: string;
   /** Downloaded image bytes. Keep out of git. */
   imageCacheDir: string;
@@ -45,6 +53,7 @@ export function fsStores(opts: FsStoresOptions): {
   intentSets: IntentSetStore;
   imageClaims: ImageClaimStore;
   images: ImageFetcher;
+  reviews: ReviewStore;
 } {
   const fixtures = {
     serpapi: new FixtureProductData(opts.fixturesDir, "serpapi"),
@@ -53,6 +62,7 @@ export function fsStores(opts: FsStoresOptions): {
   const live = opts.serpApiKey ? new SerpApiProductData({ apiKey: opts.serpApiKey, snapshotDir: join(opts.fixturesDir, "serpapi") }) : null;
   const intentDir = join(opts.fixturesDir, "intents");
   const claimsDir = join(opts.fixturesDir, "image-claims");
+  const reviewsDir = join(opts.fixturesDir, "reviews");
 
   return {
     listings: {
@@ -87,5 +97,19 @@ export function fsStores(opts: FsStoresOptions): {
       },
     },
     images: new ImageStore({ cacheDir: opts.imageCacheDir }),
+    reviews: {
+      // Saved reviews come from the 2023 dataset, so they only belong to dataset listings. A live
+      // page of the same ASIN is a different snapshot, years later, and gets none.
+      async get(source, asin) {
+        if (source !== "dataset") return null;
+        const text = await readFile(join(reviewsDir, `${asin}.jsonl`), "utf8").catch(() => null);
+        if (text === null) return null;
+        return text
+          .split("\n")
+          .filter((l) => l.trim())
+          .map((l) => JSON.parse(l) as { r?: number; t?: string; x?: string; h?: number })
+          .map((l) => ({ asin, title: l.t ?? "", text: l.x ?? "", helpfulVotes: l.h ?? 0, ...(typeof l.r === "number" && { rating: l.r }) }));
+      },
+    },
   };
 }
