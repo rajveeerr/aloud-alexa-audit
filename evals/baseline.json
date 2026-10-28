@@ -1,0 +1,8 @@
+{
+  "gradeAccuracy": 0.8507,
+  "proofAccuracy": 0.8667,
+  "gradePairs": 134,
+  "proofPairs": 60,
+  "gradePromptVersion": "grade@2026-10-27.1",
+  "proofPromptVersion": "proof-labels@2026-10-28.2"
+}

@@ -1,0 +1,92 @@
+{
+  "data": [
+    {
+      "i": 0,
+      "label": "mixed"
+    },
+    {
+      "i": 1,
+      "label": "supports"
+    },
+    {
+      "i": 2,
+      "label": "unrelated"
+    },
+    {
+      "i": 3,
+      "label": "contradicts"
+    },
+    {
+      "i": 4,
+      "label": "supports"
+    },
+    {
+      "i": 5,
+      "label": "supports"
+    },
+    {
+      "i": 6,
+      "label": "supports"
+    },
+    {
+      "i": 7,
+      "label": "contradicts"
+    },
+    {
+      "i": 8,
+      "label": "contradicts"
+    },
+    {
+      "i": 9,
+      "label": "supports"
+    },
+    {
+      "i": 10,
+      "label": "contradicts"
+    },
+    {
+      "i": 11,
+      "label": "supports"
+    },
+    {
+      "i": 12,
+      "label": "contradicts"
+    },
+    {
+      "i": 13,
+      "label": "supports"
+    },
+    {
+      "i": 14,
+      "label": "mixed"
+    },
+    {
+      "i": 15,
+      "label": "supports"
+    },
+    {
+      "i": 16,
+      "label": "supports"
+    },
+    {
+      "i": 17,
+      "label": "supports"
+    },
+    {
+      "i": 18,
+      "label": "contradicts"
+    },
+    {
+      "i": 19,
+      "label": "contradicts"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "proof-labels@2026-10-28.2",
+  "usage": {
+    "inputTokens": 2076,
+    "outputTokens": 301
+  },
+  "latencyMs": 3778,
+  "cached": false
+}
