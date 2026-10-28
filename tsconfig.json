@@ -8,6 +8,12 @@
       "path": "packages/providers"
     },
     {
+      "path": "packages/pipeline"
+    },
+    {
+      "path": "packages/contracts"
+    },
+    {
       "path": "apps/cli"
     }
   ]

@@ -1,0 +1,126 @@
+/**
+ * The HTTP contract between apps/api and apps/web (and SalesDuo's own services).
+ * Request bodies are zod schemas so the API validates exactly what the client is typed against.
+ * Response bodies are plain types; the audit report is the pipeline's AuditResult as JSON.
+ */
+import { z } from "zod";
+import type { AuditResult } from "@answerable/pipeline";
+
+export const Asin = z.string().regex(/^B0[A-Z0-9]{8}$/, "An ASIN is 10 characters starting with B0");
+
+export const PastedListingBody = z.object({
+  title: z.string().min(3).max(500),
+  bullets: z.array(z.string().max(1000)).max(10).optional(),
+  description: z.string().max(5000).optional(),
+  attributes: z.record(z.string(), z.string().max(500)).optional(),
+  imageUrls: z.array(z.url()).max(16).optional(),
+});
+
+/** POST /v1/audits */
+export const CreateAuditBody = z
+  .object({
+    asin: Asin,
+    source: z.enum(["serpapi", "dataset", "paste"]).default("serpapi"),
+    paste: PastedListingBody.optional(),
+    /** Category for a pasted listing, e.g. "Gel Ink Rollerball Pens". */
+    category: z.string().max(120).optional(),
+    competitors: z.array(Asin).max(6).optional(),
+    /** Allow live SerpApi fetches. Costs searches; off by default. */
+    live: z.boolean().default(false),
+  })
+  .refine((b) => b.source !== "paste" || !!b.paste, { message: "source 'paste' needs a paste body", path: ["paste"] });
+export type CreateAuditBody = z.infer<typeof CreateAuditBody>;
+
+/** POST /v1/bulk */
+export const CreateBulkBody = z.object({
+  name: z.string().min(1).max(120),
+  asins: z.array(Asin).min(1).max(200),
+  source: z.enum(["serpapi", "dataset"]).default("serpapi"),
+  live: z.boolean().default(false),
+});
+export type CreateBulkBody = z.infer<typeof CreateBulkBody>;
+
+/** POST /v1/rescore: the Cohesity webhook. Skipped when the listing's content hash hasn't changed. */
+export const RescoreBody = z.object({
+  asin: Asin,
+  source: z.enum(["serpapi", "dataset"]).default("serpapi"),
+  reason: z.string().max(200),
+});
+export type RescoreBody = z.infer<typeof RescoreBody>;
+
+/** POST /v1/public/audits: the homepage widget. Email is optional; it unlocks the full report. */
+export const PublicAuditBody = z.object({
+  asin: Asin,
+  email: z.email().optional(),
+});
+export type PublicAuditBody = z.infer<typeof PublicAuditBody>;
+
+export type AuditStatus = "queued" | "running" | "done" | "failed";
+export type AuditOrigin = "app" | "api" | "widget" | "rescore" | "bulk";
+
+/** GET /v1/audits/:id */
+export type AuditJob = {
+  id: string;
+  asin: string;
+  source: "serpapi" | "dataset" | "paste";
+  origin: AuditOrigin;
+  status: AuditStatus;
+  /** Set when status is "failed". */
+  error?: { code: string; message: string };
+  createdAt: string;
+  completedAt?: string;
+  score?: number | null;
+  contentHash?: string;
+  /** Present when status is "done". */
+  report?: AuditReport;
+};
+
+export type AuditReport = AuditResult;
+
+/** GET /v1/audits?limit= */
+export type AuditSummary = Pick<AuditJob, "id" | "asin" | "source" | "origin" | "status" | "createdAt" | "completedAt" | "score"> & {
+  brand?: string;
+  title?: string;
+  category?: string;
+};
+
+/** POST /v1/audits/:id/briefs: Studio-ready briefs. */
+export type StudioBriefs = {
+  auditId: string;
+  asin: string;
+  category: string;
+  briefs: AuditReport["briefs"];
+};
+
+/** GET /v1/asins/:asin/history: the BI dashboard tile. */
+export type HistoryPoint = { auditId: string; at: string; score: number | null; contentHash: string; origin: AuditOrigin };
+export type AsinHistory = { asin: string; points: HistoryPoint[] };
+
+/** POST /v1/rescore response. */
+export type RescoreResult = { skipped: true; reason: "unchanged"; auditId: string } | { skipped: false; auditId: string };
+
+/** GET /v1/bulk/:id */
+export type BulkJob = {
+  id: string;
+  name: string;
+  status: "running" | "done";
+  total: number;
+  done: number;
+  failed: number;
+  createdAt: string;
+  audits: { id: string; asin: string; status: AuditStatus; score: number | null }[];
+};
+
+/** POST /v1/public/audits response, once done: the top 3 gaps only, the full report goes by email. */
+export type PublicAuditResult = {
+  id: string;
+  status: AuditStatus;
+  asin: string;
+  score?: number | null;
+  scoreBasis?: "mined" | "estimated";
+  topGaps?: { question: string; status: string; competitorShare: number | null; hiddenInImage: boolean }[];
+  emailCaptured: boolean;
+};
+
+/** Every error response. */
+export type ApiError = { error: { code: string; message: string; details?: unknown } };
