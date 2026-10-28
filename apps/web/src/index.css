@@ -1,0 +1,153 @@
+@import "tailwindcss";
+@import "@fontsource-variable/source-sans-3";
+@import "@fontsource/source-code-pro/400.css";
+@import "@fontsource/source-code-pro/500.css";
+@import "@fontsource/fragment-mono";
+@import "@fontsource-variable/hanken-grotesk";
+
+@custom-variant dark (&:is(.dark *));
+
+/* Studio (app) tokens, from studio.salesduo.com. */
+:root {
+  --radius: 0.75rem;
+  --background: #ffffff;
+  --foreground: #2f2f2d;
+  --card: #ffffff;
+  --card-foreground: #2f2f2d;
+  --popover: #ffffff;
+  --popover-foreground: #2f2f2d;
+  --primary: hsl(32 100% 50%);
+  /* White on #FF8800 is 2.3:1, so primary buttons carry dark text. */
+  --primary-foreground: #231f1a;
+  --primary-ink: #c2410c;
+  --secondary: #fff7ed;
+  --secondary-foreground: #7c2d12;
+  --muted: #f6f5f3;
+  --muted-foreground: #6b6862;
+  --accent: #fff8ec;
+  --accent-foreground: #2f2f2d;
+  --destructive: #b91c1c;
+  --border: #ebe8e3;
+  --input: #dedad3;
+  --ring: hsl(32 100% 50%);
+  --tint: #fff7ed;
+  --tint-strong: #ffedd5;
+
+  --answered: #15803d;
+  --answered-bg: #ecfdf3;
+  --partial: #b45309;
+  --partial-bg: #fffbeb;
+  --missing: #b91c1c;
+  --missing-bg: #fef2f2;
+  --contradicted: #9f1239;
+  --contradicted-bg: #ffe4e6;
+  --na: #78716c;
+  --na-bg: #f5f5f4;
+
+  /* salesduo.com (widget) tokens. */
+  --sd-orange: #fd9900;
+  --sd-purple: #4c3e5e;
+  --sd-dark: #231f23;
+  --sd-light: #f7f6f5;
+  --sd-depth: #ececec;
+}
+
+@theme inline {
+  --font-sans: "Source Sans 3 Variable", "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Source Code Pro", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-sd: "Hanken Grotesk Variable", "Hanken Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-sd-mono: "Fragment Mono", ui-monospace, monospace;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-ink: var(--primary-ink);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-tint: var(--tint);
+  --color-tint-strong: var(--tint-strong);
+
+  --color-answered: var(--answered);
+  --color-answered-bg: var(--answered-bg);
+  --color-partial: var(--partial);
+  --color-partial-bg: var(--partial-bg);
+  --color-missing: var(--missing);
+  --color-missing-bg: var(--missing-bg);
+  --color-contradicted: var(--contradicted);
+  --color-contradicted-bg: var(--contradicted-bg);
+  --color-na: var(--na);
+  --color-na-bg: var(--na-bg);
+
+  --color-sd-orange: var(--sd-orange);
+  --color-sd-purple: var(--sd-purple);
+  --color-sd-dark: var(--sd-dark);
+  --color-sd-light: var(--sd-light);
+  --color-sd-depth: var(--sd-depth);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-size: 15px;
+    line-height: 1.55;
+  }
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+  }
+  ::selection {
+    background: var(--tint-strong);
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@keyframes progress {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(300%);
+  }
+}
