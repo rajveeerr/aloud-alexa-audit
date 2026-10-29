@@ -70,7 +70,8 @@ export function createApp(ctx: AppContext): express.Express {
   const app = express();
   app.set("trust proxy", config.trustProxy);
   app.disable("x-powered-by");
-  app.use(cors({ origin: config.webOrigin }));
+  // Retry-After is exposed so the web app can back off on a 429 instead of guessing.
+  app.use(cors({ origin: config.webOrigin, exposedHeaders: ["Retry-After", "X-RateLimit-Limit", "X-RateLimit-Remaining"] }));
   app.use(express.json({ limit: "256kb" }));
 
   app.get("/v1/health", async (_req, res) => {
