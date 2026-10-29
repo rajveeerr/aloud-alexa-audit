@@ -48,5 +48,6 @@ The real suite reuses an API already listening on 4100, or starts one with `bun 
 CORS doesn't apply. If you reuse your own API, start it with `API_KEY_DEV=dev-key` and a high
 `PUBLIC_RATE_LIMIT`, since the widget allows 5 audits an hour per IP by default.
 
-The real suite writes the screenshots in `e2e/screenshots`; the mock suite writes to
-`test-results/mock-screenshots` (not committed).
+Both suites write screenshots under `test-results/` (not committed). To refresh the
+committed ones in `e2e/screenshots` (used in the root README), run the real suite with
+`UPDATE_SCREENSHOTS=1`.

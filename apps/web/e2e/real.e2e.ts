@@ -5,7 +5,8 @@
 import { expect, test, type Page } from "@playwright/test";
 import { BLOG_URL, noHorizontalScroll, QUOTE, shooter, watchConsole } from "./helpers";
 
-const shots = shooter("e2e/screenshots");
+// The committed screenshots (used in the README) only change when asked: UPDATE_SCREENSHOTS=1.
+const shots = shooter(process.env.UPDATE_SCREENSHOTS ? "e2e/screenshots" : "test-results/real-screenshots");
 const UUID = /\/audits\/[0-9a-f-]{36}$/;
 
 let errors: string[] = [];
