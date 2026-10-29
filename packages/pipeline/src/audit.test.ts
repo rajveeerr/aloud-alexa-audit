@@ -130,3 +130,14 @@ describe("saved listings", () => {
     expect(asins.length).toBeGreaterThan(10);
   });
 });
+
+describe("competitors", () => {
+  test("one listing per competing brand", async () => {
+    // Pilot is given twice. Without the brand rule the list would be Pilot, Pilot, Pentel, BIC.
+    const r = await runAudit(
+      { asin: "B0C9W8DD9S", source: "serpapi", competitors: ["B001GAOTSW", "B001GAOTSW", "B097CF46RC", "B0BGPYR8Q3", "B0BSMKF5BQ"] },
+      deps,
+    );
+    expect(r.competitors.map((c) => c.brand)).toEqual(["PILOT", "Pentel", "BIC", "Sharpie"]);
+  });
+});

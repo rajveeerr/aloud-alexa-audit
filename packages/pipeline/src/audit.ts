@@ -276,6 +276,10 @@ async function findCompetitors(req: AuditRequest, listing: Listing, raw: RawList
     const l = normalize(r);
     if (brand && l.meta.brand?.toLowerCase() === brand) continue;
     if (l.asin === listing.asin) continue;
+    // One listing per competing brand: two Sharpie variants would count Sharpie twice in
+    // "N of M competitors answer it".
+    const other = l.meta.brand?.toLowerCase();
+    if (other && out.some((o) => o.meta.brand?.toLowerCase() === other)) continue;
     out.push(l);
   }
   if (out.length === 0) notes.push("No competitors found, so gaps are ranked without a comparison.");
