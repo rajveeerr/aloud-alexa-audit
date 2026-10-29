@@ -1,9 +1,9 @@
-import { Asin, PublicAuditBody } from "@answerable/contracts";
+import { Asin, PublicAuditBody, PublicEmailBody } from "@answerable/contracts";
 import type { PublicAuditResult } from "@answerable/contracts";
 import { ImageIcon, LoaderCircleIcon } from "lucide-react";
 import { useId, useState, type FormEvent } from "react";
 import { Link } from "react-router";
-import { useCreatePublicAudit, usePublicAudit } from "@/api/hooks";
+import { useAddPublicEmail, useCreatePublicAudit, usePublicAudit } from "@/api/hooks";
 import { cn } from "@/lib/utils";
 
 const label = "font-sd-mono text-[11px] tracking-[0.07em] text-[#6d6670]";
@@ -96,7 +96,9 @@ export function WidgetPage() {
             {create.error && <p className="mt-5 text-sm text-[#b42318]">{create.error.message}</p>}
             {result.error && <p className="mt-5 text-sm text-[#b42318]">{result.error.message}</p>}
             {data?.status === "failed" && (
-              <p className="mt-5 text-sm text-[#b42318]">We couldn't audit {data.asin}. Check the ASIN is a live US listing and try again.</p>
+              <p className="mt-5 text-sm text-[#b42318]" role="alert" data-testid="widget-failed">
+                {data.reason ?? "The audit couldn't be completed."}
+              </p>
             )}
             {data?.status === "done" && <Result data={data} email={email} />}
           </div>
@@ -130,7 +132,11 @@ function Result({ data, email }: { data: PublicAuditResult; email: string }) {
               <p className="text-[15px] leading-snug font-semibold">{g.question}</p>
               <p className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1 text-[13px] text-[#6d6670]">
                 <span>{STATUS_WORDS[g.status] ?? g.status}</span>
-                {g.competitorShare !== null && <span>{Math.round(g.competitorShare * 100)}% of competitors answer it</span>}
+                {g.competitors > 0 && (
+                  <span>
+                    {g.competitorsAnswering} of {g.competitors} competitors answer it
+                  </span>
+                )}
                 {g.hiddenInImage && (
                   <span className="inline-flex items-center gap-1 font-semibold text-sd-purple">
                     <ImageIcon className="size-3.5" aria-hidden="true" /> You already say it, but only in an image
@@ -142,22 +148,62 @@ function Result({ data, email }: { data: PublicAuditResult; email: string }) {
         ))}
       </ol>
 
-      <div className="mt-6 rounded-xl bg-sd-purple p-5 text-white">
-        {data.emailCaptured ? (
-          <p className="text-[15px]">
-            The full report is on its way to <span className="font-semibold">{email}</span>: every question, the quotes behind each answer, and a fix
-            list written from your own listing.
-          </p>
-        ) : (
-          <>
-            <p className="text-[17px] font-semibold">Get the full report by email</p>
-            <p className="mt-1 text-sm text-white/80">Every question, the quotes behind each answer, and a fix list written from your own listing.</p>
-            <button type="button" onClick={() => document.querySelector<HTMLInputElement>("input[type=email]")?.focus()} className={cn(cta, "mt-4 h-11 text-[14px]")}>
-              Add my email
+      <EmailCapture data={data} initialEmail={email} />
+    </div>
+  );
+}
+
+function EmailCapture({ data, initialEmail }: { data: PublicAuditResult; initialEmail: string }) {
+  const add = useAddPublicEmail();
+  const [email, setEmail] = useState("");
+  const [error, setError] = useState<string | null>(null);
+  const inputId = useId();
+  const sentTo = add.data?.emailCaptured ? email : initialEmail;
+
+  function submit(e: FormEvent) {
+    e.preventDefault();
+    const parsed = PublicEmailBody.safeParse({ email: email.trim() });
+    if (!parsed.success) return setError("That email address doesn't look right.");
+    setError(null);
+    add.mutate({ id: data.id, email: parsed.data.email });
+  }
+
+  return (
+    <div className="mt-6 rounded-xl bg-sd-purple p-5 text-white" aria-live="polite">
+      {data.emailCaptured ? (
+        <p className="text-[15px]" data-testid="email-captured">
+          The full report is on its way{sentTo ? <> to <span className="font-semibold">{sentTo}</span></> : null}: every question, the quotes behind
+          each answer, and a fix list written from your own listing.
+        </p>
+      ) : (
+        <form onSubmit={submit} noValidate>
+          <label htmlFor={inputId} className="text-[17px] font-semibold">
+            Get the full report by email
+          </label>
+          <p className="mt-1 text-sm text-white/80">Every question, the quotes behind each answer, and a fix list written from your own listing.</p>
+          <div className="mt-4 flex flex-col gap-2 sm:flex-row">
+            <input
+              id={inputId}
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder="you@brand.com"
+              autoComplete="email"
+              aria-invalid={!!error}
+              className={cn(field, "h-11 sm:flex-1")}
+            />
+            <button type="submit" className={cn(cta, "h-11 text-[14px]")} disabled={add.isPending}>
+              {add.isPending && <LoaderCircleIcon className="size-4 animate-spin" aria-hidden="true" />}
+              Send me the report
             </button>
-          </>
-        )}
-      </div>
+          </div>
+          {(error ?? add.error?.message) && (
+            <p role="alert" className="mt-2 text-sm text-[#ffd7cc]">
+              {error ?? add.error?.message}
+            </p>
+          )}
+        </form>
+      )}
     </div>
   );
 }
