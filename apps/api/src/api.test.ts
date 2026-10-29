@@ -10,7 +10,7 @@ import type { Job, Queue } from "bullmq";
 import { eq } from "drizzle-orm";
 import type { AsinHistory, AuditJob, AuditSummary, BulkJob, BulkSummary, PublicAuditResult, RescoreResult, SavedListing, StudioBriefs } from "@answerable/contracts";
 import type { JsonModel } from "@answerable/core";
-import { audits, connect, createAudit, dropDatabase, ensureDatabase, getAudit, leadsFor, markFailed, markRunning, runMigrations, type DbHandle } from "@answerable/db";
+import { audits, connect, createAudit, dropDatabase, ensureDatabase, findApiKey, getAudit, leadsFor, markFailed, markRunning, runMigrations, type DbHandle } from "@answerable/db";
 import { ProviderError, QuotaExhaustedError } from "@answerable/providers";
 import {
   createAuditQueue,
@@ -29,6 +29,8 @@ import {
   type AuditJobData,
   type WebhookConfig,
 } from "@answerable/worker";
+import { hashKey } from "./auth";
+import { createApiKey } from "./keys";
 import { configFromEnv, startServer, type RunningServer, type ServerConfig } from "./server";
 
 const DB_URL = process.env.TEST_DATABASE_URL || "mysql://root:answerable@127.0.0.1:3317/answerable_test";
@@ -172,6 +174,18 @@ describe.skipIf(process.env.SKIP_INTEGRATION === "1")("api + worker (compose, re
   test("a missing or wrong API key is 401", async () => {
     expect(await call("GET", "/v1/audits", undefined, {})).toMatchObject({ status: 401, body: { error: { code: "unauthorized" } } });
     expect((await call("GET", "/v1/audits", undefined, { "x-api-key": "wrong" })).status).toBe(401);
+  });
+
+  test("a key from createApiKey works, and only its hash is stored", async () => {
+    const key = await createApiKey(handle.db, "prod-web", 30);
+    expect(key).toMatch(/^ans_[A-Za-z0-9_-]{32}$/);
+    const res = await call("GET", "/v1/audits?limit=1", undefined, { "x-api-key": key });
+    expect(res.status).toBe(200);
+    expect(res.headers.get("x-ratelimit-limit")).toBe("30");
+    const row = await findApiKey(handle.db, hashKey(key));
+    expect(row).toMatchObject({ name: "prod-web", rateLimit: 30 });
+    expect(JSON.stringify(row)).not.toContain(key);
+    expect(await createApiKey(handle.db, "prod-web")).not.toBe(key);
   });
 
   test("an unknown audit is 404", async () => {
@@ -511,4 +525,47 @@ describe.skipIf(process.env.SKIP_INTEGRATION === "1")("api + worker (compose, re
       await down.close();
     }
   }, 20_000);
+
+  test("without DEMO_READONLY, live is kept as asked", async () => {
+    const res = await call<{ id: string }>("POST", "/v1/audits", { asin: "B09VD1Z3TK", source: "dataset", live: true });
+    expect(res.status).toBe(202);
+    expect((await getAudit(handle.db, res.body.id))?.request).toMatchObject({ live: true });
+    // Let it finish (it can't fetch live here, with no SerpApi key) so it isn't left queued.
+    expect(finished((await pollAudit(res.body.id)).status)).toBe(true);
+  }, 30_000);
+
+  test("DEMO_READONLY: saved listings only, live forced off, bulk capped at 10, no rescore", async () => {
+    const demo = await startServer({ ...serverConfig(`${PREFIX}-demo`), demoReadonly: true }, { deps: replayDeps, log: () => {} });
+    const demoCall = <T = any>(method: string, path: string, body?: unknown) => callAt<T>(demo.url, method, path, body);
+    try {
+      const created = await demoCall<{ id: string }>("POST", "/v1/audits", { asin: "B0C9W8DD9S", source: "serpapi", live: true });
+      expect(created.status).toBe(202);
+      expect((await getAudit(handle.db, created.body.id))?.request).toMatchObject({ live: false });
+      const done = await until(async () => (await demoCall<AuditJob>("GET", `/v1/audits/${created.body.id}`)).body, (a) => finished(a.status));
+      expect(done).toMatchObject({ status: "done", score: 52 });
+
+      const paste = await demoCall("POST", "/v1/audits", { asin: "B0C9W8DD9S", source: "paste", paste: { title: "A pasted pen", bullets: ["Blue ink"] } });
+      expect(paste).toMatchObject({ status: 403, body: { error: { code: "demo_readonly" } } });
+
+      const rescored = await demoCall("POST", "/v1/rescore", { asin: "B0C9W8DD9S", source: "serpapi", reason: "x" });
+      expect(rescored).toMatchObject({ status: 403, body: { error: { code: "demo_readonly" } } });
+
+      const eleven = Array.from({ length: 11 }, (_, i) => `B0DEMO${String(i).padStart(4, "0")}`);
+      const tooMany = await demoCall("POST", "/v1/bulk", { name: "too many", asins: eleven, source: "dataset" });
+      expect(tooMany).toMatchObject({ status: 403, body: { error: { code: "demo_readonly", message: expect.stringContaining("10 ASINs") } } });
+
+      // Duplicates count once, as startBulk dedupes them.
+      const bulk = await demoCall<{ id: string }>("POST", "/v1/bulk", { name: "demo pair", asins: [...eleven.slice(0, 1), "B09VD1Z3TK", "B09VD1Z3TK"], source: "dataset", live: true });
+      expect(bulk.status).toBe(202);
+      const job = await until(async () => (await demoCall<BulkJob>("GET", `/v1/bulk/${bulk.body.id}`)).body, (b) => b.status === "done", 30_000);
+      expect(job.total).toBe(2);
+      const rows = await handle.db.select().from(audits).where(eq(audits.bulkJobId, bulk.body.id));
+      expect(rows.map((r) => r.request)).toEqual([{ live: false }, { live: false }]);
+
+      // Reading still works as usual.
+      expect((await demoCall("GET", "/v1/audits?limit=1")).status).toBe(200);
+    } finally {
+      await demo.close();
+    }
+  }, 60_000);
 });

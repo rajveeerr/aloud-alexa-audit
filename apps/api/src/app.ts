@@ -36,7 +36,19 @@ export type AppConfig = {
   publicEmailLimit: number;
   /** Let widget audits fetch unsaved listings through SerpApi. Costs searches, so off by default. */
   publicLive: boolean;
+  /**
+   * For a public demo whose app bundle carries its key: keyed audits may only use saved listings
+   * (live is forced off, no pasted listings), bulk jobs take at most DEMO_BULK_MAX ASINs and
+   * rescore is refused. Off by default.
+   */
+  demoReadonly: boolean;
 };
+
+export const DEMO_BULK_MAX = 10;
+
+function demoRefused(message: string): HttpError {
+  return new HttpError(403, "demo_readonly", `${message} This deploy is a read-only demo.`);
+}
 
 export type AppContext = {
   db: Db;
@@ -148,12 +160,13 @@ export function createApp(ctx: AppContext): express.Express {
 
   v1.post("/audits", async (req, res) => {
     const body = CreateAuditBody.parse(req.body);
+    if (config.demoReadonly && body.source === "paste") throw demoRefused("Pasted listings are turned off; pick a saved listing.");
     const row = await submitAudit(jobs, {
       asin: body.asin,
       source: body.source,
       origin: originOf(req),
       request: {
-        live: body.live,
+        live: config.demoReadonly ? false : body.live,
         ...(body.paste && { paste: body.paste }),
         ...(body.category && { category: body.category }),
         ...(body.competitors && { competitors: body.competitors }),
@@ -189,13 +202,15 @@ export function createApp(ctx: AppContext): express.Express {
 
   v1.post("/rescore", async (req, res) => {
     const body = RescoreBody.parse(req.body);
+    if (config.demoReadonly) throw demoRefused("Rescore is turned off.");
     const result = await rescore({ ...jobs, listings: ctx.listings }, body);
     res.status(result.skipped ? 200 : 202).json(result);
   });
 
   v1.post("/bulk", async (req, res) => {
     const body = CreateBulkBody.parse(req.body);
-    res.status(202).json(await startBulk(jobs, body));
+    if (config.demoReadonly && new Set(body.asins).size > DEMO_BULK_MAX) throw demoRefused(`Bulk jobs are limited to ${DEMO_BULK_MAX} ASINs.`);
+    res.status(202).json(await startBulk(jobs, config.demoReadonly ? { ...body, live: false } : body));
   });
 
   v1.get("/bulk", async (req, res) => {

@@ -63,6 +63,7 @@ export function configFromEnv(
     publicWindowSec: Number(env.PUBLIC_RATE_WINDOW_SEC || 3600),
     publicEmailLimit: Number(env.PUBLIC_EMAIL_LIMIT || 10),
     publicLive: env.PUBLIC_LIVE === "1",
+    demoReadonly: env.DEMO_READONLY === "1",
     runWorker: argv.includes("--with-worker") || env.RUN_WORKER === "1",
     // Never a built-in default: a deploy that forgets NODE_ENV mustn't accept a well-known key.
     devApiKey: !production && env.API_KEY_DEV ? env.API_KEY_DEV : null,

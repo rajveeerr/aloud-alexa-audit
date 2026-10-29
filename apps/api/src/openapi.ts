@@ -200,6 +200,7 @@ export const openApiDocument = {
         responses: {
           "202": { description: "Queued", ...json({ type: "object", required: ["id", "status"], properties: { id, status } }) },
           ...common,
+          "403": error("Read-only demo (demo_readonly): pasted listings are refused, and live is treated as false"),
         },
       },
       get: {
@@ -249,6 +250,7 @@ export const openApiDocument = {
           "200": { description: "Unchanged, skipped", ...json(ref("RescoreResult")) },
           "202": { description: "Changed, a new audit was queued", ...json(ref("RescoreResult")) },
           ...common,
+          "403": error("Read-only demo (demo_readonly): rescore is refused"),
           "404": error("No saved listing"),
         },
       },
@@ -270,7 +272,11 @@ export const openApiDocument = {
             },
           }),
         },
-        responses: { "202": { description: "Queued", ...json({ type: "object", required: ["id"], properties: { id } }) }, ...common },
+        responses: {
+          "202": { description: "Queued", ...json({ type: "object", required: ["id"], properties: { id } }) },
+          ...common,
+          "403": error("Read-only demo (demo_readonly): more than 10 ASINs, and live is treated as false"),
+        },
       },
       get: {
         ...keyed,

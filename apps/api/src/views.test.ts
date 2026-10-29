@@ -5,7 +5,7 @@ import type { AuditRow } from "@answerable/db";
 import { AuditError } from "@answerable/pipeline";
 import { EnqueueError } from "@answerable/worker";
 import { HttpError, toApiError } from "./errors";
-import { parseTrustProxy } from "./server";
+import { configFromEnv, parseTrustProxy } from "./server";
 import { publicReason, toAuditJob, toBulkJob, toBulkSummary, toPublicResult } from "./views";
 
 const at = new Date("2026-10-30T12:00:00Z");
@@ -178,5 +178,18 @@ describe("parseTrustProxy", () => {
     expect(parseTrustProxy("true", warn)).toBe(1);
     expect(warnings.at(-1)).toContain("hop count");
     expect(() => parseTrustProxy("loopback", warn)).toThrow("hop count");
+  });
+});
+
+describe("configFromEnv", () => {
+  test("DEMO_READONLY is off unless it is exactly 1", () => {
+    expect(configFromEnv({}, []).demoReadonly).toBe(false);
+    expect(configFromEnv({ DEMO_READONLY: "true" }, []).demoReadonly).toBe(false);
+    expect(configFromEnv({ DEMO_READONLY: "1" }, []).demoReadonly).toBe(true);
+  });
+
+  test("the dev key is never seeded in production", () => {
+    expect(configFromEnv({ API_KEY_DEV: "dev-key" }, []).devApiKey).toBe("dev-key");
+    expect(configFromEnv({ API_KEY_DEV: "dev-key", NODE_ENV: "production" }, []).devApiKey).toBeNull();
   });
 });
