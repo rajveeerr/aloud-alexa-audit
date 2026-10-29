@@ -9,11 +9,12 @@ import {
   CreateBulkBody,
   ListingsQuery,
   PublicAuditBody,
+  PublicEmailBody,
   RescoreBody,
   type AuditOrigin,
   type Health,
 } from "@answerable/contracts";
-import { addLead, getAudit, getBulk, history, leadAuditIds, listAudits, type Db } from "@answerable/db";
+import { addLead, getAudit, getBulk, history, leadAuditIds, listAudits, listBulks, type Db } from "@answerable/db";
 import type { ListingStore } from "@answerable/pipeline";
 import { rescore, startBulk, submitAudit, type AuditJobData } from "@answerable/worker";
 import { requireApiKey } from "./auth";
@@ -45,6 +46,7 @@ export type AppContext = {
 };
 
 const ListAuditsQuery = z.object({ limit: z.coerce.number().int().min(1).max(100).default(20) });
+const ListBulkQuery = z.object({ limit: z.coerce.number().int().min(1).max(50).default(10) });
 const IdParam = z.object({ id: z.uuid() });
 const AsinParam = z.object({ asin: Asin });
 
@@ -87,13 +89,17 @@ export function createApp(ctx: AppContext): express.Express {
     res.json(await savedListings(ctx.listings, q.source ? [q.source] : ["serpapi", "dataset"]));
   });
 
-  // The homepage widget: no key, so it's limited per IP instead.
-  app.post("/v1/public/audits", async (req, res) => {
+  /** The homepage widget has no key, so its writes are limited per IP instead. */
+  async function limitPublic(req: Request, res: express.Response) {
     const h = await hit(redis, `${config.redisPrefix}:rl:public:${req.ip}`, config.publicRateLimit, config.publicWindowSec);
     if (!h.allowed) {
       res.set("Retry-After", String(h.retryAfterSec));
       throw new HttpError(429, "rate_limited", `Only ${config.publicRateLimit} free audits an hour; try again later`);
     }
+  }
+
+  app.post("/v1/public/audits", async (req, res) => {
+    await limitPublic(req, res);
     const body = PublicAuditBody.parse(req.body);
     const source = await publicSource(ctx.listings, body.asin);
     const row = await submitAudit(jobs, { asin: body.asin, source, origin: "widget", request: { live: config.publicLive } });
@@ -118,6 +124,17 @@ export function createApp(ctx: AppContext): express.Express {
     if (!row || row.origin !== "widget") throw new HttpError(404, "not_found", "No such audit");
     const captured = (await leadAuditIds(db, [row.id])).has(row.id);
     res.json(toPublicResult(row, captured));
+  });
+
+  // An email left after the widget showed its teaser: unlocks the full report for that audit.
+  app.post("/v1/public/audits/:id/email", async (req, res) => {
+    await limitPublic(req, res);
+    const { id } = IdParam.parse(req.params);
+    const { email } = PublicEmailBody.parse(req.body);
+    const row = await getAudit(db, id);
+    if (!row || row.origin !== "widget") throw new HttpError(404, "not_found", "No such audit");
+    await addLead(db, { email, asin: row.asin, auditId: row.id });
+    res.status(202).json(toPublicResult(row, true));
   });
 
   const v1 = express.Router();
@@ -173,6 +190,11 @@ export function createApp(ctx: AppContext): express.Express {
   v1.post("/bulk", async (req, res) => {
     const body = CreateBulkBody.parse(req.body);
     res.status(202).json(await startBulk(jobs, body));
+  });
+
+  v1.get("/bulk", async (req, res) => {
+    const { limit } = ListBulkQuery.parse(req.query);
+    res.json((await listBulks(db, limit)).map((b) => toBulkJob(b.job, b.audits)));
   });
 
   v1.get("/bulk/:id", async (req, res) => {

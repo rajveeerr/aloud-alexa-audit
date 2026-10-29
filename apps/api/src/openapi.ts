@@ -152,8 +152,15 @@ export const openApiDocument = {
             maxItems: 3,
             items: {
               type: "object",
-              required: ["question", "status", "competitorShare", "hiddenInImage"],
-              properties: { question: { type: "string" }, status: { type: "string" }, competitorShare: { type: ["number", "null"] }, hiddenInImage: { type: "boolean" } },
+              required: ["question", "status", "competitorShare", "competitorsAnswering", "competitors", "hiddenInImage"],
+              properties: {
+                question: { type: "string" },
+                status: { type: "string" },
+                competitorShare: { type: ["number", "null"], description: "Answered counts 1, partial 0.5. For ranking." },
+                competitorsAnswering: { type: "integer", description: "Competitors that answer it, fully or partly." },
+                competitors: { type: "integer", description: "Competitors the question applies to." },
+                hiddenInImage: { type: "boolean" },
+              },
             },
           },
           emailCaptured: { type: "boolean" },
@@ -265,6 +272,12 @@ export const openApiDocument = {
         },
         responses: { "202": { description: "Queued", ...json({ type: "object", required: ["id"], properties: { id } }) }, ...common },
       },
+      get: {
+        ...keyed,
+        summary: "The newest bulk jobs with their progress",
+        parameters: [{ name: "limit", in: "query", schema: { type: "integer", minimum: 1, maximum: 50, default: 10 } }],
+        responses: { "200": { description: "Newest first", ...json({ type: "array", items: ref("BulkJob") }) }, ...common },
+      },
     },
     "/v1/bulk/{id}": {
       get: {
@@ -282,6 +295,20 @@ export const openApiDocument = {
           ...json({ type: "object", required: ["asin"], properties: { asin, email: { type: "string", format: "email" } } }),
         },
         responses: { "202": { description: "Queued", ...json(ref("PublicAuditResult")) }, "400": error("Validation error"), "429": error("Too many audits from this IP"), "503": error("A backing service is unavailable") },
+      },
+    },
+    "/v1/public/audits/{id}/email": {
+      post: {
+        summary: "Leave an email for a widget audit: unlocks the full report. Shares the per-IP limit",
+        parameters: [pathId],
+        requestBody: { required: true, ...json({ type: "object", required: ["email"], properties: { email: { type: "string", format: "email" } } }) },
+        responses: {
+          "202": { description: "Lead stored", ...json(ref("PublicAuditResult")) },
+          "400": error("Validation error"),
+          "404": error("No such widget audit"),
+          "429": error("Too many requests from this IP"),
+          "503": error("A backing service is unavailable"),
+        },
       },
     },
     "/v1/public/audits/{id}": {

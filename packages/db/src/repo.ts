@@ -142,6 +142,21 @@ export async function getBulk(db: Db, id: string) {
   return { job, audits: items };
 }
 
+/** The newest bulk jobs, each with its audits, for the bulk page's history. */
+export async function listBulks(db: Db, limit: number) {
+  const jobs = await db.select().from(bulkJobs).orderBy(desc(bulkJobs.createdAt)).limit(limit);
+  if (jobs.length === 0) return [];
+  const items = await db
+    .select({ id: audits.id, asin: audits.asin, status: audits.status, score: audits.score, bulkJobId: audits.bulkJobId })
+    .from(audits)
+    .where(inArray(audits.bulkJobId, jobs.map((j) => j.id)))
+    .orderBy(asc(audits.createdAt));
+  return jobs.map((job) => ({
+    job,
+    audits: items.filter((a) => a.bulkJobId === job.id).map(({ bulkJobId: _, ...a }) => a),
+  }));
+}
+
 /** Saves the listing version an audit read. The same content twice is one row. */
 export async function saveSnapshot(
   db: Db,

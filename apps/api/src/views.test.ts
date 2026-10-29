@@ -48,9 +48,17 @@ const gap = (intentId: string, priority: number, hidden = false) => ({
   priority,
 });
 
+const grade = (intentId: string, status: string) => ({ intentId, status });
+
 const report = {
   intentSet: { basis: "mined", intents: ["a", "b", "c", "d"].map((id) => ({ id, question: `Question ${id}?` })) },
   gaps: [gap("a", 5), gap("b", 40, true), gap("c", 12), gap("d", 30)],
+  // b: one answers, one partly, one doesn't apply. d: one answers, two miss.
+  competitors: [
+    { grades: [grade("b", "answered"), grade("d", "answered"), grade("c", "missing")] },
+    { grades: [grade("b", "partial"), grade("d", "missing")] },
+    { grades: [grade("b", "not_applicable"), grade("d", "missing")] },
+  ],
 };
 
 describe("toPublicResult", () => {
@@ -61,9 +69,9 @@ describe("toPublicResult", () => {
   test("a done audit shows the 3 highest-priority gaps with their questions, never the report", () => {
     const r = toPublicResult(row({ status: "done", score: 52, report }), true);
     expect(r.topGaps).toEqual([
-      { question: "Question b?", status: "missing", competitorShare: 0.5, hiddenInImage: true },
-      { question: "Question d?", status: "missing", competitorShare: 0.5, hiddenInImage: false },
-      { question: "Question c?", status: "missing", competitorShare: 0.5, hiddenInImage: false },
+      { question: "Question b?", status: "missing", competitorShare: 0.5, competitorsAnswering: 2, competitors: 2, hiddenInImage: true },
+      { question: "Question d?", status: "missing", competitorShare: 0.5, competitorsAnswering: 1, competitors: 3, hiddenInImage: false },
+      { question: "Question c?", status: "missing", competitorShare: 0.5, competitorsAnswering: 0, competitors: 1, hiddenInImage: false },
     ]);
     expect(r).toMatchObject({ score: 52, scoreBasis: "mined", emailCaptured: true });
     expect(r).not.toHaveProperty("report");

@@ -55,6 +55,10 @@ export const PublicAuditBody = z.object({
 });
 export type PublicAuditBody = z.infer<typeof PublicAuditBody>;
 
+/** POST /v1/public/audits/:id/email: leave an email for a widget audit that's already running or done. */
+export const PublicEmailBody = z.object({ email: z.email() });
+export type PublicEmailBody = z.infer<typeof PublicEmailBody>;
+
 export type AuditStatus = "queued" | "running" | "done" | "failed";
 export type AuditOrigin = "app" | "api" | "widget" | "rescore" | "bulk";
 
@@ -79,6 +83,9 @@ export type AuditJob = {
 
 export type AuditReport = AuditResult;
 
+/** POST /v1/audits response (202). Poll GET /v1/audits/:id for the rest. */
+export type AuditCreated = Pick<AuditJob, "id" | "status">;
+
 /** GET /v1/audits?limit= */
 export type AuditSummary = Pick<AuditJob, "id" | "asin" | "source" | "origin" | "status" | "createdAt" | "completedAt" | "score"> & {
   brand?: string;
@@ -101,7 +108,10 @@ export type AsinHistory = { asin: string; points: HistoryPoint[] };
 /** POST /v1/rescore response. */
 export type RescoreResult = { skipped: true; reason: "unchanged"; auditId: string } | { skipped: false; auditId: string };
 
-/** GET /v1/bulk/:id */
+/** POST /v1/bulk response (202). */
+export type BulkCreated = { id: string };
+
+/** GET /v1/bulk/:id, and each item of GET /v1/bulk?limit= (newest first). */
 export type BulkJob = {
   id: string;
   name: string;
@@ -120,7 +130,17 @@ export type PublicAuditResult = {
   asin: string;
   score?: number | null;
   scoreBasis?: "mined" | "estimated";
-  topGaps?: { question: string; status: string; competitorShare: number | null; hiddenInImage: boolean }[];
+  topGaps?: {
+    question: string;
+    status: string;
+    /** Answered counts 1, partial 0.5. For ranking; show shoppers the counts below. */
+    competitorShare: number | null;
+    /** Competitors that answer it, fully or partly. */
+    competitorsAnswering: number;
+    /** Competitors the question applies to. */
+    competitors: number;
+    hiddenInImage: boolean;
+  }[];
   emailCaptured: boolean;
   /** When status is "failed": a short reason that's safe to show a visitor. */
   reason?: string;

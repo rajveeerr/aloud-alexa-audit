@@ -226,6 +226,12 @@ describe.skipIf(process.env.SKIP_INTEGRATION === "1")("api + worker (compose, re
     const job = await until(async () => (await call<BulkJob>("GET", `/v1/bulk/${res.body.id}`)).body, (b) => b.status === "done", 30_000);
     expect(job).toMatchObject({ name: "dataset trio", status: "done", total: 3, done: 3, failed: 0 });
     expect(job.audits.map((a) => a.asin).sort()).toEqual(["B0143LMAEK", "B09VD1Z3TK", "B09YP9YYZG"]);
+
+    // The list has it first, in the same shape as GET /v1/bulk/:id.
+    const list = await call<BulkJob[]>("GET", "/v1/bulk?limit=5");
+    expect(list.status).toBe(200);
+    expect(list.body[0]).toEqual(job);
+    expect((await call("GET", "/v1/bulk?limit=0")).status).toBe(400);
   }, 40_000);
 
   test("the public audit shows only the top 3 gaps and stores the email", async () => {
@@ -237,7 +243,8 @@ describe.skipIf(process.env.SKIP_INTEGRATION === "1")("api + worker (compose, re
     const done = await until(async () => (await call<PublicAuditResult>("GET", `/v1/public/audits/${res.body.id}`, undefined, {})).body, (r) => finished(r.status));
     expect(done).toMatchObject({ status: "done", score: 52, scoreBasis: "mined", emailCaptured: true });
     expect(done.topGaps).toHaveLength(3);
-    expect(done.topGaps![0]).toMatchObject({ hiddenInImage: true });
+    // Ink flow: all four competitors answer it (Pilot only partly), shown as counts.
+    expect(done.topGaps![0]).toMatchObject({ hiddenInImage: true, competitorsAnswering: 4, competitors: 4 });
     expect(done).not.toHaveProperty("report");
     // It's the three highest-priority gaps from the full report, in order.
     const full = (await getAudit(handle.db, res.body.id))!.report as NonNullable<AuditJob["report"]>;
@@ -251,6 +258,32 @@ describe.skipIf(process.env.SKIP_INTEGRATION === "1")("api + worker (compose, re
     // An app audit isn't readable through the public endpoint.
     expect((await call("GET", `/v1/public/audits/${hero.id}`, undefined, {})).status).toBe(404);
   }, 30_000);
+
+  test("an email can be added to a widget audit after it started", async () => {
+    const ip = { "x-forwarded-for": "10.0.1.1" };
+    const res = await call<PublicAuditResult>("POST", "/v1/public/audits", { asin: "B09VD1Z3TK" }, ip);
+    expect(res.body.emailCaptured).toBe(false);
+
+    const added = await call<PublicAuditResult>("POST", `/v1/public/audits/${res.body.id}/email`, { email: "later@example.com" }, ip);
+    expect(added.status).toBe(202);
+    expect(added.body).toMatchObject({ id: res.body.id, emailCaptured: true });
+    expect((await leadsFor(handle.db, res.body.id)).map((l) => l.email)).toEqual(["later@example.com"]);
+    expect((await call<PublicAuditResult>("GET", `/v1/public/audits/${res.body.id}`, undefined, {})).body.emailCaptured).toBe(true);
+
+    expect((await call("POST", `/v1/public/audits/${res.body.id}/email`, { email: "nope" }, ip)).status).toBe(400);
+    // Only widget audits take a lead this way.
+    expect((await call("POST", `/v1/public/audits/${hero.id}/email`, { email: "x@example.com" }, { "x-forwarded-for": "10.0.1.2" })).status).toBe(404);
+  });
+
+  test("adding an email shares the widget's per-IP limit", async () => {
+    const ip = { "x-forwarded-for": "10.0.1.3" };
+    const res = await call<PublicAuditResult>("POST", "/v1/public/audits", { asin: "B09VD1Z3TK" }, ip);
+    for (let i = 1; i < PUBLIC_LIMIT; i++) {
+      expect((await call("POST", `/v1/public/audits/${res.body.id}/email`, { email: `n${i}@example.com` }, ip)).status).toBe(202);
+    }
+    const limited = await call("POST", `/v1/public/audits/${res.body.id}/email`, { email: "over@example.com" }, ip);
+    expect(limited).toMatchObject({ status: 429, body: { error: { code: "rate_limited" } } });
+  });
 
   test("the public endpoint is rate limited per IP", async () => {
     const ip = { "x-forwarded-for": "10.0.0.2" };
@@ -289,6 +322,7 @@ describe.skipIf(process.env.SKIP_INTEGRATION === "1")("api + worker (compose, re
         "/v1/bulk/{id}",
         "/v1/public/audits",
         "/v1/public/audits/{id}",
+        "/v1/public/audits/{id}/email",
       ].sort(),
     );
   });

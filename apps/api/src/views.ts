@@ -89,6 +89,22 @@ export function publicReason(code: string | undefined): string {
 }
 
 /**
+ * How many competitors answer a question, fully or partly, out of those it applies to.
+ * Shoppers read "4 of 4" more easily than the weighted share used for ranking.
+ */
+export function competitorCounts(report: Pick<AuditReport, "competitors">, intentId: string): { competitorsAnswering: number; competitors: number } {
+  let competitors = 0;
+  let competitorsAnswering = 0;
+  for (const c of report.competitors ?? []) {
+    const g = c.grades.find((x) => x.intentId === intentId);
+    if (!g || g.status === "not_applicable") continue;
+    competitors++;
+    if (g.status === "answered" || g.status === "partial") competitorsAnswering++;
+  }
+  return { competitorsAnswering, competitors };
+}
+
+/**
  * The widget's teaser: the score and the three highest-priority gaps, never the full report.
  * The rest is the reason to leave an email.
  */
@@ -105,6 +121,7 @@ export function toPublicResult(row: AuditRow, emailCaptured: boolean): PublicAud
       question: questions.get(g.intentId) ?? g.intentId,
       status: g.status,
       competitorShare: g.competitorShare,
+      ...competitorCounts(report, g.intentId),
       hiddenInImage: g.hiddenClaims.length > 0,
     }));
   return { ...out, score: row.score, scoreBasis: report.intentSet.basis, topGaps };
