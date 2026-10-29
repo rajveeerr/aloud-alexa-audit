@@ -2,11 +2,12 @@
  * The API, faked in the browser over reports the real pipeline produced (scripts/make-mocks.ts).
  * Jobs move queued → running → done on a timer so the progress states are visible.
  */
-import type { AuditJob, AuditReport, AuditStatus, AuditSummary, BulkJob, PublicAuditResult } from "@answerable/contracts";
+import type { AuditJob, AuditReport, AuditStatus, AuditSummary, BulkJob, PublicAuditResult, SavedListing } from "@answerable/contracts";
+import { competitorCounts } from "@/lib/report";
 import index from "../mocks/listings.json";
-import { ApiRequestError, type Api, type ListingOption, type SavedSource } from "./types";
+import { ApiRequestError, type Api, type SavedSource } from "./types";
 
-type Indexed = ListingOption & { score: number | null; contentHash: string };
+type Indexed = SavedListing & { score: number | null; contentHash: string };
 const LISTINGS = index as Indexed[];
 
 const loaders = import.meta.glob<AuditReport>("../mocks/reports/*.json", { import: "default" });
@@ -25,7 +26,7 @@ function loadReport(key: string): Promise<AuditReport> {
 
 const QUEUED_MS = 500;
 const DONE_MS = 2000;
-const STORE_KEY = "answerable.mock.v1";
+const STORE_KEY = "answerable.mock.v2";
 
 type MockJob = {
   id: string;
@@ -46,7 +47,7 @@ type State = { jobs: MockJob[]; bulks: MockBulk[] };
 function seed(): State {
   const now = Date.now();
   const jobs: MockJob[] = LISTINGS.map((l, i) => ({
-    id: `demo-${l.asin.toLowerCase()}`,
+    id: `demo-${l.source}-${l.asin.toLowerCase()}`,
     asin: l.asin,
     source: l.source,
     origin: "app",
@@ -155,6 +156,7 @@ function toBulk(b: MockBulk): BulkJob {
 async function toPublic(job: MockJob): Promise<PublicAuditResult> {
   const status = statusOf(job);
   const out: PublicAuditResult = { id: job.id, status, asin: job.asin, emailCaptured: !!job.email };
+  if (status === "failed") out.reason = "We can't audit this product yet. Try one of the example products.";
   if (status === "done" && job.key) {
     const r = await loadReport(job.key);
     const questions = new Map(r.intentSet.intents.map((i) => [i.id, i.question]));
@@ -164,6 +166,7 @@ async function toPublic(job: MockJob): Promise<PublicAuditResult> {
       question: questions.get(g.intentId) ?? g.intentId,
       status: g.status,
       competitorShare: g.competitorShare,
+      ...competitorCounts(r, g.intentId),
       hiddenInImage: g.hiddenClaims.length > 0,
     }));
   }
@@ -175,7 +178,8 @@ export function mockApi(): Api {
     mode: "mock",
     async createAudit(body) {
       await latency();
-      return toJob(makeJob(body.asin, body.source ?? "serpapi", "app"));
+      const job = makeJob(body.asin, body.source ?? "serpapi", "app");
+      return { id: job.id, status: statusOf(job) };
     },
     async getAudit(id) {
       await latency();
@@ -203,7 +207,7 @@ export function mockApi(): Api {
       return {
         asin,
         points: scores.map((s, i) => ({
-          auditId: i === 2 ? `demo-${asin.toLowerCase()}` : `aud_hist${i}`,
+          auditId: i === 2 && hit ? `demo-${hit.source}-${asin.toLowerCase()}` : `aud_hist${i}`,
           at: new Date(now - (2 - i) * 14 * day).toISOString(),
           score: s,
           contentHash: i === 2 ? (hit?.contentHash ?? "") : `prior${i}`,
@@ -225,7 +229,7 @@ export function mockApi(): Api {
       const bulk: MockBulk = { id: newId("blk"), name: body.name, createdAt: new Date().toISOString(), auditIds: ids };
       state.bulks.unshift(bulk);
       save();
-      return toBulk(bulk);
+      return { id: bulk.id };
     },
     async getBulk(id) {
       await latency();
@@ -233,9 +237,9 @@ export function mockApi(): Api {
       if (!b) throw new ApiRequestError(`No bulk job with id ${id}`, "not_found", 404);
       return toBulk(b);
     },
-    async listBulk() {
+    async listBulk(limit = 10) {
       await latency();
-      return state.bulks.map(toBulk);
+      return state.bulks.slice(0, limit).map(toBulk);
     },
     async createPublicAudit(body) {
       await latency();
@@ -255,9 +259,17 @@ export function mockApi(): Api {
       await latency();
       return toPublic(getJob(id));
     },
+    async addPublicEmail(id, email) {
+      await latency();
+      const job = getJob(id);
+      if (job.origin !== "widget") throw new ApiRequestError("No such audit", "not_found", 404);
+      job.email = email;
+      save();
+      return toPublic(job);
+    },
     async listings(source: SavedSource) {
       await latency();
-      return LISTINGS.filter((l) => l.source === source).map(({ asin, source: s, brand, title, category }) => ({
+      return LISTINGS.filter((l) => l.source === source).map(({ asin, source: s, brand, title, category }): SavedListing => ({
         asin,
         source: s,
         title,

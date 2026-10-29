@@ -20,18 +20,18 @@ export function AuditPage() {
   const { id = "" } = useParams();
   const audit = useAudit(id);
 
-  if (audit.isPending) return <Progress status="queued" asin={null} />;
+  if (audit.isPending) return <Progress status="queued" asin={null} note={undefined} />;
   if (audit.isError) return <Failed title="Couldn't load this audit" message={audit.error.message} />;
 
   const job = audit.data;
   if (job.status === "failed") return <Failed title={`The audit of ${job.asin} failed`} message={job.error?.message ?? "No reason was given."} code={job.error?.code} />;
-  if (job.status !== "done" || !job.report) return <Progress status={job.status} asin={job.asin} />;
+  if (job.status !== "done" || !job.report) return <Progress status={job.status} asin={job.asin} note={job.note} />;
   return <ReportView report={job.report} auditId={job.id} />;
 }
 
 const STEPS = ["Fetch the listing", "Pick the category's shopper questions", "Grade every question and check each quote", "Read the images for hidden answers", "Grade competitors", "Draft the fix list"];
 
-function Progress({ status, asin }: { status: AuditJob["status"]; asin: string | null }) {
+function Progress({ status, asin, note }: { status: AuditJob["status"]; asin: string | null; note: string | undefined }) {
   return (
     <Page>
       <div className="mx-auto max-w-xl py-10" role="status" aria-live="polite">
@@ -42,6 +42,11 @@ function Progress({ status, asin }: { status: AuditJob["status"]; asin: string |
         <p className="mt-1 text-[15px] text-muted-foreground">
           {status === "queued" ? "Waiting for a worker to pick it up." : "Usually under a minute. This page updates on its own."}
         </p>
+        {note && (
+          <p className="mt-3 rounded-md border border-[#fcd9a8] bg-tint px-3 py-2 text-sm text-[#7c2d12]" data-testid="audit-note">
+            {note}
+          </p>
+        )}
         <div className="mt-6 h-1.5 overflow-hidden rounded-full bg-muted" aria-hidden="true">
           <div className={cn("h-full rounded-full bg-primary", status === "queued" ? "w-[8%]" : "w-1/3 animate-[progress_1.6s_ease-in-out_infinite]")} />
         </div>

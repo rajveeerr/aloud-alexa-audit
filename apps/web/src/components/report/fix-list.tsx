@@ -2,7 +2,7 @@ import { ShieldAlertIcon } from "lucide-react";
 import { CopyButton } from "@/components/copy-button";
 import { Badge } from "@/components/ui/badge";
 import { Tip } from "@/components/ui/tooltip";
-import { ACTION_LABEL, BRIEF_FLAG_TEXT, fieldLabel, isEstimated, shareLabel, targetLabel, type Brief, type Report, type ReportIndex } from "@/lib/report";
+import { ACTION_LABEL, BRIEF_FLAG_TEXT, competitorCounts, countsLabel, fieldLabel, isEstimated, targetLabel, type Brief, type Report, type ReportIndex } from "@/lib/report";
 import { cn } from "@/lib/utils";
 import { Section } from "./section";
 import { SendToStudio } from "./send-to-studio";
@@ -17,7 +17,6 @@ const ACTION_TONE: Record<Brief["action"], string> = {
 
 export function FixList({ report, index, auditId }: { report: Report; index: ReportIndex; auditId: string }) {
   const estimated = isEstimated(report);
-  const total = report.competitors.length;
 
   return (
     <Section
@@ -48,7 +47,7 @@ export function FixList({ report, index, auditId }: { report: Report; index: Rep
                   </div>
                   <h3 className="mt-2 text-[15px] font-semibold">{b.question}</h3>
                   <p className="text-[13px] text-muted-foreground">
-                    {estimated ? "Estimated question" : `${gap?.frequency.toLocaleString() ?? "?"} shoppers ask`}, {shareLabel(gap?.competitorShare ?? null, total)}
+                    {estimated ? "Estimated question" : `${gap?.frequency.toLocaleString() ?? "?"} shoppers ask`}, {countsLabel(competitorCounts(report, b.intentId))}
                   </p>
 
                   {b.draft && (

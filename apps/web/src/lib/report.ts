@@ -111,7 +111,27 @@ export function imageKindLabel(kind?: "gallery" | "aplus"): string {
   return kind === "aplus" ? "A+ image" : "Gallery image";
 }
 
-export function shareLabel(share: number | null, total: number): string {
-  if (share === null || total === 0) return "no competitors compared";
-  return `${Math.round(share * 100)}% of ${total} competitors answer it`;
+/**
+ * How many competitors answer a question, fully or partly, out of those it applies to.
+ * Same rule as the API's widget view, so the report and the widget agree.
+ */
+export function competitorCounts(r: Pick<Report, "competitors">, intentId: string) {
+  let competitors = 0;
+  let competitorsAnswering = 0;
+  let partly = 0;
+  for (const c of r.competitors) {
+    const g = c.grades.find((x) => x.intentId === intentId);
+    if (!g || g.status === "not_applicable") continue;
+    competitors++;
+    if (g.status === "answered" || g.status === "partial") competitorsAnswering++;
+    if (g.status === "partial") partly++;
+  }
+  return { competitorsAnswering, competitors, partly };
+}
+
+/** "4 of 4 competitors answer it (1 partly)": counts, never a weighted percentage. */
+export function countsLabel(c: { competitorsAnswering: number; competitors: number; partly?: number }): string {
+  if (c.competitors === 0) return "no competitors compared";
+  const partly = c.partly ? ` (${c.partly} partly)` : "";
+  return `${c.competitorsAnswering} of ${c.competitors} competitor${c.competitors === 1 ? "" : "s"} ${c.competitorsAnswering === 1 && c.competitors > 1 ? "answers" : "answer"} it${partly}`;
 }

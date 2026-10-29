@@ -1,7 +1,9 @@
 import type {
   AsinHistory,
+  AuditCreated,
   AuditJob,
   AuditSummary,
+  BulkCreated,
   BulkJob,
   CreateAuditBody,
   CreateBulkBody,
@@ -9,6 +11,7 @@ import type {
   PublicAuditResult,
   RescoreBody,
   RescoreResult,
+  SavedListing,
   StudioBriefs,
 } from "@answerable/contracts";
 import type { z } from "zod";
@@ -19,25 +22,23 @@ export type CreateBulkInput = z.input<typeof CreateBulkBody>;
 export type RescoreInput = z.input<typeof RescoreBody>;
 export type PublicAuditInput = z.input<typeof PublicAuditBody>;
 
-export type SavedSource = "serpapi" | "dataset";
-
-/** GET /v1/listings?source=: saved listings for the demo picker. Not in the contracts package yet. */
-export type ListingOption = { asin: string; source: SavedSource; brand?: string; title: string; category?: string };
+export type SavedSource = SavedListing["source"];
 
 export interface Api {
   readonly mode: "mock" | "http";
-  createAudit(body: CreateAuditInput): Promise<AuditJob>;
+  createAudit(body: CreateAuditInput): Promise<AuditCreated>;
   getAudit(id: string): Promise<AuditJob>;
   listAudits(limit?: number): Promise<AuditSummary[]>;
   createBriefs(id: string): Promise<StudioBriefs>;
   history(asin: string): Promise<AsinHistory>;
   rescore(body: RescoreInput): Promise<RescoreResult>;
-  createBulk(body: CreateBulkInput): Promise<BulkJob>;
+  createBulk(body: CreateBulkInput): Promise<BulkCreated>;
   getBulk(id: string): Promise<BulkJob>;
-  listBulk(): Promise<BulkJob[]>;
+  listBulk(limit?: number): Promise<BulkJob[]>;
   createPublicAudit(body: PublicAuditInput): Promise<PublicAuditResult>;
   getPublicAudit(id: string): Promise<PublicAuditResult>;
-  listings(source: SavedSource): Promise<ListingOption[]>;
+  addPublicEmail(id: string, email: string): Promise<PublicAuditResult>;
+  listings(source: SavedSource): Promise<SavedListing[]>;
 }
 
 export class ApiRequestError extends Error {

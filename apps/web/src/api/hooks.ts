@@ -2,7 +2,8 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import type { AuditStatus } from "@answerable/contracts";
 import { getApi, type Api, type SavedSource } from "./index";
 
-const POLL_MS = 900;
+/** The dev key allows 120 requests a minute; a couple of pollers at this rate stay well under it. */
+const POLL_MS = 1500;
 const settled = (s: AuditStatus | undefined) => s === "done" || s === "failed";
 
 async function run<T>(fn: (api: Api) => Promise<T>): Promise<T> {
@@ -33,10 +34,7 @@ export function useCreateAudit() {
   const qc = useQueryClient();
   return useMutation({
     mutationFn: (body: Parameters<Api["createAudit"]>[0]) => run((a) => a.createAudit(body)),
-    onSuccess: (job) => {
-      qc.setQueryData(["audit", job.id], job);
-      void qc.invalidateQueries({ queryKey: ["audits"] });
-    },
+    onSuccess: () => void qc.invalidateQueries({ queryKey: ["audits"] }),
   });
 }
 
@@ -79,6 +77,14 @@ export function useBulk(id: string | null) {
 
 export function useCreatePublicAudit() {
   return useMutation({ mutationFn: (body: Parameters<Api["createPublicAudit"]>[0]) => run((a) => a.createPublicAudit(body)) });
+}
+
+export function useAddPublicEmail() {
+  const qc = useQueryClient();
+  return useMutation({
+    mutationFn: ({ id, email }: { id: string; email: string }) => run((a) => a.addPublicEmail(id, email)),
+    onSuccess: (r) => qc.setQueryData(["public-audit", r.id], r),
+  });
 }
 
 export function usePublicAudit(id: string | null) {
