@@ -1,31 +1,10 @@
 import { expect, test, type Page } from "@playwright/test";
+import { BLOG_URL, noHorizontalScroll, QUOTE, shooter, watchConsole } from "./helpers";
 
-const QUOTE = "Alexa recommendation visibility is not currently available as a standalone metric in Seller Central.";
-const BLOG_URL = "https://salesduo.com/blog/alexa-for-shopping-optimization/";
-const shot = (name: string) => `e2e/screenshots/${name}.png`;
-
-/** Fails the test on any console error or uncaught exception. Listing images load from Amazon and may be offline, so those are ignored. */
-function watchConsole(page: Page) {
-  const errors: string[] = [];
-  page.on("pageerror", (e) => errors.push(`pageerror: ${e.message}`));
-  page.on("console", (m) => {
-    if (m.type() !== "error") return;
-    if (m.location().url.includes("media-amazon.com")) return;
-    errors.push(m.text());
-  });
-  return errors;
-}
-
-/** Full-page screenshot from the top, so the sticky header doesn't land mid-page. */
-async function fullShot(page: Page, name: string) {
-  await page.evaluate(() => window.scrollTo(0, 0));
-  await page.screenshot({ path: shot(name), fullPage: true });
-}
-
-async function noHorizontalScroll(page: Page) {
-  const width = await page.evaluate(() => document.documentElement.scrollWidth);
-  expect(width).toBeLessThanOrEqual(page.viewportSize()!.width);
-}
+/** Mock-mode screenshots stay out of git; the committed ones in e2e/screenshots come from the real stack. */
+const shots = shooter("test-results/mock-screenshots");
+const shot = shots.path;
+const fullShot = shots.full;
 
 async function openHero(page: Page) {
   await page.goto("/");
