@@ -4,7 +4,7 @@
     "rootDir": ".",
     "outDir": "dist"
   },
-  "include": ["*.ts"],
+  "include": ["*.ts", "review/*.ts"],
   "references": [
     {
       "path": "../packages/core"
