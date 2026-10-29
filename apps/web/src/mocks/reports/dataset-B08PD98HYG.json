@@ -1222,11 +1222,686 @@
       "flags": []
     }
   ],
+  "proof": {
+    "reviews": 400,
+    "claims": [
+      {
+        "intentId": "lead_breakage_resistance",
+        "claim": "never needs sharpening, is super strong",
+        "sources": [
+          {
+            "kind": "field",
+            "id": "bullet.8",
+            "text": "never needs sharpening, is super strong"
+          }
+        ],
+        "keywords": [
+          "break",
+          "broke",
+          "snap"
+        ],
+        "matching": 300,
+        "sampled": 150,
+        "counts": {
+          "supports": 78,
+          "contradicts": 36,
+          "mixed": 7,
+          "unrelated": 29,
+          "unlabelled": 0
+        },
+        "examples": {
+          "supports": [
+            "…r \"leads\" - it writes as sharp as an average .5 but without breaking as much). Only downside: same lame, tiny eraser you usually get with these. Why can't anyone make a good Dixon Ticonderoga Wood-Cased #2 Pencil-type…",
+            "…il. They all had the same drawbacks – the lead would easily break off in my pocket, the plastic parts could get damaged, and the points would either poke holes in the pockets (not nice when it's a leather jacket), or p…",
+            "…r your mark of the lead will be and the less easily it will break.) -The LARGER the size of the lead (diameter) the less easily the lead will break: 0.5mm --&#62; 0.7mm (regular)--&#62; 0.9mm*** (largest and Smoothest)…"
+          ],
+          "contradicts": [
+            "…lastic tube that makes the center section of the pencil has broken. If the pencil had been constructed as the one I now have or at least similar to it (which is explained below), my rating would have been 5 stars. By t…",
+            "Broken out of the box. I bought this for it's utilitarian looks and promise, and because it was metal rather than plastic. I got the pen, picked it up and thought this is great. I thought it was great until I tried to…",
+            "…have failed in the exact same way. The inner plastic sleeve breaks which causes the pencil to fall apart and become useless. I really wish the manufacturer would make an all-metal version of this pencil that is more du…"
+          ],
+          "mixed": [
+            "…ssure of items moving around can cause the plastic inner to snap - happened to us twice (2 out of the three pens we purchased for office and home use snapped in the first 30 days!). (2) The frequently jams as it reache…",
+            "…a result of this , the lead, especially fragile types, may break. But it is only theoretically...",
+            "…using this pencil, and of course, the lead is very easy to break since it measures .3mm, but that isn't the pencil's fault more the user. It taught me to use lighter strokes when drawing as I worked with it."
+          ]
+        },
+        "flags": [],
+        "support": {
+          "rate": 0.6446280991735537,
+          "low": 0.556099736456052,
+          "high": 0.7242555297372681
+        },
+        "contradiction": {
+          "rate": 0.2975206611570248,
+          "low": 0.22331381535259326,
+          "high": 0.3841888119767584
+        },
+        "mixed": {
+          "rate": 0.05785123966942149,
+          "low": 0.02830239313891006,
+          "high": 0.11461150735579681
+        },
+        "verdict": "contested"
+      }
+    ],
+    "modelOutputs": [
+      [
+        {
+          "i": 0,
+          "label": "supports"
+        },
+        {
+          "i": 1,
+          "label": "supports"
+        },
+        {
+          "i": 2,
+          "label": "supports"
+        },
+        {
+          "i": 3,
+          "label": "supports"
+        },
+        {
+          "i": 4,
+          "label": "contradicts"
+        },
+        {
+          "i": 5,
+          "label": "unrelated"
+        },
+        {
+          "i": 6,
+          "label": "contradicts"
+        },
+        {
+          "i": 7,
+          "label": "mixed"
+        },
+        {
+          "i": 8,
+          "label": "unrelated"
+        },
+        {
+          "i": 9,
+          "label": "supports"
+        },
+        {
+          "i": 10,
+          "label": "unrelated"
+        },
+        {
+          "i": 11,
+          "label": "unrelated"
+        },
+        {
+          "i": 12,
+          "label": "unrelated"
+        },
+        {
+          "i": 13,
+          "label": "supports"
+        },
+        {
+          "i": 14,
+          "label": "contradicts"
+        },
+        {
+          "i": 15,
+          "label": "unrelated"
+        },
+        {
+          "i": 16,
+          "label": "unrelated"
+        },
+        {
+          "i": 17,
+          "label": "mixed"
+        },
+        {
+          "i": 18,
+          "label": "supports"
+        },
+        {
+          "i": 19,
+          "label": "mixed"
+        },
+        {
+          "i": 20,
+          "label": "supports"
+        },
+        {
+          "i": 21,
+          "label": "supports"
+        },
+        {
+          "i": 22,
+          "label": "supports"
+        },
+        {
+          "i": 23,
+          "label": "unrelated"
+        },
+        {
+          "i": 24,
+          "label": "supports"
+        },
+        {
+          "i": 25,
+          "label": "contradicts"
+        },
+        {
+          "i": 26,
+          "label": "unrelated"
+        },
+        {
+          "i": 27,
+          "label": "unrelated"
+        },
+        {
+          "i": 28,
+          "label": "unrelated"
+        },
+        {
+          "i": 29,
+          "label": "unrelated"
+        },
+        {
+          "i": 30,
+          "label": "contradicts"
+        },
+        {
+          "i": 31,
+          "label": "contradicts"
+        },
+        {
+          "i": 32,
+          "label": "supports"
+        },
+        {
+          "i": 33,
+          "label": "supports"
+        },
+        {
+          "i": 34,
+          "label": "contradicts"
+        },
+        {
+          "i": 35,
+          "label": "supports"
+        },
+        {
+          "i": 36,
+          "label": "supports"
+        },
+        {
+          "i": 37,
+          "label": "supports"
+        },
+        {
+          "i": 38,
+          "label": "supports"
+        },
+        {
+          "i": 39,
+          "label": "supports"
+        },
+        {
+          "i": 40,
+          "label": "supports"
+        },
+        {
+          "i": 41,
+          "label": "supports"
+        },
+        {
+          "i": 42,
+          "label": "supports"
+        },
+        {
+          "i": 43,
+          "label": "supports"
+        },
+        {
+          "i": 44,
+          "label": "unrelated"
+        },
+        {
+          "i": 45,
+          "label": "supports"
+        },
+        {
+          "i": 46,
+          "label": "supports"
+        },
+        {
+          "i": 47,
+          "label": "supports"
+        },
+        {
+          "i": 48,
+          "label": "supports"
+        },
+        {
+          "i": 49,
+          "label": "unrelated"
+        },
+        {
+          "i": 50,
+          "label": "unrelated"
+        },
+        {
+          "i": 51,
+          "label": "unrelated"
+        },
+        {
+          "i": 52,
+          "label": "supports"
+        },
+        {
+          "i": 53,
+          "label": "unrelated"
+        },
+        {
+          "i": 54,
+          "label": "supports"
+        },
+        {
+          "i": 55,
+          "label": "unrelated"
+        },
+        {
+          "i": 56,
+          "label": "unrelated"
+        },
+        {
+          "i": 57,
+          "label": "supports"
+        },
+        {
+          "i": 58,
+          "label": "supports"
+        },
+        {
+          "i": 59,
+          "label": "contradicts"
+        },
+        {
+          "i": 60,
+          "label": "unrelated"
+        },
+        {
+          "i": 61,
+          "label": "unrelated"
+        },
+        {
+          "i": 62,
+          "label": "supports"
+        },
+        {
+          "i": 63,
+          "label": "supports"
+        },
+        {
+          "i": 64,
+          "label": "supports"
+        },
+        {
+          "i": 65,
+          "label": "unrelated"
+        },
+        {
+          "i": 66,
+          "label": "unrelated"
+        },
+        {
+          "i": 67,
+          "label": "supports"
+        },
+        {
+          "i": 68,
+          "label": "contradicts"
+        },
+        {
+          "i": 69,
+          "label": "contradicts"
+        },
+        {
+          "i": 70,
+          "label": "supports"
+        },
+        {
+          "i": 71,
+          "label": "supports"
+        },
+        {
+          "i": 72,
+          "label": "supports"
+        },
+        {
+          "i": 73,
+          "label": "supports"
+        },
+        {
+          "i": 74,
+          "label": "supports"
+        }
+      ],
+      [
+        {
+          "i": 75,
+          "label": "supports"
+        },
+        {
+          "i": 76,
+          "label": "supports"
+        },
+        {
+          "i": 77,
+          "label": "contradicts"
+        },
+        {
+          "i": 78,
+          "label": "mixed"
+        },
+        {
+          "i": 79,
+          "label": "supports"
+        },
+        {
+          "i": 80,
+          "label": "supports"
+        },
+        {
+          "i": 81,
+          "label": "contradicts"
+        },
+        {
+          "i": 82,
+          "label": "unrelated"
+        },
+        {
+          "i": 83,
+          "label": "contradicts"
+        },
+        {
+          "i": 84,
+          "label": "unrelated"
+        },
+        {
+          "i": 85,
+          "label": "contradicts"
+        },
+        {
+          "i": 86,
+          "label": "unrelated"
+        },
+        {
+          "i": 87,
+          "label": "contradicts"
+        },
+        {
+          "i": 88,
+          "label": "mixed"
+        },
+        {
+          "i": 89,
+          "label": "contradicts"
+        },
+        {
+          "i": 90,
+          "label": "supports"
+        },
+        {
+          "i": 91,
+          "label": "contradicts"
+        },
+        {
+          "i": 92,
+          "label": "contradicts"
+        },
+        {
+          "i": 93,
+          "label": "supports"
+        },
+        {
+          "i": 94,
+          "label": "supports"
+        },
+        {
+          "i": 95,
+          "label": "supports"
+        },
+        {
+          "i": 96,
+          "label": "supports"
+        },
+        {
+          "i": 97,
+          "label": "supports"
+        },
+        {
+          "i": 98,
+          "label": "supports"
+        },
+        {
+          "i": 99,
+          "label": "mixed"
+        },
+        {
+          "i": 100,
+          "label": "supports"
+        },
+        {
+          "i": 101,
+          "label": "unrelated"
+        },
+        {
+          "i": 102,
+          "label": "supports"
+        },
+        {
+          "i": 103,
+          "label": "supports"
+        },
+        {
+          "i": 104,
+          "label": "supports"
+        },
+        {
+          "i": 105,
+          "label": "supports"
+        },
+        {
+          "i": 106,
+          "label": "supports"
+        },
+        {
+          "i": 107,
+          "label": "contradicts"
+        },
+        {
+          "i": 108,
+          "label": "supports"
+        },
+        {
+          "i": 109,
+          "label": "unrelated"
+        },
+        {
+          "i": 110,
+          "label": "contradicts"
+        },
+        {
+          "i": 111,
+          "label": "supports"
+        },
+        {
+          "i": 112,
+          "label": "supports"
+        },
+        {
+          "i": 113,
+          "label": "contradicts"
+        },
+        {
+          "i": 114,
+          "label": "supports"
+        },
+        {
+          "i": 115,
+          "label": "contradicts"
+        },
+        {
+          "i": 116,
+          "label": "supports"
+        },
+        {
+          "i": 117,
+          "label": "supports"
+        },
+        {
+          "i": 118,
+          "label": "supports"
+        },
+        {
+          "i": 119,
+          "label": "mixed"
+        },
+        {
+          "i": 120,
+          "label": "contradicts"
+        },
+        {
+          "i": 121,
+          "label": "supports"
+        },
+        {
+          "i": 122,
+          "label": "contradicts"
+        },
+        {
+          "i": 123,
+          "label": "supports"
+        },
+        {
+          "i": 124,
+          "label": "contradicts"
+        },
+        {
+          "i": 125,
+          "label": "supports"
+        },
+        {
+          "i": 126,
+          "label": "contradicts"
+        },
+        {
+          "i": 127,
+          "label": "contradicts"
+        },
+        {
+          "i": 128,
+          "label": "contradicts"
+        },
+        {
+          "i": 129,
+          "label": "contradicts"
+        },
+        {
+          "i": 130,
+          "label": "supports"
+        },
+        {
+          "i": 131,
+          "label": "supports"
+        },
+        {
+          "i": 132,
+          "label": "supports"
+        },
+        {
+          "i": 133,
+          "label": "supports"
+        },
+        {
+          "i": 134,
+          "label": "supports"
+        },
+        {
+          "i": 135,
+          "label": "unrelated"
+        },
+        {
+          "i": 136,
+          "label": "supports"
+        },
+        {
+          "i": 137,
+          "label": "contradicts"
+        },
+        {
+          "i": 138,
+          "label": "supports"
+        },
+        {
+          "i": 139,
+          "label": "contradicts"
+        },
+        {
+          "i": 140,
+          "label": "contradicts"
+        },
+        {
+          "i": 141,
+          "label": "supports"
+        },
+        {
+          "i": 142,
+          "label": "contradicts"
+        },
+        {
+          "i": 143,
+          "label": "contradicts"
+        },
+        {
+          "i": 144,
+          "label": "supports"
+        },
+        {
+          "i": 145,
+          "label": "supports"
+        },
+        {
+          "i": 146,
+          "label": "supports"
+        },
+        {
+          "i": 147,
+          "label": "supports"
+        },
+        {
+          "i": 148,
+          "label": "contradicts"
+        },
+        {
+          "i": 149,
+          "label": "contradicts"
+        }
+      ]
+    ],
+    "usage": {
+      "inputTokens": 20373,
+      "outputTokens": 2361,
+      "requests": 2
+    }
+  },
   "usage": {
-    "requests": 7,
-    "cachedRequests": 7,
-    "inputTokens": 9815,
-    "outputTokens": 3642
+    "requests": 9,
+    "cachedRequests": 9,
+    "inputTokens": 30188,
+    "outputTokens": 6003
   },
   "notes": [
     "The \"Mechanical Pencils\" questions haven't been reviewed by a person yet."

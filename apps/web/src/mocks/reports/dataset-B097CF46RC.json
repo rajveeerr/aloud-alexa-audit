@@ -1,0 +1,4192 @@
+{
+  "listing": {
+    "asin": "B097CF46RC",
+    "requestedAsin": "B097CF46RC",
+    "marketplace": "amazon.com",
+    "source": "dataset",
+    "fetchedAt": "2023-09-01T00:00:00.000Z",
+    "fields": [
+      {
+        "id": "title",
+        "kind": "title",
+        "text": "Pentel Energel RTX Retractable Liquid Gel Pen, Bold Line, Metal Tip, Black Ink Pack of 2 (BL80BP2A)"
+      },
+      {
+        "id": "bullet.1",
+        "kind": "bullet",
+        "text": "High performance ink technology combines the best qualities of liquid and gel ink for a super-smooth writing experience"
+      },
+      {
+        "id": "bullet.2",
+        "kind": "bullet",
+        "text": "Liquid gel ink dries so fast even left handed writers love it - no smears, no smudges, no globs"
+      },
+      {
+        "id": "bullet.3",
+        "kind": "bullet",
+        "text": "EnerGel ink writes more smoothly than the leading brand ( Internally tested to be smoother writing than the leading gel pen on standard writing paper)"
+      },
+      {
+        "id": "bullet.4",
+        "kind": "bullet",
+        "text": "Sleek & stylish barrel design with metal accents for a Professional look"
+      },
+      {
+        "id": "bullet.5",
+        "kind": "bullet",
+        "text": "Latex-free grip for writing comfort and control"
+      },
+      {
+        "id": "description.1",
+        "kind": "description",
+        "text": "The EnerGel RTX offers a luxury feel and a smooth, effortless writing experience. High performance ink technology combines the best qualities of liquid and gel ink. Fast-drying liquid gel ink is great for left handers - no smears, no smudges, no globs. The sleek and stylish barrel design features stainless steel accents for a professional look. The latex-free grip provides extended comfort and control when writing. It is available with a 0.7mm stainless steel tip writes medium lines, 1.0mm tip writes bold lines. Refillable with any size and/or color EnerGel refill. It is backed by a Limited Lifetime Warranty."
+      },
+      {
+        "id": "attr.manufacturer",
+        "kind": "attribute",
+        "key": "manufacturer",
+        "text": "Manufacturer: Pentel"
+      },
+      {
+        "id": "attr.brand",
+        "kind": "attribute",
+        "key": "brand",
+        "text": "Brand: Pentel"
+      },
+      {
+        "id": "attr.item_weight",
+        "kind": "attribute",
+        "key": "item_weight",
+        "text": "Item weight: 0.8 ounces"
+      },
+      {
+        "id": "attr.product_dimensions",
+        "kind": "attribute",
+        "key": "product_dimensions",
+        "text": "Product dimensions: 0.75 x 2.38 x 7.38 inches"
+      },
+      {
+        "id": "attr.color",
+        "kind": "attribute",
+        "key": "color",
+        "text": "Color: Black"
+      },
+      {
+        "id": "attr.closure",
+        "kind": "attribute",
+        "key": "closure",
+        "text": "Closure: Retractable"
+      },
+      {
+        "id": "attr.material_type",
+        "kind": "attribute",
+        "key": "material_type",
+        "text": "Material type: Plastic"
+      },
+      {
+        "id": "attr.number_of_items",
+        "kind": "attribute",
+        "key": "number_of_items",
+        "text": "Number of items: 1"
+      },
+      {
+        "id": "attr.size",
+        "kind": "attribute",
+        "key": "size",
+        "text": "Size: 2 Count (Pack of 1)"
+      },
+      {
+        "id": "attr.point_type",
+        "kind": "attribute",
+        "key": "point_type",
+        "text": "Point type: Bold"
+      },
+      {
+        "id": "attr.line_size",
+        "kind": "attribute",
+        "key": "line_size",
+        "text": "Line size: 0.7 Millimeters"
+      },
+      {
+        "id": "attr.ink_color",
+        "kind": "attribute",
+        "key": "ink_color",
+        "text": "Ink color: Black"
+      },
+      {
+        "id": "attr.age_range_description",
+        "kind": "attribute",
+        "key": "age_range_description",
+        "text": "Age range description: Adult"
+      },
+      {
+        "id": "attr.material",
+        "kind": "attribute",
+        "key": "material",
+        "text": "Material: Plastic"
+      }
+    ],
+    "images": [
+      {
+        "id": "img.0",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/71L2EN48PdL._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.1",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/71TrjTpIlVL._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.2",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/81AgJHbBmPL._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.3",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/81M7dz-eHyL._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.4",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/71wc5fqZJTL._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.5",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/91uxUsFotiL._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.6",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/A1J6AU1fTQL._AC_SL1500_.jpg"
+      }
+    ],
+    "meta": {
+      "brand": "Pentel",
+      "rating": 4.8,
+      "reviewCount": 42464,
+      "price": 6.84,
+      "categories": [
+        "Office Products",
+        "Office & School Supplies",
+        "Writing & Correction Supplies",
+        "Pens & Refills",
+        "Rollerball Pens",
+        "Gel Ink Rollerball Pens"
+      ],
+      "salesRanks": [
+        {
+          "category": "Office Products",
+          "rank": 133
+        },
+        {
+          "category": "Gel Ink Pens",
+          "rank": 11
+        }
+      ]
+    },
+    "contentHash": "65269807dfcc681ad52a7f77a87e2c0c7cb2db0a6d910a6fcadeea9a51596d93"
+  },
+  "intentSet": {
+    "categoryId": "gel-ink-pens",
+    "categoryName": "Gel Ink Rollerball Pens",
+    "match": [
+      "Gel Ink Rollerball Pens",
+      "Gel Ink Pens"
+    ],
+    "version": "2026-10-27.1",
+    "basis": "mined",
+    "reviewed": true,
+    "source": "Mined from 600 reviews (10 most helpful from each of the 60 most-reviewed gel pens, Amazon Reviews 2023), clustered, then reviewed by hand.",
+    "sampleSize": 600,
+    "intents": [
+      {
+        "id": "tip_size",
+        "kind": "spec",
+        "frequency": 130,
+        "question": "What is the tip size or line width?",
+        "rubric": "answered: states a tip or line size in mm. partial: only a word like fine, medium or bold."
+      },
+      {
+        "id": "smudge",
+        "kind": "claim",
+        "frequency": 84,
+        "question": "Does the ink smudge or smear?",
+        "rubric": "answered: says the ink is smudge-free, smear-resistant or similar. partial: only implies it, e.g. quick-drying with no mention of smudging."
+      },
+      {
+        "id": "smudge_left_handed",
+        "kind": "claim",
+        "frequency": 11,
+        "question": "Does it smudge for left-handed writers?",
+        "rubric": "answered: says it suits left-handed writers without smudging. partial: mentions left-handed or ambidextrous use but not smudging."
+      },
+      {
+        "id": "dry_time",
+        "kind": "claim",
+        "frequency": 87,
+        "question": "How quickly does the ink dry?",
+        "rubric": "answered: gives a dry time or says quick-drying or fast-drying. partial: only says it doesn't smudge."
+      },
+      {
+        "id": "ink_flow",
+        "kind": "claim",
+        "frequency": 171,
+        "question": "Does the ink flow consistently without skipping or clogging?",
+        "rubric": "answered: says it writes without skipping, blobbing or clogging, or promises consistent flow. partial: only says smooth writing."
+      },
+      {
+        "id": "longevity",
+        "kind": "claim",
+        "frequency": 108,
+        "question": "How long does the ink last?",
+        "rubric": "answered: gives a writing length (meters, pages) or says long-lasting ink. partial: only mentions ink capacity or a large reservoir without a claim."
+      },
+      {
+        "id": "bleed_through",
+        "kind": "claim",
+        "frequency": 43,
+        "question": "Does the ink bleed through paper?",
+        "rubric": "answered: says no bleed-through, no show-through or no feathering. partial: names paper types it works on without mentioning bleed."
+      },
+      {
+        "id": "refillable",
+        "kind": "spec",
+        "frequency": 48,
+        "question": "Is the pen refillable, and with which refills?",
+        "rubric": "answered: says refillable and names the refill. partial: says refillable without naming the refill, or names refills without saying the pen takes them."
+      },
+      {
+        "id": "retractable",
+        "kind": "spec",
+        "frequency": 9,
+        "question": "Is it retractable (click) or capped?",
+        "rubric": "answered: says retractable, click or capped. Attribute closure or closure_type counts."
+      },
+      {
+        "id": "pack_contents",
+        "kind": "spec",
+        "frequency": 39,
+        "question": "How many pens and which ink colors are in the pack?",
+        "rubric": "answered: states both the count and the ink colors. partial: only one of the two."
+      },
+      {
+        "id": "water_resistance",
+        "kind": "claim",
+        "frequency": 13,
+        "question": "Is the ink waterproof, fade-resistant or archival?",
+        "rubric": "answered: says waterproof, water-resistant, fade-resistant, archival or acid-free. partial: says permanent without saying how."
+      },
+      {
+        "id": "leaking",
+        "kind": "claim",
+        "frequency": 29,
+        "question": "Does the pen leak or blob?",
+        "rubric": "answered: says leak-proof, leak-resistant or no blobs. partial: only mentions a sealed or tight cap."
+      },
+      {
+        "id": "surface_compatibility",
+        "kind": "claim",
+        "frequency": 28,
+        "question": "What paper or surfaces does it write on?",
+        "rubric": "answered: names surfaces or paper types, e.g. notebook paper, cardstock, dark paper, glossy photos. partial: only says everyday writing."
+      },
+      {
+        "id": "opacity",
+        "kind": "claim",
+        "frequency": 39,
+        "question": "Does the ink show up on dark or colored paper?",
+        "rubric": "answered: says opaque or shows on dark or black paper. Only for pens sold for dark paper, such as white, metallic or gel-art pens.",
+        "conditional": true
+      },
+      {
+        "id": "durability",
+        "kind": "claim",
+        "frequency": 38,
+        "question": "How durable is the pen body and tip?",
+        "rubric": "answered: names a durable material or construction, e.g. metal tip, sturdy barrel, or gives a warranty. partial: only says durable or heavy duty."
+      },
+      {
+        "id": "weight",
+        "kind": "spec",
+        "frequency": 18,
+        "question": "How heavy is the pen and how is it balanced?",
+        "rubric": "answered: gives the weight of one pen or describes its balance. partial: only the package weight."
+      },
+      {
+        "id": "erasable",
+        "kind": "spec",
+        "frequency": 74,
+        "question": "Is the ink erasable?",
+        "rubric": "answered: says erasable or not erasable. Only for erasable pens such as FriXion.",
+        "conditional": true
+      },
+      {
+        "id": "glitter_level",
+        "kind": "spec",
+        "frequency": 28,
+        "question": "How much glitter or shimmer is in the ink?",
+        "rubric": "answered: describes the glitter, metallic or shimmer effect. Only for glitter or metallic pens.",
+        "conditional": true
+      },
+      {
+        "id": "scent",
+        "kind": "spec",
+        "frequency": 15,
+        "question": "Is the pen scented, and what does it smell like?",
+        "rubric": "answered: says scented and names the scent. Only for scented pens.",
+        "conditional": true
+      },
+      {
+        "id": "smoothness",
+        "kind": "experience",
+        "frequency": 234,
+        "question": "How smoothly does it write?",
+        "rubric": "Experience: only buyers can judge. A listing saying smooth is a claim, not proof."
+      },
+      {
+        "id": "grip_comfort",
+        "kind": "experience",
+        "frequency": 96,
+        "question": "Is the grip comfortable for long writing?",
+        "rubric": "Experience: only buyers can judge. A listed grip type is evidence, not proof."
+      },
+      {
+        "id": "color_vibrancy",
+        "kind": "experience",
+        "frequency": 79,
+        "question": "How vibrant and dark is the ink?",
+        "rubric": "Experience: only buyers can judge."
+      },
+      {
+        "id": "color_accuracy",
+        "kind": "experience",
+        "frequency": 30,
+        "question": "Does the ink match the barrel color?",
+        "rubric": "Experience: only buyers can judge."
+      }
+    ]
+  },
+  "grades": [
+    {
+      "intentId": "tip_size",
+      "status": "contradicted",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "1.0mm tip writes bold lines"
+        },
+        {
+          "fieldId": "attr.line_size",
+          "text": "0.7 Millimeters"
+        }
+      ],
+      "modelStatus": "contradicted",
+      "flags": []
+    },
+    {
+      "intentId": "smudge",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "no smears, no smudges, no globs"
+        }
+      ],
+      "value": "no smears, no smudges, no globs",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Liquid gel ink dries so fast even left handed writers love it - no smears, no smudges, no globs"
+        }
+      ],
+      "value": "Liquid gel ink dries so fast even left handed writers love it - no smears, no smudges, no globs",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "dry_time",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "Fast-drying liquid gel ink"
+        }
+      ],
+      "value": "Fast-drying",
+      "modelStatus": "answered",
+      "flags": [
+        "quote_field_corrected"
+      ]
+    },
+    {
+      "intentId": "ink_flow",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "super-smooth writing experience"
+        }
+      ],
+      "value": "super-smooth",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "longevity",
+      "status": "missing",
+      "quotes": [],
+      "modelStatus": "missing",
+      "flags": []
+    },
+    {
+      "intentId": "bleed_through",
+      "status": "missing",
+      "quotes": [],
+      "modelStatus": "missing",
+      "flags": []
+    },
+    {
+      "intentId": "refillable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "Refillable with any size and/or color EnerGel refill."
+        }
+      ],
+      "value": "Refillable with any size and/or color EnerGel refill.",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "retractable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.closure",
+          "text": "Retractable"
+        }
+      ],
+      "value": "Retractable",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "pack_contents",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Black Ink Pack of 2"
+        }
+      ],
+      "value": "Pack of 2, Black",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "water_resistance",
+      "status": "missing",
+      "quotes": [],
+      "modelStatus": "missing",
+      "flags": []
+    },
+    {
+      "intentId": "leaking",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "no globs"
+        }
+      ],
+      "value": "no globs",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "surface_compatibility",
+      "status": "missing",
+      "quotes": [],
+      "modelStatus": "missing",
+      "flags": []
+    },
+    {
+      "intentId": "opacity",
+      "status": "not_applicable",
+      "quotes": [],
+      "modelStatus": "not_applicable",
+      "flags": []
+    },
+    {
+      "intentId": "durability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "It is backed by a Limited Lifetime Warranty."
+        }
+      ],
+      "value": "Limited Lifetime Warranty",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "weight",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "0.8 ounces"
+        }
+      ],
+      "value": "0.8 ounces",
+      "modelStatus": "partial",
+      "flags": []
+    },
+    {
+      "intentId": "erasable",
+      "status": "not_applicable",
+      "quotes": [],
+      "modelStatus": "not_applicable",
+      "flags": []
+    },
+    {
+      "intentId": "glitter_level",
+      "status": "not_applicable",
+      "quotes": [],
+      "modelStatus": "not_applicable",
+      "flags": []
+    },
+    {
+      "intentId": "scent",
+      "status": "not_applicable",
+      "quotes": [],
+      "modelStatus": "not_applicable",
+      "flags": []
+    }
+  ],
+  "score": {
+    "score": 61,
+    "answered": 9,
+    "partial": 1,
+    "missing": 4,
+    "contradicted": 1,
+    "counted": 15,
+    "notApplicable": 4
+  },
+  "imageClaims": [
+    {
+      "id": "ic.0",
+      "text": "26233",
+      "imageIds": [
+        "img.0"
+      ]
+    },
+    {
+      "id": "ic.1",
+      "text": "LIQUID GEL PEN",
+      "imageIds": [
+        "img.0"
+      ]
+    },
+    {
+      "id": "ic.2",
+      "text": "Bold",
+      "imageIds": [
+        "img.0"
+      ]
+    },
+    {
+      "id": "ic.3",
+      "text": "1.0mm",
+      "imageIds": [
+        "img.0",
+        "img.5"
+      ]
+    },
+    {
+      "id": "ic.4",
+      "text": "BLACK INK",
+      "imageIds": [
+        "img.0"
+      ]
+    },
+    {
+      "id": "ic.5",
+      "text": "SMOOTHEST WRITING INK*",
+      "imageIds": [
+        "img.0"
+      ]
+    },
+    {
+      "id": "ic.6",
+      "text": "QUICK DRYING INK",
+      "imageIds": [
+        "img.0"
+      ]
+    },
+    {
+      "id": "ic.7",
+      "text": "Liquid Gel Ink",
+      "imageIds": [
+        "img.0",
+        "img.1",
+        "img.2",
+        "img.3",
+        "img.4"
+      ]
+    },
+    {
+      "id": "ic.8",
+      "text": "Metal Tip",
+      "imageIds": [
+        "img.4"
+      ]
+    },
+    {
+      "id": "ic.9",
+      "text": "mm ball",
+      "imageIds": [
+        "img.4"
+      ]
+    },
+    {
+      "id": "ic.10",
+      "text": "RED",
+      "imageIds": [
+        "img.5"
+      ]
+    },
+    {
+      "id": "ic.11",
+      "text": "0.7MM",
+      "imageIds": [
+        "img.5"
+      ]
+    },
+    {
+      "id": "ic.12",
+      "text": "GREEN",
+      "imageIds": [
+        "img.5"
+      ]
+    },
+    {
+      "id": "ic.13",
+      "text": "BROWN",
+      "imageIds": [
+        "img.5"
+      ]
+    },
+    {
+      "id": "ic.14",
+      "text": "ORANGE",
+      "imageIds": [
+        "img.5"
+      ]
+    },
+    {
+      "id": "ic.15",
+      "text": "PINK",
+      "imageIds": [
+        "img.5"
+      ]
+    },
+    {
+      "id": "ic.16",
+      "text": "LIME GREEN",
+      "imageIds": [
+        "img.5"
+      ]
+    },
+    {
+      "id": "ic.17",
+      "text": "BLACK",
+      "imageIds": [
+        "img.5"
+      ]
+    },
+    {
+      "id": "ic.18",
+      "text": "BLUE",
+      "imageIds": [
+        "img.5"
+      ]
+    },
+    {
+      "id": "ic.19",
+      "text": "VIOLET",
+      "imageIds": [
+        "img.5"
+      ]
+    },
+    {
+      "id": "ic.20",
+      "text": "NAVY BLUE",
+      "imageIds": [
+        "img.5"
+      ]
+    },
+    {
+      "id": "ic.21",
+      "text": "SKY BLUE",
+      "imageIds": [
+        "img.5"
+      ]
+    },
+    {
+      "id": "ic.22",
+      "text": "TURQUOISE BLUE",
+      "imageIds": [
+        "img.5"
+      ]
+    },
+    {
+      "id": "ic.23",
+      "text": "Metal Tip 0.7 mm",
+      "imageIds": [
+        "img.6"
+      ]
+    },
+    {
+      "id": "ic.24",
+      "text": "Metal Tip 1.0",
+      "imageIds": [
+        "img.6"
+      ]
+    },
+    {
+      "id": "ic.25",
+      "text": "Metal Tip 0.7",
+      "imageIds": [
+        "img.6"
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "claimId": "ic.0",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.1",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "LIQUID GEL PEN"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "claimId": "ic.2",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Bold"
+        }
+      ],
+      "intentId": "tip_size",
+      "flags": []
+    },
+    {
+      "claimId": "ic.3",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "1.0mm"
+        }
+      ],
+      "intentId": "tip_size",
+      "flags": []
+    },
+    {
+      "claimId": "ic.4",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "BLACK INK"
+        }
+      ],
+      "intentId": "pack_contents",
+      "flags": []
+    },
+    {
+      "claimId": "ic.5",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "EnerGel ink writes more smoothly than the leading brand"
+        }
+      ],
+      "intentId": "ink_flow",
+      "flags": []
+    },
+    {
+      "claimId": "ic.6",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Liquid gel ink dries so fast"
+        }
+      ],
+      "intentId": "dry_time",
+      "flags": []
+    },
+    {
+      "claimId": "ic.7",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Liquid Gel Ink"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "claimId": "ic.8",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Metal Tip"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "claimId": "ic.9",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.10",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.11",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "0.7MM"
+        }
+      ],
+      "intentId": "tip_size",
+      "flags": []
+    },
+    {
+      "claimId": "ic.12",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.13",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.14",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.15",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.16",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.17",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "BLACK"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "claimId": "ic.18",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.19",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.20",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.21",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.22",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.23",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Metal Tip"
+        },
+        {
+          "fieldId": "attr.line_size",
+          "text": "0.7 Millimeters"
+        }
+      ],
+      "intentId": "tip_size",
+      "flags": []
+    },
+    {
+      "claimId": "ic.24",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Metal Tip"
+        },
+        {
+          "fieldId": "description.1",
+          "text": "1.0mm"
+        }
+      ],
+      "intentId": "tip_size",
+      "flags": []
+    },
+    {
+      "claimId": "ic.25",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Metal Tip"
+        },
+        {
+          "fieldId": "attr.line_size",
+          "text": "0.7 Millimeters"
+        }
+      ],
+      "intentId": "tip_size",
+      "flags": []
+    }
+  ],
+  "hiddenAnswers": [],
+  "skippedImageIds": [],
+  "competitors": [
+    {
+      "asin": "B0143LMAEK",
+      "brand": "Uni-ball",
+      "title": "Uni-Ball Signo Broad Point Gel Impact Pen White Ink, 6 pens per Pack (japan import) Komainu-Dou Original Package (2, DESIGN 1)",
+      "score": {
+        "score": 17,
+        "answered": 2,
+        "partial": 1,
+        "missing": 11,
+        "contradicted": 1,
+        "counted": 15,
+        "notApplicable": 4
+      },
+      "grades": [
+        {
+          "intentId": "tip_size",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.line_size",
+              "text": "1.0 mm"
+            }
+          ],
+          "value": "1.0 mm",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "smudge",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "smudge_left_handed",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "dry_time",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "ink_flow",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "longevity",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "bleed_through",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "refillable",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "retractable",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.closure",
+              "text": "Retractable"
+            }
+          ],
+          "value": "Retractable",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "pack_contents",
+          "status": "contradicted",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "6 pens per Pack"
+            },
+            {
+              "fieldId": "description.1",
+              "text": "3 pens per Pack"
+            }
+          ],
+          "modelStatus": "contradicted",
+          "flags": []
+        },
+        {
+          "intentId": "water_resistance",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "leaking",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "surface_compatibility",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "opacity",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "durability",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "weight",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "attr.item_weight",
+              "text": "Item weight: 2.4 ounces"
+            }
+          ],
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "erasable",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "glitter_level",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "scent",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "asin": "B0BSMKF5BQ",
+      "brand": "SHARPIE",
+      "title": "SHARPIE S-Gel, Gel Pens, Medium Point (0.7mm), Red Ink Gel Pen, 12 Count",
+      "score": {
+        "score": 57,
+        "answered": 6,
+        "partial": 1,
+        "missing": 8,
+        "contradicted": 0,
+        "counted": 15,
+        "notApplicable": 4
+      },
+      "grades": [
+        {
+          "intentId": "tip_size",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.4",
+              "text": "Medium Point (0. 7mm)"
+            }
+          ],
+          "value": "0.7 mm",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "smudge",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.1",
+              "text": "no smear"
+            }
+          ],
+          "value": "no smear",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "smudge_left_handed",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "dry_time",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "ink_flow",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "description.1",
+              "text": "smooth writing experience"
+            }
+          ],
+          "value": "smooth writing experience",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "longevity",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "bleed_through",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.1",
+              "text": "no bleed technology"
+            }
+          ],
+          "value": "no bleed",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "refillable",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "retractable",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.closure",
+              "text": "Snap"
+            }
+          ],
+          "value": "Snap",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "pack_contents",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "Red Ink Gel Pen, 12 Count"
+            }
+          ],
+          "value": "12 red",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "water_resistance",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "leaking",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "surface_compatibility",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "opacity",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "durability",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "weight",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "attr.item_weight",
+              "text": "Item weight: 1.6 ounces"
+            }
+          ],
+          "value": "1.6 ounces",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "erasable",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "glitter_level",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "scent",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "asin": "B09YP9YYZG",
+      "brand": "PILOT",
+      "title": "PILOT G2 Premium Refillable and Retractable Rolling Ball Gel Pens, Fine Point, Navy Blue Ink, 12-Pack (31187)",
+      "score": {
+        "score": 61,
+        "answered": 7,
+        "partial": 2,
+        "missing": 7,
+        "contradicted": 0,
+        "counted": 16,
+        "notApplicable": 3
+      },
+      "grades": [
+        {
+          "intentId": "tip_size",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.line_size",
+              "text": "0.7 Millimeters"
+            }
+          ],
+          "value": "0.7 Millimeters",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "smudge",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "description.1",
+              "text": "smear-proof"
+            }
+          ],
+          "value": "smear-proof",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "smudge_left_handed",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "dry_time",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "ink_flow",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "bullet.1",
+              "text": "smooth writing"
+            }
+          ],
+          "value": "smooth writing",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "longevity",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "Longest Lasting"
+            }
+          ],
+          "value": "Longest Lasting",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "bleed_through",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "refillable",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "Refillable"
+            }
+          ],
+          "value": "Refillable",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "retractable",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.closure",
+              "text": "Retractable"
+            }
+          ],
+          "value": "Retractable",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "pack_contents",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.size",
+              "text": "12 Count (Pack of 1)"
+            },
+            {
+              "fieldId": "attr.color",
+              "text": "Navy Ink"
+            }
+          ],
+          "value": "12 Count, Navy Ink",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "water_resistance",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "leaking",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "surface_compatibility",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "opacity",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "durability",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "weight",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.item_weight",
+              "text": "0.48 ounces"
+            }
+          ],
+          "value": "0.48 ounces",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "erasable",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.5",
+              "text": "erasable"
+            }
+          ],
+          "value": "erasable",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "glitter_level",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "scent",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "asin": "B08CMWPFR1",
+      "brand": "Scentco",
+      "title": "Glitter Gel Smens (2 Pack) - Aloha Unicorn Scented Pens, Colored Gel Ink, Medium Point, 8 Count",
+      "score": {
+        "score": 18,
+        "answered": 4,
+        "partial": 2,
+        "missing": 11,
+        "contradicted": 0,
+        "counted": 17,
+        "notApplicable": 2
+      },
+      "grades": [
+        {
+          "intentId": "tip_size",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "attr.point_type",
+              "text": "Medium"
+            }
+          ],
+          "value": "Medium",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "smudge",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "smudge_left_handed",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "dry_time",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "ink_flow",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "longevity",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "bleed_through",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "refillable",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "retractable",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.closure",
+              "text": "Snap"
+            }
+          ],
+          "value": "Snap",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "pack_contents",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "8 Count"
+            },
+            {
+              "fieldId": "attr.ink_color",
+              "text": "Multicolor"
+            }
+          ],
+          "value": "8 Count, Multicolor",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "water_resistance",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "leaking",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "surface_compatibility",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "opacity",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "durability",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "weight",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "attr.item_weight",
+              "text": "Item weight: 7.4 ounces"
+            }
+          ],
+          "value": "7.4 ounces",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "erasable",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "glitter_level",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "Glitter Gel Smens"
+            }
+          ],
+          "value": "Glitter",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "scent",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "Aloha Unicorn Scented Pens"
+            }
+          ],
+          "value": "Aloha Unicorn",
+          "modelStatus": "answered",
+          "flags": []
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "intentId": "tip_size",
+      "status": "contradicted",
+      "frequency": 130,
+      "competitorShare": 0.875,
+      "competitorsAnswering": [
+        {
+          "asin": "B0143LMAEK",
+          "brand": "Uni-ball",
+          "quote": {
+            "fieldId": "attr.line_size",
+            "text": "1.0 mm"
+          }
+        },
+        {
+          "asin": "B0BSMKF5BQ",
+          "brand": "SHARPIE",
+          "quote": {
+            "fieldId": "bullet.4",
+            "text": "Medium Point (0. 7mm)"
+          }
+        },
+        {
+          "asin": "B09YP9YYZG",
+          "brand": "PILOT",
+          "quote": {
+            "fieldId": "attr.line_size",
+            "text": "0.7 Millimeters"
+          }
+        },
+        {
+          "asin": "B08CMWPFR1",
+          "brand": "Scentco",
+          "quote": {
+            "fieldId": "attr.point_type",
+            "text": "Medium"
+          }
+        }
+      ],
+      "hiddenClaims": [],
+      "priority": 121.9
+    },
+    {
+      "intentId": "longevity",
+      "status": "missing",
+      "frequency": 108,
+      "competitorShare": 0.25,
+      "competitorsAnswering": [
+        {
+          "asin": "B09YP9YYZG",
+          "brand": "PILOT",
+          "quote": {
+            "fieldId": "bullet.2",
+            "text": "Longest Lasting"
+          }
+        }
+      ],
+      "hiddenClaims": [],
+      "priority": 67.5
+    },
+    {
+      "intentId": "bleed_through",
+      "status": "missing",
+      "frequency": 43,
+      "competitorShare": 0.25,
+      "competitorsAnswering": [
+        {
+          "asin": "B0BSMKF5BQ",
+          "brand": "SHARPIE",
+          "quote": {
+            "fieldId": "bullet.1",
+            "text": "no bleed technology"
+          }
+        }
+      ],
+      "hiddenClaims": [],
+      "priority": 26.9
+    },
+    {
+      "intentId": "surface_compatibility",
+      "status": "missing",
+      "frequency": 28,
+      "competitorShare": 0,
+      "competitorsAnswering": [],
+      "hiddenClaims": [],
+      "priority": 14
+    },
+    {
+      "intentId": "weight",
+      "status": "partial",
+      "frequency": 18,
+      "competitorShare": 0.625,
+      "competitorsAnswering": [
+        {
+          "asin": "B0143LMAEK",
+          "brand": "Uni-ball",
+          "quote": {
+            "fieldId": "attr.item_weight",
+            "text": "Item weight: 2.4 ounces"
+          }
+        },
+        {
+          "asin": "B0BSMKF5BQ",
+          "brand": "SHARPIE",
+          "quote": {
+            "fieldId": "attr.item_weight",
+            "text": "Item weight: 1.6 ounces"
+          }
+        },
+        {
+          "asin": "B09YP9YYZG",
+          "brand": "PILOT",
+          "quote": {
+            "fieldId": "attr.item_weight",
+            "text": "0.48 ounces"
+          }
+        },
+        {
+          "asin": "B08CMWPFR1",
+          "brand": "Scentco",
+          "quote": {
+            "fieldId": "attr.item_weight",
+            "text": "Item weight: 7.4 ounces"
+          }
+        }
+      ],
+      "hiddenClaims": [],
+      "priority": 7.3
+    },
+    {
+      "intentId": "water_resistance",
+      "status": "missing",
+      "frequency": 13,
+      "competitorShare": 0,
+      "competitorsAnswering": [],
+      "hiddenClaims": [],
+      "priority": 6.5
+    }
+  ],
+  "briefs": [
+    {
+      "intentId": "tip_size",
+      "question": "What is the tip size or line width?",
+      "priority": 121.9,
+      "action": "fix_contradiction",
+      "target": "description.1",
+      "sources": [
+        {
+          "kind": "field",
+          "id": "description.1",
+          "text": "1.0mm tip writes bold lines"
+        },
+        {
+          "kind": "field",
+          "id": "attr.line_size",
+          "text": "0.7 Millimeters"
+        }
+      ],
+      "needsFromBrand": "Which is right: \"1.0mm tip writes bold lines\" (description.1) or \"0.7 Millimeters\" (attr.line_size)? Then make every field say the same.",
+      "flags": []
+    },
+    {
+      "intentId": "longevity",
+      "question": "How long does the ink last?",
+      "priority": 67.5,
+      "action": "request_fact",
+      "target": "new_bullet",
+      "needsFromBrand": "Confirm whether the ink is long-lasting or provide writing length details.",
+      "sources": [],
+      "flags": []
+    },
+    {
+      "intentId": "bleed_through",
+      "question": "Does the ink bleed through paper?",
+      "priority": 26.9,
+      "action": "request_fact",
+      "target": "new_bullet",
+      "needsFromBrand": "Confirm whether the ink prevents bleed-through or show-through on standard paper.",
+      "sources": [],
+      "flags": []
+    },
+    {
+      "intentId": "surface_compatibility",
+      "question": "What paper or surfaces does it write on?",
+      "priority": 14,
+      "action": "edit_field",
+      "target": "bullet.3",
+      "draft": "Designed for smooth writing on standard writing paper.",
+      "sources": [
+        {
+          "kind": "field",
+          "id": "bullet.3",
+          "text": "EnerGel ink writes more smoothly than the leading brand ( Internally tested to be smoother writing than the leading gel pen on standard writing paper)"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "intentId": "weight",
+      "question": "How heavy is the pen and how is it balanced?",
+      "priority": 7.3,
+      "action": "request_fact",
+      "target": "new_bullet",
+      "needsFromBrand": "Provide the exact weight per single pen or details on the pen's balance.",
+      "sources": [],
+      "flags": []
+    },
+    {
+      "intentId": "water_resistance",
+      "question": "Is the ink waterproof, fade-resistant or archival?",
+      "priority": 6.5,
+      "action": "request_fact",
+      "target": "new_bullet",
+      "needsFromBrand": "Confirm if the ink is waterproof, water-resistant, or fade-resistant.",
+      "sources": [],
+      "flags": []
+    }
+  ],
+  "proof": {
+    "reviews": 400,
+    "claims": [
+      {
+        "intentId": "smudge",
+        "claim": "no smears, no smudges, no globs",
+        "sources": [
+          {
+            "kind": "field",
+            "id": "bullet.2",
+            "text": "no smears, no smudges, no globs"
+          }
+        ],
+        "keywords": [
+          "smudg",
+          "smear"
+        ],
+        "matching": 117,
+        "sampled": 117,
+        "counts": {
+          "supports": 104,
+          "contradicts": 6,
+          "mixed": 7,
+          "unrelated": 0,
+          "unlabelled": 0
+        },
+        "examples": {
+          "supports": [
+            "…eed. The ink dries instantly unlike other gel pens that can smudge when rubbed and they are great to be used with a highlighter. If you like the gel pens especially fine point gel pens, then you should try this one.",
+            "…k dries incredibly quickly and doesn't have any tendency to smear. The colors are nice and vibrant and they don't seem to fade that I've noticed. I bought this big pack so I would have more choices of colors, and I hav…",
+            "Great for lefties!. As a left-hander, it is nearly impossible to find a nice gel pen that doesn't smudge all over my had or the paper. These pens write wonderfully, do not smudge, and are very comfortable to hold. Only…"
+          ],
+          "contradicts": [
+            "Break easily. The first thing I noticed is that these pens smudge very easily. I lose pens constantly so I was looking forward to losing them over time, but before losing them they started to break. It seems like there…",
+            "…omething specific. But, by the time I was done, quite a bit smeared on the paper as well as my hand. Will have to try something else.",
+            "I want a smudge proof pen!. I love these pens but it surprised me that I looks down and it had smudged and the ink was on my finger. Are they really smudge proof. Apparently not. Also my red pen I was writing g at work…"
+          ],
+          "mixed": [
+            "…quickly, which is great because i’m left handed and i hate smearing everything i write. on smoother/glossier paper these pens don’t dry as well but they work great on standard notebook or copy paper. i could go on and…",
+            "…g a lefty, it's very difficult to find a gel pen that won't smear EVERYWHERE/get all over my hand while writing. This actually does a really decent job at not smudging on me. It's only smudged on me a few times when I…",
+            "…o don't through them away. They are not water proof and can smear if you are not careful. Let it dry before you go over or erase any pencil lines. The drafting Micron pens are water proof and I use them for drafting al…"
+          ]
+        },
+        "flags": [],
+        "support": {
+          "rate": 0.8888888888888888,
+          "low": 0.8191445023934625,
+          "high": 0.9339074267435234
+        },
+        "contradiction": {
+          "rate": 0.05128205128205128,
+          "low": 0.023712055277476288,
+          "high": 0.10738187264138609
+        },
+        "mixed": {
+          "rate": 0.05982905982905983,
+          "low": 0.02928010199333901,
+          "high": 0.11836441777468791
+        },
+        "verdict": "backed"
+      },
+      {
+        "intentId": "smudge_left_handed",
+        "claim": "Liquid gel ink dries so fast even left handed writers love it - no smears, no smudges, no globs",
+        "sources": [
+          {
+            "kind": "field",
+            "id": "bullet.2",
+            "text": "Liquid gel ink dries so fast even left handed writers love it - no smears, no smudges, no globs"
+          }
+        ],
+        "keywords": [
+          "left hand",
+          "lefthand",
+          "lefty",
+          "lefties",
+          "leftie",
+          "southpaw"
+        ],
+        "matching": 60,
+        "sampled": 60,
+        "counts": {
+          "supports": 56,
+          "contradicts": 2,
+          "mixed": 2,
+          "unrelated": 0,
+          "unlabelled": 0
+        },
+        "examples": {
+          "supports": [
+            "Great for lefties!. As a left-hander, it is nearly impossible to find a nice gel pen that doesn't smudge all over my had or the paper. These pens write wonderfully, do not smudge, and are very comfortable to hold. Only…",
+            "…. Best. Pen. Ever! The write smoothly, no smudging (and I’m left handed so that’s saying something), and they last a long time!",
+            "Especially great for lefties. Anyone that is left handed knows it's very hard to find a pen that does not clog. This is due to the fact that our writing motion is more of a pushing rather than a dragging. This can get…"
+          ],
+          "contradicts": [
+            "As a nurse, these are my go to pens!. As a nurse who writes throughout my entire shift, these are my go to pens. They write smooth and are worth the investment. I would say they may smudge for left handers.",
+            "Doesn’t help left handed folks. I’m left handed and these pens still smear just like other pens I have. They advertise that this pen is better for left handed folks like myself but it’s not better than any regular pen."
+          ],
+          "mixed": [
+            "…write so smooth and dry quickly, which is great because i’m left handed and i hate smearing everything i write. on smoother/glossier paper these pens don’t dry as well but they work great on standard notebook or copy p…",
+            "Very nice. I really like this product. Writes very smooth and didn't get globs of ink everywhere like some gel pens do. Being a lefty, it's very difficult to find a gel pen that won't smear EVERYWHERE/get all over my h…"
+          ]
+        },
+        "flags": [],
+        "support": {
+          "rate": 0.9333333333333333,
+          "low": 0.8407442010623228,
+          "high": 0.973771725856802
+        },
+        "contradiction": {
+          "rate": 0.03333333333333333,
+          "low": 0.009189126490150246,
+          "high": 0.11363987528925378
+        },
+        "mixed": {
+          "rate": 0.03333333333333333,
+          "low": 0.009189126490150246,
+          "high": 0.11363987528925378
+        },
+        "verdict": "backed"
+      },
+      {
+        "intentId": "dry_time",
+        "claim": "Fast-drying liquid gel ink",
+        "sources": [
+          {
+            "kind": "field",
+            "id": "description.1",
+            "text": "Fast-drying liquid gel ink"
+          },
+          {
+            "kind": "image",
+            "id": "img.0",
+            "text": "QUICK DRYING INK"
+          }
+        ],
+        "keywords": [
+          "quick dry",
+          "fast dry",
+          "dries quick",
+          "dries fast",
+          "dries so fast",
+          "dries instant",
+          "dries immediately",
+          "dry quick",
+          "dry fast",
+          "dry time",
+          "drying time",
+          "to dry",
+          "still wet"
+        ],
+        "matching": 63,
+        "sampled": 63,
+        "counts": {
+          "supports": 59,
+          "contradicts": 2,
+          "mixed": 1,
+          "unrelated": 1,
+          "unlabelled": 0
+        },
+        "examples": {
+          "supports": [
+            "…the paper and hold it there and it will not bleed. The ink dries instantly unlike other gel pens that can smudge when rubbed and they are great to be used with a highlighter. If you like the gel pens especially fine p…",
+            "mechanical failure. First, the positive: these pens write great! They dry fast and they do not smear. And there is no doubt, when I am at work, which pens are mine because no one has this exact pen. Next, the negative:…",
+            "A rich dark black. Pentel Energel pens are great. Best part is that they also fit in other expensive rollerball pens. The ink is fast drying and the black is nice rich black as opposed to the washed out muted dark blac…"
+          ],
+          "contradicts": [
+            "These do not dry fast enough.. As a nurse, I wanted colored pens to do my \"Nurse Brain\" sheets for the day. Each color representing something specific. But, by the time I was done, quite a bit smeared on the paper as w…",
+            "…m, and both the feel and the color are superior! It doesn't dry fast enough for you to immediately set your hand over something you've written, but I did write a sentence that was about five inches long, and only the l…"
+          ],
+          "mixed": [
+            "…g doubles of all the other colors. they write so smooth and dry quickly, which is great because i’m left handed and i hate smearing everything i write. on smoother/glossier paper these pens don’t dry as well but they w…"
+          ]
+        },
+        "flags": [],
+        "support": {
+          "rate": 0.9516129032258065,
+          "low": 0.8671174961524586,
+          "high": 0.9834086149991539
+        },
+        "contradiction": {
+          "rate": 0.03225806451612903,
+          "low": 0.008891184997076397,
+          "high": 0.11020677131018222
+        },
+        "mixed": {
+          "rate": 0.016129032258064516,
+          "low": 0.0028527936922403893,
+          "high": 0.08586923007388922
+        },
+        "verdict": "backed"
+      },
+      {
+        "intentId": "ink_flow",
+        "claim": "super-smooth writing experience",
+        "sources": [
+          {
+            "kind": "field",
+            "id": "bullet.1",
+            "text": "super-smooth writing experience"
+          },
+          {
+            "kind": "image",
+            "id": "img.0",
+            "text": "SMOOTHEST WRITING INK*"
+          }
+        ],
+        "keywords": [
+          "skip",
+          "clog",
+          "blob",
+          "glob",
+          "flow",
+          "consistent",
+          "stopped writing",
+          "stops writing"
+        ],
+        "matching": 80,
+        "sampled": 80,
+        "counts": {
+          "supports": 71,
+          "contradicts": 5,
+          "mixed": 4,
+          "unrelated": 0,
+          "unlabelled": 0
+        },
+        "examples": {
+          "supports": [
+            "…how smoothly they write and the way the ink looks when it's flowing from pen to paper, but there was something missing. One day I was preparing to sign and date an IV when I realized my badge must have come off at the…",
+            "…pen -- the color was meh but the ink line was fantastic. It flowed perfectly. Perfectly. I wanted it. I asked whose it was and it belonged to the meeting coordinator -- he was not going to let me have his pen. So I ask…",
+            "Especially great for lefties. Anyone that is left handed knows it's very hard to find a pen that does not clog. This is due to the fact that our writing motion is more of a pushing rather than a dragging. This can get…"
+          ],
+          "contradicts": [
+            "…They are easy to hold, comfortable and write smooth without blobbing and smearing. However, THIS pack I just got is super disappointing. I am not using them more than normal, but in my writing and work, I have already…",
+            "…does not write as smoothly as I was hoping for. It doesn't 'skip', but it doesn't seem to glide either.",
+            "Not smooth. Skips a lot. Just received these. We’re going to use them for taking notes but I can barely make it through a sentence without the ink skipping. For the amount I paid, I wish they were better. Not worth it"
+          ],
+          "mixed": [
+            "My new favorite pen!. I just got these and have been testing them out. No blobs, no smearing. When i turned the paper over to write on the back, no transfer of ink to the paper underneath! No idea how long the ink will…",
+            "…get, they write for a short time and then stop working. It skips, then I scribble and it works but then I go back to my writing, it wont work. I changed paper, it still doesnt work.",
+            "…sing them, very little, 3 of them ran out of ink or started skipping. No reason for this that I can think of except poor or low ink levels. Really like them but not when they run out of ink way to early."
+          ]
+        },
+        "flags": [],
+        "support": {
+          "rate": 0.8875,
+          "low": 0.7998158913432244,
+          "high": 0.9396738130517298
+        },
+        "contradiction": {
+          "rate": 0.0625,
+          "low": 0.02698897769798554,
+          "high": 0.1381032915335177
+        },
+        "mixed": {
+          "rate": 0.05,
+          "low": 0.01961323712729556,
+          "high": 0.121624525510822
+        },
+        "verdict": "backed"
+      },
+      {
+        "intentId": "leaking",
+        "claim": "no globs",
+        "sources": [
+          {
+            "kind": "field",
+            "id": "bullet.2",
+            "text": "no globs"
+          }
+        ],
+        "keywords": [
+          "leak",
+          "blob",
+          "glob",
+          "burst",
+          "exploded",
+          "ink everywhere"
+        ],
+        "matching": 62,
+        "sampled": 62,
+        "counts": {
+          "supports": 28,
+          "contradicts": 33,
+          "mixed": 1,
+          "unrelated": 0,
+          "unlabelled": 0
+        },
+        "examples": {
+          "supports": [
+            "…per but can't use a sharpie pen because it will undoubtedly leak through, so I use a ball point pen. I've always been like this, and thus, I've always felt a void in my pen life. I've always been pissing the perfect pe…",
+            "My new favorite pen!. I just got these and have been testing them out. No blobs, no smearing. When i turned the paper over to write on the back, no transfer of ink to the paper underneath! No idea how long the ink will…",
+            "Very nice. I really like this product. Writes very smooth and didn't get globs of ink everywhere like some gel pens do. Being a lefty, it's very difficult to find a gel pen that won't smear EVERYWHERE/get all over my h…"
+          ],
+          "contradicts": [
+            "…3 packs of these pens. So that is nine pens. 2 out of the 9 leaked all over my lab coat and ruined it. And they were straight out of the package. Had not even written with them yet. Opened 2 packs, stuck them all in my…",
+            "These pens leak ink. I purchased these pens to help designate areas on drawings, and they worked well at first. After a few weeks of use the ink began to pool at the bottom of the pens, onto my hands, and on to the dra…",
+            "PENS LEAK!!! DO NOT BUY!!!. Pens are sitting in a pen holder on my desk. Came to work the next day and TWO of the three pens were leaking. ON. MY. DESK. THE WAS WAS NOT removed from the pens. NOT HAPPY. One for the pri…"
+          ],
+          "mixed": [
+            "Leaky. Expensive. All worked but one. The rest are great."
+          ]
+        },
+        "flags": [],
+        "support": {
+          "rate": 0.45161290322580644,
+          "low": 0.3341951476826002,
+          "high": 0.5746770546940128
+        },
+        "contradiction": {
+          "rate": 0.532258064516129,
+          "low": 0.4098381737584801,
+          "high": 0.650913691323778
+        },
+        "mixed": {
+          "rate": 0.016129032258064516,
+          "low": 0.0028527936922403893,
+          "high": 0.08586923007388922
+        },
+        "verdict": "contested"
+      },
+      {
+        "intentId": "durability",
+        "claim": "It is backed by a Limited Lifetime Warranty.",
+        "sources": [
+          {
+            "kind": "field",
+            "id": "description.1",
+            "text": "It is backed by a Limited Lifetime Warranty."
+          }
+        ],
+        "keywords": [
+          "broke",
+          "break",
+          "crack",
+          "sturdy",
+          "durable",
+          "flimsy",
+          "fell apart",
+          "falls apart",
+          "cheaply made",
+          "well made"
+        ],
+        "matching": 60,
+        "sampled": 60,
+        "counts": {
+          "supports": 13,
+          "contradicts": 36,
+          "mixed": 10,
+          "unrelated": 1,
+          "unlabelled": 0
+        },
+        "examples": {
+          "supports": [
+            "…'t walk away from me at work! The construction is also very durable, metal accents and a comfortable grip for writing. So not only are they stylish, but they are incredibly functional as well! Everyone I know who has w…",
+            "…is no fatigue when I use them. The handles are comfortable, durable. I feel confident that they will hold up to repeated refills (I use these a LOT) over time. These are the best pens I've ever used. Nothing is smoothe…",
+            "…e metal clip on my pen to keep papers together. This one is sturdy and strong enough to do this. I just open the corner of the package and pop them out because I like to keep them in the package for storage so I don't…"
+          ],
+          "contradicts": [
+            "They crack before the ink is gone. Originally I loved these pens, I even ordered a second pack so I'd be ready when the ink ran out. Unfortunately, the pens crack and fall apart, before you can use up all the ink. I'm…",
+            "Break easily. The first thing I noticed is that these pens smudge very easily. I lose pens constantly so I was looking forward to losing them over time, but before losing them they started to break. It seems like there…",
+            "The ink is black and NOT pink!. Very disappointed! The ink is black and NOT pink like it implies on the package. Also, I gave one to one of my coworkers and the pen broke within seconds. Waste of money."
+          ],
+          "mixed": [
+            "…p these onto my pocket at work. The clip is metal and quite sturdy- I have never had any issues with it breaking or coming off. Before you start writing with these, there is a tiny dot of something like dried glue on t…",
+            "…Don't think it's a particular color. But this is not a deal-breaker because most of the time everything is 100% awesome. Watch prices on these pens, though. Certain packages can be a great bargain, but if what you want…",
+            "…p these onto my pocket at work. The clip is metal and quite sturdy- I have never had any issues with it breaking or coming off. Before you start writing with these, there is a tiny dot of something like dried glue on t…"
+          ]
+        },
+        "flags": [],
+        "support": {
+          "rate": 0.22033898305084745,
+          "low": 0.13354072524323754,
+          "high": 0.34132942446650893
+        },
+        "contradiction": {
+          "rate": 0.6101694915254238,
+          "low": 0.4826610956186712,
+          "high": 0.724208239344156
+        },
+        "mixed": {
+          "rate": 0.1694915254237288,
+          "low": 0.0947573785633763,
+          "high": 0.28463461654814215
+        },
+        "verdict": "contested"
+      }
+    ],
+    "modelOutputs": [
+      [
+        {
+          "i": 0,
+          "label": "contradicts"
+        },
+        {
+          "i": 1,
+          "label": "supports"
+        },
+        {
+          "i": 2,
+          "label": "supports"
+        },
+        {
+          "i": 3,
+          "label": "supports"
+        },
+        {
+          "i": 4,
+          "label": "supports"
+        },
+        {
+          "i": 5,
+          "label": "supports"
+        },
+        {
+          "i": 6,
+          "label": "supports"
+        },
+        {
+          "i": 7,
+          "label": "supports"
+        },
+        {
+          "i": 8,
+          "label": "mixed"
+        },
+        {
+          "i": 9,
+          "label": "supports"
+        },
+        {
+          "i": 10,
+          "label": "supports"
+        },
+        {
+          "i": 11,
+          "label": "supports"
+        },
+        {
+          "i": 12,
+          "label": "supports"
+        },
+        {
+          "i": 13,
+          "label": "supports"
+        },
+        {
+          "i": 14,
+          "label": "supports"
+        },
+        {
+          "i": 15,
+          "label": "supports"
+        },
+        {
+          "i": 16,
+          "label": "supports"
+        },
+        {
+          "i": 17,
+          "label": "supports"
+        },
+        {
+          "i": 18,
+          "label": "supports"
+        },
+        {
+          "i": 19,
+          "label": "supports"
+        },
+        {
+          "i": 20,
+          "label": "supports"
+        },
+        {
+          "i": 21,
+          "label": "supports"
+        },
+        {
+          "i": 22,
+          "label": "supports"
+        },
+        {
+          "i": 23,
+          "label": "supports"
+        },
+        {
+          "i": 24,
+          "label": "supports"
+        },
+        {
+          "i": 25,
+          "label": "contradicts"
+        },
+        {
+          "i": 26,
+          "label": "supports"
+        },
+        {
+          "i": 27,
+          "label": "supports"
+        },
+        {
+          "i": 28,
+          "label": "supports"
+        },
+        {
+          "i": 29,
+          "label": "supports"
+        },
+        {
+          "i": 30,
+          "label": "supports"
+        },
+        {
+          "i": 31,
+          "label": "supports"
+        },
+        {
+          "i": 32,
+          "label": "contradicts"
+        },
+        {
+          "i": 33,
+          "label": "supports"
+        },
+        {
+          "i": 34,
+          "label": "mixed"
+        },
+        {
+          "i": 35,
+          "label": "supports"
+        },
+        {
+          "i": 36,
+          "label": "supports"
+        },
+        {
+          "i": 37,
+          "label": "supports"
+        },
+        {
+          "i": 38,
+          "label": "supports"
+        },
+        {
+          "i": 39,
+          "label": "supports"
+        },
+        {
+          "i": 40,
+          "label": "supports"
+        },
+        {
+          "i": 41,
+          "label": "supports"
+        },
+        {
+          "i": 42,
+          "label": "supports"
+        },
+        {
+          "i": 43,
+          "label": "supports"
+        },
+        {
+          "i": 44,
+          "label": "supports"
+        },
+        {
+          "i": 45,
+          "label": "supports"
+        },
+        {
+          "i": 46,
+          "label": "supports"
+        },
+        {
+          "i": 47,
+          "label": "supports"
+        },
+        {
+          "i": 48,
+          "label": "supports"
+        },
+        {
+          "i": 49,
+          "label": "supports"
+        },
+        {
+          "i": 50,
+          "label": "supports"
+        },
+        {
+          "i": 51,
+          "label": "supports"
+        },
+        {
+          "i": 52,
+          "label": "mixed"
+        },
+        {
+          "i": 53,
+          "label": "supports"
+        },
+        {
+          "i": 54,
+          "label": "supports"
+        },
+        {
+          "i": 55,
+          "label": "supports"
+        },
+        {
+          "i": 56,
+          "label": "mixed"
+        },
+        {
+          "i": 57,
+          "label": "supports"
+        },
+        {
+          "i": 58,
+          "label": "supports"
+        }
+      ],
+      [
+        {
+          "i": 59,
+          "label": "supports"
+        },
+        {
+          "i": 60,
+          "label": "supports"
+        },
+        {
+          "i": 61,
+          "label": "supports"
+        },
+        {
+          "i": 62,
+          "label": "supports"
+        },
+        {
+          "i": 63,
+          "label": "supports"
+        },
+        {
+          "i": 64,
+          "label": "supports"
+        },
+        {
+          "i": 65,
+          "label": "supports"
+        },
+        {
+          "i": 66,
+          "label": "contradicts"
+        },
+        {
+          "i": 67,
+          "label": "supports"
+        },
+        {
+          "i": 68,
+          "label": "supports"
+        },
+        {
+          "i": 69,
+          "label": "supports"
+        },
+        {
+          "i": 70,
+          "label": "supports"
+        },
+        {
+          "i": 71,
+          "label": "mixed"
+        },
+        {
+          "i": 72,
+          "label": "supports"
+        },
+        {
+          "i": 73,
+          "label": "supports"
+        },
+        {
+          "i": 74,
+          "label": "supports"
+        },
+        {
+          "i": 75,
+          "label": "supports"
+        },
+        {
+          "i": 76,
+          "label": "supports"
+        },
+        {
+          "i": 77,
+          "label": "contradicts"
+        },
+        {
+          "i": 78,
+          "label": "supports"
+        },
+        {
+          "i": 79,
+          "label": "supports"
+        },
+        {
+          "i": 80,
+          "label": "supports"
+        },
+        {
+          "i": 81,
+          "label": "supports"
+        },
+        {
+          "i": 82,
+          "label": "supports"
+        },
+        {
+          "i": 83,
+          "label": "supports"
+        },
+        {
+          "i": 84,
+          "label": "supports"
+        },
+        {
+          "i": 85,
+          "label": "supports"
+        },
+        {
+          "i": 86,
+          "label": "supports"
+        },
+        {
+          "i": 87,
+          "label": "supports"
+        },
+        {
+          "i": 88,
+          "label": "supports"
+        },
+        {
+          "i": 89,
+          "label": "supports"
+        },
+        {
+          "i": 90,
+          "label": "supports"
+        },
+        {
+          "i": 91,
+          "label": "supports"
+        },
+        {
+          "i": 92,
+          "label": "supports"
+        },
+        {
+          "i": 93,
+          "label": "contradicts"
+        },
+        {
+          "i": 94,
+          "label": "supports"
+        },
+        {
+          "i": 95,
+          "label": "supports"
+        },
+        {
+          "i": 96,
+          "label": "supports"
+        },
+        {
+          "i": 97,
+          "label": "supports"
+        },
+        {
+          "i": 98,
+          "label": "supports"
+        },
+        {
+          "i": 99,
+          "label": "mixed"
+        },
+        {
+          "i": 100,
+          "label": "supports"
+        },
+        {
+          "i": 101,
+          "label": "supports"
+        },
+        {
+          "i": 102,
+          "label": "supports"
+        },
+        {
+          "i": 103,
+          "label": "supports"
+        },
+        {
+          "i": 104,
+          "label": "supports"
+        },
+        {
+          "i": 105,
+          "label": "supports"
+        },
+        {
+          "i": 106,
+          "label": "supports"
+        },
+        {
+          "i": 107,
+          "label": "supports"
+        },
+        {
+          "i": 108,
+          "label": "supports"
+        },
+        {
+          "i": 109,
+          "label": "supports"
+        },
+        {
+          "i": 110,
+          "label": "supports"
+        },
+        {
+          "i": 111,
+          "label": "supports"
+        },
+        {
+          "i": 112,
+          "label": "mixed"
+        },
+        {
+          "i": 113,
+          "label": "supports"
+        },
+        {
+          "i": 114,
+          "label": "supports"
+        },
+        {
+          "i": 115,
+          "label": "supports"
+        },
+        {
+          "i": 116,
+          "label": "supports"
+        }
+      ],
+      [
+        {
+          "i": 0,
+          "label": "supports"
+        },
+        {
+          "i": 1,
+          "label": "supports"
+        },
+        {
+          "i": 2,
+          "label": "supports"
+        },
+        {
+          "i": 3,
+          "label": "supports"
+        },
+        {
+          "i": 4,
+          "label": "supports"
+        },
+        {
+          "i": 5,
+          "label": "supports"
+        },
+        {
+          "i": 6,
+          "label": "supports"
+        },
+        {
+          "i": 7,
+          "label": "supports"
+        },
+        {
+          "i": 8,
+          "label": "supports"
+        },
+        {
+          "i": 9,
+          "label": "supports"
+        },
+        {
+          "i": 10,
+          "label": "supports"
+        },
+        {
+          "i": 11,
+          "label": "supports"
+        },
+        {
+          "i": 12,
+          "label": "supports"
+        },
+        {
+          "i": 13,
+          "label": "supports"
+        },
+        {
+          "i": 14,
+          "label": "supports"
+        },
+        {
+          "i": 15,
+          "label": "supports"
+        },
+        {
+          "i": 16,
+          "label": "supports"
+        },
+        {
+          "i": 17,
+          "label": "supports"
+        },
+        {
+          "i": 18,
+          "label": "supports"
+        },
+        {
+          "i": 19,
+          "label": "supports"
+        },
+        {
+          "i": 20,
+          "label": "supports"
+        },
+        {
+          "i": 21,
+          "label": "supports"
+        },
+        {
+          "i": 22,
+          "label": "supports"
+        },
+        {
+          "i": 23,
+          "label": "supports"
+        },
+        {
+          "i": 24,
+          "label": "supports"
+        },
+        {
+          "i": 25,
+          "label": "supports"
+        },
+        {
+          "i": 26,
+          "label": "supports"
+        },
+        {
+          "i": 27,
+          "label": "supports"
+        },
+        {
+          "i": 28,
+          "label": "supports"
+        },
+        {
+          "i": 29,
+          "label": "supports"
+        },
+        {
+          "i": 30,
+          "label": "supports"
+        },
+        {
+          "i": 31,
+          "label": "supports"
+        },
+        {
+          "i": 32,
+          "label": "supports"
+        },
+        {
+          "i": 33,
+          "label": "supports"
+        },
+        {
+          "i": 34,
+          "label": "supports"
+        },
+        {
+          "i": 35,
+          "label": "supports"
+        },
+        {
+          "i": 36,
+          "label": "supports"
+        },
+        {
+          "i": 37,
+          "label": "supports"
+        },
+        {
+          "i": 38,
+          "label": "supports"
+        },
+        {
+          "i": 39,
+          "label": "supports"
+        },
+        {
+          "i": 40,
+          "label": "supports"
+        },
+        {
+          "i": 41,
+          "label": "mixed"
+        },
+        {
+          "i": 42,
+          "label": "supports"
+        },
+        {
+          "i": 43,
+          "label": "mixed"
+        },
+        {
+          "i": 44,
+          "label": "supports"
+        },
+        {
+          "i": 45,
+          "label": "supports"
+        },
+        {
+          "i": 46,
+          "label": "supports"
+        },
+        {
+          "i": 47,
+          "label": "contradicts"
+        },
+        {
+          "i": 48,
+          "label": "supports"
+        },
+        {
+          "i": 49,
+          "label": "supports"
+        },
+        {
+          "i": 50,
+          "label": "supports"
+        },
+        {
+          "i": 51,
+          "label": "supports"
+        },
+        {
+          "i": 52,
+          "label": "supports"
+        },
+        {
+          "i": 53,
+          "label": "supports"
+        },
+        {
+          "i": 54,
+          "label": "supports"
+        },
+        {
+          "i": 55,
+          "label": "supports"
+        },
+        {
+          "i": 56,
+          "label": "contradicts"
+        },
+        {
+          "i": 57,
+          "label": "supports"
+        },
+        {
+          "i": 58,
+          "label": "supports"
+        },
+        {
+          "i": 59,
+          "label": "supports"
+        }
+      ],
+      [
+        {
+          "i": 0,
+          "label": "supports"
+        },
+        {
+          "i": 1,
+          "label": "supports"
+        },
+        {
+          "i": 2,
+          "label": "supports"
+        },
+        {
+          "i": 3,
+          "label": "supports"
+        },
+        {
+          "i": 4,
+          "label": "supports"
+        },
+        {
+          "i": 5,
+          "label": "supports"
+        },
+        {
+          "i": 6,
+          "label": "supports"
+        },
+        {
+          "i": 7,
+          "label": "contradicts"
+        },
+        {
+          "i": 8,
+          "label": "supports"
+        },
+        {
+          "i": 9,
+          "label": "supports"
+        },
+        {
+          "i": 10,
+          "label": "contradicts"
+        },
+        {
+          "i": 11,
+          "label": "supports"
+        },
+        {
+          "i": 12,
+          "label": "supports"
+        },
+        {
+          "i": 13,
+          "label": "supports"
+        },
+        {
+          "i": 14,
+          "label": "supports"
+        },
+        {
+          "i": 15,
+          "label": "supports"
+        },
+        {
+          "i": 16,
+          "label": "supports"
+        },
+        {
+          "i": 17,
+          "label": "supports"
+        },
+        {
+          "i": 18,
+          "label": "supports"
+        },
+        {
+          "i": 19,
+          "label": "supports"
+        },
+        {
+          "i": 20,
+          "label": "supports"
+        },
+        {
+          "i": 21,
+          "label": "supports"
+        },
+        {
+          "i": 22,
+          "label": "supports"
+        },
+        {
+          "i": 23,
+          "label": "supports"
+        },
+        {
+          "i": 24,
+          "label": "unrelated"
+        },
+        {
+          "i": 25,
+          "label": "supports"
+        },
+        {
+          "i": 26,
+          "label": "supports"
+        },
+        {
+          "i": 27,
+          "label": "supports"
+        },
+        {
+          "i": 28,
+          "label": "supports"
+        },
+        {
+          "i": 29,
+          "label": "supports"
+        },
+        {
+          "i": 30,
+          "label": "supports"
+        },
+        {
+          "i": 31,
+          "label": "supports"
+        },
+        {
+          "i": 32,
+          "label": "supports"
+        },
+        {
+          "i": 33,
+          "label": "supports"
+        },
+        {
+          "i": 34,
+          "label": "supports"
+        },
+        {
+          "i": 35,
+          "label": "mixed"
+        },
+        {
+          "i": 36,
+          "label": "supports"
+        },
+        {
+          "i": 37,
+          "label": "supports"
+        },
+        {
+          "i": 38,
+          "label": "supports"
+        },
+        {
+          "i": 39,
+          "label": "supports"
+        },
+        {
+          "i": 40,
+          "label": "supports"
+        },
+        {
+          "i": 41,
+          "label": "supports"
+        },
+        {
+          "i": 42,
+          "label": "supports"
+        },
+        {
+          "i": 43,
+          "label": "supports"
+        },
+        {
+          "i": 44,
+          "label": "supports"
+        },
+        {
+          "i": 45,
+          "label": "supports"
+        },
+        {
+          "i": 46,
+          "label": "supports"
+        },
+        {
+          "i": 47,
+          "label": "supports"
+        },
+        {
+          "i": 48,
+          "label": "supports"
+        },
+        {
+          "i": 49,
+          "label": "supports"
+        },
+        {
+          "i": 50,
+          "label": "supports"
+        },
+        {
+          "i": 51,
+          "label": "supports"
+        },
+        {
+          "i": 52,
+          "label": "supports"
+        },
+        {
+          "i": 53,
+          "label": "supports"
+        },
+        {
+          "i": 54,
+          "label": "supports"
+        },
+        {
+          "i": 55,
+          "label": "supports"
+        },
+        {
+          "i": 56,
+          "label": "supports"
+        },
+        {
+          "i": 57,
+          "label": "supports"
+        },
+        {
+          "i": 58,
+          "label": "supports"
+        },
+        {
+          "i": 59,
+          "label": "supports"
+        },
+        {
+          "i": 60,
+          "label": "supports"
+        },
+        {
+          "i": 61,
+          "label": "supports"
+        },
+        {
+          "i": 62,
+          "label": "supports"
+        }
+      ],
+      [
+        {
+          "i": 0,
+          "label": "supports"
+        },
+        {
+          "i": 1,
+          "label": "contradicts"
+        },
+        {
+          "i": 2,
+          "label": "supports"
+        },
+        {
+          "i": 3,
+          "label": "supports"
+        },
+        {
+          "i": 4,
+          "label": "supports"
+        },
+        {
+          "i": 5,
+          "label": "supports"
+        },
+        {
+          "i": 6,
+          "label": "mixed"
+        },
+        {
+          "i": 7,
+          "label": "supports"
+        },
+        {
+          "i": 8,
+          "label": "supports"
+        },
+        {
+          "i": 9,
+          "label": "supports"
+        },
+        {
+          "i": 10,
+          "label": "supports"
+        },
+        {
+          "i": 11,
+          "label": "supports"
+        },
+        {
+          "i": 12,
+          "label": "supports"
+        },
+        {
+          "i": 13,
+          "label": "supports"
+        },
+        {
+          "i": 14,
+          "label": "supports"
+        },
+        {
+          "i": 15,
+          "label": "supports"
+        },
+        {
+          "i": 16,
+          "label": "supports"
+        },
+        {
+          "i": 17,
+          "label": "supports"
+        },
+        {
+          "i": 18,
+          "label": "supports"
+        },
+        {
+          "i": 19,
+          "label": "supports"
+        },
+        {
+          "i": 20,
+          "label": "supports"
+        },
+        {
+          "i": 21,
+          "label": "supports"
+        },
+        {
+          "i": 22,
+          "label": "supports"
+        },
+        {
+          "i": 23,
+          "label": "supports"
+        },
+        {
+          "i": 24,
+          "label": "supports"
+        },
+        {
+          "i": 25,
+          "label": "supports"
+        },
+        {
+          "i": 26,
+          "label": "mixed"
+        },
+        {
+          "i": 27,
+          "label": "supports"
+        },
+        {
+          "i": 28,
+          "label": "supports"
+        },
+        {
+          "i": 29,
+          "label": "supports"
+        },
+        {
+          "i": 30,
+          "label": "supports"
+        },
+        {
+          "i": 31,
+          "label": "supports"
+        },
+        {
+          "i": 32,
+          "label": "contradicts"
+        },
+        {
+          "i": 33,
+          "label": "supports"
+        },
+        {
+          "i": 34,
+          "label": "supports"
+        },
+        {
+          "i": 35,
+          "label": "supports"
+        },
+        {
+          "i": 36,
+          "label": "supports"
+        },
+        {
+          "i": 37,
+          "label": "contradicts"
+        },
+        {
+          "i": 38,
+          "label": "supports"
+        },
+        {
+          "i": 39,
+          "label": "contradicts"
+        },
+        {
+          "i": 40,
+          "label": "supports"
+        },
+        {
+          "i": 41,
+          "label": "supports"
+        },
+        {
+          "i": 42,
+          "label": "supports"
+        },
+        {
+          "i": 43,
+          "label": "supports"
+        },
+        {
+          "i": 44,
+          "label": "supports"
+        },
+        {
+          "i": 45,
+          "label": "supports"
+        },
+        {
+          "i": 46,
+          "label": "mixed"
+        },
+        {
+          "i": 47,
+          "label": "supports"
+        },
+        {
+          "i": 48,
+          "label": "supports"
+        },
+        {
+          "i": 49,
+          "label": "supports"
+        },
+        {
+          "i": 50,
+          "label": "supports"
+        },
+        {
+          "i": 51,
+          "label": "supports"
+        },
+        {
+          "i": 52,
+          "label": "supports"
+        },
+        {
+          "i": 53,
+          "label": "supports"
+        },
+        {
+          "i": 54,
+          "label": "supports"
+        },
+        {
+          "i": 55,
+          "label": "mixed"
+        },
+        {
+          "i": 56,
+          "label": "supports"
+        },
+        {
+          "i": 57,
+          "label": "supports"
+        },
+        {
+          "i": 58,
+          "label": "supports"
+        },
+        {
+          "i": 59,
+          "label": "supports"
+        },
+        {
+          "i": 60,
+          "label": "supports"
+        },
+        {
+          "i": 61,
+          "label": "supports"
+        },
+        {
+          "i": 62,
+          "label": "supports"
+        },
+        {
+          "i": 63,
+          "label": "supports"
+        },
+        {
+          "i": 64,
+          "label": "supports"
+        },
+        {
+          "i": 65,
+          "label": "supports"
+        },
+        {
+          "i": 66,
+          "label": "supports"
+        },
+        {
+          "i": 67,
+          "label": "supports"
+        },
+        {
+          "i": 68,
+          "label": "supports"
+        },
+        {
+          "i": 69,
+          "label": "contradicts"
+        },
+        {
+          "i": 70,
+          "label": "supports"
+        },
+        {
+          "i": 71,
+          "label": "supports"
+        },
+        {
+          "i": 72,
+          "label": "supports"
+        },
+        {
+          "i": 73,
+          "label": "supports"
+        },
+        {
+          "i": 74,
+          "label": "supports"
+        },
+        {
+          "i": 75,
+          "label": "supports"
+        },
+        {
+          "i": 76,
+          "label": "supports"
+        },
+        {
+          "i": 77,
+          "label": "supports"
+        },
+        {
+          "i": 78,
+          "label": "supports"
+        },
+        {
+          "i": 79,
+          "label": "supports"
+        }
+      ],
+      [
+        {
+          "i": 0,
+          "label": "contradicts"
+        },
+        {
+          "i": 1,
+          "label": "supports"
+        },
+        {
+          "i": 2,
+          "label": "contradicts"
+        },
+        {
+          "i": 3,
+          "label": "contradicts"
+        },
+        {
+          "i": 4,
+          "label": "contradicts"
+        },
+        {
+          "i": 5,
+          "label": "contradicts"
+        },
+        {
+          "i": 6,
+          "label": "contradicts"
+        },
+        {
+          "i": 7,
+          "label": "supports"
+        },
+        {
+          "i": 8,
+          "label": "supports"
+        },
+        {
+          "i": 9,
+          "label": "supports"
+        },
+        {
+          "i": 10,
+          "label": "contradicts"
+        },
+        {
+          "i": 11,
+          "label": "supports"
+        },
+        {
+          "i": 12,
+          "label": "contradicts"
+        },
+        {
+          "i": 13,
+          "label": "contradicts"
+        },
+        {
+          "i": 14,
+          "label": "contradicts"
+        },
+        {
+          "i": 15,
+          "label": "supports"
+        },
+        {
+          "i": 16,
+          "label": "supports"
+        },
+        {
+          "i": 17,
+          "label": "contradicts"
+        },
+        {
+          "i": 18,
+          "label": "contradicts"
+        },
+        {
+          "i": 19,
+          "label": "supports"
+        },
+        {
+          "i": 20,
+          "label": "supports"
+        },
+        {
+          "i": 21,
+          "label": "contradicts"
+        },
+        {
+          "i": 22,
+          "label": "supports"
+        },
+        {
+          "i": 23,
+          "label": "supports"
+        },
+        {
+          "i": 24,
+          "label": "contradicts"
+        },
+        {
+          "i": 25,
+          "label": "supports"
+        },
+        {
+          "i": 26,
+          "label": "supports"
+        },
+        {
+          "i": 27,
+          "label": "supports"
+        },
+        {
+          "i": 28,
+          "label": "contradicts"
+        },
+        {
+          "i": 29,
+          "label": "contradicts"
+        },
+        {
+          "i": 30,
+          "label": "supports"
+        },
+        {
+          "i": 31,
+          "label": "contradicts"
+        },
+        {
+          "i": 32,
+          "label": "supports"
+        },
+        {
+          "i": 33,
+          "label": "contradicts"
+        },
+        {
+          "i": 34,
+          "label": "mixed"
+        },
+        {
+          "i": 35,
+          "label": "supports"
+        },
+        {
+          "i": 36,
+          "label": "supports"
+        },
+        {
+          "i": 37,
+          "label": "supports"
+        },
+        {
+          "i": 38,
+          "label": "contradicts"
+        },
+        {
+          "i": 39,
+          "label": "supports"
+        },
+        {
+          "i": 40,
+          "label": "supports"
+        },
+        {
+          "i": 41,
+          "label": "contradicts"
+        },
+        {
+          "i": 42,
+          "label": "contradicts"
+        },
+        {
+          "i": 43,
+          "label": "supports"
+        },
+        {
+          "i": 44,
+          "label": "contradicts"
+        },
+        {
+          "i": 45,
+          "label": "contradicts"
+        },
+        {
+          "i": 46,
+          "label": "contradicts"
+        },
+        {
+          "i": 47,
+          "label": "supports"
+        },
+        {
+          "i": 48,
+          "label": "supports"
+        },
+        {
+          "i": 49,
+          "label": "supports"
+        },
+        {
+          "i": 50,
+          "label": "contradicts"
+        },
+        {
+          "i": 51,
+          "label": "contradicts"
+        },
+        {
+          "i": 52,
+          "label": "contradicts"
+        },
+        {
+          "i": 53,
+          "label": "supports"
+        },
+        {
+          "i": 54,
+          "label": "supports"
+        },
+        {
+          "i": 55,
+          "label": "contradicts"
+        },
+        {
+          "i": 56,
+          "label": "supports"
+        },
+        {
+          "i": 57,
+          "label": "contradicts"
+        },
+        {
+          "i": 58,
+          "label": "contradicts"
+        },
+        {
+          "i": 59,
+          "label": "contradicts"
+        },
+        {
+          "i": 60,
+          "label": "contradicts"
+        },
+        {
+          "i": 61,
+          "label": "contradicts"
+        }
+      ],
+      [
+        {
+          "i": 0,
+          "label": "contradicts"
+        },
+        {
+          "i": 1,
+          "label": "contradicts"
+        },
+        {
+          "i": 2,
+          "label": "supports"
+        },
+        {
+          "i": 3,
+          "label": "supports"
+        },
+        {
+          "i": 4,
+          "label": "contradicts"
+        },
+        {
+          "i": 5,
+          "label": "contradicts"
+        },
+        {
+          "i": 6,
+          "label": "contradicts"
+        },
+        {
+          "i": 7,
+          "label": "mixed"
+        },
+        {
+          "i": 8,
+          "label": "supports"
+        },
+        {
+          "i": 9,
+          "label": "contradicts"
+        },
+        {
+          "i": 10,
+          "label": "contradicts"
+        },
+        {
+          "i": 11,
+          "label": "supports"
+        },
+        {
+          "i": 12,
+          "label": "contradicts"
+        },
+        {
+          "i": 13,
+          "label": "supports"
+        },
+        {
+          "i": 14,
+          "label": "contradicts"
+        },
+        {
+          "i": 15,
+          "label": "supports"
+        },
+        {
+          "i": 16,
+          "label": "contradicts"
+        },
+        {
+          "i": 17,
+          "label": "contradicts"
+        },
+        {
+          "i": 18,
+          "label": "contradicts"
+        },
+        {
+          "i": 19,
+          "label": "mixed"
+        },
+        {
+          "i": 20,
+          "label": "contradicts"
+        },
+        {
+          "i": 21,
+          "label": "mixed"
+        },
+        {
+          "i": 22,
+          "label": "contradicts"
+        },
+        {
+          "i": 23,
+          "label": "supports"
+        },
+        {
+          "i": 24,
+          "label": "supports"
+        },
+        {
+          "i": 25,
+          "label": "contradicts"
+        },
+        {
+          "i": 26,
+          "label": "contradicts"
+        },
+        {
+          "i": 27,
+          "label": "supports"
+        },
+        {
+          "i": 28,
+          "label": "contradicts"
+        },
+        {
+          "i": 29,
+          "label": "contradicts"
+        },
+        {
+          "i": 30,
+          "label": "contradicts"
+        },
+        {
+          "i": 31,
+          "label": "unrelated"
+        },
+        {
+          "i": 32,
+          "label": "contradicts"
+        },
+        {
+          "i": 33,
+          "label": "mixed"
+        },
+        {
+          "i": 34,
+          "label": "contradicts"
+        },
+        {
+          "i": 35,
+          "label": "contradicts"
+        },
+        {
+          "i": 36,
+          "label": "contradicts"
+        },
+        {
+          "i": 37,
+          "label": "mixed"
+        },
+        {
+          "i": 38,
+          "label": "contradicts"
+        },
+        {
+          "i": 39,
+          "label": "supports"
+        },
+        {
+          "i": 40,
+          "label": "contradicts"
+        },
+        {
+          "i": 41,
+          "label": "mixed"
+        },
+        {
+          "i": 42,
+          "label": "contradicts"
+        },
+        {
+          "i": 43,
+          "label": "contradicts"
+        },
+        {
+          "i": 44,
+          "label": "supports"
+        },
+        {
+          "i": 45,
+          "label": "contradicts"
+        },
+        {
+          "i": 46,
+          "label": "contradicts"
+        },
+        {
+          "i": 47,
+          "label": "supports"
+        },
+        {
+          "i": 48,
+          "label": "contradicts"
+        },
+        {
+          "i": 49,
+          "label": "mixed"
+        },
+        {
+          "i": 50,
+          "label": "contradicts"
+        },
+        {
+          "i": 51,
+          "label": "mixed"
+        },
+        {
+          "i": 52,
+          "label": "contradicts"
+        },
+        {
+          "i": 53,
+          "label": "contradicts"
+        },
+        {
+          "i": 54,
+          "label": "contradicts"
+        },
+        {
+          "i": 55,
+          "label": "supports"
+        },
+        {
+          "i": 56,
+          "label": "contradicts"
+        },
+        {
+          "i": 57,
+          "label": "mixed"
+        },
+        {
+          "i": 58,
+          "label": "mixed"
+        },
+        {
+          "i": 59,
+          "label": "contradicts"
+        }
+      ]
+    ],
+    "usage": {
+      "inputTokens": 42054,
+      "outputTokens": 6696,
+      "requests": 7
+    }
+  },
+  "usage": {
+    "requests": 15,
+    "cachedRequests": 15,
+    "inputTokens": 53902,
+    "outputTokens": 13236
+  },
+  "notes": []
+}

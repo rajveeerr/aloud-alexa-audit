@@ -1974,11 +1974,2359 @@
       "flags": []
     }
   ],
+  "proof": {
+    "reviews": 400,
+    "claims": [
+      {
+        "intentId": "erasability_and_staining",
+        "claim": "erases easily",
+        "sources": [
+          {
+            "kind": "field",
+            "id": "bullet.1",
+            "text": "erases easily"
+          },
+          {
+            "kind": "field",
+            "id": "bullet.1",
+            "text": "never stains or ghosts"
+          }
+        ],
+        "keywords": [
+          "erases",
+          "erased",
+          "erasing",
+          "erasab",
+          "to erase",
+          "ghost",
+          "stain",
+          "residue",
+          "wipes clean",
+          "wipe clean",
+          "wipes off",
+          "wipe off",
+          "comes off",
+          "come off"
+        ],
+        "matching": 91,
+        "sampled": 91,
+        "counts": {
+          "supports": 50,
+          "contradicts": 28,
+          "mixed": 7,
+          "unrelated": 6,
+          "unlabelled": 0
+        },
+        "examples": {
+          "supports": [
+            "…ally remember if it was terribly good or not, but the board erases very well. The back is cardboard, so this can be bent or dented, and mine honestly has a bit of damage from cats walking (and jumping) all over it, but…",
+            "…ick on to the walls. Some reviews state that the adhessives come off over time, but I have had no issue with that in the past month. Overall great investment for a cheap whiteboard :)",
+            "This board was a bust. The actual board is easy to write on and erases seamlessly. The problem is that I bought this for my small child to use for math tutoring. After a couple of days the border fell off. It scratched…"
+          ],
+          "contradicts": [
+            "Cheap and does not wipe cleanly. The marker does not wipe off cleanly. It leaves a stain you scrub off and there is still a residue. I tried the provided marker and higher quality expo markers. Neither wiped off cleanl…",
+            "…utifully, however it smears horribly on the board trying to wipe off. You will definitely need a dry erase speay if you use this or any of the i brand markers. Sad because thry write nice.",
+            "Not the best. [[VIDEOID:f9c10136d91736c1efba394e0ab3303d]] No matter where you write it leaves a stain behind"
+          ],
+          "mixed": [
+            "…e. It does its job perfectly fine, but the whiteboard paint comes off pretty easily with any metallic objects like, say, magnets.",
+            "…nd the marker holder on top is handy. It is a little smudgy to erase sometimes, but that's expected. Overall I really enjoy the product and it's something I use daily.",
+            "Handy erasable board. It's the size of a letter paper and perfect for me to carry around instead of using 10,000 sticky notes. The only downside is if you carry in your commute bag and if it rubs with another object, t…"
+          ]
+        },
+        "flags": [],
+        "support": {
+          "rate": 0.5882352941176471,
+          "low": 0.48200820902440994,
+          "high": 0.6868316137613121
+        },
+        "contradiction": {
+          "rate": 0.32941176470588235,
+          "low": 0.23877626262769044,
+          "high": 0.43480007998658043
+        },
+        "mixed": {
+          "rate": 0.08235294117647059,
+          "low": 0.04046320889853023,
+          "high": 0.16036162991571895
+        },
+        "verdict": "contested"
+      },
+      {
+        "intentId": "durability_and_sturdiness",
+        "claim": "highly durable",
+        "sources": [
+          {
+            "kind": "field",
+            "id": "bullet.1",
+            "text": "highly durable"
+          },
+          {
+            "kind": "field",
+            "id": "description.1",
+            "text": "modern white plastic frame provides a firm and rigid board construction"
+          }
+        ],
+        "keywords": [
+          "sturdy",
+          "durable",
+          "flimsy",
+          "warp",
+          "bent",
+          "bend",
+          "dent",
+          "broke",
+          "crack",
+          "solid"
+        ],
+        "matching": 93,
+        "sampled": 93,
+        "counts": {
+          "supports": 25,
+          "contradicts": 55,
+          "mixed": 12,
+          "unrelated": 1,
+          "unlabelled": 0
+        },
+        "examples": {
+          "supports": [
+            "Sturdy board- pen doesn’t keep ink well. Bought this for my sons college dorm. The board was good but the pen ran out of ink very fast",
+            "Good price and quality board. A good buy! Easy to install and adhesion is really sturdy. Good price and fast delivery. Price is comparable to Office Depot. As many people working from home, and managing a big family wi…",
+            "Sturdy with Pen Holder. Sturdy. Nice size with secure/non-velcro pen holder. Magnet grip. I take a picture instead of carrying a paper list."
+          ],
+          "contradicts": [
+            "…e dry erase board is not completely flat and appears a bit \"warped\". It still works but if I write directly on it, while it is attached to the refrigerator, it sometimes pops off.",
+            "…st smears. And the board itself arrived scratched. It feels flimsy and low quality. Not worth the asking price and doesnt even provide its basic function of dry erasing.",
+            "Warped and damaged. The whiteboard came completely warped and didn't hang flat, so the sticky parts wouldn't touch the surface on two corners. Also, just be aware that this does not have magnets on the back, my fault f…"
+          ],
+          "mixed": [
+            "…ard erases very well. The back is cardboard, so this can be bent or dented, and mine honestly has a bit of damage from cats walking (and jumping) all over it, but it's great for the price and gets lots of use around he…",
+            "…doesn't fit them. I tried to do my own little fix and force bend it and applying a bit of heat with a lighter which kind worked to tighten up the holder so it can hold the thinner expo dry erase 2. There's a little mag…",
+            "…you use its eraser. The plastic border around it does feel flimsy. But, for six bucks, all of these are nothing major and can be easily overlooked. I've been carrying it around with me and have no problems with its tr…"
+          ]
+        },
+        "flags": [],
+        "support": {
+          "rate": 0.2717391304347826,
+          "low": 0.19135648353357726,
+          "high": 0.3704204484041199
+        },
+        "contradiction": {
+          "rate": 0.5978260869565217,
+          "low": 0.49565787685217566,
+          "high": 0.6921520094602397
+        },
+        "mixed": {
+          "rate": 0.13043478260869565,
+          "low": 0.07621405253905902,
+          "high": 0.2142819325029269
+        },
+        "verdict": "contested"
+      },
+      {
+        "intentId": "portability_and_weight",
+        "claim": "Item weight: 10.2 ounces",
+        "sources": [
+          {
+            "kind": "field",
+            "id": "attr.item_weight",
+            "text": "Item weight: 10.2 ounces"
+          }
+        ],
+        "keywords": [
+          "lightweight",
+          "light weight",
+          "heavy",
+          "portable",
+          "carry",
+          "weigh"
+        ],
+        "matching": 78,
+        "sampled": 78,
+        "counts": {
+          "supports": 64,
+          "contradicts": 5,
+          "mixed": 0,
+          "unrelated": 9,
+          "unlabelled": 0
+        },
+        "examples": {
+          "supports": [
+            "…lack)dry erase pen & four velcro stickers. Undoubtedly, its light weight, very handy and easy to carry, oftentimes, my daughter keeps the board in her lap & keep writing or painting. The dry erase pen accompanied with…",
+            "…as sent in one of those bubble wrap envelopes and something heavy was most likely set on top of my package.",
+            "The board was the perfect size to carry and still have enough room to .... I was skeptical about buying this board online, but the price was right and I needed one quickly. I was having vocal cord surgery and I was res…"
+          ],
+          "contradicts": [
+            "…not stick to the refrigerator. It cannot even hold its own weight. Overall, not impressed.",
+            "Good dry erase board. Great quality but adhesive strip cannot hold weight of the board",
+            "Don't trust it to stick on the wall.. The adhesive velcro mounting strips are not sticky enough to maintain the weight of the board. My board has fallen multiple times in the week since I've received this item."
+          ],
+          "mixed": []
+        },
+        "flags": [],
+        "support": {
+          "rate": 0.927536231884058,
+          "low": 0.8413240258191714,
+          "high": 0.968652690782331
+        },
+        "contradiction": {
+          "rate": 0.07246376811594203,
+          "low": 0.03134730921766905,
+          "high": 0.15867597418082852
+        },
+        "mixed": {
+          "rate": 0,
+          "low": 0,
+          "high": 0.05273909414400562
+        },
+        "verdict": "backed"
+      },
+      {
+        "intentId": "marker_performance",
+        "claim": "U Brands dry erase markers provide the ultimate writing experience",
+        "sources": [
+          {
+            "kind": "field",
+            "id": "description.1",
+            "text": "U Brands dry erase markers provide the ultimate writing experience"
+          },
+          {
+            "kind": "image",
+            "id": "img.0",
+            "text": "MEDIUM"
+          }
+        ],
+        "keywords": [
+          "marker"
+        ],
+        "matching": 116,
+        "sampled": 116,
+        "counts": {
+          "supports": 58,
+          "contradicts": 32,
+          "mixed": 10,
+          "unrelated": 16,
+          "unlabelled": 0
+        },
+        "examples": {
+          "supports": [
+            "…fferent than having a notebook on your lap. I don't use the marker that came with it and can't really remember if it was terribly good or not, but the board erases very well. The back is cardboard, so this can be bent…",
+            "Awesome whiteboard. Awesome white board for the price! Comes with a dry erase marker with an eraser on the cap, a magnet to hold up paper, and some adhesives to stick on to the walls. Some reviews state that the adhess…",
+            "…carry and still have enough room to write on. The attached marker even had it's own eraser head on it. It cleaned quickly without any ghost images remaining of what was last on there. Win-win for me."
+          ],
+          "contradicts": [
+            "…e board is cheap and already started to peel back while the marker they sent with this board has already dried out. Outside of that.. its a dry board.. hard to mess up that part atleast.",
+            "…s misleading. My only other gripe is that the eraser on the marker is awful. It smears ink everywhere.",
+            "Cheap and does not wipe cleanly. The marker does not wipe off cleanly. It leaves a stain you scrub off and there is still a residue. I tried the provided marker and higher quality expo markers. Neither wiped off cleanl…"
+          ],
+          "mixed": [
+            "…lt to clear off completely, especially with weeks' worth of marker drying out and attempting to merge with the board, but it does the trick just fine for taking notes that have to be cleared out at the end of a call. I…",
+            "…whenever I find a new spot for it. It's super cute and the marker holder on top is handy. It is a little smudgy to erase sometimes, but that's expected. Overall I really enjoy the product and it's something I use dail…",
+            "…cold wall would make the board fall. The only thing is the marker has a small erase that sucks! It makes a big smear when trying to erase. The ink on the market is nice and pigmented. I just use a wet paper towel or w…"
+          ]
+        },
+        "flags": [],
+        "support": {
+          "rate": 0.58,
+          "low": 0.4820630799889527,
+          "high": 0.672017750814887
+        },
+        "contradiction": {
+          "rate": 0.32,
+          "low": 0.2366901081545688,
+          "high": 0.4166280225367919
+        },
+        "mixed": {
+          "rate": 0.1,
+          "low": 0.05522854161313613,
+          "high": 0.1743673043676654
+        },
+        "verdict": "contested"
+      },
+      {
+        "intentId": "adhesive_installation",
+        "claim": "double sided velcro mounting strips, which are included with the board and enable you to mount your white board on almost any surface",
+        "sources": [
+          {
+            "kind": "field",
+            "id": "description.1",
+            "text": "double sided velcro mounting strips, which are included with the board and enable you to mount your white board on almost any surface"
+          }
+        ],
+        "keywords": [
+          "adhesive",
+          "sticky",
+          "stick",
+          "tape",
+          "velcro",
+          "command strip",
+          "fell off",
+          "falls off",
+          "peel"
+        ],
+        "matching": 120,
+        "sampled": 120,
+        "counts": {
+          "supports": 46,
+          "contradicts": 52,
+          "mixed": 2,
+          "unrelated": 20,
+          "unlabelled": 0
+        },
+        "examples": {
+          "supports": [
+            "…ng. The white board came with a (black)dry erase pen & four velcro stickers. Undoubtedly, its light weight, very handy and easy to carry, oftentimes, my daughter keeps the board in her lap & keep writing or painting. T…",
+            "…need to do. The board comes with easy attachments that you stick to your wall, no nails required. The thumb tack cork board thingy is cool too even though I never use it. The pen comes with an eraser at then of it whi…",
+            "…h an eraser on the cap, a magnet to hold up paper, and some adhesives to stick on to the walls. Some reviews state that the adhessives come off over time, but I have had no issue with that in the past month. Overall gr…"
+          ],
+          "contradicts": [
+            "First off, this board is NOT magnetic. It .... First off, this board is NOT magnetic. It comes with some cheap velcro that didnt even stick to my fridge. The border around the white board is cheap and already started t…",
+            "Warped and damaged. The whiteboard came completely warped and didn't hang flat, so the sticky parts wouldn't touch the surface on two corners. Also, just be aware that this does not have magnets on the back, my fault f…",
+            "Did not come with velcro mounting. Arrived without any damage. Marker writes fine. Eraser removes fine. I'm not sure how others are having problems with the eraser. It comes with a dry erase marker and eraser, so I can…"
+          ],
+          "mixed": [
+            "…it to my refrigerator; however only two of the four magnets stick to the refrigerator at any one time. The dry erase board is not completely flat and appears a bit \"warped\". It still works but if I write directly on it…",
+            "…it to the fridge. I bought two of these and ended up buying adhesive backed magnets to place them on the fridge. One of the two works just fine but the other board keeps falling off because it’s somehow warped… so it d…"
+          ]
+        },
+        "flags": [],
+        "support": {
+          "rate": 0.46,
+          "low": 0.36560643853331865,
+          "high": 0.5573531460647615
+        },
+        "contradiction": {
+          "rate": 0.52,
+          "low": 0.4231640509017654,
+          "high": 0.6153561567991945
+        },
+        "mixed": {
+          "rate": 0.02,
+          "low": 0.005501852234968185,
+          "high": 0.07001316294199365
+        },
+        "verdict": "contested"
+      }
+    ],
+    "modelOutputs": [
+      [
+        {
+          "i": 0,
+          "label": "supports"
+        },
+        {
+          "i": 1,
+          "label": "contradicts"
+        },
+        {
+          "i": 2,
+          "label": "unrelated"
+        },
+        {
+          "i": 3,
+          "label": "supports"
+        },
+        {
+          "i": 4,
+          "label": "supports"
+        },
+        {
+          "i": 5,
+          "label": "contradicts"
+        },
+        {
+          "i": 6,
+          "label": "contradicts"
+        },
+        {
+          "i": 7,
+          "label": "supports"
+        },
+        {
+          "i": 8,
+          "label": "supports"
+        },
+        {
+          "i": 9,
+          "label": "supports"
+        },
+        {
+          "i": 10,
+          "label": "supports"
+        },
+        {
+          "i": 11,
+          "label": "supports"
+        },
+        {
+          "i": 12,
+          "label": "supports"
+        },
+        {
+          "i": 13,
+          "label": "unrelated"
+        },
+        {
+          "i": 14,
+          "label": "supports"
+        },
+        {
+          "i": 15,
+          "label": "mixed"
+        },
+        {
+          "i": 16,
+          "label": "contradicts"
+        },
+        {
+          "i": 17,
+          "label": "contradicts"
+        },
+        {
+          "i": 18,
+          "label": "mixed"
+        },
+        {
+          "i": 19,
+          "label": "supports"
+        },
+        {
+          "i": 20,
+          "label": "supports"
+        },
+        {
+          "i": 21,
+          "label": "supports"
+        },
+        {
+          "i": 22,
+          "label": "contradicts"
+        },
+        {
+          "i": 23,
+          "label": "supports"
+        },
+        {
+          "i": 24,
+          "label": "supports"
+        },
+        {
+          "i": 25,
+          "label": "contradicts"
+        },
+        {
+          "i": 26,
+          "label": "supports"
+        },
+        {
+          "i": 27,
+          "label": "supports"
+        },
+        {
+          "i": 28,
+          "label": "supports"
+        },
+        {
+          "i": 29,
+          "label": "mixed"
+        },
+        {
+          "i": 30,
+          "label": "supports"
+        },
+        {
+          "i": 31,
+          "label": "contradicts"
+        },
+        {
+          "i": 32,
+          "label": "supports"
+        },
+        {
+          "i": 33,
+          "label": "supports"
+        },
+        {
+          "i": 34,
+          "label": "supports"
+        },
+        {
+          "i": 35,
+          "label": "mixed"
+        },
+        {
+          "i": 36,
+          "label": "mixed"
+        },
+        {
+          "i": 37,
+          "label": "supports"
+        },
+        {
+          "i": 38,
+          "label": "supports"
+        },
+        {
+          "i": 39,
+          "label": "contradicts"
+        },
+        {
+          "i": 40,
+          "label": "contradicts"
+        },
+        {
+          "i": 41,
+          "label": "unrelated"
+        },
+        {
+          "i": 42,
+          "label": "unrelated"
+        },
+        {
+          "i": 43,
+          "label": "supports"
+        },
+        {
+          "i": 44,
+          "label": "contradicts"
+        },
+        {
+          "i": 45,
+          "label": "supports"
+        },
+        {
+          "i": 46,
+          "label": "contradicts"
+        },
+        {
+          "i": 47,
+          "label": "supports"
+        },
+        {
+          "i": 48,
+          "label": "supports"
+        },
+        {
+          "i": 49,
+          "label": "contradicts"
+        },
+        {
+          "i": 50,
+          "label": "contradicts"
+        },
+        {
+          "i": 51,
+          "label": "supports"
+        },
+        {
+          "i": 52,
+          "label": "contradicts"
+        },
+        {
+          "i": 53,
+          "label": "supports"
+        },
+        {
+          "i": 54,
+          "label": "contradicts"
+        },
+        {
+          "i": 55,
+          "label": "contradicts"
+        },
+        {
+          "i": 56,
+          "label": "supports"
+        },
+        {
+          "i": 57,
+          "label": "supports"
+        },
+        {
+          "i": 58,
+          "label": "supports"
+        },
+        {
+          "i": 59,
+          "label": "supports"
+        },
+        {
+          "i": 60,
+          "label": "supports"
+        },
+        {
+          "i": 61,
+          "label": "supports"
+        },
+        {
+          "i": 62,
+          "label": "contradicts"
+        },
+        {
+          "i": 63,
+          "label": "mixed"
+        },
+        {
+          "i": 64,
+          "label": "unrelated"
+        },
+        {
+          "i": 65,
+          "label": "supports"
+        },
+        {
+          "i": 66,
+          "label": "contradicts"
+        },
+        {
+          "i": 67,
+          "label": "supports"
+        },
+        {
+          "i": 68,
+          "label": "supports"
+        },
+        {
+          "i": 69,
+          "label": "supports"
+        },
+        {
+          "i": 70,
+          "label": "supports"
+        },
+        {
+          "i": 71,
+          "label": "contradicts"
+        },
+        {
+          "i": 72,
+          "label": "supports"
+        },
+        {
+          "i": 73,
+          "label": "supports"
+        },
+        {
+          "i": 74,
+          "label": "contradicts"
+        },
+        {
+          "i": 75,
+          "label": "contradicts"
+        },
+        {
+          "i": 76,
+          "label": "contradicts"
+        },
+        {
+          "i": 77,
+          "label": "contradicts"
+        },
+        {
+          "i": 78,
+          "label": "unrelated"
+        },
+        {
+          "i": 79,
+          "label": "supports"
+        },
+        {
+          "i": 80,
+          "label": "contradicts"
+        },
+        {
+          "i": 81,
+          "label": "contradicts"
+        },
+        {
+          "i": 82,
+          "label": "supports"
+        },
+        {
+          "i": 83,
+          "label": "contradicts"
+        },
+        {
+          "i": 84,
+          "label": "supports"
+        },
+        {
+          "i": 85,
+          "label": "mixed"
+        },
+        {
+          "i": 86,
+          "label": "supports"
+        },
+        {
+          "i": 87,
+          "label": "contradicts"
+        },
+        {
+          "i": 88,
+          "label": "supports"
+        },
+        {
+          "i": 89,
+          "label": "supports"
+        },
+        {
+          "i": 90,
+          "label": "supports"
+        }
+      ],
+      [
+        {
+          "i": 0,
+          "label": "contradicts"
+        },
+        {
+          "i": 1,
+          "label": "supports"
+        },
+        {
+          "i": 2,
+          "label": "contradicts"
+        },
+        {
+          "i": 3,
+          "label": "contradicts"
+        },
+        {
+          "i": 4,
+          "label": "contradicts"
+        },
+        {
+          "i": 5,
+          "label": "contradicts"
+        },
+        {
+          "i": 6,
+          "label": "contradicts"
+        },
+        {
+          "i": 7,
+          "label": "supports"
+        },
+        {
+          "i": 8,
+          "label": "contradicts"
+        },
+        {
+          "i": 9,
+          "label": "contradicts"
+        },
+        {
+          "i": 10,
+          "label": "mixed"
+        },
+        {
+          "i": 11,
+          "label": "mixed"
+        },
+        {
+          "i": 12,
+          "label": "supports"
+        },
+        {
+          "i": 13,
+          "label": "contradicts"
+        },
+        {
+          "i": 14,
+          "label": "contradicts"
+        },
+        {
+          "i": 15,
+          "label": "supports"
+        },
+        {
+          "i": 16,
+          "label": "mixed"
+        },
+        {
+          "i": 17,
+          "label": "contradicts"
+        },
+        {
+          "i": 18,
+          "label": "supports"
+        },
+        {
+          "i": 19,
+          "label": "supports"
+        },
+        {
+          "i": 20,
+          "label": "mixed"
+        },
+        {
+          "i": 21,
+          "label": "contradicts"
+        },
+        {
+          "i": 22,
+          "label": "contradicts"
+        },
+        {
+          "i": 23,
+          "label": "contradicts"
+        },
+        {
+          "i": 24,
+          "label": "contradicts"
+        },
+        {
+          "i": 25,
+          "label": "contradicts"
+        },
+        {
+          "i": 26,
+          "label": "contradicts"
+        },
+        {
+          "i": 27,
+          "label": "supports"
+        },
+        {
+          "i": 28,
+          "label": "supports"
+        },
+        {
+          "i": 29,
+          "label": "contradicts"
+        },
+        {
+          "i": 30,
+          "label": "contradicts"
+        },
+        {
+          "i": 31,
+          "label": "contradicts"
+        },
+        {
+          "i": 32,
+          "label": "contradicts"
+        },
+        {
+          "i": 33,
+          "label": "supports"
+        },
+        {
+          "i": 34,
+          "label": "supports"
+        },
+        {
+          "i": 35,
+          "label": "mixed"
+        },
+        {
+          "i": 36,
+          "label": "contradicts"
+        },
+        {
+          "i": 37,
+          "label": "contradicts"
+        },
+        {
+          "i": 38,
+          "label": "contradicts"
+        },
+        {
+          "i": 39,
+          "label": "mixed"
+        },
+        {
+          "i": 40,
+          "label": "contradicts"
+        },
+        {
+          "i": 41,
+          "label": "contradicts"
+        },
+        {
+          "i": 42,
+          "label": "contradicts"
+        },
+        {
+          "i": 43,
+          "label": "mixed"
+        },
+        {
+          "i": 44,
+          "label": "mixed"
+        },
+        {
+          "i": 45,
+          "label": "contradicts"
+        },
+        {
+          "i": 46,
+          "label": "supports"
+        },
+        {
+          "i": 47,
+          "label": "supports"
+        },
+        {
+          "i": 48,
+          "label": "contradicts"
+        },
+        {
+          "i": 49,
+          "label": "supports"
+        },
+        {
+          "i": 50,
+          "label": "contradicts"
+        },
+        {
+          "i": 51,
+          "label": "contradicts"
+        },
+        {
+          "i": 52,
+          "label": "supports"
+        },
+        {
+          "i": 53,
+          "label": "supports"
+        },
+        {
+          "i": 54,
+          "label": "contradicts"
+        },
+        {
+          "i": 55,
+          "label": "contradicts"
+        },
+        {
+          "i": 56,
+          "label": "contradicts"
+        },
+        {
+          "i": 57,
+          "label": "supports"
+        },
+        {
+          "i": 58,
+          "label": "contradicts"
+        },
+        {
+          "i": 59,
+          "label": "contradicts"
+        },
+        {
+          "i": 60,
+          "label": "contradicts"
+        },
+        {
+          "i": 61,
+          "label": "contradicts"
+        },
+        {
+          "i": 62,
+          "label": "supports"
+        },
+        {
+          "i": 63,
+          "label": "contradicts"
+        },
+        {
+          "i": 64,
+          "label": "supports"
+        },
+        {
+          "i": 65,
+          "label": "mixed"
+        },
+        {
+          "i": 66,
+          "label": "contradicts"
+        },
+        {
+          "i": 67,
+          "label": "contradicts"
+        },
+        {
+          "i": 68,
+          "label": "supports"
+        },
+        {
+          "i": 69,
+          "label": "mixed"
+        },
+        {
+          "i": 70,
+          "label": "contradicts"
+        },
+        {
+          "i": 71,
+          "label": "contradicts"
+        },
+        {
+          "i": 72,
+          "label": "mixed"
+        },
+        {
+          "i": 73,
+          "label": "contradicts"
+        },
+        {
+          "i": 74,
+          "label": "mixed"
+        },
+        {
+          "i": 75,
+          "label": "contradicts"
+        },
+        {
+          "i": 76,
+          "label": "contradicts"
+        },
+        {
+          "i": 77,
+          "label": "supports"
+        },
+        {
+          "i": 78,
+          "label": "supports"
+        },
+        {
+          "i": 79,
+          "label": "contradicts"
+        },
+        {
+          "i": 80,
+          "label": "supports"
+        },
+        {
+          "i": 81,
+          "label": "contradicts"
+        },
+        {
+          "i": 82,
+          "label": "contradicts"
+        },
+        {
+          "i": 83,
+          "label": "contradicts"
+        },
+        {
+          "i": 84,
+          "label": "contradicts"
+        },
+        {
+          "i": 85,
+          "label": "supports"
+        },
+        {
+          "i": 86,
+          "label": "supports"
+        },
+        {
+          "i": 87,
+          "label": "contradicts"
+        },
+        {
+          "i": 88,
+          "label": "supports"
+        },
+        {
+          "i": 89,
+          "label": "contradicts"
+        },
+        {
+          "i": 90,
+          "label": "contradicts"
+        },
+        {
+          "i": 91,
+          "label": "contradicts"
+        },
+        {
+          "i": 92,
+          "label": "unrelated"
+        }
+      ],
+      [
+        {
+          "i": 0,
+          "label": "supports"
+        },
+        {
+          "i": 1,
+          "label": "supports"
+        },
+        {
+          "i": 2,
+          "label": "supports"
+        },
+        {
+          "i": 3,
+          "label": "supports"
+        },
+        {
+          "i": 4,
+          "label": "supports"
+        },
+        {
+          "i": 5,
+          "label": "supports"
+        },
+        {
+          "i": 6,
+          "label": "supports"
+        },
+        {
+          "i": 7,
+          "label": "unrelated"
+        },
+        {
+          "i": 8,
+          "label": "unrelated"
+        },
+        {
+          "i": 9,
+          "label": "supports"
+        },
+        {
+          "i": 10,
+          "label": "contradicts"
+        },
+        {
+          "i": 11,
+          "label": "supports"
+        },
+        {
+          "i": 12,
+          "label": "supports"
+        },
+        {
+          "i": 13,
+          "label": "supports"
+        },
+        {
+          "i": 14,
+          "label": "supports"
+        },
+        {
+          "i": 15,
+          "label": "supports"
+        },
+        {
+          "i": 16,
+          "label": "supports"
+        },
+        {
+          "i": 17,
+          "label": "supports"
+        },
+        {
+          "i": 18,
+          "label": "unrelated"
+        },
+        {
+          "i": 19,
+          "label": "unrelated"
+        },
+        {
+          "i": 20,
+          "label": "supports"
+        },
+        {
+          "i": 21,
+          "label": "supports"
+        },
+        {
+          "i": 22,
+          "label": "supports"
+        },
+        {
+          "i": 23,
+          "label": "contradicts"
+        },
+        {
+          "i": 24,
+          "label": "contradicts"
+        },
+        {
+          "i": 25,
+          "label": "unrelated"
+        },
+        {
+          "i": 26,
+          "label": "supports"
+        },
+        {
+          "i": 27,
+          "label": "supports"
+        },
+        {
+          "i": 28,
+          "label": "supports"
+        },
+        {
+          "i": 29,
+          "label": "supports"
+        },
+        {
+          "i": 30,
+          "label": "contradicts"
+        },
+        {
+          "i": 31,
+          "label": "supports"
+        },
+        {
+          "i": 32,
+          "label": "supports"
+        },
+        {
+          "i": 33,
+          "label": "supports"
+        },
+        {
+          "i": 34,
+          "label": "unrelated"
+        },
+        {
+          "i": 35,
+          "label": "supports"
+        },
+        {
+          "i": 36,
+          "label": "supports"
+        },
+        {
+          "i": 37,
+          "label": "supports"
+        },
+        {
+          "i": 38,
+          "label": "unrelated"
+        },
+        {
+          "i": 39,
+          "label": "supports"
+        },
+        {
+          "i": 40,
+          "label": "supports"
+        },
+        {
+          "i": 41,
+          "label": "supports"
+        },
+        {
+          "i": 42,
+          "label": "supports"
+        },
+        {
+          "i": 43,
+          "label": "supports"
+        },
+        {
+          "i": 44,
+          "label": "supports"
+        },
+        {
+          "i": 45,
+          "label": "supports"
+        },
+        {
+          "i": 46,
+          "label": "supports"
+        },
+        {
+          "i": 47,
+          "label": "supports"
+        },
+        {
+          "i": 48,
+          "label": "supports"
+        },
+        {
+          "i": 49,
+          "label": "supports"
+        },
+        {
+          "i": 50,
+          "label": "supports"
+        },
+        {
+          "i": 51,
+          "label": "supports"
+        },
+        {
+          "i": 52,
+          "label": "supports"
+        },
+        {
+          "i": 53,
+          "label": "supports"
+        },
+        {
+          "i": 54,
+          "label": "unrelated"
+        },
+        {
+          "i": 55,
+          "label": "supports"
+        },
+        {
+          "i": 56,
+          "label": "supports"
+        },
+        {
+          "i": 57,
+          "label": "supports"
+        },
+        {
+          "i": 58,
+          "label": "supports"
+        },
+        {
+          "i": 59,
+          "label": "supports"
+        },
+        {
+          "i": 60,
+          "label": "supports"
+        },
+        {
+          "i": 61,
+          "label": "supports"
+        },
+        {
+          "i": 62,
+          "label": "unrelated"
+        },
+        {
+          "i": 63,
+          "label": "supports"
+        },
+        {
+          "i": 64,
+          "label": "supports"
+        },
+        {
+          "i": 65,
+          "label": "supports"
+        },
+        {
+          "i": 66,
+          "label": "supports"
+        },
+        {
+          "i": 67,
+          "label": "supports"
+        },
+        {
+          "i": 68,
+          "label": "supports"
+        },
+        {
+          "i": 69,
+          "label": "supports"
+        },
+        {
+          "i": 70,
+          "label": "supports"
+        },
+        {
+          "i": 71,
+          "label": "supports"
+        },
+        {
+          "i": 72,
+          "label": "contradicts"
+        },
+        {
+          "i": 73,
+          "label": "supports"
+        },
+        {
+          "i": 74,
+          "label": "supports"
+        },
+        {
+          "i": 75,
+          "label": "supports"
+        },
+        {
+          "i": 76,
+          "label": "supports"
+        },
+        {
+          "i": 77,
+          "label": "supports"
+        }
+      ],
+      [
+        {
+          "i": 0,
+          "label": "unrelated"
+        },
+        {
+          "i": 1,
+          "label": "supports"
+        },
+        {
+          "i": 2,
+          "label": "unrelated"
+        },
+        {
+          "i": 3,
+          "label": "unrelated"
+        },
+        {
+          "i": 4,
+          "label": "supports"
+        },
+        {
+          "i": 5,
+          "label": "contradicts"
+        },
+        {
+          "i": 6,
+          "label": "supports"
+        },
+        {
+          "i": 7,
+          "label": "contradicts"
+        },
+        {
+          "i": 8,
+          "label": "unrelated"
+        },
+        {
+          "i": 9,
+          "label": "contradicts"
+        },
+        {
+          "i": 10,
+          "label": "unrelated"
+        },
+        {
+          "i": 11,
+          "label": "contradicts"
+        },
+        {
+          "i": 12,
+          "label": "supports"
+        },
+        {
+          "i": 13,
+          "label": "unrelated"
+        },
+        {
+          "i": 14,
+          "label": "supports"
+        },
+        {
+          "i": 15,
+          "label": "mixed"
+        },
+        {
+          "i": 16,
+          "label": "contradicts"
+        },
+        {
+          "i": 17,
+          "label": "contradicts"
+        },
+        {
+          "i": 18,
+          "label": "supports"
+        },
+        {
+          "i": 19,
+          "label": "supports"
+        },
+        {
+          "i": 20,
+          "label": "contradicts"
+        },
+        {
+          "i": 21,
+          "label": "supports"
+        },
+        {
+          "i": 22,
+          "label": "supports"
+        },
+        {
+          "i": 23,
+          "label": "unrelated"
+        },
+        {
+          "i": 24,
+          "label": "mixed"
+        },
+        {
+          "i": 25,
+          "label": "supports"
+        },
+        {
+          "i": 26,
+          "label": "mixed"
+        },
+        {
+          "i": 27,
+          "label": "supports"
+        },
+        {
+          "i": 28,
+          "label": "contradicts"
+        },
+        {
+          "i": 29,
+          "label": "supports"
+        },
+        {
+          "i": 30,
+          "label": "contradicts"
+        },
+        {
+          "i": 31,
+          "label": "contradicts"
+        },
+        {
+          "i": 32,
+          "label": "unrelated"
+        },
+        {
+          "i": 33,
+          "label": "supports"
+        },
+        {
+          "i": 34,
+          "label": "contradicts"
+        },
+        {
+          "i": 35,
+          "label": "supports"
+        },
+        {
+          "i": 36,
+          "label": "supports"
+        },
+        {
+          "i": 37,
+          "label": "supports"
+        },
+        {
+          "i": 38,
+          "label": "unrelated"
+        },
+        {
+          "i": 39,
+          "label": "supports"
+        },
+        {
+          "i": 40,
+          "label": "supports"
+        },
+        {
+          "i": 41,
+          "label": "supports"
+        },
+        {
+          "i": 42,
+          "label": "supports"
+        },
+        {
+          "i": 43,
+          "label": "supports"
+        },
+        {
+          "i": 44,
+          "label": "supports"
+        },
+        {
+          "i": 45,
+          "label": "contradicts"
+        },
+        {
+          "i": 46,
+          "label": "supports"
+        },
+        {
+          "i": 47,
+          "label": "supports"
+        },
+        {
+          "i": 48,
+          "label": "supports"
+        },
+        {
+          "i": 49,
+          "label": "mixed"
+        },
+        {
+          "i": 50,
+          "label": "contradicts"
+        },
+        {
+          "i": 51,
+          "label": "mixed"
+        },
+        {
+          "i": 52,
+          "label": "supports"
+        },
+        {
+          "i": 53,
+          "label": "supports"
+        },
+        {
+          "i": 54,
+          "label": "supports"
+        },
+        {
+          "i": 55,
+          "label": "contradicts"
+        },
+        {
+          "i": 56,
+          "label": "supports"
+        },
+        {
+          "i": 57,
+          "label": "contradicts"
+        }
+      ],
+      [
+        {
+          "i": 58,
+          "label": "supports"
+        },
+        {
+          "i": 59,
+          "label": "unrelated"
+        },
+        {
+          "i": 60,
+          "label": "supports"
+        },
+        {
+          "i": 61,
+          "label": "contradicts"
+        },
+        {
+          "i": 62,
+          "label": "supports"
+        },
+        {
+          "i": 63,
+          "label": "mixed"
+        },
+        {
+          "i": 64,
+          "label": "contradicts"
+        },
+        {
+          "i": 65,
+          "label": "supports"
+        },
+        {
+          "i": 66,
+          "label": "contradicts"
+        },
+        {
+          "i": 67,
+          "label": "contradicts"
+        },
+        {
+          "i": 68,
+          "label": "contradicts"
+        },
+        {
+          "i": 69,
+          "label": "supports"
+        },
+        {
+          "i": 70,
+          "label": "unrelated"
+        },
+        {
+          "i": 71,
+          "label": "supports"
+        },
+        {
+          "i": 72,
+          "label": "supports"
+        },
+        {
+          "i": 73,
+          "label": "supports"
+        },
+        {
+          "i": 74,
+          "label": "unrelated"
+        },
+        {
+          "i": 75,
+          "label": "contradicts"
+        },
+        {
+          "i": 76,
+          "label": "supports"
+        },
+        {
+          "i": 77,
+          "label": "mixed"
+        },
+        {
+          "i": 78,
+          "label": "supports"
+        },
+        {
+          "i": 79,
+          "label": "unrelated"
+        },
+        {
+          "i": 80,
+          "label": "supports"
+        },
+        {
+          "i": 81,
+          "label": "supports"
+        },
+        {
+          "i": 82,
+          "label": "contradicts"
+        },
+        {
+          "i": 83,
+          "label": "supports"
+        },
+        {
+          "i": 84,
+          "label": "unrelated"
+        },
+        {
+          "i": 85,
+          "label": "contradicts"
+        },
+        {
+          "i": 86,
+          "label": "contradicts"
+        },
+        {
+          "i": 87,
+          "label": "supports"
+        },
+        {
+          "i": 88,
+          "label": "supports"
+        },
+        {
+          "i": 89,
+          "label": "contradicts"
+        },
+        {
+          "i": 90,
+          "label": "contradicts"
+        },
+        {
+          "i": 91,
+          "label": "unrelated"
+        },
+        {
+          "i": 92,
+          "label": "mixed"
+        },
+        {
+          "i": 93,
+          "label": "supports"
+        },
+        {
+          "i": 94,
+          "label": "unrelated"
+        },
+        {
+          "i": 95,
+          "label": "mixed"
+        },
+        {
+          "i": 96,
+          "label": "supports"
+        },
+        {
+          "i": 97,
+          "label": "supports"
+        },
+        {
+          "i": 98,
+          "label": "contradicts"
+        },
+        {
+          "i": 99,
+          "label": "mixed"
+        },
+        {
+          "i": 100,
+          "label": "contradicts"
+        },
+        {
+          "i": 101,
+          "label": "contradicts"
+        },
+        {
+          "i": 102,
+          "label": "supports"
+        },
+        {
+          "i": 103,
+          "label": "supports"
+        },
+        {
+          "i": 104,
+          "label": "supports"
+        },
+        {
+          "i": 105,
+          "label": "supports"
+        },
+        {
+          "i": 106,
+          "label": "contradicts"
+        },
+        {
+          "i": 107,
+          "label": "supports"
+        },
+        {
+          "i": 108,
+          "label": "contradicts"
+        },
+        {
+          "i": 109,
+          "label": "supports"
+        },
+        {
+          "i": 110,
+          "label": "supports"
+        },
+        {
+          "i": 111,
+          "label": "contradicts"
+        },
+        {
+          "i": 112,
+          "label": "supports"
+        },
+        {
+          "i": 113,
+          "label": "supports"
+        },
+        {
+          "i": 114,
+          "label": "supports"
+        },
+        {
+          "i": 115,
+          "label": "supports"
+        }
+      ],
+      [
+        {
+          "i": 0,
+          "label": "unrelated"
+        },
+        {
+          "i": 1,
+          "label": "unrelated"
+        },
+        {
+          "i": 2,
+          "label": "supports"
+        },
+        {
+          "i": 3,
+          "label": "unrelated"
+        },
+        {
+          "i": 4,
+          "label": "unrelated"
+        },
+        {
+          "i": 5,
+          "label": "supports"
+        },
+        {
+          "i": 6,
+          "label": "supports"
+        },
+        {
+          "i": 7,
+          "label": "supports"
+        },
+        {
+          "i": 8,
+          "label": "contradicts"
+        },
+        {
+          "i": 9,
+          "label": "supports"
+        },
+        {
+          "i": 10,
+          "label": "supports"
+        },
+        {
+          "i": 11,
+          "label": "contradicts"
+        },
+        {
+          "i": 12,
+          "label": "supports"
+        },
+        {
+          "i": 13,
+          "label": "unrelated"
+        },
+        {
+          "i": 14,
+          "label": "supports"
+        },
+        {
+          "i": 15,
+          "label": "unrelated"
+        },
+        {
+          "i": 16,
+          "label": "contradicts"
+        },
+        {
+          "i": 17,
+          "label": "contradicts"
+        },
+        {
+          "i": 18,
+          "label": "supports"
+        },
+        {
+          "i": 19,
+          "label": "contradicts"
+        },
+        {
+          "i": 20,
+          "label": "supports"
+        },
+        {
+          "i": 21,
+          "label": "unrelated"
+        },
+        {
+          "i": 22,
+          "label": "supports"
+        },
+        {
+          "i": 23,
+          "label": "contradicts"
+        },
+        {
+          "i": 24,
+          "label": "contradicts"
+        },
+        {
+          "i": 25,
+          "label": "contradicts"
+        },
+        {
+          "i": 26,
+          "label": "contradicts"
+        },
+        {
+          "i": 27,
+          "label": "supports"
+        },
+        {
+          "i": 28,
+          "label": "contradicts"
+        },
+        {
+          "i": 29,
+          "label": "supports"
+        },
+        {
+          "i": 30,
+          "label": "supports"
+        },
+        {
+          "i": 31,
+          "label": "supports"
+        },
+        {
+          "i": 32,
+          "label": "contradicts"
+        },
+        {
+          "i": 33,
+          "label": "contradicts"
+        },
+        {
+          "i": 34,
+          "label": "supports"
+        },
+        {
+          "i": 35,
+          "label": "supports"
+        },
+        {
+          "i": 36,
+          "label": "unrelated"
+        },
+        {
+          "i": 37,
+          "label": "contradicts"
+        },
+        {
+          "i": 38,
+          "label": "supports"
+        },
+        {
+          "i": 39,
+          "label": "contradicts"
+        },
+        {
+          "i": 40,
+          "label": "contradicts"
+        },
+        {
+          "i": 41,
+          "label": "supports"
+        },
+        {
+          "i": 42,
+          "label": "supports"
+        },
+        {
+          "i": 43,
+          "label": "supports"
+        },
+        {
+          "i": 44,
+          "label": "contradicts"
+        },
+        {
+          "i": 45,
+          "label": "supports"
+        },
+        {
+          "i": 46,
+          "label": "contradicts"
+        },
+        {
+          "i": 47,
+          "label": "supports"
+        },
+        {
+          "i": 48,
+          "label": "supports"
+        },
+        {
+          "i": 49,
+          "label": "contradicts"
+        },
+        {
+          "i": 50,
+          "label": "supports"
+        },
+        {
+          "i": 51,
+          "label": "mixed"
+        },
+        {
+          "i": 52,
+          "label": "contradicts"
+        },
+        {
+          "i": 53,
+          "label": "supports"
+        },
+        {
+          "i": 54,
+          "label": "mixed"
+        },
+        {
+          "i": 55,
+          "label": "supports"
+        },
+        {
+          "i": 56,
+          "label": "supports"
+        },
+        {
+          "i": 57,
+          "label": "contradicts"
+        },
+        {
+          "i": 58,
+          "label": "contradicts"
+        },
+        {
+          "i": 59,
+          "label": "supports"
+        }
+      ],
+      [
+        {
+          "i": 60,
+          "label": "unrelated"
+        },
+        {
+          "i": 61,
+          "label": "supports"
+        },
+        {
+          "i": 62,
+          "label": "supports"
+        },
+        {
+          "i": 63,
+          "label": "supports"
+        },
+        {
+          "i": 64,
+          "label": "contradicts"
+        },
+        {
+          "i": 65,
+          "label": "contradicts"
+        },
+        {
+          "i": 66,
+          "label": "contradicts"
+        },
+        {
+          "i": 67,
+          "label": "supports"
+        },
+        {
+          "i": 68,
+          "label": "contradicts"
+        },
+        {
+          "i": 69,
+          "label": "contradicts"
+        },
+        {
+          "i": 70,
+          "label": "contradicts"
+        },
+        {
+          "i": 71,
+          "label": "contradicts"
+        },
+        {
+          "i": 72,
+          "label": "contradicts"
+        },
+        {
+          "i": 73,
+          "label": "contradicts"
+        },
+        {
+          "i": 74,
+          "label": "supports"
+        },
+        {
+          "i": 75,
+          "label": "supports"
+        },
+        {
+          "i": 76,
+          "label": "contradicts"
+        },
+        {
+          "i": 77,
+          "label": "supports"
+        },
+        {
+          "i": 78,
+          "label": "contradicts"
+        },
+        {
+          "i": 79,
+          "label": "unrelated"
+        },
+        {
+          "i": 80,
+          "label": "unrelated"
+        },
+        {
+          "i": 81,
+          "label": "unrelated"
+        },
+        {
+          "i": 82,
+          "label": "supports"
+        },
+        {
+          "i": 83,
+          "label": "contradicts"
+        },
+        {
+          "i": 84,
+          "label": "contradicts"
+        },
+        {
+          "i": 85,
+          "label": "contradicts"
+        },
+        {
+          "i": 86,
+          "label": "unrelated"
+        },
+        {
+          "i": 87,
+          "label": "contradicts"
+        },
+        {
+          "i": 88,
+          "label": "contradicts"
+        },
+        {
+          "i": 89,
+          "label": "contradicts"
+        },
+        {
+          "i": 90,
+          "label": "contradicts"
+        },
+        {
+          "i": 91,
+          "label": "supports"
+        },
+        {
+          "i": 92,
+          "label": "supports"
+        },
+        {
+          "i": 93,
+          "label": "contradicts"
+        },
+        {
+          "i": 94,
+          "label": "supports"
+        },
+        {
+          "i": 95,
+          "label": "unrelated"
+        },
+        {
+          "i": 96,
+          "label": "supports"
+        },
+        {
+          "i": 97,
+          "label": "unrelated"
+        },
+        {
+          "i": 98,
+          "label": "contradicts"
+        },
+        {
+          "i": 99,
+          "label": "unrelated"
+        },
+        {
+          "i": 100,
+          "label": "contradicts"
+        },
+        {
+          "i": 101,
+          "label": "unrelated"
+        },
+        {
+          "i": 102,
+          "label": "unrelated"
+        },
+        {
+          "i": 103,
+          "label": "supports"
+        },
+        {
+          "i": 104,
+          "label": "contradicts"
+        },
+        {
+          "i": 105,
+          "label": "contradicts"
+        },
+        {
+          "i": 106,
+          "label": "contradicts"
+        },
+        {
+          "i": 107,
+          "label": "contradicts"
+        },
+        {
+          "i": 108,
+          "label": "unrelated"
+        },
+        {
+          "i": 109,
+          "label": "contradicts"
+        },
+        {
+          "i": 110,
+          "label": "contradicts"
+        },
+        {
+          "i": 111,
+          "label": "unrelated"
+        },
+        {
+          "i": 112,
+          "label": "supports"
+        },
+        {
+          "i": 113,
+          "label": "contradicts"
+        },
+        {
+          "i": 114,
+          "label": "contradicts"
+        },
+        {
+          "i": 115,
+          "label": "contradicts"
+        },
+        {
+          "i": 116,
+          "label": "supports"
+        },
+        {
+          "i": 117,
+          "label": "supports"
+        },
+        {
+          "i": 118,
+          "label": "contradicts"
+        },
+        {
+          "i": 119,
+          "label": "supports"
+        }
+      ]
+    ],
+    "usage": {
+      "inputTokens": 38822,
+      "outputTokens": 7701,
+      "requests": 7
+    }
+  },
   "usage": {
-    "requests": 8,
-    "cachedRequests": 8,
-    "inputTokens": 11701,
-    "outputTokens": 7162
+    "requests": 15,
+    "cachedRequests": 15,
+    "inputTokens": 50523,
+    "outputTokens": 14863
   },
   "notes": [
     "The \"Dry Erase Boards\" questions haven't been reviewed by a person yet."

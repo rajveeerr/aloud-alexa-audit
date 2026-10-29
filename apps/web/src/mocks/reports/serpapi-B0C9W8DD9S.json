@@ -2320,5 +2320,7 @@
     "inputTokens": 14433,
     "outputTokens": 7332
   },
-  "notes": []
+  "notes": [
+    "Live listings come without review text, so promise vs proof wasn't checked."
+  ]
 }
