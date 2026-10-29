@@ -1,0 +1,2012 @@
+{
+  "seed": "answerable-study-1",
+  "pool": 3632,
+  "excludedMiningProducts": 60,
+  "bandCuts": [
+    1.6021,
+    1.9638,
+    2.48
+  ],
+  "products": [
+    {
+      "asin": "B08VTWBRH5",
+      "rating_number": 23,
+      "average_rating": 4.6,
+      "price": null,
+      "salesRank": 352071,
+      "store": "PILOT",
+      "title": "PILOT (3) G2 Premium Refillable & Retractable Rolling Ball Gel Pens, Fine Point (0.7mm), Navy Ink, 2-Pack (15235)",
+      "band": 1
+    },
+    {
+      "asin": "B08LYD4K23",
+      "rating_number": 24,
+      "average_rating": 4.4,
+      "price": 8.98,
+      "salesRank": 88421,
+      "store": "Generic",
+      "title": "Uni One Retractable Gel Ink Roller Ball Pen UMNS38BK.24, Black 0.38mm, 3 pens per Pack",
+      "band": 1
+    },
+    {
+      "asin": "B0018N8ETW",
+      "rating_number": 25,
+      "average_rating": 4.6,
+      "price": 5.99,
+      "salesRank": 256015,
+      "store": "Sakura",
+      "title": "Sakura of America 38803 Gelly ROLL Metallic, Silver",
+      "band": 1
+    },
+    {
+      "asin": "B0B4BM6RXD",
+      "rating_number": 25,
+      "average_rating": 4.8,
+      "price": 9.99,
+      "salesRank": 31719,
+      "store": "PILOT",
+      "title": "PILOT G2 Premium Refillable & Retractable Rolling Ball Gel Pens, 0.5mm Extra Fine Point, Green Ink, 6 Pack",
+      "band": 1
+    },
+    {
+      "asin": "B09V7H1PL4",
+      "rating_number": 31,
+      "average_rating": 4.5,
+      "price": 18.93,
+      "salesRank": 227920,
+      "store": "Ioffersuper",
+      "title": "55 Pcs Cute Cow Pen Set Includes Cow Retractable Gel Ink Pens, Cow Pencil Case, Cow Sticky Notes, and Cute Cow Stickers for Office School Supplies Cow Print School Supplies Party Favors",
+      "band": 1
+    },
+    {
+      "asin": "B083S6K7GK",
+      "rating_number": 38,
+      "average_rating": 4.3,
+      "price": null,
+      "salesRank": 544743,
+      "store": "larkpad",
+      "title": "Larkpad 48 Gel Pens Set & Three Coloring Book with Carrying Case - 24 Glitter 8 Metallic 6 Neon 6 Pastel 4 Classic for Drawing Writing Planner and Crossword Puzzles",
+      "band": 1
+    },
+    {
+      "asin": "B07NY4JDN6",
+      "rating_number": 26,
+      "average_rating": 4.8,
+      "price": 29.8,
+      "salesRank": 406578,
+      "store": "Kaweco",
+      "title": "Kaweco FROSTED SPORT Gel/Ballpoint Pen Blush Pitaya I Pen Including 0.7 mm Rollerball Pen Refill in Sommery Design with Ceramic Ball I Premium Gel Roller 13 cm",
+      "band": 1
+    },
+    {
+      "asin": "B09KGFLGFL",
+      "rating_number": 31,
+      "average_rating": 4.7,
+      "price": 9.88,
+      "salesRank": 280990,
+      "store": "Generic",
+      "title": "Constellation 0.5mm Retractable Gel Pens Ballpoint Japanese Cute Gel Pens Office Supplies Black Fine Point Pretty Pens Kawaii 6 Pens Per Pack By Yvoke (Cancer)",
+      "band": 1
+    },
+    {
+      "asin": "B09TGN9222",
+      "rating_number": 37,
+      "average_rating": 3.6,
+      "price": 7.99,
+      "salesRank": 162732,
+      "store": "Yansanido",
+      "title": "Office Supplies Kawaii Cute Pens, 30 Pcs 0.38mm Colored Pens Gel Pens Fine Point For College Pen Work School Art (B) (30)",
+      "band": 1
+    },
+    {
+      "asin": "B08GJY46Y1",
+      "rating_number": 33,
+      "average_rating": 4.6,
+      "price": null,
+      "salesRank": 342305,
+      "store": "Dayspring Pens",
+      "title": "Dayspring Pens Engraved Cross Pen | Personalized Cross Bailey Red Lacquer Rollerball Pen with Gel Ink in a Gift Box- Custom Name Engraving Included.",
+      "band": 1
+    },
+    {
+      "asin": "B01BOKR29Q",
+      "rating_number": 21,
+      "average_rating": 3.5,
+      "price": 6.53,
+      "salesRank": 209268,
+      "store": "Pentel",
+      "title": "Pentel EnerGel NV Liquid Gel Pen, 0.7mm, Metal Tip, Black Ink, 2 Pack (BL27BP2A)",
+      "band": 1
+    },
+    {
+      "asin": "B089R4XCLK",
+      "rating_number": 33,
+      "average_rating": 4.6,
+      "price": 48.55,
+      "salesRank": 230768,
+      "store": "PILOT",
+      "title": "Pilot G2 Retractable Premium Gel Ink Roller Ball Pens Bold Point (Black, 36-Pack)",
+      "band": 1
+    },
+    {
+      "asin": "B08YK3ZVFP",
+      "rating_number": 23,
+      "average_rating": 4.1,
+      "price": null,
+      "salesRank": 509251,
+      "store": "MiSiBao",
+      "title": "MiSiBao Multicolor Liquid Gel Pen 1.0mm Medium Point Refillable & Retractable Gel Ink Pens Assorted Color Inks (12-count)",
+      "band": 1
+    },
+    {
+      "asin": "B0BV98SKKY",
+      "rating_number": 38,
+      "average_rating": 4.2,
+      "price": 10.99,
+      "salesRank": 49126,
+      "store": "EEOYU",
+      "title": "EEOYU Gel Pens Fine Point，0.5mm Silent Retractable Quick Dry Gel Ink Pen,Black Ink Rolling Ball Gel Pens, Smooth Writing Aesthetic Pens for Journaling Drawing Sketching Notetaking (12)",
+      "band": 1
+    },
+    {
+      "asin": "B0033AH41M",
+      "rating_number": 25,
+      "average_rating": 2.6,
+      "price": null,
+      "salesRank": null,
+      "store": "Raymond Geddes",
+      "title": "Geddes Scent-sibles Dessert Crystal Twist Mini Gel Pens - Set of 60",
+      "band": 1
+    },
+    {
+      "asin": "B008BGQXPQ",
+      "rating_number": 25,
+      "average_rating": 3.5,
+      "price": null,
+      "salesRank": 555488,
+      "store": "Pentel",
+      "title": "Pentel Slicci Techo Mini Gel Ink Pen Refill - 0.3 mm - Black",
+      "band": 1
+    },
+    {
+      "asin": "B0BXT1KTMG",
+      "rating_number": 27,
+      "average_rating": 4.7,
+      "price": 7.99,
+      "salesRank": 191926,
+      "store": "FIOVER",
+      "title": "FIOVER 8PCS Gel Ink Retractable Pens Christmas Gel Pen Quick Dry Black Ink Fine Point Gel Pen for Office School Children Gift Stationery Supplies Set",
+      "band": 1
+    },
+    {
+      "asin": "B07VZFT6D5",
+      "rating_number": 37,
+      "average_rating": 3.4,
+      "price": null,
+      "salesRank": 353994,
+      "store": "T-shin",
+      "title": "T-shin Gel Black Ink Pen,8 Pack Bling Bling Crystal Diamond Fairy Stick,Glitter Liquid Sand Rainbow Writing Pen,Retractable Rollerball Pen,Kids Girl Women School Office Gift,Novelty Stationery",
+      "band": 1
+    },
+    {
+      "asin": "B013JYHR7M",
+      "rating_number": 20,
+      "average_rating": 3.9,
+      "price": 34.99,
+      "salesRank": 682258,
+      "store": "Flair",
+      "title": "2 X Xtra Sparkle Glitter Gel 10 Colours Xtra Sparkle Gel Pen by Flair",
+      "band": 1
+    },
+    {
+      "asin": "B0BZBKVWSW",
+      "rating_number": 35,
+      "average_rating": 4.4,
+      "price": 40,
+      "salesRank": 57129,
+      "store": "RIFLE PAPER CO.",
+      "title": "RIFLE PAPER CO. Margaux Gel Pen Set of 8 - Boxed Set of 8 Different Colored Retractable Gel Pens, 0.5mm Rollerball Tip, 5.5\" L, Perfect for Stylizing Note Taking and Writing",
+      "band": 1
+    },
+    {
+      "asin": "B0B9S3QWS5",
+      "rating_number": 37,
+      "average_rating": 4.1,
+      "price": 4.99,
+      "salesRank": 68611,
+      "store": "Maydahui",
+      "title": "Maydahui 12PCS Cute Bear Gel Pen Cartoon Girl Cookies Pens Retractable Printing Animal Pen Black Ink for Students Stationery Office Supplies",
+      "band": 1
+    },
+    {
+      "asin": "B08RBL7KPV",
+      "rating_number": 39,
+      "average_rating": 4.5,
+      "price": null,
+      "salesRank": 416168,
+      "store": "Buptop",
+      "title": "Buptop PORTOWN 22 Pcs Cute Cat Pens Kawaii Pen Cats Design Gel Ink Pens Cute Stationary Black Writing Pen and 720 Pcs Cute Cat Sticky Notes Page for Cat Lovers Kids Stationery School Office Supplies",
+      "band": 1
+    },
+    {
+      "asin": "B073GNYLFK",
+      "rating_number": 40,
+      "average_rating": 4.1,
+      "price": 9.99,
+      "salesRank": 234078,
+      "store": "ZEBRA",
+      "title": "Zebra Sarasa Clip 0.4 Retractable Gel Ink Pen, Rubber Grip, 0.4mm, Gray Ink, Value Set of 10",
+      "band": 1
+    },
+    {
+      "asin": "B09RNFVRTK",
+      "rating_number": 30,
+      "average_rating": 4.8,
+      "price": 15.18,
+      "salesRank": 147071,
+      "store": "PILOT",
+      "title": "PILOT FriXion Clicker Erasable, Refillable & Retractable Gel Ink Pens, Fine Point, Blue Ink, 4 Pens and 6 Refills",
+      "band": 1
+    },
+    {
+      "asin": "B08R3Y2QWK",
+      "rating_number": 28,
+      "average_rating": 4.6,
+      "price": 10.99,
+      "salesRank": 332712,
+      "store": "Maydahui",
+      "title": "Maydahui 8PCS Sunny Doll Rollerball Pens Cute Kawaii Japanese Kimono Girls Pen Puppet Pens Black Gel Ink Large Capacity Pen Refill for Office School Students",
+      "band": 1
+    },
+    {
+      "asin": "B001E6C8RC",
+      "rating_number": 30,
+      "average_rating": 4.8,
+      "price": 24.99,
+      "salesRank": 154917,
+      "store": "PILOT",
+      "title": "PILOT G6 Refillable and Retractable Gel Ink Rolling Ball Pen, Fine Point, Red Ink, 12-Pack (31403)",
+      "band": 1
+    },
+    {
+      "asin": "B0017DER4Y",
+      "rating_number": 26,
+      "average_rating": 4.5,
+      "price": 8.27,
+      "salesRank": 415788,
+      "store": "ZEBRA",
+      "title": "Zebra JK Refills for G301Gel Rollerball Pens, Medium Point, 2/Pack, Black Ink, PK - ZEB88112",
+      "band": 1
+    },
+    {
+      "asin": "B0797DD12L",
+      "rating_number": 23,
+      "average_rating": 4.8,
+      "price": null,
+      "salesRank": null,
+      "store": "Paper Mate",
+      "title": "Paper Mate 1958177 Inkjoy Retractable Gel Pen Fine Point Black Ink 3/Pack (1951638)",
+      "band": 1
+    },
+    {
+      "asin": "B01CQ39CZ2",
+      "rating_number": 37,
+      "average_rating": 4.4,
+      "price": null,
+      "salesRank": null,
+      "store": "PILOT",
+      "title": "Pilot FriXion Ball 0.7mm Erasable Gel Pens, Fine Point, Assorted Colors, 6 Pack",
+      "band": 1
+    },
+    {
+      "asin": "B09T36TR8G",
+      "rating_number": 24,
+      "average_rating": 4.8,
+      "price": null,
+      "salesRank": 282379,
+      "store": "Geyee",
+      "title": "19 Pieces Cactus Pens Cactus Office Supplies Sticky Notes Stickers Wooden Clothespins Set, Gel Ink Pens Succulent Note Pad Decorative Clips for Student Office School Household",
+      "band": 1
+    },
+    {
+      "asin": "B079H1YWSG",
+      "rating_number": 22,
+      "average_rating": 3,
+      "price": null,
+      "salesRank": 208369,
+      "store": "BIC",
+      "title": "BIC® Gel-ocity Quick Dry Retractable Gel Pens, Medium Point, 0.7 mm, Black/Blue/Red Barrels, Black/Blue/Red Inks, Pack O",
+      "band": 1
+    },
+    {
+      "asin": "B01N6NPCAR",
+      "rating_number": 30,
+      "average_rating": 4.6,
+      "price": null,
+      "salesRank": null,
+      "store": "Hi-Tec-C Maica",
+      "title": "Pilot Hi-Tec-C Maica Gel Ink Ballpoint Pen, Blue Black 0.4 mm, 3 Pack (Japan import)",
+      "band": 1
+    },
+    {
+      "asin": "B0BZQYXWKR",
+      "rating_number": 40,
+      "average_rating": 4.8,
+      "price": 8.49,
+      "salesRank": 71086,
+      "store": "Sprieben",
+      "title": "Sprieben 5 Pack 0.5mm Black Ink Gel Pens, Retractable Quick Dry Fine Point Rolling Ball Gel Pens Smooth Writing for School Office Home Supplies (Morandi)",
+      "band": 1
+    },
+    {
+      "asin": "B002HICKJW",
+      "rating_number": 27,
+      "average_rating": 4.6,
+      "price": null,
+      "salesRank": null,
+      "store": "Uni-ball",
+      "title": "uni-ball Signo 207 Retractable Gel Pens, Medium Point, Purple Ink, Pack of 2",
+      "band": 1
+    },
+    {
+      "asin": "B087TD56CN",
+      "rating_number": 36,
+      "average_rating": 4,
+      "price": 10.99,
+      "salesRank": 285826,
+      "store": "Maydahui",
+      "title": "Maydahui 45PCS Cat Rollerball Pens Elegant Cats Kitty Animal Pen Cute Cartoon Kawaii Japanese Pen Black Gel Ink for Girls Women School",
+      "band": 1
+    },
+    {
+      "asin": "B08R6S7RBN",
+      "rating_number": 27,
+      "average_rating": 4.5,
+      "price": 8.99,
+      "salesRank": 110100,
+      "store": "Maydahui",
+      "title": "Maydahui 12PCS Narwhal Whale Shaped Rollerball Pens Cute Kawaii Animal Pen Colorful Fish Pen Black Gel Ink Smooth Writing for Party School Stationery Office",
+      "band": 1
+    },
+    {
+      "asin": "B07VW63S78",
+      "rating_number": 22,
+      "average_rating": 4.2,
+      "price": null,
+      "salesRank": 419928,
+      "store": "KLGDA_Home",
+      "title": "KLGDA 60pcs Gel Pen Refills Glitter Coloring Drawing Painting Craft Marker Smooth and Silky Writing Supplies Suitable for Office Study and Work",
+      "band": 1
+    },
+    {
+      "asin": "B085F2PRG1",
+      "rating_number": 24,
+      "average_rating": 4.2,
+      "price": null,
+      "salesRank": 523017,
+      "store": "Kitmate",
+      "title": "Cute Colorful Journal Pen,10Pcs Multi Colors Colorful Gel Ink Pens 0.38mm MultiColored Roller Ball Fine Point Pens for Bullet Journal Planner Writing Notes Office School Supplies",
+      "band": 1
+    },
+    {
+      "asin": "B06WW7X1MG",
+      "rating_number": 31,
+      "average_rating": 4.4,
+      "price": 6.99,
+      "salesRank": 187443,
+      "store": "MONSTERZ FACTORY",
+      "title": "12 Pack Carrot Silicone Body Gel Ink Pen Kawaii Office School Student Supply Gift",
+      "band": 1
+    },
+    {
+      "asin": "B00FACLIN6",
+      "rating_number": 25,
+      "average_rating": 3.7,
+      "price": null,
+      "salesRank": 518743,
+      "store": "PILOT",
+      "title": "PILOT G2 Fashion Collection Colors Gel Roller Pens Fine Point Turquoise Ink and Barrels Dozen Box (31495) Retractable, Refillable & Premium Comfort Grip; Smooth Lines to the End of Page",
+      "band": 1
+    },
+    {
+      "asin": "B07WJ5M423",
+      "rating_number": 28,
+      "average_rating": 4.3,
+      "price": null,
+      "salesRank": 374290,
+      "store": "sencoo",
+      "title": "Sencoo 24 pcs Black Erasable Pens Kawaii Cute Cartoon Gel Ink Pens Assorted Style Writing Pens for Birthday Present School Prize Student Gift Fun Girl Pens",
+      "band": 1
+    },
+    {
+      "asin": "B003Y7JAC0",
+      "rating_number": 23,
+      "average_rating": 3.6,
+      "price": 7.75,
+      "salesRank": 330819,
+      "store": "Motley Crue",
+      "title": "Motley Crue Masks Plastic Gel Pen (genuine And Licensed)",
+      "band": 1
+    },
+    {
+      "asin": "B0B2DJT95C",
+      "rating_number": 29,
+      "average_rating": 3.6,
+      "price": null,
+      "salesRank": 291493,
+      "store": "UIXJODO",
+      "title": "UIXJODO Fun Pens, 12 Pcs Kawaii Cute Pens, 0.5mm Black Ink Pens Fine Point Smooth Writing Pens Retractable Gel Pens, Office and School Supplies Gifts for Kids Children Girls Teens Women (Bear 3)",
+      "band": 1
+    },
+    {
+      "asin": "B016XIH3OI",
+      "rating_number": 33,
+      "average_rating": 3.5,
+      "price": null,
+      "salesRank": null,
+      "store": "BUOP",
+      "title": "BUOP 6-Count Clip Click Retractable Ball-point Pens, Classic Design, Standard Medium 1.0mm Black Ink, Knurled Grip, Novelty Stainless Steel Clip, Assorted Barrel Colors",
+      "band": 1
+    },
+    {
+      "asin": "B09B22QQXD",
+      "rating_number": 29,
+      "average_rating": 4.5,
+      "price": 9.99,
+      "salesRank": 191728,
+      "store": "JJYHEHOT",
+      "title": "JJYHEHOT 10Pcs Mermaid Gel Pen Set, 0.5mm Black Ink Pens, Cute Mermaid Tail Pen Stationery for School Home Office, Girls Mermaid Party Favor Supplies",
+      "band": 1
+    },
+    {
+      "asin": "B081VY745H",
+      "rating_number": 26,
+      "average_rating": 4.6,
+      "price": null,
+      "salesRank": null,
+      "store": "Arkin",
+      "title": "12Pcs Cute Kawaii Rainbow Black Gel Pens & 12Pcs Blue Ink Refills Funny Creative School Office Supply Calligraphy Cartoon Anime Thing Fine Point Cool Women Teens Girl Christmas Cool, 24Pcs Bulk Arkin",
+      "band": 1
+    },
+    {
+      "asin": "B0B19S98ZJ",
+      "rating_number": 25,
+      "average_rating": 4,
+      "price": 14.99,
+      "salesRank": null,
+      "store": "Moodaily",
+      "title": "24 Pack Novelty Gun Shape Pens Cool Gel Ink Pens Sniper Rifle Pens Cute Gun Ballpoint Pens for School Office Writing Birthday Party Man Boys Gifts",
+      "band": 1
+    },
+    {
+      "asin": "B01M6E98B4",
+      "rating_number": 27,
+      "average_rating": 3.4,
+      "price": 14.81,
+      "salesRank": 753588,
+      "store": "BUOP",
+      "title": "BUOP 24-Count [12+12] Bouquet of Narcissus Assorted Color Flower Pen, Novelty Design Flower Arrangement Style Extra Fine Gel Pen of Grass and Narcissus",
+      "band": 1
+    },
+    {
+      "asin": "B08QMJZMCX",
+      "rating_number": 28,
+      "average_rating": 4.5,
+      "price": null,
+      "salesRank": 422286,
+      "store": "Jisomin",
+      "title": "Giant star Gel Ink Pen, Creative Gel Ink Pens, 0.5 mm Black Gel Ink Pens, Extra-Fine Ballpoint Pen, for Office School Stationery Supply, Pack of 6 Pcs (Cherry blossoms)",
+      "band": 1
+    },
+    {
+      "asin": "B09JNXGZ3Y",
+      "rating_number": 28,
+      "average_rating": 4.1,
+      "price": 9.9,
+      "salesRank": 82318,
+      "store": "Uni Japan",
+      "title": "Uni Japan Signo RT1 Retractable Gel Ink Pen, Ultra Micro Point 0.28mm, Renewal 2021 Rubber Grip, Blue Black 3 Pens With Kanji LOVE Sticker",
+      "band": 1
+    },
+    {
+      "asin": "B01250M67W",
+      "rating_number": 51,
+      "average_rating": 4.2,
+      "price": null,
+      "salesRank": null,
+      "store": "BAZIC Products",
+      "title": "BAZIC GX-8 Black Oil-Gel Ink Pen (12/Box)",
+      "band": 2
+    },
+    {
+      "asin": "B00AJ2QJL8",
+      "rating_number": 57,
+      "average_rating": 4.2,
+      "price": null,
+      "salesRank": 343699,
+      "store": "Trends International",
+      "title": "The Hobbit Movie Bilbo Baggins Cast 2 Gel Pens Set",
+      "band": 2
+    },
+    {
+      "asin": "B0BNBLZZLV",
+      "rating_number": 42,
+      "average_rating": 4.6,
+      "price": 16.99,
+      "salesRank": 52084,
+      "store": "Thenshop",
+      "title": "Gel Ink Pens with Black Ink Refills Quick Dry Ballpoint Pens Fine Point Retractable Ink Pens 0.42 mm Rolling Ball Smooth Writing Pens Aesthetic Pens for Office School Home Supplies (20 Pcs)",
+      "band": 2
+    },
+    {
+      "asin": "B01D5CMNDQ",
+      "rating_number": 62,
+      "average_rating": 4.3,
+      "price": null,
+      "salesRank": 471505,
+      "store": "MagMod",
+      "title": "MagMod Creative Gel Set",
+      "band": 2
+    },
+    {
+      "asin": "B0B77Z6YH7",
+      "rating_number": 86,
+      "average_rating": 4.4,
+      "price": 6.99,
+      "salesRank": 80320,
+      "store": "WIN-MARKET",
+      "title": "WIN-MARKET Llama Gel Pens Fashion Cute Colorful Kawaii Lovely Cartoon Animal Sheep Alpaca Pen Black Gel Ink Rollerball Pens Office School Stationery Llama Pen(8PCS)",
+      "band": 2
+    },
+    {
+      "asin": "B000YQGAFO",
+      "rating_number": 80,
+      "average_rating": 4,
+      "price": 9.08,
+      "salesRank": 317893,
+      "store": "Yasutomo",
+      "title": "Yasutomo Pen Gel Xtreme Set Pastel 7 Colors",
+      "band": 2
+    },
+    {
+      "asin": "B00SV06Q3G",
+      "rating_number": 91,
+      "average_rating": 4.8,
+      "price": 29.61,
+      "salesRank": 408316,
+      "store": "uni-ball",
+      "title": "uni-ball UB-185S 0.5mm Tip Micro Point Eye Needle Stainless Steel Pen - Black (Pack of 14)",
+      "band": 2
+    },
+    {
+      "asin": "B087FDM5J6",
+      "rating_number": 53,
+      "average_rating": 4.4,
+      "price": 8.99,
+      "salesRank": 118567,
+      "store": "sencoo",
+      "title": "sencoo 6 pack Erasable Colorful Gel Pens Cute Cat Pens for Kids Girls Children Students Teens Gifts",
+      "band": 2
+    },
+    {
+      "asin": "B07KD1RNRX",
+      "rating_number": 57,
+      "average_rating": 4.1,
+      "price": null,
+      "salesRank": 228956,
+      "store": "Zebra Pen",
+      "title": "Zebra Pen Sarasa Dry X30 Retractable Gel Pen, Medium Point, 0.7mm, Blue Ink, 12-Pack",
+      "band": 2
+    },
+    {
+      "asin": "B08PDNLPL3",
+      "rating_number": 48,
+      "average_rating": 4.7,
+      "price": 8.99,
+      "salesRank": 64419,
+      "store": "PILOT",
+      "title": "Pilot G2 Gel Ink Pen Refills, Fine Point, 0.7mm, Turquoise Ink, 2 Pack",
+      "band": 2
+    },
+    {
+      "asin": "B01F8FMD24",
+      "rating_number": 67,
+      "average_rating": 3.4,
+      "price": null,
+      "salesRank": 655616,
+      "store": "ECR4Kids",
+      "title": "ECR4Kids GelWriter Gel Pens Set Premium Multicolor, Neon Ink (12-Count)",
+      "band": 2
+    },
+    {
+      "asin": "B01253WZO8",
+      "rating_number": 62,
+      "average_rating": 4.6,
+      "price": 9.5,
+      "salesRank": 178124,
+      "store": "Paper Mate",
+      "title": "Paper Mate 1746326 Gel Pens, Medium (0.7mm), Red, 12 Count",
+      "band": 2
+    },
+    {
+      "asin": "B097Y35WSV",
+      "rating_number": 84,
+      "average_rating": 4.5,
+      "price": 18.99,
+      "salesRank": 229136,
+      "store": "Outus",
+      "title": "Outus Pink Ribbon Pens Breast Cancer Pens Retractable Gel Ink Pen Pink Ribbon Retractable Gel Roller Ball Pen Pink Fine Point Pen, Black Ink (30 Pieces)",
+      "band": 2
+    },
+    {
+      "asin": "B08KBJXXBM",
+      "rating_number": 46,
+      "average_rating": 4.5,
+      "price": null,
+      "salesRank": 34991,
+      "store": "PILOT",
+      "title": "Pilot G2 Retractable Rollerball Gel Pens, Bold Point, 1.0mm, Blue Ink, Single Pen",
+      "band": 2
+    },
+    {
+      "asin": "B01F25VWT0",
+      "rating_number": 92,
+      "average_rating": 4.3,
+      "price": 15.59,
+      "salesRank": 259395,
+      "store": "Zebre",
+      "title": "Zebra G-301 Gel Stainless Steel Retractable Pen, 0.7mm, Blue, 6 Pack",
+      "band": 2
+    },
+    {
+      "asin": "B091DJ69Z6",
+      "rating_number": 48,
+      "average_rating": 4.5,
+      "price": 7.99,
+      "salesRank": 189958,
+      "store": "Maydahui",
+      "title": "Maydahui 12PCS Owl Shaped Rollerball Pens Cute Kawaii Animal Pen Novelty Bird Writing Pen Black Gel Ink Desk Decor Accessories for School Office",
+      "band": 2
+    },
+    {
+      "asin": "B0096XUVEC",
+      "rating_number": 64,
+      "average_rating": 4.3,
+      "price": 8.14,
+      "salesRank": 118933,
+      "store": "PILOT",
+      "title": "PILOT 31096 G2 Pro Retractable Gel Ink Pen, Refillable, Black Ink/Blue Barrel.7Mm",
+      "band": 2
+    },
+    {
+      "asin": "B09TSXLJBC",
+      "rating_number": 44,
+      "average_rating": 4.6,
+      "price": 20.7,
+      "salesRank": 340851,
+      "store": "Faber-Castell",
+      "title": "Faber Castell Ball Pen Grip Edition Glam - XB, Violet Glam Colour",
+      "band": 2
+    },
+    {
+      "asin": "B09B3HQSMT",
+      "rating_number": 70,
+      "average_rating": 4.3,
+      "price": 6.94,
+      "salesRank": 50254,
+      "store": "COMAIK",
+      "title": "KRIZJUES 16 Pcs Cartoon Animal Pens, Kawaii School Supplies Pens Cute Cartoon Gel Ink Pens Boys Girls Cute Pens for Writing, Gifts for Children Teachers, Black Refill 0.5mm Pen Cap Rotate To Pull Out",
+      "band": 2
+    },
+    {
+      "asin": "B009ZMQ2V0",
+      "rating_number": 42,
+      "average_rating": 4.4,
+      "price": null,
+      "salesRank": null,
+      "store": "BIC",
+      "title": "BIC RATG11-BLU Atlantis Gel Medium Point Pen (0.7mm) Dozen Box, Blue",
+      "band": 2
+    },
+    {
+      "asin": "B07PZFPF1Q",
+      "rating_number": 92,
+      "average_rating": 4.7,
+      "price": 36.93,
+      "salesRank": 187636,
+      "store": "PILOT",
+      "title": "PILOT FriXion Color Sticks Erasable Gel Pens 32 Pack of Classic Colors BLK, RED, Magenta, PPL, GRN, BLU, NVY, BRN, Gry, Salmon-Pink, Light-Pink, LAV, YEL, Light-Green, TRQ, ORG, 2 of Each, (Erasable)",
+      "band": 2
+    },
+    {
+      "asin": "B00006IE98",
+      "rating_number": 69,
+      "average_rating": 4.8,
+      "price": null,
+      "salesRank": 289225,
+      "store": "Uni-ball",
+      "title": "uni-ball Roller Grip Pens, Micro Point (0.5mm), Blue, 12 Count",
+      "band": 2
+    },
+    {
+      "asin": "B001CRS4AS",
+      "rating_number": 49,
+      "average_rating": 3.9,
+      "price": 17.87,
+      "salesRank": 194326,
+      "store": "Zebra Pen",
+      "title": "Zebra Pen Zebra's Jimnie Gel Rollerball Stick Pen 0.7mm Black Dozen (44110)",
+      "band": 2
+    },
+    {
+      "asin": "B007ZZO61C",
+      "rating_number": 43,
+      "average_rating": 4.1,
+      "price": 22.86,
+      "salesRank": 401478,
+      "store": "PILOT",
+      "title": "Pilot G2-7 Retractable Gel Roller Pens (PIL31247),Pack of 12",
+      "band": 2
+    },
+    {
+      "asin": "B094ZTQ1GB",
+      "rating_number": 66,
+      "average_rating": 4.4,
+      "price": 9.99,
+      "salesRank": 141142,
+      "store": "sencoo",
+      "title": "Sencoo 12 pack Red Gel Ink Pens Cute Cat Pens 0.5 mm Kawaii Students Gift School Prize Boy and Girl Birthday Present Office Pens (Red)",
+      "band": 2
+    },
+    {
+      "asin": "B09TWNWJRB",
+      "rating_number": 53,
+      "average_rating": 3.7,
+      "price": 10.99,
+      "salesRank": 382600,
+      "store": "WIN-MARKET",
+      "title": "WIN-MARKET Animal Colourful llama Alpaca Sheep Gel Ink Pen Cute Kawaii Black Writing Pens Ballpoint Black Ink Gel Pen Party Gift Gel Ink Pens Funny School Stationery Office Supplies(6PCS)",
+      "band": 2
+    },
+    {
+      "asin": "B00OV0UFPK",
+      "rating_number": 46,
+      "average_rating": 4.2,
+      "price": null,
+      "salesRank": null,
+      "store": "The Board Dudes",
+      "title": "The Board Dudes Scribble Stuff Super Gel Pens - Metallic, 8 Count",
+      "band": 2
+    },
+    {
+      "asin": "B084KTFHK4",
+      "rating_number": 41,
+      "average_rating": 4.7,
+      "price": null,
+      "salesRank": 364887,
+      "store": "PILOT",
+      "title": "PILOT FriXion Ball Clicker Erasable Gel Ink Retractable Pen, Fine Point, 0.7mm, Assorted Colors, 3 Pack (Pink, Purple, Turquoise)",
+      "band": 2
+    },
+    {
+      "asin": "B093ZH72G8",
+      "rating_number": 67,
+      "average_rating": 4.1,
+      "price": null,
+      "salesRank": 370848,
+      "store": "DRPHKTT",
+      "title": "Colored Gel Pens 10 Assorted Colors Gel Ink Pens Extra Fine Point (0.5mm), Writing Drawing Journal Planner Make Notes for Adult, Students, Kids Gifts (Macarons Color) (Classic)",
+      "band": 2
+    },
+    {
+      "asin": "B09C5V93LZ",
+      "rating_number": 89,
+      "average_rating": 4.5,
+      "price": 9.99,
+      "salesRank": 146607,
+      "store": "Jisomin",
+      "title": "Jisomin 12Pcs 0.35 mm Blue Gel Ink Pens, Extra-Fine Ballpoint Pen, for Office School Stationery Supply (Blue)",
+      "band": 2
+    },
+    {
+      "asin": "B0B28XL5FQ",
+      "rating_number": 51,
+      "average_rating": 4.9,
+      "price": 12.99,
+      "salesRank": 16064,
+      "store": "WRITECH",
+      "title": "WRITECH Retractable Gel Ink Pens: Fine Point 0.7mm Assorted Color Soft Grip 8ct No Bleed & Smear Extra Smooth Writing Bullet Tip Colored Pen Set for Journaling Coloring",
+      "band": 2
+    },
+    {
+      "asin": "B07CG7W5D8",
+      "rating_number": 71,
+      "average_rating": 4.9,
+      "price": 29.03,
+      "salesRank": 99532,
+      "store": "ENERGEL",
+      "title": "EnerGel Pentel XM BL77 - Retractable Liquid Gel Ink Pen - 0.7mm - 52% Recycled - Wallet of 9 - Purple",
+      "band": 2
+    },
+    {
+      "asin": "B09PDV8NYK",
+      "rating_number": 41,
+      "average_rating": 4.3,
+      "price": 12.57,
+      "salesRank": 119077,
+      "store": "Gersoniel",
+      "title": "24 Pieces Cute Dinosaur Black Ink Pens Cartoon Writing Gel Ink Pens Animal Writing Fun Office Supplies Cute School Supplies Set for Writing Kawaii Dinosaur Stationery for Girls Teens Women Boys",
+      "band": 2
+    },
+    {
+      "asin": "B06XF2K3KT",
+      "rating_number": 58,
+      "average_rating": 4.4,
+      "price": null,
+      "salesRank": null,
+      "store": "PILOT",
+      "title": "Pilot Hi-Tec-C Maica Gel Ink Pen(LHM-15C4-L), Extra Fine Point 0.4mm, Blue Ink, Value Set of 5",
+      "band": 2
+    },
+    {
+      "asin": "B076VPBV7D",
+      "rating_number": 58,
+      "average_rating": 4.8,
+      "price": 16.99,
+      "salesRank": null,
+      "store": "Paper Mate",
+      "title": "Paper Mate InkJoy Gel Pens, Fine Point, Black, 10-Count",
+      "band": 2
+    },
+    {
+      "asin": "B00ESBWUL4",
+      "rating_number": 78,
+      "average_rating": 4.2,
+      "price": null,
+      "salesRank": 378889,
+      "store": "Sakura",
+      "title": "SAKURA Fun Writing Gel Ink Roller Ballpoint Pen for Decoration, Decorese Glitter 5 Color Set B, Spices Color (DB206G5B)",
+      "band": 2
+    },
+    {
+      "asin": "B07CN2GMTH",
+      "rating_number": 50,
+      "average_rating": 4.5,
+      "price": null,
+      "salesRank": null,
+      "store": "DPIST",
+      "title": "12 Pcs Dinosaur Gel Pens Set,Fine Point (0.5mm), Black,Best Dinosaur Gifts Party Supplies For Boys [12 Dinosaur Ink-Black ]",
+      "band": 2
+    },
+    {
+      "asin": "B075WQJL35",
+      "rating_number": 63,
+      "average_rating": 3.8,
+      "price": null,
+      "salesRank": null,
+      "store": "Reinhardt GEM",
+      "title": "Pens, RGEM Gel Ink Rollerball Black Pen, Extra Fine Point 0.5mm, 12-Count",
+      "band": 2
+    },
+    {
+      "asin": "B08L5XLNRX",
+      "rating_number": 76,
+      "average_rating": 4.7,
+      "price": null,
+      "salesRank": 293210,
+      "store": "GANSSIA",
+      "title": "GANSSIA Cats Design Gel Pens Black Ink 0.5mm Point Pen for Writing Drawing Gift Pack of 6pcs",
+      "band": 2
+    },
+    {
+      "asin": "B07258YSHR",
+      "rating_number": 67,
+      "average_rating": 4.3,
+      "price": 12,
+      "salesRank": 153217,
+      "store": "Sheaffer",
+      "title": "Sheaffer Ion Lilac Gel Rollerball Pen",
+      "band": 2
+    },
+    {
+      "asin": "B07TMBW9D8",
+      "rating_number": 84,
+      "average_rating": 4.8,
+      "price": null,
+      "salesRank": 216898,
+      "store": "Pentel",
+      "title": "Pentel EnerGel Alloy RT Premium Liquid Gel Pen, 0.7mm, Aquamarine Barrel, Black Ink, 1 Pack (BL407LSBPA) & Gel Ink Rollerball Pen 0.7mm, (BL407PBPA)",
+      "band": 2
+    },
+    {
+      "asin": "B073GQP5P8",
+      "rating_number": 48,
+      "average_rating": 4.7,
+      "price": 15.72,
+      "salesRank": 70450,
+      "store": "PILOT",
+      "title": "Pilot juice up 04 Retractable Gel Ink Pen, Ultra Fine Point 0.4mm, Blue Ink, Value Set of 10",
+      "band": 2
+    },
+    {
+      "asin": "B0141ML8QW",
+      "rating_number": 67,
+      "average_rating": 4.5,
+      "price": 6.33,
+      "salesRank": 234928,
+      "store": "uni",
+      "title": "Uni-ball signo Rubber Grip & stick Retractable Ultra Micro Point Gel Pens -0.38mm-black.blue.red. 3 Ink Pens-value set",
+      "band": 2
+    },
+    {
+      "asin": "B00347A8OY",
+      "rating_number": 85,
+      "average_rating": 4.1,
+      "price": null,
+      "salesRank": 816059,
+      "store": "BIC",
+      "title": "BIC Triumph 537RT Retractable Gel Medium Point (0.7mm) Pen, Black, 2 Gel Pens",
+      "band": 2
+    },
+    {
+      "asin": "B00VW9SYH4",
+      "rating_number": 73,
+      "average_rating": 4.5,
+      "price": 14.78,
+      "salesRank": 150554,
+      "store": "Uni-ball",
+      "title": "Uni-ball Signo Gel Ink Pen, 0.38 mm tip, Red, Pack of 10 (BC25557)",
+      "band": 2
+    },
+    {
+      "asin": "B0948VNF68",
+      "rating_number": 55,
+      "average_rating": 4.5,
+      "price": 13.99,
+      "salesRank": 88162,
+      "store": "YOOHUA",
+      "title": "YOOHUA 20PCS Mermaid Tail Gel Pens for Child, Women, Coworkers, Hostess and Girlfriend, Great Party Supplies and School Supplies, Black Ink (0.5mm)",
+      "band": 2
+    },
+    {
+      "asin": "B073GQ861T",
+      "rating_number": 53,
+      "average_rating": 4.4,
+      "price": 14.38,
+      "salesRank": 62137,
+      "store": "PILOT",
+      "title": "Pilot Juice 0.38mm Gel Ink Ballpoint Pen, Blue Black Ink, Value Set of 10",
+      "band": 2
+    },
+    {
+      "asin": "B001AX9LC4",
+      "rating_number": 48,
+      "average_rating": 4.5,
+      "price": 33,
+      "salesRank": 470819,
+      "store": "PILOT",
+      "title": "Pilot gel ink pen Timeline gel carbon black LTL-3SR-CB (japan import)",
+      "band": 2
+    },
+    {
+      "asin": "B07DRRLCYT",
+      "rating_number": 88,
+      "average_rating": 4.6,
+      "price": 30.55,
+      "salesRank": 282184,
+      "store": "Uni-ball",
+      "title": "Uni-Ball Signo 207 Retractable Gel Pen, 1.0mm Bold Point, Black, Pack of 12",
+      "band": 2
+    },
+    {
+      "asin": "B091M8N7V2",
+      "rating_number": 85,
+      "average_rating": 4.4,
+      "price": null,
+      "salesRank": 229671,
+      "store": "Liqeo",
+      "title": "Liqeo Pro Retractable Gel Pens with Instant Dry Liquid Ink - 0.7mm Medium Tip - 12 Pack - Black Gel Pens",
+      "band": 2
+    },
+    {
+      "asin": "B076PZ723Z",
+      "rating_number": 134,
+      "average_rating": 4.1,
+      "price": null,
+      "salesRank": null,
+      "store": "kyinflose",
+      "title": "kyinflose Gel Ink Pens, Metal Business Gel Ink 0.5mm Pens with 2 Extra Refills（0.7mm Black & Blue）, Stainless Steel Twist Roller Ball Gift Pens with Black Ink Medium Point, Black",
+      "band": 3
+    },
+    {
+      "asin": "B08FD22ZQK",
+      "rating_number": 176,
+      "average_rating": 4.5,
+      "price": null,
+      "salesRank": 226109,
+      "store": "ZYWL",
+      "title": "ZYWL Rocket Retractable Gel ink pens 0.5mm Fine Point (Blue Black Pen 10-Pack Blue Black Ink)",
+      "band": 3
+    },
+    {
+      "asin": "B0BMYK38YK",
+      "rating_number": 164,
+      "average_rating": 4.7,
+      "price": 13.92,
+      "salesRank": null,
+      "store": "Zebra Pen",
+      "title": "Zebra Pen G-402 Stainless Steel Retractable Gel Pen, Premium Metal Barrel, Fine Point, 0.5mm, Black and Blue Ink, 4-Pack Plus Refills, (50072)",
+      "band": 3
+    },
+    {
+      "asin": "B0797FSP33",
+      "rating_number": 102,
+      "average_rating": 4.3,
+      "price": null,
+      "salesRank": 265018,
+      "store": "uni-ball",
+      "title": "Uni-Ball 207 Retractable Gel Pen, Ultra Micro",
+      "band": 3
+    },
+    {
+      "asin": "B09ZXJV9P3",
+      "rating_number": 100,
+      "average_rating": 4.4,
+      "price": null,
+      "salesRank": 261475,
+      "store": "COLNK",
+      "title": "CONLK Gel Pens 0.5 fine point,Black Ink Pen Aesthetic for Office School Supplies,Retractable Gel Ink Rollerball Pens with Comfort Grip, Count 6",
+      "band": 3
+    },
+    {
+      "asin": "B01BBVGSTI",
+      "rating_number": 221,
+      "average_rating": 4.2,
+      "price": null,
+      "salesRank": 285837,
+      "store": "Trends International",
+      "title": "InkWorks Supernatural Gel Pens Set -- Pack of 2 Deluxe Supernatural Projector Pens (Supernatural Office Supplies)",
+      "band": 3
+    },
+    {
+      "asin": "B09Q629Y8V",
+      "rating_number": 128,
+      "average_rating": 4.4,
+      "price": 5.99,
+      "salesRank": 79340,
+      "store": "NADRQQE",
+      "title": "NADRQQE Retractable Gel Ink Pens Quick Dry Ink Pens 0.5mm Fine Point Pen, Black Ink Pens, Smooth Writing Pens for Writing Journaling Taking Notes School Office Home, Black Ink",
+      "band": 3
+    },
+    {
+      "asin": "B00CF6TRQU",
+      "rating_number": 135,
+      "average_rating": 4.5,
+      "price": 19.44,
+      "salesRank": 177563,
+      "store": "PILOT",
+      "title": "Pilot G2-7 Retractable Gel Roller Pen, Fine Pen Point Type - 0.7 mm Pen Point Size - Turquoise Ink - Translucent Barrel - Pack of 12",
+      "band": 3
+    },
+    {
+      "asin": "B072HHY2D4",
+      "rating_number": 162,
+      "average_rating": 4.4,
+      "price": 9.99,
+      "salesRank": 258505,
+      "store": "SunAngel",
+      "title": "SunAngel® Originality Fashion Designed Doll Pen Cartoon ballpoint pen，Cute Creative Stationery and Office Supplies(5PCS)",
+      "band": 3
+    },
+    {
+      "asin": "B076PZTXX1",
+      "rating_number": 134,
+      "average_rating": 4.1,
+      "price": null,
+      "salesRank": null,
+      "store": "kyinflose",
+      "title": "kyinflose pens, Smooth Gel Ink Metal Twist Roller Ball 0.5mm Black Pen Set(0.7mm Black & Blue Pen Refills), Fine Point Rose Gold",
+      "band": 3
+    },
+    {
+      "asin": "B08CVP5DK8",
+      "rating_number": 94,
+      "average_rating": 4.3,
+      "price": null,
+      "salesRank": null,
+      "store": "NIUTA",
+      "title": "NIUTA Color Pens Journal Planner Pens Fine Point Markers Tip Drawing Pens for Journaling Writing Note Taking Calendar Coloring Art Office School Supplies 24 Colors Fine liner",
+      "band": 3
+    },
+    {
+      "asin": "B00Q673UCG",
+      "rating_number": 200,
+      "average_rating": 4.2,
+      "price": 4.5,
+      "salesRank": 138135,
+      "store": "PILOT",
+      "title": "PILOT Juice 0.38mm Gel Ink Ballpoint Pen, Apricot (LJU-10UF-AO)",
+      "band": 3
+    },
+    {
+      "asin": "B00DJ4PUOA",
+      "rating_number": 130,
+      "average_rating": 4.3,
+      "price": null,
+      "salesRank": 351401,
+      "store": "Promarx",
+      "title": "Promarx MegaBold Gel Pens with Comfort Grip Rubberized Barrel, 1.0 mm, Black, 2 Count",
+      "band": 3
+    },
+    {
+      "asin": "B019Y9RMSK",
+      "rating_number": 302,
+      "average_rating": 4.6,
+      "price": 9.99,
+      "salesRank": 121274,
+      "store": "Uni-ball",
+      "title": "Uni-Ball Signo 207 Uni Super Ink Retractable Gel Pens, Ultra Micro Point 0.38mm, Blue Ink, Pack of 4 (1919993)",
+      "band": 3
+    },
+    {
+      "asin": "B078PNQNXF",
+      "rating_number": 181,
+      "average_rating": 4.4,
+      "price": null,
+      "salesRank": 358457,
+      "store": "ZEBRA",
+      "title": "Zebra Sarasa - 0.7mm Retractable Gel Ink Rollerball Pen - Set of 6 - Red Ink",
+      "band": 3
+    },
+    {
+      "asin": "B07XBRDFQW",
+      "rating_number": 272,
+      "average_rating": 4.7,
+      "price": 11.99,
+      "salesRank": 15753,
+      "store": "Kaco",
+      "title": "Kaco PURE Retractable Colored Gel Pens 20 Pieces Colorful Barrels Multi-color Ink Fine Point 0.5mm School Office Supplies Stationary",
+      "band": 3
+    },
+    {
+      "asin": "B07FYS696K",
+      "rating_number": 299,
+      "average_rating": 4.3,
+      "price": 15.19,
+      "salesRank": 137545,
+      "store": "Dong-A",
+      "title": "DONG-A Fine-Tech Gel Ink Rollerball Pen, 0.3mm, Dozen Box, Red",
+      "band": 3
+    },
+    {
+      "asin": "B01N9OJHRD",
+      "rating_number": 145,
+      "average_rating": 4.6,
+      "price": null,
+      "salesRank": null,
+      "store": "Pentel",
+      "title": "Pentel Iridescent Metallic Gel Pens 1 mm Pochette de 6 multicolored",
+      "band": 3
+    },
+    {
+      "asin": "B0C3GT2N99",
+      "rating_number": 286,
+      "average_rating": 4.3,
+      "price": 10.99,
+      "salesRank": 36642,
+      "store": "Vitoler",
+      "title": "Vitoler 8 Pack 1.0mm Colored Pens Ballpoint,Pens Fine Point Journaling Pens,Assorted Colors Pens Retractable Cute Pen for Note Taking Office School Supplies",
+      "band": 3
+    },
+    {
+      "asin": "B07BT664CL",
+      "rating_number": 96,
+      "average_rating": 4.5,
+      "price": 8.99,
+      "salesRank": 94326,
+      "store": "MEISO",
+      "title": "Cactus Shaped Rollerball Pen Cute Creative 0.5 mm Black Ink Gel Pens For Student and Office 12 Pieces by Meiso",
+      "band": 3
+    },
+    {
+      "asin": "B076P8JBJ1",
+      "rating_number": 151,
+      "average_rating": 4.3,
+      "price": null,
+      "salesRank": null,
+      "store": "Caliart",
+      "title": "Caliart Retractable Gel Ink Rollerball Pens Black Gel Pens Fine Ballpoint Pens for Smooth Writing with Comfort Grip, 25 Count (0.5 mm)",
+      "band": 3
+    },
+    {
+      "asin": "B005HNZ5Z0",
+      "rating_number": 93,
+      "average_rating": 4.6,
+      "price": null,
+      "salesRank": null,
+      "store": "Uni-ball",
+      "title": "uni-ball 207 Retractable Gel Pens, Bold Point (1.0mm), Black, 4 Count",
+      "band": 3
+    },
+    {
+      "asin": "B0B45SMJJC",
+      "rating_number": 161,
+      "average_rating": 3.6,
+      "price": null,
+      "salesRank": 239488,
+      "store": "UIXJODO",
+      "title": "Gel Pens, 10 Pcs Cute Pens for Journaling and Note Taking, 0.5mm Retractable Black Ink Pens Fine Point Smooth Writing Pens, Kawaii Stationary Aesthetic School and Office Supplies for Women (Macaron)",
+      "band": 3
+    },
+    {
+      "asin": "B01CV43978",
+      "rating_number": 146,
+      "average_rating": 4,
+      "price": null,
+      "salesRank": null,
+      "store": "AmazaPens",
+      "title": "CLEARANCE Gel Pens 60 Value Pack, 40% More Ink than Other Sets, Top Quality Coloring Pens for Adult Coloring Books, 47 Unique Colors, Best Gift - Includes Glitter, Neon, Pastel, Flouro & Metallic",
+      "band": 3
+    },
+    {
+      "asin": "B09S1FSDBS",
+      "rating_number": 265,
+      "average_rating": 4.8,
+      "price": 14.97,
+      "salesRank": 21674,
+      "store": "Pentel",
+      "title": "Pentel EnerGel 0.7 mm Liquid Gel Ink Pens - Pack of 5 Pink Deluxe RTX Energel Pens with 3 Refills",
+      "band": 3
+    },
+    {
+      "asin": "B0BZW3268Z",
+      "rating_number": 276,
+      "average_rating": 4.7,
+      "price": 12.55,
+      "salesRank": 87929,
+      "store": "PILOT",
+      "title": "Pilot FriXion ColorSticks Erasable Gel Ink Pens, Fine Point, Black and Blue Inks, 8 Count (16435)",
+      "band": 3
+    },
+    {
+      "asin": "B004J0VBBY",
+      "rating_number": 138,
+      "average_rating": 4.5,
+      "price": 6.49,
+      "salesRank": 181198,
+      "store": "PILOT",
+      "title": "PILOT G2 Premium Refillable & Retractable Rolling Ball Gel Pens, Fine Point, Black Ink, 3-Pack (31123)",
+      "band": 3
+    },
+    {
+      "asin": "B07R112J3K",
+      "rating_number": 244,
+      "average_rating": 4.7,
+      "price": 11.68,
+      "salesRank": 45511,
+      "store": "Pentel",
+      "title": "Pentel EnerGel 0.5mm Needle Tip Green Ink Liquid Gel Pens (BLN75-D) - 6 Pack",
+      "band": 3
+    },
+    {
+      "asin": "B06XF41HHH",
+      "rating_number": 188,
+      "average_rating": 4.7,
+      "price": 9.99,
+      "salesRank": 21486,
+      "store": "PILOT",
+      "title": "Pilot Juice 038 Retractable Gel Ink Pen (LJU-10UF), Ultra Fine Point, 0.38mm, Black Ink, Set of 10",
+      "band": 3
+    },
+    {
+      "asin": "B087MBTLLJ",
+      "rating_number": 160,
+      "average_rating": 4.4,
+      "price": null,
+      "salesRank": 299290,
+      "store": "MyLifeUNIT",
+      "title": "MyLifeUNIT Rolling Ball Pens, 8 Pieces Quick-drying Ink Retro Pens, 0.5 mm Extra Fine Point Pens with 6 Assorted Colors",
+      "band": 3
+    },
+    {
+      "asin": "B0845SB4X7",
+      "rating_number": 97,
+      "average_rating": 4.4,
+      "price": null,
+      "salesRank": 122931,
+      "store": "TUL",
+      "title": "TUL® GL Series Retractable Gel Pens, Bold Point, 1.0 mm, Silver Barrel, Assorted Ink Colors, Pack Of 12 Pens",
+      "band": 3
+    },
+    {
+      "asin": "B08C5N5SX8",
+      "rating_number": 122,
+      "average_rating": 4.3,
+      "price": 7.99,
+      "salesRank": 106848,
+      "store": "sencoo",
+      "title": "Sencoo 24-Pack 0.38 mm Black Gel Ink Pen Replace Refills",
+      "band": 3
+    },
+    {
+      "asin": "B0853D1NQZ",
+      "rating_number": 232,
+      "average_rating": 4.8,
+      "price": 16.99,
+      "salesRank": 66536,
+      "store": "SHARPIE",
+      "title": "Sharpie® S Gel Pens, Medium Point, 0.7 mm, Black Barrels, Assorted Ink, Pack Of 12 Pens",
+      "band": 3
+    },
+    {
+      "asin": "B00VUYJO2A",
+      "rating_number": 113,
+      "average_rating": 4.4,
+      "price": 12,
+      "salesRank": 150252,
+      "store": "Uni-ball",
+      "title": "Uni-ball Signo UM-100 Gel Ink Pen - 0.5 mm -10 Pcs (Blue)",
+      "band": 3
+    },
+    {
+      "asin": "B08R3J484N",
+      "rating_number": 234,
+      "average_rating": 4.4,
+      "price": 8.99,
+      "salesRank": 45514,
+      "store": "AIHAO",
+      "title": "AIHAO Gel Pens, Medium Point, Black Ink, 12 Pack, Retractable Gel Ink Rollerball Pens with Premium Ink & Comfortable Grip for Smooth Writing, Quick Dry Ink Pen, 0.7mm…",
+      "band": 3
+    },
+    {
+      "asin": "B00ZZZX2SM",
+      "rating_number": 100,
+      "average_rating": 4.7,
+      "price": 13.98,
+      "salesRank": 71649,
+      "store": "Pentel",
+      "title": "2 X Pentel Energel Retractable Roller Ball, 0.7 mm Line Size, Chrome Barrel, Black (BL407-A) (SILVER, 2)",
+      "band": 3
+    },
+    {
+      "asin": "B079H46BZK",
+      "rating_number": 121,
+      "average_rating": 4.8,
+      "price": 22.99,
+      "salesRank": 261766,
+      "store": "TUL",
+      "title": "TUL Limited Edition Brights Retractable Gel Pens, Medium Point, 0.7 mm, Assorted Barrel Colors, Assorted Ink Colors, Pack of 4",
+      "band": 3
+    },
+    {
+      "asin": "B07Z79DKWG",
+      "rating_number": 218,
+      "average_rating": 4.2,
+      "price": null,
+      "salesRank": 224874,
+      "store": "RECHENG",
+      "title": "RECHENG cute gel ink Milky cow pens,crystal diamond ink refills,12 colors 0.35mm extra fine ballpoint pens,colorful writing pens,Best gift for School Office Student Supplies… (Milky cow 12pcs)",
+      "band": 3
+    },
+    {
+      "asin": "B08VH5VHNF",
+      "rating_number": 124,
+      "average_rating": 4.2,
+      "price": null,
+      "salesRank": 289742,
+      "store": "Tirmrin",
+      "title": "Cute Black Gel Pen, Tirmrin 10 Pack Retractable Kawaii Pens Gift for Women Gel Ink 0.5 mm Pens Smooth Writing with Cushion Grip for Office School Office Supplies",
+      "band": 3
+    },
+    {
+      "asin": "B00NURSAD4",
+      "rating_number": 124,
+      "average_rating": 4.4,
+      "price": null,
+      "salesRank": 346600,
+      "store": "Cello",
+      "title": "Cello Smooth Ball Point Pens 10 pack, Black Noir, 1.0 mm",
+      "band": 3
+    },
+    {
+      "asin": "B075GVJFXC",
+      "rating_number": 249,
+      "average_rating": 4.5,
+      "price": null,
+      "salesRank": null,
+      "store": "ECR4Kids",
+      "title": "GelWriter 72-Count Gel Pens in Canvas Wrap - Metallic, Glitter, Neon, Pastel - 72 Unique Colors with Comfort Grips, Natural",
+      "band": 3
+    },
+    {
+      "asin": "B00IIVA274",
+      "rating_number": 213,
+      "average_rating": 4.6,
+      "price": 13.95,
+      "salesRank": 100381,
+      "store": "PILOT",
+      "title": "Pilot Frixion Point Gel Ink Stick Pens, Erasable, Extra Fine Point 0.5mm, Blue Ink, Pack of 3 with Bundle Refills",
+      "band": 3
+    },
+    {
+      "asin": "B09NQZWQ5Z",
+      "rating_number": 210,
+      "average_rating": 4.3,
+      "price": 12.99,
+      "salesRank": 205152,
+      "store": "STAPENS",
+      "title": "STAPENS 10 Colored Gel Ink Pens, 0.5 mm Fine Point Gel Pen with Quick Dry Ink, Retro Ballpoint Pens for Journaling Drawing Doodling and Notetaking",
+      "band": 3
+    },
+    {
+      "asin": "B07GTTC2GG",
+      "rating_number": 96,
+      "average_rating": 4.4,
+      "price": 11.99,
+      "salesRank": 225878,
+      "store": "sencoo",
+      "title": "Sencoo 24 Pieces Cute Cat Pen 0.5 mm Gel Pens Black Ball Point Pens School Office Supplies School Birthday Gift",
+      "band": 3
+    },
+    {
+      "asin": "B099ZSZTZ2",
+      "rating_number": 112,
+      "average_rating": 4.2,
+      "price": 10.99,
+      "salesRank": 223599,
+      "store": "Vitoler",
+      "title": "Vitoler Erasable Gel Pens, Retractable Erasable Gel Pen Clicker, Fine Point 0.7 mm, Smooth Ink for Drawing Writing Completing Sudoku and Crossword Puzzles (8 Black/2 Blue)",
+      "band": 3
+    },
+    {
+      "asin": "B06ZYF2LMM",
+      "rating_number": 146,
+      "average_rating": 4.2,
+      "price": 6.95,
+      "salesRank": 70757,
+      "store": "Sheaffer",
+      "title": "Sheaffer Ion Red Gel Rollerball Pen",
+      "band": 3
+    },
+    {
+      "asin": "B06WD7Z3BV",
+      "rating_number": 205,
+      "average_rating": 4.6,
+      "price": 11.98,
+      "salesRank": 81151,
+      "store": "Pilot",
+      "title": "Pilot FriXion Ball Knock Retractable Erasable Gel Ink Pens, Extra Fine Point 0.5mm, Green Ink, 3 Pens & 6 Refills Value Set",
+      "band": 3
+    },
+    {
+      "asin": "B0BDLRVMQT",
+      "rating_number": 163,
+      "average_rating": 4.7,
+      "price": 18.49,
+      "salesRank": 20548,
+      "store": "WRITECH",
+      "title": "Writech Journaling Pens Set, Includes 4 Retractable Highlighters, 4 Retractable Gel Ink Pens, and 4 Brush Pens, No Bleed Assorted Colors, 12-Count (Vintage Set)",
+      "band": 3
+    },
+    {
+      "asin": "B00F90R9S2",
+      "rating_number": 112,
+      "average_rating": 4.4,
+      "price": 17.5,
+      "salesRank": 66023,
+      "store": "PILOT",
+      "title": "Pilot Frixion Ball Slim Retractable Erasable Gel Ink Pens,fine Point, 0.38 Mm - Black Ink- Value Pack of 10",
+      "band": 3
+    },
+    {
+      "asin": "B07JKKXTG9",
+      "rating_number": 167,
+      "average_rating": 4.4,
+      "price": null,
+      "salesRank": 463859,
+      "store": "Arkin",
+      "title": "Super Cute Flamingo Pen Black Ink Gel Kawaii Cool Creative Ballpoint Rollerball Pens Roller Ball Fine Point Writing Stationery School Office Supply Deco Ballpen 0.5mm, 12Pcs Set Arkin",
+      "band": 3
+    },
+    {
+      "asin": "B09MT26211",
+      "rating_number": 1309,
+      "average_rating": 4.7,
+      "price": null,
+      "salesRank": 15096,
+      "store": "Uni-ball",
+      "title": "uni-ball 207 Plus+ Retractable Gel Pens, Medium Point (0.7mm), Blue, 4 Count",
+      "band": 4
+    },
+    {
+      "asin": "B08XPZ22QQ",
+      "rating_number": 1387,
+      "average_rating": 4.6,
+      "price": 3.19,
+      "salesRank": 247849,
+      "store": "Pentel",
+      "title": "Pentel 0.7 mm Energel Refillable Retractable Pen - Black",
+      "band": 4
+    },
+    {
+      "asin": "B09473SR28",
+      "rating_number": 502,
+      "average_rating": 4.6,
+      "price": null,
+      "salesRank": 235459,
+      "store": "CC-Los",
+      "title": "CC-Los Japan Style Gel Ink Rollerball Pens 0.38mm 8 Colors/Black Pack Office School Stationery Supply",
+      "band": 4
+    },
+    {
+      "asin": "B07H3MYQVR",
+      "rating_number": 1337,
+      "average_rating": 4.8,
+      "price": 24.46,
+      "salesRank": 9512,
+      "store": "Pentel",
+      "title": "Pentel 0.7 mm Energel Xm Gel Pen Retractable - Red (Pack of 12)",
+      "band": 4
+    },
+    {
+      "asin": "B00CWX3JTC",
+      "rating_number": 2478,
+      "average_rating": 4.7,
+      "price": 17.99,
+      "salesRank": 20416,
+      "store": "PILOT",
+      "title": "PILOT Frixion Ball Knock Retractable Gel Ink Pen, 0.5mm, 10 Colors (LFBK-230EF-10C)",
+      "band": 4
+    },
+    {
+      "asin": "B0B6F43MLT",
+      "rating_number": 1107,
+      "average_rating": 4.2,
+      "price": 10.99,
+      "salesRank": 25345,
+      "store": "Zonon",
+      "title": "24 Pieces Gel Ink Refills Erasable Gel Refills for Erasable Gel Ink Pens, Fine Point 0.7 mm (Black)",
+      "band": 4
+    },
+    {
+      "asin": "B08ZJLYQ2K",
+      "rating_number": 421,
+      "average_rating": 4.7,
+      "price": null,
+      "salesRank": 55438,
+      "store": "SHARPIE",
+      "title": "SHARPIE S-Gel Retractable Gel Pens, Bold Point, Assorted Ink, 4/Pack (2116198)",
+      "band": 4
+    },
+    {
+      "asin": "B06Y3T81ZZ",
+      "rating_number": 720,
+      "average_rating": 4.8,
+      "price": 9.3,
+      "salesRank": 33228,
+      "store": "PILOT",
+      "title": "Pilot Hi-Tec-C 04 Gel Ink Pen, Ultra Fine Point 0.4mm, Black Ink, LH-20C4, Value Set of 5",
+      "band": 4
+    },
+    {
+      "asin": "B081CVPDKL",
+      "rating_number": 1024,
+      "average_rating": 4.4,
+      "price": 8.99,
+      "salesRank": 18085,
+      "store": "WallDeca",
+      "title": "WallDeca Gel Pens | 12 Count, Fine Point Tip (0.5mm), Assorted Rainbow Colors, Retractable | Made for Everyday Writing, Journals, Notes and Doodling",
+      "band": 4
+    },
+    {
+      "asin": "B07SD41LL9",
+      "rating_number": 481,
+      "average_rating": 4.4,
+      "price": 11.99,
+      "salesRank": 121748,
+      "store": "ParKoo",
+      "title": "ParKoo Gel Ink Refills Compatible with FriXion and Friction Erasable Gel Pens, Fine Point 0.7 mm, 7 Colors, Pack of 14",
+      "band": 4
+    },
+    {
+      "asin": "B09K4GCV4B",
+      "rating_number": 2862,
+      "average_rating": 4.8,
+      "price": 12.49,
+      "salesRank": 58259,
+      "store": "Paper Mate",
+      "title": "Paper Mate InkJoy Gel Pens, Fine Point, Black, 8 Count",
+      "band": 4
+    },
+    {
+      "asin": "B08G38RDT1",
+      "rating_number": 1071,
+      "average_rating": 4.9,
+      "price": 25.97,
+      "salesRank": 20228,
+      "store": "BIC",
+      "title": "BIC Gel-ocity Quick Dry (Dries Up To 3x Faster) SUPER BRIGHT COLORS 24 Pack, Smear Free, Assorted Colors Retractable Gel Pens, Medium Point 0.7mm, Colorful Pens for adults Women & Men",
+      "band": 4
+    },
+    {
+      "asin": "B01MDV83H9",
+      "rating_number": 430,
+      "average_rating": 4.9,
+      "price": 42.99,
+      "salesRank": 10734,
+      "store": "PILOT",
+      "title": "PILOT G2 Premium Gel Pen Convenience Pack, Retractable, Fine 0.7 Mm, Blue Ink, Blue Barrel, 36/pack",
+      "band": 4
+    },
+    {
+      "asin": "B01F457W8I",
+      "rating_number": 561,
+      "average_rating": 4.7,
+      "price": 9.77,
+      "salesRank": 38818,
+      "store": "PILOT",
+      "title": "Pilot P-700 Rollerball Stick Gel Pen, Black Ink, Fine 0.7 mm, 6 Pens",
+      "band": 4
+    },
+    {
+      "asin": "B0CCSZCX5F",
+      "rating_number": 1318,
+      "average_rating": 4.8,
+      "price": 10.99,
+      "salesRank": 12904,
+      "store": "uni-ball",
+      "title": "Uniball Signo 207 Impact RT Retractable Gel Pen, 4 Black Pens, 1.0mm Bold Point Gel Pens| Office Supplies by Uni-ball like Ink Pens, Colored Pens, Fine Point, Smooth Writing Pens, Ballpoint Pens",
+      "band": 4
+    },
+    {
+      "asin": "B0BTPHHW1W",
+      "rating_number": 18119,
+      "average_rating": 4.7,
+      "price": 14.99,
+      "salesRank": 738,
+      "store": "SHARPIE",
+      "title": "SHARPIE S-Gel, Gel Pens, Fine Point (0.5mm), Black Ink Gel Pen, 12 Count",
+      "band": 4
+    },
+    {
+      "asin": "B08XRXQY72",
+      "rating_number": 323,
+      "average_rating": 4.6,
+      "price": 9.75,
+      "salesRank": 23033,
+      "store": "Zebra Pen",
+      "title": "Zebra Pen G-402 Retractable Gel Pen, Stainless Steel Barrel, Fine Point, 0.5mm, Blue Ink, 2-Pack",
+      "band": 4
+    },
+    {
+      "asin": "B0BZW3C1TJ",
+      "rating_number": 934,
+      "average_rating": 4.5,
+      "price": 25.1,
+      "salesRank": 21797,
+      "store": "PILOT",
+      "title": "Pilot, FriXion Clicker Erasable Gel Pens, Bold Point 1 mm, Pack of 12, Blue",
+      "band": 4
+    },
+    {
+      "asin": "B085XGFTFS",
+      "rating_number": 1968,
+      "average_rating": 4.7,
+      "price": 18.99,
+      "salesRank": 10532,
+      "store": "Zebra Pen",
+      "title": "Zebra Pen Sarasa Dry X20 Retractable Gel Pen, Medium Point, 0.7mm, Black Ink, 10-Pack (Packaging May Vary)",
+      "band": 4
+    },
+    {
+      "asin": "B081N4B1TB",
+      "rating_number": 914,
+      "average_rating": 4.6,
+      "price": null,
+      "salesRank": 206940,
+      "store": "Outus",
+      "title": "7 Pieces Japanese Styled Pen Set Gel Ink Ballpoint Pen Fine Tip Mechanical Pencil Plastic Pencil Case with Eraser Ruler for Student School Office Stationery (Yellow)",
+      "band": 4
+    },
+    {
+      "asin": "B00898F7HQ",
+      "rating_number": 1479,
+      "average_rating": 4.6,
+      "price": 3.49,
+      "salesRank": 10890,
+      "store": "Zebra Pen",
+      "title": "Zebra Pen G-301 Stainless Steel Retractable Gel Pen, Medium Point, 0.7mm, Blue Ink, 2-Count, 2 Pack (41322)",
+      "band": 4
+    },
+    {
+      "asin": "B07485X95K",
+      "rating_number": 3274,
+      "average_rating": 4.5,
+      "price": 8.99,
+      "salesRank": 13279,
+      "store": "ParKoo",
+      "title": "ParKoo Retractable Erasable Gel Pens Clicker, Fine Point, No Need for White Out, Assorted Color Inks for Planners and Crossword Puzzles, 7-Pack",
+      "band": 4
+    },
+    {
+      "asin": "B077NDWJ7D",
+      "rating_number": 488,
+      "average_rating": 4.5,
+      "price": 32.23,
+      "salesRank": 76306,
+      "store": "Stationery JP",
+      "title": "Zebra Sarasa Clip 0.3 Retractable Gel Ink Pen, Rubber Grip, 0.3 mm, 20 Color Ink, Sticky Notes Value Set",
+      "band": 4
+    },
+    {
+      "asin": "B01JOAW0Z4",
+      "rating_number": 391,
+      "average_rating": 4.6,
+      "price": 28,
+      "salesRank": 100767,
+      "store": "Kaisercraft",
+      "title": "Kaisercraft Gel Pen Set-Pastel, Glitter, Metallic, Neon-48, Multi-Colour, 28 x 17 x 3 cm",
+      "band": 4
+    },
+    {
+      "asin": "B01N2QZI5O",
+      "rating_number": 1170,
+      "average_rating": 4.7,
+      "price": 8.99,
+      "salesRank": 8206,
+      "store": "Uni-ball",
+      "title": "Uni-Ball Signo 207 Retractable Gel Pen, 0.5mm Micro Point, Black, Pack of 6",
+      "band": 4
+    },
+    {
+      "asin": "B08WX7PYZS",
+      "rating_number": 1346,
+      "average_rating": 4.7,
+      "price": 4.88,
+      "salesRank": 19625,
+      "store": "Zebra Pen",
+      "title": "Zebra Pen G-301 Retractable Gel Ink Pen, Stainless Steel Barrel, Medium Point, 0.7mm, Black Ink, 2-Pack",
+      "band": 4
+    },
+    {
+      "asin": "B009ZQBIVU",
+      "rating_number": 492,
+      "average_rating": 4.5,
+      "price": 7.95,
+      "salesRank": 170596,
+      "store": "InkWorks",
+      "title": "InkWorks Wonder Woman Gel Pens, 2 Count",
+      "band": 4
+    },
+    {
+      "asin": "B09YRBY4V3",
+      "rating_number": 2480,
+      "average_rating": 4.3,
+      "price": 15.99,
+      "salesRank": 6300,
+      "store": "Vitoler",
+      "title": "Vitoler Retractable Erasable Gel Pens, 0.7mm Fine Point Colored Pens, Make Mistakes Disappear, 16 Pack Assorted Color Gel Ink Pens for Journaling Writing Planner, Crossword Puzzles,School Supplies",
+      "band": 4
+    },
+    {
+      "asin": "B01B25B4AQ",
+      "rating_number": 1450,
+      "average_rating": 4.8,
+      "price": 30.88,
+      "salesRank": 61898,
+      "store": "Pentel",
+      "title": "Pentel Libretto Roller Gel Pen, Rose Gold, Black Ink with Gift Box, Pen 0.7mm, 1 Count(Pack of 1) (K600PG-A)",
+      "band": 4
+    },
+    {
+      "asin": "B07HPZ9LFY",
+      "rating_number": 453,
+      "average_rating": 4.7,
+      "price": 4.79,
+      "salesRank": 36555,
+      "store": "Pentel",
+      "title": "Pentel Gel Pen, Energel Clena, Body and Brown Ink, 0.5mm",
+      "band": 4
+    },
+    {
+      "asin": "B089ZQCG1D",
+      "rating_number": 323,
+      "average_rating": 4.7,
+      "price": null,
+      "salesRank": 239588,
+      "store": "Paper Mate",
+      "title": "Paper Mate InkJoy Gel Pens Medium Point (0.7mm) Capped, 12 Count, Assorted Colors",
+      "band": 4
+    },
+    {
+      "asin": "B07GPDR71T",
+      "rating_number": 1758,
+      "average_rating": 4.7,
+      "price": 8.99,
+      "salesRank": 9265,
+      "store": "Aimyoo",
+      "title": "Aimyoo Pack of 30 Cactus Shaped Ballpoint Black 0.5mm Gel Ink Rollerball Pen for School Home Office",
+      "band": 4
+    },
+    {
+      "asin": "B0BY9LKRJS",
+      "rating_number": 416,
+      "average_rating": 4.5,
+      "price": 25.95,
+      "salesRank": 18521,
+      "store": "LEUCHTTURM1917",
+      "title": "LEUCHTTURM1917 - Drehgriffel Writing Pen (Rising Sun) - Ballpoint Pen with Royal Blue Ink Included",
+      "band": 4
+    },
+    {
+      "asin": "B09SQ2VCR3",
+      "rating_number": 4303,
+      "average_rating": 4.5,
+      "price": 7.5,
+      "salesRank": 58004,
+      "store": "SHARPIE",
+      "title": "SHARPIE S-Gel | Gel Pens | Medium Point (0.7mm) | Black Ink | 3 Count",
+      "band": 4
+    },
+    {
+      "asin": "B06XTNTFQ1",
+      "rating_number": 308,
+      "average_rating": 4.4,
+      "price": 18.89,
+      "salesRank": 21951,
+      "store": "PILOT",
+      "title": "Pilot juice up 03 Retractable Gel Ink Pen, Hyper Fine Point 0.3mm, LJP-20S3, 10 Color Set",
+      "band": 4
+    },
+    {
+      "asin": "B09FFYRRP7",
+      "rating_number": 706,
+      "average_rating": 4.4,
+      "price": null,
+      "salesRank": 91759,
+      "store": "PILOT",
+      "title": "PILOT FriXion Point Erasable & Refillable Gel Ink Pens, Extra Fine Point, Purple Ink, 12-Pack (31584)",
+      "band": 4
+    },
+    {
+      "asin": "B08HD6B57S",
+      "rating_number": 476,
+      "average_rating": 4.6,
+      "price": 9.99,
+      "salesRank": null,
+      "store": "deli",
+      "title": "deli 12 Pack Black Rolling Ball Pens, Fine Point Pens, 0.5mm Liquid Ink Pens, Quick Dry, No Smear No Bleed Pens",
+      "band": 4
+    },
+    {
+      "asin": "B08DTFXFG8",
+      "rating_number": 505,
+      "average_rating": 4.5,
+      "price": 18.29,
+      "salesRank": 32940,
+      "store": "BIC",
+      "title": "BIC SUPER SMOOTH Gel-ocity gel pens, Bulk Pack Of 24 Ink Pens, 12 Black And 12 Blue Retractable Gel Pens, Medium Point 0.7 mm, 24-count",
+      "band": 4
+    },
+    {
+      "asin": "B08HSLJ8N8",
+      "rating_number": 502,
+      "average_rating": 4.6,
+      "price": null,
+      "salesRank": 198199,
+      "store": "CC-Los",
+      "title": "Japan Style Gel Ink Rollerball Pens 0.5mm 12 Colors/Black Pack Office School Stationery Supply (Black)",
+      "band": 4
+    },
+    {
+      "asin": "B0C39C7SXR",
+      "rating_number": 7190,
+      "average_rating": 4.8,
+      "price": 15.17,
+      "salesRank": 5836,
+      "store": "PILOT",
+      "title": "PILOT G2 Metallics Refillable and Retractable Rolling Ball Gel Pens, Fine Point, Assorted Color Inks, 8-Pack Pouch (34405)",
+      "band": 4
+    },
+    {
+      "asin": "B00N6GKU64",
+      "rating_number": 347,
+      "average_rating": 4.1,
+      "price": null,
+      "salesRank": 260015,
+      "store": "NYKKOLA",
+      "title": "NYKKOLA Cute Color Pens for Women Colorful Gel Ink Pens Multi Colored Pens for Bullet Journal Writing Roller Ball Fine Point Pens for Kids Girls Children Students Teens Gifts 10 Pcs (0.5 mm)",
+      "band": 4
+    },
+    {
+      "asin": "B07D111G2Y",
+      "rating_number": 346,
+      "average_rating": 4.3,
+      "price": null,
+      "salesRank": 250465,
+      "store": "Buytra",
+      "title": "Buytra 24 Pack Cute Cat Paw Prints Gel Roller Ball Pens with 0.5mm Fine Point, Black Ink, Stationery Office Supplies, Back to School, Birthday Gift for Kids",
+      "band": 4
+    },
+    {
+      "asin": "B0B1VM1C6L",
+      "rating_number": 434,
+      "average_rating": 4.3,
+      "price": 18.69,
+      "salesRank": 2562,
+      "store": "KEIFUKUH",
+      "title": "Fathers Day Dad Gifts for Men - Fidget Gel Pens Birthday Gifts for Teenage Boys, Fun Gifts for Him and Kids, Mens Gifts for Dad, Personalised Gadget for Women Gifts, Unique Teen Girl Gifts (Black)",
+      "band": 4
+    },
+    {
+      "asin": "B0BYW9V4JL",
+      "rating_number": 11778,
+      "average_rating": 4.8,
+      "price": 9.83,
+      "salesRank": 422,
+      "store": "Paper Mate",
+      "title": "Paper Mate InkJoy Pens, Gel Pens, Medium Point (0.7 mm), Black, 10 Count",
+      "band": 4
+    },
+    {
+      "asin": "B09MT2593M",
+      "rating_number": 407,
+      "average_rating": 4.6,
+      "price": 8.73,
+      "salesRank": 45166,
+      "store": "Uni-ball",
+      "title": "uni-ball 307 Retractable Gel Pens, Micro Point (0.5mm), Assorted, 3 Count",
+      "band": 4
+    },
+    {
+      "asin": "B085XP8GWR",
+      "rating_number": 2222,
+      "average_rating": 4.6,
+      "price": 16.38,
+      "salesRank": 18547,
+      "store": "Zebra Pen",
+      "title": "Zebra Pen Sarasa Dry X20 Retractable Gel Pen, Fine Point, 0.5mm, Red Ink, 12-Pack",
+      "band": 4
+    },
+    {
+      "asin": "B095M3J1M7",
+      "rating_number": 919,
+      "average_rating": 4.8,
+      "price": 17.18,
+      "salesRank": null,
+      "store": "uni-ball",
+      "title": "Signo Gel 207 Roller Ball Retractable Gel Pen, Blue Ink, 0.7MM, Dozen",
+      "band": 4
+    },
+    {
+      "asin": "B09QSN8ZV9",
+      "rating_number": 326,
+      "average_rating": 4.6,
+      "price": 10.99,
+      "salesRank": 13279,
+      "store": "JOBONUS",
+      "title": "Rollerball Pen Fine Point Pens: 16 Pack 0.5mm Rollerball Pen, Extra Fine Point Pens Black Liquid Gel Ink Pen Set, Fine Tip Pens for Writing, Note Taking, Signature, Office, Journaling, School Supplies",
+      "band": 4
+    },
+    {
+      "asin": "B07NDXWD1F",
+      "rating_number": 608,
+      "average_rating": 4,
+      "price": 11.66,
+      "salesRank": 50877,
+      "store": "Zebra Pen",
+      "title": "Zebra Pen Sarasa Clip Retractable Gel Pen, Fine Point, 0.5mm, Milk Assorted Colors, 8-Pack",
+      "band": 4
+    },
+    {
+      "asin": "B09FG1JDTM",
+      "rating_number": 1232,
+      "average_rating": 4.7,
+      "price": 29.79,
+      "salesRank": 44152,
+      "store": "PILOT",
+      "title": "PILOT FriXion Ball LX Erasable, Refillable & Retractable Gel Ink Pen, Fine Point, Lime Green Barrel, Blue Ink, Single Pen (34455)",
+      "band": 4
+    }
+  ]
+}
