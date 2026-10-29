@@ -22,7 +22,9 @@
     "web:build": "bun run --cwd apps/web build",
     "diagrams": "bun diagrams/build.ts",
     "study": "bun study/run.ts && bun study/analyze.ts && bun study/chart.ts",
-    "study:record": "bun study/run.ts --record"
+    "study:record": "bun study/run.ts --record",
+    "docker:build": "docker build -t answerable-api .",
+    "docker:run": "docker run --rm -p 4100:4100 --add-host=host.docker.internal:host-gateway -e DATABASE_URL=mysql://root:answerable@host.docker.internal:3317/answerable_docker -e REDIS_URL=redis://host.docker.internal:6389 -e REDIS_PREFIX=answerable-docker -e WEB_ORIGIN=http://localhost:5181 answerable-api"
   },
   "devDependencies": {
     "@types/bun": "latest",

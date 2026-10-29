@@ -1,0 +1,20 @@
+# Allow-list: the image gets only what the API and worker need, and nothing local.
+*
+!package.json
+!bun.lockb
+!tsconfig.base.json
+!packages
+!apps/api
+!apps/worker
+!apps/cli/package.json
+!apps/web/package.json
+!fixtures
+
+**/node_modules
+**/dist
+**/*.tsbuildinfo
+**/.env
+**/.env.*
+**/test-results
+**/playwright-report
+.DS_Store
