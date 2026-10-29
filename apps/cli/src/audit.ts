@@ -33,6 +33,13 @@ if (!asin) {
   process.exit(1);
 }
 
+// A live run spends real API calls, so say plainly what's missing instead of failing deep inside.
+const missingKeys = [record && !process.env.GEMINI_API_KEY && "GEMINI_API_KEY", live && !process.env.SERPAPI_KEY && "SERPAPI_KEY"].filter(Boolean);
+if (missingKeys.length > 0) {
+  console.error(`${live ? "--live" : "--record"} needs ${missingKeys.join(" and ")} in .env. Without keys, leave the flag off to replay saved audits.`);
+  process.exit(1);
+}
+
 const gemini = record ? new GeminiLlm({ apiKey: process.env.GEMINI_API_KEY ?? "", retry: PATIENT_RETRY }) : null;
 const llm = new CachedLlm(gemini, join(FIXTURES, "llm"), record ? "record" : "replay");
 const stores = fsStores({
