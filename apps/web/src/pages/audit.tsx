@@ -3,6 +3,7 @@ import { CircleAlertIcon } from "lucide-react";
 import { useMemo, useState } from "react";
 import { Link, useParams } from "react-router";
 import { useAudit } from "@/api/hooks";
+import { usePastCap } from "@/api/use-past-cap";
 import { Page } from "@/components/app-shell";
 import { FixList } from "@/components/report/fix-list";
 import { GapMatrix } from "@/components/report/gap-matrix";
@@ -20,19 +21,56 @@ import { cn } from "@/lib/utils";
 export function AuditPage() {
   const { id = "" } = useParams();
   const audit = useAudit(id);
+  const retry = () => void audit.refetch();
+  const pending = audit.data !== undefined && audit.data.status !== "done" && audit.data.status !== "failed";
+  const stalled = usePastCap(audit.data?.createdAt, pending);
 
-  if (audit.isPending) return <Progress status="queued" asin={null} note={undefined} />;
-  if (audit.isError) return <Failed title="Couldn't load this audit" message={audit.error.message} />;
+  // An error only takes the page over when there's nothing to show yet; a failed poll of a
+  // running audit keeps the progress view and retries in the background.
+  if (audit.data === undefined) {
+    if (audit.isError) return <Failed title="Couldn't load this audit" message={audit.error.message} onRetry={retry} retrying={audit.isFetching} />;
+    return <Progress status="queued" asin={null} note={undefined} />;
+  }
 
   const job = audit.data;
   if (job.status === "failed") return <Failed title={`The audit of ${job.asin} failed`} message={job.error?.message ?? "No reason was given."} code={job.error?.code} />;
-  if (job.status !== "done" || !job.report) return <Progress status={job.status} asin={job.asin} note={job.note} />;
+  if (job.status !== "done" || !job.report) {
+    return (
+      <Progress
+        status={job.status}
+        asin={job.asin}
+        note={job.note}
+        stalled={stalled}
+        connection={audit.isError ? audit.error.message : undefined}
+        onRefresh={retry}
+        refreshing={audit.isFetching}
+      />
+    );
+  }
   return <ReportView report={job.report} auditId={job.id} />;
 }
 
 const STEPS = ["Fetch the listing", "Pick the category's shopper questions", "Grade every question and check each quote", "Read the images for hidden answers", "Grade competitors", "Draft the fix list"];
 
-function Progress({ status, asin, note }: { status: AuditJob["status"]; asin: string | null; note: string | undefined }) {
+function Progress({
+  status,
+  asin,
+  note,
+  stalled = false,
+  connection,
+  onRefresh,
+  refreshing = false,
+}: {
+  status: AuditJob["status"];
+  asin: string | null;
+  note: string | undefined;
+  /** Polled past the cap: polling stopped, so offer a manual refresh. */
+  stalled?: boolean;
+  /** The last poll's error, while it retries. */
+  connection?: string | undefined;
+  onRefresh?: () => void;
+  refreshing?: boolean;
+}) {
   return (
     <Page>
       <div className="mx-auto max-w-xl py-10" role="status" aria-live="polite">
@@ -47,6 +85,19 @@ function Progress({ status, asin, note }: { status: AuditJob["status"]; asin: st
           <p className="mt-3 rounded-md border border-[#fcd9a8] bg-tint px-3 py-2 text-sm text-[#7c2d12]" data-testid="audit-note">
             {note}
           </p>
+        )}
+        {connection && !stalled && (
+          <p className="mt-3 text-sm text-muted-foreground" data-testid="audit-reconnecting">
+            Lost touch with the API ({connection}). Retrying on its own.
+          </p>
+        )}
+        {stalled && onRefresh && (
+          <div className="mt-4 flex flex-wrap items-center gap-3 rounded-md border px-3 py-2.5" data-testid="audit-stalled">
+            <p className="text-sm">This is taking longer than expected.</p>
+            <Button type="button" variant="outline" size="sm" onClick={onRefresh} disabled={refreshing}>
+              Refresh
+            </Button>
+          </div>
         )}
         <div className="mt-6 h-1.5 overflow-hidden rounded-full bg-muted" aria-hidden="true">
           <div className={cn("h-full rounded-full bg-primary", status === "queued" ? "w-[8%]" : "w-1/3 animate-[progress_1.6s_ease-in-out_infinite]")} />
@@ -64,7 +115,19 @@ function Progress({ status, asin, note }: { status: AuditJob["status"]; asin: st
   );
 }
 
-function Failed({ title, message, code }: { title: string; message: string; code?: string | undefined }) {
+function Failed({
+  title,
+  message,
+  code,
+  onRetry,
+  retrying = false,
+}: {
+  title: string;
+  message: string;
+  code?: string | undefined;
+  onRetry?: () => void;
+  retrying?: boolean;
+}) {
   return (
     <Page>
       <div className="mx-auto max-w-xl py-10" role="alert">
@@ -72,8 +135,13 @@ function Failed({ title, message, code }: { title: string; message: string; code
         <h1 className="mt-3 text-2xl font-bold">{title}</h1>
         <p className="mt-2 text-[15px]">{message}</p>
         {code && <p className="mt-1 font-mono text-[13px] text-muted-foreground">{code}</p>}
-        <div className="mt-6 flex gap-2">
-          <Button asChild>
+        <div className="mt-6 flex flex-wrap gap-2">
+          {onRetry && (
+            <Button type="button" onClick={onRetry} disabled={retrying}>
+              Try again
+            </Button>
+          )}
+          <Button asChild variant={onRetry ? "outline" : "default"}>
             <Link to="/">Start a new audit</Link>
           </Button>
           <Button asChild variant="outline">

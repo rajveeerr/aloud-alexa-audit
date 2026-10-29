@@ -2,6 +2,7 @@ import { Asin } from "@answerable/contracts";
 import { useId, useState, type FormEvent } from "react";
 import { Link } from "react-router";
 import { useBulk, useBulkJobs, useCreateBulk } from "@/api/hooks";
+import { usePastCap } from "@/api/use-past-cap";
 import type { SavedSource } from "@/api";
 import { Page } from "@/components/app-shell";
 import { JobStatus, ScoreCell } from "@/components/job-status";
@@ -126,8 +127,20 @@ export function BulkPage() {
 
 function BulkTable({ id }: { id: string }) {
   const bulk = useBulk(id);
-  if (bulk.isError) return <p role="alert" className="text-destructive">{bulk.error.message}</p>;
-  if (!bulk.data) return <div className="h-64 animate-pulse rounded-xl bg-muted" />;
+  const stalled = usePastCap(bulk.data?.createdAt, bulk.data?.status === "running");
+  if (!bulk.data) {
+    if (bulk.isError) {
+      return (
+        <div role="alert" className="flex flex-wrap items-center gap-3 rounded-xl border p-5 text-sm">
+          <p className="text-destructive">{bulk.error.message}</p>
+          <Button type="button" variant="outline" size="sm" onClick={() => void bulk.refetch()} disabled={bulk.isFetching}>
+            Try again
+          </Button>
+        </div>
+      );
+    }
+    return <div className="h-64 animate-pulse rounded-xl bg-muted" />;
+  }
   const b = bulk.data;
   const pct = b.total ? Math.round(((b.done + b.failed) / b.total) * 100) : 0;
 
@@ -144,6 +157,16 @@ function BulkTable({ id }: { id: string }) {
         </div>
         <JobStatus status={b.status === "done" ? "done" : "running"} />
       </div>
+      {(stalled || bulk.isError) && (
+        <div className="flex flex-wrap items-center gap-3 border-b bg-muted/50 px-4 py-2 text-sm" role="status">
+          <p>{stalled ? "This is taking longer than expected." : `Lost touch with the API (${bulk.error?.message}). Retrying on its own.`}</p>
+          {stalled && (
+            <Button type="button" variant="outline" size="sm" onClick={() => void bulk.refetch()} disabled={bulk.isFetching}>
+              Refresh
+            </Button>
+          )}
+        </div>
+      )}
       <div
         className="h-1 bg-muted"
         role="progressbar"

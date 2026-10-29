@@ -1,20 +1,27 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import type { AuditStatus } from "@answerable/contracts";
 import { getApi, type Api, type SavedSource } from "./index";
+import { pollUntil } from "./polling";
 
-/** The dev key allows 120 requests a minute; a couple of pollers at this rate stay well under it. */
-const POLL_MS = 1500;
-const settled = (s: AuditStatus | undefined) => s === "done" || s === "failed";
+const settled = (s: AuditStatus) => s === "done" || s === "failed";
+/** The bulk list is a summary of many jobs; it doesn't need the detail view's pace. */
+const LIST_POLL_MS = 5000;
 
 async function run<T>(fn: (api: Api) => Promise<T>): Promise<T> {
   return fn(await getApi());
 }
 
+// Polled queries don't use React Query's retry: the interval does the retrying, with backoff.
+
 export function useAudit(id: string) {
   return useQuery({
     queryKey: ["audit", id],
     queryFn: () => run((a) => a.getAudit(id)),
-    refetchInterval: (q) => (settled(q.state.data?.status) || q.state.error ? false : POLL_MS),
+    retry: false,
+    refetchInterval: pollUntil(
+      (d) => settled(d.status),
+      (d) => d.createdAt,
+    ),
   });
 }
 
@@ -22,7 +29,12 @@ export function useAudits(limit = 50) {
   return useQuery({
     queryKey: ["audits", limit],
     queryFn: () => run((a) => a.listAudits(limit)),
-    refetchInterval: (q) => (q.state.data?.some((s) => !settled(s.status)) ? POLL_MS * 2 : false),
+    retry: false,
+    refetchInterval: pollUntil(
+      (d) => d.every((s) => settled(s.status)),
+      (d) => d.find((s) => !settled(s.status))?.createdAt,
+      LIST_POLL_MS,
+    ),
   });
 }
 
@@ -50,11 +62,17 @@ export function useRescore() {
   return useMutation({ mutationFn: (body: Parameters<Api["rescore"]>[0]) => run((a) => a.rescore(body)) });
 }
 
+/** Summaries only, polled slowly and only while a job is still running. */
 export function useBulkJobs() {
   return useQuery({
-    queryKey: ["bulk"],
-    queryFn: () => run((a) => a.listBulk()),
-    refetchInterval: (q) => (q.state.data?.some((b) => b.status === "running") ? POLL_MS : false),
+    queryKey: ["bulk-list"],
+    queryFn: () => run((a) => a.listBulk(10)),
+    retry: false,
+    refetchInterval: pollUntil(
+      (d) => d.every((b) => b.status === "done"),
+      (d) => d.find((b) => b.status === "running")?.createdAt,
+      LIST_POLL_MS,
+    ),
   });
 }
 
@@ -62,36 +80,25 @@ export function useCreateBulk() {
   const qc = useQueryClient();
   return useMutation({
     mutationFn: (body: Parameters<Api["createBulk"]>[0]) => run((a) => a.createBulk(body)),
-    onSuccess: () => void qc.invalidateQueries({ queryKey: ["bulk"] }),
+    onSuccess: () => void qc.invalidateQueries({ queryKey: ["bulk-list"] }),
   });
 }
 
 export function useBulk(id: string | null) {
+  const qc = useQueryClient();
   return useQuery({
     queryKey: ["bulk", id],
-    queryFn: () => run((a) => a.getBulk(id!)),
+    queryFn: async () => {
+      const b = await run((a) => a.getBulk(id!));
+      // Keep the list's summary in step without polling the list at the detail's pace.
+      if (b.status === "done") void qc.invalidateQueries({ queryKey: ["bulk-list"] });
+      return b;
+    },
     enabled: !!id,
-    refetchInterval: (q) => (q.state.data?.status === "done" || q.state.error ? false : POLL_MS),
-  });
-}
-
-export function useCreatePublicAudit() {
-  return useMutation({ mutationFn: (body: Parameters<Api["createPublicAudit"]>[0]) => run((a) => a.createPublicAudit(body)) });
-}
-
-export function useAddPublicEmail() {
-  const qc = useQueryClient();
-  return useMutation({
-    mutationFn: ({ id, email }: { id: string; email: string }) => run((a) => a.addPublicEmail(id, email)),
-    onSuccess: (r) => qc.setQueryData(["public-audit", r.id], r),
-  });
-}
-
-export function usePublicAudit(id: string | null) {
-  return useQuery({
-    queryKey: ["public-audit", id],
-    queryFn: () => run((a) => a.getPublicAudit(id!)),
-    enabled: !!id,
-    refetchInterval: (q) => (settled(q.state.data?.status) || q.state.error ? false : POLL_MS),
+    retry: false,
+    refetchInterval: pollUntil(
+      (d) => d.status === "done",
+      (d) => d.createdAt,
+    ),
   });
 }
