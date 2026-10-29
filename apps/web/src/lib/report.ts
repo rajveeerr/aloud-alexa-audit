@@ -1,0 +1,117 @@
+/**
+ * Reading an audit report the way the CLI does (apps/cli/src/audit.ts): same sort order,
+ * same basis wording, plus the plain-language labels the UI shows for statuses, actions and flags.
+ */
+import type { AuditReport } from "@answerable/contracts";
+
+export type Report = AuditReport;
+export type Grade = Report["grades"][number];
+export type Intent = Report["intentSet"]["intents"][number];
+export type Brief = Report["briefs"][number];
+export type Gap = Report["gaps"][number];
+export type Field = Report["listing"]["fields"][number];
+export type ImageClaim = Report["imageClaims"][number];
+export type GradeStatus = Grade["status"];
+
+export function indexReport(r: Report) {
+  return {
+    intents: new Map(r.intentSet.intents.map((i) => [i.id, i])),
+    fields: new Map(r.listing.fields.map((f) => [f.id, f])),
+    images: new Map(r.listing.images.map((i) => [i.id, i])),
+    claims: new Map(r.imageClaims.map((c) => [c.id, c])),
+  };
+}
+export type ReportIndex = ReturnType<typeof indexReport>;
+
+export const isEstimated = (r: Report) => r.intentSet.basis === "estimated";
+
+export function titleOf(r: Report): string {
+  return r.listing.fields.find((f) => f.id === "title")?.text ?? r.listing.asin;
+}
+
+export function basisLabel(r: Report): string {
+  const s = r.intentSet;
+  return s.basis === "estimated" ? "Estimated questions (no reviews mined), equal weights" : `Questions mined from ${s.sampleSize.toLocaleString()} reviews`;
+}
+
+const ORDER: GradeStatus[] = ["contradicted", "missing", "partial", "answered", "not_applicable"];
+
+/** Worst first, then most asked: the order a seller should read them in. */
+export function sortGrades(grades: Grade[], intents: Map<string, Intent>): Grade[] {
+  return [...grades].sort(
+    (a, b) => ORDER.indexOf(a.status) - ORDER.indexOf(b.status) || (intents.get(b.intentId)?.frequency ?? 0) - (intents.get(a.intentId)?.frequency ?? 0),
+  );
+}
+
+export const STATUS_LABEL: Record<GradeStatus, string> = {
+  answered: "Answered",
+  partial: "Partly answered",
+  missing: "Not answered",
+  contradicted: "Contradicted",
+  not_applicable: "Doesn't apply",
+};
+
+export const GRADE_FLAG_TEXT: Record<Grade["flags"][number], string> = {
+  quote_not_found: "The grader quoted text that isn't on the listing, so that quote was dropped.",
+  quote_field_corrected: "The quote is real, but the grader named the wrong field. It now points to the field the text is actually in.",
+  unverified_answer: "The grader said this was answered, but none of its quotes could be found on the listing, so it counts as not answered.",
+  unverified_contradiction: "The grader saw a contradiction it couldn't back with two real quotes, so it isn't counted as one.",
+  not_applicable_rejected: "The grader said this question doesn't apply, but the rules say it always does, so it was graded normally.",
+  conditional_unaddressed: "This question only matters for some products, and the listing doesn't mention it at all, so it's left out of the score.",
+  not_graded: "The grader didn't return a result for this question.",
+};
+
+export const BRIEF_FLAG_TEXT: Record<Brief["flags"][number], string> = {
+  source_not_found: "A source the draft cited couldn't be found in the listing.",
+  unsourced_number: "The draft had a number the brand never gave, so it was held back.",
+  invalid_target: "The suggested field doesn't exist, so the target was reset.",
+  no_brand_source: "Nothing in the brand's own content answers this yet.",
+  not_drafted: "No draft was written for this one.",
+  unsupported_claim: "The draft added claims the brand never made, so it was held back.",
+  off_question: "The draft didn't answer the question, so it was held back.",
+  repeats_field: "The draft only repeated an existing field, so it was dropped.",
+};
+
+export const ACTION_LABEL: Record<Brief["action"], string> = {
+  fix_contradiction: "Fix a contradiction",
+  move_from_image: "Move from image into text",
+  edit_field: "Rewrite an existing field",
+  add_bullet: "Add a bullet",
+  request_fact: "Ask the brand for a fact",
+};
+
+export function targetLabel(target: string): string {
+  if (target === "new_bullet") return "A new bullet";
+  if (target.startsWith("attr.")) return `Attribute: ${target.slice(5).replace(/_/g, " ")}`;
+  return fieldLabel(target);
+}
+
+/** "bullet.2" → "Bullet 2", "attr.line_size" → "line size", "aplus.3" → "A+ module 3". */
+export function fieldLabel(id: string): string {
+  const [kind, ...rest] = id.split(".");
+  const n = rest.join(".");
+  switch (kind) {
+    case "title":
+      return "Title";
+    case "bullet":
+      return `Bullet ${n}`;
+    case "description":
+      return `Description ${n}`;
+    case "aplus":
+      return `A+ module ${n}`;
+    case "attr":
+      return n.replace(/_/g, " ");
+    default:
+      return id;
+  }
+}
+
+/** Ids stay as the pipeline wrote them ("img.8"), so a brief and the report name the same image. */
+export function imageKindLabel(kind?: "gallery" | "aplus"): string {
+  return kind === "aplus" ? "A+ image" : "Gallery image";
+}
+
+export function shareLabel(share: number | null, total: number): string {
+  if (share === null || total === 0) return "no competitors compared";
+  return `${Math.round(share * 100)}% of ${total} competitors answer it`;
+}
