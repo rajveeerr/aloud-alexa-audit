@@ -51,6 +51,23 @@ test("the hero audit runs from the landing page to the report", async ({ page })
   await shots.view(page, "04-send-to-studio");
 });
 
+test("a failed poll doesn't stop the audit page: it retries and reaches the report", async ({ page }) => {
+  // The first two polls of the audit get a 503, as if the API restarted mid-audit.
+  let failed = 0;
+  await page.route(/\/v1\/audits\/[0-9a-f-]{36}$/, async (route) => {
+    if (route.request().method() === "GET" && failed < 2) {
+      failed++;
+      return route.fulfill({ status: 503, contentType: "application/json", body: JSON.stringify({ error: { code: "unavailable", message: "Service unavailable" } }) });
+    }
+    return route.continue();
+  });
+  await pick(page, "Saved (2023 dataset)", /U Brands/);
+  await expect(page.getByTestId("score")).toHaveText("84");
+  expect(failed).toBe(2);
+  // The browser logs each 503 it was sent on purpose; anything else still fails the test.
+  errors = errors.filter((e) => !e.includes("503"));
+});
+
 test("the Pentel dataset audit shows promise vs proof, with the leak claim contested", async ({ page }) => {
   await pick(page, "Saved (2023 dataset)", /Pentel.*Gel Ink/);
   await expect(page.getByTestId("score")).toHaveText("61");
@@ -89,7 +106,7 @@ test("a bulk job of 3 dataset ASINs reaches done", async ({ page }) => {
 });
 
 test("the widget shows 3 gaps with competitor counts and takes an email", async ({ page }) => {
-  await page.goto("/widget");
+  await page.goto("/widget.html");
   await page.getByLabel("ASIN").fill("B0C9W8DD9S");
   await page.getByRole("button", { name: "Check my listing" }).click();
   await expect(page.getByTestId("widget-result")).toContainText("52");
@@ -106,7 +123,7 @@ test("the widget shows 3 gaps with competitor counts and takes an email", async 
 });
 
 test("a widget audit of an unknown product shows the public reason", async ({ page }) => {
-  await page.goto("/widget");
+  await page.goto("/widget.html");
   await page.getByLabel("ASIN").fill("B0ZZZZZZZZ");
   await page.getByRole("button", { name: "Check my listing" }).click();
   await expect(page.getByTestId("widget-failed")).toHaveText("We can't audit this product yet. Try one of the example products.");
@@ -141,7 +158,7 @@ test.describe("mobile, 375px", () => {
     await noHorizontalScroll(page);
     await shots.full(page, "14-mobile-report");
 
-    await page.goto("/widget");
+    await page.goto("/widget.html");
     await noHorizontalScroll(page);
     await shots.full(page, "15-mobile-widget");
   });

@@ -103,7 +103,7 @@ test("an unknown ASIN ends in a clear failure", async ({ page }) => {
 });
 
 test("the widget shows a score and exactly three gaps", async ({ page }) => {
-  await page.goto("/widget");
+  await page.goto("/widget.html");
   await page.getByLabel("ASIN").fill("B0C9W8DD9S");
   await page.getByRole("button", { name: "Check my listing" }).click();
   await expect(page.getByTestId("widget-result")).toContainText("52", { timeout: 10_000 });
@@ -149,7 +149,7 @@ test.describe("mobile, 375px", () => {
     await noHorizontalScroll(page);
     await fullShot(page, "13-mobile-report");
 
-    await page.goto("/widget");
+    await page.goto("/widget.html");
     await page.getByLabel("ASIN").fill("B0C9W8DD9S");
     await page.getByRole("button", { name: "Check my listing" }).click();
     await expect(page.getByTestId("widget-gaps").locator("li")).toHaveCount(3, { timeout: 10_000 });
