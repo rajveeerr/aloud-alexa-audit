@@ -1,0 +1,176 @@
+{
+  "data": [
+    {
+      "intentId": "tip_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.line_size",
+          "text": "0.7 Millimeters"
+        }
+      ],
+      "value": "0.7 Millimeters"
+    },
+    {
+      "intentId": "smudge",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "non smearing pens"
+        }
+      ],
+      "value": "non smearing"
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "pental energel Liquid gel ink dry so quick even left handed writers love it - no smears"
+        }
+      ],
+      "value": "even left handed writers love it - no smears"
+    },
+    {
+      "intentId": "dry_time",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "fast drying"
+        }
+      ],
+      "value": "fast drying"
+    },
+    {
+      "intentId": "ink_flow",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "super-smooth writing experience"
+        }
+      ],
+      "value": "super-smooth writing experience"
+    },
+    {
+      "intentId": "longevity",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "bleed_through",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "refillable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Roller ball refillable med pen with LR7 P"
+        }
+      ],
+      "value": "refillable med pen with LR7 P"
+    },
+    {
+      "intentId": "retractable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.closure",
+          "text": "Retractable"
+        }
+      ],
+      "value": "Retractable"
+    },
+    {
+      "intentId": "pack_contents",
+      "status": "contradicted",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Pack of 5 Pink Deluxe RTX Energel Pens with 3 Refills"
+        },
+        {
+          "fieldId": "attr.number_of_items",
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "intentId": "water_resistance",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "leaking",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "no globs"
+        }
+      ],
+      "value": "no globs"
+    },
+    {
+      "intentId": "surface_compatibility",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "opacity",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "durability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "0.7mm stainless steel tip"
+        }
+      ],
+      "value": "stainless steel tip"
+    },
+    {
+      "intentId": "weight",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "3.2 ounces"
+        }
+      ],
+      "value": "3.2 ounces"
+    },
+    {
+      "intentId": "erasable",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "glitter_level",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "scent",
+      "status": "not_applicable",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+gel-ink-pens@2026-10-27.1",
+  "usage": {
+    "inputTokens": 2215,
+    "outputTokens": 1114
+  },
+  "latencyMs": 2862,
+  "cached": false
+}

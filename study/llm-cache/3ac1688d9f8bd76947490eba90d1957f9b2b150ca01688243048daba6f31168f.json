@@ -1,0 +1,159 @@
+{
+  "data": [
+    {
+      "intentId": "tip_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "0.5mm"
+        }
+      ],
+      "value": "0.5mm"
+    },
+    {
+      "intentId": "smudge",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "dry_time",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "ink_flow",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "writing smooth"
+        }
+      ],
+      "value": "smooth writing"
+    },
+    {
+      "intentId": "longevity",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "bleed_through",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "refillable",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "retractable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Retractable"
+        }
+      ],
+      "value": "Retractable"
+    },
+    {
+      "intentId": "pack_contents",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "10-Pack"
+        },
+        {
+          "fieldId": "attr.ink_color",
+          "text": "Black,Blue"
+        }
+      ],
+      "value": "10-Pack, Black, Blue"
+    },
+    {
+      "intentId": "water_resistance",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "water does not halo"
+        }
+      ],
+      "value": "water does not halo"
+    },
+    {
+      "intentId": "leaking",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "No ink leakage"
+        }
+      ],
+      "value": "No ink leakage"
+    },
+    {
+      "intentId": "surface_compatibility",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "opacity",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "durability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "German Makrolon material, light material, strong durable"
+        }
+      ],
+      "value": "German Makrolon material, light material, strong durable"
+    },
+    {
+      "intentId": "weight",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "3.6g metal counterweight is built into the front end of the pen body"
+        }
+      ],
+      "value": "3.6g metal counterweight"
+    },
+    {
+      "intentId": "erasable",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "glitter_level",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "scent",
+      "status": "not_applicable",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+gel-ink-pens@2026-10-27.1",
+  "usage": {
+    "inputTokens": 1856,
+    "outputTokens": 976
+  },
+  "latencyMs": 2803,
+  "cached": false
+}

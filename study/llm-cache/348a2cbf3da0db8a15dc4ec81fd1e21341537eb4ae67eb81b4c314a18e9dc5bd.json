@@ -1,0 +1,147 @@
+{
+  "data": [
+    {
+      "intentId": "tip_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "0.6mm point"
+        }
+      ],
+      "value": "0.6mm"
+    },
+    {
+      "intentId": "smudge",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "dry_time",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "ink_flow",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "longevity",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "bleed_through",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "refillable",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "retractable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.closure",
+          "text": "Snap"
+        }
+      ],
+      "value": "Snap"
+    },
+    {
+      "intentId": "pack_contents",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "5 colors set: glitter red, glitter Cherry pink, glitter green, glitter blue and glitter black"
+        },
+        {
+          "fieldId": "attr.size",
+          "text": "5 Count (Pack of 1)"
+        }
+      ],
+      "value": "5 Count, 5 colors set: glitter red, glitter Cherry pink, glitter green, glitter blue and glitter black"
+    },
+    {
+      "intentId": "water_resistance",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "leaking",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "surface_compatibility",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "paper, you can also use photos, plastic, glass and metal"
+        }
+      ],
+      "value": "paper, photos, plastic, glass and metal"
+    },
+    {
+      "intentId": "opacity",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "durability",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "weight",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "Item weight: 2.72 ounces"
+        }
+      ],
+      "value": "2.72 ounces"
+    },
+    {
+      "intentId": "erasable",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "glitter_level",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "sparkling, glitter-colored ink that has a paint-like look and Texture"
+        }
+      ],
+      "value": "sparkling, glitter-colored ink that has a paint-like look and Texture"
+    },
+    {
+      "intentId": "scent",
+      "status": "not_applicable",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+gel-ink-pens@2026-10-27.1",
+  "usage": {
+    "inputTokens": 1783,
+    "outputTokens": 948
+  },
+  "latencyMs": 2578,
+  "cached": false
+}

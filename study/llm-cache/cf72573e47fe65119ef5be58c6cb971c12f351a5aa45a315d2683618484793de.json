@@ -1,0 +1,165 @@
+{
+  "data": [
+    {
+      "intentId": "tip_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "0.5 mm"
+        }
+      ],
+      "value": "0.5 mm"
+    },
+    {
+      "intentId": "smudge",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "without worrying about smudges and blotches"
+        }
+      ],
+      "value": "without worrying about smudges and blotches"
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "dry_time",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Quick Drying"
+        }
+      ],
+      "value": "Quick Drying"
+    },
+    {
+      "intentId": "ink_flow",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "write smoothly and continuously"
+        }
+      ],
+      "value": "write smoothly and continuously"
+    },
+    {
+      "intentId": "longevity",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "bleed_through",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "refillable",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "retractable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.closure",
+          "text": "Retractable"
+        }
+      ],
+      "value": "Retractable"
+    },
+    {
+      "intentId": "pack_contents",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "10 Colored Gel Ink Pens"
+        },
+        {
+          "fieldId": "bullet.5",
+          "text": "jasper, azure, navy, brown, gray, burgundy, black, tan, red, and purple"
+        }
+      ],
+      "value": "10 pens, jasper, azure, navy, brown, gray, burgundy, black, tan, red, and purple"
+    },
+    {
+      "intentId": "water_resistance",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "permanent"
+        }
+      ],
+      "value": "permanent"
+    },
+    {
+      "intentId": "leaking",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "surface_compatibility",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "documents, and photo albums"
+        }
+      ],
+      "value": "documents, and photo albums"
+    },
+    {
+      "intentId": "opacity",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "durability",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "weight",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "3.53 ounces"
+        }
+      ],
+      "value": "3.53 ounces"
+    },
+    {
+      "intentId": "erasable",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "glitter_level",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "scent",
+      "status": "not_applicable",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+gel-ink-pens@2026-10-27.1",
+  "usage": {
+    "inputTokens": 1974,
+    "outputTokens": 1033
+  },
+  "latencyMs": 2735,
+  "cached": false
+}

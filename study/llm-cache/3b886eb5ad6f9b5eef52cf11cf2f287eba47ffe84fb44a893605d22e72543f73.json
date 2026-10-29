@@ -1,0 +1,150 @@
+{
+  "data": [
+    {
+      "intentId": "tip_size",
+      "status": "contradicted",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "0.38mm"
+        },
+        {
+          "fieldId": "bullet.2",
+          "text": "0.5 millimeter"
+        }
+      ]
+    },
+    {
+      "intentId": "smudge",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "dry_time",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "ink_flow",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "super-smooth writing experience"
+        }
+      ],
+      "value": "super-smooth writing experience"
+    },
+    {
+      "intentId": "longevity",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "bleed_through",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "refillable",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "retractable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.closure",
+          "text": "Click-Off Cap"
+        }
+      ],
+      "value": "Click-Off Cap"
+    },
+    {
+      "intentId": "pack_contents",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "8 Colors/Black Pack"
+        },
+        {
+          "fieldId": "bullet.4",
+          "text": "Black, Purple, Blue, Navy, Green, Red, Pink, Sky Blue"
+        }
+      ],
+      "value": "8 Colors/Black Pack, Black, Purple, Blue, Navy, Green, Red, Pink, Sky Blue"
+    },
+    {
+      "intentId": "water_resistance",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "leaking",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "surface_compatibility",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "opacity",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "durability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "100 Days money refund guarantee"
+        }
+      ],
+      "value": "100 Days money refund guarantee"
+    },
+    {
+      "intentId": "weight",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "Item weight: 2.39 ounces"
+        }
+      ],
+      "value": "Item weight: 2.39 ounces"
+    },
+    {
+      "intentId": "erasable",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "glitter_level",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "scent",
+      "status": "not_applicable",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+gel-ink-pens@2026-10-27.1",
+  "usage": {
+    "inputTokens": 1734,
+    "outputTokens": 940
+  },
+  "latencyMs": 4563,
+  "cached": false
+}

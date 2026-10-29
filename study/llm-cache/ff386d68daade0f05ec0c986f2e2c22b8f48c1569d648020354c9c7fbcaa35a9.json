@@ -1,0 +1,158 @@
+{
+  "data": [
+    {
+      "intentId": "tip_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.line_size",
+          "text": "1 Millimeters"
+        }
+      ],
+      "value": "1 Millimeters"
+    },
+    {
+      "intentId": "smudge",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "dry_time",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "ink_flow",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "super smooth"
+        }
+      ]
+    },
+    {
+      "intentId": "longevity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "long-lasting"
+        }
+      ],
+      "value": "long-lasting"
+    },
+    {
+      "intentId": "bleed_through",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "refillable",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "retractable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.closure",
+          "text": "Snap"
+        }
+      ],
+      "value": "Snap"
+    },
+    {
+      "intentId": "pack_contents",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.size",
+          "text": "8 Count"
+        }
+      ]
+    },
+    {
+      "intentId": "water_resistance",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "leaking",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "surface_compatibility",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "dark or light surfaces"
+        }
+      ],
+      "value": "dark or light surfaces"
+    },
+    {
+      "intentId": "opacity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Write on dark or light surfaces"
+        }
+      ],
+      "value": "Write on dark or light surfaces"
+    },
+    {
+      "intentId": "durability",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "weight",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "3.17 ounces"
+        }
+      ]
+    },
+    {
+      "intentId": "erasable",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "glitter_level",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "metallic super gel pens"
+        }
+      ],
+      "value": "metallic"
+    },
+    {
+      "intentId": "scent",
+      "status": "not_applicable",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+gel-ink-pens@2026-10-27.1",
+  "usage": {
+    "inputTokens": 1780,
+    "outputTokens": 926
+  },
+  "latencyMs": 2765,
+  "cached": false
+}

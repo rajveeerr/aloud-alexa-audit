@@ -1,0 +1,155 @@
+{
+  "data": [
+    {
+      "intentId": "tip_size",
+      "status": "contradicted",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "0.7mm"
+        },
+        {
+          "fieldId": "description.1",
+          "text": "0.5mm"
+        }
+      ]
+    },
+    {
+      "intentId": "smudge",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "reduced smearing"
+        }
+      ],
+      "value": "reduced smearing"
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "dry_time",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Dries 3x faster"
+        }
+      ],
+      "value": "Dries 3x faster"
+    },
+    {
+      "intentId": "ink_flow",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Smooth ink keeps the ideas flowing"
+        }
+      ],
+      "value": "Smooth ink keeps the ideas flowing"
+    },
+    {
+      "intentId": "longevity",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "bleed_through",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "refillable",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "retractable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.closure",
+          "text": "Snap"
+        }
+      ],
+      "value": "Snap"
+    },
+    {
+      "intentId": "pack_contents",
+      "status": "contradicted",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Black, 10-Count"
+        },
+        {
+          "fieldId": "description.1",
+          "text": "10 Jet Black gel pens"
+        }
+      ]
+    },
+    {
+      "intentId": "water_resistance",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "leaking",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "surface_compatibility",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "opacity",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "durability",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "weight",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "Item weight: 7.2 ounces"
+        }
+      ],
+      "value": "7.2 ounces"
+    },
+    {
+      "intentId": "erasable",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "glitter_level",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "scent",
+      "status": "not_applicable",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+gel-ink-pens@2026-10-27.1",
+  "usage": {
+    "inputTokens": 1709,
+    "outputTokens": 932
+  },
+  "latencyMs": 2731,
+  "cached": false
+}

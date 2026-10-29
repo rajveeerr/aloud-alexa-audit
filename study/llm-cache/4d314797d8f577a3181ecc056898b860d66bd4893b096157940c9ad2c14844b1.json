@@ -1,0 +1,152 @@
+{
+  "data": [
+    {
+      "intentId": "tip_size",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Fine Point"
+        }
+      ],
+      "value": "Fine"
+    },
+    {
+      "intentId": "smudge",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "dry_time",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "ink_flow",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "writes smooth"
+        }
+      ],
+      "value": "writes smooth"
+    },
+    {
+      "intentId": "longevity",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "bleed_through",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "refillable",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Refillable"
+        }
+      ],
+      "value": "Refillable"
+    },
+    {
+      "intentId": "retractable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.closure",
+          "text": "Retractable"
+        }
+      ],
+      "value": "Retractable"
+    },
+    {
+      "intentId": "pack_contents",
+      "status": "contradicted",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "4 Pens"
+        },
+        {
+          "fieldId": "description.1",
+          "text": "Ink Colors: Blue."
+        }
+      ]
+    },
+    {
+      "intentId": "water_resistance",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "leaking",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "surface_compatibility",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "opacity",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "durability",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "weight",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "Item weight: 2.39 ounces"
+        }
+      ],
+      "value": "2.39 ounces"
+    },
+    {
+      "intentId": "erasable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Erasable"
+        }
+      ],
+      "value": "Erasable"
+    },
+    {
+      "intentId": "glitter_level",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "scent",
+      "status": "not_applicable",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+gel-ink-pens@2026-10-27.1",
+  "usage": {
+    "inputTokens": 1926,
+    "outputTokens": 882
+  },
+  "latencyMs": 2534,
+  "cached": false
+}

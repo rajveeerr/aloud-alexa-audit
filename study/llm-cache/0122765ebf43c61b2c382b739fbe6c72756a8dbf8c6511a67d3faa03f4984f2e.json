@@ -1,0 +1,167 @@
+{
+  "data": [
+    {
+      "intentId": "tip_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.line_size",
+          "text": "0.7 Millimeters"
+        }
+      ],
+      "value": "0.7 Millimeters"
+    },
+    {
+      "intentId": "smudge",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "dry_time",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Please erase after the ink has dried completely"
+        }
+      ],
+      "value": "dried completely"
+    },
+    {
+      "intentId": "ink_flow",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "you can use them smoothly"
+        }
+      ],
+      "value": "smoothly"
+    },
+    {
+      "intentId": "longevity",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "bleed_through",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "refillable",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "so you can refill the pen in time"
+        }
+      ],
+      "value": "refill the pen"
+    },
+    {
+      "intentId": "retractable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.closure",
+          "text": "Retractable"
+        }
+      ],
+      "value": "Retractable"
+    },
+    {
+      "intentId": "pack_contents",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.number_of_items",
+          "text": "16"
+        }
+      ],
+      "value": "16"
+    },
+    {
+      "intentId": "water_resistance",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "leaking",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "surface_compatibility",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "It is really great for everyday use"
+        }
+      ],
+      "value": "everyday use"
+    },
+    {
+      "intentId": "opacity",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "durability",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "using durable!"
+        }
+      ],
+      "value": "durable"
+    },
+    {
+      "intentId": "weight",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "1.76 ounces"
+        }
+      ],
+      "value": "1.76 ounces"
+    },
+    {
+      "intentId": "erasable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Erasable Gel Pens"
+        }
+      ],
+      "value": "Erasable"
+    },
+    {
+      "intentId": "glitter_level",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "scent",
+      "status": "not_applicable",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+gel-ink-pens@2026-10-27.1",
+  "usage": {
+    "inputTokens": 1956,
+    "outputTokens": 1014
+  },
+  "latencyMs": 3152,
+  "cached": false
+}

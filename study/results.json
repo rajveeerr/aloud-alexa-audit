@@ -1,0 +1,415 @@
+{
+  "generatedFrom": {
+    "graded": 200,
+    "sampled": 200,
+    "pending": 0,
+    "noScore": 0,
+    "model": "gemini-3.5-flash-lite",
+    "intentSetVersion": "2026-10-27.1"
+  },
+  "method": {
+    "correlation": "Spearman rank correlation, ties averaged",
+    "ci": "95% percentile bootstrap, 2,000 resamples of products, seeded",
+    "p": "two-sided permutation test, 10,000 shuffles of review count, seeded",
+    "partial": "partial Spearman: Pearson partial correlation on ranks, controlling for price"
+  },
+  "scoreVsReviews": {
+    "n": 200,
+    "rho": 0.148,
+    "ci": [
+      0.012,
+      0.287
+    ],
+    "p": 0.0377
+  },
+  "scoreVsReviewsControllingPrice": {
+    "n": 129,
+    "rho": 0.209,
+    "ci": [
+      0.026,
+      0.381
+    ],
+    "p": 0.0175,
+    "plainOnSameProducts": {
+      "n": 129,
+      "rho": 0.208,
+      "ci": [
+        0.028,
+        0.378
+      ],
+      "p": 0.0184
+    },
+    "scoreVsPrice": {
+      "n": 129,
+      "rho": -0.021,
+      "ci": [
+        -0.213,
+        0.157
+      ],
+      "p": 0.8149
+    }
+  },
+  "scoreVsSalesRank": {
+    "n": 174,
+    "rho": 0.211,
+    "ci": [
+      0.056,
+      0.351
+    ],
+    "p": 0.0052
+  },
+  "bands": [
+    {
+      "band": 1,
+      "n": 50,
+      "reviews": [
+        20,
+        40
+      ],
+      "meanScore": 44.3,
+      "medianScore": 44.5,
+      "meanAnswered": 5.5,
+      "meanCounted": 15.3,
+      "correlation": {
+        "n": 50,
+        "rho": -0.009,
+        "ci": [
+          -0.284,
+          0.273
+        ],
+        "p": 0.9551
+      }
+    },
+    {
+      "band": 2,
+      "n": 50,
+      "reviews": [
+        41,
+        92
+      ],
+      "meanScore": 38.4,
+      "medianScore": 39.5,
+      "meanAnswered": 4.6,
+      "meanCounted": 15.1,
+      "correlation": {
+        "n": 50,
+        "rho": -0.131,
+        "ci": [
+          -0.39,
+          0.166
+        ],
+        "p": 0.3666
+      }
+    },
+    {
+      "band": 3,
+      "n": 50,
+      "reviews": [
+        93,
+        302
+      ],
+      "meanScore": 49.3,
+      "medianScore": 50,
+      "meanAnswered": 6.1,
+      "meanCounted": 15.2,
+      "correlation": {
+        "n": 50,
+        "rho": 0.028,
+        "ci": [
+          -0.252,
+          0.31
+        ],
+        "p": 0.8478
+      }
+    },
+    {
+      "band": 4,
+      "n": 50,
+      "reviews": [
+        308,
+        18119
+      ],
+      "meanScore": 48.1,
+      "medianScore": 50,
+      "meanAnswered": 5.9,
+      "meanCounted": 15.3,
+      "correlation": {
+        "n": 50,
+        "rho": 0.406,
+        "ci": [
+          0.15,
+          0.613
+        ],
+        "p": 0.0028
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "leaking",
+      "question": "Does the pen leak or blob?",
+      "kind": "claim",
+      "frequency": 29,
+      "low": {
+        "n": 50,
+        "rate": 0.88
+      },
+      "high": {
+        "n": 50,
+        "rate": 0.94
+      }
+    },
+    {
+      "id": "smudge_left_handed",
+      "question": "Does it smudge for left-handed writers?",
+      "kind": "claim",
+      "frequency": 11,
+      "low": {
+        "n": 50,
+        "rate": 0.96
+      },
+      "high": {
+        "n": 50,
+        "rate": 0.88
+      }
+    },
+    {
+      "id": "longevity",
+      "question": "How long does the ink last?",
+      "kind": "claim",
+      "frequency": 108,
+      "low": {
+        "n": 50,
+        "rate": 0.8
+      },
+      "high": {
+        "n": 50,
+        "rate": 0.84
+      }
+    },
+    {
+      "id": "bleed_through",
+      "question": "Does the ink bleed through paper?",
+      "kind": "claim",
+      "frequency": 43,
+      "low": {
+        "n": 50,
+        "rate": 0.84
+      },
+      "high": {
+        "n": 50,
+        "rate": 0.84
+      }
+    },
+    {
+      "id": "water_resistance",
+      "question": "Is the ink waterproof, fade-resistant or archival?",
+      "kind": "claim",
+      "frequency": 13,
+      "low": {
+        "n": 50,
+        "rate": 0.78
+      },
+      "high": {
+        "n": 50,
+        "rate": 0.74
+      }
+    },
+    {
+      "id": "surface_compatibility",
+      "question": "What paper or surfaces does it write on?",
+      "kind": "claim",
+      "frequency": 28,
+      "low": {
+        "n": 50,
+        "rate": 0.7
+      },
+      "high": {
+        "n": 50,
+        "rate": 0.68
+      }
+    },
+    {
+      "id": "refillable",
+      "question": "Is the pen refillable, and with which refills?",
+      "kind": "spec",
+      "frequency": 48,
+      "low": {
+        "n": 50,
+        "rate": 0.68
+      },
+      "high": {
+        "n": 50,
+        "rate": 0.64
+      }
+    },
+    {
+      "id": "dry_time",
+      "question": "How quickly does the ink dry?",
+      "kind": "claim",
+      "frequency": 87,
+      "low": {
+        "n": 50,
+        "rate": 0.72
+      },
+      "high": {
+        "n": 50,
+        "rate": 0.62
+      }
+    },
+    {
+      "id": "smudge",
+      "question": "Does the ink smudge or smear?",
+      "kind": "claim",
+      "frequency": 84,
+      "low": {
+        "n": 50,
+        "rate": 0.72
+      },
+      "high": {
+        "n": 50,
+        "rate": 0.62
+      }
+    },
+    {
+      "id": "durability",
+      "question": "How durable is the pen body and tip?",
+      "kind": "claim",
+      "frequency": 38,
+      "low": {
+        "n": 50,
+        "rate": 0.72
+      },
+      "high": {
+        "n": 50,
+        "rate": 0.6
+      }
+    },
+    {
+      "id": "ink_flow",
+      "question": "Does the ink flow consistently without skipping or clogging?",
+      "kind": "claim",
+      "frequency": 171,
+      "low": {
+        "n": 50,
+        "rate": 0.34
+      },
+      "high": {
+        "n": 50,
+        "rate": 0.26
+      }
+    },
+    {
+      "id": "pack_contents",
+      "question": "How many pens and which ink colors are in the pack?",
+      "kind": "spec",
+      "frequency": 39,
+      "low": {
+        "n": 50,
+        "rate": 0.12
+      },
+      "high": {
+        "n": 50,
+        "rate": 0.18
+      }
+    },
+    {
+      "id": "tip_size",
+      "question": "What is the tip size or line width?",
+      "kind": "spec",
+      "frequency": 130,
+      "low": {
+        "n": 50,
+        "rate": 0.1
+      },
+      "high": {
+        "n": 50,
+        "rate": 0.1
+      }
+    },
+    {
+      "id": "retractable",
+      "question": "Is it retractable (click) or capped?",
+      "kind": "spec",
+      "frequency": 9,
+      "low": {
+        "n": 50,
+        "rate": 0.1
+      },
+      "high": {
+        "n": 50,
+        "rate": 0.1
+      }
+    },
+    {
+      "id": "weight",
+      "question": "How heavy is the pen and how is it balanced?",
+      "kind": "spec",
+      "frequency": 18,
+      "low": {
+        "n": 50,
+        "rate": 0.08
+      },
+      "high": {
+        "n": 50,
+        "rate": 0.06
+      }
+    },
+    {
+      "id": "erasable",
+      "question": "Is the ink erasable?",
+      "kind": "spec",
+      "frequency": 74,
+      "low": {
+        "n": 4,
+        "rate": 0
+      },
+      "high": {
+        "n": 9,
+        "rate": 0
+      }
+    },
+    {
+      "id": "opacity",
+      "question": "Does the ink show up on dark or colored paper?",
+      "kind": "claim",
+      "frequency": 39,
+      "low": {
+        "n": 3,
+        "rate": 0
+      },
+      "high": {
+        "n": 3,
+        "rate": 0
+      }
+    },
+    {
+      "id": "glitter_level",
+      "question": "How much glitter or shimmer is in the ink?",
+      "kind": "spec",
+      "frequency": 28,
+      "low": {
+        "n": 7,
+        "rate": 0
+      },
+      "high": {
+        "n": 2,
+        "rate": 0
+      }
+    },
+    {
+      "id": "scent",
+      "question": "Is the pen scented, and what does it smell like?",
+      "kind": "spec",
+      "frequency": 15,
+      "low": {
+        "n": 1,
+        "rate": 0
+      },
+      "high": {
+        "n": 0,
+        "rate": null
+      }
+    }
+  ]
+}

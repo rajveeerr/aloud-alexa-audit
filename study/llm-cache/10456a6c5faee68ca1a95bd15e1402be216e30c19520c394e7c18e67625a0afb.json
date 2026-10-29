@@ -1,0 +1,146 @@
+{
+  "data": [
+    {
+      "intentId": "tip_size",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.point_type",
+          "text": "Medium"
+        }
+      ],
+      "value": "Medium"
+    },
+    {
+      "intentId": "smudge",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "dry_time",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "ink_flow",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "longevity",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "bleed_through",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "refillable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Includes 1 Black Shaffer ‘K’ Ballpoint refill"
+        }
+      ],
+      "value": "Shaffer ‘K’ Ballpoint refill"
+    },
+    {
+      "intentId": "retractable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.closure",
+          "text": "Retractable"
+        }
+      ],
+      "value": "Retractable"
+    },
+    {
+      "intentId": "pack_contents",
+      "status": "contradicted",
+      "quotes": [
+        {
+          "fieldId": "attr.ink_color",
+          "text": "Black,Red"
+        },
+        {
+          "fieldId": "bullet.4",
+          "text": "Includes 1 Black Shaffer ‘K’ Ballpoint refill"
+        }
+      ]
+    },
+    {
+      "intentId": "water_resistance",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "leaking",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "surface_compatibility",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "opacity",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "durability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.6",
+          "text": "lifetime for mechanical failure"
+        }
+      ],
+      "value": "lifetime for mechanical failure"
+    },
+    {
+      "intentId": "weight",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "0.65 ounces"
+        }
+      ],
+      "value": "0.65 ounces"
+    },
+    {
+      "intentId": "erasable",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "glitter_level",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "scent",
+      "status": "not_applicable",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+gel-ink-pens@2026-10-27.1",
+  "usage": {
+    "inputTokens": 1793,
+    "outputTokens": 910
+  },
+  "latencyMs": 2222,
+  "cached": false
+}

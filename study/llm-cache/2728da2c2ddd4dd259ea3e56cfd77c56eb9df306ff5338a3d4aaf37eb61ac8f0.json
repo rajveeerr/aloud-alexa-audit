@@ -1,0 +1,165 @@
+{
+  "data": [
+    {
+      "intentId": "tip_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "0.7 - 1.0 mm"
+        }
+      ],
+      "value": "0.7 - 1.0 mm"
+    },
+    {
+      "intentId": "smudge",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "dry_time",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "ink_flow",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "free-flowing ink"
+        }
+      ],
+      "value": "free-flowing"
+    },
+    {
+      "intentId": "longevity",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "bleed_through",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "refillable",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "retractable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "Sealing Caps"
+        }
+      ],
+      "value": "Sealing Caps"
+    },
+    {
+      "intentId": "pack_contents",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "72 vibrant colors"
+        },
+        {
+          "fieldId": "title",
+          "text": "72-Count Gel Pens"
+        }
+      ],
+      "value": "72"
+    },
+    {
+      "intentId": "water_resistance",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.7",
+          "text": "fade- and water-resistant, acid-free, archival safe"
+        }
+      ],
+      "value": "fade- and water-resistant, acid-free, archival safe"
+    },
+    {
+      "intentId": "leaking",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "surface_compatibility",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "opacity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.ink_color",
+          "text": "White,Pastel"
+        }
+      ],
+      "value": "White,Pastel"
+    },
+    {
+      "intentId": "durability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "durable pocket clip"
+        }
+      ],
+      "value": "durable pocket clip"
+    },
+    {
+      "intentId": "weight",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.product_dimensions",
+          "text": "1.95 Pounds"
+        }
+      ],
+      "value": "1.95 Pounds"
+    },
+    {
+      "intentId": "erasable",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "glitter_level",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "neon glitter, colored glitter, metallic"
+        }
+      ],
+      "value": "neon glitter, colored glitter, metallic"
+    },
+    {
+      "intentId": "scent",
+      "status": "not_applicable",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+gel-ink-pens@2026-10-27.1",
+  "usage": {
+    "inputTokens": 1947,
+    "outputTokens": 1030
+  },
+  "latencyMs": 3096,
+  "cached": false
+}

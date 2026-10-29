@@ -1,0 +1,176 @@
+{
+  "data": [
+    {
+      "intentId": "tip_size",
+      "status": "contradicted",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Bold Point 1 mm"
+        },
+        {
+          "fieldId": "description.1",
+          "text": "The 0.7 mm fine pen point size"
+        }
+      ]
+    },
+    {
+      "intentId": "smudge",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Quick drying ink helps prevent smudges and smears"
+        }
+      ],
+      "value": "helps prevent smudges and smears"
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "dry_time",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Quick drying ink"
+        }
+      ],
+      "value": "Quick drying"
+    },
+    {
+      "intentId": "ink_flow",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "FriXion's smooth, mistake-free writing"
+        }
+      ],
+      "value": "smooth, mistake-free writing"
+    },
+    {
+      "intentId": "longevity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "long-lasting and fade-resistant"
+        }
+      ],
+      "value": "long-lasting"
+    },
+    {
+      "intentId": "bleed_through",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "refillable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "refilling your pen with Pilot FriXion refills"
+        }
+      ],
+      "value": "Pilot FriXion refills"
+    },
+    {
+      "intentId": "retractable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.closure",
+          "text": "Retractable"
+        }
+      ],
+      "value": "Retractable"
+    },
+    {
+      "intentId": "pack_contents",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Pack of 12, Blue"
+        }
+      ],
+      "value": "Pack of 12, Blue"
+    },
+    {
+      "intentId": "water_resistance",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "Archival-safe and acid-free"
+        }
+      ],
+      "value": "Archival-safe and acid-free"
+    },
+    {
+      "intentId": "leaking",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "surface_compatibility",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "opacity",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "durability",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "weight",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "3.99 ounces"
+        }
+      ],
+      "value": "3.99 ounces"
+    },
+    {
+      "intentId": "erasable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "erasable gel pen"
+        }
+      ],
+      "value": "erasable"
+    },
+    {
+      "intentId": "glitter_level",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "scent",
+      "status": "not_applicable",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+gel-ink-pens@2026-10-27.1",
+  "usage": {
+    "inputTokens": 2006,
+    "outputTokens": 1108
+  },
+  "latencyMs": 3488,
+  "cached": false
+}

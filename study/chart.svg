@@ -1,0 +1,245 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" width="720" height="480" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Answerability score against review count, 200 gel pens</title>
+  <desc id="d">Each dot is one gel pen. Spearman rho 0.15, 95% CI 0.01 to 0.29, permutation p 0.038.</desc>
+  <rect width="720" height="480" fill="#ffffff"/>
+  <text x="72" y="30" font-size="17" font-weight="600" fill="#1f2328">Do pens with more complete listings have more reviews?</text>
+  <text x="72" y="50" font-size="13" fill="#6b7280">200 gel pens, Amazon Reviews 2023. Score: share of shopper questions the listing text answers.</text>
+  <g stroke="#e5e7eb" stroke-width="1">
+    <line x1="72" x2="692" y1="388" y2="388"/>
+    <line x1="72" x2="692" y1="295.42857142857144" y2="295.42857142857144"/>
+    <line x1="72" x2="692" y1="202.85714285714286" y2="202.85714285714286"/>
+    <line x1="72" x2="692" y1="110.28571428571428" y2="110.28571428571428"/>
+    <line x1="72" x2="72" y1="64" y2="388"/>
+    <line x1="196" x2="196" y1="64" y2="388"/>
+    <line x1="320" x2="320" y1="64" y2="388"/>
+    <line x1="444" x2="444" y1="64" y2="388"/>
+    <line x1="568" x2="568" y1="64" y2="388"/>
+    <line x1="692" x2="692" y1="64" y2="388"/>
+  </g>
+  <g font-size="12" fill="#6b7280">
+    <text x="62" y="392" text-anchor="end">10</text>
+    <text x="62" y="299.42857142857144" text-anchor="end">100</text>
+    <text x="62" y="206.85714285714286" text-anchor="end">1,000</text>
+    <text x="62" y="114.28571428571428" text-anchor="end">10,000</text>
+    <text x="72" y="408" text-anchor="middle">0</text>
+    <text x="196" y="408" text-anchor="middle">20</text>
+    <text x="320" y="408" text-anchor="middle">40</text>
+    <text x="444" y="408" text-anchor="middle">60</text>
+    <text x="568" y="408" text-anchor="middle">80</text>
+    <text x="692" y="408" text-anchor="middle">100</text>
+  </g>
+  <text x="382" y="432" font-size="13" fill="#1f2328" text-anchor="middle">Answerability score (0-100)</text>
+  <text transform="translate(20 226) rotate(-90)" font-size="13" fill="#1f2328" text-anchor="middle">Review count (log scale)</text>
+  <g fill="#FF8800" fill-opacity="0.75" stroke="#ffffff" stroke-width="2">
+    <circle cx="425.4" cy="354.5" r="5"><title>PILOT (3) G2 Premium Refillable &amp; Retractable Rolling Ball Gel Pens, Fine Point  (B08VTWBRH5): score 57, 23 reviews</title></circle>
+    <circle cx="320.0" cy="322.5" r="5"><title>BAZIC GX-8 Black Oil-Gel Ink Pen (12/Box) (B01250M67W): score 40, 51 reviews</title></circle>
+    <circle cx="481.2" cy="283.7" r="5"><title>kyinflose Gel Ink Pens, Metal Business Gel Ink 0.5mm Pens with 2 Extra Refills（0 (B076PZ723Z): score 66, 134 reviews</title></circle>
+    <circle cx="437.8" cy="192.0" r="5"><title>uni-ball 207 Plus+ Retractable Gel Pens, Medium Point (0.7mm), Blue, 4 Count (B09MT26211): score 59, 1,309 reviews</title></circle>
+    <circle cx="332.4" cy="352.8" r="5"><title>Uni One Retractable Gel Ink Roller Ball Pen UMNS38BK.24, Black 0.38mm, 3 pens pe (B08LYD4K23): score 42, 24 reviews</title></circle>
+    <circle cx="208.4" cy="318.0" r="5"><title>The Hobbit Movie Bilbo Baggins Cast 2 Gel Pens Set (B00AJ2QJL8): score 22, 57 reviews</title></circle>
+    <circle cx="394.4" cy="272.7" r="5"><title>ZYWL Rocket Retractable Gel ink pens 0.5mm Fine Point (Blue Black Pen 10-Pack Bl (B08FD22ZQK): score 52, 176 reviews</title></circle>
+    <circle cx="518.4" cy="189.7" r="5"><title>Pentel 0.7 mm Energel Refillable Retractable Pen - Black (B08XPZ22QQ): score 72, 1,387 reviews</title></circle>
+    <circle cx="158.8" cy="351.2" r="5"><title>Sakura of America 38803 Gelly ROLL Metallic, Silver (B0018N8ETW): score 14, 25 reviews</title></circle>
+    <circle cx="437.8" cy="330.3" r="5"><title>Gel Ink Pens with Black Ink Refills Quick Dry Ballpoint Pens Fine Point Retracta (B0BNBLZZLV): score 59, 42 reviews</title></circle>
+    <circle cx="276.6" cy="275.5" r="5"><title>Zebra Pen G-402 Stainless Steel Retractable Gel Pen, Premium Metal Barrel, Fine  (B0BMYK38YK): score 33, 164 reviews</title></circle>
+    <circle cx="264.2" cy="230.6" r="5"><title>CC-Los Japan Style Gel Ink Rollerball Pens 0.38mm 8 Colors/Black Pack Office Sch (B09473SR28): score 31, 502 reviews</title></circle>
+    <circle cx="487.4" cy="351.2" r="5"><title>PILOT G2 Premium Refillable &amp; Retractable Rolling Ball Gel Pens, 0.5mm Extra Fin (B0B4BM6RXD): score 67, 25 reviews</title></circle>
+    <circle cx="121.6" cy="314.6" r="5"><title>MagMod Creative Gel Set (B01D5CMNDQ): score 8, 62 reviews</title></circle>
+    <circle cx="220.8" cy="294.6" r="5"><title>Uni-Ball 207 Retractable Gel Pen, Ultra Micro (B0797FSP33): score 24, 102 reviews</title></circle>
+    <circle cx="592.8" cy="191.2" r="5"><title>Pentel 0.7 mm Energel Xm Gel Pen Retractable - Red (Pack of 12) (B07H3MYQVR): score 84, 1,337 reviews</title></circle>
+    <circle cx="84.4" cy="342.5" r="5"><title>55 Pcs Cute Cow Pen Set Includes Cow Retractable Gel Ink Pens, Cow Pencil Case,  (B09V7H1PL4): score 2, 31 reviews</title></circle>
+    <circle cx="289.0" cy="301.5" r="5"><title>WIN-MARKET Llama Gel Pens Fashion Cute Colorful Kawaii Lovely Cartoon Animal She (B0B77Z6YH7): score 35, 86 reviews</title></circle>
+    <circle cx="481.2" cy="295.4" r="5"><title>CONLK Gel Pens 0.5 fine point,Black Ink Pen Aesthetic for Office School Supplies (B09ZXJV9P3): score 66, 100 reviews</title></circle>
+    <circle cx="375.8" cy="166.4" r="5"><title>PILOT Frixion Ball Knock Retractable Gel Ink Pen, 0.5mm, 10 Colors (LFBK-230EF-1 (B00CWX3JTC): score 49, 2,478 reviews</title></circle>
+    <circle cx="338.6" cy="334.3" r="5"><title>Larkpad 48 Gel Pens Set &amp; Three Coloring Book with Carrying Case - 24 Glitter 8  (B083S6K7GK): score 43, 38 reviews</title></circle>
+    <circle cx="344.8" cy="304.4" r="5"><title>Yasutomo Pen Gel Xtreme Set Pastel 7 Colors (B000YQGAFO): score 44, 80 reviews</title></circle>
+    <circle cx="264.2" cy="263.5" r="5"><title>InkWorks Supernatural Gel Pens Set -- Pack of 2 Deluxe Supernatural Projector Pe (B01BBVGSTI): score 31, 221 reviews</title></circle>
+    <circle cx="394.4" cy="198.8" r="5"><title>24 Pieces Gel Ink Refills Erasable Gel Refills for Erasable Gel Ink Pens, Fine P (B0B6F43MLT): score 52, 1,107 reviews</title></circle>
+    <circle cx="251.8" cy="349.6" r="5"><title>Kaweco FROSTED SPORT Gel/Ballpoint Pen Blush Pitaya I Pen Including 0.7 mm Rolle (B07NY4JDN6): score 29, 26 reviews</title></circle>
+    <circle cx="245.6" cy="299.2" r="5"><title>uni-ball UB-185S 0.5mm Tip Micro Point Eye Needle Stainless Steel Pen - Black (P (B00SV06Q3G): score 28, 91 reviews</title></circle>
+    <circle cx="400.6" cy="285.5" r="5"><title>NADRQQE Retractable Gel Ink Pens Quick Dry Ink Pens 0.5mm Fine Point Pen, Black  (B09Q629Y8V): score 53, 128 reviews</title></circle>
+    <circle cx="313.8" cy="237.6" r="5"><title>SHARPIE S-Gel Retractable Gel Pens, Bold Point, Assorted Ink, 4/Pack (2116198) (B08ZJLYQ2K): score 39, 421 reviews</title></circle>
+    <circle cx="351.0" cy="342.5" r="5"><title>Constellation 0.5mm Retractable Gel Pens Ballpoint Japanese Cute Gel Pens Office (B09KGFLGFL): score 45, 31 reviews</title></circle>
+    <circle cx="220.8" cy="321.0" r="5"><title>sencoo 6 pack Erasable Colorful Gel Pens Cute Cat Pens for Kids Girls Children S (B087FDM5J6): score 24, 53 reviews</title></circle>
+    <circle cx="437.8" cy="283.4" r="5"><title>Pilot G2-7 Retractable Gel Roller Pen, Fine Pen Point Type - 0.7 mm Pen Point Si (B00CF6TRQU): score 59, 135 reviews</title></circle>
+    <circle cx="84.4" cy="216.1" r="5"><title>Pilot Hi-Tec-C 04 Gel Ink Pen, Ultra Fine Point 0.4mm, Black Ink, LH-20C4, Value (B06Y3T81ZZ): score 2, 720 reviews</title></circle>
+    <circle cx="208.4" cy="335.4" r="5"><title>Office Supplies Kawaii Cute Pens, 30 Pcs 0.38mm Colored Pens Gel Pens Fine Point (B09TGN9222): score 22, 37 reviews</title></circle>
+    <circle cx="481.2" cy="318.0" r="5"><title>Zebra Pen Sarasa Dry X30 Retractable Gel Pen, Medium Point, 0.7mm, Blue Ink, 12- (B07KD1RNRX): score 66, 57 reviews</title></circle>
+    <circle cx="189.8" cy="276.0" r="5"><title>SunAngel® Originality Fashion Designed Doll Pen Cartoon ballpoint pen，Cute Creat (B072HHY2D4): score 19, 162 reviews</title></circle>
+    <circle cx="493.6" cy="201.9" r="5"><title>WallDeca Gel Pens | 12 Count, Fine Point Tip (0.5mm), Assorted Rainbow Colors, R (B081CVPDKL): score 68, 1,024 reviews</title></circle>
+    <circle cx="320.0" cy="340.0" r="5"><title>Dayspring Pens Engraved Cross Pen | Personalized Cross Bailey Red Lacquer Roller (B08GJY46Y1): score 40, 33 reviews</title></circle>
+    <circle cx="444.0" cy="324.9" r="5"><title>Pilot G2 Gel Ink Pen Refills, Fine Point, 0.7mm, Turquoise Ink, 2 Pack (B08PDNLPL3): score 60, 48 reviews</title></circle>
+    <circle cx="419.2" cy="283.7" r="5"><title>kyinflose pens, Smooth Gel Ink Metal Twist Roller Ball 0.5mm Black Pen Set(0.7mm (B076PZTXX1): score 56, 134 reviews</title></circle>
+    <circle cx="282.8" cy="232.3" r="5"><title>ParKoo Gel Ink Refills Compatible with FriXion and Friction Erasable Gel Pens, F (B07SD41LL9): score 34, 481 reviews</title></circle>
+    <circle cx="530.8" cy="358.2" r="5"><title>Pentel EnerGel NV Liquid Gel Pen, 0.7mm, Metal Tip, Black Ink, 2 Pack (BL27BP2A) (B01BOKR29Q): score 74, 21 reviews</title></circle>
+    <circle cx="400.6" cy="311.5" r="5"><title>ECR4Kids GelWriter Gel Pens Set Premium Multicolor, Neon Ink (12-Count) (B01F8FMD24): score 53, 67 reviews</title></circle>
+    <circle cx="462.6" cy="297.9" r="5"><title>NIUTA Color Pens Journal Planner Pens Fine Point Markers Tip Drawing Pens for Jo (B08CVP5DK8): score 63, 94 reviews</title></circle>
+    <circle cx="462.6" cy="160.6" r="5"><title>Paper Mate InkJoy Gel Pens, Fine Point, Black, 8 Count (B09K4GCV4B): score 63, 2,862 reviews</title></circle>
+    <circle cx="413.0" cy="340.0" r="5"><title>Pilot G2 Retractable Premium Gel Ink Roller Ball Pens Bold Point (Black, 36-Pack (B089R4XCLK): score 55, 33 reviews</title></circle>
+    <circle cx="332.4" cy="314.6" r="5"><title>Paper Mate 1746326 Gel Pens, Medium (0.7mm), Red, 12 Count (B01253WZO8): score 42, 62 reviews</title></circle>
+    <circle cx="202.2" cy="267.6" r="5"><title>PILOT Juice 0.38mm Gel Ink Ballpoint Pen, Apricot (LJU-10UF-AO) (B00Q673UCG): score 21, 200 reviews</title></circle>
+    <circle cx="394.4" cy="200.1" r="5"><title>BIC Gel-ocity Quick Dry (Dries Up To 3x Faster) SUPER BRIGHT COLORS 24 Pack, Sme (B08G38RDT1): score 52, 1,071 reviews</title></circle>
+    <circle cx="555.6" cy="354.5" r="5"><title>MiSiBao Multicolor Liquid Gel Pen 1.0mm Medium Point Refillable &amp; Retractable Ge (B08YK3ZVFP): score 78, 23 reviews</title></circle>
+    <circle cx="233.2" cy="302.4" r="5"><title>Outus Pink Ribbon Pens Breast Cancer Pens Retractable Gel Ink Pen Pink Ribbon Re (B097Y35WSV): score 26, 84 reviews</title></circle>
+    <circle cx="282.8" cy="284.9" r="5"><title>Promarx MegaBold Gel Pens with Comfort Grip Rubberized Barrel, 1.0 mm, Black, 2  (B00DJ4PUOA): score 34, 130 reviews</title></circle>
+    <circle cx="425.4" cy="236.8" r="5"><title>PILOT G2 Premium Gel Pen Convenience Pack, Retractable, Fine 0.7 Mm, Blue Ink, B (B01MDV83H9): score 57, 430 reviews</title></circle>
+    <circle cx="462.6" cy="334.3" r="5"><title>EEOYU Gel Pens Fine Point，0.5mm Silent Retractable Quick Dry Gel Ink Pen,Black I (B0BV98SKKY): score 63, 38 reviews</title></circle>
+    <circle cx="369.6" cy="326.6" r="5"><title>Pilot G2 Retractable Rollerball Gel Pens, Bold Point, 1.0mm, Blue Ink, Single Pe (B08KBJXXBM): score 48, 46 reviews</title></circle>
+    <circle cx="233.2" cy="251.0" r="5"><title>Uni-Ball Signo 207 Uni Super Ink Retractable Gel Pens, Ultra Micro Point 0.38mm, (B019Y9RMSK): score 26, 302 reviews</title></circle>
+    <circle cx="338.6" cy="226.1" r="5"><title>Pilot P-700 Rollerball Stick Gel Pen, Black Ink, Fine 0.7 mm, 6 Pens (B01F457W8I): score 43, 561 reviews</title></circle>
+    <circle cx="152.6" cy="351.2" r="5"><title>Geddes Scent-sibles Dessert Crystal Twist Mini Gel Pens - Set of 60 (B0033AH41M): score 13, 25 reviews</title></circle>
+    <circle cx="233.2" cy="298.8" r="5"><title>Zebra G-301 Gel Stainless Steel Retractable Pen, 0.7mm, Blue, 6 Pack (B01F25VWT0): score 26, 92 reviews</title></circle>
+    <circle cx="487.4" cy="271.6" r="5"><title>Zebra Sarasa - 0.7mm Retractable Gel Ink Rollerball Pen - Set of 6 - Red Ink (B078PNQNXF): score 67, 181 reviews</title></circle>
+    <circle cx="363.4" cy="191.8" r="5"><title>Uniball Signo 207 Impact RT Retractable Gel Pen, 4 Black Pens, 1.0mm Bold Point  (B0CCSZCX5F): score 47, 1,318 reviews</title></circle>
+    <circle cx="233.2" cy="351.2" r="5"><title>Pentel Slicci Techo Mini Gel Ink Pen Refill - 0.3 mm - Black (B008BGQXPQ): score 26, 25 reviews</title></circle>
+    <circle cx="338.6" cy="324.9" r="5"><title>Maydahui 12PCS Owl Shaped Rollerball Pens Cute Kawaii Animal Pen Novelty Bird Wr (B091DJ69Z6): score 43, 48 reviews</title></circle>
+    <circle cx="512.2" cy="255.2" r="5"><title>Kaco PURE Retractable Colored Gel Pens 20 Pieces Colorful Barrels Multi-color In (B07XBRDFQW): score 71, 272 reviews</title></circle>
+    <circle cx="444.0" cy="86.4" r="5"><title>SHARPIE S-Gel, Gel Pens, Fine Point (0.5mm), Black Ink Gel Pen, 12 Count (B0BTPHHW1W): score 60, 18,119 reviews</title></circle>
+    <circle cx="524.6" cy="348.1" r="5"><title>FIOVER 8PCS Gel Ink Retractable Pens Christmas Gel Pen Quick Dry Black Ink Fine  (B0BXT1KTMG): score 73, 27 reviews</title></circle>
+    <circle cx="351.0" cy="313.4" r="5"><title>PILOT 31096 G2 Pro Retractable Gel Ink Pen, Refillable, Black Ink/Blue Barrel.7M (B0096XUVEC): score 45, 64 reviews</title></circle>
+    <circle cx="233.2" cy="251.4" r="5"><title>DONG-A Fine-Tech Gel Ink Rollerball Pen, 0.3mm, Dozen Box, Red (B07FYS696K): score 26, 299 reviews</title></circle>
+    <circle cx="239.4" cy="248.3" r="5"><title>Zebra Pen G-402 Retractable Gel Pen, Stainless Steel Barrel, Fine Point, 0.5mm,  (B08XRXQY72): score 27, 323 reviews</title></circle>
+    <circle cx="369.6" cy="335.4" r="5"><title>T-shin Gel Black Ink Pen,8 Pack Bling Bling Crystal Diamond Fairy Stick,Glitter  (B07VZFT6D5): score 48, 37 reviews</title></circle>
+    <circle cx="270.4" cy="328.4" r="5"><title>Faber Castell Ball Pen Grip Edition Glam - XB, Violet Glam Colour (B09TSXLJBC): score 32, 44 reviews</title></circle>
+    <circle cx="382.0" cy="280.5" r="5"><title>Pentel Iridescent Metallic Gel Pens 1 mm Pochette de 6 multicolored (B01N9OJHRD): score 50, 145 reviews</title></circle>
+    <circle cx="506.0" cy="205.6" r="5"><title>Pilot, FriXion Clicker Erasable Gel Pens, Bold Point 1 mm, Pack of 12, Blue (B0BZW3C1TJ): score 70, 934 reviews</title></circle>
+    <circle cx="127.8" cy="360.1" r="5"><title>2 X Xtra Sparkle Glitter Gel 10 Colours Xtra Sparkle Gel Pen by Flair (B013JYHR7M): score 9, 20 reviews</title></circle>
+    <circle cx="363.4" cy="309.8" r="5"><title>KRIZJUES 16 Pcs Cartoon Animal Pens, Kawaii School Supplies Pens Cute Cartoon Ge (B09B3HQSMT): score 47, 70 reviews</title></circle>
+    <circle cx="363.4" cy="253.2" r="5"><title>Vitoler 8 Pack 1.0mm Colored Pens Ballpoint,Pens Fine Point Journaling Pens,Asso (B0C3GT2N99): score 47, 286 reviews</title></circle>
+    <circle cx="493.6" cy="175.6" r="5"><title>Zebra Pen Sarasa Dry X20 Retractable Gel Pen, Medium Point, 0.7mm, Black Ink, 10 (B085XGFTFS): score 68, 1,968 reviews</title></circle>
+    <circle cx="276.6" cy="337.6" r="5"><title>RIFLE PAPER CO. Margaux Gel Pen Set of 8 - Boxed Set of 8 Different Colored Retr (B0BZBKVWSW): score 33, 35 reviews</title></circle>
+    <circle cx="208.4" cy="330.3" r="5"><title>BIC RATG11-BLU Atlantis Gel Medium Point Pen (0.7mm) Dozen Box, Blue (B009ZMQ2V0): score 22, 42 reviews</title></circle>
+    <circle cx="543.2" cy="297.1" r="5"><title>Cactus Shaped Rollerball Pen Cute Creative 0.5 mm Black Ink Gel Pens For Student (B07BT664CL): score 76, 96 reviews</title></circle>
+    <circle cx="276.6" cy="206.5" r="5"><title>7 Pieces Japanese Styled Pen Set Gel Ink Ballpoint Pen Fine Tip Mechanical Penci (B081N4B1TB): score 33, 914 reviews</title></circle>
+    <circle cx="338.6" cy="335.4" r="5"><title>Maydahui 12PCS Cute Bear Gel Pen Cartoon Girl Cookies Pens Retractable Printing  (B0B9S3QWS5): score 43, 37 reviews</title></circle>
+    <circle cx="165.0" cy="298.8" r="5"><title>PILOT FriXion Color Sticks Erasable Gel Pens 32 Pack of Classic Colors BLK, RED, (B07PZFPF1Q): score 15, 92 reviews</title></circle>
+    <circle cx="382.0" cy="278.9" r="5"><title>Caliart Retractable Gel Ink Rollerball Pens Black Gel Pens Fine Ballpoint Pens f (B076P8JBJ1): score 50, 151 reviews</title></circle>
+    <circle cx="512.2" cy="187.1" r="5"><title>Zebra Pen G-301 Stainless Steel Retractable Gel Pen, Medium Point, 0.7mm, Blue I (B00898F7HQ): score 71, 1,479 reviews</title></circle>
+    <circle cx="394.4" cy="333.3" r="5"><title>Buptop PORTOWN 22 Pcs Cute Cat Pens Kawaii Pen Cats Design Gel Ink Pens Cute Sta (B08RBL7KPV): score 52, 39 reviews</title></circle>
+    <circle cx="344.8" cy="310.3" r="5"><title>uni-ball Roller Grip Pens, Micro Point (0.5mm), Blue, 12 Count (B00006IE98): score 44, 69 reviews</title></circle>
+    <circle cx="233.2" cy="298.3" r="5"><title>uni-ball 207 Retractable Gel Pens, Bold Point (1.0mm), Black, 4 Count (B005HNZ5Z0): score 26, 93 reviews</title></circle>
+    <circle cx="419.2" cy="155.2" r="5"><title>ParKoo Retractable Erasable Gel Pens Clicker, Fine Point, No Need for White Out, (B07485X95K): score 56, 3,274 reviews</title></circle>
+    <circle cx="344.8" cy="332.3" r="5"><title>Zebra Sarasa Clip 0.4 Retractable Gel Ink Pen, Rubber Grip, 0.4mm, Gray Ink, Val (B073GNYLFK): score 44, 40 reviews</title></circle>
+    <circle cx="493.6" cy="324.1" r="5"><title>Zebra Pen Zebra's Jimnie Gel Rollerball Stick Pen 0.7mm Black Dozen (44110) (B001CRS4AS): score 68, 49 reviews</title></circle>
+    <circle cx="518.4" cy="276.3" r="5"><title>Gel Pens, 10 Pcs Cute Pens for Journaling and Note Taking, 0.5mm Retractable Bla (B0B45SMJJC): score 72, 161 reviews</title></circle>
+    <circle cx="382.0" cy="231.7" r="5"><title>Zebra Sarasa Clip 0.3 Retractable Gel Ink Pen, Rubber Grip, 0.3 mm, 20 Color Ink (B077NDWJ7D): score 50, 488 reviews</title></circle>
+    <circle cx="307.6" cy="343.8" r="5"><title>PILOT FriXion Clicker Erasable, Refillable &amp; Retractable Gel Ink Pens, Fine Poin (B09RNFVRTK): score 38, 30 reviews</title></circle>
+    <circle cx="313.8" cy="329.4" r="5"><title>Pilot G2-7 Retractable Gel Roller Pens (PIL31247),Pack of 12 (B007ZZO61C): score 39, 43 reviews</title></circle>
+    <circle cx="450.2" cy="280.2" r="5"><title>CLEARANCE Gel Pens 60 Value Pack, 40% More Ink than Other Sets, Top Quality Colo (B01CV43978): score 61, 146 reviews</title></circle>
+    <circle cx="400.6" cy="240.6" r="5"><title>Kaisercraft Gel Pen Set-Pastel, Glitter, Metallic, Neon-48, Multi-Colour, 28 x 1 (B01JOAW0Z4): score 53, 391 reviews</title></circle>
+    <circle cx="468.8" cy="346.6" r="5"><title>Maydahui 8PCS Sunny Doll Rollerball Pens Cute Kawaii Japanese Kimono Girls Pen P (B08R3Y2QWK): score 64, 28 reviews</title></circle>
+    <circle cx="208.4" cy="312.1" r="5"><title>Sencoo 12 pack Red Gel Ink Pens Cute Cat Pens 0.5 mm Kawaii Students Gift School (B094ZTQ1GB): score 22, 66 reviews</title></circle>
+    <circle cx="549.4" cy="256.2" r="5"><title>Pentel EnerGel 0.7 mm Liquid Gel Ink Pens - Pack of 5 Pink Deluxe RTX Energel Pe (B09S1FSDBS): score 77, 265 reviews</title></circle>
+    <circle cx="332.4" cy="196.5" r="5"><title>Uni-Ball Signo 207 Retractable Gel Pen, 0.5mm Micro Point, Black, Pack of 6 (B01N2QZI5O): score 42, 1,170 reviews</title></circle>
+    <circle cx="537.0" cy="343.8" r="5"><title>PILOT G6 Refillable and Retractable Gel Ink Rolling Ball Pen, Fine Point, Red In (B001E6C8RC): score 75, 30 reviews</title></circle>
+    <circle cx="233.2" cy="321.0" r="5"><title>WIN-MARKET Animal Colourful llama Alpaca Sheep Gel Ink Pen Cute Kawaii Black Wri (B09TWNWJRB): score 26, 53 reviews</title></circle>
+    <circle cx="344.8" cy="254.6" r="5"><title>Pilot FriXion ColorSticks Erasable Gel Ink Pens, Fine Point, Black and Blue Inks (B0BZW3268Z): score 44, 276 reviews</title></circle>
+    <circle cx="270.4" cy="190.9" r="5"><title>Zebra Pen G-301 Retractable Gel Ink Pen, Stainless Steel Barrel, Medium Point, 0 (B08WX7PYZS): score 32, 1,346 reviews</title></circle>
+    <circle cx="134.0" cy="349.6" r="5"><title>Zebra JK Refills for G301Gel Rollerball Pens, Medium Point, 2/Pack, Black Ink, P (B0017DER4Y): score 10, 26 reviews</title></circle>
+    <circle cx="375.8" cy="326.6" r="5"><title>The Board Dudes Scribble Stuff Super Gel Pens - Metallic, 8 Count (B00OV0UFPK): score 49, 46 reviews</title></circle>
+    <circle cx="388.2" cy="282.5" r="5"><title>PILOT G2 Premium Refillable &amp; Retractable Rolling Ball Gel Pens, Fine Point, Bla (B004J0VBBY): score 51, 138 reviews</title></circle>
+    <circle cx="289.0" cy="231.4" r="5"><title>InkWorks Wonder Woman Gel Pens, 2 Count (B009ZQBIVU): score 35, 492 reviews</title></circle>
+    <circle cx="419.2" cy="354.5" r="5"><title>Paper Mate 1958177 Inkjoy Retractable Gel Pen Fine Point Black Ink 3/Pack (19516 (B0797DD12L): score 56, 23 reviews</title></circle>
+    <circle cx="363.4" cy="331.3" r="5"><title>PILOT FriXion Ball Clicker Erasable Gel Ink Retractable Pen, Fine Point, 0.7mm,  (B084KTFHK4): score 47, 41 reviews</title></circle>
+    <circle cx="487.4" cy="259.6" r="5"><title>Pentel EnerGel 0.5mm Needle Tip Green Ink Liquid Gel Pens (BLN75-D) - 6 Pack (B07R112J3K): score 67, 244 reviews</title></circle>
+    <circle cx="344.8" cy="166.3" r="5"><title>Vitoler Retractable Erasable Gel Pens, 0.7mm Fine Point Colored Pens, Make Mista (B09YRBY4V3): score 44, 2,480 reviews</title></circle>
+    <circle cx="289.0" cy="335.4" r="5"><title>Pilot FriXion Ball 0.7mm Erasable Gel Pens, Fine Point, Assorted Colors, 6 Pack (B01CQ39CZ2): score 35, 37 reviews</title></circle>
+    <circle cx="512.2" cy="311.5" r="5"><title>Colored Gel Pens 10 Assorted Colors Gel Ink Pens Extra Fine Point (0.5mm), Writi (B093ZH72G8): score 71, 67 reviews</title></circle>
+    <circle cx="338.6" cy="270.0" r="5"><title>Pilot Juice 038 Retractable Gel Ink Pen (LJU-10UF), Ultra Fine Point, 0.38mm, Bl (B06XF41HHH): score 43, 188 reviews</title></circle>
+    <circle cx="555.6" cy="187.9" r="5"><title>Pentel Libretto Roller Gel Pen, Rose Gold, Black Ink with Gift Box, Pen 0.7mm, 1 (B01B25B4AQ): score 78, 1,450 reviews</title></circle>
+    <circle cx="264.2" cy="352.8" r="5"><title>19 Pieces Cactus Pens Cactus Office Supplies Sticky Notes Stickers Wooden Clothe (B09T36TR8G): score 31, 24 reviews</title></circle>
+    <circle cx="363.4" cy="300.1" r="5"><title>Jisomin 12Pcs 0.35 mm Blue Gel Ink Pens, Extra-Fine Ballpoint Pen, for Office Sc (B09C5V93LZ): score 47, 89 reviews</title></circle>
+    <circle cx="481.2" cy="276.5" r="5"><title>MyLifeUNIT Rolling Ball Pens, 8 Pieces Quick-drying Ink Retro Pens, 0.5 mm Extra (B087MBTLLJ): score 66, 160 reviews</title></circle>
+    <circle cx="208.4" cy="234.7" r="5"><title>Pentel Gel Pen, Energel Clena, Body and Brown Ink, 0.5mm (B07HPZ9LFY): score 22, 453 reviews</title></circle>
+    <circle cx="475.0" cy="356.3" r="5"><title>BIC® Gel-ocity Quick Dry Retractable Gel Pens, Medium Point, 0.7 mm, Black/Blue/ (B079H1YWSG): score 65, 22 reviews</title></circle>
+    <circle cx="506.0" cy="322.5" r="5"><title>WRITECH Retractable Gel Ink Pens: Fine Point 0.7mm Assorted Color Soft Grip 8ct  (B0B28XL5FQ): score 70, 51 reviews</title></circle>
+    <circle cx="363.4" cy="296.7" r="5"><title>TUL® GL Series Retractable Gel Pens, Bold Point, 1.0 mm, Silver Barrel, Assorted (B0845SB4X7): score 47, 97 reviews</title></circle>
+    <circle cx="456.4" cy="248.3" r="5"><title>Paper Mate InkJoy Gel Pens Medium Point (0.7mm) Capped, 12 Count, Assorted Color (B089ZQCG1D): score 62, 323 reviews</title></circle>
+    <circle cx="214.6" cy="343.8" r="5"><title>Pilot Hi-Tec-C Maica Gel Ink Ballpoint Pen, Blue Black 0.4 mm, 3 Pack (Japan imp (B01N6NPCAR): score 23, 30 reviews</title></circle>
+    <circle cx="338.6" cy="309.2" r="5"><title>EnerGel Pentel XM BL77 - Retractable Liquid Gel Ink Pen - 0.7mm - 52% Recycled - (B07CG7W5D8): score 43, 71 reviews</title></circle>
+    <circle cx="239.4" cy="287.4" r="5"><title>Sencoo 24-Pack 0.38 mm Black Gel Ink Pen Replace Refills (B08C5N5SX8): score 27, 122 reviews</title></circle>
+    <circle cx="388.2" cy="180.2" r="5"><title>Aimyoo Pack of 30 Cactus Shaped Ballpoint Black 0.5mm Gel Ink Rollerball Pen for (B07GPDR71T): score 51, 1,758 reviews</title></circle>
+    <circle cx="400.6" cy="332.3" r="5"><title>Sprieben 5 Pack 0.5mm Black Ink Gel Pens, Retractable Quick Dry Fine Point Rolli (B0BZQYXWKR): score 53, 40 reviews</title></circle>
+    <circle cx="388.2" cy="331.3" r="5"><title>24 Pieces Cute Dinosaur Black Ink Pens Cartoon Writing Gel Ink Pens Animal Writi (B09PDV8NYK): score 51, 41 reviews</title></circle>
+    <circle cx="301.4" cy="261.6" r="5"><title>Sharpie® S Gel Pens, Medium Point, 0.7 mm, Black Barrels, Assorted Ink, Pack Of  (B0853D1NQZ): score 37, 232 reviews</title></circle>
+    <circle cx="183.6" cy="238.1" r="5"><title>LEUCHTTURM1917 - Drehgriffel Writing Pen (Rising Sun) - Ballpoint Pen with Royal (B0BY9LKRJS): score 18, 416 reviews</title></circle>
+    <circle cx="264.2" cy="348.1" r="5"><title>uni-ball Signo 207 Retractable Gel Pens, Medium Point, Purple Ink, Pack of 2 (B002HICKJW): score 31, 27 reviews</title></circle>
+    <circle cx="208.4" cy="317.3" r="5"><title>Pilot Hi-Tec-C Maica Gel Ink Pen(LHM-15C4-L), Extra Fine Point 0.4mm, Blue Ink,  (B06XF2K3KT): score 22, 58 reviews</title></circle>
+    <circle cx="369.6" cy="290.5" r="5"><title>Uni-ball Signo UM-100 Gel Ink Pen - 0.5 mm -10 Pcs (Blue) (B00VUYJO2A): score 48, 113 reviews</title></circle>
+    <circle cx="456.4" cy="144.2" r="5"><title>SHARPIE S-Gel | Gel Pens | Medium Point (0.7mm) | Black Ink | 3 Count (B09SQ2VCR3): score 62, 4,303 reviews</title></circle>
+    <circle cx="227.0" cy="336.5" r="5"><title>Maydahui 45PCS Cat Rollerball Pens Elegant Cats Kitty Animal Pen Cute Cartoon Ka (B087TD56CN): score 25, 36 reviews</title></circle>
+    <circle cx="332.4" cy="317.3" r="5"><title>Paper Mate InkJoy Gel Pens, Fine Point, Black, 10-Count (B076VPBV7D): score 42, 58 reviews</title></circle>
+    <circle cx="493.6" cy="261.2" r="5"><title>AIHAO Gel Pens, Medium Point, Black Ink, 12 Pack, Retractable Gel Ink Rollerball (B08R3J484N): score 68, 234 reviews</title></circle>
+    <circle cx="208.4" cy="250.2" r="5"><title>Pilot juice up 03 Retractable Gel Ink Pen, Hyper Fine Point 0.3mm, LJP-20S3, 10  (B06XTNTFQ1): score 22, 308 reviews</title></circle>
+    <circle cx="388.2" cy="348.1" r="5"><title>Maydahui 12PCS Narwhal Whale Shaped Rollerball Pens Cute Kawaii Animal Pen Color (B08R6S7RBN): score 51, 27 reviews</title></circle>
+    <circle cx="239.4" cy="305.4" r="5"><title>SAKURA Fun Writing Gel Ink Roller Ballpoint Pen for Decoration, Decorese Glitter (B00ESBWUL4): score 27, 78 reviews</title></circle>
+    <circle cx="413.0" cy="295.4" r="5"><title>2 X Pentel Energel Retractable Roller Ball, 0.7 mm Line Size, Chrome Barrel, Bla (B00ZZZX2SM): score 55, 100 reviews</title></circle>
+    <circle cx="313.8" cy="216.9" r="5"><title>PILOT FriXion Point Erasable &amp; Refillable Gel Ink Pens, Extra Fine Point, Purple (B09FFYRRP7): score 39, 706 reviews</title></circle>
+    <circle cx="369.6" cy="356.3" r="5"><title>KLGDA 60pcs Gel Pen Refills Glitter Coloring Drawing Painting Craft Marker Smoot (B07VW63S78): score 48, 22 reviews</title></circle>
+    <circle cx="189.8" cy="323.3" r="5"><title>12 Pcs Dinosaur Gel Pens Set,Fine Point (0.5mm), Black,Best Dinosaur Gifts Party (B07CN2GMTH): score 19, 50 reviews</title></circle>
+    <circle cx="369.6" cy="287.8" r="5"><title>TUL Limited Edition Brights Retractable Gel Pens, Medium Point, 0.7 mm, Assorted (B079H46BZK): score 48, 121 reviews</title></circle>
+    <circle cx="549.4" cy="232.7" r="5"><title>deli 12 Pack Black Rolling Ball Pens, Fine Point Pens, 0.5mm Liquid Ink Pens, Qu (B08HD6B57S): score 77, 476 reviews</title></circle>
+    <circle cx="289.0" cy="352.8" r="5"><title>Cute Colorful Journal Pen,10Pcs Multi Colors Colorful Gel Ink Pens 0.38mm MultiC (B085F2PRG1): score 35, 24 reviews</title></circle>
+    <circle cx="239.4" cy="314.0" r="5"><title>Pens, RGEM Gel Ink Rollerball Black Pen, Extra Fine Point 0.5mm, 12-Count (B075WQJL35): score 27, 63 reviews</title></circle>
+    <circle cx="363.4" cy="264.1" r="5"><title>RECHENG cute gel ink Milky cow pens,crystal diamond ink refills,12 colors 0.35mm (B07Z79DKWG): score 47, 218 reviews</title></circle>
+    <circle cx="146.4" cy="230.3" r="5"><title>BIC SUPER SMOOTH Gel-ocity gel pens, Bulk Pack Of 24 Ink Pens, 12 Black And 12 B (B08DTFXFG8): score 12, 505 reviews</title></circle>
+    <circle cx="369.6" cy="342.5" r="5"><title>12 Pack Carrot Silicone Body Gel Ink Pen Kawaii Office School Student Supply Gif (B06WW7X1MG): score 48, 31 reviews</title></circle>
+    <circle cx="227.0" cy="306.5" r="5"><title>GANSSIA Cats Design Gel Pens Black Ink 0.5mm Point Pen for Writing Drawing Gift  (B08L5XLNRX): score 25, 76 reviews</title></circle>
+    <circle cx="506.0" cy="286.8" r="5"><title>Cute Black Gel Pen, Tirmrin 10 Pack Retractable Kawaii Pens Gift for Women Gel I (B08VH5VHNF): score 70, 124 reviews</title></circle>
+    <circle cx="419.2" cy="230.6" r="5"><title>Japan Style Gel Ink Rollerball Pens 0.5mm 12 Colors/Black Pack Office School Sta (B08HSLJ8N8): score 56, 502 reviews</title></circle>
+    <circle cx="351.0" cy="351.2" r="5"><title>PILOT G2 Fashion Collection Colors Gel Roller Pens Fine Point Turquoise Ink and  (B00FACLIN6): score 45, 25 reviews</title></circle>
+    <circle cx="227.0" cy="311.5" r="5"><title>Sheaffer Ion Lilac Gel Rollerball Pen (B07258YSHR): score 25, 67 reviews</title></circle>
+    <circle cx="301.4" cy="286.8" r="5"><title>Cello Smooth Ball Point Pens 10 pack, Black Noir, 1.0 mm (B00NURSAD4): score 37, 124 reviews</title></circle>
+    <circle cx="419.2" cy="123.5" r="5"><title>PILOT G2 Metallics Refillable and Retractable Rolling Ball Gel Pens, Fine Point, (B0C39C7SXR): score 56, 7,190 reviews</title></circle>
+    <circle cx="245.6" cy="346.6" r="5"><title>Sencoo 24 pcs Black Erasable Pens Kawaii Cute Cartoon Gel Ink Pens Assorted Styl (B07WJ5M423): score 28, 28 reviews</title></circle>
+    <circle cx="307.6" cy="302.4" r="5"><title>Pentel EnerGel Alloy RT Premium Liquid Gel Pen, 0.7mm, Aquamarine Barrel, Black  (B07TMBW9D8): score 38, 84 reviews</title></circle>
+    <circle cx="394.4" cy="258.8" r="5"><title>GelWriter 72-Count Gel Pens in Canvas Wrap - Metallic, Glitter, Neon, Pastel - 7 (B075GVJFXC): score 52, 249 reviews</title></circle>
+    <circle cx="276.6" cy="245.4" r="5"><title>NYKKOLA Cute Color Pens for Women Colorful Gel Ink Pens Multi Colored Pens for B (B00N6GKU64): score 33, 347 reviews</title></circle>
+    <circle cx="146.4" cy="354.5" r="5"><title>Motley Crue Masks Plastic Gel Pen (genuine And Licensed) (B003Y7JAC0): score 12, 23 reviews</title></circle>
+    <circle cx="276.6" cy="324.9" r="5"><title>Pilot juice up 04 Retractable Gel Ink Pen, Ultra Fine Point 0.4mm, Blue Ink, Val (B073GQP5P8): score 33, 48 reviews</title></circle>
+    <circle cx="264.2" cy="265.0" r="5"><title>Pilot Frixion Point Gel Ink Stick Pens, Erasable, Extra Fine Point 0.5mm, Blue I (B00IIVA274): score 31, 213 reviews</title></circle>
+    <circle cx="338.6" cy="245.5" r="5"><title>Buytra 24 Pack Cute Cat Paw Prints Gel Roller Ball Pens with 0.5mm Fine Point, B (B07D111G2Y): score 43, 346 reviews</title></circle>
+    <circle cx="512.2" cy="345.2" r="5"><title>UIXJODO Fun Pens, 12 Pcs Kawaii Cute Pens, 0.5mm Black Ink Pens Fine Point Smoot (B0B2DJT95C): score 71, 29 reviews</title></circle>
+    <circle cx="177.4" cy="311.5" r="5"><title>Uni-ball signo Rubber Grip &amp; stick Retractable Ultra Micro Point Gel Pens -0.38m (B0141ML8QW): score 17, 67 reviews</title></circle>
+    <circle cx="481.2" cy="265.6" r="5"><title>STAPENS 10 Colored Gel Ink Pens, 0.5 mm Fine Point Gel Pen with Quick Dry Ink, R (B09NQZWQ5Z): score 66, 210 reviews</title></circle>
+    <circle cx="227.0" cy="236.4" r="5"><title>Fathers Day Dad Gifts for Men - Fidget Gel Pens Birthday Gifts for Teenage Boys, (B0B1VM1C6L): score 25, 434 reviews</title></circle>
+    <circle cx="363.4" cy="340.0" r="5"><title>BUOP 6-Count Clip Click Retractable Ball-point Pens, Classic Design, Standard Me (B016XIH3OI): score 47, 33 reviews</title></circle>
+    <circle cx="357.2" cy="302.0" r="5"><title>BIC Triumph 537RT Retractable Gel Medium Point (0.7mm) Pen, Black, 2 Gel Pens (B00347A8OY): score 46, 85 reviews</title></circle>
+    <circle cx="208.4" cy="297.1" r="5"><title>Sencoo 24 Pieces Cute Cat Pen 0.5 mm Gel Pens Black Ball Point Pens School Offic (B07GTTC2GG): score 22, 96 reviews</title></circle>
+    <circle cx="456.4" cy="103.7" r="5"><title>Paper Mate InkJoy Pens, Gel Pens, Medium Point (0.7 mm), Black, 10 Count (B0BYW9V4JL): score 62, 11,778 reviews</title></circle>
+    <circle cx="388.2" cy="345.2" r="5"><title>JJYHEHOT 10Pcs Mermaid Gel Pen Set, 0.5mm Black Ink Pens, Cute Mermaid Tail Pen  (B09B22QQXD): score 51, 29 reviews</title></circle>
+    <circle cx="357.2" cy="308.1" r="5"><title>Uni-ball Signo Gel Ink Pen, 0.38 mm tip, Red, Pack of 10 (BC25557) (B00VW9SYH4): score 46, 73 reviews</title></circle>
+    <circle cx="394.4" cy="290.9" r="5"><title>Vitoler Erasable Gel Pens, Retractable Erasable Gel Pen Clicker, Fine Point 0.7  (B099ZSZTZ2): score 52, 112 reviews</title></circle>
+    <circle cx="382.0" cy="239.0" r="5"><title>uni-ball 307 Retractable Gel Pens, Micro Point (0.5mm), Assorted, 3 Count (B09MT2593M): score 50, 407 reviews</title></circle>
+    <circle cx="692.0" cy="349.6" r="5"><title>12Pcs Cute Kawaii Rainbow Black Gel Pens &amp; 12Pcs Blue Ink Refills Funny Creative (B081VY745H): score 100, 26 reviews</title></circle>
+    <circle cx="270.4" cy="319.5" r="5"><title>YOOHUA 20PCS Mermaid Tail Gel Pens for Child, Women, Coworkers, Hostess and Girl (B0948VNF68): score 32, 55 reviews</title></circle>
+    <circle cx="202.2" cy="280.2" r="5"><title>Sheaffer Ion Red Gel Rollerball Pen (B06ZYF2LMM): score 21, 146 reviews</title></circle>
+    <circle cx="499.8" cy="170.8" r="5"><title>Zebra Pen Sarasa Dry X20 Retractable Gel Pen, Fine Point, 0.5mm, Red Ink, 12-Pac (B085XP8GWR): score 69, 2,222 reviews</title></circle>
+    <circle cx="270.4" cy="351.2" r="5"><title>24 Pack Novelty Gun Shape Pens Cool Gel Ink Pens Sniper Rifle Pens Cute Gun Ball (B0B19S98ZJ): score 32, 25 reviews</title></circle>
+    <circle cx="320.0" cy="321.0" r="5"><title>Pilot Juice 0.38mm Gel Ink Ballpoint Pen, Blue Black Ink, Value Set of 10 (B073GQ861T): score 40, 53 reviews</title></circle>
+    <circle cx="276.6" cy="266.6" r="5"><title>Pilot FriXion Ball Knock Retractable Erasable Gel Ink Pens, Extra Fine Point 0.5 (B06WD7Z3BV): score 33, 205 reviews</title></circle>
+    <circle cx="208.4" cy="206.3" r="5"><title>Signo Gel 207 Roller Ball Retractable Gel Pen, Blue Ink, 0.7MM, Dozen (B095M3J1M7): score 22, 919 reviews</title></circle>
+    <circle cx="332.4" cy="348.1" r="5"><title>BUOP 24-Count [12+12] Bouquet of Narcissus Assorted Color Flower Pen, Novelty De (B01M6E98B4): score 42, 27 reviews</title></circle>
+    <circle cx="115.4" cy="324.9" r="5"><title>Pilot gel ink pen Timeline gel carbon black LTL-3SR-CB (japan import) (B001AX9LC4): score 7, 48 reviews</title></circle>
+    <circle cx="561.8" cy="275.8" r="5"><title>Writech Journaling Pens Set, Includes 4 Retractable Highlighters, 4 Retractable  (B0BDLRVMQT): score 79, 163 reviews</title></circle>
+    <circle cx="623.8" cy="247.9" r="5"><title>Rollerball Pen Fine Point Pens: 16 Pack 0.5mm Rollerball Pen, Extra Fine Point P (B09QSN8ZV9): score 89, 326 reviews</title></circle>
+    <circle cx="456.4" cy="346.6" r="5"><title>Giant star Gel Ink Pen, Creative Gel Ink Pens, 0.5 mm Black Gel Ink Pens, Extra- (B08QMJZMCX): score 62, 28 reviews</title></circle>
+    <circle cx="307.6" cy="300.6" r="5"><title>Uni-Ball Signo 207 Retractable Gel Pen, 1.0mm Bold Point, Black, Pack of 12 (B07DRRLCYT): score 38, 88 reviews</title></circle>
+    <circle cx="245.6" cy="290.9" r="5"><title>Pilot Frixion Ball Slim Retractable Erasable Gel Ink Pens,fine Point, 0.38 Mm -  (B00F90R9S2): score 28, 112 reviews</title></circle>
+    <circle cx="258.0" cy="222.9" r="5"><title>Zebra Pen Sarasa Clip Retractable Gel Pen, Fine Point, 0.5mm, Milk Assorted Colo (B07NDXWD1F): score 30, 608 reviews</title></circle>
+    <circle cx="462.6" cy="346.6" r="5"><title>Uni Japan Signo RT1 Retractable Gel Ink Pen, Ultra Micro Point 0.28mm, Renewal 2 (B09JNXGZ3Y): score 63, 28 reviews</title></circle>
+    <circle cx="524.6" cy="302.0" r="5"><title>Liqeo Pro Retractable Gel Pens with Instant Dry Liquid Ink - 0.7mm Medium Tip -  (B091M8N7V2): score 73, 85 reviews</title></circle>
+    <circle cx="692.0" cy="274.8" r="5"><title>Super Cute Flamingo Pen Black Ink Gel Kawaii Cool Creative Ballpoint Rollerball  (B07JKKXTG9): score 100, 167 reviews</title></circle>
+    <circle cx="276.6" cy="194.5" r="5"><title>PILOT FriXion Ball LX Erasable, Refillable &amp; Retractable Gel Ink Pen, Fine Point (B09FG1JDTM): score 33, 1,232 reviews</title></circle>
+  </g>
+  <polyline fill="none" stroke="#374151" stroke-width="2" stroke-linejoin="round" points="208.4,311.5 276.6,295.0 351.0,311.9 413.0,281.5 509.1,276.4"/>
+  <g fill="#374151" stroke="#ffffff" stroke-width="2">
+    <circle cx="208.4" cy="311.5" r="4"/>
+    <circle cx="276.6" cy="295.0" r="4"/>
+    <circle cx="351.0" cy="311.9" r="4"/>
+    <circle cx="413.0" cy="281.5" r="4"/>
+    <circle cx="509.1" cy="276.4" r="4"/>
+  </g>
+  <text x="72" y="458" font-size="12" fill="#6b7280">Line: median review count in each fifth of pens ranked by score. Spearman rho 0.15 (95% CI 0.01 to 0.29),</text>
+  <text x="72" y="474" font-size="12" fill="#6b7280">p 0.038, n 200. Correlation, not cause; review count is a proxy for sales.</text>
+</svg>

@@ -116,18 +116,28 @@ function reading(): string {
   const dir = overall.rho > 0 ? "higher" : "lower";
   const sig = significant(overall);
   const head = sig
-    ? `Across ${overall.n} gel pens, listings that answer more of the shoppers' questions tend to have ${dir} review counts: a ${strength(overall.rho)} rank correlation (${line(overall)}).`
+    ? `Across ${overall.n} gel pens, listings that answer more of the shoppers' questions tend to have ${dir} review counts: a ${strength(overall.rho)} rank correlation: ${line(overall)}.`
     : `Across ${overall.n} gel pens, the answerability score has no clear relation to review count (${line(overall)}). On this data the score is not predictive of demand.`;
   const partialText = significant(partial)
     ? `Holding price fixed changes little: on the ${partial.n} pens with a price, the partial correlation is ${f(partial.rho)} (CI ${f(partial.ci[0])} to ${f(partial.ci[1])}, p ${p(partial.p)}).`
     : `Holding price fixed, on the ${partial.n} pens with a price, the partial correlation is ${f(partial.rho)} (CI ${f(partial.ci[0])} to ${f(partial.ci[1])}, p ${p(partial.p)}), which is not distinguishable from zero.`;
   const weakNote =
     sig && Math.abs(overall.rho) < 0.3
-      ? " Even where it is significant, a correlation this size explains only a few percent of the variation in rank, so the score cannot predict how well any single listing sells."
+      ? ` A correlation this size accounts for about ${Math.round(overall.rho ** 2 * 100)}% of the variation in rank, and the interval's lower end is ${f(overall.ci[0])}, so the score cannot predict how well any single listing sells.`
       : "";
+  const sigBands = bands.filter((b) => b.correlation && significant(b.correlation));
+  const means = bands.map((b) => b.meanScore).join(", ");
+  const rising = bands.every((b, i) => i === 0 || b.meanScore >= bands[i - 1]!.meanScore);
+  const bandText =
+    sigBands.length === 1
+      ? `The pattern is not spread evenly: within band ${sigBands[0]!.band} (${sigBands[0]!.reviews[0].toLocaleString("en-US")}+ reviews) rho is ${f(sigBands[0]!.correlation!.rho)} (p ${p(sigBands[0]!.correlation!.p)}), while inside the other three bands it is near zero, and the average score ${rising ? "rises" : "does not rise steadily"} from the lowest band to the highest (${means}).`
+      : `Within the four demand bands the correlations are ${bands.map((b) => (b.correlation ? f(b.correlation.rho) : "n/a")).join(", ")}, and the average scores are ${means}.`;
+  const rankText = `The 2023 sales rank stored in the same records ${significant(salesRank) ? "points the same way" : "shows no clear relation"} (rho ${f(salesRank.rho)}, CI ${f(salesRank.ci[0])} to ${f(salesRank.ci[1])}, n ${salesRank.n}).`;
   return [
     head,
     partialText + weakNote,
+    bandText,
+    rankText,
     "This is correlation, not cause: a brand that writes complete listings may also advertise more, have better distribution or simply be older, and popular products may get their listings improved because they sell, not the other way round.",
     "The data is the Amazon Reviews 2023 snapshot, so the listings and counts are from 2023, not today.",
     "It measures the listing's readable text (title, bullets, description, attributes), not what Alexa for Shopping actually says, and it ignores images and A+ content.",

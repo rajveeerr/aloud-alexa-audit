@@ -1,0 +1,161 @@
+{
+  "data": [
+    {
+      "intentId": "tip_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Glitter & Flouro pens have 1mm ballpoint tips, metallic, neon & pastel have 0.8mm tips."
+        }
+      ],
+      "value": "1mm, 0.8mm"
+    },
+    {
+      "intentId": "smudge",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "dry_time",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "ink_flow",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Silky smooth application with easy flowing tip."
+        }
+      ],
+      "value": "Silky smooth application with easy flowing tip"
+    },
+    {
+      "intentId": "longevity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "AmazaPens have 40% more ink than most gel pens so they LAST LONGER"
+        }
+      ],
+      "value": "LAST LONGER"
+    },
+    {
+      "intentId": "bleed_through",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "refillable",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "retractable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.closure",
+          "text": "Snap"
+        }
+      ],
+      "value": "Snap"
+    },
+    {
+      "intentId": "pack_contents",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "47 Unique colors in this pack of 60 premium colored pens include 24 Glitter, 12 Flouro Glitter, 10 Metallic, 8 Pastel, 6 Neon & 2 Black."
+        }
+      ],
+      "value": "60 pack, 47 Unique colors include 24 Glitter, 12 Flouro Glitter, 10 Metallic, 8 Pastel, 6 Neon & 2 Black"
+    },
+    {
+      "intentId": "water_resistance",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Non toxic and Acid free."
+        }
+      ],
+      "value": "Acid free"
+    },
+    {
+      "intentId": "leaking",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "surface_compatibility",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Perfect for handcrafted gift cards, invitations, zentangle or simply give the kids some paper and kick back while they color!"
+        }
+      ],
+      "value": "handcrafted gift cards, invitations, zentangle"
+    },
+    {
+      "intentId": "opacity",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "durability",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "weight",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "1.3 pounds"
+        }
+      ],
+      "value": "1.3 pounds"
+    },
+    {
+      "intentId": "erasable",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "glitter_level",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "24 Glitter, 12 Flouro Glitter, 10 Metallic, 8 Pastel, 6 Neon & 2 Black."
+        }
+      ],
+      "value": "24 Glitter, 12 Flouro Glitter, 10 Metallic, 8 Pastel, 6 Neon"
+    },
+    {
+      "intentId": "scent",
+      "status": "not_applicable",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+gel-ink-pens@2026-10-27.1",
+  "usage": {
+    "inputTokens": 2566,
+    "outputTokens": 1151
+  },
+  "latencyMs": 2852,
+  "cached": false
+}
