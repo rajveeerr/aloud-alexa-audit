@@ -65,7 +65,7 @@ describe("evals (replayed, no network)", () => {
     const result = await runEvals(llm);
     const base = JSON.parse(await readFile(join(import.meta.dir, "baseline.json"), "utf8")) as Baseline;
     expect(checkAgainst(result, base)).toEqual([]);
-    // The known hard cases from Phase 1 stay visible in the results.
+    // The known hard cases from the first audits stay visible in the results.
     const row = (asin: string, intentId: string) => result.grades.rows.find((r) => r.asin === asin && r.intentId === intentId)!;
     expect(row("B0C9W8DD9S", "surface_compatibility")).toMatchObject({ status: "missing", verified: "answered" });
     expect(row("B0143LMAEK", "pack_contents")).toMatchObject({ status: "contradicted", verified: "contradicted" });

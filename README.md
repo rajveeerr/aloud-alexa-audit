@@ -15,8 +15,9 @@ answerable takes an ASIN and shows:
 
 - **Hidden answers.** Facts the brand already states, but only inside its
   images. Example: a top-50 Office Products gel pen says *"Smooth Writing
-  without Skipping"* only in gallery image 2, while 171 of 600 sampled
-  reviewers asked whether the pen skips. Its text never says it.
+  without Skipping"* only in gallery image 2, and its text never says it,
+  while skipping came up in 171 of 600 gel-pen reviews sampled across the
+  category.
 - **Unanswered questions.** The questions real buyers ask, mined from reviews
   with counts, that the listing doesn't answer in text, and which competitors
   do. Every answer quotes the listing, and code checks the quote is really there.
@@ -78,9 +79,10 @@ grade labels are still drafts under review, so treat these as provisional:
 
 **Does the score mean anything?** ([study/RESULTS.md](study/RESULTS.md)). 200
 gel pens the question set wasn't built from. Higher scores go with more reviews,
-weakly: Spearman rho 0.15 (95% CI 0.01–0.29, p 0.038), 0.21 with price held
-fixed. It's correlation, the data is from 2023, it measures the listing rather
-than Alexa, and review count is only a proxy for sales.
+weakly: Spearman rho 0.15 (95% CI 0.01–0.29, p 0.038). Price doesn't explain it
+(0.21 on the 129 pens with a price, with or without holding price fixed). It's
+correlation, the data is from 2023, it measures the listing rather than Alexa,
+and review count is only a proxy for sales.
 
 ![Score vs review count](study/chart.svg)
 
@@ -90,11 +92,17 @@ Needs Bun 1.1 and Docker.
 
 ```sh
 bun install
-cp .env.example .env          # keys are optional: without them everything replays recorded answers
-bun run db:up                 # MySQL and Redis in Docker
-API_KEY_DEV=dev-key bun run dev   # API on :4100 with the worker
-bun run web                   # app on :5180, widget at /widget.html
+cp .env.example .env                        # keys are optional: without them everything replays recorded answers
+cp apps/web/.env.example apps/web/.env.local   # the web app's API URL and dev key
+bun run db:up                               # MySQL and Redis in Docker
+bun run dev                                 # API on :4100 with the worker (reads .env)
+bun run web                                 # app on :5180, widget at /widget.html
 ```
+
+Ports are set in `.env` (`PORT`, `WEB_ORIGIN`) and `apps/web/.env.local`
+(`VITE_API_URL`); the web dev server is fixed to 5180, so for another port run
+`bun run web -- --port 5190` and update `WEB_ORIGIN`. The public widget allows
+5 audits an hour per IP (`PUBLIC_RATE_LIMIT`).
 
 From the command line, with no services:
 
@@ -115,7 +123,11 @@ bun run --cwd apps/web e2e:real   # browser tests against the running stack
 ```
 
 Tests never call an API: every model answer used in tests is recorded in
-`fixtures/llm` and replayed. Deploying on free tiers (Render, Vercel, TiDB,
+`fixtures/llm` and replayed. Integration tests use their own database,
+`answerable_test`, on the same MySQL (`TEST_DATABASE_URL`). `e2e:real` keeps its
+screenshots in `test-results/`; `UPDATE_SCREENSHOTS=1` refreshes the committed ones.
+CI (`.github/workflows/ci.yml`) runs the typecheck, the tests and `bun evals --check`
+on every push. Deploying on free tiers (Render, Vercel, TiDB,
 Upstash) is covered step by step in [DEPLOY.md](DEPLOY.md).
 
 ## Layout

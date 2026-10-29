@@ -6,7 +6,7 @@ results are provisional and shouldn't be quoted as accuracy.
 
 - `gold/grades.jsonl`: 134 (listing, question) pairs, all `labeledBy: "draft"`.
 - `gold/proof.jsonl`: 60 (claim, review) pairs. 40 Pentel smudge pairs are
-  `"rajveer-spike"` (labelled by hand in the Phase 0 spike); 20 Sharpie
+  `"rajveer-spike"` (labelled by hand in an earlier test of the claim check); 20 Sharpie
   bleed-through pairs are `"draft"`.
 
 ## Grades: for each line in `gold/grades.jsonl`

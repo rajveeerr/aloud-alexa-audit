@@ -105,8 +105,8 @@ function markdown(r: EvalResult, base: Baseline | null): string {
   const provisional =
     r.drafts.grades + r.drafts.proof > 0
       ? `> **Provisional.** ${r.drafts.grades} of ${g.rows.length} grade labels and ${r.drafts.proof} of ${p.rows.length} proof labels are
-> drafts (\`labeledBy: "draft"\`), pending Rajveer's review (see [REVIEW.md](REVIEW.md)). The 40 Pentel smudge pairs
-> were hand-labelled in the Phase 0 spike. Treat these numbers as a first measurement, not a result, until review is done.\n\n`
+> drafts (\`labeledBy: "draft"\`), not yet reviewed by hand (see [REVIEW.md](REVIEW.md)). The 40 Pentel smudge pairs
+> were hand-labelled in an earlier test. Treat these numbers as a first measurement, not a result, until review is done.\n\n`
       : "";
 
   return `# Eval results

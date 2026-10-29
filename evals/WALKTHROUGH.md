@@ -37,7 +37,7 @@ counts, Wilson intervals, verdict (code).
 
 - **Pentel EnerGel B097CF46RC:** "no smears, no smudges" is backed: of 117
   reviews that mention smudging, 104 support, 6 contradict, 7 mixed
-  (contradicted by 5%, interval 2-11%). The Phase 0 spike (4 clear + 3 mixed
+  (contradicted by 5%, interval 2-11%). An earlier hand-labelled test (4 clear + 3 mixed
   of 40) said the same. Left-handed, quick dry and ink flow are backed too.
   But "no globs" (leaking) is **contested**: 33 of 62 reviews that talk about
   leaking say the pens leak (53%, 41-65%), and durability ("Limited Lifetime
@@ -72,7 +72,7 @@ durability went from nonsense to 36 contradicts of 60.
 **Not done: the reverse direction** (strengths buyers praise that the listing
 never claims). It needs a pass over all reviews per product, not one per
 claim, so it would cost more calls than the rest of the check. Skipped for
-now, as PLAN.md's cut order allows.
+now; it's the next addition.
 
 ## Evals (`evals/`)
 
