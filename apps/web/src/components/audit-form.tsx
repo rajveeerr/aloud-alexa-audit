@@ -1,4 +1,4 @@
-import { Asin } from "@answerable/contracts";
+import { Asin, type SavedListing } from "@answerable/contracts";
 import { ChevronDownIcon, LoaderCircleIcon } from "lucide-react";
 import { useId, useState, type FormEvent } from "react";
 import { useNavigate } from "react-router";
@@ -108,6 +108,15 @@ export function AuditForm() {
   );
 }
 
+/** Demo products shown first, one per story: the hero, a strong listing, proof, other categories. */
+const FEATURED = ["B0C9W8DD9S", "B001GAOTSW", "B097CF46RC", "B09VD1Z3TK", "B08PD98HYG", "B00P6N6LC2"];
+const MAX_CHIPS = 6;
+
+function pickChips(all: SavedListing[]): SavedListing[] {
+  const rank = (a: string) => (FEATURED.includes(a) ? FEATURED.indexOf(a) : FEATURED.length);
+  return [...all].sort((a, b) => rank(a.asin) - rank(b.asin)).slice(0, MAX_CHIPS);
+}
+
 function DemoChips({ source, onPick, disabled }: { source: SavedSource; onPick: (asin: string) => void; disabled: boolean }) {
   const listings = useListings(source);
   if (listings.isError) return null;
@@ -116,7 +125,7 @@ function DemoChips({ source, onPick, disabled }: { source: SavedSource; onPick: 
       <p className="text-[13px] font-semibold text-muted-foreground">Or try a saved listing</p>
       <ul className="mt-2 flex flex-wrap gap-2" aria-busy={listings.isLoading}>
         {listings.isLoading && [0, 1, 2].map((i) => <li key={i} className="h-8 w-40 animate-pulse rounded-full bg-muted" />)}
-        {listings.data?.map((l) => (
+        {listings.data && pickChips(listings.data).map((l) => (
           <li key={l.asin}>
             <button
               type="button"

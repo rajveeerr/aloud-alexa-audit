@@ -97,6 +97,23 @@ test("an estimated category is labelled as estimated", async ({ page }) => {
   await fullShot(page, "05-report-estimated");
 });
 
+test("the Pentel dataset audit checks the listing's claims against reviews", async ({ page }) => {
+  await page.goto("/");
+  await page.getByRole("radio", { name: "Saved (2023 dataset)" }).click();
+  await page.getByRole("button", { name: /Pentel.*Gel Ink/ }).click();
+  await expect(page.getByTestId("score")).toHaveText("61", { timeout: 10_000 });
+  const leaking = page.locator('[data-testid="proof-claim"][data-intent="leaking"]');
+  await expect(leaking).toHaveAttribute("data-verdict", "contested");
+  await expect(leaking).toContainText("33 of 62 reviews that discuss it contradict it");
+  await expect(page.getByText("not of all buyers")).toBeVisible();
+  await page.locator("#proof").screenshot({ path: shot("05b-proof") });
+});
+
+test("a live listing says why promise vs proof wasn't checked", async ({ page }) => {
+  await openHero(page);
+  await expect(page.getByTestId("proof-absent")).toContainText("Live listings come without review text", { timeout: 10_000 });
+});
+
 test("an unknown ASIN ends in a clear failure", async ({ page }) => {
   await page.goto("/");
   await page.getByLabel("Amazon ASIN").fill("B0ZZZZZZZZ");
@@ -112,8 +129,11 @@ test("the widget shows a score and exactly three gaps", async ({ page }) => {
   await page.getByRole("button", { name: "Check my listing" }).click();
   await expect(page.getByTestId("widget-result")).toContainText("52", { timeout: 10_000 });
   await expect(page.getByTestId("widget-gaps").locator("li")).toHaveCount(3);
-  await expect(page.getByText("Get the full report by email")).toBeVisible();
+  await expect(page.getByTestId("widget-gaps").locator("li").first()).toContainText("4 of 4 competitors answer it");
   await fullShot(page, "07-widget");
+  await page.getByLabel("Get the full report by email").fill("brand@example.com");
+  await page.getByRole("button", { name: "Send me the report" }).click();
+  await expect(page.getByTestId("email-captured")).toContainText("brand@example.com");
 });
 
 test("audits list, bulk progress and integrations render", async ({ page }) => {

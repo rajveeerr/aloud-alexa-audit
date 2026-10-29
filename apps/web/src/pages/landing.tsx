@@ -1,23 +1,19 @@
 import { Page } from "@/components/app-shell";
 import { AuditForm } from "@/components/audit-form";
 import { WhyThisExists } from "@/components/why-this-exists";
-import { Badge } from "@/components/ui/badge";
 
 const CHECKS = [
   {
     name: "Hidden answers",
     body: "Claims the brand already makes, but only inside images. Alexa may never read them. The fix is to move the brand's own words into text.",
-    soon: false,
   },
   {
     name: "Unanswered questions",
     body: "The questions shoppers ask, mined from reviews with counts, that the listing doesn't answer in text, and whether competitors do.",
-    soon: false,
   },
   {
     name: "Promise vs proof",
-    body: "Listing claims that reviews contradict, and strengths reviewers praise that the listing never claims.",
-    soon: true,
+    body: "Listing claims checked against the product's own reviews: how many of the reviews that discuss a claim back it or contradict it.",
   },
 ];
 
@@ -49,7 +45,6 @@ export function LandingPage() {
             <div key={c.name}>
               <h3 className="flex items-center gap-2 text-base font-semibold">
                 {c.name}
-                {c.soon && <Badge variant="outline">Coming soon</Badge>}
               </h3>
               <p className="mt-2 text-[15px] text-muted-foreground">{c.body}</p>
             </div>

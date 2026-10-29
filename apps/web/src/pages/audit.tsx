@@ -9,6 +9,7 @@ import { GapMatrix } from "@/components/report/gap-matrix";
 import { HiddenAnswers } from "@/components/report/hidden-answers";
 import { HowScored, Notes } from "@/components/report/how-scored";
 import { ListingPanel } from "@/components/report/listing-panel";
+import { PromiseVsProof } from "@/components/report/proof";
 import { QuestionList } from "@/components/report/questions";
 import { ReportHeader } from "@/components/report/report-header";
 import { Section } from "@/components/report/section";
@@ -86,6 +87,7 @@ function Failed({ title, message, code }: { title: string; message: string; code
 
 const JUMPS = [
   { href: "#hidden", label: "Hidden answers" },
+  { href: "#proof", label: "Promise vs proof" },
   { href: "#questions", label: "Questions" },
   { href: "#competitors", label: "Competitors" },
   { href: "#fixes", label: "Fix list" },
@@ -116,6 +118,7 @@ function ReportView({ report, auditId }: { report: Report; auditId: string }) {
 
       <div className="mt-8 grid grid-cols-[minmax(0,1fr)] gap-12 [&>section:first-child]:border-t-0 [&>section:first-child]:pt-0">
         <HiddenAnswers report={report} index={index} />
+        <PromiseVsProof report={report} index={index} />
 
         <Section
           id="questions"
