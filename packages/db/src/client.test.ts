@@ -3,6 +3,13 @@ import mysql from "mysql2/promise";
 import { connectionOptions, TLS } from "./client";
 
 const LOCAL = "mysql://root:answerable@127.0.0.1:3317/answerable";
+// The live TLS checks follow TEST_DATABASE_URL's host and port, like the other database tests, so
+// they work wherever the test MySQL runs (CI services, a container, compose on this machine).
+const LIVE = (() => {
+  const u = new URL(process.env.TEST_DATABASE_URL || LOCAL);
+  u.pathname = "/answerable";
+  return u.toString();
+})();
 
 describe("connectionOptions", () => {
   test("a plain URL is left alone, with no TLS", () => {
@@ -37,7 +44,7 @@ describe("connectionOptions", () => {
 /** Against the compose MySQL, whose certificate is self-signed: proves TLS is really negotiated and verified. */
 describe.skipIf(process.env.SKIP_INTEGRATION === "1")("TLS against the compose MySQL", () => {
   test("ssl=true verifies the certificate, so a self-signed one is refused", async () => {
-    const err = await mysql.createConnection(connectionOptions(`${LOCAL}?ssl=true`, {})).then(
+    const err = await mysql.createConnection(connectionOptions(`${LIVE}?ssl=true`, {})).then(
       async (c) => {
         await c.end();
         return null;
@@ -49,7 +56,7 @@ describe.skipIf(process.env.SKIP_INTEGRATION === "1")("TLS against the compose M
   });
 
   test("with verification off, the session is encrypted", async () => {
-    const c = await mysql.createConnection({ ...connectionOptions(LOCAL, {}), ssl: { rejectUnauthorized: false } });
+    const c = await mysql.createConnection({ ...connectionOptions(LIVE, {}), ssl: { rejectUnauthorized: false } });
     try {
       const [rows] = await c.query("SHOW SESSION STATUS LIKE 'Ssl_cipher'");
       expect((rows as { Value: string }[])[0]?.Value).not.toBe("");

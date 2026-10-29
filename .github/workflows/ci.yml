@@ -1,0 +1,65 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    # Same images and ports as docker-compose.yml, so tests use their usual defaults.
+    services:
+      mysql:
+        image: mysql:8.4
+        env:
+          MYSQL_ROOT_PASSWORD: answerable
+          MYSQL_DATABASE: answerable
+        ports:
+          - 3317:3306
+        options: >-
+          --health-cmd "mysqladmin ping -h 127.0.0.1 -uroot -panswerable"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 30
+      redis:
+        image: redis:7
+        ports:
+          - 6389:6379
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 5s
+          --health-timeout 3s
+          --health-retries 30
+
+    env:
+      TEST_DATABASE_URL: mysql://root:answerable@127.0.0.1:3317/answerable_test
+      TEST_REDIS_URL: redis://127.0.0.1:6389
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.1.43
+
+      # The web build (checked by the widget bundle test) runs Vite, which needs Node.
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - run: bun install --frozen-lockfile
+
+      - name: Typecheck
+        run: bunx tsc -b
+
+      # No API keys: every model answer is replayed from fixtures/llm.
+      - name: Tests
+        run: bun test
+
+      - name: Evals against the baseline
+        run: bun evals --check
