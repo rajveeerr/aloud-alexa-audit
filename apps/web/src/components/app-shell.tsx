@@ -9,7 +9,6 @@ const NAV = [
   { to: "/audits", label: "Audits", end: false },
   { to: "/bulk", label: "Bulk", end: false },
   { to: "/integrations", label: "Integrations", end: false },
-  { to: "/widget", label: "Widget", end: false },
 ];
 
 export function Logo({ className }: { className?: string }) {
@@ -56,6 +55,13 @@ export function AppShell() {
                 {n.label}
               </NavLink>
             ))}
+            {/* The widget is its own page and bundle (widget.html), so a plain link, not a route. */}
+            <a
+              href="/widget.html"
+              className="rounded-md px-2.5 py-1.5 text-sm font-semibold whitespace-nowrap text-muted-foreground transition-colors hover:text-foreground"
+            >
+              Widget
+            </a>
           </nav>
           {USE_MOCKS && (
             <Tip content="Running on saved reports from the real pipeline. Nothing is sent to an API.">

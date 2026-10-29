@@ -5,10 +5,10 @@ import type {
   AuditSummary,
   BulkCreated,
   BulkJob,
+  BulkSummary,
   CreateAuditBody,
   CreateBulkBody,
   PublicAuditBody,
-  PublicAuditResult,
   RescoreBody,
   RescoreResult,
   SavedListing,
@@ -24,6 +24,7 @@ export type PublicAuditInput = z.input<typeof PublicAuditBody>;
 
 export type SavedSource = SavedListing["source"];
 
+/** The internal app's client: every keyed endpoint. The widget uses PublicApi (public.ts) instead. */
 export interface Api {
   readonly mode: "mock" | "http";
   createAudit(body: CreateAuditInput): Promise<AuditCreated>;
@@ -34,10 +35,7 @@ export interface Api {
   rescore(body: RescoreInput): Promise<RescoreResult>;
   createBulk(body: CreateBulkInput): Promise<BulkCreated>;
   getBulk(id: string): Promise<BulkJob>;
-  listBulk(limit?: number): Promise<BulkJob[]>;
-  createPublicAudit(body: PublicAuditInput): Promise<PublicAuditResult>;
-  getPublicAudit(id: string): Promise<PublicAuditResult>;
-  addPublicEmail(id: string, email: string): Promise<PublicAuditResult>;
+  listBulk(limit?: number): Promise<BulkSummary[]>;
   listings(source: SavedSource): Promise<SavedListing[]>;
 }
 
@@ -45,7 +43,10 @@ export class ApiRequestError extends Error {
   constructor(
     message: string,
     readonly code: string,
+    /** 0 when the API couldn't be reached at all. */
     readonly status: number,
+    /** From Retry-After on a 429 or 503. */
+    readonly retryAfterMs?: number,
   ) {
     super(message);
     this.name = "ApiRequestError";

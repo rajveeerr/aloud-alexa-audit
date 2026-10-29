@@ -1,4 +1,5 @@
 import type { ApiError } from "@answerable/contracts";
+import { parseRetryAfter } from "./poll";
 import { ApiRequestError, type Api } from "./types";
 
 type Options = { baseUrl: string; apiKey: string };
@@ -6,7 +7,7 @@ type Options = { baseUrl: string; apiKey: string };
 export function httpApi({ baseUrl, apiKey }: Options): Api {
   const root = baseUrl.replace(/\/$/, "");
 
-  /** `key: false` is the widget's public API: no key, and no app origin either. */
+  /** `key: false` for public endpoints such as the demo listings. */
   async function call<T>(path: string, init: { method?: string; body?: unknown; key?: boolean } = {}): Promise<T> {
     const headers: Record<string, string> = { accept: "application/json" };
     if (init.body !== undefined) headers["content-type"] = "application/json";
@@ -35,7 +36,8 @@ export function httpApi({ baseUrl, apiKey }: Options): Api {
     }
     if (!res.ok) {
       const err = (json as ApiError | null)?.error;
-      throw new ApiRequestError(err?.message ?? `Request failed (${res.status})`, err?.code ?? "http_error", res.status);
+      const retryAfterMs = parseRetryAfter(res.headers.get("retry-after"));
+      throw new ApiRequestError(err?.message ?? `Request failed (${res.status})`, err?.code ?? "http_error", res.status, retryAfterMs);
     }
     return json as T;
   }
@@ -52,9 +54,6 @@ export function httpApi({ baseUrl, apiKey }: Options): Api {
     createBulk: (body) => call("/v1/bulk", { method: "POST", body }),
     getBulk: (b) => call(`/v1/bulk/${id(b)}`),
     listBulk: (limit = 10) => call(`/v1/bulk?limit=${limit}`),
-    createPublicAudit: (body) => call("/v1/public/audits", { method: "POST", body, key: false }),
-    getPublicAudit: (a) => call(`/v1/public/audits/${id(a)}`, { key: false }),
-    addPublicEmail: (a, email) => call(`/v1/public/audits/${id(a)}/email`, { method: "POST", body: { email }, key: false }),
     listings: (source) => call(`/v1/listings?source=${source}`, { key: false }),
   };
 }

@@ -6,6 +6,6 @@
     "lib": ["ES2022", "DOM"],
     "types": ["bun"]
   },
-  "include": ["vite.config.ts", "playwright.config.ts", "playwright.real.config.ts", "scripts", "e2e"],
+  "include": ["vite.config.ts", "playwright.config.ts", "playwright.real.config.ts", "scripts", "e2e", "src/api/poll.ts", "src/api/poll.test.ts", "src/lib/proof.ts", "src/lib/proof.test.ts"],
   "references": [{ "path": "../../packages/pipeline" }, { "path": "../../packages/providers" }]
 }

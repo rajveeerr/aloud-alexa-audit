@@ -2,8 +2,8 @@ import { Asin, PublicAuditBody, PublicEmailBody } from "@answerable/contracts";
 import type { PublicAuditResult } from "@answerable/contracts";
 import { ImageIcon, LoaderCircleIcon } from "lucide-react";
 import { useId, useState, type FormEvent } from "react";
-import { Link } from "react-router";
-import { useAddPublicEmail, useCreatePublicAudit, usePublicAudit } from "@/api/hooks";
+import { usePastCap } from "@/api/use-past-cap";
+import { useAddPublicEmail, useCreatePublicAudit, usePublicAudit } from "./hooks";
 import { cn } from "@/lib/utils";
 
 const label = "font-sd-mono text-[11px] tracking-[0.07em] text-[#6d6670]";
@@ -19,8 +19,9 @@ export function WidgetPage() {
   const [email, setEmail] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [id, setId] = useState<string | null>(null);
+  const [since, setSince] = useState<number | null>(null);
   const create = useCreatePublicAudit();
-  const result = usePublicAudit(id);
+  const result = usePublicAudit(id, since);
   const ids = { asin: useId(), email: useId(), err: useId() };
 
   function submit(e: FormEvent) {
@@ -30,20 +31,29 @@ export function WidgetPage() {
     const body = { asin: a, ...(email.trim() && { email: email.trim() }) };
     if (!PublicAuditBody.safeParse(body).success) return setError("That email address doesn't look right.");
     setError(null);
-    create.mutate(body, { onSuccess: (r) => setId(r.id) });
+    create.mutate(body, {
+      onSuccess: (r) => {
+        setSince(Date.now());
+        setId(r.id);
+      },
+    });
   }
 
   const data = result.data;
-  const busy = create.isPending || (!!id && (!data || data.status === "queued" || data.status === "running"));
+  const pending = !!id && (!data || data.status === "queued" || data.status === "running");
+  // Past the polling cap, or stuck on an error before any result: hand control back to the visitor.
+  const stalled = usePastCap(since, pending);
+  const lost = pending && !data && result.isError && !result.isFetching;
+  const busy = create.isPending || (pending && !stalled && !lost);
 
   return (
     <div className="min-h-dvh bg-sd-light font-sd text-sd-dark">
       <div className="border-b border-sd-depth bg-white/60">
         <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-2 px-5 py-2.5 text-[13px] text-[#6d6670]">
           <span>Preview of the widget as it would sit on the salesduo.com homepage</span>
-          <Link to="/" className="font-semibold text-sd-purple underline-offset-4 hover:underline">
+          <a href="/" className="font-semibold text-sd-purple underline-offset-4 hover:underline">
             Back to the app
-          </Link>
+          </a>
         </div>
       </div>
 
@@ -94,7 +104,16 @@ export function WidgetPage() {
 
           <div aria-live="polite">
             {create.error && <p className="mt-5 text-sm text-[#b42318]">{create.error.message}</p>}
-            {result.error && <p className="mt-5 text-sm text-[#b42318]">{result.error.message}</p>}
+            {(lost || stalled) && (
+              <div className="mt-5 flex flex-wrap items-center gap-3 text-sm" role="status">
+                <p className={lost ? "text-[#b42318]" : "text-[#4a444b]"}>
+                  {lost ? result.error?.message : "This is taking longer than expected."}
+                </p>
+                <button type="button" onClick={() => void result.refetch()} className="font-semibold text-sd-purple underline underline-offset-4">
+                  {lost ? "Try again" : "Check again"}
+                </button>
+              </div>
+            )}
             {data?.status === "failed" && (
               <p className="mt-5 text-sm text-[#b42318]" role="alert" data-testid="widget-failed">
                 {data.reason ?? "The audit couldn't be completed."}

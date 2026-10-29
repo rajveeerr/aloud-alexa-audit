@@ -6,7 +6,6 @@ import { BulkPage } from "@/pages/bulk";
 import { IntegrationsPage } from "@/pages/integrations";
 import { LandingPage } from "@/pages/landing";
 import { NotFoundPage } from "@/pages/not-found";
-import { WidgetPage } from "@/pages/widget";
 
 export const router = createBrowserRouter([
   {
@@ -20,6 +19,4 @@ export const router = createBrowserRouter([
       { path: "*", element: <NotFoundPage /> },
     ],
   },
-  // The widget is embedded on salesduo.com, so it has its own look and no app chrome.
-  { path: "/widget", element: <WidgetPage /> },
 ]);

@@ -5,6 +5,7 @@
 import type { AuditJob, AuditReport, AuditStatus, AuditSummary, BulkJob, PublicAuditResult, SavedListing } from "@answerable/contracts";
 import { competitorCounts } from "@/lib/report";
 import index from "../mocks/listings.json";
+import type { PublicApi } from "./public";
 import { ApiRequestError, type Api, type SavedSource } from "./types";
 
 type Indexed = SavedListing & { score: number | null; contentHash: string };
@@ -173,7 +174,8 @@ async function toPublic(job: MockJob): Promise<PublicAuditResult> {
   return out;
 }
 
-export function mockApi(): Api {
+/** Both clients in one: the app and the widget share the mock state, as they share the real API. */
+export function mockApi(): Api & PublicApi {
   return {
     mode: "mock",
     async createAudit(body) {
@@ -239,7 +241,10 @@ export function mockApi(): Api {
     },
     async listBulk(limit = 10) {
       await latency();
-      return state.bulks.slice(0, limit).map(toBulk);
+      return state.bulks.slice(0, limit).map((b) => {
+        const { audits: _, ...summary } = toBulk(b);
+        return summary;
+      });
     },
     async createPublicAudit(body) {
       await latency();
