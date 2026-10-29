@@ -1,5 +1,5 @@
 /** Database rows to the contract's response types. Kept apart from routes so they're easy to test. */
-import type { AsinHistory, AuditJob, AuditReport, AuditSummary, BulkJob, PublicAuditResult, StudioBriefs } from "@answerable/contracts";
+import type { AsinHistory, AuditJob, AuditReport, AuditSummary, BulkJob, BulkSummary, PublicAuditResult, StudioBriefs } from "@answerable/contracts";
 import type { AuditRow, AuditStatusValue, AuditSummaryRow, BulkJobRow } from "@answerable/db";
 
 const iso = (d: Date | null) => (d ? d.toISOString() : undefined);
@@ -70,6 +70,18 @@ export function toBulkJob(job: BulkJobRow, audits: { id: string; asin: string; s
     failed,
     createdAt: job.createdAt.toISOString(),
     audits,
+  };
+}
+
+export function toBulkSummary(job: BulkJobRow, done: number, failed: number): BulkSummary {
+  return {
+    id: job.id,
+    name: job.name,
+    status: done + failed >= job.total ? "done" : "running",
+    total: job.total,
+    done,
+    failed,
+    createdAt: job.createdAt.toISOString(),
   };
 }
 

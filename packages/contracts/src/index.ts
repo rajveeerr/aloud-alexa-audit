@@ -111,7 +111,7 @@ export type RescoreResult = { skipped: true; reason: "unchanged"; auditId: strin
 /** POST /v1/bulk response (202). */
 export type BulkCreated = { id: string };
 
-/** GET /v1/bulk/:id, and each item of GET /v1/bulk?limit= (newest first). */
+/** GET /v1/bulk/:id */
 export type BulkJob = {
   id: string;
   name: string;
@@ -122,6 +122,9 @@ export type BulkJob = {
   createdAt: string;
   audits: { id: string; asin: string; status: AuditStatus; score: number | null }[];
 };
+
+/** Each item of GET /v1/bulk?limit= (newest first): progress without the per-audit rows. */
+export type BulkSummary = Omit<BulkJob, "audits">;
 
 /** POST /v1/public/audits response, once done: the top 3 gaps only, the full report goes by email. */
 export type PublicAuditResult = {

@@ -6,7 +6,7 @@ import { AuditError } from "@answerable/pipeline";
 import { EnqueueError } from "@answerable/worker";
 import { HttpError, toApiError } from "./errors";
 import { parseTrustProxy } from "./server";
-import { publicReason, toAuditJob, toBulkJob, toPublicResult } from "./views";
+import { publicReason, toAuditJob, toBulkJob, toBulkSummary, toPublicResult } from "./views";
 
 const at = new Date("2026-10-30T12:00:00Z");
 
@@ -99,6 +99,14 @@ describe("toBulkJob", () => {
     ];
     expect(toBulkJob(job, audits)).toMatchObject({ status: "running", done: 1, failed: 1, total: 3 });
     expect(toBulkJob(job, audits.map((a) => (a.id === "3" ? { ...a, status: "done" as const } : a)))).toMatchObject({ status: "done", done: 2, failed: 1 });
+  });
+});
+
+describe("toBulkSummary", () => {
+  test("has the progress counts and never the audit rows", () => {
+    const job = { id: "b1", name: "trio", source: "dataset" as const, total: 3, createdAt: at };
+    expect(toBulkSummary(job, 2, 1)).toEqual({ id: "b1", name: "trio", status: "done", total: 3, done: 2, failed: 1, createdAt: at.toISOString() });
+    expect(toBulkSummary(job, 1, 0)).toMatchObject({ status: "running" });
   });
 });
 

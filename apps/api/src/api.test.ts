@@ -8,7 +8,7 @@ import { afterAll, beforeAll, describe, expect, test } from "bun:test";
 import { randomUUID } from "node:crypto";
 import type { Job, Queue } from "bullmq";
 import { eq } from "drizzle-orm";
-import type { AsinHistory, AuditJob, AuditSummary, BulkJob, PublicAuditResult, RescoreResult, SavedListing, StudioBriefs } from "@answerable/contracts";
+import type { AsinHistory, AuditJob, AuditSummary, BulkJob, BulkSummary, PublicAuditResult, RescoreResult, SavedListing, StudioBriefs } from "@answerable/contracts";
 import type { JsonModel } from "@answerable/core";
 import { audits, connect, createAudit, dropDatabase, ensureDatabase, getAudit, leadsFor, markFailed, markRunning, runMigrations, type DbHandle } from "@answerable/db";
 import { ProviderError, QuotaExhaustedError } from "@answerable/providers";
@@ -38,6 +38,7 @@ if (!new URL(DB_URL).pathname.endsWith("_test")) throw new Error(`TEST_DATABASE_
 const PREFIX = `test-${randomUUID().slice(0, 8)}`;
 const KEY = "test-key";
 const PUBLIC_LIMIT = 3;
+const EMAIL_LIMIT = 4;
 
 /** Replay only: no Gemini key, so any unrecorded call fails instead of spending quota. */
 const replayDeps = makeDeps(depsConfigFromEnv({}));
@@ -56,6 +57,7 @@ function serverConfig(prefix: string): ServerConfig {
     devApiKey: KEY,
     trustProxy: 1,
     publicRateLimit: PUBLIC_LIMIT,
+    publicEmailLimit: EMAIL_LIMIT,
     webhook: null,
     backoffMs: 50,
   };
@@ -227,10 +229,11 @@ describe.skipIf(process.env.SKIP_INTEGRATION === "1")("api + worker (compose, re
     expect(job).toMatchObject({ name: "dataset trio", status: "done", total: 3, done: 3, failed: 0 });
     expect(job.audits.map((a) => a.asin).sort()).toEqual(["B0143LMAEK", "B09VD1Z3TK", "B09YP9YYZG"]);
 
-    // The list has it first, in the same shape as GET /v1/bulk/:id.
-    const list = await call<BulkJob[]>("GET", "/v1/bulk?limit=5");
+    // The list has it first: the same progress, without the per-audit rows.
+    const list = await call<BulkSummary[]>("GET", "/v1/bulk?limit=5");
     expect(list.status).toBe(200);
-    expect(list.body[0]).toEqual(job);
+    const { audits: _rows, ...summary } = job;
+    expect(list.body[0]).toEqual(summary);
     expect((await call("GET", "/v1/bulk?limit=0")).status).toBe(400);
   }, 40_000);
 
@@ -270,19 +273,31 @@ describe.skipIf(process.env.SKIP_INTEGRATION === "1")("api + worker (compose, re
     expect((await leadsFor(handle.db, res.body.id)).map((l) => l.email)).toEqual(["later@example.com"]);
     expect((await call<PublicAuditResult>("GET", `/v1/public/audits/${res.body.id}`, undefined, {})).body.emailCaptured).toBe(true);
 
+    // The same email again is accepted but stored once.
+    expect((await call("POST", `/v1/public/audits/${res.body.id}/email`, { email: "later@example.com" }, ip)).status).toBe(202);
+    expect(await leadsFor(handle.db, res.body.id)).toHaveLength(1);
+
     expect((await call("POST", `/v1/public/audits/${res.body.id}/email`, { email: "nope" }, ip)).status).toBe(400);
     // Only widget audits take a lead this way.
-    expect((await call("POST", `/v1/public/audits/${hero.id}/email`, { email: "x@example.com" }, { "x-forwarded-for": "10.0.1.2" })).status).toBe(404);
+    expect((await call("POST", `/v1/public/audits/${hero.id}/email`, { email: "x@example.com" }, ip)).status).toBe(404);
   });
 
-  test("adding an email shares the widget's per-IP limit", async () => {
+  test("emails have their own per-IP limit, charged only for valid requests", async () => {
     const ip = { "x-forwarded-for": "10.0.1.3" };
-    const res = await call<PublicAuditResult>("POST", "/v1/public/audits", { asin: "B09VD1Z3TK" }, ip);
-    for (let i = 1; i < PUBLIC_LIMIT; i++) {
-      expect((await call("POST", `/v1/public/audits/${res.body.id}/email`, { email: `n${i}@example.com` }, ip)).status).toBe(202);
+    let last: PublicAuditResult | undefined;
+    for (let i = 0; i < PUBLIC_LIMIT; i++) last = (await call<PublicAuditResult>("POST", "/v1/public/audits", { asin: "B09VD1Z3TK" }, ip)).body;
+    expect((await call("POST", "/v1/public/audits", { asin: "B09VD1Z3TK" }, ip)).status).toBe(429);
+
+    // Out of audits, the visitor can still leave an email; bad bodies and unknown ids don't count.
+    const id = last!.id;
+    for (let i = 0; i < EMAIL_LIMIT + 2; i++) expect((await call("POST", `/v1/public/audits/${id}/email`, { email: "nope" }, ip)).status).toBe(400);
+    expect((await call("POST", `/v1/public/audits/${randomUUID()}/email`, { email: "a@example.com" }, ip)).status).toBe(404);
+    for (let i = 0; i < EMAIL_LIMIT; i++) {
+      expect((await call("POST", `/v1/public/audits/${id}/email`, { email: `n${i}@example.com` }, ip)).status).toBe(202);
     }
-    const limited = await call("POST", `/v1/public/audits/${res.body.id}/email`, { email: "over@example.com" }, ip);
+    const limited = await call("POST", `/v1/public/audits/${id}/email`, { email: "over@example.com" }, ip);
     expect(limited).toMatchObject({ status: 429, body: { error: { code: "rate_limited" } } });
+    expect(Number(limited.headers.get("retry-after"))).toBeGreaterThan(0);
   });
 
   test("the public endpoint is rate limited per IP", async () => {

@@ -1,7 +1,7 @@
 import { randomUUID } from "node:crypto";
-import { and, asc, desc, eq, getTableColumns, inArray, or } from "drizzle-orm";
+import { and, asc, desc, eq, getTableColumns, inArray, or, sql } from "drizzle-orm";
 import type { Db } from "./client";
-import { apiKeys, audits, bulkJobs, leads, listingSnapshots, type AuditOriginValue, type AuditRow, type AuditSource } from "./schema";
+import { apiKeys, audits, bulkJobs, leads, listingSnapshots, type AuditOriginValue, type AuditRow, type AuditSource, type BulkJobRow } from "./schema";
 
 export type NewAudit = {
   asin: string;
@@ -142,19 +142,17 @@ export async function getBulk(db: Db, id: string) {
   return { job, audits: items };
 }
 
-/** The newest bulk jobs, each with its audits, for the bulk page's history. */
-export async function listBulks(db: Db, limit: number) {
+/** The newest bulk jobs with how many of their audits are done and failed, without the audit rows. */
+export async function listBulks(db: Db, limit: number): Promise<{ job: BulkJobRow; done: number; failed: number }[]> {
   const jobs = await db.select().from(bulkJobs).orderBy(desc(bulkJobs.createdAt)).limit(limit);
   if (jobs.length === 0) return [];
-  const items = await db
-    .select({ id: audits.id, asin: audits.asin, status: audits.status, score: audits.score, bulkJobId: audits.bulkJobId })
+  const counts = await db
+    .select({ bulkJobId: audits.bulkJobId, status: audits.status, n: sql<number>`count(*)` })
     .from(audits)
     .where(inArray(audits.bulkJobId, jobs.map((j) => j.id)))
-    .orderBy(asc(audits.createdAt));
-  return jobs.map((job) => ({
-    job,
-    audits: items.filter((a) => a.bulkJobId === job.id).map(({ bulkJobId: _, ...a }) => a),
-  }));
+    .groupBy(audits.bulkJobId, audits.status);
+  const count = (id: string, status: string) => Number(counts.find((c) => c.bulkJobId === id && c.status === status)?.n ?? 0);
+  return jobs.map((job) => ({ job, done: count(job.id, "done"), failed: count(job.id, "failed") }));
 }
 
 /** Saves the listing version an audit read. The same content twice is one row. */
@@ -170,6 +168,16 @@ export async function saveSnapshot(
 
 export async function addLead(db: Db, l: { email: string; asin: string; auditId: string }): Promise<void> {
   await db.insert(leads).values({ ...l, createdAt: new Date() });
+}
+
+/** Stores a lead unless the same email is already on that audit. */
+export async function addLeadOnce(db: Db, l: { email: string; asin: string; auditId: string }): Promise<void> {
+  const existing = await db
+    .select({ id: leads.id })
+    .from(leads)
+    .where(and(eq(leads.auditId, l.auditId), eq(leads.email, l.email)))
+    .limit(1);
+  if (existing.length === 0) await addLead(db, l);
 }
 
 export async function leadAuditIds(db: Db, auditIds: string[]): Promise<Set<string>> {

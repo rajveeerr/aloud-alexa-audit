@@ -14,7 +14,7 @@ import {
   type AuditOrigin,
   type Health,
 } from "@answerable/contracts";
-import { addLead, getAudit, getBulk, history, leadAuditIds, listAudits, listBulks, type Db } from "@answerable/db";
+import { addLead, addLeadOnce, getAudit, getBulk, history, leadAuditIds, listAudits, listBulks, type Db } from "@answerable/db";
 import type { ListingStore } from "@answerable/pipeline";
 import { rescore, startBulk, submitAudit, type AuditJobData } from "@answerable/worker";
 import { requireApiKey } from "./auth";
@@ -22,7 +22,7 @@ import { errorHandler, HttpError, notFound } from "./errors";
 import { publicSource, savedListings } from "./listings";
 import { openApiDocument } from "./openapi";
 import { hit } from "./ratelimit";
-import { toAuditJob, toBriefs, toBulkJob, toHistory, toPublicResult, toSummary } from "./views";
+import { toAuditJob, toBriefs, toBulkJob, toBulkSummary, toHistory, toPublicResult, toSummary } from "./views";
 
 export type AppConfig = {
   webOrigin: string;
@@ -32,6 +32,8 @@ export type AppConfig = {
   /** Widget audits per IP per window. */
   publicRateLimit: number;
   publicWindowSec: number;
+  /** Emails left on widget audits per IP per window. Separate from audits, so a visitor who used them up can still leave one. */
+  publicEmailLimit: number;
   /** Let widget audits fetch unsaved listings through SerpApi. Costs searches, so off by default. */
   publicLive: boolean;
 };
@@ -89,17 +91,19 @@ export function createApp(ctx: AppContext): express.Express {
     res.json(await savedListings(ctx.listings, q.source ? [q.source] : ["serpapi", "dataset"]));
   });
 
-  /** The homepage widget has no key, so its writes are limited per IP instead. */
-  async function limitPublic(req: Request, res: express.Response) {
-    const h = await hit(redis, `${config.redisPrefix}:rl:public:${req.ip}`, config.publicRateLimit, config.publicWindowSec);
+  /** The homepage widget has no key, so its writes are limited per IP instead, each kind in its own bucket. */
+  async function limitPublic(req: Request, res: express.Response, bucket: "audits" | "email") {
+    const [name, limit] = bucket === "audits" ? ["public", config.publicRateLimit] : ["public-email", config.publicEmailLimit];
+    const h = await hit(redis, `${config.redisPrefix}:rl:${name}:${req.ip}`, limit, config.publicWindowSec);
     if (!h.allowed) {
       res.set("Retry-After", String(h.retryAfterSec));
-      throw new HttpError(429, "rate_limited", `Only ${config.publicRateLimit} free audits an hour; try again later`);
+      const what = bucket === "audits" ? "free audits" : "emails";
+      throw new HttpError(429, "rate_limited", `Only ${limit} ${what} an hour; try again later`);
     }
   }
 
   app.post("/v1/public/audits", async (req, res) => {
-    await limitPublic(req, res);
+    await limitPublic(req, res, "audits");
     const body = PublicAuditBody.parse(req.body);
     const source = await publicSource(ctx.listings, body.asin);
     const row = await submitAudit(jobs, { asin: body.asin, source, origin: "widget", request: { live: config.publicLive } });
@@ -128,12 +132,13 @@ export function createApp(ctx: AppContext): express.Express {
 
   // An email left after the widget showed its teaser: unlocks the full report for that audit.
   app.post("/v1/public/audits/:id/email", async (req, res) => {
-    await limitPublic(req, res);
     const { id } = IdParam.parse(req.params);
     const { email } = PublicEmailBody.parse(req.body);
     const row = await getAudit(db, id);
     if (!row || row.origin !== "widget") throw new HttpError(404, "not_found", "No such audit");
-    await addLead(db, { email, asin: row.asin, auditId: row.id });
+    // Charged only once the request is valid, so typos and bad ids don't use up the visitor's emails.
+    await limitPublic(req, res, "email");
+    await addLeadOnce(db, { email, asin: row.asin, auditId: row.id });
     res.status(202).json(toPublicResult(row, true));
   });
 
@@ -194,7 +199,7 @@ export function createApp(ctx: AppContext): express.Express {
 
   v1.get("/bulk", async (req, res) => {
     const { limit } = ListBulkQuery.parse(req.query);
-    res.json((await listBulks(db, limit)).map((b) => toBulkJob(b.job, b.audits)));
+    res.json((await listBulks(db, limit)).map((b) => toBulkSummary(b.job, b.done, b.failed)));
   });
 
   v1.get("/bulk/:id", async (req, res) => {

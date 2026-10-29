@@ -276,7 +276,28 @@ export const openApiDocument = {
         ...keyed,
         summary: "The newest bulk jobs with their progress",
         parameters: [{ name: "limit", in: "query", schema: { type: "integer", minimum: 1, maximum: 50, default: 10 } }],
-        responses: { "200": { description: "Newest first", ...json({ type: "array", items: ref("BulkJob") }) }, ...common },
+        responses: {
+          "200": {
+            description: "Newest first, without the per-audit rows (see GET /v1/bulk/{id})",
+            ...json({
+              type: "array",
+              items: {
+                type: "object",
+                required: ["id", "name", "status", "total", "done", "failed", "createdAt"],
+                properties: {
+                  id,
+                  name: { type: "string" },
+                  status: { type: "string", enum: ["running", "done"] },
+                  total: { type: "integer" },
+                  done: { type: "integer" },
+                  failed: { type: "integer" },
+                  createdAt: { type: "string", format: "date-time" },
+                },
+              },
+            }),
+          },
+          ...common,
+        },
       },
     },
     "/v1/bulk/{id}": {
@@ -299,7 +320,7 @@ export const openApiDocument = {
     },
     "/v1/public/audits/{id}/email": {
       post: {
-        summary: "Leave an email for a widget audit: unlocks the full report. Shares the per-IP limit",
+        summary: "Leave an email for a widget audit: unlocks the full report. Its own per-IP limit; the same email twice is stored once",
         parameters: [pathId],
         requestBody: { required: true, ...json({ type: "object", required: ["email"], properties: { email: { type: "string", format: "email" } } }) },
         responses: {
