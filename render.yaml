@@ -1,0 +1,72 @@
+# Render blueprint: the API with the audit worker in one process, built from the root Dockerfile.
+# Steps are in DEPLOY.md. Values marked sync: false are asked for when the blueprint is created
+# and never stored here.
+#
+# The free plan sleeps after about 15 minutes with no requests and takes up to a minute to wake.
+# The worker sleeps with it, so a queued audit waits until the next request wakes the service.
+services:
+  - type: web
+    name: answerable-api
+    runtime: docker
+    plan: free
+    # Put TiDB and Upstash in the matching region (Oregon is AWS us-west-2).
+    region: oregon
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /v1/health
+    autoDeploy: true
+    envVars:
+      # Render sets PORT itself; the API reads it.
+      - key: NODE_ENV
+        value: production
+      - key: RUN_WORKER
+        value: "1"
+      # One proxy hop (Render's load balancer), so per-IP limits see the client's address.
+      - key: TRUST_PROXY
+        value: "1"
+
+      # Storage
+      - key: DATABASE_URL # TiDB Cloud: mysql://<user>:<password>@<host>:4000/answerable
+        sync: false
+      - key: DATABASE_SSL # TiDB Cloud only takes TLS connections
+        value: "1"
+      - key: REDIS_URL # Upstash: rediss://default:<password>@<host>:6379
+        sync: false
+      - key: REDIS_PREFIX
+        value: answerable
+
+      # The web app's origin on Vercel, for CORS, e.g. https://answerable.vercel.app
+      - key: WEB_ORIGIN
+        sync: false
+      # The app's key ships in its bundle, so keyed requests are held to saved listings.
+      - key: DEMO_READONLY
+        value: "1"
+
+      # The homepage widget
+      - key: PUBLIC_RATE_LIMIT
+        value: "5"
+      - key: PUBLIC_RATE_WINDOW_SEC
+        value: "3600"
+      - key: PUBLIC_EMAIL_LIMIT
+        value: "10"
+      # "1" lets widget audits fetch unsaved listings through SerpApi (costs searches).
+      - key: PUBLIC_LIVE
+        value: "0"
+
+      # Model and listing providers. Without GEMINI_API_KEY audits replay recorded answers only.
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-3.5-flash-lite
+      - key: GEMINI_RPM
+        value: "10"
+      - key: SERPAPI_KEY
+        sync: false
+      - key: RETRY_BACKOFF_MS
+        value: "10000"
+
+      # Optional audit.completed webhook. The URL needs the secret; leave both blank to turn it off.
+      - key: AUDIT_WEBHOOK_URL
+        sync: false
+      - key: AUDIT_WEBHOOK_SECRET
+        sync: false
