@@ -1,0 +1,33 @@
+{
+  "data": [
+    {
+      "intentId": "durability",
+      "unsupported": [
+        "everyday use"
+      ],
+      "answersQuestion": true
+    },
+    {
+      "intentId": "surface_compatibility",
+      "unsupported": [
+        "in addition to everyday writing tasks"
+      ],
+      "answersQuestion": true
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "unsupported": [
+        "Features quick drying ink designed to help prevent smudges and smears for left-handed writers"
+      ],
+      "answersQuestion": true
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "faithfulness@2026-10-27.2",
+  "usage": {
+    "inputTokens": 276,
+    "outputTokens": 145
+  },
+  "latencyMs": 1219,
+  "cached": false
+}

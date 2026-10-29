@@ -111,13 +111,18 @@ export function fsStores(opts: FsStoresOptions): {
       },
       async saved(source) {
         const files = await readdir(join(opts.fixturesDir, source)).catch(() => [] as string[]);
-        return files.filter((f) => f.endsWith(".json")).map((f) => f.replace(".json", ""));
+        // Sorted: readdir order differs between macOS and Linux, and the order decides which
+        // competitors are picked and how the fix-list prompt reads, so it must be the same everywhere.
+        return files
+          .filter((f) => f.endsWith(".json"))
+          .map((f) => f.replace(".json", ""))
+          .sort();
       },
     },
     search: opts.serpApiKey ? new SerpApiSearch({ apiKey: opts.serpApiKey, snapshotDir: join(opts.fixturesDir, "serpapi-search") }) : null,
     intentSets: {
       async all() {
-        const files = (await readdir(intentDir).catch(() => [] as string[])).filter((f) => f.endsWith(".json"));
+        const files = (await readdir(intentDir).catch(() => [] as string[])).filter((f) => f.endsWith(".json")).sort();
         return Promise.all(files.map(async (f) => JSON.parse(await readFile(join(intentDir, f), "utf8")) as IntentSet));
       },
       async save(set, note) {

@@ -1,0 +1,87 @@
+{
+  "data": [
+    {
+      "intentId": "ink_flow",
+      "target": "bullet.1",
+      "sources": [
+        {
+          "id": "bullet.1",
+          "text": "Smooth & Long-lasting: Enjoy a smooth writing experience with these black gel pens—Pilot pens that glide effortlessly across the page."
+        }
+      ],
+      "needsFromBrand": "Confirm whether the ink flows consistently without skipping or clogging."
+    },
+    {
+      "intentId": "durability",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.23",
+          "text": "Reliable & Durable"
+        },
+        {
+          "id": "ic.25",
+          "text": "Sturdy Clip"
+        }
+      ],
+      "draft": "Reliable & Durable: Designed with a sturdy clip for dependable, everyday use."
+    },
+    {
+      "intentId": "bleed_through",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm whether the ink prevents bleed-through on paper."
+    },
+    {
+      "intentId": "leaking",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm whether the pen is leak-proof or prevents blobs."
+    },
+    {
+      "intentId": "surface_compatibility",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.53",
+          "text": "CARDMAKING"
+        },
+        {
+          "id": "ic.54",
+          "text": "SCRAPBOOKING"
+        }
+      ],
+      "draft": "Versatile Surfaces: Ideal for cardmaking and scrapbooking, in addition to everyday writing tasks."
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "attr.hand_orientation",
+          "text": "Hand orientation: Left"
+        }
+      ],
+      "draft": "Left-Hand Friendly: Features quick drying ink designed to help prevent smudges and smears for left-handed writers."
+    },
+    {
+      "intentId": "weight",
+      "target": "attr.item_weight",
+      "sources": [
+        {
+          "id": "attr.item_weight",
+          "text": "Item weight: 4.96 ounces"
+        }
+      ],
+      "needsFromBrand": "Send the weight of an individual pen instead of the package weight."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.2",
+  "usage": {
+    "inputTokens": 3480,
+    "outputTokens": 626
+  },
+  "latencyMs": 2980,
+  "cached": false
+}

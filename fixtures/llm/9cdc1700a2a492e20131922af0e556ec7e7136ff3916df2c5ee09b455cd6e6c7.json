@@ -1,0 +1,70 @@
+{
+  "data": [
+    {
+      "intentId": "durability_and_sturdiness",
+      "target": "bullet.2",
+      "sources": [
+        {
+          "id": "bullet.2",
+          "text": "Smooth & durable magnetic writing surface, easily drywipe with all dry-erase markers"
+        },
+        {
+          "id": "bullet.3",
+          "text": "Silver finished aluminium frame, ABS plastic corner with screw-fixing in corners"
+        }
+      ],
+      "draft": "Smooth and durable magnetic writing surface featuring a silver finished aluminium frame and ABS plastic corners with screw-fixing."
+    },
+    {
+      "intentId": "magnetic_properties",
+      "target": "magnetic_properties",
+      "sources": [],
+      "needsFromBrand": "Confirm the strength rating of the magnetic surface in gauss or pull force."
+    },
+    {
+      "intentId": "erasability_and_staining",
+      "target": "bullet.2",
+      "sources": [
+        {
+          "id": "bullet.2",
+          "text": "Smooth & durable magnetic writing surface, easily drywipe with all dry-erase markers"
+        },
+        {
+          "id": "ic.1",
+          "text": "Easy to write and clean"
+        }
+      ],
+      "draft": "Smooth magnetic writing surface that is easy to write on and clean, easily drywipeable with all dry-erase markers."
+    },
+    {
+      "intentId": "portability_and_weight",
+      "target": "attr.item_weight",
+      "sources": [
+        {
+          "id": "attr.item_weight",
+          "text": "Item weight: 8.13 pounds"
+        }
+      ],
+      "needsFromBrand": "Confirm whether the board is considered portable and supply any transport details."
+    },
+    {
+      "intentId": "surface_smoothness_and_flatness",
+      "target": "bullet.2",
+      "sources": [
+        {
+          "id": "bullet.2",
+          "text": "Smooth & durable magnetic writing surface, easily drywipe with all dry-erase markers"
+        }
+      ],
+      "draft": "Features a smooth and durable magnetic writing surface designed for effortless writing."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.2",
+  "usage": {
+    "inputTokens": 1186,
+    "outputTokens": 535
+  },
+  "latencyMs": 63487,
+  "cached": false
+}

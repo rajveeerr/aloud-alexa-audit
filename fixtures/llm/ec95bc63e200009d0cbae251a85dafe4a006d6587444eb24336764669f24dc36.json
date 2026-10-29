@@ -1,0 +1,80 @@
+{
+  "data": [
+    {
+      "intentId": "longevity",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm the writing length or if the ink is long-lasting."
+    },
+    {
+      "intentId": "dry_time",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "bullet.1",
+          "text": "Gel pen with no smear, no bleed technology"
+        }
+      ],
+      "draft": "Gel pen with no smear, no bleed technology"
+    },
+    {
+      "intentId": "refillable",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm whether the pen is refillable and which refills it takes."
+    },
+    {
+      "intentId": "durability",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm details about the durability of the pen body or tip."
+    },
+    {
+      "intentId": "leaking",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.6",
+          "text": "Product contains a wax tip seal to prevent damage during shipping. Please remove prior to use. | La pointe du produit a un bouchon de cire pour empêcher des dommages pendant l'expédition. Veuillez le retirer avant de l'utiliser."
+        }
+      ],
+      "draft": "Product contains a wax tip seal to prevent damage during shipping."
+    },
+    {
+      "intentId": "surface_compatibility",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "description.1",
+          "text": "Sharpie S-Gel offers a smooth writing experience perfect for homes, schools, or offices."
+        }
+      ],
+      "draft": "Smooth writing experience perfect for homes, schools, or offices."
+    },
+    {
+      "intentId": "weight",
+      "target": "attr.item_weight",
+      "sources": [
+        {
+          "id": "attr.item_weight",
+          "text": "Item weight: 1.6 ounces"
+        }
+      ],
+      "draft": "Item weight: 1.6 ounces"
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm whether this pen is specifically tested or recommended for left-handed writers to prevent smudging."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.2",
+  "usage": {
+    "inputTokens": 2131,
+    "outputTokens": 611
+  },
+  "latencyMs": 2652,
+  "cached": false
+}

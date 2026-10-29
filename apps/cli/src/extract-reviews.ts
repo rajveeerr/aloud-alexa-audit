@@ -34,7 +34,7 @@ if (files.length === 0) {
 type Line = { a: string; r?: number; t?: string; x?: string; h?: number };
 
 const sets = await Promise.all(
-  (await readdir(join(FIXTURES, "intents"))).filter((f) => f.endsWith(".json")).map(async (f) => JSON.parse(await readFile(join(FIXTURES, "intents", f), "utf8")) as IntentSet),
+  (await readdir(join(FIXTURES, "intents"))).filter((f) => f.endsWith(".json")).sort().map(async (f) => JSON.parse(await readFile(join(FIXTURES, "intents", f), "utf8")) as IntentSet),
 );
 const keywordsByAsin = new Map<string, string[][]>();
 const dataset = new FixtureProductData(FIXTURES, "dataset");

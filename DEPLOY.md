@@ -258,20 +258,15 @@ Check each provider's pricing page; these numbers change.
 | **Gemini free tier**: requests per minute and per day, per model. For Flash-Lite, roughly 10 a minute and 500 a day; check the AI Studio rate-limit page. | Without `GEMINI_API_KEY`, audits only replay recorded answers. A saved listing with recordings works at no cost, and anything else fails with `not_recorded` (the widget says "We can't audit this product yet. Try one of the example products."). With a key, the worker keeps to `GEMINI_RPM` by itself. When the daily quota is used up, the audit stays queued with a note and retries just after midnight US Pacific, when the quota resets. Free-tier prompts may be used by Google to improve its products; only public listing data is sent. |
 | **SerpApi free**: 250 searches a month, 50 an hour. | Only used for live fetches, which need `SERPAPI_KEY`. `DEMO_READONLY=1` turns live off for keyed requests, and `PUBLIC_LIVE=0` keeps the widget on saved listings, so the deployed demo spends nothing. When searches run out, a live fetch fails, the job retries, and the audit ends `failed`. Saved listings keep working. |
 
-## Known issue: some saved dataset listings fail in the Linux image
+## Saved listings audit the same on any OS
 
-Running the image locally, all 5 saved SerpApi listings (the Ddaowanx hero included) audit with
-their recorded scores. Only 10 of the 20 saved dataset listings do. The other 10 fail with
-`not_recorded`, among them U Brands `B09VD1Z3TK`, which the e2e suite expects to score 84.
+Saved competitors are picked in sorted ASIN order (`fsStores().listings.saved()`), so a replayed audit
+builds the same prompts on macOS, in the Linux image and on Render. All 25 saved listings replay inside
+the image with their recorded scores. To check a deploy, audit a saved dataset listing and expect its
+recorded score (U Brands board, 84):
 
-The cause: with no live search, `findCompetitors` (packages/pipeline/src/audit.ts) takes saved
-competitors in the order `fsStores().listings.saved()` lists them, and that is `readdir` order. On
-macOS (APFS) that order is fixed, and the recordings in `fixtures/llm` were made with it. On Linux it
-comes out different, so some audits pick other competitors, build a brief prompt that was never
-recorded, and fail in replay mode. Render's filesystem may give yet another order.
-
-The proper fix is one line, sorting `saved()`, plus re-recording the affected model calls with a
-Gemini key (`bun cli audit <asin> --source dataset --record` for each failing ASIN). Then check the
-scores the tests and e2e expect. That is a quota decision, so it isn't done here. Until then, the
-hero demo works. With `GEMINI_API_KEY` set on Render, the failing dataset audits record new answers
-instead of failing, which costs quota and is lost on restart.
+```sh
+curl -s -X POST "$API/v1/audits" -H "x-api-key: $KEY" -H 'content-type: application/json' \
+  -d '{"asin":"B09VD1Z3TK","source":"dataset"}'
+# then GET /v1/audits/<id> until status is "done"; score should be 84
+```

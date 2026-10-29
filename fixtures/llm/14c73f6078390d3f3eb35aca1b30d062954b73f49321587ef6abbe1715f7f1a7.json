@@ -1,0 +1,67 @@
+{
+  "data": [
+    {
+      "intentId": "durability",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "bullet.3",
+          "text": "Superior drafting pencil for general and technical writing"
+        }
+      ],
+      "needsFromBrand": "Confirm specific durability claims for the pencil construction and clip."
+    },
+    {
+      "intentId": "erasability",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "bullet.4",
+          "text": "Refillable with Pentel Super Hi-Polymer Lead and Z2-1 eraser"
+        }
+      ],
+      "needsFromBrand": "Confirm whether the eraser removes marks cleanly without smudging or tearing paper."
+    },
+    {
+      "intentId": "smoothness",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "bullet.8",
+          "text": "Pre-loaded with Pentel Super Hi-Polymer HB lead; never needs sharpening, is super strong and produces a clear dark line"
+        }
+      ],
+      "needsFromBrand": "Confirm whether the lead writes smoothly without scratching."
+    },
+    {
+      "intentId": "jamming",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "bullet.2",
+          "text": "Dual-action retractor advances and retracts tip for easy use"
+        }
+      ],
+      "needsFromBrand": "Confirm whether the lead mechanism features anti-jamming properties during use."
+    },
+    {
+      "intentId": "smudge_resistance",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "bullet.8",
+          "text": "Pre-loaded with Pentel Super Hi-Polymer HB lead; never needs sharpening, is super strong and produces a clear dark line"
+        }
+      ],
+      "needsFromBrand": "Confirm whether the lead resists smudging on the page."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.2",
+  "usage": {
+    "inputTokens": 1409,
+    "outputTokens": 487
+  },
+  "latencyMs": 2146,
+  "cached": false
+}

@@ -109,13 +109,13 @@ $2.5 / 1M output, checked 2026-10-30). On the free tier it's $0.
 
 | step | requests | input tokens | output tokens | paid cost |
 |---|---:|---:|---:|---:|
-| brief | 1.0 | 1748 | 395 | $0.0015 |
+| brief | 1.0 | 1747 | 384 | $0.0015 |
 | coverage | 1.0 | 1226 | 1187 | $0.0033 |
-| faithfulness | 0.6 | 143 | 47 | $0.0002 |
+| faithfulness | 0.6 | 141 | 48 | $0.0002 |
 | grade | 5.0 | 8621 | 4270 | $0.0133 |
 | proof-labels | 2.0 | 11076 | 2062 | $0.0085 |
 | transcribe (vision, saved) | 1.0 | 9140 | 527 | $0.0041 |
-| **total** | 10.6 | 31954 | 8488 | **$0.0308** |
+| **total** | 10.6 | 31951 | 8479 | **$0.0308** |
 
 Promise vs proof ran on 12 audits (dataset listings with saved reviews), averaging
 4.2 requests each.

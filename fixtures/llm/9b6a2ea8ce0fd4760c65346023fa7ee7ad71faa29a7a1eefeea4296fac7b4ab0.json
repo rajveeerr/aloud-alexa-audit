@@ -1,0 +1,68 @@
+{
+  "data": [
+    {
+      "intentId": "dry_time",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.17",
+          "text": "SUPER SMOOTH & QUICK DRYING"
+        }
+      ],
+      "draft": "Experience super smooth and quick-drying gel ink that helps prevent smudges."
+    },
+    {
+      "intentId": "bleed_through",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm whether the ink prevents bleed-through on standard paper."
+    },
+    {
+      "intentId": "durability",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.19",
+          "text": "Sturdy Clip"
+        }
+      ],
+      "draft": "Designed with a sturdy clip for reliable everyday carry."
+    },
+    {
+      "intentId": "leaking",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm whether the pen features a leak-proof or blob-resistant design."
+    },
+    {
+      "intentId": "surface_compatibility",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "bullet.4",
+          "text": "Whether you're taking notes, stocking up on school or office supplies, or writing in a bullet journal, Pilot has the perfect pen for you"
+        }
+      ],
+      "draft": "Ideal for taking notes, stocking up on school or office supplies, and writing in a bullet journal."
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "description.1",
+          "text": "smooth-writing and smear-proof"
+        }
+      ],
+      "draft": "Enjoy smear-proof, smooth writing suitable for all your everyday writing needs."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.2",
+  "usage": {
+    "inputTokens": 2037,
+    "outputTokens": 481
+  },
+  "latencyMs": 2387,
+  "cached": false
+}

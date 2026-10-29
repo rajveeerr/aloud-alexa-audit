@@ -163,7 +163,7 @@ describe("recorded hero fix list", () => {
     const claims = collectClaims(hero, JSON.parse(readFileSync(join(ROOT, "fixtures/image-claims/serpapi/B0C9W8DD9S.json"), "utf8")).modelOutput);
     const hidden = findHiddenAnswers(grades, claims, (await checkCoverage(hero, claims, intentSet.intents, llm, "gemini-3.5-flash-lite")).matches, intentSet.intents);
     const rivals: GradedListing[] = [];
-    for (const f of readdirSync(join(ROOT, "fixtures/serpapi")).filter((x) => !x.startsWith("B0C9W8DD9S"))) {
+    for (const f of readdirSync(join(ROOT, "fixtures/serpapi")).sort().filter((x) => !x.startsWith("B0C9W8DD9S"))) {
       const l = load(f.replace(".json", ""));
       rivals.push({ listing: l, grades: (await gradeListing(l, intentSet, llm, "gemini-3.5-flash-lite")).grades });
     }

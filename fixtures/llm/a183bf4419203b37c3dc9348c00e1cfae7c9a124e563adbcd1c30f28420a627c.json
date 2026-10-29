@@ -1,0 +1,75 @@
+{
+  "data": [
+    {
+      "intentId": "dry_time",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "aplus.1",
+          "text": "No Smear, No Bleed Technology"
+        }
+      ],
+      "draft": "Featuring no smear, no bleed technology for a clean writing experience."
+    },
+    {
+      "intentId": "longevity",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm the writing length or longevity details of the ink."
+    },
+    {
+      "intentId": "refillable",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm whether the pen is refillable and specify compatible refills."
+    },
+    {
+      "intentId": "durability",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm the durability features or materials of the pen body and tip."
+    },
+    {
+      "intentId": "surface_compatibility",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "description.1",
+          "text": "perfect for homes, schools, or offices."
+        }
+      ],
+      "draft": "Offers a smooth writing experience perfect for homes, schools, or offices."
+    },
+    {
+      "intentId": "leaking",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.16",
+          "text": "Product contains a wick seal to prevent leakage during shipping"
+        }
+      ],
+      "draft": "Product contains a wick seal to prevent leakage during shipping."
+    },
+    {
+      "intentId": "weight",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Send the weight of an individual pen in ounces or grams."
+    },
+    {
+      "intentId": "water_resistance",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm whether the ink is waterproof, water-resistant, or fade-resistant."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.2",
+  "usage": {
+    "inputTokens": 2296,
+    "outputTokens": 528
+  },
+  "latencyMs": 2421,
+  "cached": false
+}

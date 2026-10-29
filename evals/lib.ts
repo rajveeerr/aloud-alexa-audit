@@ -127,7 +127,7 @@ function isMissingRecording(err: unknown): boolean {
 
 async function intentSets(): Promise<IntentSet[]> {
   const dir = join(FIXTURES, "intents");
-  const files = (await readdir(dir)).filter((f) => f.endsWith(".json"));
+  const files = (await readdir(dir)).filter((f) => f.endsWith(".json")).sort();
   return Promise.all(files.map(async (f) => JSON.parse(await readFile(join(dir, f), "utf8")) as IntentSet));
 }
 

@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "intentId": "dry_time",
+      "unsupported": [
+        "Featuring no smear, no bleed technology for a clean writing experience."
+      ],
+      "answersQuestion": false
+    },
+    {
+      "intentId": "surface_compatibility",
+      "unsupported": [],
+      "answersQuestion": false
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "faithfulness@2026-10-27.2",
+  "usage": {
+    "inputTokens": 208,
+    "outputTokens": 84
+  },
+  "latencyMs": 895,
+  "cached": false
+}

@@ -1,0 +1,74 @@
+{
+  "data": [
+    {
+      "intentId": "ink_flow",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.13",
+          "text": "Smooth Writing without Skipping"
+        }
+      ],
+      "draft": "Smooth Writing without Skipping: Enjoy reliable ink flow for an effortless writing experience."
+    },
+    {
+      "intentId": "longevity",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm the ink longevity or writing distance for the pens."
+    },
+    {
+      "intentId": "refillable",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm whether the pens are refillable and specify the compatible refill type."
+    },
+    {
+      "intentId": "bleed_through",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm whether the ink prevents bleed-through on standard paper."
+    },
+    {
+      "intentId": "leaking",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.11",
+          "text": "Each Pen is Sealed with Waxto Prevent ink from Drying"
+        }
+      ],
+      "draft": "Leak Prevention: Each pen is sealed with wax to prevent ink from drying and leaking before first use."
+    },
+    {
+      "intentId": "weight",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "attr.item_weight",
+          "text": "3.84 ounces"
+        }
+      ],
+      "draft": "Lightweight Build: The entire set weighs 3.84 ounces for comfortable, balanced everyday writing."
+    },
+    {
+      "intentId": "smudge_left_handed",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.19",
+          "text": "No Smear: Perfect for Left-Handed"
+        }
+      ],
+      "draft": "No Smear: Perfect for Left-Handed writers, the quick-drying ink helps keep your hands and work clean."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.2",
+  "usage": {
+    "inputTokens": 2177,
+    "outputTokens": 539
+  },
+  "latencyMs": 2673,
+  "cached": false
+}

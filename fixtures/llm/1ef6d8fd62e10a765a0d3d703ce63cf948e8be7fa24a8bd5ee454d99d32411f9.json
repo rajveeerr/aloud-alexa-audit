@@ -1,0 +1,48 @@
+{
+  "data": [
+    {
+      "intentId": "longevity",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm how long the ink lasts in writing length, pages, or whether it is long-lasting."
+    },
+    {
+      "intentId": "refillable",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm whether the pens are refillable and name the specific refill type if applicable."
+    },
+    {
+      "intentId": "bleed_through",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm whether the ink prevents bleed-through or show-through on paper."
+    },
+    {
+      "intentId": "leaking",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm whether the pens are leak-resistant or blob-free."
+    },
+    {
+      "intentId": "water_resistance",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm whether the ink is waterproof, water-resistant, fade-resistant, archival, or acid-free."
+    },
+    {
+      "intentId": "weight",
+      "target": "attr.item_weight",
+      "sources": [],
+      "needsFromBrand": "Confirm the individual weight of a single pen."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.2",
+  "usage": {
+    "inputTokens": 2620,
+    "outputTokens": 342
+  },
+  "latencyMs": 2019,
+  "cached": false
+}

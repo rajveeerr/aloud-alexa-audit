@@ -122,3 +122,11 @@ describe("saved reviews", () => {
     expect(await stores.reviews.get("dataset", "B00P6N6LC2")).toBeNull();
   });
 });
+
+describe("saved listings", () => {
+  test("come back sorted, whatever order the file system lists them in", async () => {
+    const asins = await stores.listings.saved("dataset");
+    expect(asins).toEqual([...asins].sort());
+    expect(asins.length).toBeGreaterThan(10);
+  });
+});

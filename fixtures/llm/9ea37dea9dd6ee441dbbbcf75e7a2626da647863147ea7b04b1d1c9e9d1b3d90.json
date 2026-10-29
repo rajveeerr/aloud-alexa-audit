@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "intentId": "portability_and_weight",
+      "unsupported": [],
+      "answersQuestion": true
+    },
+    {
+      "intentId": "marker_performance",
+      "unsupported": [],
+      "answersQuestion": true
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "faithfulness@2026-10-27.2",
+  "usage": {
+    "inputTokens": 226,
+    "outputTokens": 68
+  },
+  "latencyMs": 1161,
+  "cached": false
+}

@@ -10,7 +10,7 @@ import { scoreGrades } from "./score";
 import type { IntentSet, Listing } from "./types";
 
 const ROOT = join(import.meta.dir, "../../..");
-const sets: IntentSet[] = readdirSync(join(ROOT, "fixtures/intents")).map((f) => JSON.parse(readFileSync(join(ROOT, "fixtures/intents", f), "utf8")));
+const sets: IntentSet[] = readdirSync(join(ROOT, "fixtures/intents")).sort().map((f) => JSON.parse(readFileSync(join(ROOT, "fixtures/intents", f), "utf8")));
 
 function load(asin: string): Listing {
   const data = JSON.parse(readFileSync(join(ROOT, "fixtures/dataset", `${asin}.json`), "utf8"));

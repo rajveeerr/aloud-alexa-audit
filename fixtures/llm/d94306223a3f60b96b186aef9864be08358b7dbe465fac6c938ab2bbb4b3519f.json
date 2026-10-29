@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "intentId": "durability_and_sturdiness",
+      "unsupported": [],
+      "answersQuestion": true
+    },
+    {
+      "intentId": "magnetic_properties",
+      "unsupported": [],
+      "answersQuestion": true
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "faithfulness@2026-10-27.2",
+  "usage": {
+    "inputTokens": 218,
+    "outputTokens": 70
+  },
+  "latencyMs": 992,
+  "cached": false
+}

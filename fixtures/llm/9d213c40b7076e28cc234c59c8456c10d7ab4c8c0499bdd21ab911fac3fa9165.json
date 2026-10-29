@@ -1,0 +1,65 @@
+{
+  "data": [
+    {
+      "intentId": "ink_flow",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm whether the ink flows consistently without skipping or clogging."
+    },
+    {
+      "intentId": "smudge",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm whether the ink is smudge-free or smear-resistant."
+    },
+    {
+      "intentId": "longevity",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm if there is any longevity claim for the ink."
+    },
+    {
+      "intentId": "tip_size",
+      "target": "attr.point_type",
+      "sources": [
+        {
+          "id": "attr.point_type",
+          "text": "Point type: Medium"
+        }
+      ],
+      "draft": "Medium"
+    },
+    {
+      "intentId": "dry_time",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm whether the ink is quick-drying."
+    },
+    {
+      "intentId": "refillable",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm whether the pens are refillable and with which refills."
+    },
+    {
+      "intentId": "bleed_through",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm whether the ink prevents bleed-through on paper."
+    },
+    {
+      "intentId": "durability",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm the durability features or materials of the pen body and tip."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.2",
+  "usage": {
+    "inputTokens": 1488,
+    "outputTokens": 442
+  },
+  "latencyMs": 2331,
+  "cached": false
+}

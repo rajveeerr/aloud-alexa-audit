@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "intentId": "portability_and_weight",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "attr.item_weight",
+          "text": "Item weight: 10.2 ounces"
+        }
+      ],
+      "draft": "Weighing only 10.2 ounces, this board is lightweight and easy to transport."
+    },
+    {
+      "intentId": "surface_smoothness_and_flatness",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm the smoothness and flatness characteristics of the writing surface."
+    },
+    {
+      "intentId": "marker_performance",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "description.1",
+          "text": "U Brands dry erase markers provide the ultimate writing experience"
+        }
+      ],
+      "draft": "The included dry erase markers provide the ultimate writing experience."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.2",
+  "usage": {
+    "inputTokens": 1858,
+    "outputTokens": 246
+  },
+  "latencyMs": 1734,
+  "cached": false
+}

@@ -1,0 +1,73 @@
+{
+  "data": [
+    {
+      "intentId": "durability_and_sturdiness",
+      "target": "bullet.5",
+      "sources": [
+        {
+          "id": "bullet.5",
+          "text": "Made with lightweight but durable material which makes it easy for students to use in a classroom setting"
+        }
+      ],
+      "draft": "Made with lightweight but durable material which makes it easy for students to use in a classroom setting."
+    },
+    {
+      "intentId": "magnetic_properties",
+      "target": "attr.special_feature",
+      "sources": [
+        {
+          "id": "attr.special_feature",
+          "text": "Magnetic Surface"
+        }
+      ],
+      "draft": "Magnetic Surface"
+    },
+    {
+      "intentId": "erasability_and_staining",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.12",
+          "text": "LEAVES NO RESIDUE"
+        }
+      ],
+      "draft": "Leaves no residue for clean and easy erasing."
+    },
+    {
+      "intentId": "mounting_hardware_and_options",
+      "target": "attr.mounting_type",
+      "sources": [
+        {
+          "id": "attr.mounting_type",
+          "text": "Wall Mount"
+        }
+      ],
+      "needsFromBrand": "Confirm what mounting hardware is included and whether it supports options other than wall mounting."
+    },
+    {
+      "intentId": "board_material",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "State the specific materials used for the writing surface, frame, and backing."
+    },
+    {
+      "intentId": "surface_smoothness_and_flatness",
+      "target": "bullet.3",
+      "sources": [
+        {
+          "id": "bullet.3",
+          "text": "Single sided to allow for a smooth finish backing for best comfort to hold in hand or place on lap."
+        }
+      ],
+      "needsFromBrand": "Confirm the smoothness and flatness specifications of the writing surface."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.2",
+  "usage": {
+    "inputTokens": 1846,
+    "outputTokens": 522
+  },
+  "latencyMs": 2486,
+  "cached": false
+}

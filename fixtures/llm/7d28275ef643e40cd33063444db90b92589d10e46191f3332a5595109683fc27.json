@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "intentId": "erasability_and_staining",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm whether the board erases cleanly without staining or leaving ghost marks."
+    },
+    {
+      "intentId": "durability_and_sturdiness",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Send details regarding the structural durability and build quality against warping and wear."
+    },
+    {
+      "intentId": "magnetic_properties",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm the magnetic strength of the surface."
+    },
+    {
+      "intentId": "portability_and_weight",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "attr.item_weight",
+          "text": "Item weight: 2.7 pounds"
+        }
+      ],
+      "draft": "Weighing 2.7 pounds, the board is lightweight and easy to handle for placement."
+    },
+    {
+      "intentId": "frameless_and_border_design",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.9",
+          "text": "WHITE FINISH WOOD FRAME"
+        }
+      ],
+      "needsFromBrand": "Confirm if the board features a borderless design or if the white finish wood frame surrounds it."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.2",
+  "usage": {
+    "inputTokens": 1439,
+    "outputTokens": 365
+  },
+  "latencyMs": 2473,
+  "cached": false
+}
