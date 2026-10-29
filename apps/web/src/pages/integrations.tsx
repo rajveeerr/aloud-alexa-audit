@@ -14,7 +14,7 @@ function Mockup({ id, title, surface, endpoint, children }: { id: string; title:
   return (
     <section aria-labelledby={id} className="border-t pt-8">
       <div className="flex flex-wrap items-center gap-2">
-        <h2 id={id} className="text-xl font-bold tracking-[-0.01em]">
+        <h2 id={id} className="text-xl font-bold">
           {title}
         </h2>
         <Badge variant="outline">Mockup</Badge>
@@ -30,7 +30,7 @@ function Mockup({ id, title, surface, endpoint, children }: { id: string; title:
 export function IntegrationsPage() {
   return (
     <Page>
-      <h1 className="text-2xl font-bold tracking-[-0.015em]">Where this plugs into SalesDuo</h1>
+      <h1 className="text-2xl font-bold">Where this plugs into SalesDuo</h1>
       <p className="mt-1 max-w-[68ch] text-[15px] text-muted-foreground">
         Sketches of the three hand-offs. The data in each comes from the API; the surrounding SalesDuo screens are mockups, not their real UI.
       </p>

@@ -50,7 +50,7 @@ export function WidgetPage() {
       <main className="mx-auto grid max-w-5xl gap-10 px-5 py-12 md:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] md:py-20">
         <div>
           <p className={label}>FREE ALEXA READINESS CHECK</p>
-          <h1 className="mt-4 text-[38px] leading-[1.05] font-semibold tracking-[-0.025em] sm:text-[48px]">Can Alexa answer your shoppers' questions?</h1>
+          <h1 className="mt-4 text-[38px] leading-[1.05] font-semibold sm:text-[48px]">Can Alexa answer your shoppers' questions?</h1>
           <p className="mt-5 max-w-[46ch] text-[17px] leading-relaxed text-[#4a444b]">
             Shoppers now ask Alexa instead of typing keywords. Enter your ASIN to see how much of what they ask your listing answers, and the three
             biggest gaps.
@@ -112,7 +112,7 @@ function Result({ data, email }: { data: PublicAuditResult; email: string }) {
     <div className="mt-7 border-t border-sd-depth pt-6" data-testid="widget-result">
       <p className={label}>READINESS SCORE</p>
       <p className="mt-2 flex items-baseline gap-2">
-        <span className="text-[52px] leading-none font-semibold tracking-[-0.03em] tabular-nums">{data.score ?? "n/a"}</span>
+        <span className="text-[52px] leading-none font-semibold tabular-nums">{data.score ?? "n/a"}</span>
         <span className="text-[15px] text-[#6d6670]">/ 100{estimated && " (estimated)"}</span>
       </p>
       <p className="mt-2 text-sm text-[#4a444b]">

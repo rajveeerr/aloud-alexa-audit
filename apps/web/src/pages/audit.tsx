@@ -36,7 +36,7 @@ function Progress({ status, asin }: { status: AuditJob["status"]; asin: string |
     <Page>
       <div className="mx-auto max-w-xl py-10" role="status" aria-live="polite">
         <p className="text-sm font-semibold text-muted-foreground">{asin ? <span className="font-mono">{asin}</span> : "Audit"}</p>
-        <h1 className="mt-1 text-2xl font-bold tracking-[-0.015em]" data-testid="audit-status">
+        <h1 className="mt-1 text-2xl font-bold" data-testid="audit-status">
           {status === "queued" ? "Queued" : "Running the audit"}
         </h1>
         <p className="mt-1 text-[15px] text-muted-foreground">
@@ -63,7 +63,7 @@ function Failed({ title, message, code }: { title: string; message: string; code
     <Page>
       <div className="mx-auto max-w-xl py-10" role="alert">
         <CircleAlertIcon className="size-8 text-destructive" aria-hidden="true" />
-        <h1 className="mt-3 text-2xl font-bold tracking-[-0.015em]">{title}</h1>
+        <h1 className="mt-3 text-2xl font-bold">{title}</h1>
         <p className="mt-2 text-[15px]">{message}</p>
         {code && <p className="mt-1 font-mono text-[13px] text-muted-foreground">{code}</p>}
         <div className="mt-6 flex gap-2">

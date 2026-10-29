@@ -39,7 +39,7 @@ export function HiddenAnswers({ report, index }: { report: Report; index: Report
                   <ul className="mt-3 grid gap-2">
                     {h.claims.map((c) => (
                       <li key={c.id}>
-                        <q className="text-[22px] leading-snug font-bold tracking-[-0.01em] [quotes:'“'_'”']">{c.text}</q>
+                        <q className="text-[22px] leading-snug font-bold [quotes:'“'_'”']">{c.text}</q>
                         <span className="mt-0.5 block text-[13px] text-muted-foreground">
                           in <span className="font-mono">{c.imageIds.join(", ")}</span>
                         </span>

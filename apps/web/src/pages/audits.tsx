@@ -16,7 +16,7 @@ export function AuditsPage() {
     <Page>
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div>
-          <h1 className="text-2xl font-bold tracking-[-0.015em]">Audits</h1>
+          <h1 className="text-2xl font-bold">Audits</h1>
           <p className="mt-1 text-[15px] text-muted-foreground">Every audit run from the app, the API, bulk jobs and re-scores.</p>
         </div>
         <Button asChild>
@@ -33,6 +33,9 @@ export function AuditsPage() {
           <div className="p-10 text-center">
             <p className="font-semibold">No audits yet</p>
             <p className="mt-1 text-[15px] text-muted-foreground">Run one from an ASIN and it shows up here.</p>
+            <Button asChild className="mt-4">
+              <Link to="/">Run an audit</Link>
+            </Button>
           </div>
         ) : (
           <Table>

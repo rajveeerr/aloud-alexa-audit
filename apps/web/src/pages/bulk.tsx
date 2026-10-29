@@ -39,7 +39,7 @@ export function BulkPage() {
 
   return (
     <Page>
-      <h1 className="text-2xl font-bold tracking-[-0.015em]">Bulk audit</h1>
+      <h1 className="text-2xl font-bold">Bulk audit</h1>
       <p className="mt-1 max-w-[68ch] text-[15px] text-muted-foreground">
         Audit a whole catalog at once. Each ASIN runs as its own job through the queue, so a big list finishes in the background.
       </p>
@@ -152,7 +152,7 @@ function BulkTable({ id }: { id: string }) {
         aria-valuemax={100}
         aria-valuenow={pct}
       >
-        <div className="h-full bg-primary transition-[width] duration-500" style={{ width: `${pct}%` }} />
+        <div className="h-full origin-left bg-primary transition-transform duration-200 ease-out" style={{ transform: `scaleX(${pct / 100})` }} />
       </div>
       <Table>
         <TableHeader>

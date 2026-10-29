@@ -25,7 +25,7 @@ export function WhyThisExists() {
         Why this exists
       </h2>
       <figure className="mt-4">
-        <blockquote className="border-l-[3px] border-primary pl-4 text-[21px] leading-snug font-semibold tracking-[-0.01em]">
+        <blockquote className="border-l-[3px] border-primary pl-4 text-[21px] leading-snug font-semibold">
           <p>“Alexa recommendation visibility is not currently available as a standalone metric in Seller Central.”</p>
         </blockquote>
         <figcaption className="mt-4 pl-[19px]">

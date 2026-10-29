@@ -14,7 +14,7 @@ const NAV = [
 
 export function Logo({ className }: { className?: string }) {
   return (
-    <span className={cn("inline-flex items-center gap-2 text-[17px] font-bold tracking-[-0.01em]", className)}>
+    <span className={cn("inline-flex items-center gap-2 text-[17px] font-bold", className)}>
       <svg viewBox="0 0 32 32" className="size-6" aria-hidden="true">
         <rect width="32" height="32" rx="8" fill="#FF8800" />
         <path d="M9 17.5l4.5 4.5L23 11" fill="none" stroke="#fff" strokeWidth="3.2" strokeLinecap="round" strokeLinejoin="round" />

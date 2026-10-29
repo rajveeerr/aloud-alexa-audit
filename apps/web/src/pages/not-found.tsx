@@ -6,7 +6,7 @@ export function NotFoundPage() {
   return (
     <Page>
       <div className="mx-auto max-w-xl py-16">
-        <h1 className="text-2xl font-bold tracking-[-0.015em]">There's no page here</h1>
+        <h1 className="text-2xl font-bold">There's no page here</h1>
         <p className="mt-2 text-[15px] text-muted-foreground">Check the address, or start from a new audit.</p>
         <Button asChild className="mt-6">
           <Link to="/">New audit</Link>

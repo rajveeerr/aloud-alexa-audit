@@ -21,7 +21,7 @@ export function ReportHeader({ report }: { report: Report }) {
           {requestedDiffers && <span>requested {<span className="font-mono text-[13px]">{l.requestedAsin}</span>}</span>}
           <span>{SOURCE_LABEL[l.source]}</span>
         </p>
-        <h1 className="mt-2 max-w-[60ch] text-2xl leading-tight font-bold tracking-[-0.015em] sm:text-[28px]">{titleOf(report)}</h1>
+        <h1 className="mt-2 max-w-[60ch] text-2xl leading-tight font-bold sm:text-[28px]">{titleOf(report)}</h1>
         <p className="mt-3 flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
           <span>{report.intentSet.categoryName}</span>
           {estimated ? (
@@ -71,7 +71,7 @@ function ScoreBlock({ report }: { report: Report }) {
   return (
     <section aria-label="Score" className="rounded-xl border p-5">
       <div className="flex items-baseline gap-2">
-        <span className="text-[56px] leading-none font-bold tracking-[-0.03em] tabular-nums" data-testid="score">
+        <span className="text-[56px] leading-none font-bold tabular-nums" data-testid="score">
           {s.score ?? "n/a"}
         </span>
         <span className="text-sm text-muted-foreground">/ 100{estimated && <span className="ml-1 font-semibold text-[#9a3412]">(estimated)</span>}</span>
