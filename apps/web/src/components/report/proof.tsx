@@ -1,6 +1,7 @@
 import { Badge, type BadgeVariant } from "@/components/ui/badge";
 import { fieldLabel, type Report, type ReportIndex } from "@/lib/report";
-import { cn, plural } from "@/lib/utils";
+import { discussing, tooFew } from "@/lib/proof";
+import { cn } from "@/lib/utils";
 import { Section } from "./section";
 
 type ClaimProof = NonNullable<Report["proof"]>["claims"][number];
@@ -16,18 +17,15 @@ const ORDER: ClaimProof["verdict"][] = ["contested", "backed", "not_enough_evide
 const pct = (x: number) => `${Math.round(x * 100)}%`;
 const interval = (r: Rate) => `${pct(r.low)} to ${pct(r.high)}`;
 
-/** Reviews that actually discuss the claim: the base every rate is a share of. */
-const discussing = (c: ClaimProof) => c.counts.supports + c.counts.contradicts + c.counts.mixed;
-
 function Examples({ title, items, tone }: { title: string; items: string[]; tone: "for" | "against" }) {
   if (items.length === 0) return null;
   return (
     <div>
       <p className="text-xs font-semibold text-muted-foreground">{title}</p>
       <ul className="mt-1 grid gap-1.5">
-        {items.slice(0, 2).map((t) => (
+        {items.slice(0, 2).map((t, i) => (
           <li
-            key={t}
+            key={i}
             className={cn("rounded-md border-l-2 bg-muted/60 px-3 py-1.5 text-[13px] leading-snug", tone === "for" ? "border-answered" : "border-missing")}
           >
             {t}
@@ -41,6 +39,8 @@ function Examples({ title, items, tone }: { title: string; items: string[]; tone
 function ClaimCard({ c, index }: { c: ClaimProof; index: ReportIndex }) {
   const v = VERDICT[c.verdict];
   const total = discussing(c);
+  // A claim can quote two phrases from one field; name each place once.
+  const places = c.sources.filter((s, i, all) => all.findIndex((x) => x.kind === s.kind && x.id === s.id) === i);
   return (
     <li className="rounded-xl border p-4 sm:p-5" data-testid="proof-claim" data-intent={c.intentId} data-verdict={c.verdict}>
       <div className="flex flex-wrap items-center gap-2">
@@ -50,8 +50,8 @@ function ClaimCard({ c, index }: { c: ClaimProof; index: ReportIndex }) {
       <p className="mt-2 text-[17px] leading-snug font-semibold">“{c.claim}”</p>
       <p className="mt-0.5 text-[13px] text-muted-foreground">
         Said in{" "}
-        {c.sources.map((s, i) => (
-          <span key={s.kind + s.id}>
+        {places.map((s, i) => (
+          <span key={`${s.kind}:${s.id}`}>
             {i > 0 && ", "}
             {s.kind === "image" ? "image " : `${fieldLabel(s.id)} `}
             <span className="font-mono text-xs">({s.id})</span>
@@ -60,8 +60,8 @@ function ClaimCard({ c, index }: { c: ClaimProof; index: ReportIndex }) {
       </p>
 
       {c.verdict === "not_enough_evidence" || !c.contradiction ? (
-        <p className="mt-3 text-sm">
-          Only {plural(c.matching, "review")} {c.matching === 1 ? "mentions" : "mention"} it, too few to say either way.
+        <p className="mt-3 text-sm" data-testid="proof-too-few">
+          {tooFew(c)}
         </p>
       ) : (
         <p className="mt-3 text-sm">

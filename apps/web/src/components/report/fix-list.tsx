@@ -92,7 +92,7 @@ export function FixList({ report, index, auditId }: { report: Report; index: Rep
                         {b.sources.map((s) => {
                           const imgs = s.kind === "image" ? (index.claims.get(s.id)?.imageIds ?? []) : [];
                           return (
-                            <li key={s.kind + s.id} className="text-[13px]">
+                            <li key={`${s.kind}:${s.id}:${s.text}`} className="text-[13px]">
                               “{s.text}”{" "}
                               <span className="text-muted-foreground">
                                 {s.kind === "image" ? (
