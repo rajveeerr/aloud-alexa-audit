@@ -45,6 +45,11 @@ export type AuditRequest = {
   competitors?: string[];
   /** Allow live SerpApi fetches and searches (costs searches). */
   live?: boolean;
+  /**
+   * At most this many competitors, overriding deps.maxCompetitors. 0 skips competitors entirely:
+   * no search and no extra listing fetches, so a live audit costs one SerpApi call.
+   */
+  maxCompetitors?: number;
 };
 
 export type AuditDeps = {
@@ -123,7 +128,7 @@ export async function runAudit(req: AuditRequest, deps: AuditDeps): Promise<Audi
   const vision = deps.vision ? metered(deps.vision, usage) : null;
   const notes: string[] = [];
   const log = deps.log ?? (() => {});
-  const maxCompetitors = deps.maxCompetitors ?? 4;
+  const maxCompetitors = req.maxCompetitors ?? deps.maxCompetitors ?? 4;
 
   const raw = await loadRaw(req, deps);
   if (!raw) throw new AuditError(`No ${req.source} listing for ${req.asin}${req.live ? "" : " (not saved; live fetch not allowed)"}`, "listing_not_found");
@@ -244,9 +249,13 @@ async function loadRaw(req: AuditRequest, deps: AuditDeps): Promise<RawListing |
 /**
  * Given ASINs win. Live: top organic search results for the leaf category, falling back to the
  * page's related products when search returns nothing. Offline: saved listings in the same leaf
- * category. A brand's own other products are never competitors.
+ * category. A brand's own other products are never competitors. A max of 0 looks for none.
  */
 async function findCompetitors(req: AuditRequest, listing: Listing, raw: RawListing, deps: AuditDeps, notes: string[], max: number): Promise<Listing[]> {
+  if (max <= 0) {
+    notes.push("Competitors weren't compared in this quick check, so gaps are ranked without a comparison.");
+    return [];
+  }
   const source = req.source === "paste" ? "serpapi" : req.source;
   let candidates: string[] = req.competitors ?? [];
 

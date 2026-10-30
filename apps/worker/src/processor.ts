@@ -19,7 +19,7 @@ export type ProcessResult = { skipped: "missing" | "done" | "failed" } | { score
 
 /** The stored request, back in the shape runAudit takes. */
 export function toAuditRequest(row: Pick<AuditRow, "requestedAsin" | "source" | "request">): AuditRequest {
-  const r = row.request as { paste?: PastedListing; category?: string; competitors?: string[]; live?: boolean };
+  const r = row.request as { paste?: PastedListing; category?: string; competitors?: string[]; live?: boolean; maxCompetitors?: number };
   return {
     asin: row.requestedAsin,
     source: row.source,
@@ -27,6 +27,8 @@ export function toAuditRequest(row: Pick<AuditRow, "requestedAsin" | "source" | 
     ...(r.paste && { paste: r.paste }),
     ...(r.category && { category: r.category }),
     ...(r.competitors?.length && { competitors: r.competitors }),
+    // 0 is meaningful (no competitors at all), so only a missing value is dropped.
+    ...(typeof r.maxCompetitors === "number" && { maxCompetitors: r.maxCompetitors }),
   };
 }
 

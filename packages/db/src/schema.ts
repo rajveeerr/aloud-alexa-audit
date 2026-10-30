@@ -48,7 +48,7 @@ export const audits = mysqlTable(
     source: mysqlEnum("source", SOURCES).notNull(),
     origin: mysqlEnum("origin", ORIGINS).notNull(),
     status: mysqlEnum("status", STATUSES).notNull(),
-    /** What runAudit needs beyond asin and source: competitors, live, paste, category. */
+    /** What runAudit needs beyond asin and source: competitors, maxCompetitors, live, paste, category. */
     request: json("request").notNull(),
     score: int("score"),
     basis: mysqlEnum("basis", ["mined", "estimated"]),

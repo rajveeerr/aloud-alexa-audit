@@ -1,5 +1,6 @@
 import { describe, expect, test } from "bun:test";
 import { join } from "node:path";
+import type { JsonRequest } from "@aloud/core";
 import { CachedLlm } from "@aloud/providers";
 import { AuditError, runAudit } from "./audit";
 import { fsStores, parseReviewLines } from "./stores";
@@ -139,5 +140,48 @@ describe("competitors", () => {
       deps,
     );
     expect(r.competitors.map((c) => c.brand)).toEqual(["PILOT", "Pentel", "BIC", "Sharpie"]);
+  });
+
+  /** Listing and search stores that count their calls. The search answers with the saved competitors. */
+  function counting() {
+    const calls = { get: [] as string[], saved: 0, search: 0 };
+    const listings = {
+      get: (source: "serpapi" | "dataset", asin: string, o?: { live?: boolean }) => (calls.get.push(asin), stores.listings.get(source, asin, o)),
+      saved: (source: "serpapi" | "dataset") => (calls.saved++, stores.listings.saved(source)),
+    };
+    const results = ["B001GAOTSW", "B097CF46RC", "B0BGPYR8Q3", "B0BSMKF5BQ"].map((asin, i) => ({ asin, title: "", sponsored: false, reviews: 0, position: i + 1 }));
+    const search = { search: async () => (calls.search++, results) };
+    // A fake model: recorded answers where they exist, an empty list for anything else
+    // (fewer competitors change the fix-list prompt, which was never recorded).
+    const llm = {
+      generateJson: <T>(req: JsonRequest) =>
+        deps.llm.generateJson<T>(req).catch(() => ({ data: [] as T, model: "fake", usage: { inputTokens: 0, outputTokens: 0 }, latencyMs: 0, cached: true })),
+    };
+    return { calls, deps: { ...deps, llm, listings, search } };
+  }
+
+  test("maxCompetitors 0: no search and no listing fetch beyond the product's own", async () => {
+    const { calls, deps: d } = counting();
+    const r = await runAudit({ asin: "B0C9W8DD9S", source: "serpapi", live: true, maxCompetitors: 0 }, d);
+    expect(calls).toEqual({ get: ["B0C9W8DD9S"], saved: 0, search: 0 });
+    expect(r.competitors).toEqual([]);
+    expect(r.gaps.length).toBeGreaterThan(0);
+    expect(r.gaps.every((g) => g.competitorShare === null)).toBe(true);
+    expect(r.notes).toContain("Competitors weren't compared in this quick check, so gaps are ranked without a comparison.");
+    expect(r.notes.some((n) => n.startsWith("No competitors found"))).toBe(false);
+  });
+
+  test("maxCompetitors 0 ignores given competitors too", async () => {
+    const { calls, deps: d } = counting();
+    const r = await runAudit({ asin: "B0C9W8DD9S", source: "serpapi", maxCompetitors: 0, competitors: ["B001GAOTSW"] }, d);
+    expect(calls.get).toEqual(["B0C9W8DD9S"]);
+    expect(r.competitors).toEqual([]);
+  });
+
+  test("without maxCompetitors a live audit still searches, up to deps.maxCompetitors", async () => {
+    const { calls, deps: d } = counting();
+    const r = await runAudit({ asin: "B0C9W8DD9S", source: "serpapi", live: true }, { ...d, maxCompetitors: 2 });
+    expect(calls.search).toBe(1);
+    expect(r.competitors).toHaveLength(2);
   });
 });

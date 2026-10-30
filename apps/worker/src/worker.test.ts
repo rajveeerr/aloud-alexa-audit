@@ -110,4 +110,13 @@ describe("toAuditRequest", () => {
       category: "Pens",
     });
   });
+
+  test("keeps a competitor cap of 0, which means none", () => {
+    expect(toAuditRequest({ requestedAsin: "B0LIVE0001", source: "serpapi", request: { live: true, maxCompetitors: 0 } })).toEqual({
+      asin: "B0LIVE0001",
+      source: "serpapi",
+      live: true,
+      maxCompetitors: 0,
+    });
+  });
 });
