@@ -1,5 +1,13 @@
 # Reviewing the gold labels
 
+**Fastest way: `bun evals:review`**, then open http://127.0.0.1:5199. It shows each listing's
+fields (with their ids) next to the question, its rubric, the drafted label and what the tool
+said. Press `1`-`5` (grades) or `1`-`4` (proof) to set a label, `Enter` to accept the draft,
+`←` / `→` to move. Click fields on the left to change the label's fields. Every decision is
+written straight back to `gold/*.jsonl` (only that line changes, and `labeledBy` becomes
+`"rajveer"`), so you can stop at any time. "Done: re-run evals" runs `bun evals` for you; the
+steps under "After reviewing" still apply. The rules below are the same either way.
+
 Every number in `results.md` is only as good as the labels it's scored
 against. Most labels here are drafts. Until they've been reviewed, the
 results are provisional and shouldn't be quoted as accuracy.
@@ -48,6 +56,8 @@ on most papers") and `pentel-smudge-35` ("you don't have a lot of smearing")
 are labelled supports, and the model calls both mixed.
 
 ## After reviewing
+
+The stored baseline was measured against the drafts, so re-baseline once every label is reviewed:
 
 ```sh
 bun evals --update-baseline   # rescore and store the new baseline

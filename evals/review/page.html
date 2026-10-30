@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gold label review</title>
+<style>
+  :root {
+    --orange: #FF8800; --orange-soft: #FFF3E5; --orange-line: #FFD3A3;
+    --ink: #1F2328; --muted: #5F6670; --line: #E4E6EA; --bg: #F7F8FA; --card: #FFFFFF;
+    --good: #1F8A4C; --bad: #C2372B; --warn: #A15C00;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; }
+  body { font-family: "Source Sans 3", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+         color: var(--ink); background: var(--bg); font-size: 15px; line-height: 1.45; display: flex; flex-direction: column; }
+  button, input, select, textarea { font: inherit; color: inherit; }
+  button { cursor: pointer; }
+  kbd { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; border: 1px solid var(--line);
+        border-bottom-width: 2px; border-radius: 4px; padding: 0 4px; background: #fff; color: var(--muted); }
+  code, .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12.5px; }
+
+  header { background: var(--card); border-bottom: 1px solid var(--line); padding: 10px 18px; display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; }
+  header h1 { font-size: 16px; margin: 0; font-weight: 700; }
+  header h1 span { color: var(--orange); }
+  .tabs { display: flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+  .tabs button { border: 0; background: #fff; padding: 5px 14px; }
+  .tabs button[aria-pressed="true"] { background: var(--orange); color: #fff; font-weight: 600; }
+  .progress { display: flex; align-items: center; gap: 8px; min-width: 220px; }
+  .bar { flex: 1; height: 8px; background: var(--line); border-radius: 99px; overflow: hidden; min-width: 120px; }
+  .bar > div { height: 100%; background: var(--orange); transition: width .2s; }
+  .progress small { color: var(--muted); white-space: nowrap; }
+  .filters label { margin-right: 10px; color: var(--muted); white-space: nowrap; }
+  .nav { display: flex; gap: 6px; align-items: center; margin-left: auto; }
+  .nav select { max-width: 280px; padding: 4px 6px; border: 1px solid var(--line); border-radius: 6px; background: #fff; }
+  .btn { border: 1px solid var(--line); background: #fff; border-radius: 6px; padding: 4px 10px; }
+  .btn:hover { border-color: var(--orange); }
+  .btn.primary { background: var(--orange); border-color: var(--orange); color: #fff; font-weight: 600; }
+
+  main { flex: 1; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; padding: 16px 18px; min-height: 0; }
+  main.single { grid-template-columns: minmax(0, 860px); justify-content: center; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; min-height: 0; }
+  .col { display: flex; flex-direction: column; gap: 12px; min-height: 0; overflow: auto; }
+  h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin: 0 0 6px; font-weight: 600; }
+  .listing-head { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; }
+  .listing-head .meta { color: var(--muted); font-size: 13px; }
+  .search { width: 100%; padding: 6px 10px; border: 1px solid var(--line); border-radius: 6px; margin: 8px 0; }
+  .fields { display: flex; flex-direction: column; gap: 6px; overflow: auto; }
+  .field { text-align: left; border: 1px solid var(--line); border-left: 4px solid var(--line); background: #fff; border-radius: 6px; padding: 7px 10px; }
+  .field:hover { border-color: var(--orange-line); }
+  .field .id { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; font-weight: 600; color: var(--muted); margin-right: 6px; }
+  .field .tags { float: right; display: flex; gap: 4px; }
+  .field.draft { border-left-color: var(--orange-line); }
+  .field.sel { border-left-color: var(--orange); background: var(--orange-soft); }
+  .field.sel .id { color: var(--orange); }
+  .field.hide { display: none; }
+  .tag { font-size: 11px; border-radius: 99px; padding: 0 7px; border: 1px solid var(--line); color: var(--muted); background: #fff; white-space: nowrap; }
+  .tag.o { border-color: var(--orange); color: var(--warn); }
+  mark { background: #FFE2B8; border-radius: 2px; }
+
+  .question { font-size: 19px; font-weight: 600; margin: 2px 0 6px; }
+  .rubric { color: var(--muted); }
+  .compare { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .box { border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }
+  .box.differs { border-color: var(--bad); }
+  .box h3 { margin: 0 0 6px; font-size: 13px; color: var(--muted); font-weight: 600; }
+  .pill { display: inline-block; border-radius: 99px; padding: 1px 10px; font-weight: 600; font-size: 13px; background: #EEF0F3; }
+  .pill.answered, .pill.supports { background: #E3F4EA; color: var(--good); }
+  .pill.partial, .pill.mixed { background: #FFF1DB; color: var(--warn); }
+  .pill.missing, .pill.unrelated { background: #EEF0F3; color: #444; }
+  .pill.contradicted, .pill.contradicts { background: #FBE6E4; color: var(--bad); }
+  .pill.not_applicable { background: #E8EEF9; color: #2B4C8C; }
+  .chips { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+  .chip { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; border: 1px solid var(--line); border-radius: 5px; padding: 0 6px; background: #fff; }
+  .chip button { border: 0; background: none; padding: 0 0 0 4px; color: var(--muted); }
+  .muted { color: var(--muted); }
+  .small { font-size: 13px; }
+  .warn { color: var(--bad); font-weight: 600; }
+  .note { width: 100%; padding: 6px 10px; border: 1px solid var(--line); border-radius: 6px; resize: vertical; min-height: 54px; }
+  .decide { display: flex; flex-wrap: wrap; gap: 8px; }
+  .decide button { border: 1px solid var(--line); background: #fff; border-radius: 8px; padding: 8px 12px; display: flex; gap: 6px; align-items: center; }
+  .decide button:hover { border-color: var(--orange); }
+  .decide button.current { border-color: var(--orange); background: var(--orange-soft); }
+  .decide button.accept { background: var(--orange); color: #fff; border-color: var(--orange); font-weight: 600; }
+  .decide button.accept kbd { background: rgba(255,255,255,.9); }
+  .claim { font-size: 18px; border-left: 4px solid var(--orange); padding: 4px 12px; margin: 4px 0; }
+  .review-text { white-space: pre-wrap; }
+  .badge-reviewed { color: var(--good); font-weight: 600; font-size: 13px; }
+  .badge-draft { color: var(--warn); font-weight: 600; font-size: 13px; }
+  .toast { position: fixed; bottom: 48px; left: 50%; transform: translateX(-50%); background: var(--ink); color: #fff; padding: 8px 14px; border-radius: 8px; font-size: 14px; opacity: 0; transition: opacity .2s; pointer-events: none; }
+  .toast.show { opacity: 1; }
+  .toast.err { background: var(--bad); }
+  footer { padding: 6px 18px 10px; color: var(--muted); font-size: 12.5px; }
+  dialog { border: 1px solid var(--line); border-radius: 12px; max-width: 720px; width: 92vw; padding: 18px 20px; }
+  dialog::backdrop { background: rgba(20, 22, 26, .35); }
+  dialog pre { background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 10px; white-space: pre-wrap; font-size: 13px; max-height: 260px; overflow: auto; }
+  .empty { padding: 40px; text-align: center; color: var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <h1>answerable <span>gold review</span></h1>
+  <div class="tabs" role="group" aria-label="Mode">
+    <button id="tab-grades" aria-pressed="true">Grades</button>
+    <button id="tab-proof" aria-pressed="false">Proof</button>
+  </div>
+  <div class="progress" title="Rows no longer labelled draft">
+    <div class="bar"><div id="bar" style="width:0"></div></div>
+    <small id="progress-text">loading</small>
+  </div>
+  <div class="filters">
+    <label><input type="checkbox" id="f-drafts"> only drafts</label>
+    <label><input type="checkbox" id="f-disagree"> only disagreements with the tool</label>
+  </div>
+  <div class="nav">
+    <button class="btn" id="prev" title="Previous (Left arrow)">&larr;</button>
+    <select id="jump" aria-label="Jump to item"></select>
+    <button class="btn" id="next" title="Next (Right arrow)">&rarr;</button>
+    <button class="btn primary" id="done">Done: re-run evals</button>
+  </div>
+</header>
+<main id="main"><div class="empty">Loading the labels and replaying the tool's grades...</div></main>
+<footer id="help"></footer>
+<div class="toast" id="toast"></div>
+
+<dialog id="evals-dialog">
+  <h2 style="font-size:15px;text-transform:none;letter-spacing:0;color:var(--ink)">Eval run</h2>
+  <pre id="evals-output">Running bun evals...</pre>
+  <p class="small"><strong>Once every label is reviewed</strong>, run <code>bun evals --update-baseline</code> in a terminal.
+    The stored baseline in <code>evals/baseline.json</code> was measured against the drafts, so the accuracy the
+    eval test checks against is the drafts' number, not yours. Re-baselining makes the check guard the reviewed labels.</p>
+  <p class="small">You don't need to edit <code>results.md</code>: <code>bun evals</code> prints the "Provisional" note from
+    the count of rows still labelled <code>draft</code>, so it disappears by itself once none remain.</p>
+  <p class="small muted" id="drafts-left"></p>
+  <div style="text-align:right"><button class="btn" id="close-dialog">Close</button></div>
+</dialog>
+
+<script>
+"use strict";
+const STATUSES = [["answered", "answered"], ["partial", "partial"], ["missing", "missing"], ["contradicted", "contradicted"], ["not_applicable", "not applicable"]];
+const LABELS = [["supports", "supports"], ["contradicts", "contradicts"], ["mixed", "mixed"], ["unrelated", "unrelated"]];
+const LOOK_HARD = /borderline|debatable|review/i;
+
+let D = null;                       // everything from /api/data
+let mode = location.hash === "#proof" ? "proof" : "grades";
+const pos = { grades: 0, proof: 0 };  // row index per mode
+let edit = null;                    // { fields: Set, note } for the item on screen
+let query = "";
+
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+const pill = (v) => `<span class="pill ${esc(v)}">${esc(String(v).replace("_", " "))}</span>`;
+const gkey = (r) => `${r.source}:${r.asin}:${r.intentId}`;
+
+function toast(msg, err) {
+  const t = $("toast");
+  t.textContent = msg; t.className = "toast show" + (err ? " err" : "");
+  clearTimeout(toast.t); toast.t = setTimeout(() => (t.className = "toast"), err ? 4000 : 1400);
+}
+
+// ---------- items and filters ----------
+
+function rows() { return mode === "grades" ? D.grades : D.proof; }
+function toolOf(i) {
+  if (mode === "grades") { const t = D.gradeTool[gkey(D.grades[i])]; return t ? t.verified : null; }
+  return D.proofTool[D.proof[i].id] ?? null;
+}
+function goldOf(i) { return mode === "grades" ? D.grades[i].status : D.proof[i].label; }
+function visible() {
+  const out = [];
+  rows().forEach((r, i) => {
+    if ($("f-drafts").checked && r.labeledBy !== "draft") return;
+    if ($("f-disagree").checked && toolOf(i) === goldOf(i)) return;
+    out.push(i);
+  });
+  return out;
+}
+
+function label(i) {
+  const r = rows()[i];
+  const mark = r.labeledBy === "draft" ? "draft" : "done";
+  return mode === "grades" ? `#${i + 1} ${r.asin} ${r.intentId} (${mark})` : `#${i + 1} ${r.id} (${mark})`;
+}
+
+function renderNav() {
+  const list = visible();
+  const all = rows();
+  const done = all.filter((r) => r.labeledBy !== "draft").length;
+  $("bar").style.width = `${(done / all.length) * 100}%`;
+  $("progress-text").textContent = `${done} / ${all.length} reviewed`;
+  if (list.length && !list.includes(pos[mode])) pos[mode] = list[0];
+  $("jump").innerHTML = list.map((i) => `<option value="${i}" ${i === pos[mode] ? "selected" : ""}>${esc(label(i))}</option>`).join("")
+    || `<option>nothing matches the filters</option>`;
+  $("tab-grades").setAttribute("aria-pressed", mode === "grades");
+  $("tab-proof").setAttribute("aria-pressed", mode === "proof");
+  return list;
+}
+
+function go(i) { pos[mode] = i; edit = null; render(); }
+function step(dir) {
+  const list = visible();
+  if (!list.length) return;
+  const k = list.indexOf(pos[mode]);
+  const next = k === -1 ? list.find((i) => i > pos[mode]) ?? list[0] : list[(k + dir + list.length) % list.length];
+  go(next);
+}
+/** After a decision: the next item after this one in the (re-filtered) list, wrapping round. */
+function advance(from) {
+  const list = visible();
+  if (!list.length) { render(); return; }
+  go(list.find((i) => i > from) ?? list[0]);
+}
+
+// ---------- rendering ----------
+
+function render() {
+  const list = renderNav();
+  const main = $("main");
+  main.className = mode === "grades" ? "" : "single";
+  if (!list.length) {
+    main.innerHTML = `<div class="card empty" style="grid-column:1/-1">Nothing matches these filters.${$("f-drafts").checked ? " Every row here is reviewed." : ""}</div>`;
+    return;
+  }
+  const i = pos[mode];
+  if (mode === "grades") renderGrade(i); else renderProof(i);
+  renderHelp();
+}
+
+function renderGrade(i) {
+  const r = D.grades[i];
+  const key = `${r.source}:${r.asin}`;
+  const L = D.listings[key];
+  const q = D.questions[gkey(r)];
+  const tool = D.gradeTool[gkey(r)];
+  if (!edit) edit = { fields: new Set(r.fields), note: r.reason };
+  const draftFields = new Set(r.fields);
+  const cited = new Set(tool ? tool.cited : []);
+  const known = new Set(L.fields.map((f) => f.id));
+  const differs = tool && tool.verified !== r.status;
+
+  $("main").innerHTML = `
+  <section class="col card" aria-label="Listing">
+    <div class="listing-head"><h2>Listing fields</h2><span class="meta mono">${esc(r.source)} ${esc(r.asin)}</span></div>
+    <div><strong>${esc(L.brand || "")}</strong> <span class="muted small">${esc(L.category)}</span></div>
+    <input class="search" id="search" type="search" placeholder="Search fields (press /)" value="${esc(query)}">
+    <div class="small muted">Click a field to add or remove it from the label's fields. Orange edge: in the draft. Filled: in your decision.</div>
+    <div class="fields" id="fields">
+      ${L.fields.map((f) => `
+        <button class="field ${draftFields.has(f.id) ? "draft" : ""} ${edit.fields.has(f.id) ? "sel" : ""}" data-id="${esc(f.id)}" data-text="${esc(f.text.toLowerCase())}">
+          <span class="tags">${draftFields.has(f.id) ? `<span class="tag o">draft</span>` : ""}${cited.has(f.id) ? `<span class="tag">tool cited</span>` : ""}</span>
+          <span class="id">${esc(f.id)}</span><span class="txt">${esc(f.text)}</span>
+        </button>`).join("")}
+    </div>
+  </section>
+  <section class="col" aria-label="Decision">
+    <div class="card">
+      <h2>Question <span class="muted">#${i + 1} of ${D.grades.length}</span>
+        ${r.labeledBy === "draft" ? `<span class="badge-draft">draft</span>` : `<span class="badge-reviewed">reviewed (${esc(r.labeledBy)})</span>`}</h2>
+      <div class="question">${q ? esc(q.question) : esc(r.intentId)}</div>
+      <div class="small"><span class="tag">${q ? esc(q.kind) : "?"}</span> <span class="mono muted">${esc(r.intentId)}</span>
+        ${q && q.conditional ? `<span class="tag o">conditional: not applicable is allowed</span>` : ""}</div>
+      <p class="rubric">${q ? esc(q.rubric) : "No rubric found for this question."}</p>
+    </div>
+    <div class="compare">
+      <div class="box">
+        <h3>Label in the file</h3>
+        ${pill(r.status)}
+        <div class="chips">${r.fields.map((f) => `<span class="chip">${esc(f)}${known.has(f) ? "" : ` <span class="warn" title="Not a field of this listing">?</span>`}</span>`).join("") || `<span class="muted small">no fields</span>`}</div>
+        <p class="small">${esc(r.reason)}${LOOK_HARD.test(r.reason) ? ` <span class="tag o">look hard</span>` : ""}</p>
+      </div>
+      <div class="box ${differs ? "differs" : ""}">
+        <h3>Tool said ${differs ? `<span class="warn">differs</span>` : `<span class="muted">(agrees)</span>`}</h3>
+        ${tool ? `${pill(tool.verified)}
+          ${tool.modelStatus !== tool.verified ? `<div class="small muted">model said ${esc(tool.modelStatus.replace("_", " "))} before the verifier</div>` : ""}
+          <div class="chips">${tool.cited.map((f) => `<span class="chip">${esc(f)}</span>`).join("") || `<span class="muted small">cited nothing</span>`}</div>
+          ${tool.flags.length ? `<div class="small muted">flags: ${esc(tool.flags.join(", "))}</div>` : ""}` : `<span class="muted">no recorded grade</span>`}
+      </div>
+    </div>
+    <div class="card">
+      <h2>Your decision</h2>
+      <div class="small">Fields:</div>
+      <div class="chips" id="sel-chips">${[...edit.fields].map((f) => `<span class="chip">${esc(f)}<button data-rm="${esc(f)}" aria-label="Remove ${esc(f)}">&times;</button></span>`).join("") || `<span class="muted small">none (missing and not applicable always save with none)</span>`}</div>
+      <label class="small" for="note" style="display:block;margin-top:10px">Reason (optional; leave as is to keep the draft's)</label>
+      <textarea class="note" id="note">${esc(edit.note)}</textarea>
+      <div class="decide" style="margin-top:10px">
+        ${STATUSES.map(([s, t], k) => `<button data-status="${s}" class="${s === r.status ? "current" : ""}"><kbd>${k + 1}</kbd>${esc(t)}</button>`).join("")}
+        <button class="accept" data-accept><kbd>Enter</kbd>accept ${esc(r.status.replace("_", " "))}</button>
+      </div>
+    </div>
+  </section>`;
+
+  applySearch();
+  $("search").addEventListener("input", (e) => { query = e.target.value; applySearch(); });
+  $("note").addEventListener("input", (e) => (edit.note = e.target.value));
+  $("fields").addEventListener("click", (e) => {
+    const b = e.target.closest(".field"); if (!b) return;
+    const id = b.dataset.id;
+    edit.fields.has(id) ? edit.fields.delete(id) : edit.fields.add(id);
+    keepScroll(() => renderGrade(i));
+  });
+  $("sel-chips").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-rm]"); if (!b) return;
+    edit.fields.delete(b.dataset.rm); keepScroll(() => renderGrade(i));
+  });
+  document.querySelectorAll("[data-status]").forEach((b) => b.addEventListener("click", () => decideGrade(b.dataset.status)));
+  document.querySelector("[data-accept]").addEventListener("click", () => decideGrade(r.status));
+}
+
+function keepScroll(fn) {
+  const el = $("fields"); const top = el ? el.scrollTop : 0;
+  fn();
+  if ($("fields")) $("fields").scrollTop = top;
+}
+
+function applySearch() {
+  const q = query.trim().toLowerCase();
+  document.querySelectorAll(".field").forEach((b) => {
+    const txt = b.querySelector(".txt");
+    const raw = txt.textContent;
+    const hit = !q || b.dataset.text.includes(q) || b.dataset.id.toLowerCase().includes(q);
+    b.classList.toggle("hide", !hit);
+    if (!q) { txt.innerHTML = esc(raw); return; }
+    const at = raw.toLowerCase().indexOf(q);
+    txt.innerHTML = at < 0 ? esc(raw) : esc(raw.slice(0, at)) + `<mark>${esc(raw.slice(at, at + q.length))}</mark>` + esc(raw.slice(at + q.length));
+  });
+}
+
+function renderProof(i) {
+  const r = D.proof[i];
+  const tool = D.proofTool[r.id] ?? null;
+  if (!edit) edit = { note: r.reason };
+  const differs = tool !== r.label;
+  $("main").innerHTML = `
+  <section class="col">
+    <div class="card">
+      <h2>Claim vs review <span class="muted">#${i + 1} of ${D.proof.length}</span>
+        ${r.labeledBy === "draft" ? `<span class="badge-draft">draft</span>` : `<span class="badge-reviewed">reviewed (${esc(r.labeledBy)})</span>`}</h2>
+      <div class="small muted">Topic (<span class="mono">${esc(r.intentId)}</span>): ${esc(D.proofQuestions[r.intentId] || r.intentId)} <span class="mono">${esc(r.asin)}</span> <span class="mono">${esc(r.id)}</span></div>
+      <h2 style="margin-top:12px">The listing claims</h2>
+      <div class="claim">${esc(r.claim)}</div>
+      <h2 style="margin-top:12px">The review ${r.rating != null ? `<span class="muted">${"&#9733;".repeat(r.rating)}${"&#9734;".repeat(Math.max(0, 5 - r.rating))}</span>` : ""}</h2>
+      ${r.review.title ? `<p><strong>${esc(r.review.title)}</strong></p>` : ""}
+      <p class="review-text">${esc(r.review.text.replace(/<br\s*\/?>/gi, "\n"))}</p>
+    </div>
+    <div class="compare">
+      <div class="box"><h3>Label in the file</h3>${pill(r.label)}<p class="small">${esc(r.reason)}</p></div>
+      <div class="box ${differs ? "differs" : ""}"><h3>Tool said ${differs ? `<span class="warn">differs</span>` : `<span class="muted">(agrees)</span>`}</h3>${tool ? pill(tool) : `<span class="muted">left it unlabelled</span>`}</div>
+    </div>
+    <div class="card">
+      <h2>Your decision</h2>
+      <div class="small muted">mixed: true only in some conditions or for some units. unrelated: doesn't talk about the topic.</div>
+      <label class="small" for="note" style="display:block;margin-top:8px">Reason (optional; leave as is to keep the current one)</label>
+      <textarea class="note" id="note">${esc(edit.note)}</textarea>
+      <div class="decide" style="margin-top:10px">
+        ${LABELS.map(([s, t], k) => `<button data-label="${s}" class="${s === r.label ? "current" : ""}"><kbd>${k + 1}</kbd>${esc(t)}</button>`).join("")}
+        <button class="accept" data-accept><kbd>Enter</kbd>accept ${esc(r.label)}</button>
+      </div>
+    </div>
+  </section>`;
+  $("note").addEventListener("input", (e) => (edit.note = e.target.value));
+  document.querySelectorAll("[data-label]").forEach((b) => b.addEventListener("click", () => decideProof(b.dataset.label)));
+  document.querySelector("[data-accept]").addEventListener("click", () => decideProof(r.label));
+}
+
+function renderHelp() {
+  $("help").innerHTML = mode === "grades"
+    ? `<kbd>1</kbd>-<kbd>5</kbd> set the status, <kbd>Enter</kbd> accept the status shown (with any field or reason edits), <kbd>&larr;</kbd> <kbd>&rarr;</kbd> previous / next, <kbd>/</kbd> search fields, <kbd>Esc</kbd> leave a text box. Each decision is saved to evals/gold/grades.jsonl at once.`
+    : `<kbd>1</kbd>-<kbd>4</kbd> set the label, <kbd>Enter</kbd> accept the label shown, <kbd>&larr;</kbd> <kbd>&rarr;</kbd> previous / next, <kbd>Esc</kbd> leave a text box. Each decision is saved to evals/gold/proof.jsonl at once.`;
+}
+
+// ---------- saving ----------
+
+let saving = false;
+async function post(url, body) {
+  const res = await fetch(url, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(body) });
+  const out = await res.json();
+  if (!res.ok) throw new Error(out.error || res.statusText);
+  return out;
+}
+
+async function decideGrade(status) {
+  if (saving) return;
+  const i = pos.grades; const r = D.grades[i];
+  saving = true;
+  try {
+    const { row } = await post(`/api/grades/${i}`, { key: gkey(r), status, fields: [...edit.fields], reason: edit.note });
+    D.grades[i] = row;
+    toast(`Saved #${i + 1}: ${status.replace("_", " ")}`);
+    advance(i);
+  } catch (e) { toast(e.message, true); } finally { saving = false; }
+}
+
+async function decideProof(labelName) {
+  if (saving) return;
+  const i = pos.proof; const r = D.proof[i];
+  saving = true;
+  try {
+    const { row } = await post(`/api/proof/${i}`, { key: r.id, label: labelName, reason: edit.note });
+    D.proof[i] = row;
+    toast(`Saved #${i + 1}: ${labelName}`);
+    advance(i);
+  } catch (e) { toast(e.message, true); } finally { saving = false; }
+}
+
+async function runEvals() {
+  const dlg = $("evals-dialog");
+  $("evals-output").textContent = "Running bun evals...";
+  const left = D.grades.filter((r) => r.labeledBy === "draft").length + D.proof.filter((r) => r.labeledBy === "draft").length;
+  $("drafts-left").textContent = left ? `${left} rows are still drafts, so results.md stays provisional for now.` : "No drafts left: results.md is no longer provisional. Re-baseline now.";
+  dlg.showModal();
+  try {
+    const { code, output } = await post("/api/evals", {});
+    $("evals-output").textContent = (code ? `bun evals exited with ${code}\n\n` : "") + output;
+  } catch (e) { $("evals-output").textContent = e.message; }
+}
+
+// ---------- wiring ----------
+
+function setMode(m) { mode = m; edit = null; history.replaceState(null, "", m === "proof" ? "#proof" : "#grades"); render(); }
+$("tab-grades").onclick = () => setMode("grades");
+$("tab-proof").onclick = () => setMode("proof");
+$("prev").onclick = () => step(-1);
+$("next").onclick = () => step(1);
+$("jump").onchange = (e) => go(Number(e.target.value));
+$("f-drafts").onchange = () => { edit = null; render(); };
+$("f-disagree").onchange = () => { edit = null; render(); };
+$("done").onclick = runEvals;
+$("close-dialog").onclick = () => $("evals-dialog").close();
+
+document.addEventListener("keydown", (e) => {
+  if (!D || $("evals-dialog").open || e.metaKey || e.ctrlKey || e.altKey) return;
+  const t = e.target;
+  const typing = t instanceof HTMLElement && (t.tagName === "TEXTAREA" || (t.tagName === "INPUT" && t.type !== "checkbox") || t.tagName === "SELECT");
+  if (typing) { if (e.key === "Escape") t.blur(); return; }
+  if (e.key === "ArrowRight") { e.preventDefault(); step(1); return; }
+  if (e.key === "ArrowLeft") { e.preventDefault(); step(-1); return; }
+  if (!visible().length) return;
+  if (e.key === "/" && mode === "grades") { e.preventDefault(); $("search").focus(); return; }
+  const options = mode === "grades" ? STATUSES : LABELS;
+  const n = Number(e.key);
+  if (n >= 1 && n <= options.length) { e.preventDefault(); mode === "grades" ? decideGrade(options[n - 1][0]) : decideProof(options[n - 1][0]); return; }
+  if (e.key === "Enter") {
+    e.preventDefault();
+    mode === "grades" ? decideGrade(D.grades[pos.grades].status) : decideProof(D.proof[pos.proof].label);
+  }
+});
+
+fetch("/api/data").then((r) => r.json()).then((d) => {
+  if (d.error) throw new Error(d.error);
+  D = d;
+  // Start on the first draft in each mode.
+  pos.grades = Math.max(0, D.grades.findIndex((r) => r.labeledBy === "draft"));
+  pos.proof = Math.max(0, D.proof.findIndex((r) => r.labeledBy === "draft"));
+  render();
+}).catch((e) => { $("main").innerHTML = `<div class="card empty">Couldn't load: ${esc(e.message)}</div>`; });
+</script>
+</body>
+</html>
