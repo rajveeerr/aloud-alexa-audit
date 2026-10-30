@@ -146,7 +146,11 @@ test("the integrations page loads the hero's real history", async ({ page }) => 
 test("an unknown ASIN shows the failure message", async ({ page }) => {
   await page.goto("/");
   await page.getByLabel("Amazon ASIN").fill("B0ZZZZZZZZ");
+  // An ASIN that isn't saved is fetched live without any opt-in, and the form says so first.
+  await expect(page.getByText(/New product: we'll fetch it from Amazon/)).toBeVisible();
+  const sent = page.waitForRequest((r) => r.method() === "POST" && /\/v1\/audits$/.test(r.url()));
   await page.getByRole("button", { name: "Run audit" }).click();
+  expect((await sent).postDataJSON()).toMatchObject({ asin: "B0ZZZZZZZZ", source: "serpapi", live: true });
   const alert = page.getByRole("alert");
   await expect(alert).toContainText("The audit of B0ZZZZZZZZ failed");
   await expect(alert).toContainText("No serpapi listing for B0ZZZZZZZZ");

@@ -1,9 +1,9 @@
 import { Asin, type SavedListing } from "@aloud/contracts";
-import { ChevronDownIcon, LoaderCircleIcon } from "lucide-react";
+import { ChevronDownIcon, GlobeIcon, InfoIcon, LoaderCircleIcon, ZapIcon } from "lucide-react";
 import { useId, useState, type FormEvent } from "react";
 import { useNavigate } from "react-router";
 import { useCreateAudit, useListings } from "@/api/hooks";
-import type { CreateAuditInput, SavedSource } from "@/api";
+import { USE_MOCKS, type CreateAuditInput, type SavedSource } from "@/api";
 import { Button } from "@/components/ui/button";
 import { Input, Label, Textarea } from "@/components/ui/input";
 import { Segmented } from "@/components/ui/segmented";
@@ -27,27 +27,32 @@ export function AuditForm() {
   const create = useCreateAudit();
   const [asin, setAsin] = useState("");
   const [source, setSource] = useState<SavedSource>("serpapi");
-  const [live, setLive] = useState(false);
   const [touched, setTouched] = useState(false);
   const [pasteOpen, setPasteOpen] = useState(false);
-  const ids = { asin: useId(), asinHelp: useId(), live: useId(), paste: useId() };
+  const ids = { asin: useId(), asinHelp: useId(), mode: useId(), paste: useId() };
+  const listings = useListings(source);
 
   const normalized = asin.trim().toUpperCase();
   const error = touched ? asinError(normalized) : null;
+  const valid = !asinError(normalized);
+  // Saved products audit instantly; anything else on the live source is fetched from Amazon.
+  const saved = listings.data?.some((l) => l.asin === normalized) ?? false;
+  const known = listings.data !== undefined;
+  const live = source === "serpapi" && valid && known && !saved;
 
   function start(body: CreateAuditInput) {
-    create.mutate(body, { onSuccess: (job) => navigate(`/audits/${job.id}`) });
+    create.mutate(body, { onSuccess: (job) => navigate(`/audits/${job.id}`, { state: { live: body.live === true } }) });
   }
 
   function onSubmit(e: FormEvent) {
     e.preventDefault();
     setTouched(true);
     if (asinError(normalized)) return;
-    start({ asin: normalized, source, ...(source === "serpapi" && live && { live: true }) });
+    start({ asin: normalized, source, ...(live && { live: true }) });
   }
 
   return (
-    <div className="rounded-xl border p-5 sm:p-6">
+    <div className="rounded-2xl border bg-card p-5 shadow-card sm:p-6">
       <form onSubmit={onSubmit} noValidate aria-label="Audit an ASIN">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <Label htmlFor={ids.asin}>Amazon ASIN</Label>
@@ -64,8 +69,8 @@ export function AuditForm() {
             spellCheck={false}
             maxLength={14}
             aria-invalid={!!error}
-            aria-describedby={ids.asinHelp}
-            className="font-mono text-base uppercase placeholder:normal-case sm:flex-1"
+            aria-describedby={`${ids.asinHelp} ${ids.mode}`}
+            className="h-11 font-mono text-base uppercase placeholder:normal-case sm:flex-1"
           />
           <Button type="submit" size="lg" disabled={create.isPending} className="sm:w-36">
             {create.isPending ? <LoaderCircleIcon className="animate-spin" aria-hidden="true" /> : null}
@@ -75,15 +80,10 @@ export function AuditForm() {
         <p id={ids.asinHelp} className={cn("mt-2 text-[13px]", error ? "text-destructive" : "text-muted-foreground")} aria-live="polite">
           {error ?? "10 characters, starting with B0. Find it in the listing URL after /dp/."}
         </p>
-        {source === "serpapi" && (
-          <label htmlFor={ids.live} className="mt-3 flex items-start gap-2 text-[13px] text-muted-foreground">
-            <input id={ids.live} type="checkbox" checked={live} onChange={(e) => setLive(e.target.checked)} className="mt-0.5 size-4 accent-[#FF8800]" />
-            <span>Fetch from Amazon if this ASIN isn't saved yet. Uses SerpApi searches for the page and its competitors.</span>
-          </label>
-        )}
+        <ModeNote id={ids.mode} source={source} valid={valid} known={known} saved={saved} />
       </form>
 
-      <DemoChips source={source} onPick={(a) => start({ asin: a, source })} disabled={create.isPending} />
+      <DemoChips source={source} listings={listings} onPick={(a) => start({ asin: a, source })} disabled={create.isPending} />
 
       {create.error && (
         <p role="alert" className="mt-4 rounded-md bg-missing-bg px-3 py-2 text-sm text-missing">
@@ -108,6 +108,33 @@ export function AuditForm() {
   );
 }
 
+/** What happens when the button is pressed, said before it's pressed. */
+function ModeNote({ id, source, valid, known, saved }: { id: string; source: SavedSource; valid: boolean; known: boolean; saved: boolean }) {
+  let icon = null;
+  let text: string | null = null;
+  if (valid && known) {
+    if (saved) {
+      icon = <ZapIcon className="size-3.5 text-answered" aria-hidden="true" />;
+      text = "Saved product: the audit is ready in seconds.";
+    } else if (source === "dataset") {
+      icon = <InfoIcon className="size-3.5" aria-hidden="true" />;
+      text = "This ASIN isn't in the 2023 dataset. Switch to Live page to fetch it from Amazon.";
+    } else if (USE_MOCKS) {
+      icon = <InfoIcon className="size-3.5" aria-hidden="true" />;
+      text = "New product: demo mode only has the saved products below. Start the API to fetch new ones from Amazon.";
+    } else {
+      icon = <GlobeIcon className="size-3.5 text-primary-ink" aria-hidden="true" />;
+      text = "New product: we'll fetch it from Amazon, which takes about 1 to 2 minutes.";
+    }
+  }
+  return (
+    <p id={id} className="mt-1 flex min-h-5 items-center gap-1.5 text-[13px] text-muted-foreground" aria-live="polite">
+      {icon}
+      {text}
+    </p>
+  );
+}
+
 /** Demo products shown first, one per story: the hero, a strong listing, proof, other categories. */
 const FEATURED = ["B0C9W8DD9S", "B001GAOTSW", "B097CF46RC", "B09VD1Z3TK", "B08PD98HYG", "B00P6N6LC2"];
 const MAX_CHIPS = 6;
@@ -117,12 +144,20 @@ function pickChips(all: SavedListing[]): SavedListing[] {
   return [...all].sort((a, b) => rank(a.asin) - rank(b.asin)).slice(0, MAX_CHIPS);
 }
 
-function DemoChips({ source, onPick, disabled }: { source: SavedSource; onPick: (asin: string) => void; disabled: boolean }) {
-  const listings = useListings(source);
+function DemoChips({
+  listings,
+  onPick,
+  disabled,
+}: {
+  source: SavedSource;
+  listings: ReturnType<typeof useListings>;
+  onPick: (asin: string) => void;
+  disabled: boolean;
+}) {
   if (listings.isError) return null;
   return (
     <div className="mt-5">
-      <p className="text-[13px] font-semibold text-muted-foreground">Or try a saved listing</p>
+      <p className="text-[13px] font-semibold text-muted-foreground">Or try a saved product, ready in seconds</p>
       <ul className="mt-2 flex flex-wrap gap-2" aria-busy={listings.isLoading}>
         {listings.isLoading && [0, 1, 2].map((i) => <li key={i} className="h-8 w-40 animate-pulse rounded-full bg-muted" />)}
         {listings.data && pickChips(listings.data).map((l) => (
@@ -132,7 +167,7 @@ function DemoChips({ source, onPick, disabled }: { source: SavedSource; onPick: 
               disabled={disabled}
               onClick={() => onPick(l.asin)}
               title={l.title}
-              className="inline-flex h-8 max-w-full items-center gap-2 rounded-full border bg-background px-3 text-[13px] transition-colors hover:border-[#f5b56a] hover:bg-tint disabled:opacity-50"
+              className="inline-flex h-8 max-w-full items-center gap-2 rounded-full border bg-background px-3 text-[13px] transition-colors hover:border-[#f5b56a] hover:bg-tint active:scale-[0.98] disabled:opacity-50"
             >
               <span className="font-semibold">{l.brand ?? l.asin}</span>
               <span className="truncate text-muted-foreground">{l.category}</span>

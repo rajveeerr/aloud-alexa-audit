@@ -38,6 +38,16 @@ test("an invalid ASIN is caught before anything is sent", async ({ page }) => {
   await expect(page).toHaveURL("/");
 });
 
+test("the form says what a run will do before it starts", async ({ page }) => {
+  await page.goto("/");
+  const asin = page.getByLabel("Amazon ASIN");
+  await asin.fill("B0C9W8DD9S");
+  await expect(page.getByText("Saved product: the audit is ready in seconds.")).toBeVisible();
+  // A new ASIN would be fetched live; demo mode has no API to fetch it with, and says so.
+  await asin.fill("B0ZZZZZZZZ");
+  await expect(page.getByText(/New product: demo mode only has the saved products/)).toBeVisible();
+});
+
 test("the hero audit runs, then shows score, hidden answers and the fix list", async ({ page }) => {
   await openHero(page);
   await expect(page.getByTestId("audit-status")).toHaveText(/Queued|Running/);
@@ -53,6 +63,16 @@ test("the hero audit runs, then shows score, hidden answers and the fix list", a
 
   await expect(page.getByTestId("fix").first().getByTestId("draft")).toHaveText("Smooth Writing without Skipping");
   await expect(page.getByText("Held back: added claims the brand never made.")).toBeVisible();
+
+  // The verdict leads, then the first three fixes, before any evidence.
+  await expect(page.getByTestId("top-fixes").locator("li")).toHaveCount(3);
+  await expect(page.getByTestId("top-fixes").locator("li").first()).toContainText("Smooth Writing without Skipping");
+
+  // The competitor matrix shows the gaps first and the rest on request.
+  const matrix = page.locator("#competitors tbody tr");
+  await expect(matrix).toHaveCount(7);
+  await page.getByRole("button", { name: "Show all 15 questions" }).click();
+  await expect(matrix).toHaveCount(15);
   await fullShot(page, "03-report-hero");
 
   // Selecting a question marks its quote in the listing panel.
