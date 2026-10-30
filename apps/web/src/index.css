@@ -23,7 +23,7 @@
   --secondary: #fff7ed;
   --secondary-foreground: #7c2d12;
   --muted: #f6f5f3;
-  --muted-foreground: #6b6862;
+  --muted-foreground: #66625c;
   --accent: #fff8ec;
   --accent-foreground: #2f2f2d;
   --destructive: #b91c1c;
@@ -43,6 +43,16 @@
   --contradicted-bg: #ffe4e6;
   --na: #6b655f;
   --na-bg: #f5f5f4;
+
+  /* Fills for meters and bars: one per status, the same everywhere. */
+  --answered-fill: #22a05a;
+  --partial-fill: #f2b13d;
+  --missing-fill: #e8837c;
+  --contradicted-fill: #9f1239;
+  --na-fill: #dcd8d2;
+
+  --shadow-card: 0 1px 2px rgba(47, 47, 45, 0.04), 0 4px 16px -8px rgba(47, 47, 45, 0.08);
+  --shadow-raised: 0 1px 2px rgba(47, 47, 45, 0.06), 0 12px 32px -12px rgba(47, 47, 45, 0.18);
 
   /* salesduo.com (widget) tokens. */
   --sd-orange: #fd9900;
@@ -90,6 +100,14 @@
   --color-contradicted-bg: var(--contradicted-bg);
   --color-na: var(--na);
   --color-na-bg: var(--na-bg);
+  --color-answered-fill: var(--answered-fill);
+  --color-partial-fill: var(--partial-fill);
+  --color-missing-fill: var(--missing-fill);
+  --color-contradicted-fill: var(--contradicted-fill);
+  --color-na-fill: var(--na-fill);
+
+  --shadow-card: var(--shadow-card);
+  --shadow-raised: var(--shadow-raised);
 
   --color-sd-orange: var(--sd-orange);
   --color-sd-purple: var(--sd-purple);
@@ -109,11 +127,30 @@
   }
   html {
     -webkit-text-size-adjust: 100%;
+    /* Anchored sections land below the sticky app header and report nav. */
+    scroll-padding-top: 7.5rem;
+    scrollbar-color: #d6d1c9 transparent;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
   }
   body {
     @apply bg-background text-foreground font-sans antialiased;
     font-size: 15px;
     line-height: 1.55;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-optical-sizing: auto;
+    caret-color: var(--primary);
+    accent-color: var(--primary);
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    letter-spacing: -0.012em;
   }
   :focus-visible {
     outline: 2px solid var(--ring);
@@ -124,7 +161,8 @@
   }
   h1,
   h2,
-  h3 {
+  h3,
+  h4 {
     text-wrap: balance;
   }
   p {
@@ -141,6 +179,20 @@
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* Height transitions for disclosure without measuring: the row grows from 0fr to 1fr. */
+.collapse-grid {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 220ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+.collapse-grid[data-open="true"] {
+  grid-template-rows: 1fr;
+}
+.collapse-grid > * {
+  min-height: 0;
+  overflow: hidden;
 }
 
 @keyframes progress {

@@ -65,7 +65,8 @@ export function AppShell() {
           </nav>
           {USE_MOCKS && (
             <Tip content="Running on saved reports from the real pipeline. Nothing is sent to an API.">
-              <span tabIndex={0} className="hidden shrink-0 rounded-full border border-dashed border-[#f5b56a] px-2.5 py-0.5 text-xs font-semibold text-[#9a3412] sm:inline">
+              <span tabIndex={0} className="hidden shrink-0 items-center gap-1.5 rounded-full bg-muted px-2.5 py-0.5 text-xs font-semibold text-muted-foreground sm:inline-flex">
+                <span className="size-1.5 rounded-full bg-primary" aria-hidden="true" />
                 Demo data
               </span>
             </Tip>
