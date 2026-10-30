@@ -85,6 +85,8 @@ export function toBulkSummary(job: BulkJobRow, done: number, failed: number): Bu
   };
 }
 
+export const QUOTA_WAIT_MESSAGE = "The check is busy right now. Your result will be ready later today; leave your email and we'll send the full report.";
+
 export const DAILY_LIMIT_MESSAGE = "The free check has reached today's limit. Try again tomorrow.";
 
 /**
@@ -141,6 +143,11 @@ export function toPublicResult(row: AuditRow, emailCaptured: boolean): PublicAud
   if (row.status === "failed") {
     const live = (row.request as { live?: boolean } | null)?.live === true;
     return { ...out, reason: publicReason((row.error as { code?: string } | null)?.code, live) };
+  }
+  // The worker parks audits behind the daily quota instead of failing them. Tell the visitor the
+  // result is coming later, so a queued check doesn't look stuck.
+  if (row.status === "queued" && row.note && /quota/i.test(row.note)) {
+    return { ...out, waiting: "quota", reason: QUOTA_WAIT_MESSAGE };
   }
   if (row.status !== "done" || !row.report) return out;
   const report = row.report as AuditReport;

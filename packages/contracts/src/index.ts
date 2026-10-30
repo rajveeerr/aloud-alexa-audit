@@ -145,8 +145,13 @@ export type PublicAuditResult = {
     hiddenInImage: boolean;
   }[];
   emailCaptured: boolean;
-  /** When status is "failed": a short reason that's safe to show a visitor. */
+  /**
+   * A short message that's safe to show a visitor: why it failed, or, while it's queued behind the
+   * model's daily quota, that the result will be ready later.
+   */
   reason?: string;
+  /** Set while the audit waits for the model's daily quota to reset; the result comes later. */
+  waiting?: "quota";
 };
 
 /** GET /v1/listings?source=: saved listings the UI can offer as demo products. */

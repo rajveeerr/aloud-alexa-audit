@@ -6,7 +6,7 @@ import { AuditError } from "@aloud/pipeline";
 import { EnqueueError } from "@aloud/worker";
 import { HttpError, toApiError } from "./errors";
 import { configFromEnv, parseTrustProxy } from "./server";
-import { publicReason, toAuditJob, toBulkJob, toBulkSummary, toPublicResult } from "./views";
+import { publicReason, QUOTA_WAIT_MESSAGE, toAuditJob, toBulkJob, toBulkSummary, toPublicResult } from "./views";
 
 const at = new Date("2026-10-30T12:00:00Z");
 
@@ -64,6 +64,15 @@ const report = {
 describe("toPublicResult", () => {
   test("a queued audit shows only its status", () => {
     expect(toPublicResult(row(), false)).toEqual({ id: "a1", status: "queued", asin: "B0C9W8DD9S", emailCaptured: false });
+  });
+
+  test("an audit waiting for the daily quota says the result comes later", () => {
+    const r = toPublicResult(row({ note: "Waiting for the model's daily quota to reset at 2026-10-30T07:01:00.000Z." }), false);
+    expect(r).toMatchObject({ status: "queued", waiting: "quota", reason: QUOTA_WAIT_MESSAGE });
+  });
+
+  test("a queued audit with some other note shows only its status", () => {
+    expect(toPublicResult(row({ note: "Retrying after a provider error." }), false)).toEqual({ id: "a1", status: "queued", asin: "B0C9W8DD9S", emailCaptured: false });
   });
 
   test("a done audit shows the 3 highest-priority gaps with their questions, never the report", () => {
