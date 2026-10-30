@@ -38,9 +38,10 @@ services:
       # The web app's origin on Vercel, for CORS, e.g. https://aloud.vercel.app
       - key: WEB_ORIGIN
         sync: false
-      # The app's key ships in its bundle, so keyed requests are held to saved listings.
+      # 0 lets the app run live audits (spends SerpApi and Gemini quota; the app's key is in its
+      # bundle, and its per-minute limit is the only cap). Set 1 to hold keyed requests to saved listings.
       - key: DEMO_READONLY
-        value: "1"
+        value: "0"
 
       # The homepage widget
       - key: PUBLIC_RATE_LIMIT
