@@ -317,11 +317,15 @@ export const openApiDocument = {
     "/v1/public/audits": {
       post: {
         summary: "Widget audit: no key, limited per IP",
+        description:
+          "Saved products replay for free. With PUBLIC_LIVE=1 any other ASIN is fetched live from Amazon without competitors " +
+          "(one SerpApi search), and those live audits are capped per UTC day for all visitors together (PUBLIC_LIVE_DAILY_LIMIT). " +
+          "Competitors are compared only in the full app.",
         requestBody: {
           required: true,
           ...json({ type: "object", required: ["asin"], properties: { asin, email: { type: "string", format: "email" } } }),
         },
-        responses: { "202": { description: "Queued", ...json(ref("PublicAuditResult")) }, "400": error("Validation error"), "429": error("Too many audits from this IP"), "503": error("A backing service is unavailable") },
+        responses: { "202": { description: "Queued", ...json(ref("PublicAuditResult")) }, "400": error("Validation error"), "429": error("Too many audits from this IP (rate_limited), or today's live audits are used up (daily_limit); Retry-After says when to try again"), "503": error("A backing service is unavailable") },
       },
     },
     "/v1/public/audits/{id}/email": {

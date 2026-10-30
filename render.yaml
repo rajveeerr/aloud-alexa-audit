@@ -50,9 +50,12 @@ services:
         value: "3600"
       - key: PUBLIC_EMAIL_LIMIT
         value: "10"
-      # "1" lets widget audits fetch unsaved listings through SerpApi (costs searches).
+      # "1" lets the widget audit any ASIN: unsaved ones are fetched live through SerpApi with no
+      # competitors, so each costs one search. PUBLIC_LIVE_DAILY_LIMIT caps them per UTC day.
       - key: PUBLIC_LIVE
-        value: "0"
+        value: "1"
+      - key: PUBLIC_LIVE_DAILY_LIMIT
+        value: "25"
 
       # Model and listing providers. Without GEMINI_API_KEY audits replay recorded answers only.
       - key: GEMINI_API_KEY

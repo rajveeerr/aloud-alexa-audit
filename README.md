@@ -57,7 +57,7 @@ as Creative Studio.
 | AI Creative Studio | Each gap becomes a brief Studio can draft from. Audit, fix in Studio, re-audit. |
 | BI dashboard | An "AI shelf readiness" score per ASIN over time |
 | Cohesity | Re-score when a listing changes; skipped when the content hash hasn't changed |
-| Homepage | An instant check (top 3 gaps, full report by email) instead of a contact form |
+| Homepage | An instant check for any ASIN (top 3 gaps, full report by email) instead of a contact form |
 
 Finished audits can also be pushed out as signed webhooks (`audit.completed`, `audit.failed`),
 so other systems don't have to poll.

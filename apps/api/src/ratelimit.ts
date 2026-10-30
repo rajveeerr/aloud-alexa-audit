@@ -18,3 +18,27 @@ export async function hit(redis: Redis, key: string, limit: number, windowSec: n
   const [count, ttl] = (await redis.eval(SCRIPT, 1, key, String(windowSec))) as [number, number];
   return { allowed: count <= limit, remaining: Math.max(0, limit - count), retryAfterSec: ttl > 0 ? ttl : windowSec };
 }
+
+/** Seconds left in the current UTC day, at least 1. */
+export function secondsToUtcMidnight(now: Date): number {
+  const next = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + 1);
+  return Math.max(1, Math.ceil((next - now.getTime()) / 1000));
+}
+
+export type DailySlot = { allowed: boolean; retryAfterSec: number; release: () => Promise<void> };
+
+/**
+ * Takes one of today's `limit` slots from a counter shared by every API instance. The key carries
+ * the UTC date and expires a day after that date ends, so each day starts at 0. A refused slot is
+ * given back at once, and `release` gives back a taken one (when the work it was for never started).
+ */
+export async function takeDaily(redis: Redis, keyBase: string, limit: number, now: Date = new Date()): Promise<DailySlot> {
+  const key = `${keyBase}:${now.toISOString().slice(0, 10)}`;
+  const left = secondsToUtcMidnight(now);
+  const h = await hit(redis, key, limit, left + 86_400);
+  const release = async () => {
+    await redis.decr(key);
+  };
+  if (!h.allowed) await release();
+  return { allowed: h.allowed, retryAfterSec: left, release };
+}

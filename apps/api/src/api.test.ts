@@ -9,9 +9,10 @@ import { randomUUID } from "node:crypto";
 import type { Job, Queue } from "bullmq";
 import { eq } from "drizzle-orm";
 import type { AsinHistory, AuditJob, AuditSummary, BulkJob, BulkSummary, PublicAuditResult, RescoreResult, SavedListing, StudioBriefs } from "@aloud/contracts";
-import type { JsonModel } from "@aloud/core";
+import type { JsonModel, JsonRequest, RawListing } from "@aloud/core";
 import { audits, connect, createAudit, dropDatabase, ensureDatabase, findApiKey, getAudit, leadsFor, markFailed, markRunning, runMigrations, type DbHandle } from "@aloud/db";
 import { ProviderError, QuotaExhaustedError } from "@aloud/providers";
+import type { AuditDeps, AuditRequest } from "@aloud/pipeline";
 import {
   createAuditQueue,
   depsConfigFromEnv,
@@ -37,6 +38,7 @@ const DB_URL = process.env.TEST_DATABASE_URL || "mysql://root:aloud@127.0.0.1:33
 const REDIS_URL = process.env.TEST_REDIS_URL || "redis://127.0.0.1:6389";
 // The suite drops this database, so never let it point at a real one.
 if (!new URL(DB_URL).pathname.endsWith("_test")) throw new Error(`TEST_DATABASE_URL must name a *_test database, got ${DB_URL}`);
+const LIVE_DB_URL = DB_URL.replace(/_test(?=$|\?)/, "_live_test");
 const PREFIX = `test-${randomUUID().slice(0, 8)}`;
 const KEY = "test-key";
 const PUBLIC_LIMIT = 3;
@@ -568,4 +570,158 @@ describe.skipIf(process.env.SKIP_INTEGRATION === "1")("api + worker (compose, re
       await demo.close();
     }
   }, 60_000);
+
+  test("with PUBLIC_LIVE unset, an unsaved ASIN isn't fetched live and nothing is counted", async () => {
+    const res = await call<PublicAuditResult>("POST", "/v1/public/audits", { asin: "B0LIVE0005" }, { "x-forwarded-for": "10.2.1.1" });
+    expect(res.status).toBe(202);
+    expect((await getAudit(handle.db, res.body.id))!.request).toEqual({ live: false });
+    const redis = redisConnection(REDIS_URL);
+    try {
+      expect(await redis.keys(`${PREFIX}:daily:*`)).toEqual([]);
+    } finally {
+      await redis.quit();
+    }
+    const done = await until(async () => (await call<PublicAuditResult>("GET", `/v1/public/audits/${res.body.id}`, undefined, {})).body, (r) => finished(r.status));
+    expect(done).toMatchObject({ status: "failed", reason: "We can't audit this product yet. Try one of the example products." });
+  }, 30_000);
+});
+
+/**
+ * The widget with PUBLIC_LIVE=1, in its own database so its audits don't show up in the history
+ * the suite above checks. SerpApi and Gemini are fakes, so nothing touches the network.
+ */
+describe.skipIf(process.env.SKIP_INTEGRATION === "1")("widget live mode (compose, fake providers)", () => {
+  const LIVE_ASIN = "B0LIVE0001";
+  const LIVE_LIMIT = 2;
+  const livePrefix = `${PREFIX}-live`;
+  const calls = { get: [] as { asin: string; live: boolean }[], search: 0 };
+  let live: RunningServer;
+  let liveDb: DbHandle;
+  const liveCall = <T = any>(method: string, path: string, body?: unknown, headers?: Record<string, string>) => callAt<T>(live.url, method, path, body, headers);
+  const counter = async () => {
+    const redis = redisConnection(REDIS_URL);
+    try {
+      return await redis.get(`${livePrefix}:daily:public-live:${new Date().toISOString().slice(0, 10)}`);
+    } finally {
+      await redis.quit();
+    }
+  };
+
+  /**
+   * Fakes for SerpApi and Gemini. The live "page" for LIVE_ASIN is the hero's saved page; any other
+   * unsaved ASIN isn't on Amazon. Search answers with the hero's saved competitors. The model replays
+   * recordings and answers anything unrecorded with an empty list, so nothing touches the network.
+   */
+  function fakeDeps(hero: RawListing): (req: AuditRequest) => AuditDeps {
+    return (req) => {
+      const base = replayDeps(req);
+      const llm: JsonModel = {
+        generateJson: <T>(r: JsonRequest) =>
+          base.llm.generateJson<T>(r).catch(() => ({ data: [] as T, model: "fake", usage: { inputTokens: 0, outputTokens: 0 }, latencyMs: 0, cached: true })),
+      };
+      const results = ["B001GAOTSW", "B097CF46RC", "B0BGPYR8Q3", "B0BSMKF5BQ"].map((asin, i) => ({ asin, title: "", sponsored: false, reviews: 0, position: i + 1 }));
+      return {
+        ...base,
+        llm,
+        listings: {
+          async get(source, asin, o) {
+            calls.get.push({ asin, live: o?.live ?? false });
+            const saved = await base.listings.get(source, asin);
+            if (saved || !o?.live) return saved;
+            return asin === LIVE_ASIN ? { ...hero, requestedAsin: asin } : null;
+          },
+          saved: (source) => base.listings.saved(source),
+        },
+        search: { search: async () => (calls.search++, results) },
+      };
+    };
+  }
+
+  beforeAll(async () => {
+    await dropDatabase(LIVE_DB_URL);
+    await ensureDatabase(LIVE_DB_URL);
+    liveDb = connect(LIVE_DB_URL);
+    await runMigrations(liveDb.db);
+    const hero = (await replayDeps({ asin: "B0C9W8DD9S", source: "serpapi" }).listings.get("serpapi", "B0C9W8DD9S"))!;
+    live = await startServer({ ...serverConfig(livePrefix), databaseUrl: LIVE_DB_URL, publicLive: true, publicLiveDailyLimit: LIVE_LIMIT }, { deps: fakeDeps(hero), log: () => {} });
+  });
+  afterAll(async () => {
+    await live?.close();
+    await liveDb?.close();
+    await dropDatabase(LIVE_DB_URL);
+    const redis = redisConnection(REDIS_URL);
+    const keys = await redis.keys(`${livePrefix}*`);
+    if (keys.length) await redis.del(...keys);
+    await redis.quit();
+  });
+
+  test("an unsaved ASIN runs live with no competitors: one listing fetch, no search", async () => {
+    calls.get = [];
+    calls.search = 0;
+    const res = await liveCall<PublicAuditResult>("POST", "/v1/public/audits", { asin: LIVE_ASIN }, { "x-forwarded-for": "10.2.0.1" });
+    expect(res.status).toBe(202);
+    expect((await getAudit(liveDb.db, res.body.id))!.request).toEqual({ live: true, maxCompetitors: 0 });
+
+    const done = await until(async () => (await liveCall<PublicAuditResult>("GET", `/v1/public/audits/${res.body.id}`, undefined, {})).body, (r) => finished(r.status));
+    expect(done.status).toBe("done");
+    expect(done.topGaps!.length).toBeGreaterThan(0);
+    expect(done.topGaps!.every((g) => g.competitorShare === null && g.competitors === 0)).toBe(true);
+    expect(calls).toEqual({ get: [{ asin: LIVE_ASIN, live: true }], search: 0 });
+    const report = (await getAudit(liveDb.db, res.body.id))!.report as NonNullable<AuditJob["report"]>;
+    expect(report.competitors).toEqual([]);
+    expect(await counter()).toBe("1");
+  }, 30_000);
+
+  test("a saved ASIN replays without a live fetch and doesn't touch the daily counter", async () => {
+    const res = await liveCall<PublicAuditResult>("POST", "/v1/public/audits", { asin: "B09VD1Z3TK" }, { "x-forwarded-for": "10.2.0.2" });
+    expect(res.status).toBe(202);
+    expect((await getAudit(liveDb.db, res.body.id))!.request).toEqual({ live: false });
+    expect(await counter()).toBe("1");
+  });
+
+  test("past the daily cap, live audits get 429 daily_limit; saved products still run", async () => {
+    // The second live audit of the day is the last one allowed. That ASIN isn't on Amazon.
+    const second = await liveCall<PublicAuditResult>("POST", "/v1/public/audits", { asin: "B0LIVE0002" }, { "x-forwarded-for": "10.2.0.3" });
+    expect(second.status).toBe(202);
+
+    const over = await liveCall("POST", "/v1/public/audits", { asin: "B0LIVE0003" }, { "x-forwarded-for": "10.2.0.4" });
+    expect(over).toMatchObject({
+      status: 429,
+      body: { error: { code: "daily_limit", message: "The free check has reached today's limit. Try again tomorrow, or leave your email for the full report." } },
+    });
+    const retryAfter = Number(over.headers.get("retry-after"));
+    expect(retryAfter).toBeGreaterThan(0);
+    expect(retryAfter).toBeLessThanOrEqual(86_400);
+    // A refused request doesn't use up a slot, and the cap is global, not per IP.
+    expect(await counter()).toBe(String(LIVE_LIMIT));
+    expect((await liveCall("POST", "/v1/public/audits", { asin: "B0LIVE0004" }, { "x-forwarded-for": "10.2.0.5" })).body.error.code).toBe("daily_limit");
+    expect((await liveCall("POST", "/v1/public/audits", { asin: "B09VD1Z3TK" }, { "x-forwarded-for": "10.2.0.6" })).status).toBe(202);
+
+    const failed = await until(async () => (await liveCall<PublicAuditResult>("GET", `/v1/public/audits/${second.body.id}`, undefined, {})).body, (r) => finished(r.status));
+    expect(failed).toMatchObject({ status: "failed", reason: "We couldn't find that product on Amazon.com. Check the ASIN." });
+  }, 30_000);
+
+  test("a bad body is refused before the daily counter is charged", async () => {
+    const redis = redisConnection(REDIS_URL);
+    const key = `${livePrefix}:daily:public-live:${new Date().toISOString().slice(0, 10)}`;
+    try {
+      await redis.set(key, "0");
+      expect((await liveCall("POST", "/v1/public/audits", { asin: "nope" }, { "x-forwarded-for": "10.2.0.7" })).status).toBe(400);
+      expect(await redis.get(key)).toBe("0");
+    } finally {
+      await redis.set(key, String(LIVE_LIMIT));
+      await redis.quit();
+    }
+  });
+
+  test("the app's keyed live audit still searches for competitors", async () => {
+    calls.search = 0;
+    const res = await liveCall<{ id: string }>("POST", "/v1/audits", { asin: "B0C9W8DD9S", source: "serpapi", live: true });
+    expect(res.status).toBe(202);
+    expect((await getAudit(liveDb.db, res.body.id))!.request).toEqual({ live: true });
+    const done = await until(async () => (await liveCall<AuditJob>("GET", `/v1/audits/${res.body.id}`)).body, (a) => finished(a.status));
+    expect(done.status).toBe("done");
+    expect(calls.search).toBe(1);
+    expect(done.report!.competitors.map((c) => c.brand).sort()).toEqual(["BIC", "PILOT", "Pentel", "Sharpie"]);
+  }, 30_000);
 });

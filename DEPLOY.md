@@ -25,7 +25,8 @@ Put the three backends in one region. `render.yaml` uses `region: oregon`, which
 | `GEMINI_MODEL`, `GEMINI_RPM` | no | no | `gemini-3.5-flash-lite`, `10` |
 | `DEMO_READONLY` | no | no | `1` holds keyed requests to saved listings (see below). `render.yaml` sets `0`. |
 | `PUBLIC_RATE_LIMIT`, `PUBLIC_RATE_WINDOW_SEC`, `PUBLIC_EMAIL_LIMIT` | no | no | Widget limits per IP: `5` audits per `3600` seconds, `10` emails |
-| `PUBLIC_LIVE` | no | no | `1` lets the widget fetch unsaved listings through SerpApi. Default `0`. |
+| `PUBLIC_LIVE` | no | no | `1` lets the widget audit any ASIN live (see below). Default `0`; `render.yaml` sets `1`. |
+| `PUBLIC_LIVE_DAILY_LIMIT` | no | no | Live widget audits per UTC day, for everyone together. Default `25`. |
 | `RETRY_BACKOFF_MS` | no | no | Retry backoff for failed audits, `10000` |
 | `AUDIT_WEBHOOK_URL`, `AUDIT_WEBHOOK_SECRET` | no | secret: yes | Signed `audit.completed` / `audit.failed` webhooks. The URL needs the secret. |
 | `PORT` | no | no | Render sets it. Don't override. |
@@ -79,6 +80,8 @@ It prints the key (`ans_...`) once. An optional second argument sets requests pe
 
 **The key is in the app bundle.** Every `VITE_*` value ends up in the JavaScript, so anyone can read `VITE_API_KEY`. With `DEMO_READONLY=0` (the `render.yaml` default) that key can run live audits, spending SerpApi and Gemini quota, and its per-minute limit is the only cap. Set `DEMO_READONLY=1` to hold keyed requests to saved listings: `live` is forced off, pasted listings and `/v1/rescore` get `403 demo_readonly`, and bulk jobs take at most 10 ASINs. For real use, put the app behind a server-side proxy that adds `x-api-key`. The widget bundle carries no key.
 
+**The widget audits any ASIN.** Saved products replay for free. With `PUBLIC_LIVE=1`, any other ASIN is fetched live with no competitors, so it costs exactly 1 SerpApi search. At most `PUBLIC_LIVE_DAILY_LIMIT` (25) of those run per UTC day; after that the widget gets `429 daily_limit` until midnight UTC. Saved products don't count, and the per-IP limit still applies. Competitors are compared only in the full app.
+
 ## 6. TRUST_PROXY and CORS
 
 `TRUST_PROXY` is the number of proxies in front of the API. Render has one load balancer, so it's `1`, and the widget's per-IP limit sees the visitor's address. Unset, every visitor shares the load balancer's address and one limit. Don't use `true`: it trusts any `X-Forwarded-For` a client sends. The API reads `true` as 1 with a warning and refuses anything else that isn't a count.
@@ -93,7 +96,7 @@ Once Vercel is up, set `WEB_ORIGIN` on Render to the exact production origin (sc
 | Upstash has a monthly command allowance (500K at the time of writing). | An idle worker still polls Redis while awake. Fine while Render sleeps; an uptime pinger could use up the month. Then `/v1/health` and new audits return 503. |
 | TiDB Starter has monthly storage and Request Unit allowances. | Far above this app's use. If exhausted, TiDB throttles and requests slow down or fail with 503. |
 | Gemini free tier: about 10 requests a minute and 500 a day for Flash-Lite. | The worker keeps to `GEMINI_RPM`. When the daily quota runs out, the audit stays queued and retries just after midnight US Pacific. Without a key, unrecorded audits fail with `not_recorded`. |
-| SerpApi free: 250 searches a month, 50 an hour. | Only live fetches use it. When searches run out, the live fetch fails, the job retries, then the audit ends `failed`. Saved listings keep working. |
+| SerpApi free: 250 searches a month, 50 an hour. | Only live fetches use it. When searches run out, the live fetch fails, the job retries, then the audit ends `failed`. Saved listings keep working. The widget then says the check is busy. At 25 a day the widget alone could use the month in 10 days; `PUBLIC_LIVE_DAILY_LIMIT=8` stays within it. |
 
 ## Post-deploy checks
 

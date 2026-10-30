@@ -85,8 +85,24 @@ export function toBulkSummary(job: BulkJobRow, done: number, failed: number): Bu
   };
 }
 
-/** Visitors see a fixed sentence per error code, never the stored message. */
-export function publicReason(code: string | undefined): string {
+export const DAILY_LIMIT_MESSAGE = "The free check has reached today's limit. Try again tomorrow, or leave your email for the full report.";
+
+/**
+ * Visitors see a fixed sentence per error code, never the stored message. `live` is whether the
+ * audit fetched the listing from Amazon, which changes what a missing listing or a provider error means.
+ */
+export function publicReason(code: string | undefined, live = false): string {
+  if (code === "daily_limit") return DAILY_LIMIT_MESSAGE;
+  if (live) {
+    switch (code) {
+      case "listing_not_found":
+        return "We couldn't find that product on Amazon.com. Check the ASIN.";
+      case "provider_unavailable":
+      case "provider_error":
+      case "quota_exhausted":
+        return "The check is busy right now. Try again in a few minutes.";
+    }
+  }
   switch (code) {
     case "listing_not_found":
     case "not_recorded":
@@ -122,7 +138,10 @@ export function competitorCounts(report: Pick<AuditReport, "competitors">, inten
  */
 export function toPublicResult(row: AuditRow, emailCaptured: boolean): PublicAuditResult {
   const out: PublicAuditResult = { id: row.id, status: row.status, asin: row.asin, emailCaptured };
-  if (row.status === "failed") return { ...out, reason: publicReason((row.error as { code?: string } | null)?.code) };
+  if (row.status === "failed") {
+    const live = (row.request as { live?: boolean } | null)?.live === true;
+    return { ...out, reason: publicReason((row.error as { code?: string } | null)?.code, live) };
+  }
   if (row.status !== "done" || !row.report) return out;
   const report = row.report as AuditReport;
   const questions = new Map(report.intentSet.intents.map((i) => [i.id, i.question]));

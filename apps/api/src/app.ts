@@ -21,8 +21,8 @@ import { requireApiKey } from "./auth";
 import { errorHandler, HttpError, notFound } from "./errors";
 import { publicSource, savedListings } from "./listings";
 import { openApiDocument } from "./openapi";
-import { hit } from "./ratelimit";
-import { toAuditJob, toBriefs, toBulkJob, toBulkSummary, toHistory, toPublicResult, toSummary } from "./views";
+import { hit, takeDaily } from "./ratelimit";
+import { DAILY_LIMIT_MESSAGE, toAuditJob, toBriefs, toBulkJob, toBulkSummary, toHistory, toPublicResult, toSummary } from "./views";
 
 export type AppConfig = {
   webOrigin: string;
@@ -34,8 +34,13 @@ export type AppConfig = {
   publicWindowSec: number;
   /** Emails left on widget audits per IP per window. Separate from audits, so a visitor who used them up can still leave one. */
   publicEmailLimit: number;
-  /** Let widget audits fetch unsaved listings through SerpApi. Costs searches, so off by default. */
+  /**
+   * Let widget audits fetch unsaved listings through SerpApi, with no competitors, so each costs
+   * one search. Off by default.
+   */
   publicLive: boolean;
+  /** Live widget audits per UTC day across all visitors. Saved products don't count. */
+  publicLiveDailyLimit: number;
   /**
    * For a public demo whose app bundle carries its key: keyed audits may only use saved listings
    * (live is forced off, no pasted listings), bulk jobs take at most DEMO_BULK_MAX ASINs and
@@ -118,8 +123,21 @@ export function createApp(ctx: AppContext): express.Express {
   app.post("/v1/public/audits", async (req, res) => {
     await limitPublic(req, res, "audits");
     const body = PublicAuditBody.parse(req.body);
-    const source = await publicSource(ctx.listings, body.asin);
-    const row = await submitAudit(jobs, { asin: body.asin, source, origin: "widget", request: { live: config.publicLive } });
+    const { source, saved } = await publicSource(ctx.listings, body.asin);
+    // Saved products replay for free. Any other ASIN is fetched live, without competitors, so it
+    // costs one SerpApi search, and those are capped per day for everyone together.
+    const live = config.publicLive && !saved;
+    const slot = live ? await takeDaily(redis, `${config.redisPrefix}:daily:public-live`, config.publicLiveDailyLimit) : null;
+    if (slot && !slot.allowed) {
+      res.set("Retry-After", String(slot.retryAfterSec));
+      throw new HttpError(429, "daily_limit", DAILY_LIMIT_MESSAGE);
+    }
+    const request = live ? { live: true, maxCompetitors: 0 } : { live: false };
+    // The slot is only spent on an audit that actually reached the queue.
+    const row = await submitAudit(jobs, { asin: body.asin, source, origin: "widget", request }).catch(async (err) => {
+      await slot?.release().catch((e) => ctx.log(`couldn't give back a live widget slot: ${(e as Error).message}`));
+      throw err;
+    });
     // The audit is already queued, so a lead that fails to save mustn't turn this into a 500.
     let captured = false;
     if (body.email) {
