@@ -19,7 +19,7 @@ const CHECKS: { name: string; body: string; visual: ReactNode }[] = [
         </span>
         <span className="flex items-center gap-2 rounded-md bg-answered-bg px-2.5 py-1.5 text-[#14532d]">
           <PlusIcon className="size-3.5 text-answered" strokeWidth={2.75} aria-hidden="true" />
-          <span className="text-answered/80">New bullet</span> “No Smear: Perfect for Left-Handed”
+          <span className="text-answered">New bullet</span> “No Smear: Perfect for Left-Handed”
         </span>
       </div>
     ),
