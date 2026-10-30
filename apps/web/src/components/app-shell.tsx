@@ -13,7 +13,7 @@ const NAV = [
 
 export function Logo({ className }: { className?: string }) {
   return (
-    <span className={cn("inline-flex items-center gap-2 text-[17px] font-bold", className)}>
+    <span className={cn("inline-flex items-center gap-2 text-[17px] leading-none font-bold", className)}>
       <svg viewBox="0 0 32 32" className="size-6" aria-hidden="true">
         <rect width="32" height="32" rx="8" fill="#FF8800" />
         <path d="M9 17.5l4.5 4.5L23 11" fill="none" stroke="#fff" strokeWidth="3.2" strokeLinecap="round" strokeLinejoin="round" />
@@ -36,7 +36,7 @@ export function AppShell() {
       </a>
       <header className="sticky top-0 z-40 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/85">
         <div className="mx-auto flex h-14 max-w-6xl items-center gap-4 px-4 sm:px-6">
-          <Link to="/" className="shrink-0 rounded-md" aria-label="Aloud, new audit">
+          <Link to="/" className="flex h-8 shrink-0 items-center rounded-md" aria-label="Aloud, new audit">
             <Logo />
           </Link>
           <nav aria-label="Main" className="-mx-1 flex min-w-0 flex-1 items-center gap-0.5 overflow-x-auto [scrollbar-width:none]">
@@ -47,7 +47,7 @@ export function AppShell() {
                 end={n.end}
                 className={({ isActive }) =>
                   cn(
-                    "rounded-md px-2.5 py-1.5 text-sm font-semibold whitespace-nowrap text-muted-foreground transition-colors hover:text-foreground",
+                    "inline-flex h-8 items-center rounded-md px-2.5 text-sm leading-none font-semibold whitespace-nowrap text-muted-foreground transition-colors hover:text-foreground",
                     isActive && "bg-muted text-foreground",
                   )
                 }
@@ -58,7 +58,7 @@ export function AppShell() {
             {/* The widget is its own page and bundle (widget.html), so a plain link, not a route. */}
             <a
               href="/widget.html"
-              className="rounded-md px-2.5 py-1.5 text-sm font-semibold whitespace-nowrap text-muted-foreground transition-colors hover:text-foreground"
+              className="inline-flex h-8 items-center rounded-md px-2.5 text-sm leading-none font-semibold whitespace-nowrap text-muted-foreground transition-colors hover:text-foreground"
             >
               Widget
             </a>
