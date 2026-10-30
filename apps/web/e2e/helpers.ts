@@ -25,6 +25,20 @@ export function shooter(dir: string) {
     async view(page: Page, name: string) {
       await page.screenshot({ path: `${dir}/${name}.png` });
     },
+    /**
+     * One section on its own. Cut from a full-page shot rather than an element shot: an element
+     * taller than the window came out clipped, and the sticky header and section bar were
+     * painted over it, so both are hidden for the shot.
+     */
+    async section(page: Page, selector: string, name: string) {
+      const style = await page.addStyleTag({ content: "header.sticky, nav.sticky { visibility: hidden !important; }" });
+      const box = await page.locator(selector).evaluate((el) => {
+        const r = el.getBoundingClientRect();
+        return { x: r.left + window.scrollX, y: r.top + window.scrollY, width: r.width, height: r.height };
+      });
+      await page.screenshot({ path: `${dir}/${name}.png`, fullPage: true, clip: box });
+      await style.evaluate((el) => (el as Element).remove());
+    },
     path: (name: string) => `${dir}/${name}.png`,
   };
 }

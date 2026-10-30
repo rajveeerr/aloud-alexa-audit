@@ -51,7 +51,7 @@ test("the hero audit runs from the landing page to the report", async ({ page })
   await shots.full(page, "03-report-hero");
   // The top of the report and the hidden answers on their own, for the README.
   await shots.view(page, "16-report-top");
-  await page.locator("#hidden").screenshot({ path: shots.path("17-hidden-answers") });
+  await shots.section(page, "#hidden", "17-hidden-answers");
 
   await page.getByRole("button", { name: "Send to Studio" }).click();
   await expect(page.getByRole("dialog")).toContainText("Smooth Writing without Skipping");
@@ -84,7 +84,7 @@ test("the Pentel dataset audit shows promise vs proof, with the leak claim conte
   await expect(leaking).toContainText("33 of 62 reviews that discuss it contradict it");
   await expect(page.getByText("not of all buyers")).toBeVisible();
   await shots.full(page, "05-report-proof");
-  await page.locator("#proof").screenshot({ path: shots.path("06-proof-section") });
+  await shots.section(page, "#proof", "06-proof-section");
 });
 
 test("an estimated category is labelled as estimated", async ({ page }) => {
