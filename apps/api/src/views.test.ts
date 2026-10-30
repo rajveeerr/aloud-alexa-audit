@@ -166,7 +166,7 @@ describe("public failure reasons", () => {
       expect(failed(code, true)).toBe("The check is busy right now. Try again in a few minutes.");
     }
     expect(failed("provider_unavailable", false)).toBe("The audit couldn't finish right now. Please try again later.");
-    expect(publicReason("daily_limit")).toBe("The free check has reached today's limit. Try again tomorrow, or leave your email for the full report.");
+    expect(publicReason("daily_limit")).toBe("The free check has reached today's limit. Try again tomorrow.");
   });
 });
 

@@ -85,7 +85,7 @@ export function toBulkSummary(job: BulkJobRow, done: number, failed: number): Bu
   };
 }
 
-export const DAILY_LIMIT_MESSAGE = "The free check has reached today's limit. Try again tomorrow, or leave your email for the full report.";
+export const DAILY_LIMIT_MESSAGE = "The free check has reached today's limit. Try again tomorrow.";
 
 /**
  * Visitors see a fixed sentence per error code, never the stored message. `live` is whether the

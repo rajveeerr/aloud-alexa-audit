@@ -687,7 +687,7 @@ describe.skipIf(process.env.SKIP_INTEGRATION === "1")("widget live mode (compose
     const over = await liveCall("POST", "/v1/public/audits", { asin: "B0LIVE0003" }, { "x-forwarded-for": "10.2.0.4" });
     expect(over).toMatchObject({
       status: 429,
-      body: { error: { code: "daily_limit", message: "The free check has reached today's limit. Try again tomorrow, or leave your email for the full report." } },
+      body: { error: { code: "daily_limit", message: "The free check has reached today's limit. Try again tomorrow." } },
     });
     const retryAfter = Number(over.headers.get("retry-after"));
     expect(retryAfter).toBeGreaterThan(0);
