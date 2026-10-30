@@ -42,3 +42,42 @@ export function scoreGrades(grades: Grade[], intents: Intent[]): Score {
   out.score = possible > 0 ? Math.round((100 * earned) / possible) : null;
   return out;
 }
+
+/**
+ * How many points the score would gain if each counted question were fully answered, holding
+ * every other grade fixed. Used to show "+N points" next to a fix. The gains don't add up
+ * exactly: each is rounded on its own, the same way the score is.
+ */
+export function pointsIfAnswered(grades: Grade[], intents: Intent[]): Map<string, number> {
+  const byId = new Map(intents.map((i) => [i.id, i]));
+  const counted = grades.flatMap((g) => {
+    const intent = byId.get(g.intentId);
+    if (!intent || intent.kind === "experience" || g.status === "not_applicable") return [];
+    return [{ id: g.intentId, frequency: intent.frequency, weight: WEIGHT[g.status] }];
+  });
+  const possible = counted.reduce((n, c) => n + c.frequency, 0);
+  const out = new Map<string, number>();
+  if (possible === 0) return out;
+
+  const earned = counted.reduce((n, c) => n + c.frequency * c.weight, 0);
+  const now = Math.round((100 * earned) / possible);
+  for (const c of counted) {
+    const after = Math.round((100 * (earned + c.frequency * (1 - c.weight))) / possible);
+    out.set(c.id, after - now);
+  }
+  return out;
+}
+
+export type ScoreBand = "ready" | "partly_ready" | "not_ready";
+
+/**
+ * A plain-words reading of the score. The cut-offs are a judgement call, not a measured
+ * threshold: 80 means a shopper's question is answered four times in five, below 50 means
+ * more often missed than answered. They describe the listing, not what Alexa will do.
+ */
+export function scoreBand(score: number | null): ScoreBand | null {
+  if (score === null) return null;
+  if (score >= 80) return "ready";
+  if (score >= 50) return "partly_ready";
+  return "not_ready";
+}

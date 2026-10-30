@@ -3,7 +3,7 @@ import { useState, type ReactNode } from "react";
 import { Badge } from "@/components/ui/badge";
 import { Tip } from "@/components/ui/tooltip";
 import { useCountUp } from "@/lib/use-count-up";
-import { basisLabel, competitorCounts, imagesLabel, indexReport, isEstimated, STATUS_LABEL, titleOf, type GradeStatus, type Report } from "@/lib/report";
+import { BAND, basisLabel, competitorCounts, scoreBand, imagesLabel, indexReport, isEstimated, STATUS_LABEL, titleOf, type GradeStatus, type Report } from "@/lib/report";
 import { cn, plural } from "@/lib/utils";
 import { STATUS_FILL } from "./status";
 import { Term } from "./term";
@@ -185,6 +185,7 @@ function ScoreBlock({ report }: { report: Report }) {
   const s = report.score;
   const estimated = isEstimated(report);
   const shown = useCountUp(s.score);
+  const band = scoreBand(s.score);
   const { intents } = indexReport(report);
   const counted = report.grades
     .filter((g) => intents.get(g.intentId)?.kind !== "experience" && g.status !== "not_applicable")
@@ -210,6 +211,13 @@ function ScoreBlock({ report }: { report: Report }) {
         <span className="text-[15px] text-muted-foreground tabular-nums">
           / 100{estimated && <span className="ml-1 font-semibold text-[#9a3412]">(estimated)</span>}
         </span>
+        {band && (
+          <Tip content="80 or more is ready, 50 to 79 partly ready, under 50 not ready. A rule of thumb for the listing text, not a prediction of what Alexa will do.">
+            <button type="button" className={cn("ml-auto self-center rounded-full px-2.5 py-0.5 text-[13px] font-semibold", BAND[band].tone)} data-testid="score-band">
+              {BAND[band].label}
+            </button>
+          </Tip>
+        )}
       </div>
       <p className="mt-2 text-[15px] font-semibold">
         Answers {s.answered} of {plural(s.counted, "question")}

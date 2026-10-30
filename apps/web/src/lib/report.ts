@@ -3,6 +3,7 @@
  * same basis wording, plus the plain-language labels the UI shows for statuses, actions and flags.
  */
 import type { AuditReport } from "@aloud/contracts";
+import { pointsIfAnswered, scoreBand, type ScoreBand } from "@aloud/core/score";
 
 export type Report = AuditReport;
 export type Grade = Report["grades"][number];
@@ -22,6 +23,16 @@ export function indexReport(r: Report) {
   };
 }
 export type ReportIndex = ReturnType<typeof indexReport>;
+
+/** Points the score would gain if each counted question were fully answered. */
+export const fixGains = (r: Report) => pointsIfAnswered(r.grades, r.intentSet.intents);
+
+export const BAND: Record<ScoreBand, { label: string; tone: string }> = {
+  ready: { label: "Ready", tone: "bg-answered-bg text-answered" },
+  partly_ready: { label: "Partly ready", tone: "bg-partial-bg text-partial" },
+  not_ready: { label: "Not ready", tone: "bg-missing-bg text-missing" },
+};
+export { scoreBand };
 
 export const isEstimated = (r: Report) => r.intentSet.basis === "estimated";
 

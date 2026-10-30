@@ -2,13 +2,14 @@ import { ArrowRightIcon, ImageIcon, MessageCircleQuestionIcon, PlusIcon, ShieldA
 import { CopyButton } from "@/components/copy-button";
 import { Badge } from "@/components/ui/badge";
 import { Tip } from "@/components/ui/tooltip";
-import { BRIEF_FLAG_TEXT, competitorCounts, countsLabel, imagesLabel, isEstimated, placeLabel, targetLabel, type Report, type ReportIndex } from "@/lib/report";
+import { BRIEF_FLAG_TEXT, competitorCounts, countsLabel, fixGains, imagesLabel, isEstimated, placeLabel, targetLabel, type Report, type ReportIndex } from "@/lib/report";
 import { cn } from "@/lib/utils";
 import { Section } from "./section";
-import { ActionTag } from "./top-fixes";
+import { ActionTag, Gain } from "./top-fixes";
 
 export function FixList({ report, index }: { report: Report; index: ReportIndex }) {
   const estimated = isEstimated(report);
+  const gains = fixGains(report);
 
   return (
     <Section
@@ -33,6 +34,7 @@ export function FixList({ report, index }: { report: Report; index: ReportIndex 
                     {n + 1}
                   </span>
                   <ActionTag action={b.action} />
+                  <Gain points={gains.get(b.intentId)} />
                   <span className="text-[13px] text-muted-foreground tabular-nums sm:ml-auto">
                     {estimated ? "Estimated question" : `${gap?.frequency.toLocaleString() ?? "?"} shoppers ask`}, {countsLabel(competitorCounts(report, b.intentId))}
                   </span>

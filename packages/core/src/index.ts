@@ -11,7 +11,7 @@ export {
   type JsonModel,
   type GradeRun,
 } from "./grade";
-export { scoreGrades, type Score } from "./score";
+export { pointsIfAnswered, scoreBand, scoreGrades, type Score, type ScoreBand } from "./score";
 export * from "./images";
 export type { JsonRequest, JsonResponse, PromptPart } from "./llm";
 export { computeGaps, type GradedListing } from "./gaps";

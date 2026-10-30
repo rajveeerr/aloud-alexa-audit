@@ -1,5 +1,5 @@
 import { ArrowDownIcon, ImageUpIcon, ListPlusIcon, MessageCircleQuestionIcon, PencilLineIcon, TriangleAlertIcon } from "lucide-react";
-import { ACTION_LABEL, competitorCounts, countsLabel, isEstimated, type Brief, type Report } from "@/lib/report";
+import { ACTION_LABEL, competitorCounts, countsLabel, fixGains, isEstimated, type Brief, type Report } from "@/lib/report";
 import { cn } from "@/lib/utils";
 
 export const ACTION_ICON: Record<Brief["action"], typeof ImageUpIcon> = {
@@ -33,6 +33,7 @@ export function TopFixes({ report }: { report: Report }) {
   const top = report.briefs.slice(0, 3);
   if (top.length === 0) return null;
   const estimated = isEstimated(report);
+  const gains = fixGains(report);
 
   return (
     <section aria-labelledby="top-fixes-title">
@@ -55,6 +56,7 @@ export function TopFixes({ report }: { report: Report }) {
                     {n + 1}
                   </span>
                   <ActionTag action={b.action} />
+                  <Gain points={gains.get(b.intentId)} className="ml-auto" />
                 </span>
                 <span className="text-[15px] leading-snug font-semibold">{b.question}</span>
                 {b.draft ? (
@@ -76,5 +78,15 @@ export function TopFixes({ report }: { report: Report }) {
         })}
       </ol>
     </section>
+  );
+}
+
+/** What the score would gain once this question is fully answered. */
+export function Gain({ points, className }: { points: number | undefined; className?: string }) {
+  if (!points) return null;
+  return (
+    <span className={cn("text-[13px] font-bold text-answered tabular-nums", className)} title="Score gain once this question is fully answered">
+      +{points} {points === 1 ? "point" : "points"}
+    </span>
   );
 }

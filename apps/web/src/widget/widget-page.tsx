@@ -3,6 +3,7 @@ import type { PublicAuditResult } from "@aloud/contracts";
 import { ArrowLeftIcon, CheckIcon, CircleDashedIcon, Clock3Icon, ImageIcon, LoaderCircleIcon, MailIcon, TriangleAlertIcon, XIcon } from "lucide-react";
 import { useId, useState, type FormEvent } from "react";
 import { usePastCap } from "@/api/use-past-cap";
+import { BAND, scoreBand } from "@/lib/report";
 import { useCountUp } from "@/lib/use-count-up";
 import { useAddPublicEmail, useCreatePublicAudit, usePublicAudit } from "./hooks";
 import { cn } from "@/lib/utils";
@@ -209,12 +210,20 @@ function Pips({ of, filled }: { of: number; filled: number }) {
 
 function Result({ data }: { data: PublicAuditResult }) {
   const estimated = data.scoreBasis === "estimated";
+  const band = scoreBand(data.score ?? null);
   return (
     <div className="mt-7 border-t border-sd-depth pt-6" data-testid="widget-result">
       <p className={cn(label, "text-center")}>READINESS SCORE</p>
       <div className="mt-3">
         <Gauge score={data.score} estimated={estimated} />
       </div>
+      {band && (
+        <p className="mt-2 text-center">
+          <span className={cn("rounded-full px-2.5 py-0.5 text-[13px] font-semibold", BAND[band].tone)} data-testid="widget-band">
+            {BAND[band].label}
+          </span>
+        </p>
+      )}
       <p className="mx-auto mt-2 max-w-[36ch] text-center text-sm text-[#4a444b]">
         {estimated ? "There aren't enough reviews in this category yet, so the questions were estimated." : "Weighted by how often shoppers ask each question."}
       </p>

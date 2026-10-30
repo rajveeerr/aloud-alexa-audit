@@ -54,6 +54,7 @@ test("the hero audit runs, then shows score, hidden answers and the fix list", a
   await page.screenshot({ path: shot("02-audit-running") });
 
   await expect(page.getByTestId("score")).toHaveText("52", { timeout: 10_000 });
+  await expect(page.getByTestId("score-band")).toHaveText("Partly ready");
   await expect(page.getByText("Answers 8 of 15 questions")).toBeVisible();
   await expect(page.getByText("Questions mined from 600 reviews").first()).toBeVisible();
 
@@ -67,6 +68,7 @@ test("the hero audit runs, then shows score, hidden answers and the fix list", a
   // The verdict leads, then the first three fixes, before any evidence.
   await expect(page.getByTestId("top-fixes").locator("li")).toHaveCount(3);
   await expect(page.getByTestId("top-fixes").locator("li").first()).toContainText("Smooth Writing without Skipping");
+  await expect(page.getByTestId("top-fixes").locator("li").first()).toContainText("+20 points");
 
   // The competitor matrix shows the gaps first and the rest on request.
   const matrix = page.locator("#competitors tbody tr");
@@ -127,6 +129,7 @@ test("the widget shows a score and exactly three gaps", async ({ page }) => {
   await page.getByLabel("ASIN").fill("B0C9W8DD9S");
   await page.getByRole("button", { name: "Check my listing" }).click();
   await expect(page.getByTestId("widget-result")).toContainText("52", { timeout: 10_000 });
+  await expect(page.getByTestId("widget-band")).toHaveText("Partly ready");
   await expect(page.getByTestId("widget-gaps").locator("li")).toHaveCount(3);
   await expect(page.getByTestId("widget-gaps").locator("li").first()).toContainText("4 of 4 competitors answer it");
   await fullShot(page, "07-widget");
