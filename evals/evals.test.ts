@@ -55,7 +55,7 @@ describe("gold sets", () => {
       else expect(g.fields.length).toBeGreaterThan(g.status === "contradicted" ? 1 : 0);
     }
     expect(new Set(grades.map((g) => `${g.source}:${g.asin}:${g.intentId}`)).size).toBe(grades.length);
-    expect(proof.filter((p) => p.labeledBy === "rajveer-spike")).toHaveLength(40);
+    expect(proof.filter((p) => p.labeledBy === "spike")).toHaveLength(40);
   });
 });
 

@@ -104,7 +104,7 @@
     <button id="tab-grades" aria-pressed="true">Grades</button>
     <button id="tab-proof" aria-pressed="false">Proof</button>
   </div>
-  <div class="progress" title="Rows reviewed by a person (not draft or draft-checked)">
+  <div class="progress" title="Rows reviewed by a person (not draft, draft-checked or spike)">
     <div class="bar"><div id="bar" style="width:0"></div></div>
     <small id="progress-text">loading</small>
   </div>
@@ -130,7 +130,7 @@
     The stored baseline in <code>evals/baseline.json</code> was measured against the drafts, so the accuracy the
     eval test checks against is the drafts' number, not yours. Re-baselining makes the check guard the reviewed labels.</p>
   <p class="small">You don't need to edit <code>results.md</code>: <code>bun evals</code> prints the "Provisional" note from
-    the count of rows still labelled <code>draft</code> or <code>draft-checked</code>, so it disappears by itself once none remain.</p>
+    the count of rows still labelled <code>draft</code>, <code>draft-checked</code> or <code>spike</code>, so it disappears by itself once none remain.</p>
   <p class="small muted" id="drafts-left"></p>
   <div style="text-align:right"><button class="btn" id="close-dialog">Close</button></div>
 </dialog>
@@ -166,8 +166,8 @@ function toolOf(i) {
   return D.proofTool[D.proof[i].id] ?? null;
 }
 // "draft-checked" rows were re-checked by a second pass, not by a person, so they still need review.
-function needsReview(r) { return r.labeledBy === "draft" || r.labeledBy === "draft-checked"; }
-function draftBadge(r) { return r.labeledBy === "draft-checked" ? "draft, re-checked" : "draft"; }
+function needsReview(r) { return r.labeledBy === "draft" || r.labeledBy === "draft-checked" || r.labeledBy === "spike"; }
+function draftBadge(r) { return r.labeledBy === "draft-checked" ? "draft, re-checked" : r.labeledBy === "spike" ? "early test label" : "draft"; }
 function goldOf(i) { return mode === "grades" ? D.grades[i].status : D.proof[i].label; }
 function visible() {
   const out = [];
@@ -409,7 +409,7 @@ async function runEvals() {
   const dlg = $("evals-dialog");
   $("evals-output").textContent = "Running bun evals...";
   const left = D.grades.filter((r) => needsReview(r)).length + D.proof.filter((r) => needsReview(r)).length;
-  $("drafts-left").textContent = left ? `${left} rows still need a human review (draft or draft-checked), so results.md stays provisional for now.` : "Every row has been reviewed by a person: results.md is no longer provisional. Re-baseline now.";
+  $("drafts-left").textContent = left ? `${left} rows still need a human review (draft, draft-checked or spike), so results.md stays provisional for now.` : "Every row has been reviewed by a person: results.md is no longer provisional. Re-baseline now.";
   dlg.showModal();
   try {
     const { code, output } = await post("/api/evals", {});

@@ -100,9 +100,10 @@ All the diagrams are in [diagrams/](diagrams/) (Excalidraw files plus SVG).
 - **Code decides where a model can't be trusted.** On one run the faithfulness judge let
   "reliable and effortless" slip into a fix. Since then a hidden answer is moved word for word,
   chosen in code, and the judge only guards the rest.
-- **Decision models considered.** A local NLI model scored 59% against 100% for Gemini on
-  hand-labelled reviews, and Jev is paid-only on the gateway, so neither is used. Labelling sits
-  behind an interface so either can be swapped in.
+- **Decision models considered.** On 40 labelled reviews, a local NLI model (DeBERTa) got 59%
+  of the clear cases right and Gemini got all of them. TypeSafe's Jev, a model built for this
+  kind of labelling, is paid-only, so neither is used. Labelling sits behind an interface, so
+  either can be swapped in if it wins on the evals.
 - **MySQL, Redis and Bull** because that's SalesDuo's own stack. TiDB Serverless is the
   MySQL-compatible free host for the demo.
 - **Bugs that taught something.** A missing fetch timeout froze a run for 50 minutes. Saved
@@ -202,8 +203,8 @@ diagrams/          architecture diagrams
 
 ## What I'd do next
 
-- **Review the gold labels by hand.** All 134 grade labels and 20 of the 60 proof labels are
-  re-checked drafts. `bun evals:review` is built for this, and the eval numbers stay provisional
+- **Review the gold labels by hand.** All 134 grade labels and the 60 proof labels are drafts
+  or early-test labels. `bun evals:review` is built for this, and the eval numbers stay provisional
   until it's done.
 - **Validate against live sales rank.** The study uses 2023 review counts as a proxy for sales.
   About 50 current listings checked against today's Best Sellers Rank would be a better test.

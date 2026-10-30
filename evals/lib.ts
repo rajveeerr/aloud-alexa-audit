@@ -40,15 +40,19 @@ export const PROOF_LABELS: ProofLabel[] = ["supports", "contradicts", "mixed", "
 /**
  * Who set a label. "draft" was drafted and not checked; "draft-checked" was drafted and then
  * independently re-checked against the listing and rubric, but still not reviewed by a person.
- * Only "rajveer" and "rajveer-spike" are human labels.
+ * "spike" was labelled in an earlier test of decision models, before the gold set existed, and
+ * not reviewed by a person either. Only "rajveer" is a human review.
  */
-export type LabeledBy = "draft" | "draft-checked" | "rajveer" | "rajveer-spike";
+export type LabeledBy = "draft" | "draft-checked" | "spike" | "rajveer";
 
-/** Labels no person has reviewed yet: plain drafts and re-checked drafts, counted separately. */
+/** Labels no person has reviewed yet. Re-checked drafts and spike labels count as checked. */
 export type Unreviewed = { draft: number; checked: number };
 
 function unreviewed(rows: { labeledBy: LabeledBy }[]): Unreviewed {
-  return { draft: rows.filter((r) => r.labeledBy === "draft").length, checked: rows.filter((r) => r.labeledBy === "draft-checked").length };
+  return {
+    draft: rows.filter((r) => r.labeledBy === "draft").length,
+    checked: rows.filter((r) => r.labeledBy === "draft-checked" || r.labeledBy === "spike").length,
+  };
 }
 
 export type GoldGrade = {

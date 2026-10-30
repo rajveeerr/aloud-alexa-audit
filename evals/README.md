@@ -33,10 +33,10 @@ The review page shows each listing's fields next to the question, its rubric, th
 
 - `"draft"`: drafted from the fields and rubric, not checked.
 - `"draft-checked"`: drafted, then re-checked in an independent second pass against the listing and rubric without looking at the tool's grades. Changed labels have a reason starting with the old value ("was missing; ..."). This is not a human review.
-- `"rajveer-spike"`: labelled by hand in an earlier test of the claim check.
+- `"spike"`: labelled in an earlier test of decision models, before the gold set existed. Not a human review.
 - `"rajveer"`: reviewed by a person, in the review page or by hand.
 
-Right now all 134 grade labels are `draft-checked`. Of the 60 proof labels, 40 Pentel smudge pairs were labelled by hand (`rajveer-spike`) and 20 Sharpie bleed-through pairs are `draft-checked`. None of the grade labels and none of those 20 proof labels have been reviewed by a person yet, so every number in results.md is provisional until that review is done. results.md prints this note from the label counts and drops it once no row is `draft` or `draft-checked`.
+Right now all 134 grade labels are `draft-checked`. Of the 60 proof labels, 40 Pentel smudge pairs are `spike` and 20 Sharpie bleed-through pairs are `draft-checked`. None of the labels have been reviewed by a person yet, so every number in results.md is provisional until that review is done. results.md prints this note from the label counts and drops it once no row is `draft`, `draft-checked` or `spike`.
 
 ## Rows to review first
 

@@ -106,13 +106,13 @@ function markdown(r: EvalResult, base: Baseline | null): string {
   const unreviewedGrades = d.grades.draft + d.grades.checked;
   const unreviewedProof = d.proof.draft + d.proof.checked;
   const both = (u: { draft: number; checked: number }) =>
-    !u.draft ? "drafted and independently re-checked" : !u.checked ? "drafted only" : `${u.checked} drafted and independently re-checked, ${u.draft} drafted only`;
+    !u.draft ? "drafted and checked" : !u.checked ? "drafted only" : `${u.checked} drafted and checked, ${u.draft} drafted only`;
   const provisional =
     unreviewedGrades + unreviewedProof > 0
       ? `> **Provisional.** ${unreviewedGrades} of ${g.rows.length} grade labels (${both(d.grades)}) and ${unreviewedProof} of
 > ${p.rows.length} proof labels (${both(d.proof)}) haven't been reviewed by a person yet (see [README.md](README.md)).
-> \`draft-checked\` means a second pass against the listing and rubric, not a human review. The 40 Pentel smudge pairs
-> were labelled by hand in an earlier test. These numbers are a first measurement until that review is done.\n\n`
+> \`draft-checked\` means a second pass against the listing and rubric; the 40 Pentel smudge pairs (\`spike\`) were
+> labelled in an earlier test. Neither is a human review. These numbers are a first measurement until that review is done.\n\n`
       : "";
 
   return `# Eval results
