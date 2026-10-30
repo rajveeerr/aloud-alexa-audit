@@ -2,7 +2,7 @@
  * Reading an audit report the way the CLI does (apps/cli/src/audit.ts): same sort order,
  * same basis wording, plus the plain-language labels the UI shows for statuses, actions and flags.
  */
-import type { AuditReport } from "@answerable/contracts";
+import type { AuditReport } from "@aloud/contracts";
 
 export type Report = AuditReport;
 export type Grade = Report["grades"][number];

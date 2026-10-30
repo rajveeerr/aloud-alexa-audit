@@ -1,6 +1,6 @@
 import { join } from "node:path";
-import { fsStores, type AuditDeps, type AuditRequest } from "@answerable/pipeline";
-import { CachedLlm, GeminiLlm, PATIENT_RETRY } from "@answerable/providers";
+import { fsStores, type AuditDeps, type AuditRequest } from "@aloud/pipeline";
+import { CachedLlm, GeminiLlm, PATIENT_RETRY } from "@aloud/providers";
 import { rateLimited } from "./limiter";
 
 export const ROOT = join(import.meta.dir, "../../..");

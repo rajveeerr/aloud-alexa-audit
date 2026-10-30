@@ -7,12 +7,12 @@
  * --live    fetches the listing and its competitors through SerpApi when there's no snapshot yet
  *           (1 search for the listing, 1 to find competitors, 1 per competitor). Implies --record.
  *
- * The whole audit runs in @answerable/pipeline runAudit, the same code the API worker uses.
+ * The whole audit runs in @aloud/pipeline runAudit, the same code the API worker uses.
  */
 import { join } from "node:path";
-import type { AuditResult } from "@answerable/pipeline";
-import { AuditError, fsStores, runAudit } from "@answerable/pipeline";
-import { CachedLlm, GeminiLlm, PATIENT_RETRY } from "@answerable/providers";
+import type { AuditResult } from "@aloud/pipeline";
+import { AuditError, fsStores, runAudit } from "@aloud/pipeline";
+import { CachedLlm, GeminiLlm, PATIENT_RETRY } from "@aloud/providers";
 
 const ROOT = join(import.meta.dir, "../../..");
 const FIXTURES = join(ROOT, "fixtures");

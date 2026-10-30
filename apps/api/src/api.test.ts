@@ -8,10 +8,10 @@ import { afterAll, beforeAll, describe, expect, test } from "bun:test";
 import { randomUUID } from "node:crypto";
 import type { Job, Queue } from "bullmq";
 import { eq } from "drizzle-orm";
-import type { AsinHistory, AuditJob, AuditSummary, BulkJob, BulkSummary, PublicAuditResult, RescoreResult, SavedListing, StudioBriefs } from "@answerable/contracts";
-import type { JsonModel } from "@answerable/core";
-import { audits, connect, createAudit, dropDatabase, ensureDatabase, findApiKey, getAudit, leadsFor, markFailed, markRunning, runMigrations, type DbHandle } from "@answerable/db";
-import { ProviderError, QuotaExhaustedError } from "@answerable/providers";
+import type { AsinHistory, AuditJob, AuditSummary, BulkJob, BulkSummary, PublicAuditResult, RescoreResult, SavedListing, StudioBriefs } from "@aloud/contracts";
+import type { JsonModel } from "@aloud/core";
+import { audits, connect, createAudit, dropDatabase, ensureDatabase, findApiKey, getAudit, leadsFor, markFailed, markRunning, runMigrations, type DbHandle } from "@aloud/db";
+import { ProviderError, QuotaExhaustedError } from "@aloud/providers";
 import {
   createAuditQueue,
   depsConfigFromEnv,
@@ -28,12 +28,12 @@ import {
   verify,
   type AuditJobData,
   type WebhookConfig,
-} from "@answerable/worker";
+} from "@aloud/worker";
 import { hashKey } from "./auth";
 import { createApiKey } from "./keys";
 import { configFromEnv, startServer, type RunningServer, type ServerConfig } from "./server";
 
-const DB_URL = process.env.TEST_DATABASE_URL || "mysql://root:answerable@127.0.0.1:3317/answerable_test";
+const DB_URL = process.env.TEST_DATABASE_URL || "mysql://root:aloud@127.0.0.1:3317/aloud_test";
 const REDIS_URL = process.env.TEST_REDIS_URL || "redis://127.0.0.1:6389";
 // The suite drops this database, so never let it point at a real one.
 if (!new URL(DB_URL).pathname.endsWith("_test")) throw new Error(`TEST_DATABASE_URL must name a *_test database, got ${DB_URL}`);

@@ -1,5 +1,5 @@
 {
-  "name": "@answerable/contracts",
+  "name": "@aloud/contracts",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -7,7 +7,7 @@
     ".": "./src/index.ts"
   },
   "dependencies": {
-    "@answerable/pipeline": "workspace:*",
+    "@aloud/pipeline": "workspace:*",
     "zod": "^4.6.7"
   }
 }

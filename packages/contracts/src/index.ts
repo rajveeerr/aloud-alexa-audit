@@ -4,7 +4,7 @@
  * Response bodies are plain types; the audit report is the pipeline's AuditResult as JSON.
  */
 import { z } from "zod";
-import type { AuditResult } from "@answerable/pipeline";
+import type { AuditResult } from "@aloud/pipeline";
 
 export const Asin = z.string().regex(/^B0[A-Z0-9]{8}$/, "An ASIN is 10 characters starting with B0");
 

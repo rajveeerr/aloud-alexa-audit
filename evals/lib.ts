@@ -17,8 +17,8 @@ import {
   type JsonModel,
   type JsonRequest,
   type ProofLabel,
-} from "@answerable/core";
-import { fsStores, runAudit } from "@answerable/pipeline";
+} from "@aloud/core";
+import { fsStores, runAudit } from "@aloud/pipeline";
 
 export const ROOT = join(import.meta.dir, "..");
 export const FIXTURES = join(ROOT, "fixtures");
@@ -133,7 +133,7 @@ async function intentSets(): Promise<IntentSet[]> {
 
 /** Replays the recorded grade for every gold listing and lines it up with the gold labels. */
 export async function replayGrades(gold: GoldGrade[], llm: JsonModel): Promise<GradeRow[]> {
-  const stores = fsStores({ fixturesDir: FIXTURES, imageCacheDir: "/tmp/answerable-evals-images" });
+  const stores = fsStores({ fixturesDir: FIXTURES, imageCacheDir: "/tmp/aloud-evals-images" });
   const sets = await intentSets();
   const rows: GradeRow[] = [];
   const keys = [...new Set(gold.map((g) => `${g.source}:${g.asin}`))];
@@ -230,7 +230,7 @@ function byStep(llm: JsonModel, steps: AuditCost["byStep"]): JsonModel {
  * the saved transcription.
  */
 export async function auditCosts(llm: JsonModel): Promise<AuditCost[]> {
-  const stores = fsStores({ fixturesDir: FIXTURES, imageCacheDir: "/tmp/answerable-evals-images" });
+  const stores = fsStores({ fixturesDir: FIXTURES, imageCacheDir: "/tmp/aloud-evals-images" });
   const out: AuditCost[] = [];
   for (const source of ["serpapi", "dataset"] as const) {
     for (const asin of await stores.listings.saved(source)) {

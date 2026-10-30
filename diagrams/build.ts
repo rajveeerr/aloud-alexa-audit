@@ -23,7 +23,7 @@ const legend = (d: Scene, y: number, x = 0) => {
 // 1. Where it plugs into SalesDuo --------------------------------------------------------------
 {
   const d = scene("01-salesduo-fit");
-  d.title("Where answerable plugs into SalesDuo", "One audit engine, four SalesDuo surfaces, each through one API endpoint.");
+  d.title("Where Aloud plugs into SalesDuo", "One audit engine, four SalesDuo surfaces, each through one API endpoint.");
   d.shape(
     "quote",
     330,
@@ -34,7 +34,7 @@ const legend = (d: Scene, y: number, x = 0) => {
     "“Alexa recommendation visibility is not currently available\nas a standalone metric in Seller Central.”\nSalesDuo blog, June 2026",
     { size: 24 },
   );
-  d.card("core", 680, 445, 440, 230, S.hero, "answerable", "Paste an ASIN. See what a shopping\nassistant can say from the listing,\nwith proof, and the fixes ranked.", { headFill: C.orange });
+  d.card("core", 680, 445, 440, 230, S.hero, "Aloud", "Paste an ASIN. See what a shopping\nassistant can say from the listing,\nwith proof, and the fixes ranked.", { headFill: C.orange });
 
   d.card("studio", 0, 270, 540, 220, S.box, "AI Creative Studio", "Each gap becomes a brief Studio can take:\ngaps → briefs → Studio drafts → re-audit\n\nPOST /v1/audits/:id/briefs", { headFill: C.text });
   d.card("bi", 1260, 270, 540, 220, S.box, "BI dashboard", "AI shelf readiness score per ASIN,\ntracked over time.\n\nGET /v1/asins/:asin/history", { headFill: C.text });

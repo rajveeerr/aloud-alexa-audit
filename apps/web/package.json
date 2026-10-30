@@ -1,5 +1,5 @@
 {
-  "name": "@answerable/web",
+  "name": "@aloud/web",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -12,7 +12,7 @@
     "e2e:real": "playwright test -c playwright.real.config.ts"
   },
   "dependencies": {
-    "@answerable/contracts": "workspace:*",
+    "@aloud/contracts": "workspace:*",
     "@fontsource-variable/hanken-grotesk": "^5.3.0",
     "@fontsource-variable/source-sans-3": "^5.3.1",
     "@fontsource/fragment-mono": "^5.3.0",
@@ -29,9 +29,9 @@
     "zod": "^4.6.7"
   },
   "devDependencies": {
-    "@answerable/core": "workspace:*",
-    "@answerable/pipeline": "workspace:*",
-    "@answerable/providers": "workspace:*",
+    "@aloud/core": "workspace:*",
+    "@aloud/pipeline": "workspace:*",
+    "@aloud/providers": "workspace:*",
     "@playwright/test": "^1.64.1",
     "@tailwindcss/vite": "^4.3.3",
     "@types/react": "^19.3.0",

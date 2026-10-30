@@ -1,5 +1,5 @@
-import { AuditError } from "@answerable/pipeline";
-import { ProviderError, QuotaExhaustedError } from "@answerable/providers";
+import { AuditError } from "@aloud/pipeline";
+import { ProviderError, QuotaExhaustedError } from "@aloud/providers";
 
 /**
  * What the worker does with an error:

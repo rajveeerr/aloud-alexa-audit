@@ -1,4 +1,4 @@
-import { Asin } from "@answerable/contracts";
+import { Asin } from "@aloud/contracts";
 import { useId, useState, type FormEvent } from "react";
 import { Link } from "react-router";
 import { useBulk, useBulkJobs, useCreateBulk } from "@/api/hooks";

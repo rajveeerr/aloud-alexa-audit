@@ -1,4 +1,4 @@
-import type { AuditStatus } from "@answerable/contracts";
+import type { AuditStatus } from "@aloud/contracts";
 import { LoaderCircleIcon } from "lucide-react";
 import { Badge, type BadgeVariant } from "@/components/ui/badge";
 

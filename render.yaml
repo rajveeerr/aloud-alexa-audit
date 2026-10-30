@@ -6,7 +6,7 @@
 # The worker sleeps with it, so a queued audit waits until the next request wakes the service.
 services:
   - type: web
-    name: answerable-api
+    name: aloud-api
     runtime: docker
     plan: free
     # Put TiDB and Upstash in the matching region (Oregon is AWS us-west-2).
@@ -26,16 +26,16 @@ services:
         value: "1"
 
       # Storage
-      - key: DATABASE_URL # TiDB Cloud: mysql://<user>:<password>@<host>:4000/answerable
+      - key: DATABASE_URL # TiDB Cloud: mysql://<user>:<password>@<host>:4000/aloud
         sync: false
       - key: DATABASE_SSL # TiDB Cloud only takes TLS connections
         value: "1"
       - key: REDIS_URL # Upstash: rediss://default:<password>@<host>:6379
         sync: false
       - key: REDIS_PREFIX
-        value: answerable
+        value: aloud
 
-      # The web app's origin on Vercel, for CORS, e.g. https://answerable.vercel.app
+      # The web app's origin on Vercel, for CORS, e.g. https://aloud.vercel.app
       - key: WEB_ORIGIN
         sync: false
       # The app's key ships in its bundle, so keyed requests are held to saved listings.

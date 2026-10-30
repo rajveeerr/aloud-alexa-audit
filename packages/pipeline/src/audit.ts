@@ -30,8 +30,8 @@ import {
   type ProofRun,
   type RawListing,
   type Score,
-} from "@answerable/core";
-import { pickCompetitors, ProviderError, QuotaExhaustedError } from "@answerable/providers";
+} from "@aloud/core";
+import { pickCompetitors, ProviderError, QuotaExhaustedError } from "@aloud/providers";
 import type { ImageClaimStore, ImageFetcher, IntentSetStore, ListingStore, ReviewStore, SearchStore } from "./stores";
 
 export type AuditRequest = {

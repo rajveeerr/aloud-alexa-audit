@@ -4,7 +4,7 @@
  * and prints it once. This is how a production deploy gets a key, since API_KEY_DEV is never
  * seeded when NODE_ENV=production.
  */
-import { connect, DEFAULT_DATABASE_URL } from "@answerable/db";
+import { connect, DEFAULT_DATABASE_URL } from "@aloud/db";
 import { createApiKey } from "./keys";
 
 const [name, perMinute] = process.argv.slice(2);

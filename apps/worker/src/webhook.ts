@@ -1,5 +1,5 @@
 import { createHmac, timingSafeEqual } from "node:crypto";
-import { fetchWithTimeout } from "@answerable/providers";
+import { fetchWithTimeout } from "@aloud/providers";
 
 export type WebhookConfig = { url: string; secret: string; timeoutMs?: number; fetch?: typeof fetch };
 
@@ -7,7 +7,7 @@ export type AuditCompletedEvent = { type: "audit.completed"; auditId: string; as
 export type AuditFailedEvent = { type: "audit.failed"; auditId: string; asin: string; error: { code: string; message: string } };
 export type AuditEvent = AuditCompletedEvent | AuditFailedEvent;
 
-export const SIGNATURE_HEADER = "x-answerable-signature";
+export const SIGNATURE_HEADER = "x-aloud-signature";
 
 /** HMAC-SHA256 of the exact body, so the receiver can tell the call came from us and wasn't edited. */
 export function sign(body: string, secret: string): string {

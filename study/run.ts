@@ -11,8 +11,8 @@
  */
 import { readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
-import { gradeListing, normalize, scoreGrades, type IntentSet } from "@answerable/core";
-import { CachedLlm, GeminiLlm, PATIENT_RETRY, ProviderError, QuotaExhaustedError } from "@answerable/providers";
+import { gradeListing, normalize, scoreGrades, type IntentSet } from "@aloud/core";
+import { CachedLlm, GeminiLlm, PATIENT_RETRY, ProviderError, QuotaExhaustedError } from "@aloud/providers";
 import { jsonl, MODEL, ROOT, STUDY, type Sample, type ScoreRow, type Scores } from "./lib";
 
 /** Free tier allows about 10 requests a minute; keep new requests at least this far apart. */

@@ -11,7 +11,7 @@
  */
 import { readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
-import { CachedLlm, GeminiLlm, PATIENT_RETRY } from "@answerable/providers";
+import { CachedLlm, GeminiLlm, PATIENT_RETRY } from "@aloud/providers";
 import {
   baselineOf,
   checkAgainst,

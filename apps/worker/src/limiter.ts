@@ -1,4 +1,4 @@
-import type { LlmProvider } from "@answerable/providers";
+import type { LlmProvider } from "@aloud/providers";
 
 /**
  * Spaces real model calls to stay under a requests-per-minute cap (free-tier Flash-Lite is about 10).

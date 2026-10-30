@@ -26,7 +26,7 @@ export function LandingPage() {
             What can Alexa say about your product?
           </h1>
           <p className="mt-4 max-w-[58ch] text-[17px] leading-relaxed text-muted-foreground">
-            Enter an ASIN. answerable checks which shopper questions the listing answers in readable text, quotes the exact words for every answer,
+            Enter an ASIN. Aloud checks which shopper questions the listing answers in readable text, quotes the exact words for every answer,
             and ranks the fixes.
           </p>
           <div className="mt-8">

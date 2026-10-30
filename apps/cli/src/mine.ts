@@ -11,8 +11,8 @@ import { createReadStream } from "node:fs";
 import { readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { createInterface } from "node:readline";
-import { mineIntents, type ReviewText } from "@answerable/core";
-import { CachedLlm, GeminiLlm } from "@answerable/providers";
+import { mineIntents, type ReviewText } from "@aloud/core";
+import { CachedLlm, GeminiLlm } from "@aloud/providers";
 
 const ROOT = join(import.meta.dir, "../../..");
 const MODEL = "gemini-3.5-flash-lite";

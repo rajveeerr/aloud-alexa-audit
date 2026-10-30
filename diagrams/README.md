@@ -20,7 +20,7 @@ Each has an SVG export next to it for reading on GitHub.
 
 **1. SalesDuo fit.** SalesDuo's own blog says Alexa visibility isn't available
 as a metric in Seller Central. I can't measure Alexa, but I can measure what it
-reads. answerable sits in the middle: its gaps become briefs for Creative
+reads. Aloud sits in the middle: its gaps become briefs for Creative
 Studio, its score goes to the BI dashboard over time, Cohesity can ask for a
 rescore when a listing changes, and the homepage widget turns a free audit into
 a lead.

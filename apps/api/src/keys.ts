@@ -1,5 +1,5 @@
 import { randomBytes } from "node:crypto";
-import { ensureApiKey, type Db } from "@answerable/db";
+import { ensureApiKey, type Db } from "@aloud/db";
 import { hashKey } from "./auth";
 
 /**

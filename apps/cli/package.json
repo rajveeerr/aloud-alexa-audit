@@ -1,11 +1,11 @@
 {
-  "name": "@answerable/cli",
+  "name": "@aloud/cli",
   "version": "0.0.0",
   "private": true,
   "type": "module",
   "dependencies": {
-    "@answerable/core": "workspace:*",
-    "@answerable/providers": "workspace:*",
-    "@answerable/pipeline": "workspace:*"
+    "@aloud/core": "workspace:*",
+    "@aloud/providers": "workspace:*",
+    "@aloud/pipeline": "workspace:*"
   }
 }

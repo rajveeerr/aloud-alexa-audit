@@ -1,4 +1,4 @@
-import type { AuditJob } from "@answerable/contracts";
+import type { AuditJob } from "@aloud/contracts";
 import { CircleAlertIcon } from "lucide-react";
 import { useMemo, useState } from "react";
 import { Link, useParams } from "react-router";

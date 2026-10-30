@@ -46,6 +46,9 @@ test("the hero audit runs from the landing page to the report", async ({ page })
   await expect(page.getByTestId("fix").first()).toContainText("4 of 4 competitors answer it (1 partly)");
   await expect(page.getByTestId("proof-absent")).toContainText("Live listings come without review text");
   await shots.full(page, "03-report-hero");
+  // The top of the report and the hidden answers on their own, for the README.
+  await shots.view(page, "16-report-top");
+  await page.locator("#hidden").screenshot({ path: shots.path("17-hidden-answers") });
 
   await page.getByRole("button", { name: "Send to Studio" }).click();
   await expect(page.getByRole("dialog")).toContainText("Smooth Writing without Skipping");

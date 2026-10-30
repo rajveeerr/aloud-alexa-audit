@@ -1,5 +1,5 @@
 {
-  "name": "@answerable/worker",
+  "name": "@aloud/worker",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -10,11 +10,11 @@
     "start": "bun src/main.ts"
   },
   "dependencies": {
-    "@answerable/contracts": "workspace:*",
-    "@answerable/core": "workspace:*",
-    "@answerable/db": "workspace:*",
-    "@answerable/pipeline": "workspace:*",
-    "@answerable/providers": "workspace:*",
+    "@aloud/contracts": "workspace:*",
+    "@aloud/core": "workspace:*",
+    "@aloud/db": "workspace:*",
+    "@aloud/pipeline": "workspace:*",
+    "@aloud/providers": "workspace:*",
     "bullmq": "^5.81.5",
     "ioredis": "^5.11.1"
   }

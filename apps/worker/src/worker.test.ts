@@ -1,6 +1,6 @@
 import { describe, expect, test } from "bun:test";
-import { AuditError } from "@answerable/pipeline";
-import { CachedLlm, ProviderError, QuotaExhaustedError, type LlmProvider, type LlmRequest } from "@answerable/providers";
+import { AuditError } from "@aloud/pipeline";
+import { CachedLlm, ProviderError, QuotaExhaustedError, type LlmProvider, type LlmRequest } from "@aloud/providers";
 import { classify, INTERNAL_MESSAGE } from "./errors";
 import { isRedisDown } from "./queue";
 import { rateLimited } from "./limiter";
@@ -23,7 +23,7 @@ describe("classify", () => {
   });
 
   test("a missing replay recording is not_recorded, not a provider error", async () => {
-    const llm = new CachedLlm(null, "/tmp/answerable-empty-llm-cache", "replay");
+    const llm = new CachedLlm(null, "/tmp/aloud-empty-llm-cache", "replay");
     const err = await llm.generateJson({ model: "m", parts: [{ text: "never recorded" }], schema: {}, promptVersion: "v" }).catch((e) => e);
     expect(classify(err)).toMatchObject({ kind: "fail", code: "not_recorded" });
     expect(classify(err).message).not.toContain("No recorded");

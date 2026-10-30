@@ -1,7 +1,7 @@
 import { createHash } from "node:crypto";
 import type { RequestHandler } from "express";
 import type { Redis } from "ioredis";
-import { findApiKey, type Db } from "@answerable/db";
+import { findApiKey, type Db } from "@aloud/db";
 import { HttpError } from "./errors";
 import { hit } from "./ratelimit";
 

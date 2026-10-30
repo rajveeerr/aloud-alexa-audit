@@ -7,7 +7,7 @@
  */
 import { readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
-import type { IntentSet } from "@answerable/core";
+import type { IntentSet } from "@aloud/core";
 import { ROOT, STUDY, type Sample, type Scores } from "./lib";
 import { estimate, mean, median, partialStat, spearmanStat, type Estimate } from "./stats";
 

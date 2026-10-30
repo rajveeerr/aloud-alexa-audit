@@ -1,7 +1,7 @@
 import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
-import type { IntentSet, ListingSource, RawListing, ReviewText } from "@answerable/core";
-import { FixtureProductData, ImageStore, SerpApiProductData, SerpApiSearch, type ImageData, type SearchResult } from "@answerable/providers";
+import type { IntentSet, ListingSource, RawListing, ReviewText } from "@aloud/core";
+import { FixtureProductData, ImageStore, SerpApiProductData, SerpApiSearch, type ImageData, type SearchResult } from "@aloud/providers";
 
 /** Where listings come from. Snapshots first, a live fetch only when allowed and nothing is saved. */
 export interface ListingStore {

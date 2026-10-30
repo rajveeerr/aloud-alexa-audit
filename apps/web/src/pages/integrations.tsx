@@ -164,7 +164,7 @@ function StudioCard({ id }: { id: string }) {
   return (
     <div className="grid gap-4 md:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] md:items-center">
       <div className="rounded-xl border p-5">
-        <p className="text-[13px] text-muted-foreground">answerable, fix #1</p>
+        <p className="text-[13px] text-muted-foreground">Aloud, fix #1</p>
         <p className="mt-1 text-[15px] font-semibold">{brief.question}</p>
         <p className="mt-2 text-sm">
           {ACTION_LABEL[brief.action]}, into {targetLabel(brief.target).toLowerCase()}

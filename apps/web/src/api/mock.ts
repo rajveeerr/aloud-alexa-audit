@@ -2,7 +2,7 @@
  * The API, faked in the browser over reports the real pipeline produced (scripts/make-mocks.ts).
  * Jobs move queued → running → done on a timer so the progress states are visible.
  */
-import type { AuditJob, AuditReport, AuditStatus, AuditSummary, BulkJob, PublicAuditResult, SavedListing } from "@answerable/contracts";
+import type { AuditJob, AuditReport, AuditStatus, AuditSummary, BulkJob, PublicAuditResult, SavedListing } from "@aloud/contracts";
 import { competitorCounts } from "@/lib/report";
 import index from "../mocks/listings.json";
 import type { PublicApi } from "./public";
@@ -27,7 +27,7 @@ function loadReport(key: string): Promise<AuditReport> {
 
 const QUEUED_MS = 500;
 const DONE_MS = 2000;
-const STORE_KEY = "answerable.mock.v2";
+const STORE_KEY = "aloud.mock.v2";
 
 type MockJob = {
   id: string;

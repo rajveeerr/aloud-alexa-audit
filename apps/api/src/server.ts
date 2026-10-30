@@ -1,7 +1,7 @@
 import type { Server } from "node:http";
 import type { AddressInfo } from "node:net";
-import { connect, DEFAULT_DATABASE_URL, ensureApiKey } from "@answerable/db";
-import { fsStores, type AuditDeps, type AuditRequest } from "@answerable/pipeline";
+import { connect, DEFAULT_DATABASE_URL, ensureApiKey } from "@aloud/db";
+import { fsStores, type AuditDeps, type AuditRequest } from "@aloud/pipeline";
 import {
   createAuditQueue,
   DEFAULT_REDIS_PREFIX,
@@ -13,7 +13,7 @@ import {
   webhookFromEnv,
   type RunningWorker,
   type WebhookConfig,
-} from "@answerable/worker";
+} from "@aloud/worker";
 import { createApp, type AppConfig } from "./app";
 import { hashKey } from "./auth";
 

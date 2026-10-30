@@ -8,7 +8,7 @@ export type AuditJobData = { auditId: string };
 export const DEFAULT_REDIS_URL = "redis://127.0.0.1:6389";
 
 /** Every key this app writes starts with it, so a shared Redis (or a test run) stays separate. */
-export const DEFAULT_REDIS_PREFIX = "answerable";
+export const DEFAULT_REDIS_PREFIX = "aloud";
 
 /**
  * For the worker only. BullMQ needs maxRetriesPerRequest null there so its blocking commands

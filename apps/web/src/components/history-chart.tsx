@@ -1,4 +1,4 @@
-import type { HistoryPoint } from "@answerable/contracts";
+import type { HistoryPoint } from "@aloud/contracts";
 import { useEffect, useRef, useState } from "react";
 
 const H = 150;

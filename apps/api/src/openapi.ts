@@ -1,5 +1,5 @@
 /**
- * OpenAPI 3.1 description of /v1, written by hand to match app.ts and @answerable/contracts.
+ * OpenAPI 3.1 description of /v1, written by hand to match app.ts and @aloud/contracts.
  * The audit report itself is the pipeline's AuditResult; it's described loosely here because
  * it's large and the contracts package is its real reference.
  */
@@ -23,7 +23,7 @@ const common = {
 export const openApiDocument = {
   openapi: "3.1.0",
   info: {
-    title: "answerable API",
+    title: "Aloud API",
     version: "1.0.0",
     description: "Alexa for Shopping readiness audits. Audits run on a queue: create one, then poll it until it's done or failed.",
   },
@@ -195,7 +195,7 @@ export const openApiDocument = {
       post: {
         ...keyed,
         summary: "Queue an audit",
-        description: "Send x-answerable-origin: app from the web app; anything else is recorded as an API audit.",
+        description: "Send x-aloud-origin: app from the web app; anything else is recorded as an API audit.",
         requestBody: { required: true, ...json(ref("CreateAuditBody")) },
         responses: {
           "202": { description: "Queued", ...json({ type: "object", required: ["id", "status"], properties: { id, status } }) },

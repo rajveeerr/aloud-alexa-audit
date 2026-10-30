@@ -1,11 +1,11 @@
 import { describe, expect, test } from "bun:test";
 import { join } from "node:path";
-import { CachedLlm } from "@answerable/providers";
+import { CachedLlm } from "@aloud/providers";
 import { AuditError, runAudit } from "./audit";
 import { fsStores, parseReviewLines } from "./stores";
 
 const ROOT = join(import.meta.dir, "../../..");
-const stores = fsStores({ fixturesDir: join(ROOT, "fixtures"), imageCacheDir: "/tmp/answerable-test-images" });
+const stores = fsStores({ fixturesDir: join(ROOT, "fixtures"), imageCacheDir: "/tmp/aloud-test-images" });
 const deps = { llm: new CachedLlm(null, join(ROOT, "fixtures/llm"), "replay"), vision: null, model: "gemini-3.5-flash-lite", ...stores, images: null };
 
 describe("runAudit (replayed, no network)", () => {

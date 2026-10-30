@@ -4,7 +4,7 @@ import { migrate } from "drizzle-orm/mysql2/migrator";
 import mysql from "mysql2/promise";
 import * as schema from "./schema";
 
-export const DEFAULT_DATABASE_URL = "mysql://root:answerable@127.0.0.1:3317/answerable";
+export const DEFAULT_DATABASE_URL = "mysql://root:aloud@127.0.0.1:3317/aloud";
 
 export type Db = MySql2Database<typeof schema>;
 

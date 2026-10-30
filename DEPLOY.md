@@ -1,4 +1,4 @@
-# Deploying answerable for $0
+# Deploying Aloud for $0
 
 ```
 Vercel (apps/web: app + widget.html)  ──▶  Render free web service (Dockerfile: API + worker, RUN_WORKER=1)
@@ -18,7 +18,7 @@ region for all three backends. Oregon on Render is AWS us-west-2, which TiDB and
 ```sh
 bun run db:up            # MySQL on 3317, Redis on 6389
 bun run docker:build
-bun run docker:run       # API + worker on http://localhost:4100, database answerable_docker
+bun run docker:run       # API + worker on http://localhost:4100, database aloud_docker
 ```
 
 `NODE_ENV=production` is baked into the image, so `API_KEY_DEV` is never seeded there. Add a key
@@ -37,10 +37,10 @@ TiDB Cloud's free tier is called Starter (it used to be Serverless).
 4. Your `DATABASE_URL` is:
 
    ```
-   mysql://4AbCdEfGh.root:<password>@gateway01.us-west-2.prod.aws.tidbcloud.com:4000/answerable
+   mysql://4AbCdEfGh.root:<password>@gateway01.us-west-2.prod.aws.tidbcloud.com:4000/aloud
    ```
 
-   URL-encode the password if it has characters such as `@`, `/` or `#`. The `answerable` database
+   URL-encode the password if it has characters such as `@`, `/` or `#`. The `aloud` database
    doesn't have to exist: the migration step creates it.
 
 **TLS.** TiDB Cloud refuses plain connections. Set `DATABASE_SSL=1` (render.yaml already does), or
@@ -78,14 +78,14 @@ uses `maxRetriesPerRequest: null`, as BullMQ requires, and the API's connection 
 ## 4. Render (API + worker)
 
 1. Render dashboard, **New**, **Blueprint**, connect the GitHub repo. Render reads `render.yaml`
-   and proposes one free web service, `answerable-api`, built from the root `Dockerfile`.
+   and proposes one free web service, `aloud-api`, built from the root `Dockerfile`.
 2. Render asks for each `sync: false` value:
 
    | Variable | Value | Secret? |
    |---|---|---|
    | `DATABASE_URL` | the TiDB URL from step 2 | yes |
    | `REDIS_URL` | the Upstash `rediss://` URL from step 3 | yes |
-   | `WEB_ORIGIN` | the Vercel URL, like `https://answerable.vercel.app` (no trailing slash). Not known yet: put `http://localhost:5181` and fix it in step 7 | no |
+   | `WEB_ORIGIN` | the Vercel URL, like `https://aloud.vercel.app` (no trailing slash). Not known yet: put `http://localhost:5181` and fix it in step 7 | no |
    | `GEMINI_API_KEY` | blank for replay only (no model calls), or a key from AI Studio | yes |
    | `SERPAPI_KEY` | blank (saved listings only), or your SerpApi key | yes |
    | `AUDIT_WEBHOOK_URL` | blank unless you want the `audit.completed` webhook | no |
@@ -95,7 +95,7 @@ uses `maxRetriesPerRequest: null`, as BullMQ requires, and the API's connection 
    `TRUST_PROXY=1`, `DATABASE_SSL=1`, `DEMO_READONLY=1`, the widget limits, `PUBLIC_LIVE=0`,
    `GEMINI_MODEL`, `GEMINI_RPM=10`. Don't set `PORT`; Render sets it and the API reads it.
 3. **Apply**. The first build takes a few minutes. On start the container runs the migrations
-   (creating the `answerable` database if needed), then the API with the worker. The logs should
+   (creating the `aloud` database if needed), then the API with the worker. The logs should
    end with:
 
    ```
@@ -105,7 +105,7 @@ uses `maxRetriesPerRequest: null`, as BullMQ requires, and the API's connection 
    ```
 
    The last line is expected. Production keys are added in step 5.
-4. Note the service URL, like `https://answerable-api.onrender.com`.
+4. Note the service URL, like `https://aloud-api.onrender.com`.
 
 **Keep these secret** (Render stores them; never put them in the repo or in a `VITE_*` variable):
 `GEMINI_API_KEY`, `SERPAPI_KEY`, `DATABASE_URL`, `REDIS_URL`, `AUDIT_WEBHOOK_SECRET`, and every API
@@ -126,7 +126,7 @@ your machine, pointed at the TiDB database. Run it after the first Render deploy
 migrations), or run `bun run db:migrate` with the same two variables first:
 
 ```sh
-DATABASE_URL='mysql://4AbCdEfGh.root:<password>@gateway01.us-west-2.prod.aws.tidbcloud.com:4000/answerable' \
+DATABASE_URL='mysql://4AbCdEfGh.root:<password>@gateway01.us-west-2.prod.aws.tidbcloud.com:4000/aloud' \
 DATABASE_SSL=1 \
 bun run key:add vercel-app
 ```
@@ -149,11 +149,11 @@ each integration, so a key can be removed on its own:
 
    | Variable | Value |
    |---|---|
-   | `VITE_API_URL` | the Render URL, like `https://answerable-api.onrender.com` |
+   | `VITE_API_URL` | the Render URL, like `https://aloud-api.onrender.com` |
    | `VITE_API_KEY` | the key from step 5 |
 
    These are read at build time, so changing either one needs a redeploy.
-5. **Deploy**, and note the URL, like `https://answerable.vercel.app`.
+5. **Deploy**, and note the URL, like `https://aloud.vercel.app`.
 
 `vercel.json` also:
 
@@ -176,16 +176,16 @@ build without `VITE_API_KEY`, and set `DEMO_READONLY=0`.
 
 ## 7. Point CORS at the web app
 
-Back in Render, set `WEB_ORIGIN` to the exact Vercel origin, like `https://answerable.vercel.app`
+Back in Render, set `WEB_ORIGIN` to the exact Vercel origin, like `https://aloud.vercel.app`
 (scheme and host, no path, no trailing slash), and save. Render redeploys. CORS allows that one
-origin only, so Vercel preview URLs (`answerable-git-<branch>-...vercel.app`) can't call the API.
+origin only, so Vercel preview URLs (`aloud-git-<branch>-...vercel.app`) can't call the API.
 Test on the production URL.
 
 ## 8. Post-deploy checks
 
 ```sh
-API=https://answerable-api.onrender.com
-WEB=https://answerable.vercel.app
+API=https://aloud-api.onrender.com
+WEB=https://aloud.vercel.app
 KEY=ans_...   # from step 5
 ```
 
@@ -215,7 +215,7 @@ curl -s -o /dev/null -w '%{http_code}\n' $API/v1/audits
 curl -s -X POST $API/v1/rescore -H "x-api-key: $KEY" -H 'content-type: application/json' \
   -d '{"asin":"B0C9W8DD9S","reason":"check"}'; echo
 
-# 7. CORS: expect access-control-allow-origin: https://answerable.vercel.app
+# 7. CORS: expect access-control-allow-origin: https://aloud.vercel.app
 curl -s -o /dev/null -D - -X OPTIONS $API/v1/audits -H "Origin: $WEB" \
   -H 'Access-Control-Request-Method: POST' | grep -i access-control-allow-origin
 

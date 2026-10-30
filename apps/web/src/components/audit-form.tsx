@@ -1,4 +1,4 @@
-import { Asin, type SavedListing } from "@answerable/contracts";
+import { Asin, type SavedListing } from "@aloud/contracts";
 import { ChevronDownIcon, LoaderCircleIcon } from "lucide-react";
 import { useId, useState, type FormEvent } from "react";
 import { useNavigate } from "react-router";

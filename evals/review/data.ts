@@ -4,9 +4,9 @@
  */
 import { readdir, readFile } from "node:fs/promises";
 import { join } from "node:path";
-import { normalize, resolveIntentSet, type Field, type GradeStatus, type Intent, type IntentSet, type ProofLabel } from "@answerable/core";
-import { fsStores } from "@answerable/pipeline";
-import { CachedLlm } from "@answerable/providers";
+import { normalize, resolveIntentSet, type Field, type GradeStatus, type Intent, type IntentSet, type ProofLabel } from "@aloud/core";
+import { fsStores } from "@aloud/pipeline";
+import { CachedLlm } from "@aloud/providers";
 import { FIXTURES, readJsonl, replayGrades, replayProof, type GoldGrade, type GoldProof } from "../lib";
 import { gradeKey } from "./jsonl";
 
@@ -40,7 +40,7 @@ const view = (i: Intent): QuestionView => ({ id: i.id, kind: i.kind, question: i
 export async function loadContext(): Promise<ReviewContext> {
   const grades = await readJsonl<GoldGrade>(GRADES_PATH);
   const proof = await readJsonl<GoldProof>(PROOF_PATH);
-  const stores = fsStores({ fixturesDir: FIXTURES, imageCacheDir: "/tmp/answerable-evals-images" });
+  const stores = fsStores({ fixturesDir: FIXTURES, imageCacheDir: "/tmp/aloud-evals-images" });
   const sets = await intentSets();
 
   const listings: ReviewContext["listings"] = {};

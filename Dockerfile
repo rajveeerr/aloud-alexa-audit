@@ -1,8 +1,8 @@
 # The API with the audit worker in the same process (RUN_WORKER=1): one service for a free tier.
 # Bun runs the TypeScript as is, so there's no build step, only a production install.
 #
-#   docker build -t answerable-api .
-#   docker run --rm -p 4100:4100 -e DATABASE_URL=... -e REDIS_URL=... answerable-api
+#   docker build -t aloud-api .
+#   docker run --rm -p 4100:4100 -e DATABASE_URL=... -e REDIS_URL=... aloud-api
 
 FROM oven/bun:1.1 AS deps
 WORKDIR /app
@@ -17,7 +17,7 @@ COPY packages/core/package.json packages/core/
 COPY packages/db/package.json packages/db/
 COPY packages/pipeline/package.json packages/pipeline/
 COPY packages/providers/package.json packages/providers/
-RUN bun install --frozen-lockfile --production --filter '@answerable/api'
+RUN bun install --frozen-lockfile --production --filter '@aloud/api'
 
 FROM oven/bun:1.1-slim
 WORKDIR /app

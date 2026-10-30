@@ -1,19 +1,19 @@
 # Local MySQL and Redis for the API and worker. Ports are off the defaults so they
 # don't clash with anything else running on the machine.
-name: answerable
+name: aloud
 
 services:
   mysql:
     image: mysql:8.4
     environment:
-      MYSQL_ROOT_PASSWORD: answerable
-      MYSQL_DATABASE: answerable
+      MYSQL_ROOT_PASSWORD: aloud
+      MYSQL_DATABASE: aloud
     ports:
       - "3317:3306"
     volumes:
       - mysql-data:/var/lib/mysql
     healthcheck:
-      test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1", "-uroot", "-panswerable"]
+      test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1", "-uroot", "-paloud"]
       interval: 5s
       timeout: 5s
       retries: 20

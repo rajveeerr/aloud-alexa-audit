@@ -1,5 +1,5 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import type { AuditStatus } from "@answerable/contracts";
+import type { AuditStatus } from "@aloud/contracts";
 import { getApi, type Api, type SavedSource } from "./index";
 import { pollUntil } from "./polling";
 

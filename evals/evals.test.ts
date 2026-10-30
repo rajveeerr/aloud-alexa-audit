@@ -1,8 +1,8 @@
 import { describe, expect, test } from "bun:test";
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
-import { GRADE_PROMPT_VERSION, PROOF_PROMPT_VERSION } from "@answerable/core";
-import { CachedLlm } from "@answerable/providers";
+import { GRADE_PROMPT_VERSION, PROOF_PROMPT_VERSION } from "@aloud/core";
+import { CachedLlm } from "@aloud/providers";
 import { accuracy, checkAgainst, confusion, FIXTURES, perLabel, readJsonl, runEvals, STATUSES, verifierEffect, type Baseline, type GoldGrade, type GoldProof } from "./lib";
 
 describe("metrics", () => {

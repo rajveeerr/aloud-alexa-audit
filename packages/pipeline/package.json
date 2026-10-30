@@ -1,5 +1,5 @@
 {
-  "name": "@answerable/pipeline",
+  "name": "@aloud/pipeline",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -7,7 +7,7 @@
     ".": "./src/index.ts"
   },
   "dependencies": {
-    "@answerable/core": "workspace:*",
-    "@answerable/providers": "workspace:*"
+    "@aloud/core": "workspace:*",
+    "@aloud/providers": "workspace:*"
   }
 }

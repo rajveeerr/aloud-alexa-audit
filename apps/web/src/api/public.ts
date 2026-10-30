@@ -2,7 +2,7 @@
  * The widget's client: only the public, keyless endpoints. It must never import the keyed client
  * (index.ts, http.ts), so the widget bundle carries no API key.
  */
-import type { ApiError, PublicAuditResult } from "@answerable/contracts";
+import type { ApiError, PublicAuditResult } from "@aloud/contracts";
 import { API_URL } from "./env";
 import { parseRetryAfter } from "./poll";
 import { ApiRequestError, type PublicAuditInput } from "./types";

@@ -7,8 +7,8 @@
  */
 import { mkdir, writeFile } from "node:fs/promises";
 import { join } from "node:path";
-import { fsStores, runAudit } from "@answerable/pipeline";
-import { CachedLlm } from "@answerable/providers";
+import { fsStores, runAudit } from "@aloud/pipeline";
+import { CachedLlm } from "@aloud/providers";
 
 const ROOT = join(import.meta.dir, "../../..");
 const OUT = join(import.meta.dir, "../src/mocks/reports");
@@ -25,7 +25,7 @@ const FIXTURES = [
   { asin: "B00P6N6LC2", source: "dataset" },
 ] as const;
 
-const stores = fsStores({ fixturesDir: join(ROOT, "fixtures"), imageCacheDir: "/tmp/answerable-mock-images" });
+const stores = fsStores({ fixturesDir: join(ROOT, "fixtures"), imageCacheDir: "/tmp/aloud-mock-images" });
 const deps = { llm: new CachedLlm(null, join(ROOT, "fixtures/llm"), "replay"), vision: null, model: "gemini-3.5-flash-lite", ...stores, images: null };
 
 await mkdir(OUT, { recursive: true });

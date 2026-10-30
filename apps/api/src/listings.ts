@@ -1,6 +1,6 @@
-import type { SavedListing } from "@answerable/contracts";
-import { leafCategory, normalize } from "@answerable/core";
-import type { ListingStore } from "@answerable/pipeline";
+import type { SavedListing } from "@aloud/contracts";
+import { leafCategory, normalize } from "@aloud/core";
+import type { ListingStore } from "@aloud/pipeline";
 
 type Source = SavedListing["source"];
 

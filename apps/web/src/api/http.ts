@@ -1,4 +1,4 @@
-import type { ApiError } from "@answerable/contracts";
+import type { ApiError } from "@aloud/contracts";
 import { parseRetryAfter } from "./poll";
 import { ApiRequestError, type Api } from "./types";
 
@@ -14,7 +14,7 @@ export function httpApi({ baseUrl, apiKey }: Options): Api {
     if (init.key !== false) {
       headers["x-api-key"] = apiKey;
       // The API records where an audit came from; without this it counts as an API integration.
-      headers["x-answerable-origin"] = "app";
+      headers["x-aloud-origin"] = "app";
     }
 
     let res: Response;

@@ -1,6 +1,6 @@
 #!/usr/bin/env bun
 /** bun run worker: processes the audits queue on its own. The API can also run it in-process. */
-import { connect } from "@answerable/db";
+import { connect } from "@aloud/db";
 import { depsConfigFromEnv, makeDeps } from "./deps";
 import { webhookFromEnv } from "./env";
 import { onShutdown } from "./shutdown";

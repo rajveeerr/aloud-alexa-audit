@@ -13,7 +13,7 @@ import type {
   RescoreResult,
   SavedListing,
   StudioBriefs,
-} from "@answerable/contracts";
+} from "@aloud/contracts";
 import type { z } from "zod";
 
 /** Request bodies as the client sends them: fields with server defaults are optional. */

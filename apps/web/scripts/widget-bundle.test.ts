@@ -28,7 +28,7 @@ function reachable(outDir: string): string[] {
 
 describe("widget bundle", () => {
   test("never contains the API key, while the app bundle does", () => {
-    const outDir = mkdtempSync(join(tmpdir(), "answerable-web-"));
+    const outDir = mkdtempSync(join(tmpdir(), "aloud-web-"));
     try {
       const build = Bun.spawnSync(["bunx", "vite", "build", "--outDir", outDir, "--emptyOutDir"], {
         cwd: WEB,

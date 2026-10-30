@@ -17,8 +17,8 @@ import { createReadStream } from "node:fs";
 import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { createInterface } from "node:readline";
-import { claimKeywords, gradeListing, mentions, normalize, resolveIntentSet, type IntentSet } from "@answerable/core";
-import { CachedLlm, FixtureProductData } from "@answerable/providers";
+import { claimKeywords, gradeListing, mentions, normalize, resolveIntentSet, type IntentSet } from "@aloud/core";
+import { CachedLlm, FixtureProductData } from "@aloud/providers";
 
 const ROOT = join(import.meta.dir, "../../..");
 const FIXTURES = join(ROOT, "fixtures");

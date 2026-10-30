@@ -1,4 +1,4 @@
-# @answerable/web
+# @aloud/web
 
 Two pages, two bundles:
 

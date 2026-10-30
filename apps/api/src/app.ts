@@ -13,10 +13,10 @@ import {
   RescoreBody,
   type AuditOrigin,
   type Health,
-} from "@answerable/contracts";
-import { addLead, addLeadOnce, getAudit, getBulk, history, leadAuditIds, listAudits, listBulks, type Db } from "@answerable/db";
-import type { ListingStore } from "@answerable/pipeline";
-import { rescore, startBulk, submitAudit, type AuditJobData } from "@answerable/worker";
+} from "@aloud/contracts";
+import { addLead, addLeadOnce, getAudit, getBulk, history, leadAuditIds, listAudits, listBulks, type Db } from "@aloud/db";
+import type { ListingStore } from "@aloud/pipeline";
+import { rescore, startBulk, submitAudit, type AuditJobData } from "@aloud/worker";
 import { requireApiKey } from "./auth";
 import { errorHandler, HttpError, notFound } from "./errors";
 import { publicSource, savedListings } from "./listings";
@@ -73,7 +73,7 @@ function within<T>(p: Promise<T>, ms: number): Promise<T> {
 
 /** The web app says it's the web app; everything else with a key is an API integration. */
 function originOf(req: Request): AuditOrigin {
-  return req.get("x-answerable-origin") === "app" ? "app" : "api";
+  return req.get("x-aloud-origin") === "app" ? "app" : "api";
 }
 
 export function createApp(ctx: AppContext): express.Express {

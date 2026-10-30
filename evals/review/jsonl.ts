@@ -4,7 +4,7 @@
  */
 import { readFile, rename, unlink, writeFile } from "node:fs/promises";
 import { basename, dirname, join } from "node:path";
-import type { GradeStatus, ProofLabel } from "@answerable/core";
+import type { GradeStatus, ProofLabel } from "@aloud/core";
 import { PROOF_LABELS, STATUSES, type GoldGrade, type GoldProof } from "../lib";
 
 /** The raw lines of a file, and which line each parsed row came from. */

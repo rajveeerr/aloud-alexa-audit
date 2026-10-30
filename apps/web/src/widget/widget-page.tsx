@@ -1,5 +1,5 @@
-import { Asin, PublicAuditBody, PublicEmailBody } from "@answerable/contracts";
-import type { PublicAuditResult } from "@answerable/contracts";
+import { Asin, PublicAuditBody, PublicEmailBody } from "@aloud/contracts";
+import type { PublicAuditResult } from "@aloud/contracts";
 import { ImageIcon, LoaderCircleIcon } from "lucide-react";
 import { useId, useState, type FormEvent } from "react";
 import { usePastCap } from "@/api/use-past-cap";

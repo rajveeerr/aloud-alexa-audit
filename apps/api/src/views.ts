@@ -1,6 +1,6 @@
 /** Database rows to the contract's response types. Kept apart from routes so they're easy to test. */
-import type { AsinHistory, AuditJob, AuditReport, AuditSummary, BulkJob, BulkSummary, PublicAuditResult, StudioBriefs } from "@answerable/contracts";
-import type { AuditRow, AuditStatusValue, AuditSummaryRow, BulkJobRow } from "@answerable/db";
+import type { AsinHistory, AuditJob, AuditReport, AuditSummary, BulkJob, BulkSummary, PublicAuditResult, StudioBriefs } from "@aloud/contracts";
+import type { AuditRow, AuditStatusValue, AuditSummaryRow, BulkJobRow } from "@aloud/db";
 
 const iso = (d: Date | null) => (d ? d.toISOString() : undefined);
 

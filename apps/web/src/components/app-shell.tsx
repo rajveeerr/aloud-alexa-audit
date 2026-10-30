@@ -18,7 +18,7 @@ export function Logo({ className }: { className?: string }) {
         <rect width="32" height="32" rx="8" fill="#FF8800" />
         <path d="M9 17.5l4.5 4.5L23 11" fill="none" stroke="#fff" strokeWidth="3.2" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
-      answerable
+      Aloud
     </span>
   );
 }
@@ -36,7 +36,7 @@ export function AppShell() {
       </a>
       <header className="sticky top-0 z-40 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/85">
         <div className="mx-auto flex h-14 max-w-6xl items-center gap-4 px-4 sm:px-6">
-          <Link to="/" className="shrink-0 rounded-md" aria-label="answerable, new audit">
+          <Link to="/" className="shrink-0 rounded-md" aria-label="Aloud, new audit">
             <Logo />
           </Link>
           <nav aria-label="Main" className="-mx-1 flex min-w-0 flex-1 items-center gap-0.5 overflow-x-auto [scrollbar-width:none]">
@@ -77,7 +77,7 @@ export function AppShell() {
       </main>
       <footer className="border-t">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-2 px-4 py-6 text-[13px] text-muted-foreground sm:px-6">
-          <span>answerable measures what Alexa reads on a listing. It doesn't query Alexa.</span>
+          <span>Aloud measures what Alexa reads on a listing. It doesn't query Alexa.</span>
           <span>Built for SalesDuo</span>
         </div>
       </footer>

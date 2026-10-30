@@ -2,12 +2,12 @@ import { describe, expect, test } from "bun:test";
 import mysql from "mysql2/promise";
 import { connectionOptions, TLS } from "./client";
 
-const LOCAL = "mysql://root:answerable@127.0.0.1:3317/answerable";
+const LOCAL = "mysql://root:aloud@127.0.0.1:3317/aloud";
 // The live TLS checks follow TEST_DATABASE_URL's host and port, like the other database tests, so
 // they work wherever the test MySQL runs (CI services, a container, compose on this machine).
 const LIVE = (() => {
   const u = new URL(process.env.TEST_DATABASE_URL || LOCAL);
-  u.pathname = "/answerable";
+  u.pathname = "/aloud";
   return u.toString();
 })();
 
@@ -24,7 +24,7 @@ describe("connectionOptions", () => {
   });
 
   test("?ssl=true in the URL turns on TLS and is removed, keeping other parameters", () => {
-    const url = "mysql://u.root:p%40ss@gateway01.eu-central-1.prod.aws.tidbcloud.com:4000/answerable?ssl=true&charset=utf8mb4";
+    const url = "mysql://u.root:p%40ss@gateway01.eu-central-1.prod.aws.tidbcloud.com:4000/aloud?ssl=true&charset=utf8mb4";
     const o = connectionOptions(url, {});
     expect(o.ssl).toEqual(TLS);
     const u = new URL(o.uri);
