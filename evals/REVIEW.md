@@ -9,13 +9,28 @@ written straight back to `gold/*.jsonl` (only that line changes, and `labeledBy`
 steps under "After reviewing" still apply. The rules below are the same either way.
 
 Every number in `results.md` is only as good as the labels it's scored
-against. Most labels here are drafts. Until they've been reviewed, the
+against. Most labels here are drafts. Until a person has reviewed them, the
 results are provisional and shouldn't be quoted as accuracy.
 
-- `gold/grades.jsonl`: 134 (listing, question) pairs, all `labeledBy: "draft"`.
+`labeledBy` says who set each label:
+
+- `"draft"`: drafted from the fields and rubric, not checked.
+- `"draft-checked"`: drafted, then independently re-checked in a second pass against the
+  listing fields and rubric (without looking at the tool's grades). Where the second pass
+  disagreed, the label was changed and the reason starts with the old value, e.g. "was
+  missing; ...". This is **not** a human review: these rows still need one.
+- `"rajveer"`: reviewed by hand, here or in the review page.
+- `"rajveer-spike"`: labelled by hand in an earlier test of the claim check.
+
+Now:
+
+- `gold/grades.jsonl`: 134 (listing, question) pairs, all `"draft-checked"`.
 - `gold/proof.jsonl`: 60 (claim, review) pairs. 40 Pentel smudge pairs are
-  `"rajveer-spike"` (labelled by hand in an earlier test of the claim check); 20 Sharpie
-  bleed-through pairs are `"draft"`.
+  `"rajveer-spike"`; 20 Sharpie bleed-through pairs are `"draft-checked"`.
+
+The second pass changed two labels: the hero's (serpapi B0C9W8DD9S)
+surface_compatibility from missing to partial, and `sharpie-bleed-12` from contradicts
+to mixed. Start with those.
 
 ## Grades: for each line in `gold/grades.jsonl`
 
@@ -38,8 +53,9 @@ Look hardest at the rows whose reason says "borderline", "debatable" or
 "review": Pentel's "standard writing paper" (surface_compatibility, partial),
 Scentco's pack count (2 packs of 8 vs Pack of 1, contradicted), BIC's
 "assorted colors" (partial), VIZ-PRO durability (answered), and the hero's
-surface_compatibility (missing; bullet 4 lists uses like scrapbooking and gift
-cards, which some would read as partial).
+surface_compatibility (now partial; bullet 4 lists uses like scrapbooking and gift
+cards, the same level as the G2 listings' "notes, journaling", though some would say
+missing, and "gift cards" could even be read as cardstock).
 
 ## Proof labels: for each line in `gold/proof.jsonl`
 
@@ -65,5 +81,5 @@ bun test                      # the eval test checks accuracy against it
 ```
 
 Then remove the "Provisional" note from `results.md` by regenerating it
-(`bun evals`) once no row says `"draft"`; the note is printed from the count of
-draft labels.
+(`bun evals`) once no row says `"draft"` or `"draft-checked"`; the note is printed from
+the count of both, and the review page counts both as still needing review.

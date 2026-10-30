@@ -67,7 +67,7 @@ describe("evals (replayed, no network)", () => {
     expect(checkAgainst(result, base)).toEqual([]);
     // The known hard cases from the first audits stay visible in the results.
     const row = (asin: string, intentId: string) => result.grades.rows.find((r) => r.asin === asin && r.intentId === intentId)!;
-    expect(row("B0C9W8DD9S", "surface_compatibility")).toMatchObject({ status: "missing", verified: "answered" });
+    expect(row("B0C9W8DD9S", "surface_compatibility")).toMatchObject({ status: "partial", verified: "answered" });
     expect(row("B0143LMAEK", "pack_contents")).toMatchObject({ status: "contradicted", verified: "contradicted" });
     expect(row("B097CF46RC", "tip_size").verified).toBe("contradicted");
   }, 30_000);

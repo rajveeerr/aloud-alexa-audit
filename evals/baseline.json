@@ -1,6 +1,6 @@
 {
   "gradeAccuracy": 0.8507,
-  "proofAccuracy": 0.8667,
+  "proofAccuracy": 0.85,
   "gradePairs": 134,
   "proofPairs": 60,
   "gradePromptVersion": "grade@2026-10-27.1",

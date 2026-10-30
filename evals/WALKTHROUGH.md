@@ -82,7 +82,9 @@ fields that state the answer, and a one-line reason. Labels were drafted from
 the fields and rubrics, not from the model's grades. `gold/proof.jsonl`: the
 40 hand-labelled Pentel spike pairs plus 20 drafted Sharpie bleed-through
 pairs, including hard "unrelated" ones ("bleeds onto my clothes" is leaking).
-See `REVIEW.md`: until reviewed, results are provisional.
+The drafts were then independently re-checked (`labeledBy: "draft-checked"`;
+2 of 154 changed), which is still not a human review. See `REVIEW.md`: until
+reviewed by a person, results are provisional.
 
 **Runner** (`bun evals`): replays recorded answers only. A missing recording
 is an error that prints the command to record it. It reports:
@@ -104,8 +106,8 @@ regression can't quietly become the new normal.
 ### First results (provisional)
 
 - Grades: **85.1%** after the verifier (model alone 85.8%), 134 pairs.
-  Answered F1 0.92, missing 0.87, contradicted 0.80, partial 0.71 (recall
-  0.58: the model tends to call "only says no smear" missing for dry time,
+  Answered F1 0.92, missing 0.89, contradicted 0.80, partial 0.69 (recall
+  0.56: the model tends to call "only says no smear" missing for dry time,
   and "smooth writing" answered for ink flow).
 - The verifier changed 1 of 134 statuses, and that one moved away from gold:
   Uni-ball B0143LMAEK is a white-ink pen, so "does it show on dark paper?"
@@ -116,8 +118,8 @@ regression can't quietly become the new normal.
   surface_compatibility answered from the clip bullet; G2 2023 "erasable"
   answered from a bullet about Pilot's other pens; U Brands "contradicted"
   on two fields that agree it has a frame.
-- Evidence: 97% of cited fields carry the answer.
-- Proof labels: **86.7%** on 4 labels, 92.2% on clear cases. The main miss is
+- Evidence: 96% of cited fields carry the answer.
+- Proof labels: **85.0%** on 4 labels, 92.0% on clear cases. The main miss is
   "unrelated": the model reads "bleeds onto my clothes" as contradicting "no
   bleed" (3 of 4 unrelated pairs).
 - Cost: about 10.6 requests, 32k input and 8.5k output tokens per full audit

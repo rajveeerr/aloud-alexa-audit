@@ -102,14 +102,15 @@ All the diagrams, in presenting order, are in [diagrams/](diagrams/) (Excalidraw
 
 ## Results
 
-**Evals** ([evals/results.md](evals/results.md)), on hand-labelled pairs. The
-grade labels are still drafts under review, so treat these as provisional:
+**Evals** ([evals/results.md](evals/results.md)). The grade labels were
+drafted and independently re-checked, but not yet reviewed by a person, so
+treat these as provisional:
 
 | | |
 |---|---|
 | Grading accuracy (134 listing × question pairs) | 85.1% |
-| Proof labels, clear cases | 92.2% |
-| Cited fields that really carry the answer | 97% |
+| Proof labels, clear cases | 92.0% |
+| Cited fields that really carry the answer | 96% |
 | Cost of a full audit on paid Gemini Flash-Lite | about 10.6 requests, $0.03 |
 
 **Does the score mean anything?** ([study/RESULTS.md](study/RESULTS.md)). 200

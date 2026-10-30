@@ -73,8 +73,8 @@ listing whose content hash hasn't changed.
 **9. Evals and cost.** I keep a gold set of 134 grading pairs and 60 review
 labels. `bun evals` replays the recorded answers offline, and CI fails if
 accuracy drops more than two points or the set or prompt changed. Grading is at
-85.1% and proof labels at 92.2% on clear cases. The labels are still drafts
-until I've reviewed them, so these are a first measurement.
+85.1% and proof labels at 92.0% on clear cases. The labels were drafted and
+re-checked, but I haven't reviewed them yet, so these are a first measurement.
 
 ## Editing
 

@@ -104,12 +104,12 @@
     <button id="tab-grades" aria-pressed="true">Grades</button>
     <button id="tab-proof" aria-pressed="false">Proof</button>
   </div>
-  <div class="progress" title="Rows no longer labelled draft">
+  <div class="progress" title="Rows reviewed by a person (not draft or draft-checked)">
     <div class="bar"><div id="bar" style="width:0"></div></div>
     <small id="progress-text">loading</small>
   </div>
   <div class="filters">
-    <label><input type="checkbox" id="f-drafts"> only drafts</label>
+    <label><input type="checkbox" id="f-drafts"> only unreviewed</label>
     <label><input type="checkbox" id="f-disagree"> only disagreements with the tool</label>
   </div>
   <div class="nav">
@@ -130,7 +130,7 @@
     The stored baseline in <code>evals/baseline.json</code> was measured against the drafts, so the accuracy the
     eval test checks against is the drafts' number, not yours. Re-baselining makes the check guard the reviewed labels.</p>
   <p class="small">You don't need to edit <code>results.md</code>: <code>bun evals</code> prints the "Provisional" note from
-    the count of rows still labelled <code>draft</code>, so it disappears by itself once none remain.</p>
+    the count of rows still labelled <code>draft</code> or <code>draft-checked</code>, so it disappears by itself once none remain.</p>
   <p class="small muted" id="drafts-left"></p>
   <div style="text-align:right"><button class="btn" id="close-dialog">Close</button></div>
 </dialog>
@@ -165,11 +165,14 @@ function toolOf(i) {
   if (mode === "grades") { const t = D.gradeTool[gkey(D.grades[i])]; return t ? t.verified : null; }
   return D.proofTool[D.proof[i].id] ?? null;
 }
+// "draft-checked" rows were re-checked by a second pass, not by a person, so they still need review.
+function needsReview(r) { return r.labeledBy === "draft" || r.labeledBy === "draft-checked"; }
+function draftBadge(r) { return r.labeledBy === "draft-checked" ? "draft, re-checked" : "draft"; }
 function goldOf(i) { return mode === "grades" ? D.grades[i].status : D.proof[i].label; }
 function visible() {
   const out = [];
   rows().forEach((r, i) => {
-    if ($("f-drafts").checked && r.labeledBy !== "draft") return;
+    if ($("f-drafts").checked && !needsReview(r)) return;
     if ($("f-disagree").checked && toolOf(i) === goldOf(i)) return;
     out.push(i);
   });
@@ -178,14 +181,14 @@ function visible() {
 
 function label(i) {
   const r = rows()[i];
-  const mark = r.labeledBy === "draft" ? "draft" : "done";
+  const mark = needsReview(r) ? draftBadge(r) : "done";
   return mode === "grades" ? `#${i + 1} ${r.asin} ${r.intentId} (${mark})` : `#${i + 1} ${r.id} (${mark})`;
 }
 
 function renderNav() {
   const list = visible();
   const all = rows();
-  const done = all.filter((r) => r.labeledBy !== "draft").length;
+  const done = all.filter((r) => !needsReview(r)).length;
   $("bar").style.width = `${(done / all.length) * 100}%`;
   $("progress-text").textContent = `${done} / ${all.length} reviewed`;
   if (list.length && !list.includes(pos[mode])) pos[mode] = list[0];
@@ -255,7 +258,7 @@ function renderGrade(i) {
   <section class="col" aria-label="Decision">
     <div class="card">
       <h2>Question <span class="muted">#${i + 1} of ${D.grades.length}</span>
-        ${r.labeledBy === "draft" ? `<span class="badge-draft">draft</span>` : `<span class="badge-reviewed">reviewed (${esc(r.labeledBy)})</span>`}</h2>
+        ${needsReview(r) ? `<span class="badge-draft">${draftBadge(r)}</span>` : `<span class="badge-reviewed">reviewed (${esc(r.labeledBy)})</span>`}</h2>
       <div class="question">${q ? esc(q.question) : esc(r.intentId)}</div>
       <div class="small"><span class="tag">${q ? esc(q.kind) : "?"}</span> <span class="mono muted">${esc(r.intentId)}</span>
         ${q && q.conditional ? `<span class="tag o">conditional: not applicable is allowed</span>` : ""}</div>
@@ -334,7 +337,7 @@ function renderProof(i) {
   <section class="col">
     <div class="card">
       <h2>Claim vs review <span class="muted">#${i + 1} of ${D.proof.length}</span>
-        ${r.labeledBy === "draft" ? `<span class="badge-draft">draft</span>` : `<span class="badge-reviewed">reviewed (${esc(r.labeledBy)})</span>`}</h2>
+        ${needsReview(r) ? `<span class="badge-draft">${draftBadge(r)}</span>` : `<span class="badge-reviewed">reviewed (${esc(r.labeledBy)})</span>`}</h2>
       <div class="small muted">Topic (<span class="mono">${esc(r.intentId)}</span>): ${esc(D.proofQuestions[r.intentId] || r.intentId)} <span class="mono">${esc(r.asin)}</span> <span class="mono">${esc(r.id)}</span></div>
       <h2 style="margin-top:12px">The listing claims</h2>
       <div class="claim">${esc(r.claim)}</div>
@@ -405,8 +408,8 @@ async function decideProof(labelName) {
 async function runEvals() {
   const dlg = $("evals-dialog");
   $("evals-output").textContent = "Running bun evals...";
-  const left = D.grades.filter((r) => r.labeledBy === "draft").length + D.proof.filter((r) => r.labeledBy === "draft").length;
-  $("drafts-left").textContent = left ? `${left} rows are still drafts, so results.md stays provisional for now.` : "No drafts left: results.md is no longer provisional. Re-baseline now.";
+  const left = D.grades.filter((r) => needsReview(r)).length + D.proof.filter((r) => needsReview(r)).length;
+  $("drafts-left").textContent = left ? `${left} rows still need a human review (draft or draft-checked), so results.md stays provisional for now.` : "Every row has been reviewed by a person: results.md is no longer provisional. Re-baseline now.";
   dlg.showModal();
   try {
     const { code, output } = await post("/api/evals", {});
@@ -449,8 +452,8 @@ fetch("/api/data").then((r) => r.json()).then((d) => {
   if (d.error) throw new Error(d.error);
   D = d;
   // Start on the first draft in each mode.
-  pos.grades = Math.max(0, D.grades.findIndex((r) => r.labeledBy === "draft"));
-  pos.proof = Math.max(0, D.proof.findIndex((r) => r.labeledBy === "draft"));
+  pos.grades = Math.max(0, D.grades.findIndex((r) => needsReview(r)));
+  pos.proof = Math.max(0, D.proof.findIndex((r) => needsReview(r)));
   render();
 }).catch((e) => { $("main").innerHTML = `<div class="card empty">Couldn't load: ${esc(e.message)}</div>`; });
 </script>

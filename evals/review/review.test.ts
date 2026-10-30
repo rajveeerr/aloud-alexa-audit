@@ -74,6 +74,11 @@ describe("decisions", () => {
     expect(JSON.stringify(out)).toBe(JSON.stringify(g).replace(`"labeledBy":"draft"`, `"labeledBy":"rajveer"`));
   });
 
+  test("accepting a re-checked draft marks it reviewed by rajveer", () => {
+    const g = grade({ labeledBy: "draft-checked" });
+    expect(applyGradeDecision(g, { status: g.status, fields: g.fields })).toEqual({ ...g, labeledBy: "rajveer" });
+  });
+
   test("a new status, fields and note", () => {
     const out = applyGradeDecision(grade(), { status: "answered", fields: ["bullet.2", "title", "bullet.2"], reason: "  0.5 mm in bullet 2. " });
     expect(out).toMatchObject({ status: "answered", fields: ["bullet.2", "title"], reason: "0.5 mm in bullet 2.", labeledBy: "rajveer" });

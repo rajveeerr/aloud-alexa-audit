@@ -102,10 +102,16 @@ function markdown(r: EvalResult, base: Baseline | null): string {
   const tOut = avg((c) => c.outputTokens) + vOut;
   const withProof = r.costs.filter((c) => c.byStep["proof-labels"]);
 
+  const d = r.drafts;
+  const unreviewedGrades = d.grades.draft + d.grades.checked;
+  const unreviewedProof = d.proof.draft + d.proof.checked;
+  const both = (u: { draft: number; checked: number }) =>
+    !u.draft ? "drafted and independently re-checked" : !u.checked ? "drafted only" : `${u.checked} drafted and independently re-checked, ${u.draft} drafted only`;
   const provisional =
-    r.drafts.grades + r.drafts.proof > 0
-      ? `> **Provisional.** ${r.drafts.grades} of ${g.rows.length} grade labels and ${r.drafts.proof} of ${p.rows.length} proof labels are
-> drafts (\`labeledBy: "draft"\`), not yet reviewed by hand (see [REVIEW.md](REVIEW.md)). The 40 Pentel smudge pairs
+    unreviewedGrades + unreviewedProof > 0
+      ? `> **Provisional.** ${unreviewedGrades} of ${g.rows.length} grade labels (${both(d.grades)}) and ${unreviewedProof} of
+> ${p.rows.length} proof labels (${both(d.proof)}) are not yet reviewed by a person (see [REVIEW.md](REVIEW.md)).
+> \`draft-checked\` means a second pass against the listing and rubric, not a human review. The 40 Pentel smudge pairs
 > were hand-labelled in an earlier test. Treat these numbers as a first measurement, not a result, until review is done.\n\n`
       : "";
 

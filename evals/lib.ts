@@ -37,7 +37,19 @@ export const CHECK_TOLERANCE = 0.02;
 export const STATUSES: GradeStatus[] = ["answered", "partial", "missing", "contradicted", "not_applicable"];
 export const PROOF_LABELS: ProofLabel[] = ["supports", "contradicts", "mixed", "unrelated"];
 
-export type LabeledBy = "draft" | "rajveer" | "rajveer-spike";
+/**
+ * Who set a label. "draft" was drafted and not checked; "draft-checked" was drafted and then
+ * independently re-checked against the listing and rubric, but still not reviewed by a person.
+ * Only "rajveer" and "rajveer-spike" are human labels.
+ */
+export type LabeledBy = "draft" | "draft-checked" | "rajveer" | "rajveer-spike";
+
+/** Labels no person has reviewed yet: plain drafts and re-checked drafts, counted separately. */
+export type Unreviewed = { draft: number; checked: number };
+
+function unreviewed(rows: { labeledBy: LabeledBy }[]): Unreviewed {
+  return { draft: rows.filter((r) => r.labeledBy === "draft").length, checked: rows.filter((r) => r.labeledBy === "draft-checked").length };
+}
 
 export type GoldGrade = {
   source: "dataset" | "serpapi";
@@ -253,7 +265,7 @@ export type EvalResult = {
   grades: { rows: GradeRow[]; accuracy: number; modelAccuracy: number; perStatus: LabelScore[]; confusion: Confusion<GradeStatus>; verifier: ReturnType<typeof verifierEffect>; evidence: ReturnType<typeof evidenceScore> };
   proof: { rows: ProofRow[]; accuracy: number; clearAccuracy: number; perLabel: LabelScore[]; confusion: Confusion<ProofLabel | "none">; unlabelled: number };
   costs: AuditCost[];
-  drafts: { grades: number; proof: number };
+  drafts: { grades: Unreviewed; proof: Unreviewed };
 };
 
 export type Baseline = { gradeAccuracy: number; proofAccuracy: number; gradePairs: number; proofPairs: number; gradePromptVersion: string; proofPromptVersion: string };
@@ -291,7 +303,7 @@ export async function runEvals(llm: JsonModel): Promise<EvalResult> {
       unlabelled: prows.filter((r) => r.pred === null).length,
     },
     costs: await auditCosts(llm),
-    drafts: { grades: goldGrades.filter((g) => g.labeledBy === "draft").length, proof: goldProof.filter((g) => g.labeledBy === "draft").length },
+    drafts: { grades: unreviewed(goldGrades), proof: unreviewed(goldProof) },
   };
 }
 
