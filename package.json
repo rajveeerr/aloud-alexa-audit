@@ -21,7 +21,6 @@
     "evals:review": "bun evals/review/server.ts",
     "web": "bun run --cwd apps/web dev",
     "web:build": "bun run --cwd apps/web build",
-    "diagrams": "bun diagrams/build.ts",
     "study": "bun study/run.ts && bun study/analyze.ts && bun study/chart.ts",
     "study:record": "bun study/run.ts --record",
     "docker:build": "docker build -t aloud-api .",

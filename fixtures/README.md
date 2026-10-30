@@ -51,7 +51,7 @@ Reviews 2023 files (kept out of git). Up to 400 reviews per product: up to
 those claims, and a random remainder. Both picks are seeded, so re-running
 gives the same files.
 
-So "N reviews mention it" in a report counts the saved subset, not all of the
+A report's "N reviews mention it" counts the saved subset, not all of the
 product's reviews (Pentel B097CF46RC has 5,076 in the dataset, 400 saved).
 The water bottles have no review file locally, and live SerpApi listings never
 get reviews: a 2026 page isn't the product the 2023 reviews were written about.

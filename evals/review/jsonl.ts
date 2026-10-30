@@ -59,7 +59,7 @@ export type ProofDecision = { label: ProofLabel; reason?: string };
 export function applyGradeDecision(row: GoldGrade, d: GradeDecision): GoldGrade {
   if (!STATUSES.includes(d.status)) throw new Error(`Unknown status ${JSON.stringify(d.status)}.`);
   if (!Array.isArray(d.fields) || d.fields.some((f) => typeof f !== "string")) throw new Error("fields must be a list of field ids.");
-  // Missing and not_applicable never cite fields (REVIEW.md, step 4).
+  // Missing and not_applicable never cite fields (see evals/README.md).
   const fields = d.status === "missing" || d.status === "not_applicable" ? [] : [...new Set(d.fields)];
   const reason = d.reason?.trim() ? d.reason.trim() : row.reason;
   return { ...row, status: d.status, fields, labeledBy: "rajveer", reason };

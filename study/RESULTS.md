@@ -4,7 +4,7 @@ All 200 sampled products were graded.
 
 ![Score vs review count](chart.svg)
 
-Across 200 gel pens, listings that answer more of the shoppers' questions tend to have higher review counts: a weak rank correlation: rho 0.15 (95% CI 0.01 to 0.29), p 0.038, n 200. Holding price fixed changes little: on the 129 pens with a price, the partial correlation is 0.21 (CI 0.03 to 0.38, p 0.017). A correlation this size accounts for about 2% of the variation in rank, and the interval's lower end is 0.01, so the score cannot predict how well any single listing sells. The pattern is not spread evenly: within band 4 (308+ reviews) rho is 0.41 (p 0.003), while inside the other three bands it is near zero, and the average score does not rise steadily from the lowest band to the highest (44.3, 38.4, 49.3, 48.1). The 2023 sales rank stored in the same records points the same way (rho 0.21, CI 0.06 to 0.35, n 174). This is correlation, not cause: a brand that writes complete listings may also advertise more, have better distribution or simply be older, and popular products may get their listings improved because they sell, not the other way round. The data is the Amazon Reviews 2023 snapshot, so the listings and counts are from 2023, not today. It measures the listing's readable text (title, bullets, description, attributes), not what Alexa for Shopping actually says, and it ignores images and A+ content. Review count is only a proxy for sales; it also grows with time on the market.
+Across 200 gel pens, listings that answer more of the shoppers' questions tend to have higher review counts. The rank correlation is weak: rho 0.15 (95% CI 0.01 to 0.29), p 0.038, n 200. Holding price fixed changes little. On the 129 pens with a price, the partial correlation is 0.21 (CI 0.03 to 0.38, p 0.017). A correlation this size accounts for about 2% of the variation in rank, and the interval's lower end is 0.01, so the score can't predict how well any single listing sells. The pattern is uneven. Within band 4 (308+ reviews) rho is 0.41 (p 0.003), while inside the other three bands it's near zero, and the average score does not rise steadily from the lowest band to the highest (44.3, 38.4, 49.3, 48.1). The 2023 sales rank stored in the same records points the same way (rho 0.21, CI 0.06 to 0.35, n 174). A correlation doesn't show cause. A brand that writes complete listings may also advertise more, have better distribution or simply be older, and popular products may get better listings because they sell. The listings and counts come from the Amazon Reviews 2023 snapshot. The score measures the listing's readable text (title, bullets, description, attributes) and ignores images and A+ content. It doesn't measure what Alexa for Shopping says. Review count is only a proxy for sales, and it also grows with time on the market.
 
 ## Setup
 
@@ -25,7 +25,7 @@ Across 200 gel pens, listings that answer more of the shoppers' questions tend t
 | score vs price | rho -0.02 (95% CI -0.21 to 0.16), p 0.815, n 129 |
 | score vs 2023 Office Products sales rank (sign flipped, so positive = sells better) | rho 0.21 (95% CI 0.06 to 0.35), p 0.005, n 174 |
 
-The sales-rank row uses the Best Sellers Rank stored in the dataset records (174 of the graded products have one). It's a single 2023 snapshot, so treat it as a second proxy, not ground truth.
+The sales-rank row uses the Best Sellers Rank stored in the dataset records (174 of the graded products have one). It's a single 2023 snapshot, so it's a second proxy for sales.
 
 ## By demand band
 

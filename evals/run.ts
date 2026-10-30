@@ -110,9 +110,9 @@ function markdown(r: EvalResult, base: Baseline | null): string {
   const provisional =
     unreviewedGrades + unreviewedProof > 0
       ? `> **Provisional.** ${unreviewedGrades} of ${g.rows.length} grade labels (${both(d.grades)}) and ${unreviewedProof} of
-> ${p.rows.length} proof labels (${both(d.proof)}) are not yet reviewed by a person (see [REVIEW.md](REVIEW.md)).
+> ${p.rows.length} proof labels (${both(d.proof)}) haven't been reviewed by a person yet (see [README.md](README.md)).
 > \`draft-checked\` means a second pass against the listing and rubric, not a human review. The 40 Pentel smudge pairs
-> were hand-labelled in an earlier test. Treat these numbers as a first measurement, not a result, until review is done.\n\n`
+> were labelled by hand in an earlier test. These numbers are a first measurement until that review is done.\n\n`
       : "";
 
   return `# Eval results

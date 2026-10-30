@@ -1,102 +1,57 @@
-# Deploying Aloud for $0
+# Deploying Aloud
 
-```
-Vercel (apps/web: app + widget.html)  ──▶  Render free web service (Dockerfile: API + worker, RUN_WORKER=1)
-                                              ├──▶ TiDB Cloud Starter (MySQL-compatible, TLS)
-                                              └──▶ Upstash Redis (TLS, rediss://)
-```
+Everything fits on free plans.
 
-Everything below fits the free plans. Do the steps in order: the API needs the database and Redis
-URLs, the web app needs the API's URL and a key, and the API needs the web app's URL for CORS.
+| Service | Runs | Config |
+|---|---|---|
+| Render (free web service) | API and worker in one container (`RUN_WORKER=1`) | `render.yaml`, `Dockerfile` |
+| Vercel | Web app and widget (`apps/web`) | `apps/web/vercel.json` |
+| TiDB Cloud Starter (formerly Serverless) | MySQL-compatible database, TLS only | `DATABASE_URL` |
+| Upstash | Redis for the BullMQ queue, TLS (`rediss://`) | `REDIS_URL` |
 
-You need: the repo on GitHub, and free accounts on TiDB Cloud, Upstash, Render and Vercel. Pick one
-region for all three backends. Oregon on Render is AWS us-west-2, which TiDB and Upstash both offer.
-`render.yaml` sets `region: oregon`; change it there if you pick another.
+Put the three backends in one region. `render.yaml` uses `region: oregon`, which is AWS us-west-2 on TiDB and Upstash. Order matters: the API needs the database and Redis URLs, the web app needs the API URL and a key, and CORS needs the web app's URL.
 
-## 1. Try the image locally first (optional)
+## Environment variables (Render)
 
-```sh
-bun run db:up            # MySQL on 3317, Redis on 6389
-bun run docker:build
-bun run docker:run       # API + worker on http://localhost:4100, database aloud_docker
-```
+| Variable | Required | Secret | Notes |
+|---|---|---|---|
+| `DATABASE_URL` | yes | yes | `mysql://<user>:<password>@<host>:4000/aloud`. URL-encode the password. The migration creates the database. |
+| `REDIS_URL` | yes | yes | Upstash `rediss://default:<password>@<host>:6379` |
+| `WEB_ORIGIN` | yes | no | Exact Vercel origin, no trailing slash. The only origin CORS allows. |
+| `DATABASE_SSL` | yes on TiDB | no | `1` turns on verified TLS. Same as `?ssl=true` in the URL. Set in `render.yaml`. |
+| `NODE_ENV`, `RUN_WORKER`, `TRUST_PROXY`, `REDIS_PREFIX` | set | no | `production`, `1`, `1`, `aloud` in `render.yaml` |
+| `GEMINI_API_KEY` | no | yes | Without it, audits only replay recorded answers. |
+| `SERPAPI_KEY` | no | yes | Without it, only saved listings can be audited. |
+| `GEMINI_MODEL`, `GEMINI_RPM` | no | no | `gemini-3.5-flash-lite`, `10` |
+| `DEMO_READONLY` | no | no | `1` holds keyed requests to saved listings (see below). `render.yaml` sets `0`. |
+| `PUBLIC_RATE_LIMIT`, `PUBLIC_RATE_WINDOW_SEC`, `PUBLIC_EMAIL_LIMIT` | no | no | Widget limits per IP: `5` audits per `3600` seconds, `10` emails |
+| `PUBLIC_LIVE` | no | no | `1` lets the widget fetch unsaved listings through SerpApi. Default `0`. |
+| `RETRY_BACKOFF_MS` | no | no | Retry backoff for failed audits, `10000` |
+| `AUDIT_WEBHOOK_URL`, `AUDIT_WEBHOOK_SECRET` | no | secret: yes | Signed `audit.completed` / `audit.failed` webhooks. The URL needs the secret. |
+| `PORT` | no | no | Render sets it. Don't override. |
+| `API_KEY_DEV` | never in production | | Ignored when `NODE_ENV=production`, so a leftover setting can't enable a well-known key. |
 
-`NODE_ENV=production` is baked into the image, so `API_KEY_DEV` is never seeded there. Add a key
-with `docker exec <container> bun apps/api/src/add-key.ts local` (see step 5).
+Vercel needs `VITE_API_URL` (the Render URL) and `VITE_API_KEY` (a key from `key:add`). Both are read at build time.
 
-## 2. TiDB Cloud (MySQL)
+## 1. TiDB Cloud
 
-TiDB Cloud's free tier is called Starter (it used to be Serverless).
+1. Create a cluster on the Starter plan in AWS us-west-2.
+2. Open **Connect**, choose **General**, click **Generate Password** and copy it (it's shown once).
+3. Build `DATABASE_URL` from the host (like `gateway01.us-west-2.prod.aws.tidbcloud.com`), port `4000` and user (like `4AbCdEfGh.root`), with `/aloud` as the database.
 
-1. Create a cluster: TiDB Cloud console, **Create Cluster**, plan **Starter**, region AWS us-west-2
-   (Oregon).
-2. Open the cluster, click **Connect**, choose **Connect With: General**, and click
-   **Generate Password**. Copy the password now; it isn't shown again.
-3. Note the host (like `gateway01.us-west-2.prod.aws.tidbcloud.com`), the port (`4000`) and the
-   user (like `4AbCdEfGh.root`).
-4. Your `DATABASE_URL` is:
+TiDB refuses plain connections, so keep `DATABASE_SSL=1`. No CA file is needed. The schema uses no foreign keys, and the largest saved report is about 65 KB against TiDB's 6 MB row limit.
 
-   ```
-   mysql://4AbCdEfGh.root:<password>@gateway01.us-west-2.prod.aws.tidbcloud.com:4000/aloud
-   ```
+## 2. Upstash
 
-   URL-encode the password if it has characters such as `@`, `/` or `#`. The `aloud` database
-   doesn't have to exist: the migration step creates it.
+1. Create a Redis database in AWS us-west-2.
+2. Leave **Eviction** off. BullMQ needs `noeviction`, or queued jobs can disappear.
+3. Copy the `rediss://` URL as `REDIS_URL`.
 
-**TLS.** TiDB Cloud refuses plain connections. Set `DATABASE_SSL=1` (render.yaml already does), or
-add `?ssl=true` to the URL. Either one turns on verified TLS (`rejectUnauthorized: true`, TLS 1.2 or
-newer) in `packages/db`. No CA file is needed: the certificate chains to a public root that Bun
-already trusts. Locally, leave both unset; the compose MySQL is plain TCP.
+## 3. Render
 
-**Compatibility, checked against the schema:**
-
-- No foreign keys are used, so TiDB's foreign key handling doesn't matter.
-- The `json`, `enum`, `datetime(3)` and `serial` columns in `packages/db/drizzle` all work on TiDB.
-- Row size: TiDB caps a single row at 6 MB (`txn-entry-size-limit`). The largest stored report from
-  the saved listings is about 65 KB (`B09VD1Z3TK`, measured with `max(length(report))` on a local
-  database holding audits of every saved listing). That's around 1% of the cap. Request bodies are
-  capped at 256 KB by the API, so a pasted listing can't come close either.
-- Auto-increment ids on TiDB are unique but not consecutive. Nothing depends on them being
-  consecutive.
-
-## 3. Upstash (Redis)
-
-1. Upstash console, **Create Database**, type Redis, region AWS us-west-2 (Oregon).
-2. Leave **Eviction** off. BullMQ needs Redis to keep every key (`noeviction`). With eviction on,
-   queued jobs can disappear.
-3. On the database page, copy the URL that starts with `rediss://` (the two s's mean TLS). It
-   looks like:
-
-   ```
-   rediss://default:<password>@<name>-12345.upstash.io:6379
-   ```
-
-That's `REDIS_URL`. ioredis turns on TLS by itself for `rediss://`. The worker's connection already
-uses `maxRetriesPerRequest: null`, as BullMQ requires, and the API's connection fails fast instead
-(`apps/worker/src/queue.ts`, covered by `queue.test.ts`).
-
-## 4. Render (API + worker)
-
-1. Render dashboard, **New**, **Blueprint**, connect the GitHub repo. Render reads `render.yaml`
-   and proposes one free web service, `aloud-api`, built from the root `Dockerfile`.
-2. Render asks for each `sync: false` value:
-
-   | Variable | Value | Secret? |
-   |---|---|---|
-   | `DATABASE_URL` | the TiDB URL from step 2 | yes |
-   | `REDIS_URL` | the Upstash `rediss://` URL from step 3 | yes |
-   | `WEB_ORIGIN` | the Vercel URL, like `https://aloud.vercel.app` (no trailing slash). Not known yet: put `http://localhost:5181` and fix it in step 7 | no |
-   | `GEMINI_API_KEY` | blank for replay only (no model calls), or a key from AI Studio | yes |
-   | `SERPAPI_KEY` | blank (saved listings only), or your SerpApi key | yes |
-   | `AUDIT_WEBHOOK_URL` | blank unless you want the `audit.completed` webhook | no |
-   | `AUDIT_WEBHOOK_SECRET` | blank, or a long random string if the URL is set | yes |
-
-   The others have values in `render.yaml`: `NODE_ENV=production`, `RUN_WORKER=1`,
-   `TRUST_PROXY=1`, `DATABASE_SSL=1`, `DEMO_READONLY=1`, the widget limits, `PUBLIC_LIVE=0`,
-   `GEMINI_MODEL`, `GEMINI_RPM=10`. Don't set `PORT`; Render sets it and the API reads it.
-3. **Apply**. The first build takes a few minutes. On start the container runs the migrations
-   (creating the `aloud` database if needed), then the API with the worker. The logs should
-   end with:
+1. **New > Blueprint**, connect the repo. Render reads `render.yaml` and proposes one free web service, `aloud-api`, built from the `Dockerfile`.
+2. Fill in the `sync: false` values from the table. `WEB_ORIGIN` isn't known yet: use `http://localhost:5181` for now.
+3. **Apply**. On start the container runs the migrations, then the API with the worker. The log ends with:
 
    ```
    migrations applied
@@ -104,169 +59,66 @@ uses `maxRetriesPerRequest: null`, as BullMQ requires, and the API's connection 
    no dev API key seeded (set API_KEY_DEV outside production to add one)
    ```
 
-   The last line is expected. Production keys are added in step 5.
-4. Note the service URL, like `https://aloud-api.onrender.com`.
+## 4. Create a production API key
 
-**Keep these secret** (Render stores them; never put them in the repo or in a `VITE_*` variable):
-`GEMINI_API_KEY`, `SERPAPI_KEY`, `DATABASE_URL`, `REDIS_URL`, `AUDIT_WEBHOOK_SECRET`, and every API
-key you create. Don't set `API_KEY_DEV` on Render: with `NODE_ENV=production` it's ignored on
-purpose, so a forgotten setting can't turn on a well-known key.
-
-**TRUST_PROXY=1.** Render puts one load balancer in front of the service. With `TRUST_PROXY=1`,
-Express takes the client's address from the last hop of `X-Forwarded-For`, so the widget's per-IP
-limit counts visitors, not the load balancer. Leave it at a number: `true` would trust whatever
-`X-Forwarded-For` a client sends and let anyone dodge the limit (the API reads `true` as 1 and
-warns). Unset, every visitor would share the load balancer's address and one limit. Step 8 has a
-check.
-
-## 5. Add an API key for the web app
-
-Keys are stored only as SHA-256 hashes, and `API_KEY_DEV` isn't seeded in production. Make one from
-your machine, pointed at the TiDB database. Run it after the first Render deploy (which applied the
-migrations), or run `bun run db:migrate` with the same two variables first:
+Keys are stored as SHA-256 hashes and no dev key is seeded in production. After the first deploy has applied the migrations, run this from your machine against TiDB:
 
 ```sh
-DATABASE_URL='mysql://4AbCdEfGh.root:<password>@gateway01.us-west-2.prod.aws.tidbcloud.com:4000/aloud' \
-DATABASE_SSL=1 \
-bun run key:add vercel-app
+DATABASE_URL='mysql://<user>:<password>@<host>:4000/aloud' DATABASE_SSL=1 bun run key:add vercel-app
 ```
 
-It prints the key (`ans_...`) once; copy it. An optional second argument sets the key's limit in
-requests a minute (default 120): `bun run key:add partner-x 30`. Run it again with another name for
-each integration, so a key can be removed on its own:
-`DELETE FROM api_keys WHERE name = 'partner-x';` in the TiDB SQL editor.
+It prints the key (`ans_...`) once. An optional second argument sets requests per minute (default 120): `bun run key:add partner-x 30`. Use one key per integration so each can be removed alone: `DELETE FROM api_keys WHERE name = 'partner-x';`.
 
-## 6. Vercel (web app and widget)
+## 5. Vercel
 
-1. Vercel dashboard, **Add New**, **Project**, import the repo.
-2. **Root Directory**: `apps/web`. Leave "Include files outside the root directory" on; the app
-   imports `packages/contracts`.
-3. Build settings come from `apps/web/vercel.json`: install `cd ../.. && bun install
-   --frozen-lockfile` (the workspace install at the repo root), build `bun run build`
-   (`tsc -b && vite build`), output `dist`. If a build log says `bun: command not found`, change
-   the install command to `npm i -g bun@1.1 && cd ../.. && bun install --frozen-lockfile`.
-4. Environment variables, for Production:
+1. Import the repo with **Root Directory** `apps/web`, and keep "Include files outside the root directory" on (the app imports `packages/contracts`).
+2. Build settings come from `vercel.json`: install at the repo root with `bun install --frozen-lockfile`, build `bun run build`, output `dist`. If the log says `bun: command not found`, change the install command to `npm i -g bun@1.1 && cd ../.. && bun install --frozen-lockfile`.
+3. Set `VITE_API_URL` and `VITE_API_KEY` for Production and deploy.
 
-   | Variable | Value |
-   |---|---|
-   | `VITE_API_URL` | the Render URL, like `https://aloud-api.onrender.com` |
-   | `VITE_API_KEY` | the key from step 5 |
+`vercel.json` also rewrites app routes to `index.html`, serves `/widget` as `widget.html`, adds security headers, blocks framing of the app, and allows the widget to be framed only by itself and salesduo.com.
 
-   These are read at build time, so changing either one needs a redeploy.
-5. **Deploy**, and note the URL, like `https://aloud.vercel.app`.
+**The key is in the app bundle.** Every `VITE_*` value ends up in the JavaScript, so anyone can read `VITE_API_KEY`. With `DEMO_READONLY=0` (the `render.yaml` default) that key can run live audits, spending SerpApi and Gemini quota, and its per-minute limit is the only cap. Set `DEMO_READONLY=1` to hold keyed requests to saved listings: `live` is forced off, pasted listings and `/v1/rescore` get `403 demo_readonly`, and bulk jobs take at most 10 ASINs. For real use, put the app behind a server-side proxy that adds `x-api-key`. The widget bundle carries no key.
 
-`vercel.json` also:
+## 6. TRUST_PROXY and CORS
 
-- sends every app route (`/`, `/audits`, `/audits/:id`, `/bulk`, `/integrations`, anything else)
-  to `index.html`, so deep links and reloads work;
-- serves `widget.html` as it is, and `/widget` as a short alias for it;
-- adds `nosniff`, a referrer policy, HSTS and a permissions policy everywhere. The app can't be
-  framed (`frame-ancestors 'none'`). The widget may be framed only by itself and salesduo.com;
-  edit that header if it goes elsewhere;
-- caches the hashed files in `/assets/` for a year.
+`TRUST_PROXY` is the number of proxies in front of the API. Render has one load balancer, so it's `1`, and the widget's per-IP limit sees the visitor's address. Unset, every visitor shares the load balancer's address and one limit. Don't use `true`: it trusts any `X-Forwarded-For` a client sends. The API reads `true` as 1 with a warning and refuses anything else that isn't a count.
 
-**The key in the app bundle.** Every `VITE_*` value ends up in the app's JavaScript, so anyone who
-opens the app can read `VITE_API_KEY`. That's why `render.yaml` turns on `DEMO_READONLY=1`. With it,
-every keyed request is held to the saved listings: `live` is treated as `false` (no SerpApi
-searches), pasted listings get `403 demo_readonly`, bulk jobs take at most 10 ASINs, and
-`/v1/rescore` gets `403 demo_readonly`. Reads work as usual. In the app, the Integrations page's
-"Send re-score" button shows the refusal message. The widget bundle carries no key at all (a test
-checks the build). For real use, put the app behind a server-side proxy that adds `x-api-key`,
-build without `VITE_API_KEY`, and set `DEMO_READONLY=0`.
+Once Vercel is up, set `WEB_ORIGIN` on Render to the exact production origin (scheme and host, no path) and let it redeploy. Preview URLs aren't allowed.
 
-## 7. Point CORS at the web app
-
-Back in Render, set `WEB_ORIGIN` to the exact Vercel origin, like `https://aloud.vercel.app`
-(scheme and host, no path, no trailing slash), and save. Render redeploys. CORS allows that one
-origin only, so Vercel preview URLs (`aloud-git-<branch>-...vercel.app`) can't call the API.
-Test on the production URL.
-
-## 8. Post-deploy checks
-
-```sh
-API=https://aloud-api.onrender.com
-WEB=https://aloud.vercel.app
-KEY=ans_...   # from step 5
-```
-
-The first request after a quiet spell can take up to a minute while Render wakes the service.
-
-```sh
-# 1. Health: expect 200 and {"ok":true,"db":true,"redis":true}
-curl -s -w '\n%{http_code}\n' $API/v1/health
-
-# 2. The OpenAPI document: expect "openapi":"3.1.0"
-curl -s $API/v1/openapi.json | head -c 120; echo
-
-# 3. Saved listings: expect B0C9W8DD9S (Ddaowanx) among them
-curl -s "$API/v1/listings?source=serpapi"; echo
-
-# 4. The hero audit: expect 202, then status done and score 52 within a few seconds
-ID=$(curl -s -X POST $API/v1/audits -H "x-api-key: $KEY" -H 'content-type: application/json' \
-  -d '{"asin":"B0C9W8DD9S","source":"serpapi"}' | sed -E 's/.*"id":"([^"]+)".*/\1/')
-echo $ID
-sleep 5
-curl -s $API/v1/audits/$ID -H "x-api-key: $KEY" | grep -oE '"(status|score)":("[a-z]+"|[0-9]+)' | head -2
-
-# 5. The key is required: expect 401
-curl -s -o /dev/null -w '%{http_code}\n' $API/v1/audits
-
-# 6. Read-only demo: expect 403 and "code":"demo_readonly"
-curl -s -X POST $API/v1/rescore -H "x-api-key: $KEY" -H 'content-type: application/json' \
-  -d '{"asin":"B0C9W8DD9S","reason":"check"}'; echo
-
-# 7. CORS: expect access-control-allow-origin: https://aloud.vercel.app
-curl -s -o /dev/null -D - -X OPTIONS $API/v1/audits -H "Origin: $WEB" \
-  -H 'Access-Control-Request-Method: POST' | grep -i access-control-allow-origin
-
-# 8. The widget's endpoint, no key: expect 202 with "status":"queued"
-curl -s -X POST $API/v1/public/audits -H 'content-type: application/json' -d '{"asin":"B0C9W8DD9S"}'; echo
-
-# 9. Web routes: expect 200 for each, the deep link included
-for p in / /audits /audits/00000000-0000-0000-0000-000000000000 /bulk /integrations /widget.html /widget; do
-  printf '%s %s\n' "$(curl -s -o /dev/null -w '%{http_code}' $WEB$p)" "$p"; done
-
-# 10. Security headers: expect nosniff, frame-ancestors 'none' on the app, salesduo.com on the widget
-curl -sI $WEB/ | grep -iE 'x-content-type-options|content-security-policy|strict-transport'
-curl -sI $WEB/widget.html | grep -i content-security-policy
-
-# 11. The widget bundle has no API key: expect no output
-for js in $(curl -s $WEB/widget.html | grep -oE '/assets/[^"]+\.js'); do curl -s $WEB$js | grep -o "$KEY"; done
-```
-
-Then in a browser: open `$WEB`, click the Ddaowanx product and wait for the report (score 52).
-Open `$WEB/widget.html`, enter `B0C9W8DD9S`, and check that the result shows 52 with 3 gaps.
-
-**TRUST_PROXY check (optional; uses up your own widget allowance for an hour).** Send 6 widget
-audits from one machine. The 6th should be `429`, while a different network (a phone off Wi-Fi)
-still gets `202`. If the 6th is still 202, the API isn't seeing client addresses.
-
-```sh
-for i in 1 2 3 4 5 6; do curl -s -o /dev/null -w '%{http_code}\n' -X POST $API/v1/public/audits \
-  -H 'content-type: application/json' -d '{"asin":"B09YP9YYZG"}'; done
-```
-
-## Free-tier limits and what the demo does at each
-
-Check each provider's pricing page; these numbers change.
+## Free-tier limits
 
 | Limit | What happens |
 |---|---|
-| **Render free** sleeps after about 15 minutes with no requests, and takes up to a minute to wake. 750 instance hours a month. Ephemeral disk, 512 MB memory. | The first request after a sleep is slow. The web app keeps polling (with backoff, up to 15 minutes), so an audit page opened during a wake-up still gets its report. The worker sleeps too: queued audits continue once the service is awake. New model recordings written to `fixtures/llm` in the container are lost on every restart or redeploy. |
-| **Upstash free** has a monthly command allowance (500K at the time of writing) and 256 MB. | An idle BullMQ worker still polls Redis, on the order of a thousand commands an hour while the service is awake. That's fine with Render sleeping when idle. Something keeping the service awake around the clock (an uptime pinger) could use up the month's allowance; then Redis calls fail, `/v1/health` answers 503 and new audits get 503. |
-| **TiDB Starter** has monthly storage and Request Unit allowances, far above what this demo uses. | If they run out, TiDB throttles and requests slow down or fail with 503. |
-| **Gemini free tier**: requests per minute and per day, per model. For Flash-Lite, roughly 10 a minute and 500 a day; check the AI Studio rate-limit page. | Without `GEMINI_API_KEY`, audits only replay recorded answers. A saved listing with recordings works at no cost, and anything else fails with `not_recorded` (the widget says "We can't audit this product yet. Try one of the example products."). With a key, the worker keeps to `GEMINI_RPM` by itself. When the daily quota is used up, the audit stays queued with a note and retries just after midnight US Pacific, when the quota resets. Free-tier prompts may be used by Google to improve its products; only public listing data is sent. |
-| **SerpApi free**: 250 searches a month, 50 an hour. | Only used for live fetches, which need `SERPAPI_KEY`. `DEMO_READONLY=1` turns live off for keyed requests, and `PUBLIC_LIVE=0` keeps the widget on saved listings, so the deployed demo spends nothing. When searches run out, a live fetch fails, the job retries, and the audit ends `failed`. Saved listings keep working. |
+| Render sleeps after about 15 idle minutes and takes up to a minute to wake. 512 MB memory, ephemeral disk. | The first request is slow. The web app keeps polling for up to 15 minutes, so the report still arrives. Queued audits resume when the service wakes. New recordings in `fixtures/llm` are lost on restart. |
+| Upstash has a monthly command allowance (500K at the time of writing). | An idle worker still polls Redis while awake. Fine while Render sleeps; an uptime pinger could use up the month. Then `/v1/health` and new audits return 503. |
+| TiDB Starter has monthly storage and Request Unit allowances. | Far above this app's use. If exhausted, TiDB throttles and requests slow down or fail with 503. |
+| Gemini free tier: about 10 requests a minute and 500 a day for Flash-Lite. | The worker keeps to `GEMINI_RPM`. When the daily quota runs out, the audit stays queued and retries just after midnight US Pacific. Without a key, unrecorded audits fail with `not_recorded`. |
+| SerpApi free: 250 searches a month, 50 an hour. | Only live fetches use it. When searches run out, the live fetch fails, the job retries, then the audit ends `failed`. Saved listings keep working. |
 
-## Saved listings audit the same on any OS
-
-Saved competitors are picked in sorted ASIN order (`fsStores().listings.saved()`), so a replayed audit
-builds the same prompts on macOS, in the Linux image and on Render. All 25 saved listings replay inside
-the image with their recorded scores. To check a deploy, audit a saved dataset listing and expect its
-recorded score (U Brands board, 84):
+## Post-deploy checks
 
 ```sh
-curl -s -X POST "$API/v1/audits" -H "x-api-key: $KEY" -H 'content-type: application/json' \
-  -d '{"asin":"B09VD1Z3TK","source":"dataset"}'
-# then GET /v1/audits/<id> until status is "done"; score should be 84
+API=https://aloud-api.onrender.com; WEB=https://aloud.vercel.app; KEY=ans_...
+
+curl -s -w ' %{http_code}\n' $API/v1/health                            # 200 {"ok":true,"db":true,"redis":true}
+curl -s $API/v1/openapi.json | head -c 80; echo                        # "openapi":"3.1.0"
+curl -s -o /dev/null -w '%{http_code}\n' $API/v1/audits                # 401 without a key
+
+# Hero audit: 202, then status "done" and score 52 within a few seconds
+ID=$(curl -s -X POST $API/v1/audits -H "x-api-key: $KEY" -H 'content-type: application/json' \
+  -d '{"asin":"B0C9W8DD9S","source":"serpapi"}' | sed -E 's/.*"id":"([^"]+)".*/\1/')
+sleep 5; curl -s $API/v1/audits/$ID -H "x-api-key: $KEY" | grep -oE '"(status|score)":("[a-z]+"|[0-9]+)'
+
+# CORS: access-control-allow-origin should be $WEB
+curl -s -o /dev/null -D - -X OPTIONS $API/v1/audits -H "Origin: $WEB" \
+  -H 'Access-Control-Request-Method: POST' | grep -i access-control-allow-origin
+
+# Widget endpoint, no key: 202 "queued". Six in an hour from one IP should give 429 on the sixth.
+curl -s -X POST $API/v1/public/audits -H 'content-type: application/json' -d '{"asin":"B0C9W8DD9S"}'; echo
+
+# Web routes, including a deep link: all 200
+for p in / /audits/00000000-0000-0000-0000-000000000000 /bulk /integrations /widget.html /widget; do
+  printf '%s %s\n' "$(curl -s -o /dev/null -w '%{http_code}' $WEB$p)" "$p"; done
 ```
+
+Saved listings replay with the same scores on any OS, so a saved dataset listing such as `B09VD1Z3TK` (U Brands board) should score 84. With `DEMO_READONLY=1`, a `POST /v1/rescore` with the key should return `403` and `"code":"demo_readonly"`.
