@@ -106,6 +106,21 @@ export function fieldLabel(id: string): string {
   }
 }
 
+/** Where a quote sits, for people: "Bullet 2", "Line size", "Image 8". The raw id stays in the DOM for tooltips. */
+export function placeLabel(id: string): string {
+  if (id.startsWith("img.")) return `Image ${id.slice(4)}`;
+  const label = fieldLabel(id);
+  return label.charAt(0).toUpperCase() + label.slice(1);
+}
+
+/** ["img.2", "img.11"] → "images 2 and 11". */
+export function imagesLabel(ids: string[]): string {
+  const n = ids.map((i) => i.replace(/^img\./, ""));
+  if (n.length === 0) return "";
+  if (n.length === 1) return `image ${n[0]}`;
+  return `images ${n.slice(0, -1).join(", ")} and ${n[n.length - 1]}`;
+}
+
 /** Ids stay as the pipeline wrote them ("img.8"), so a brief and the report name the same image. */
 export function imageKindLabel(kind?: "gallery" | "aplus"): string {
   return kind === "aplus" ? "A+ image" : "Gallery image";

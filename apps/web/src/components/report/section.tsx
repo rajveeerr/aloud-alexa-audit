@@ -17,13 +17,13 @@ export function Section({
   className?: string;
 }) {
   return (
-    <section id={id} aria-labelledby={`${id}-title`} className={cn("scroll-mt-28 border-t pt-8", className)}>
+    <section id={id} aria-labelledby={`${id}-title`} className={cn("scroll-mt-32 border-t pt-10", className)}>
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div className="min-w-0">
-          <h2 id={`${id}-title`} className="text-xl font-bold">
+          <h2 id={`${id}-title`} className="text-[22px] leading-tight font-bold tracking-[-0.015em]">
             {title}
           </h2>
-          {description && <p className="mt-1 max-w-[72ch] text-[15px] text-muted-foreground">{description}</p>}
+          {description && <p className="mt-1.5 max-w-[68ch] text-[15px] text-muted-foreground">{description}</p>}
         </div>
         {aside}
       </div>

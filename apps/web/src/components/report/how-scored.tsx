@@ -12,7 +12,7 @@ export function HowScored({ report }: { report: Report }) {
             The score is the share of shopper demand the listing answers in readable text. Each question is weighted by how many sampled reviews
             asked it:
           </p>
-          <pre className="overflow-x-auto rounded-md bg-muted px-4 py-3 font-mono text-[13px] leading-relaxed">
+          <pre className="overflow-x-auto rounded-lg bg-muted px-4 py-3 font-mono text-[13px] leading-relaxed">
             {"score = 100 × Σ(frequency × weight) / Σ(frequency)\nweight: answered 1, partly 0.5, missing 0, contradicted 0"}
           </pre>
           <ul className="grid list-disc gap-1.5 pl-5 text-muted-foreground marker:text-border">
@@ -26,15 +26,15 @@ export function HowScored({ report }: { report: Report }) {
             {u.outputTokens.toLocaleString()} output tokens.
           </p>
         </div>
-        <div className="self-start rounded-xl bg-tint p-5 sm:p-6">
+        <div className="self-start rounded-2xl bg-tint p-5 sm:p-6">
           <p className="text-[15px]">
             The checks follow SalesDuo's own guide: complete every attribute, answer the questions buyers ask, and put important claims in text
             Alexa can read.
           </p>
-          <blockquote className="mt-4 border-l-[3px] border-primary pl-4 text-[17px] leading-snug font-semibold">
+          <blockquote className="mt-4 text-[17px] leading-snug font-semibold">
             <p>“Important claims should also appear in readable fields such as bullet points, descriptions, A+ module text…”</p>
           </blockquote>
-          <BlogSource className="mt-3 pl-[19px]" />
+          <BlogSource className="mt-3" />
         </div>
       </div>
     </Section>
@@ -42,7 +42,8 @@ export function HowScored({ report }: { report: Report }) {
 }
 
 export function Notes({ report }: { report: Report }) {
-  const notes = [...report.notes];
+  // The promise vs proof note is already shown in its own section.
+  const notes = report.notes.filter((n) => !/promise vs proof/i.test(n));
   if (report.skippedImageIds.length) notes.push(`The image reader refused ${report.skippedImageIds.join(", ")}, so claims in those images weren't checked.`);
   if (notes.length === 0) return null;
   return (

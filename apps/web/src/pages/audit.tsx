@@ -1,7 +1,7 @@
 import type { AuditJob } from "@aloud/contracts";
 import { CircleAlertIcon } from "lucide-react";
-import { useMemo, useState } from "react";
-import { Link, useParams } from "react-router";
+import { useEffect, useMemo, useState } from "react";
+import { Link, useLocation, useParams } from "react-router";
 import { useAudit } from "@/api/hooks";
 import { usePastCap } from "@/api/use-past-cap";
 import { Page } from "@/components/app-shell";
@@ -12,7 +12,10 @@ import { HowScored, Notes } from "@/components/report/how-scored";
 import { ListingPanel } from "@/components/report/listing-panel";
 import { PromiseVsProof } from "@/components/report/proof";
 import { QuestionList } from "@/components/report/questions";
-import { ReportHeader } from "@/components/report/report-header";
+import { ReportHeader, Verdict } from "@/components/report/report-header";
+import { ReportNav, type NavItem } from "@/components/report/report-nav";
+import { SendToStudio } from "@/components/report/send-to-studio";
+import { TopFixes } from "@/components/report/top-fixes";
 import { Section } from "@/components/report/section";
 import { Button } from "@/components/ui/button";
 import { indexReport, isEstimated, type Report } from "@/lib/report";
@@ -40,6 +43,7 @@ export function AuditPage() {
         status={job.status}
         asin={job.asin}
         note={job.note}
+        createdAt={job.createdAt}
         stalled={stalled}
         connection={audit.isError ? audit.error.message : undefined}
         onRefresh={retry}
@@ -50,12 +54,33 @@ export function AuditPage() {
   return <ReportView report={job.report} auditId={job.id} />;
 }
 
-const STEPS = ["Fetch the listing", "Pick the category's shopper questions", "Grade every question and check each quote", "Read the images for hidden answers", "Grade competitors", "Draft the fix list"];
+const STEPS = [
+  "Fetch the listing",
+  "Pick the category's shopper questions",
+  "Grade every question and check each quote",
+  "Read the images for hidden answers",
+  "Grade competitors",
+  "Draft the fix list",
+];
+
+/** Seconds since `from`, ticking once a second while mounted. */
+function useElapsed(from: string | undefined): number | null {
+  const [now, setNow] = useState(() => Date.now());
+  useEffect(() => {
+    const t = setInterval(() => setNow(Date.now()), 1000);
+    return () => clearInterval(t);
+  }, []);
+  const start = from ? Date.parse(from) : NaN;
+  return Number.isFinite(start) ? Math.max(0, Math.round((now - start) / 1000)) : null;
+}
+
+const clock = (s: number) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
 
 function Progress({
   status,
   asin,
   note,
+  createdAt,
   stalled = false,
   connection,
   onRefresh,
@@ -64,6 +89,7 @@ function Progress({
   status: AuditJob["status"];
   asin: string | null;
   note: string | undefined;
+  createdAt?: string | undefined;
   /** Polled past the cap: polling stopped, so offer a manual refresh. */
   stalled?: boolean;
   /** The last poll's error, while it retries. */
@@ -71,45 +97,60 @@ function Progress({
   onRefresh?: () => void;
   refreshing?: boolean;
 }) {
+  // Set by the audit form when it asked for a live fetch: those take longer, so say so.
+  const live = (useLocation().state as { live?: boolean } | null)?.live === true;
+  const elapsed = useElapsed(createdAt);
+  const expect = live ? "Fetching a new product from Amazon usually takes 1 to 2 minutes." : "Usually under a minute.";
+
   return (
     <Page>
-      <div className="mx-auto max-w-xl py-10" role="status" aria-live="polite">
-        <p className="text-sm font-semibold text-muted-foreground">{asin ? <span className="font-mono">{asin}</span> : "Audit"}</p>
-        <h1 className="mt-1 text-2xl font-bold" data-testid="audit-status">
-          {status === "queued" ? "Queued" : "Running the audit"}
-        </h1>
-        <p className="mt-1 text-[15px] text-muted-foreground">
-          {status === "queued" ? "Waiting for a worker to pick it up." : "Usually under a minute. This page updates on its own."}
-        </p>
-        {note && (
-          <p className="mt-3 rounded-md border border-[#fcd9a8] bg-tint px-3 py-2 text-sm text-[#7c2d12]" data-testid="audit-note">
-            {note}
-          </p>
-        )}
-        {connection && !stalled && (
-          <p className="mt-3 text-sm text-muted-foreground" data-testid="audit-reconnecting">
-            Lost touch with the API ({connection}). Retrying on its own.
-          </p>
-        )}
-        {stalled && onRefresh && (
-          <div className="mt-4 flex flex-wrap items-center gap-3 rounded-md border px-3 py-2.5" data-testid="audit-stalled">
-            <p className="text-sm">This is taking longer than expected.</p>
-            <Button type="button" variant="outline" size="sm" onClick={onRefresh} disabled={refreshing}>
-              Refresh
-            </Button>
+      <div className="mx-auto max-w-xl py-6 sm:py-10">
+        <div className="rounded-2xl border bg-card p-6 shadow-card sm:p-8" role="status" aria-live="polite">
+          <div className="flex items-baseline justify-between gap-3">
+            <p className="text-sm font-semibold text-muted-foreground">{asin ? <span className="font-mono">{asin}</span> : "Audit"}</p>
+            {elapsed !== null && (
+              <p className="text-sm text-muted-foreground tabular-nums" aria-hidden="true">
+                {clock(elapsed)}
+              </p>
+            )}
           </div>
-        )}
-        <div className="mt-6 h-1.5 overflow-hidden rounded-full bg-muted" aria-hidden="true">
-          <div className={cn("h-full rounded-full bg-primary", status === "queued" ? "w-[8%]" : "w-1/3 animate-[progress_1.6s_ease-in-out_infinite]")} />
+          <h1 className="mt-1 text-2xl font-bold tracking-[-0.015em]" data-testid="audit-status">
+            {status === "queued" ? "Queued" : "Running the audit"}
+          </h1>
+          <p className="mt-1 text-[15px] text-muted-foreground">
+            {status === "queued" ? "Waiting for a worker to pick it up." : `${expect} This page updates on its own.`}
+          </p>
+          {note && (
+            <p className="mt-3 rounded-lg border border-[#fcd9a8] bg-tint px-3 py-2 text-sm text-[#7c2d12]" data-testid="audit-note">
+              {note}
+            </p>
+          )}
+          {connection && !stalled && (
+            <p className="mt-3 text-sm text-muted-foreground" data-testid="audit-reconnecting">
+              Lost touch with the API ({connection}). Retrying on its own.
+            </p>
+          )}
+          {stalled && onRefresh && (
+            <div className="mt-4 flex flex-wrap items-center gap-3 rounded-lg border px-3 py-2.5" data-testid="audit-stalled">
+              <p className="text-sm">This is taking longer than expected.</p>
+              <Button type="button" variant="outline" size="sm" onClick={onRefresh} disabled={refreshing}>
+                Refresh
+              </Button>
+            </div>
+          )}
+          <div className="mt-6 h-1.5 overflow-hidden rounded-full bg-muted" aria-hidden="true">
+            <div className={cn("h-full rounded-full bg-primary", status === "queued" ? "w-[8%]" : "w-1/3 animate-[progress_1.6s_ease-in-out_infinite]")} />
+          </div>
+          <p className="mt-6 text-[13px] font-semibold text-muted-foreground">What the audit does</p>
+          <ol className="mt-2 grid gap-2.5 text-[15px]">
+            {STEPS.map((s, i) => (
+              <li key={s} className="flex items-center gap-3">
+                <span className="flex size-6 shrink-0 items-center justify-center rounded-full border bg-background text-xs text-muted-foreground tabular-nums">{i + 1}</span>
+                {s}
+              </li>
+            ))}
+          </ol>
         </div>
-        <ol className="mt-6 grid gap-2 text-[15px] text-muted-foreground">
-          {STEPS.map((s, i) => (
-            <li key={s} className="flex items-center gap-3">
-              <span className="flex size-6 items-center justify-center rounded-full border text-xs tabular-nums">{i + 1}</span>
-              {s}
-            </li>
-          ))}
-        </ol>
       </div>
     </Page>
   );
@@ -153,40 +194,36 @@ function Failed({
   );
 }
 
-const JUMPS = [
-  { href: "#hidden", label: "Hidden answers" },
-  { href: "#proof", label: "Promise vs proof" },
-  { href: "#questions", label: "Questions" },
-  { href: "#competitors", label: "Competitors" },
-  { href: "#fixes", label: "Fix list" },
-  { href: "#scoring", label: "How it's scored" },
-];
-
 function ReportView({ report, auditId }: { report: Report; auditId: string }) {
   const index = useMemo(() => indexReport(report), [report]);
   const [selected, setSelected] = useState<string | null>(null);
   const allQuotes = useMemo(() => report.grades.flatMap((g) => g.quotes), [report]);
   const selectedQuotes = report.grades.find((g) => g.intentId === selected)?.quotes ?? [];
+  const scoredCount = report.grades.filter((g) => index.intents.get(g.intentId)?.kind !== "experience").length;
+
+  const nav: NavItem[] = [
+    { id: "hidden", label: "Hidden answers", count: report.imageClaims.length > 0 ? report.hiddenAnswers.length : undefined },
+    { id: "questions", label: "Questions", count: scoredCount },
+    { id: "competitors", label: "Competitors", count: report.competitors.length > 0 ? report.gaps.length : undefined },
+    { id: "proof", label: "Promise vs proof", count: report.proof ? report.proof.claims.length : undefined },
+    { id: "fixes", label: "Fix list", count: report.briefs.length },
+    { id: "scoring", label: "How it's scored" },
+  ];
 
   return (
     <Page className="pt-6 sm:pt-8">
       <ReportHeader report={report} />
+      <div className="mt-6 grid gap-8">
+        <Verdict report={report} />
+        <TopFixes report={report} />
+      </div>
 
-      <nav aria-label="Report sections" className="sticky top-14 z-30 -mx-4 mt-8 border-b bg-background/95 px-4 backdrop-blur sm:-mx-6 sm:px-6">
-        <ul className="flex gap-1 overflow-x-auto py-2 [scrollbar-width:none]">
-          {JUMPS.map((j) => (
-            <li key={j.href}>
-              <a href={j.href} className="block rounded-md px-2.5 py-1.5 text-[13px] font-semibold whitespace-nowrap text-muted-foreground hover:bg-muted hover:text-foreground">
-                {j.label}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </nav>
+      <div className="mt-10">
+        <ReportNav items={nav} action={<SendToStudio auditId={auditId} disabled={report.briefs.length === 0} size="sm" />} />
+      </div>
 
-      <div className="mt-8 grid grid-cols-[minmax(0,1fr)] gap-12 [&>section:first-child]:border-t-0 [&>section:first-child]:pt-0">
+      <div className="mt-10 grid grid-cols-[minmax(0,1fr)] gap-14 [&>section:first-child]:border-t-0 [&>section:first-child]:pt-0">
         <HiddenAnswers report={report} index={index} />
-        <PromiseVsProof report={report} index={index} />
 
         <Section
           id="questions"
@@ -197,16 +234,17 @@ function ReportView({ report, auditId }: { report: Report; auditId: string }) {
               : `Mined from ${report.intentSet.sampleSize.toLocaleString()} reviews in ${report.intentSet.categoryName}, worst first. Select a question to see where its answer sits in the listing.`
           }
         >
-          <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_380px] lg:items-start">
+          <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_360px] lg:items-start">
             <QuestionList report={report} index={index} selected={selected} onSelect={(id) => setSelected((s) => (s === id ? null : id))} />
-            <div className="lg:sticky lg:top-28">
+            <div className="lg:sticky lg:top-32">
               <ListingPanel report={report} selected={selectedQuotes} all={allQuotes} />
             </div>
           </div>
         </Section>
 
         <GapMatrix report={report} />
-        <FixList report={report} index={index} auditId={auditId} />
+        <PromiseVsProof report={report} index={index} />
+        <FixList report={report} index={index} />
         <Notes report={report} />
         <HowScored report={report} />
       </div>

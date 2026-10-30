@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog";
 import { CopyButton } from "@/components/copy-button";
 
-export function SendToStudio({ auditId, disabled }: { auditId: string; disabled: boolean }) {
+export function SendToStudio({ auditId, disabled, size = "default" }: { auditId: string; disabled: boolean; size?: "default" | "sm" }) {
   const create = useCreateBriefs();
   const [open, setOpen] = useState(false);
   const json = create.data ? JSON.stringify(create.data, null, 2) : "";
@@ -23,6 +23,7 @@ export function SendToStudio({ auditId, disabled }: { auditId: string; disabled:
     <>
       <Button
         type="button"
+        size={size}
         disabled={disabled || create.isPending}
         onClick={() => create.mutate(auditId, { onSuccess: () => setOpen(true), onError: () => setOpen(true) })}
       >
