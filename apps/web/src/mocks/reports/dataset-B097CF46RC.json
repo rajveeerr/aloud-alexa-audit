@@ -1198,43 +1198,37 @@
       ]
     },
     {
-      "asin": "B0BSMKF5BQ",
-      "brand": "SHARPIE",
-      "title": "SHARPIE S-Gel, Gel Pens, Medium Point (0.7mm), Red Ink Gel Pen, 12 Count",
+      "asin": "B08CMWPFR1",
+      "brand": "Scentco",
+      "title": "Glitter Gel Smens (2 Pack) - Aloha Unicorn Scented Pens, Colored Gel Ink, Medium Point, 8 Count",
       "score": {
-        "score": 57,
-        "answered": 6,
-        "partial": 1,
-        "missing": 8,
+        "score": 18,
+        "answered": 4,
+        "partial": 2,
+        "missing": 11,
         "contradicted": 0,
-        "counted": 15,
-        "notApplicable": 4
+        "counted": 17,
+        "notApplicable": 2
       },
       "grades": [
         {
           "intentId": "tip_size",
-          "status": "answered",
+          "status": "partial",
           "quotes": [
             {
-              "fieldId": "bullet.4",
-              "text": "Medium Point (0. 7mm)"
+              "fieldId": "attr.point_type",
+              "text": "Medium"
             }
           ],
-          "value": "0.7 mm",
-          "modelStatus": "answered",
+          "value": "Medium",
+          "modelStatus": "partial",
           "flags": []
         },
         {
           "intentId": "smudge",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "bullet.1",
-              "text": "no smear"
-            }
-          ],
-          "value": "no smear",
-          "modelStatus": "answered",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
           "flags": []
         },
         {
@@ -1253,15 +1247,9 @@
         },
         {
           "intentId": "ink_flow",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "description.1",
-              "text": "smooth writing experience"
-            }
-          ],
-          "value": "smooth writing experience",
-          "modelStatus": "answered",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
           "flags": []
         },
         {
@@ -1273,15 +1261,9 @@
         },
         {
           "intentId": "bleed_through",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "bullet.1",
-              "text": "no bleed technology"
-            }
-          ],
-          "value": "no bleed",
-          "modelStatus": "answered",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
           "flags": []
         },
         {
@@ -1310,10 +1292,14 @@
           "quotes": [
             {
               "fieldId": "title",
-              "text": "Red Ink Gel Pen, 12 Count"
+              "text": "8 Count"
+            },
+            {
+              "fieldId": "attr.ink_color",
+              "text": "Multicolor"
             }
           ],
-          "value": "12 red",
+          "value": "8 Count, Multicolor",
           "modelStatus": "answered",
           "flags": []
         },
@@ -1358,10 +1344,10 @@
           "quotes": [
             {
               "fieldId": "attr.item_weight",
-              "text": "Item weight: 1.6 ounces"
+              "text": "Item weight: 7.4 ounces"
             }
           ],
-          "value": "1.6 ounces",
+          "value": "7.4 ounces",
           "modelStatus": "partial",
           "flags": []
         },
@@ -1374,16 +1360,28 @@
         },
         {
           "intentId": "glitter_level",
-          "status": "not_applicable",
-          "quotes": [],
-          "modelStatus": "not_applicable",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "Glitter Gel Smens"
+            }
+          ],
+          "value": "Glitter",
+          "modelStatus": "answered",
           "flags": []
         },
         {
           "intentId": "scent",
-          "status": "not_applicable",
-          "quotes": [],
-          "modelStatus": "not_applicable",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "Aloha Unicorn Scented Pens"
+            }
+          ],
+          "value": "Aloha Unicorn",
+          "modelStatus": "answered",
           "flags": []
         }
       ]
@@ -1596,37 +1594,43 @@
       ]
     },
     {
-      "asin": "B08CMWPFR1",
-      "brand": "Scentco",
-      "title": "Glitter Gel Smens (2 Pack) - Aloha Unicorn Scented Pens, Colored Gel Ink, Medium Point, 8 Count",
+      "asin": "B0BSMKF5BQ",
+      "brand": "SHARPIE",
+      "title": "SHARPIE S-Gel, Gel Pens, Medium Point (0.7mm), Red Ink Gel Pen, 12 Count",
       "score": {
-        "score": 18,
-        "answered": 4,
-        "partial": 2,
-        "missing": 11,
+        "score": 57,
+        "answered": 6,
+        "partial": 1,
+        "missing": 8,
         "contradicted": 0,
-        "counted": 17,
-        "notApplicable": 2
+        "counted": 15,
+        "notApplicable": 4
       },
       "grades": [
         {
           "intentId": "tip_size",
-          "status": "partial",
+          "status": "answered",
           "quotes": [
             {
-              "fieldId": "attr.point_type",
-              "text": "Medium"
+              "fieldId": "bullet.4",
+              "text": "Medium Point (0. 7mm)"
             }
           ],
-          "value": "Medium",
-          "modelStatus": "partial",
+          "value": "0.7 mm",
+          "modelStatus": "answered",
           "flags": []
         },
         {
           "intentId": "smudge",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.1",
+              "text": "no smear"
+            }
+          ],
+          "value": "no smear",
+          "modelStatus": "answered",
           "flags": []
         },
         {
@@ -1645,9 +1649,15 @@
         },
         {
           "intentId": "ink_flow",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "description.1",
+              "text": "smooth writing experience"
+            }
+          ],
+          "value": "smooth writing experience",
+          "modelStatus": "answered",
           "flags": []
         },
         {
@@ -1659,9 +1669,15 @@
         },
         {
           "intentId": "bleed_through",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.1",
+              "text": "no bleed technology"
+            }
+          ],
+          "value": "no bleed",
+          "modelStatus": "answered",
           "flags": []
         },
         {
@@ -1690,14 +1706,10 @@
           "quotes": [
             {
               "fieldId": "title",
-              "text": "8 Count"
-            },
-            {
-              "fieldId": "attr.ink_color",
-              "text": "Multicolor"
+              "text": "Red Ink Gel Pen, 12 Count"
             }
           ],
-          "value": "8 Count, Multicolor",
+          "value": "12 red",
           "modelStatus": "answered",
           "flags": []
         },
@@ -1742,10 +1754,10 @@
           "quotes": [
             {
               "fieldId": "attr.item_weight",
-              "text": "Item weight: 7.4 ounces"
+              "text": "Item weight: 1.6 ounces"
             }
           ],
-          "value": "7.4 ounces",
+          "value": "1.6 ounces",
           "modelStatus": "partial",
           "flags": []
         },
@@ -1758,28 +1770,16 @@
         },
         {
           "intentId": "glitter_level",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "title",
-              "text": "Glitter Gel Smens"
-            }
-          ],
-          "value": "Glitter",
-          "modelStatus": "answered",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
           "flags": []
         },
         {
           "intentId": "scent",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "title",
-              "text": "Aloha Unicorn Scented Pens"
-            }
-          ],
-          "value": "Aloha Unicorn",
-          "modelStatus": "answered",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
           "flags": []
         }
       ]
@@ -1801,11 +1801,11 @@
           }
         },
         {
-          "asin": "B0BSMKF5BQ",
-          "brand": "SHARPIE",
+          "asin": "B08CMWPFR1",
+          "brand": "Scentco",
           "quote": {
-            "fieldId": "bullet.4",
-            "text": "Medium Point (0. 7mm)"
+            "fieldId": "attr.point_type",
+            "text": "Medium"
           }
         },
         {
@@ -1817,11 +1817,11 @@
           }
         },
         {
-          "asin": "B08CMWPFR1",
-          "brand": "Scentco",
+          "asin": "B0BSMKF5BQ",
+          "brand": "SHARPIE",
           "quote": {
-            "fieldId": "attr.point_type",
-            "text": "Medium"
+            "fieldId": "bullet.4",
+            "text": "Medium Point (0. 7mm)"
           }
         }
       ],
@@ -1888,11 +1888,11 @@
           }
         },
         {
-          "asin": "B0BSMKF5BQ",
-          "brand": "SHARPIE",
+          "asin": "B08CMWPFR1",
+          "brand": "Scentco",
           "quote": {
             "fieldId": "attr.item_weight",
-            "text": "Item weight: 1.6 ounces"
+            "text": "Item weight: 7.4 ounces"
           }
         },
         {
@@ -1904,11 +1904,11 @@
           }
         },
         {
-          "asin": "B08CMWPFR1",
-          "brand": "Scentco",
+          "asin": "B0BSMKF5BQ",
+          "brand": "SHARPIE",
           "quote": {
             "fieldId": "attr.item_weight",
-            "text": "Item weight: 7.4 ounces"
+            "text": "Item weight: 1.6 ounces"
           }
         }
       ],
@@ -2032,19 +2032,19 @@
         },
         "examples": {
           "supports": [
-            "…eed. The ink dries instantly unlike other gel pens that can smudge when rubbed and they are great to be used with a highlighter. If you like the gel pens especially fine point gel pens, then you should try this one.",
-            "…k dries incredibly quickly and doesn't have any tendency to smear. The colors are nice and vibrant and they don't seem to fade that I've noticed. I bought this big pack so I would have more choices of colors, and I hav…",
-            "Great for lefties!. As a left-hander, it is nearly impossible to find a nice gel pen that doesn't smudge all over my had or the paper. These pens write wonderfully, do not smudge, and are very comfortable to hold. Only…"
+            "Writes smoothly. I ma a lefty and often have trouble with the ink smearing as I write. This pen dries very quickly and I have no problem.",
+            "These do not smear and the ink is colorful and neat to write with!!. Great for my report writing and love the colors!!",
+            "Pentel gel pens. Great pens especially for 'lefties'. The gel dries very quickly so as a lefty, the ink does not smear. Only gel pen I have found that works this well"
           ],
           "contradicts": [
-            "Break easily. The first thing I noticed is that these pens smudge very easily. I lose pens constantly so I was looking forward to losing them over time, but before losing them they started to break. It seems like there…",
-            "…omething specific. But, by the time I was done, quite a bit smeared on the paper as well as my hand. Will have to try something else.",
-            "I want a smudge proof pen!. I love these pens but it surprised me that I looks down and it had smudged and the ink was on my finger. Are they really smudge proof. Apparently not. Also my red pen I was writing g at work…"
+            "Doesn’t help left handed folks. I’m left handed and these pens still smear just like other pens I have. They advertise that this pen is better for left handed folks like myself but it’s not better than any regular pen.",
+            "My pack was dry. The pens in the pack I received were very dry. Eventually, I go them working - most of them. The ink smears if you are not carefuly. I will not be ordering these again.",
+            "Break easily. The first thing I noticed is that these pens smudge very easily. I lose pens constantly so I was looking forward to losing them over time, but before losing them they started to break. It seems like there…"
           ],
           "mixed": [
-            "…quickly, which is great because i’m left handed and i hate smearing everything i write. on smoother/glossier paper these pens don’t dry as well but they work great on standard notebook or copy paper. i could go on and…",
-            "…g a lefty, it's very difficult to find a gel pen that won't smear EVERYWHERE/get all over my hand while writing. This actually does a really decent job at not smudging on me. It's only smudged on me a few times when I…",
-            "…o don't through them away. They are not water proof and can smear if you are not careful. Let it dry before you go over or erase any pencil lines. The drafting Micron pens are water proof and I use them for drafting al…"
+            "My go to pen for almost all my writing. These pens never disappoint. Easy to write with, although they may smudge when used on a slicker surface. The grip is comfortable. This is my go to pen at home and work.",
+            "As a nurse, these are my go to pens!. As a nurse who writes throughout my entire shift, these are my go to pens. They write smooth and are worth the investment. I would say they may smudge for left handers.",
+            "…quickly, which is great because i’m left handed and i hate smearing everything i write. on smoother/glossier paper these pens don’t dry as well but they work great on standard notebook or copy paper. i could go on and…"
           ]
         },
         "flags": [],
@@ -2094,9 +2094,9 @@
         },
         "examples": {
           "supports": [
-            "Great for lefties!. As a left-hander, it is nearly impossible to find a nice gel pen that doesn't smudge all over my had or the paper. These pens write wonderfully, do not smudge, and are very comfortable to hold. Only…",
-            "…. Best. Pen. Ever! The write smoothly, no smudging (and I’m left handed so that’s saying something), and they last a long time!",
-            "Especially great for lefties. Anyone that is left handed knows it's very hard to find a pen that does not clog. This is due to the fact that our writing motion is more of a pushing rather than a dragging. This can get…"
+            "Writes smoothly. I ma a lefty and often have trouble with the ink smearing as I write. This pen dries very quickly and I have no problem.",
+            "best pen for lefties. im left handed and i also write really hard, the ink dries super fast so the side of my hand stays ink free and the 1.0 point keeps me from ripping through paper.",
+            "Pentel gel pens. Great pens especially for 'lefties'. The gel dries very quickly so as a lefty, the ink does not smear. Only gel pen I have found that works this well"
           ],
           "contradicts": [
             "As a nurse, these are my go to pens!. As a nurse who writes throughout my entire shift, these are my go to pens. They write smooth and are worth the investment. I would say they may smudge for left handers.",
@@ -2166,9 +2166,9 @@
         },
         "examples": {
           "supports": [
-            "…the paper and hold it there and it will not bleed. The ink dries instantly unlike other gel pens that can smudge when rubbed and they are great to be used with a highlighter. If you like the gel pens especially fine p…",
-            "mechanical failure. First, the positive: these pens write great! They dry fast and they do not smear. And there is no doubt, when I am at work, which pens are mine because no one has this exact pen. Next, the negative:…",
-            "A rich dark black. Pentel Energel pens are great. Best part is that they also fit in other expensive rollerball pens. The ink is fast drying and the black is nice rich black as opposed to the washed out muted dark blac…"
+            "Best ever!. Best pens on the market with very little bleed and fast drying time!",
+            "Simply GREATEST pen writes smooth. Simply GREATEST pen writes smooth, no smear, vivid color and super quick dry which is also perfect for lefty. Can't go wrong with this pen.",
+            "Five Stars. Writes smooth with vibrant colors. Also dries fast."
           ],
           "contradicts": [
             "These do not dry fast enough.. As a nurse, I wanted colored pens to do my \"Nurse Brain\" sheets for the day. Each color representing something specific. But, by the time I was done, quite a bit smeared on the paper as w…",
@@ -2232,14 +2232,14 @@
         },
         "examples": {
           "supports": [
-            "…how smoothly they write and the way the ink looks when it's flowing from pen to paper, but there was something missing. One day I was preparing to sign and date an IV when I realized my badge must have come off at the…",
-            "…pen -- the color was meh but the ink line was fantastic. It flowed perfectly. Perfectly. I wanted it. I asked whose it was and it belonged to the meeting coordinator -- he was not going to let me have his pen. So I ask…",
-            "Especially great for lefties. Anyone that is left handed knows it's very hard to find a pen that does not clog. This is due to the fact that our writing motion is more of a pushing rather than a dragging. This can get…"
+            "Love these pen. No skipping, smooth, bold. Just right for signing letters at the office, or re-writing recipies at home. The purple is my favor",
+            "Very Smooth and Crisp. I love these pens. They write very smoothly and there is never any interruption to the flow, or junk or goobers at the tip. I use them for art sketches. The linework is crisp and precise.",
+            "Excellent Colors :D. These Pentel EnerGel Pens are wonderful. They are a great size and they flow so smoothly. The colors are vibrant too! They have become one of my favorites :)"
           ],
           "contradicts": [
-            "…They are easy to hold, comfortable and write smooth without blobbing and smearing. However, THIS pack I just got is super disappointing. I am not using them more than normal, but in my writing and work, I have already…",
-            "…does not write as smoothly as I was hoping for. It doesn't 'skip', but it doesn't seem to glide either.",
-            "Not smooth. Skips a lot. Just received these. We’re going to use them for taking notes but I can barely make it through a sentence without the ink skipping. For the amount I paid, I wish they were better. Not worth it"
+            "Not smooth. Skips a lot. Just received these. We’re going to use them for taking notes but I can barely make it through a sentence without the ink skipping. For the amount I paid, I wish they were better. Not worth it",
+            "Arrived dry skipped can't use. Out of three pens only one works, the other two skip , mind you I love this pen and color I searched everywhere to find them . Will not order through mail again too much trouble to return.",
+            "Ink issues. Skips - no ink while trying to write."
           ],
           "mixed": [
             "My new favorite pen!. I just got these and have been testing them out. No blobs, no smearing. When i turned the paper over to write on the back, no transfer of ink to the paper underneath! No idea how long the ink will…",
@@ -2294,14 +2294,14 @@
         },
         "examples": {
           "supports": [
-            "…per but can't use a sharpie pen because it will undoubtedly leak through, so I use a ball point pen. I've always been like this, and thus, I've always felt a void in my pen life. I've always been pissing the perfect pe…",
-            "My new favorite pen!. I just got these and have been testing them out. No blobs, no smearing. When i turned the paper over to write on the back, no transfer of ink to the paper underneath! No idea how long the ink will…",
-            "Very nice. I really like this product. Writes very smooth and didn't get globs of ink everywhere like some gel pens do. Being a lefty, it's very difficult to find a gel pen that won't smear EVERYWHERE/get all over my h…"
+            "Some of the best pens I've ever used. These pens are one of my favorites! They write so smoothly and they never leak or bleed. I'm also a huge fan of the shade of purple that these come in. They're perfect!",
+            "Five Stars. Best smooth gel pen to date! Does not smear nor leak on paper.",
+            "It's a pen. No leaks, no smears, writes clearly."
           ],
           "contradicts": [
-            "…3 packs of these pens. So that is nine pens. 2 out of the 9 leaked all over my lab coat and ruined it. And they were straight out of the package. Had not even written with them yet. Opened 2 packs, stuck them all in my…",
-            "These pens leak ink. I purchased these pens to help designate areas on drawings, and they worked well at first. After a few weeks of use the ink began to pool at the bottom of the pens, onto my hands, and on to the dra…",
-            "PENS LEAK!!! DO NOT BUY!!!. Pens are sitting in a pen holder on my desk. Came to work the next day and TWO of the three pens were leaking. ON. MY. DESK. THE WAS WAS NOT removed from the pens. NOT HAPPY. One for the pri…"
+            "2 of 3 defective?. Received these today. It was a package of 3 and 2 of the refills are leaking and both pens don't write smoothly.",
+            "The pen is usable but the ink leaks from the writing point.. The ink is too juicy; I got ink on my fingers that I couldn't wash off. It's still there now(:",
+            "Leaking Ink - Don’t Buy!. These are pens are horrible. Every pen in the pack links ink. Whether the tip is pushed down or not when stored ink pours out. I have ink on my hands and everywhere these pens are stored."
           ],
           "mixed": [
             "Leaky. Expensive. All worked but one. The rest are great."
@@ -2322,72 +2322,6 @@
           "rate": 0.016129032258064516,
           "low": 0.0028527936922403893,
           "high": 0.08586923007388922
-        },
-        "verdict": "contested"
-      },
-      {
-        "intentId": "durability",
-        "claim": "It is backed by a Limited Lifetime Warranty.",
-        "sources": [
-          {
-            "kind": "field",
-            "id": "description.1",
-            "text": "It is backed by a Limited Lifetime Warranty."
-          }
-        ],
-        "keywords": [
-          "broke",
-          "break",
-          "crack",
-          "sturdy",
-          "durable",
-          "flimsy",
-          "fell apart",
-          "falls apart",
-          "cheaply made",
-          "well made"
-        ],
-        "matching": 60,
-        "sampled": 60,
-        "counts": {
-          "supports": 13,
-          "contradicts": 36,
-          "mixed": 10,
-          "unrelated": 1,
-          "unlabelled": 0
-        },
-        "examples": {
-          "supports": [
-            "…'t walk away from me at work! The construction is also very durable, metal accents and a comfortable grip for writing. So not only are they stylish, but they are incredibly functional as well! Everyone I know who has w…",
-            "…is no fatigue when I use them. The handles are comfortable, durable. I feel confident that they will hold up to repeated refills (I use these a LOT) over time. These are the best pens I've ever used. Nothing is smoothe…",
-            "…e metal clip on my pen to keep papers together. This one is sturdy and strong enough to do this. I just open the corner of the package and pop them out because I like to keep them in the package for storage so I don't…"
-          ],
-          "contradicts": [
-            "They crack before the ink is gone. Originally I loved these pens, I even ordered a second pack so I'd be ready when the ink ran out. Unfortunately, the pens crack and fall apart, before you can use up all the ink. I'm…",
-            "Break easily. The first thing I noticed is that these pens smudge very easily. I lose pens constantly so I was looking forward to losing them over time, but before losing them they started to break. It seems like there…",
-            "The ink is black and NOT pink!. Very disappointed! The ink is black and NOT pink like it implies on the package. Also, I gave one to one of my coworkers and the pen broke within seconds. Waste of money."
-          ],
-          "mixed": [
-            "…p these onto my pocket at work. The clip is metal and quite sturdy- I have never had any issues with it breaking or coming off. Before you start writing with these, there is a tiny dot of something like dried glue on t…",
-            "…Don't think it's a particular color. But this is not a deal-breaker because most of the time everything is 100% awesome. Watch prices on these pens, though. Certain packages can be a great bargain, but if what you want…",
-            "…p these onto my pocket at work. The clip is metal and quite sturdy- I have never had any issues with it breaking or coming off. Before you start writing with these, there is a tiny dot of something like dried glue on t…"
-          ]
-        },
-        "flags": [],
-        "support": {
-          "rate": 0.22033898305084745,
-          "low": 0.13354072524323754,
-          "high": 0.34132942446650893
-        },
-        "contradiction": {
-          "rate": 0.6101694915254238,
-          "low": 0.4826610956186712,
-          "high": 0.724208239344156
-        },
-        "mixed": {
-          "rate": 0.1694915254237288,
-          "low": 0.0947573785633763,
-          "high": 0.28463461654814215
         },
         "verdict": "contested"
       }
@@ -3932,261 +3866,19 @@
           "i": 61,
           "label": "contradicts"
         }
-      ],
-      [
-        {
-          "i": 0,
-          "label": "contradicts"
-        },
-        {
-          "i": 1,
-          "label": "contradicts"
-        },
-        {
-          "i": 2,
-          "label": "supports"
-        },
-        {
-          "i": 3,
-          "label": "supports"
-        },
-        {
-          "i": 4,
-          "label": "contradicts"
-        },
-        {
-          "i": 5,
-          "label": "contradicts"
-        },
-        {
-          "i": 6,
-          "label": "contradicts"
-        },
-        {
-          "i": 7,
-          "label": "mixed"
-        },
-        {
-          "i": 8,
-          "label": "supports"
-        },
-        {
-          "i": 9,
-          "label": "contradicts"
-        },
-        {
-          "i": 10,
-          "label": "contradicts"
-        },
-        {
-          "i": 11,
-          "label": "supports"
-        },
-        {
-          "i": 12,
-          "label": "contradicts"
-        },
-        {
-          "i": 13,
-          "label": "supports"
-        },
-        {
-          "i": 14,
-          "label": "contradicts"
-        },
-        {
-          "i": 15,
-          "label": "supports"
-        },
-        {
-          "i": 16,
-          "label": "contradicts"
-        },
-        {
-          "i": 17,
-          "label": "contradicts"
-        },
-        {
-          "i": 18,
-          "label": "contradicts"
-        },
-        {
-          "i": 19,
-          "label": "mixed"
-        },
-        {
-          "i": 20,
-          "label": "contradicts"
-        },
-        {
-          "i": 21,
-          "label": "mixed"
-        },
-        {
-          "i": 22,
-          "label": "contradicts"
-        },
-        {
-          "i": 23,
-          "label": "supports"
-        },
-        {
-          "i": 24,
-          "label": "supports"
-        },
-        {
-          "i": 25,
-          "label": "contradicts"
-        },
-        {
-          "i": 26,
-          "label": "contradicts"
-        },
-        {
-          "i": 27,
-          "label": "supports"
-        },
-        {
-          "i": 28,
-          "label": "contradicts"
-        },
-        {
-          "i": 29,
-          "label": "contradicts"
-        },
-        {
-          "i": 30,
-          "label": "contradicts"
-        },
-        {
-          "i": 31,
-          "label": "unrelated"
-        },
-        {
-          "i": 32,
-          "label": "contradicts"
-        },
-        {
-          "i": 33,
-          "label": "mixed"
-        },
-        {
-          "i": 34,
-          "label": "contradicts"
-        },
-        {
-          "i": 35,
-          "label": "contradicts"
-        },
-        {
-          "i": 36,
-          "label": "contradicts"
-        },
-        {
-          "i": 37,
-          "label": "mixed"
-        },
-        {
-          "i": 38,
-          "label": "contradicts"
-        },
-        {
-          "i": 39,
-          "label": "supports"
-        },
-        {
-          "i": 40,
-          "label": "contradicts"
-        },
-        {
-          "i": 41,
-          "label": "mixed"
-        },
-        {
-          "i": 42,
-          "label": "contradicts"
-        },
-        {
-          "i": 43,
-          "label": "contradicts"
-        },
-        {
-          "i": 44,
-          "label": "supports"
-        },
-        {
-          "i": 45,
-          "label": "contradicts"
-        },
-        {
-          "i": 46,
-          "label": "contradicts"
-        },
-        {
-          "i": 47,
-          "label": "supports"
-        },
-        {
-          "i": 48,
-          "label": "contradicts"
-        },
-        {
-          "i": 49,
-          "label": "mixed"
-        },
-        {
-          "i": 50,
-          "label": "contradicts"
-        },
-        {
-          "i": 51,
-          "label": "mixed"
-        },
-        {
-          "i": 52,
-          "label": "contradicts"
-        },
-        {
-          "i": 53,
-          "label": "contradicts"
-        },
-        {
-          "i": 54,
-          "label": "contradicts"
-        },
-        {
-          "i": 55,
-          "label": "supports"
-        },
-        {
-          "i": 56,
-          "label": "contradicts"
-        },
-        {
-          "i": 57,
-          "label": "mixed"
-        },
-        {
-          "i": 58,
-          "label": "mixed"
-        },
-        {
-          "i": 59,
-          "label": "contradicts"
-        }
       ]
     ],
     "usage": {
-      "inputTokens": 42054,
-      "outputTokens": 6696,
-      "requests": 7
+      "inputTokens": 35089,
+      "outputTokens": 5766,
+      "requests": 6
     }
   },
   "usage": {
-    "requests": 15,
-    "cachedRequests": 15,
-    "inputTokens": 53902,
-    "outputTokens": 13236
+    "requests": 14,
+    "cachedRequests": 14,
+    "inputTokens": 46937,
+    "outputTokens": 12306
   },
   "notes": []
 }

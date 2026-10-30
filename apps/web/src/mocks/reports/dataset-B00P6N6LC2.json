@@ -511,14 +511,14 @@
   "skippedImageIds": [],
   "competitors": [
     {
-      "asin": "B08QF3C1B1",
-      "brand": "GEMFUL",
-      "title": "GEMFUL Water Bottle Biking BPA Free 24 Ounce 2 Pack",
+      "asin": "B00G8QHUV2",
+      "brand": "Elite",
+      "title": "ELITE Corsa 550 Water Bottle Red 2016",
       "score": {
-        "score": 88,
-        "answered": 7,
+        "score": 63,
+        "answered": 5,
         "partial": 0,
-        "missing": 1,
+        "missing": 3,
         "contradicted": 0,
         "counted": 8,
         "notApplicable": 3
@@ -529,11 +529,11 @@
           "status": "answered",
           "quotes": [
             {
-              "fieldId": "title",
-              "text": "24 Ounce"
+              "fieldId": "attr.capacity",
+              "text": "950 Milliliters"
             }
           ],
-          "value": "24 Ounce",
+          "value": "950 Milliliters",
           "modelStatus": "answered",
           "flags": []
         },
@@ -542,38 +542,26 @@
           "status": "answered",
           "quotes": [
             {
-              "fieldId": "title",
-              "text": "BPA Free"
+              "fieldId": "bullet.4",
+              "text": "BPA-free"
             }
           ],
-          "value": "BPA Free",
+          "value": "BPA-free",
           "modelStatus": "answered",
           "flags": []
         },
         {
           "intentId": "leak_proof",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "bullet.2",
-              "text": "HIGH QUALITY LEAK PROOF VALVE: Our water bottles use a threaded lid with a up/down valve that seals your water bottle."
-            }
-          ],
-          "value": "HIGH QUALITY LEAK PROOF VALVE",
-          "modelStatus": "answered",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
           "flags": []
         },
         {
           "intentId": "cup_holder_fit",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "bullet.3",
-              "text": "Optimized to fit into any water bottle cage, backpack pocket or cup holder."
-            }
-          ],
-          "value": "Optimized to fit into any water bottle cage, backpack pocket or cup holder",
-          "modelStatus": "answered",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
           "flags": []
         },
         {
@@ -590,11 +578,11 @@
           "status": "answered",
           "quotes": [
             {
-              "fieldId": "attr.product_care_instructions",
-              "text": "Machine Wash"
+              "fieldId": "bullet.4",
+              "text": "dishwasher safe"
             }
           ],
-          "value": "Machine Wash",
+          "value": "dishwasher safe",
           "modelStatus": "answered",
           "flags": []
         },
@@ -603,11 +591,11 @@
           "status": "answered",
           "quotes": [
             {
-              "fieldId": "attr.material",
-              "text": "Polypropylene"
+              "fieldId": "bullet.2",
+              "text": "corn - rather than oil - based plastic"
             }
           ],
-          "value": "Polypropylene",
+          "value": "corn - rather than oil - based plastic",
           "modelStatus": "answered",
           "flags": []
         },
@@ -624,10 +612,10 @@
           "quotes": [
             {
               "fieldId": "attr.item_weight",
-              "text": "5.3 ounces"
+              "text": "0.11 Kilograms"
             }
           ],
-          "value": "5.3 ounces",
+          "value": "0.11 Kilograms",
           "modelStatus": "answered",
           "flags": []
         },
@@ -799,135 +787,6 @@
       ]
     },
     {
-      "asin": "B00G8QHUV2",
-      "brand": "Elite",
-      "title": "ELITE Corsa 550 Water Bottle Red 2016",
-      "score": {
-        "score": 63,
-        "answered": 5,
-        "partial": 0,
-        "missing": 3,
-        "contradicted": 0,
-        "counted": 8,
-        "notApplicable": 3
-      },
-      "grades": [
-        {
-          "intentId": "capacity_oz",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "attr.capacity",
-              "text": "950 Milliliters"
-            }
-          ],
-          "value": "950 Milliliters",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "bpa_free",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "bullet.4",
-              "text": "BPA-free"
-            }
-          ],
-          "value": "BPA-free",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "leak_proof",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "cup_holder_fit",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "insulation_type",
-          "status": "not_applicable",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": [
-            "conditional_unaddressed"
-          ]
-        },
-        {
-          "intentId": "dishwasher_safe",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "bullet.4",
-              "text": "dishwasher safe"
-            }
-          ],
-          "value": "dishwasher safe",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "material_composition",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "bullet.2",
-              "text": "corn - rather than oil - based plastic"
-            }
-          ],
-          "value": "corn - rather than oil - based plastic",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "ice_cube_compatibility",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "weight_empty",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "attr.item_weight",
-              "text": "0.11 Kilograms"
-            }
-          ],
-          "value": "0.11 Kilograms",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "carrying_strap",
-          "status": "not_applicable",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": [
-            "conditional_unaddressed"
-          ]
-        },
-        {
-          "intentId": "measurement_markings",
-          "status": "not_applicable",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": [
-            "conditional_unaddressed"
-          ]
-        }
-      ]
-    },
-    {
       "asin": "B08GZ7ZYSC",
       "brand": "Polar Bottle",
       "title": "Polar Bottle Breakaway Wave Lightweight Bike Water Bottle - BPA-Free, Cycling & Sports Squeeze Bottle",
@@ -1071,6 +930,147 @@
           ]
         }
       ]
+    },
+    {
+      "asin": "B08QF3C1B1",
+      "brand": "GEMFUL",
+      "title": "GEMFUL Water Bottle Biking BPA Free 24 Ounce 2 Pack",
+      "score": {
+        "score": 88,
+        "answered": 7,
+        "partial": 0,
+        "missing": 1,
+        "contradicted": 0,
+        "counted": 8,
+        "notApplicable": 3
+      },
+      "grades": [
+        {
+          "intentId": "capacity_oz",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "24 Ounce"
+            }
+          ],
+          "value": "24 Ounce",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "bpa_free",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "BPA Free"
+            }
+          ],
+          "value": "BPA Free",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "leak_proof",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "HIGH QUALITY LEAK PROOF VALVE: Our water bottles use a threaded lid with a up/down valve that seals your water bottle."
+            }
+          ],
+          "value": "HIGH QUALITY LEAK PROOF VALVE",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "cup_holder_fit",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.3",
+              "text": "Optimized to fit into any water bottle cage, backpack pocket or cup holder."
+            }
+          ],
+          "value": "Optimized to fit into any water bottle cage, backpack pocket or cup holder",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "insulation_type",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "dishwasher_safe",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.product_care_instructions",
+              "text": "Machine Wash"
+            }
+          ],
+          "value": "Machine Wash",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "material_composition",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.material",
+              "text": "Polypropylene"
+            }
+          ],
+          "value": "Polypropylene",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "ice_cube_compatibility",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "weight_empty",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.item_weight",
+              "text": "5.3 ounces"
+            }
+          ],
+          "value": "5.3 ounces",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "carrying_strap",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "measurement_markings",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
@@ -1081,11 +1081,11 @@
       "competitorShare": 1,
       "competitorsAnswering": [
         {
-          "asin": "B08QF3C1B1",
-          "brand": "GEMFUL",
+          "asin": "B00G8QHUV2",
+          "brand": "Elite",
           "quote": {
-            "fieldId": "attr.product_care_instructions",
-            "text": "Machine Wash"
+            "fieldId": "bullet.4",
+            "text": "dishwasher safe"
           }
         },
         {
@@ -1097,19 +1097,19 @@
           }
         },
         {
-          "asin": "B00G8QHUV2",
-          "brand": "Elite",
-          "quote": {
-            "fieldId": "bullet.4",
-            "text": "dishwasher safe"
-          }
-        },
-        {
           "asin": "B08GZ7ZYSC",
           "brand": "Polar Bottle",
           "quote": {
             "fieldId": "bullet.3",
             "text": "dishwasher safe"
+          }
+        },
+        {
+          "asin": "B08QF3C1B1",
+          "brand": "GEMFUL",
+          "quote": {
+            "fieldId": "attr.product_care_instructions",
+            "text": "Machine Wash"
           }
         }
       ],
@@ -1122,14 +1122,6 @@
       "frequency": 1,
       "competitorShare": 0.75,
       "competitorsAnswering": [
-        {
-          "asin": "B08QF3C1B1",
-          "brand": "GEMFUL",
-          "quote": {
-            "fieldId": "bullet.2",
-            "text": "HIGH QUALITY LEAK PROOF VALVE: Our water bottles use a threaded lid with a up/down valve that seals your water bottle."
-          }
-        },
         {
           "asin": "B0832N947Y",
           "brand": "RICWINANN",
@@ -1145,6 +1137,14 @@
             "fieldId": "bullet.2",
             "text": "pushes closed for leakproof transport"
           }
+        },
+        {
+          "asin": "B08QF3C1B1",
+          "brand": "GEMFUL",
+          "quote": {
+            "fieldId": "bullet.2",
+            "text": "HIGH QUALITY LEAK PROOF VALVE: Our water bottles use a threaded lid with a up/down valve that seals your water bottle."
+          }
         }
       ],
       "hiddenClaims": [],
@@ -1157,19 +1157,19 @@
       "competitorShare": 0.5,
       "competitorsAnswering": [
         {
-          "asin": "B08QF3C1B1",
-          "brand": "GEMFUL",
-          "quote": {
-            "fieldId": "bullet.3",
-            "text": "Optimized to fit into any water bottle cage, backpack pocket or cup holder."
-          }
-        },
-        {
           "asin": "B08GZ7ZYSC",
           "brand": "Polar Bottle",
           "quote": {
             "fieldId": "bullet.1",
             "text": "fits most bike cages"
+          }
+        },
+        {
+          "asin": "B08QF3C1B1",
+          "brand": "GEMFUL",
+          "quote": {
+            "fieldId": "bullet.3",
+            "text": "Optimized to fit into any water bottle cage, backpack pocket or cup holder."
           }
         }
       ],
@@ -1240,7 +1240,7 @@
   "usage": {
     "requests": 7,
     "cachedRequests": 7,
-    "inputTokens": 10275,
+    "inputTokens": 10257,
     "outputTokens": 3719
   },
   "notes": [

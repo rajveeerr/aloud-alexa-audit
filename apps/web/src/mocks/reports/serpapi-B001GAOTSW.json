@@ -1996,6 +1996,224 @@
   "skippedImageIds": [],
   "competitors": [
     {
+      "asin": "B018UJ2YWE",
+      "brand": "Pentel",
+      "title": "Pentel EnerGel RTX Retractable Liquid Gel Pen, Medium Line, Metal Tip, Assorted Ink 4-Pk (BL77BP4M)",
+      "score": {
+        "score": 73,
+        "answered": 10,
+        "partial": 0,
+        "missing": 4,
+        "contradicted": 1,
+        "counted": 15,
+        "notApplicable": 4
+      },
+      "grades": [
+        {
+          "intentId": "tip_size",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.6",
+              "text": "0.7mm stainless steel tip writes medium lines; 1.0mm stainless steel tip writes bold lines"
+            }
+          ],
+          "value": "0.7mm and 1.0mm",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "smudge",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "no smears, no smudges"
+            }
+          ],
+          "value": "no smears, no smudges",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "smudge_left_handed",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "even left handed writers love it - no smears, no smudges"
+            }
+          ],
+          "value": "even left handed writers love it - no smears, no smudges",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "dry_time",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "dries so fast"
+            }
+          ],
+          "value": "dries so fast",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "ink_flow",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.1",
+              "text": "super-smooth writing experience"
+            }
+          ],
+          "value": "super-smooth writing experience",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "longevity",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "bleed_through",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "refillable",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "description.1",
+              "text": "Refillable with any size and/or color EnerGel refill."
+            }
+          ],
+          "value": "Refillable with any size and/or color EnerGel refill.",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "retractable",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.closure_type",
+              "text": "Retractable"
+            }
+          ],
+          "value": "Retractable",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "pack_contents",
+          "status": "contradicted",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "Assorted Ink 4-Pk"
+            },
+            {
+              "fieldId": "attr.included_components",
+              "text": "Pen (3)"
+            }
+          ],
+          "modelStatus": "contradicted",
+          "flags": []
+        },
+        {
+          "intentId": "water_resistance",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "leaking",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "no globs"
+            }
+          ],
+          "value": "no globs",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "surface_compatibility",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "opacity",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "durability",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.7",
+              "text": "Limited Lifetime Warranty"
+            }
+          ],
+          "value": "Limited Lifetime Warranty",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "weight",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.item_weight",
+              "text": "1.44 ounces"
+            }
+          ],
+          "value": "1.44 ounces",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "erasable",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "glitter_level",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "scent",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        }
+      ]
+    },
+    {
       "asin": "B0744D6P4V",
       "brand": "BIC",
       "title": "BIC Gelocity Quick Dry Assorted Colors Gel Pens, 12-Count Pack, 0.7 mm",
@@ -2179,6 +2397,185 @@
           ],
           "value": "0.27 g",
           "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "erasable",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "glitter_level",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "scent",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "asin": "B0BYPTVZH6",
+      "brand": "Sharpie",
+      "title": "SHARPIE S-Gel Gel Pens, Medium Point (0.7mm) Green, Fine Point (0.5mm) Blue, 24 Count",
+      "score": {
+        "score": 55,
+        "answered": 5,
+        "partial": 0,
+        "missing": 10,
+        "contradicted": 0,
+        "counted": 15,
+        "notApplicable": 4
+      },
+      "grades": [
+        {
+          "intentId": "tip_size",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "Medium Point (0.7mm) Green, Fine Point (0.5mm) Blue"
+            }
+          ],
+          "value": "0.7mm, 0.5mm",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "smudge",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "aplus.1",
+              "text": "No Smear"
+            }
+          ],
+          "value": "No Smear",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "smudge_left_handed",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "dry_time",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "ink_flow",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "description.1",
+              "text": "offers a smooth writing experience"
+            }
+          ],
+          "value": "smooth writing experience",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "longevity",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "bleed_through",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "aplus.1",
+              "text": "No Bleed Technology"
+            }
+          ],
+          "value": "No Bleed Technology",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "refillable",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "retractable",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "pack_contents",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "Green, Fine Point (0.5mm) Blue, 24 Count"
+            }
+          ],
+          "value": "24 Count, Green, Blue",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "water_resistance",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "leaking",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "surface_compatibility",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "opacity",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "durability",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "weight",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
           "flags": []
         },
         {
@@ -2420,403 +2817,6 @@
           "flags": []
         }
       ]
-    },
-    {
-      "asin": "B0BYPTVZH6",
-      "brand": "Sharpie",
-      "title": "SHARPIE S-Gel Gel Pens, Medium Point (0.7mm) Green, Fine Point (0.5mm) Blue, 24 Count",
-      "score": {
-        "score": 55,
-        "answered": 5,
-        "partial": 0,
-        "missing": 10,
-        "contradicted": 0,
-        "counted": 15,
-        "notApplicable": 4
-      },
-      "grades": [
-        {
-          "intentId": "tip_size",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "title",
-              "text": "Medium Point (0.7mm) Green, Fine Point (0.5mm) Blue"
-            }
-          ],
-          "value": "0.7mm, 0.5mm",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "smudge",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "aplus.1",
-              "text": "No Smear"
-            }
-          ],
-          "value": "No Smear",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "smudge_left_handed",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "dry_time",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "ink_flow",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "description.1",
-              "text": "offers a smooth writing experience"
-            }
-          ],
-          "value": "smooth writing experience",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "longevity",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "bleed_through",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "aplus.1",
-              "text": "No Bleed Technology"
-            }
-          ],
-          "value": "No Bleed Technology",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "refillable",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "retractable",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "pack_contents",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "title",
-              "text": "Green, Fine Point (0.5mm) Blue, 24 Count"
-            }
-          ],
-          "value": "24 Count, Green, Blue",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "water_resistance",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "leaking",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "surface_compatibility",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "opacity",
-          "status": "not_applicable",
-          "quotes": [],
-          "modelStatus": "not_applicable",
-          "flags": []
-        },
-        {
-          "intentId": "durability",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "weight",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "erasable",
-          "status": "not_applicable",
-          "quotes": [],
-          "modelStatus": "not_applicable",
-          "flags": []
-        },
-        {
-          "intentId": "glitter_level",
-          "status": "not_applicable",
-          "quotes": [],
-          "modelStatus": "not_applicable",
-          "flags": []
-        },
-        {
-          "intentId": "scent",
-          "status": "not_applicable",
-          "quotes": [],
-          "modelStatus": "not_applicable",
-          "flags": []
-        }
-      ]
-    },
-    {
-      "asin": "B018UJ2YWE",
-      "brand": "Pentel",
-      "title": "Pentel EnerGel RTX Retractable Liquid Gel Pen, Medium Line, Metal Tip, Assorted Ink 4-Pk (BL77BP4M)",
-      "score": {
-        "score": 73,
-        "answered": 10,
-        "partial": 0,
-        "missing": 4,
-        "contradicted": 1,
-        "counted": 15,
-        "notApplicable": 4
-      },
-      "grades": [
-        {
-          "intentId": "tip_size",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "bullet.6",
-              "text": "0.7mm stainless steel tip writes medium lines; 1.0mm stainless steel tip writes bold lines"
-            }
-          ],
-          "value": "0.7mm and 1.0mm",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "smudge",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "bullet.2",
-              "text": "no smears, no smudges"
-            }
-          ],
-          "value": "no smears, no smudges",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "smudge_left_handed",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "bullet.2",
-              "text": "even left handed writers love it - no smears, no smudges"
-            }
-          ],
-          "value": "even left handed writers love it - no smears, no smudges",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "dry_time",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "bullet.2",
-              "text": "dries so fast"
-            }
-          ],
-          "value": "dries so fast",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "ink_flow",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "bullet.1",
-              "text": "super-smooth writing experience"
-            }
-          ],
-          "value": "super-smooth writing experience",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "longevity",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "bleed_through",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "refillable",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "description.1",
-              "text": "Refillable with any size and/or color EnerGel refill."
-            }
-          ],
-          "value": "Refillable with any size and/or color EnerGel refill.",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "retractable",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "attr.closure_type",
-              "text": "Retractable"
-            }
-          ],
-          "value": "Retractable",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "pack_contents",
-          "status": "contradicted",
-          "quotes": [
-            {
-              "fieldId": "title",
-              "text": "Assorted Ink 4-Pk"
-            },
-            {
-              "fieldId": "attr.included_components",
-              "text": "Pen (3)"
-            }
-          ],
-          "modelStatus": "contradicted",
-          "flags": []
-        },
-        {
-          "intentId": "water_resistance",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "leaking",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "bullet.2",
-              "text": "no globs"
-            }
-          ],
-          "value": "no globs",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "surface_compatibility",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "opacity",
-          "status": "not_applicable",
-          "quotes": [],
-          "modelStatus": "not_applicable",
-          "flags": []
-        },
-        {
-          "intentId": "durability",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "bullet.7",
-              "text": "Limited Lifetime Warranty"
-            }
-          ],
-          "value": "Limited Lifetime Warranty",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "weight",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "attr.item_weight",
-              "text": "1.44 ounces"
-            }
-          ],
-          "value": "1.44 ounces",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "erasable",
-          "status": "not_applicable",
-          "quotes": [],
-          "modelStatus": "not_applicable",
-          "flags": []
-        },
-        {
-          "intentId": "glitter_level",
-          "status": "not_applicable",
-          "quotes": [],
-          "modelStatus": "not_applicable",
-          "flags": []
-        },
-        {
-          "intentId": "scent",
-          "status": "not_applicable",
-          "quotes": [],
-          "modelStatus": "not_applicable",
-          "flags": []
-        }
-      ]
     }
   ],
   "gaps": [
@@ -2826,6 +2826,14 @@
       "frequency": 171,
       "competitorShare": 0.75,
       "competitorsAnswering": [
+        {
+          "asin": "B018UJ2YWE",
+          "brand": "Pentel",
+          "quote": {
+            "fieldId": "bullet.1",
+            "text": "super-smooth writing experience"
+          }
+        },
         {
           "asin": "B0744D6P4V",
           "brand": "BIC",
@@ -2841,14 +2849,6 @@
             "fieldId": "description.1",
             "text": "offers a smooth writing experience"
           }
-        },
-        {
-          "asin": "B018UJ2YWE",
-          "brand": "Pentel",
-          "quote": {
-            "fieldId": "bullet.1",
-            "text": "super-smooth writing experience"
-          }
         }
       ],
       "hiddenClaims": [],
@@ -2860,6 +2860,14 @@
       "frequency": 38,
       "competitorShare": 0.75,
       "competitorsAnswering": [
+        {
+          "asin": "B018UJ2YWE",
+          "brand": "Pentel",
+          "quote": {
+            "fieldId": "bullet.7",
+            "text": "Limited Lifetime Warranty"
+          }
+        },
         {
           "asin": "B0744D6P4V",
           "brand": "BIC",
@@ -2874,14 +2882,6 @@
           "quote": {
             "fieldId": "attr.additional_features",
             "text": "Heavy Duty"
-          }
-        },
-        {
-          "asin": "B018UJ2YWE",
-          "brand": "Pentel",
-          "quote": {
-            "fieldId": "bullet.7",
-            "text": "Limited Lifetime Warranty"
           }
         }
       ],
@@ -2957,6 +2957,14 @@
       "competitorShare": 0.625,
       "competitorsAnswering": [
         {
+          "asin": "B018UJ2YWE",
+          "brand": "Pentel",
+          "quote": {
+            "fieldId": "bullet.2",
+            "text": "even left handed writers love it - no smears, no smudges"
+          }
+        },
+        {
           "asin": "B0744D6P4V",
           "brand": "BIC",
           "quote": {
@@ -2971,14 +2979,6 @@
             "fieldId": "attr.hand_orientation",
             "text": "Ambidextrous"
           }
-        },
-        {
-          "asin": "B018UJ2YWE",
-          "brand": "Pentel",
-          "quote": {
-            "fieldId": "bullet.2",
-            "text": "even left handed writers love it - no smears, no smudges"
-          }
         }
       ],
       "hiddenClaims": [],
@@ -2990,6 +2990,14 @@
       "frequency": 18,
       "competitorShare": 0.5,
       "competitorsAnswering": [
+        {
+          "asin": "B018UJ2YWE",
+          "brand": "Pentel",
+          "quote": {
+            "fieldId": "attr.item_weight",
+            "text": "1.44 ounces"
+          }
+        },
         {
           "asin": "B0744D6P4V",
           "brand": "BIC",
@@ -3005,14 +3013,6 @@
             "fieldId": "attr.item_weight",
             "text": "3.84 ounces"
           }
-        },
-        {
-          "asin": "B018UJ2YWE",
-          "brand": "Pentel",
-          "quote": {
-            "fieldId": "attr.item_weight",
-            "text": "1.44 ounces"
-          }
         }
       ],
       "hiddenClaims": [],
@@ -3026,33 +3026,16 @@
       "priority": 74.8,
       "action": "request_fact",
       "target": "bullet.1",
-      "sources": [
-        {
-          "kind": "field",
-          "id": "bullet.1",
-          "text": "Smooth & Long-lasting: Enjoy a smooth writing experience with these black gel pens—Pilot pens that glide effortlessly across the page."
-        },
-        {
-          "kind": "image",
-          "id": "ic.3",
-          "text": "Super Smooth"
-        }
-      ],
-      "flags": [
-        "unsupported_claim"
-      ],
-      "needsFromBrand": "The brand's answer to \"Does the ink flow consistently without skipping or clogging\". A drafted version went beyond what the listing says, so it was held back.",
-      "rejectedStatements": [
-        "without skipping"
-      ]
+      "needsFromBrand": "Confirm whether the ink flows consistently without skipping or clogging.",
+      "sources": [],
+      "flags": []
     },
     {
       "intentId": "durability",
       "question": "How durable is the pen body and tip?",
       "priority": 33.3,
-      "action": "add_bullet",
+      "action": "request_fact",
       "target": "new_bullet",
-      "draft": "Designed to be reliable and durable, featuring a sturdy clip for everyday use.",
       "sources": [
         {
           "kind": "image",
@@ -3065,7 +3048,13 @@
           "text": "Sturdy Clip"
         }
       ],
-      "flags": []
+      "flags": [
+        "unsupported_claim"
+      ],
+      "needsFromBrand": "The brand's answer to \"How durable is the pen body and tip\". A drafted version went beyond what the listing says, so it was held back.",
+      "rejectedStatements": [
+        "everyday use"
+      ]
     },
     {
       "intentId": "bleed_through",
@@ -3073,7 +3062,7 @@
       "priority": 26.9,
       "action": "request_fact",
       "target": "new_bullet",
-      "needsFromBrand": "Confirm whether the ink prevents bleed-through on standard paper.",
+      "needsFromBrand": "Confirm whether the ink prevents bleed-through on paper.",
       "sources": [],
       "flags": []
     },
@@ -3083,7 +3072,7 @@
       "priority": 18.1,
       "action": "request_fact",
       "target": "new_bullet",
-      "needsFromBrand": "Confirm whether the pen features a leak-proof or blob-resistant design.",
+      "needsFromBrand": "Confirm whether the pen is leak-proof or prevents blobs.",
       "sources": [],
       "flags": []
     },
@@ -3093,44 +3082,54 @@
       "priority": 10.5,
       "action": "request_fact",
       "target": "new_bullet",
-      "needsFromBrand": "Specify the exact types of paper or surfaces the pens are compatible with beyond everyday writing.",
       "sources": [
         {
           "kind": "image",
-          "id": "ic.32",
-          "text": "A favorite for school, work, & everyday writing"
+          "id": "ic.53",
+          "text": "CARDMAKING"
+        },
+        {
+          "kind": "image",
+          "id": "ic.54",
+          "text": "SCRAPBOOKING"
         }
       ],
-      "flags": []
+      "flags": [
+        "unsupported_claim"
+      ],
+      "needsFromBrand": "The brand's answer to \"What paper or surfaces does it write on\". A drafted version went beyond what the listing says, so it was held back.",
+      "rejectedStatements": [
+        "in addition to everyday writing tasks"
+      ]
     },
     {
       "intentId": "smudge_left_handed",
       "question": "Does it smudge for left-handed writers?",
       "priority": 8.9,
-      "action": "add_bullet",
+      "action": "request_fact",
       "target": "new_bullet",
-      "draft": "Featuring quick-drying ink that helps prevent smudges, making it a great option for left-handed writers.",
       "sources": [
         {
           "kind": "field",
           "id": "attr.hand_orientation",
           "text": "Hand orientation: Left"
-        },
-        {
-          "kind": "field",
-          "id": "bullet.4",
-          "text": "the vibrant, quick drying ink in these ink pens for writing helps prevent smudges and smears"
         }
       ],
-      "flags": []
+      "flags": [
+        "unsupported_claim"
+      ],
+      "needsFromBrand": "The brand's answer to \"Does it smudge for left-handed writers\". A drafted version went beyond what the listing says, so it was held back.",
+      "rejectedStatements": [
+        "Features quick drying ink designed to help prevent smudges and smears for left-handed writers"
+      ]
     },
     {
       "intentId": "weight",
       "question": "How heavy is the pen and how is it balanced?",
       "priority": 6.8,
       "action": "request_fact",
-      "target": "new_bullet",
-      "needsFromBrand": "Provide the individual weight of a single pen rather than the total package weight of 4.96 ounces.",
+      "target": "attr.item_weight",
+      "needsFromBrand": "Send the weight of an individual pen instead of the package weight.",
       "sources": [],
       "flags": []
     }
@@ -3138,8 +3137,8 @@
   "usage": {
     "requests": 8,
     "cachedRequests": 8,
-    "inputTokens": 16916,
-    "outputTokens": 10651
+    "inputTokens": 16881,
+    "outputTokens": 10627
   },
   "notes": [
     "Live listings come without review text, so promise vs proof wasn't checked."

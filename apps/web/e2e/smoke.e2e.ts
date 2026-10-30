@@ -63,7 +63,7 @@ test("the hero audit runs, then shows score, hidden answers and the fix list", a
   await expect(hidden.filter({ hasText: "No Smear: Perfect for Left-Handed" })).toHaveCount(1);
 
   await expect(page.getByTestId("fix").first().getByTestId("draft")).toHaveText("Smooth Writing without Skipping");
-  await expect(page.getByText("Held back: added claims the brand never made.")).toBeVisible();
+  await expect(page.locator("#fix-leaking").getByText("Held back: added claims the brand never made.")).toBeVisible();
 
   // The verdict leads, then the first three fixes, before any evidence.
   await expect(page.getByTestId("top-fixes").locator("li")).toHaveCount(3);

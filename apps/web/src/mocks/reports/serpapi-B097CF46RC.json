@@ -1048,6 +1048,221 @@
   "skippedImageIds": [],
   "competitors": [
     {
+      "asin": "B001GAOTSW",
+      "brand": "PILOT",
+      "title": "PILOT G2 Premium Gel Pens, Fine Point 0.7mm, Black Ink, 12-Pack",
+      "score": {
+        "score": 73,
+        "answered": 8,
+        "partial": 3,
+        "missing": 4,
+        "contradicted": 0,
+        "counted": 15,
+        "notApplicable": 4
+      },
+      "grades": [
+        {
+          "intentId": "tip_size",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "Fine Point 0.7mm"
+            }
+          ],
+          "value": "0.7mm",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "smudge",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.4",
+              "text": "helps prevent smudges and smears"
+            }
+          ],
+          "value": "helps prevent smudges and smears",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "smudge_left_handed",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "dry_time",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.4",
+              "text": "quick drying ink"
+            }
+          ],
+          "value": "quick drying",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "ink_flow",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "bullet.1",
+              "text": "smooth writing experience"
+            }
+          ],
+          "value": "smooth writing",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "longevity",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.1",
+              "text": "longest-lasting gel ink pens"
+            }
+          ],
+          "value": "longest-lasting gel ink pens",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "bleed_through",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "refillable",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.4",
+              "text": "Refillable & Quick Drying: You can save money and reduce waste with these black ink pens and Pilot G2 refills"
+            }
+          ],
+          "value": "Refillable",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "retractable",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.closure_type",
+              "text": "Retractable"
+            }
+          ],
+          "value": "Retractable",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "pack_contents",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "Black Ink, 12-Pack"
+            }
+          ],
+          "value": "12-Pack Black Ink",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "water_resistance",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "description.1",
+              "text": "archival-safe, acid-free black ink is fade-resistant"
+            }
+          ],
+          "value": "archival-safe, acid-free, fade-resistant",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "leaking",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "surface_compatibility",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "bullet.3",
+              "text": "everyday writing tasks"
+            }
+          ],
+          "value": "everyday writing",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "opacity",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "durability",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "weight",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "attr.item_weight",
+              "text": "4.96 ounces"
+            }
+          ],
+          "value": "4.96 ounces",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "erasable",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "glitter_level",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "scent",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        }
+      ]
+    },
+    {
       "asin": "B0744D6P4V",
       "brand": "BIC",
       "title": "BIC Gelocity Quick Dry Assorted Colors Gel Pens, 12-Count Pack, 0.7 mm",
@@ -1231,6 +1446,185 @@
           ],
           "value": "0.27 g",
           "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "erasable",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "glitter_level",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "scent",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "asin": "B0BYPTVZH6",
+      "brand": "Sharpie",
+      "title": "SHARPIE S-Gel Gel Pens, Medium Point (0.7mm) Green, Fine Point (0.5mm) Blue, 24 Count",
+      "score": {
+        "score": 55,
+        "answered": 5,
+        "partial": 0,
+        "missing": 10,
+        "contradicted": 0,
+        "counted": 15,
+        "notApplicable": 4
+      },
+      "grades": [
+        {
+          "intentId": "tip_size",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "Medium Point (0.7mm) Green, Fine Point (0.5mm) Blue"
+            }
+          ],
+          "value": "0.7mm, 0.5mm",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "smudge",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "aplus.1",
+              "text": "No Smear"
+            }
+          ],
+          "value": "No Smear",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "smudge_left_handed",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "dry_time",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "ink_flow",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "description.1",
+              "text": "offers a smooth writing experience"
+            }
+          ],
+          "value": "smooth writing experience",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "longevity",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "bleed_through",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "aplus.1",
+              "text": "No Bleed Technology"
+            }
+          ],
+          "value": "No Bleed Technology",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "refillable",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "retractable",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "pack_contents",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "title",
+              "text": "Green, Fine Point (0.5mm) Blue, 24 Count"
+            }
+          ],
+          "value": "24 Count, Green, Blue",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "water_resistance",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "leaking",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "surface_compatibility",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "opacity",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "not_applicable",
+          "flags": []
+        },
+        {
+          "intentId": "durability",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "weight",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
           "flags": []
         },
         {
@@ -1472,400 +1866,6 @@
           "flags": []
         }
       ]
-    },
-    {
-      "asin": "B0BYPTVZH6",
-      "brand": "Sharpie",
-      "title": "SHARPIE S-Gel Gel Pens, Medium Point (0.7mm) Green, Fine Point (0.5mm) Blue, 24 Count",
-      "score": {
-        "score": 55,
-        "answered": 5,
-        "partial": 0,
-        "missing": 10,
-        "contradicted": 0,
-        "counted": 15,
-        "notApplicable": 4
-      },
-      "grades": [
-        {
-          "intentId": "tip_size",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "title",
-              "text": "Medium Point (0.7mm) Green, Fine Point (0.5mm) Blue"
-            }
-          ],
-          "value": "0.7mm, 0.5mm",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "smudge",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "aplus.1",
-              "text": "No Smear"
-            }
-          ],
-          "value": "No Smear",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "smudge_left_handed",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "dry_time",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "ink_flow",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "description.1",
-              "text": "offers a smooth writing experience"
-            }
-          ],
-          "value": "smooth writing experience",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "longevity",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "bleed_through",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "aplus.1",
-              "text": "No Bleed Technology"
-            }
-          ],
-          "value": "No Bleed Technology",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "refillable",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "retractable",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "pack_contents",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "title",
-              "text": "Green, Fine Point (0.5mm) Blue, 24 Count"
-            }
-          ],
-          "value": "24 Count, Green, Blue",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "water_resistance",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "leaking",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "surface_compatibility",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "opacity",
-          "status": "not_applicable",
-          "quotes": [],
-          "modelStatus": "not_applicable",
-          "flags": []
-        },
-        {
-          "intentId": "durability",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "weight",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "erasable",
-          "status": "not_applicable",
-          "quotes": [],
-          "modelStatus": "not_applicable",
-          "flags": []
-        },
-        {
-          "intentId": "glitter_level",
-          "status": "not_applicable",
-          "quotes": [],
-          "modelStatus": "not_applicable",
-          "flags": []
-        },
-        {
-          "intentId": "scent",
-          "status": "not_applicable",
-          "quotes": [],
-          "modelStatus": "not_applicable",
-          "flags": []
-        }
-      ]
-    },
-    {
-      "asin": "B001GAOTSW",
-      "brand": "PILOT",
-      "title": "PILOT G2 Premium Gel Pens, Fine Point 0.7mm, Black Ink, 12-Pack",
-      "score": {
-        "score": 73,
-        "answered": 8,
-        "partial": 3,
-        "missing": 4,
-        "contradicted": 0,
-        "counted": 15,
-        "notApplicable": 4
-      },
-      "grades": [
-        {
-          "intentId": "tip_size",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "title",
-              "text": "Fine Point 0.7mm"
-            }
-          ],
-          "value": "0.7mm",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "smudge",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "bullet.4",
-              "text": "helps prevent smudges and smears"
-            }
-          ],
-          "value": "helps prevent smudges and smears",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "smudge_left_handed",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "dry_time",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "bullet.4",
-              "text": "quick drying ink"
-            }
-          ],
-          "value": "quick drying",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "ink_flow",
-          "status": "partial",
-          "quotes": [
-            {
-              "fieldId": "bullet.1",
-              "text": "smooth writing experience"
-            }
-          ],
-          "value": "smooth writing",
-          "modelStatus": "partial",
-          "flags": []
-        },
-        {
-          "intentId": "longevity",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "bullet.1",
-              "text": "longest-lasting gel ink pens"
-            }
-          ],
-          "value": "longest-lasting gel ink pens",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "bleed_through",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "refillable",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "bullet.4",
-              "text": "Refillable & Quick Drying: You can save money and reduce waste with these black ink pens and Pilot G2 refills"
-            }
-          ],
-          "value": "Refillable",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "retractable",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "attr.closure_type",
-              "text": "Retractable"
-            }
-          ],
-          "value": "Retractable",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "pack_contents",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "title",
-              "text": "Black Ink, 12-Pack"
-            }
-          ],
-          "value": "12-Pack Black Ink",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "water_resistance",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "description.1",
-              "text": "archival-safe, acid-free black ink is fade-resistant"
-            }
-          ],
-          "value": "archival-safe, acid-free, fade-resistant",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "leaking",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "surface_compatibility",
-          "status": "partial",
-          "quotes": [
-            {
-              "fieldId": "bullet.3",
-              "text": "everyday writing tasks"
-            }
-          ],
-          "value": "everyday writing",
-          "modelStatus": "partial",
-          "flags": []
-        },
-        {
-          "intentId": "opacity",
-          "status": "not_applicable",
-          "quotes": [],
-          "modelStatus": "not_applicable",
-          "flags": []
-        },
-        {
-          "intentId": "durability",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "weight",
-          "status": "partial",
-          "quotes": [
-            {
-              "fieldId": "attr.item_weight",
-              "text": "4.96 ounces"
-            }
-          ],
-          "value": "4.96 ounces",
-          "modelStatus": "partial",
-          "flags": []
-        },
-        {
-          "intentId": "erasable",
-          "status": "not_applicable",
-          "quotes": [],
-          "modelStatus": "not_applicable",
-          "flags": []
-        },
-        {
-          "intentId": "glitter_level",
-          "status": "not_applicable",
-          "quotes": [],
-          "modelStatus": "not_applicable",
-          "flags": []
-        },
-        {
-          "intentId": "scent",
-          "status": "not_applicable",
-          "quotes": [],
-          "modelStatus": "not_applicable",
-          "flags": []
-        }
-      ]
     }
   ],
   "gaps": [
@@ -1894,19 +1894,19 @@
       "competitorShare": 1,
       "competitorsAnswering": [
         {
+          "asin": "B001GAOTSW",
+          "brand": "PILOT",
+          "quote": {
+            "fieldId": "title",
+            "text": "Black Ink, 12-Pack"
+          }
+        },
+        {
           "asin": "B0744D6P4V",
           "brand": "BIC",
           "quote": {
             "fieldId": "title",
             "text": "Assorted Colors Gel Pens, 12-Count Pack"
-          }
-        },
-        {
-          "asin": "B0C9W8DD9S",
-          "brand": "Ddaowanx",
-          "quote": {
-            "fieldId": "title",
-            "text": "6 Pcs"
           }
         },
         {
@@ -1918,11 +1918,11 @@
           }
         },
         {
-          "asin": "B001GAOTSW",
-          "brand": "PILOT",
+          "asin": "B0C9W8DD9S",
+          "brand": "Ddaowanx",
           "quote": {
             "fieldId": "title",
-            "text": "Black Ink, 12-Pack"
+            "text": "6 Pcs"
           }
         }
       ],
@@ -1954,6 +1954,14 @@
       "competitorShare": 0.625,
       "competitorsAnswering": [
         {
+          "asin": "B001GAOTSW",
+          "brand": "PILOT",
+          "quote": {
+            "fieldId": "bullet.3",
+            "text": "everyday writing tasks"
+          }
+        },
+        {
           "asin": "B0744D6P4V",
           "brand": "BIC",
           "quote": {
@@ -1968,14 +1976,6 @@
             "fieldId": "bullet.3",
             "text": "book, notebook or bag"
           }
-        },
-        {
-          "asin": "B001GAOTSW",
-          "brand": "PILOT",
-          "quote": {
-            "fieldId": "bullet.3",
-            "text": "everyday writing tasks"
-          }
         }
       ],
       "hiddenClaims": [],
@@ -1988,19 +1988,19 @@
       "competitorShare": 0.5,
       "competitorsAnswering": [
         {
-          "asin": "B0C9W8DD9S",
-          "brand": "Ddaowanx",
-          "quote": {
-            "fieldId": "bullet.2",
-            "text": "won't fade"
-          }
-        },
-        {
           "asin": "B001GAOTSW",
           "brand": "PILOT",
           "quote": {
             "fieldId": "description.1",
             "text": "archival-safe, acid-free black ink is fade-resistant"
+          }
+        },
+        {
+          "asin": "B0C9W8DD9S",
+          "brand": "Ddaowanx",
+          "quote": {
+            "fieldId": "bullet.2",
+            "text": "won't fade"
           }
         }
       ],
@@ -2015,7 +2015,7 @@
       "priority": 67.5,
       "action": "request_fact",
       "target": "new_bullet",
-      "needsFromBrand": "Confirm how long the ink lasts in terms of writing length or if it is long-lasting.",
+      "needsFromBrand": "Confirm how long the ink lasts in writing length or meters.",
       "sources": [],
       "flags": []
     },
@@ -2046,7 +2046,7 @@
       "priority": 26.9,
       "action": "request_fact",
       "target": "new_bullet",
-      "needsFromBrand": "Confirm whether the ink prevents bleed-through or show-through on standard writing paper.",
+      "needsFromBrand": "Confirm whether the ink prevents bleed-through on standard paper.",
       "sources": [],
       "flags": []
     },
@@ -2056,7 +2056,7 @@
       "priority": 22.8,
       "action": "edit_field",
       "target": "bullet.3",
-      "draft": "EnerGel ink writes smoothly on standard writing paper.",
+      "draft": "EnerGel ink is tested for smooth writing on standard writing paper.",
       "sources": [
         {
           "kind": "field",
@@ -2072,7 +2072,7 @@
       "priority": 9.8,
       "action": "request_fact",
       "target": "new_bullet",
-      "needsFromBrand": "Confirm whether the ink is waterproof, water-resistant, fade-resistant, or archival.",
+      "needsFromBrand": "Confirm whether the ink is waterproof, fade-resistant, or archival.",
       "sources": [],
       "flags": []
     }
@@ -2080,8 +2080,8 @@
   "usage": {
     "requests": 8,
     "cachedRequests": 8,
-    "inputTokens": 13978,
-    "outputTokens": 6743
+    "inputTokens": 13987,
+    "outputTokens": 6730
   },
   "notes": [
     "Live listings come without review text, so promise vs proof wasn't checked."

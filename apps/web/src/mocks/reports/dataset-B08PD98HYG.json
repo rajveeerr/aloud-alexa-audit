@@ -546,125 +546,6 @@
   "skippedImageIds": [],
   "competitors": [
     {
-      "asin": "B0BM4LCNPL",
-      "brand": "Pica",
-      "title": "Pica-Dry Longlife Automatic Pencil 3030",
-      "score": {
-        "score": 24,
-        "answered": 1,
-        "partial": 0,
-        "missing": 9,
-        "contradicted": 0,
-        "counted": 10,
-        "notApplicable": 3
-      },
-      "grades": [
-        {
-          "intentId": "durability",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "bullet.2",
-              "text": "Made to withstand even the toughest jobs"
-            }
-          ],
-          "value": "Made to withstand even the toughest jobs",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "lead_breakage_resistance",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "lead_size",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "eraser_presence",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "smoothness",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "erasability",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "retractable",
-          "status": "not_applicable",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": [
-            "conditional_unaddressed"
-          ]
-        },
-        {
-          "intentId": "refillable",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "built_in_sharpener",
-          "status": "not_applicable",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": [
-            "conditional_unaddressed"
-          ]
-        },
-        {
-          "intentId": "auto_rotation",
-          "status": "not_applicable",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": [
-            "conditional_unaddressed"
-          ]
-        },
-        {
-          "intentId": "body_material",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "jamming",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "smudge_resistance",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        }
-      ]
-    },
-    {
       "asin": "B077Q4B6YN",
       "brand": "Paper Mate",
       "title": "Paper Mate Handwriting Triangular Mechanical Pencil Set with Lead & Eraser Refills, 1.3mm, Fun Barrel Colors, 8 Count",
@@ -793,6 +674,260 @@
           ],
           "value": "Lead, Plastic, Rubber",
           "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "jamming",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "smudge_resistance",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "asin": "B0BKSDXL36",
+      "brand": "Parker",
+      "title": "Parker Jotter Stainless Steel Chrome Color Trim Mechanical Pencil, Medium Point (0.5 mm)",
+      "score": {
+        "score": 46,
+        "answered": 4,
+        "partial": 0,
+        "missing": 7,
+        "contradicted": 0,
+        "counted": 11,
+        "notApplicable": 2
+      },
+      "grades": [
+        {
+          "intentId": "durability",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "description.1",
+              "text": "durability"
+            }
+          ],
+          "value": "durability",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "lead_breakage_resistance",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "lead_size",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.4",
+              "text": "0.5mm"
+            }
+          ],
+          "value": "0.5mm",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "eraser_presence",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "smoothness",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "erasability",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "retractable",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.closure",
+              "text": "Retractable"
+            }
+          ],
+          "value": "Retractable",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "refillable",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "built_in_sharpener",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "auto_rotation",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "body_material",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "Stainless steel"
+            }
+          ],
+          "value": "Stainless steel",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "jamming",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "smudge_resistance",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "asin": "B0BM4LCNPL",
+      "brand": "Pica",
+      "title": "Pica-Dry Longlife Automatic Pencil 3030",
+      "score": {
+        "score": 24,
+        "answered": 1,
+        "partial": 0,
+        "missing": 9,
+        "contradicted": 0,
+        "counted": 10,
+        "notApplicable": 3
+      },
+      "grades": [
+        {
+          "intentId": "durability",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "Made to withstand even the toughest jobs"
+            }
+          ],
+          "value": "Made to withstand even the toughest jobs",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "lead_breakage_resistance",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "lead_size",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "eraser_presence",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "smoothness",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "erasability",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "retractable",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "refillable",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "built_in_sharpener",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "auto_rotation",
+          "status": "not_applicable",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": [
+            "conditional_unaddressed"
+          ]
+        },
+        {
+          "intentId": "body_material",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
           "flags": []
         },
         {
@@ -951,141 +1086,6 @@
           "flags": []
         }
       ]
-    },
-    {
-      "asin": "B0BKSDXL36",
-      "brand": "Parker",
-      "title": "Parker Jotter Stainless Steel Chrome Color Trim Mechanical Pencil, Medium Point (0.5 mm)",
-      "score": {
-        "score": 46,
-        "answered": 4,
-        "partial": 0,
-        "missing": 7,
-        "contradicted": 0,
-        "counted": 11,
-        "notApplicable": 2
-      },
-      "grades": [
-        {
-          "intentId": "durability",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "description.1",
-              "text": "durability"
-            }
-          ],
-          "value": "durability",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "lead_breakage_resistance",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "lead_size",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "bullet.4",
-              "text": "0.5mm"
-            }
-          ],
-          "value": "0.5mm",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "eraser_presence",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "smoothness",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "erasability",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "retractable",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "attr.closure",
-              "text": "Retractable"
-            }
-          ],
-          "value": "Retractable",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "refillable",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "built_in_sharpener",
-          "status": "not_applicable",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": [
-            "conditional_unaddressed"
-          ]
-        },
-        {
-          "intentId": "auto_rotation",
-          "status": "not_applicable",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": [
-            "conditional_unaddressed"
-          ]
-        },
-        {
-          "intentId": "body_material",
-          "status": "answered",
-          "quotes": [
-            {
-              "fieldId": "bullet.2",
-              "text": "Stainless steel"
-            }
-          ],
-          "value": "Stainless steel",
-          "modelStatus": "answered",
-          "flags": []
-        },
-        {
-          "intentId": "jamming",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        },
-        {
-          "intentId": "smudge_resistance",
-          "status": "missing",
-          "quotes": [],
-          "modelStatus": "missing",
-          "flags": []
-        }
-      ]
     }
   ],
   "gaps": [
@@ -1096,19 +1096,19 @@
       "competitorShare": 0.5,
       "competitorsAnswering": [
         {
-          "asin": "B0BM4LCNPL",
-          "brand": "Pica",
-          "quote": {
-            "fieldId": "bullet.2",
-            "text": "Made to withstand even the toughest jobs"
-          }
-        },
-        {
           "asin": "B0BKSDXL36",
           "brand": "Parker",
           "quote": {
             "fieldId": "description.1",
             "text": "durability"
+          }
+        },
+        {
+          "asin": "B0BM4LCNPL",
+          "brand": "Pica",
+          "quote": {
+            "fieldId": "bullet.2",
+            "text": "Made to withstand even the toughest jobs"
           }
         }
       ],
@@ -1177,7 +1177,7 @@
       "priority": 117.8,
       "action": "request_fact",
       "target": "new_bullet",
-      "needsFromBrand": "Confirm whether the pencil has any specific durability claims for its construction or clip over time.",
+      "needsFromBrand": "Confirm specific durability claims for the pencil construction and clip.",
       "sources": [],
       "flags": []
     },
@@ -1207,7 +1207,7 @@
       "priority": 10.5,
       "action": "request_fact",
       "target": "new_bullet",
-      "needsFromBrand": "Confirm whether the lead mechanism features anti-jamming properties.",
+      "needsFromBrand": "Confirm whether the lead mechanism features anti-jamming properties during use.",
       "sources": [],
       "flags": []
     },
@@ -1217,7 +1217,7 @@
       "priority": 5.6,
       "action": "request_fact",
       "target": "new_bullet",
-      "needsFromBrand": "Confirm whether the lead specifically resists smudging on the page.",
+      "needsFromBrand": "Confirm whether the lead resists smudging on the page.",
       "sources": [],
       "flags": []
     }
@@ -1251,14 +1251,14 @@
         },
         "examples": {
           "supports": [
-            "…r \"leads\" - it writes as sharp as an average .5 but without breaking as much). Only downside: same lame, tiny eraser you usually get with these. Why can't anyone make a good Dixon Ticonderoga Wood-Cased #2 Pencil-type…",
-            "…il. They all had the same drawbacks – the lead would easily break off in my pocket, the plastic parts could get damaged, and the points would either poke holes in the pockets (not nice when it's a leather jacket), or p…",
-            "…r your mark of the lead will be and the less easily it will break.) -The LARGER the size of the lead (diameter) the less easily the lead will break: 0.5mm --&#62; 0.7mm (regular)--&#62; 0.9mm*** (largest and Smoothest)…"
+            "Great!. Led doesn't break, stays sharp and is well made.",
+            "No more broken lead. So glad I bought this. So much better than the disposable garbage. A++",
+            "No more broken lead always sharp. I use it for laying out my wood projects it's perfect"
           ],
           "contradicts": [
-            "…lastic tube that makes the center section of the pencil has broken. If the pencil had been constructed as the one I now have or at least similar to it (which is explained below), my rating would have been 5 stars. By t…",
-            "Broken out of the box. I bought this for it's utilitarian looks and promise, and because it was metal rather than plastic. I got the pen, picked it up and thought this is great. I thought it was great until I tried to…",
-            "…have failed in the exact same way. The inner plastic sleeve breaks which causes the pencil to fall apart and become useless. I really wish the manufacturer would make an all-metal version of this pencil that is more du…"
+            "No refunds and delivered broken.. Received the item and it was broke. There is no option for returns. Save your money.",
+            "Don’t buy it. I hated it the slightest touch to paper the lead breaks 😒",
+            "Poor care. My mech pencil came with a bent tip,because of this the lead frequently breaks making a terrible experience."
           ],
           "mixed": [
             "…ssure of items moving around can cause the plastic inner to snap - happened to us twice (2 out of the three pens we purchased for office and home use snapped in the first 30 days!). (2) The frequently jams as it reache…",
@@ -1900,8 +1900,8 @@
   "usage": {
     "requests": 9,
     "cachedRequests": 9,
-    "inputTokens": 30188,
-    "outputTokens": 6003
+    "inputTokens": 30183,
+    "outputTokens": 6017
   },
   "notes": [
     "The \"Mechanical Pencils\" questions haven't been reviewed by a person yet."
