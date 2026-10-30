@@ -41,6 +41,8 @@ type MockJob = {
   key: string | null;
   error?: { code: string; message: string };
   email?: string;
+  /** Parked behind the model's daily quota: stays queued, as the real worker leaves it. */
+  quota?: boolean;
 };
 type MockBulk = { id: string; name: string; createdAt: string; auditIds: string[] };
 type State = { jobs: MockJob[]; bulks: MockBulk[] };
@@ -82,7 +84,20 @@ const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 const latency = () => sleep(120 + Math.random() * 120);
 const newId = (prefix: string) => `${prefix}_${Math.random().toString(36).slice(2, 10)}`;
 
+/** A demo ASIN whose audit waits for the model's daily quota, so that state can be seen and tested. */
+export const QUOTA_DEMO_ASIN = "B0QUOTA000";
+const QUOTA_WAIT_MESSAGE = "The check is busy right now. Your result will be ready later today; leave your email and we'll send the full report.";
+
+/** Roughly when the free quota resets (midnight Pacific, 08:00 UTC), as the worker's note gives it. */
+function quotaNote(): string {
+  const at = new Date();
+  at.setUTCHours(8, 0, 0, 0);
+  if (at.getTime() <= Date.now()) at.setUTCDate(at.getUTCDate() + 1);
+  return `Waiting for the model's daily quota to reset at ${at.toISOString()}.`;
+}
+
 function statusOf(job: MockJob): AuditStatus {
+  if (job.quota) return "queued";
   const elapsed = Date.now() - Date.parse(job.createdAt);
   if (elapsed < QUEUED_MS) return "queued";
   if (elapsed < job.finishMs) return "running";
@@ -102,6 +117,10 @@ function makeJob(asin: string, source: AuditJob["source"], origin: AuditJob["ori
         ? { code: "mock_mode", message: "Demo mode can't grade a pasted listing. Start the API to audit pasted text." }
         : { code: "listing_not_found", message: `Demo mode has no saved ${source === "serpapi" ? "live" : "dataset"} report for ${asin}. Start the API to audit it.` };
   }
+  if (asin === QUOTA_DEMO_ASIN && source !== "paste") {
+    job.quota = true;
+    delete job.error;
+  }
   state.jobs.unshift(job);
   save();
   return job;
@@ -117,6 +136,7 @@ async function toJob(job: MockJob): Promise<AuditJob> {
   const status = statusOf(job);
   const out: AuditJob = { id: job.id, asin: job.asin, source: job.source, origin: job.origin, status, createdAt: job.createdAt };
   if (status === "failed" && job.error) out.error = job.error;
+  if (job.quota) out.note = quotaNote();
   if (status === "done" && job.key) {
     const report = await loadReport(job.key);
     out.report = report;
@@ -158,6 +178,10 @@ async function toPublic(job: MockJob): Promise<PublicAuditResult> {
   const status = statusOf(job);
   const out: PublicAuditResult = { id: job.id, status, asin: job.asin, emailCaptured: !!job.email };
   if (status === "failed") out.reason = "We can't audit this product yet. Try one of the example products.";
+  if (job.quota) {
+    out.waiting = "quota";
+    out.reason = QUOTA_WAIT_MESSAGE;
+  }
   if (status === "done" && job.key) {
     const r = await loadReport(job.key);
     const questions = new Map(r.intentSet.intents.map((i) => [i.id, i.question]));

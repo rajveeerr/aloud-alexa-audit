@@ -1,4 +1,5 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
+import type { PublicAuditResult } from "@aloud/contracts";
 import type { PublicAuditInput } from "@/api/types";
 import { pollUntil } from "@/api/polling";
 import { getPublicApi, type PublicApi } from "@/api/public";
@@ -11,6 +12,8 @@ export function useCreatePublicAudit() {
   return useMutation({ mutationFn: (body: PublicAuditInput) => run((a) => a.createPublicAudit(body)) });
 }
 
+const QUOTA_POLL_MS = 60_000;
+
 /** `since` is when the visitor started the check: the public result has no createdAt to cap polling by. */
 export function usePublicAudit(id: string | null, since: number | null) {
   return useQuery({
@@ -18,10 +21,14 @@ export function usePublicAudit(id: string | null, since: number | null) {
     queryFn: () => run((a) => a.getPublicAudit(id!)),
     enabled: !!id,
     retry: false,
-    refetchInterval: pollUntil(
-      (d) => d.status === "done" || d.status === "failed",
-      () => since ?? undefined,
-    ),
+    // Parked behind the model's daily quota, the result can be hours away: check once a minute, with no cap.
+    refetchInterval: (q) =>
+      q.state.data?.waiting === "quota"
+        ? QUOTA_POLL_MS
+        : pollUntil<PublicAuditResult>(
+            (d) => d.status === "done" || d.status === "failed",
+            () => since ?? undefined,
+          )(q),
   });
 }
 

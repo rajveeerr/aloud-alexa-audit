@@ -1,5 +1,5 @@
 import type { AuditJob } from "@aloud/contracts";
-import { CircleAlertIcon } from "lucide-react";
+import { CircleAlertIcon, Clock3Icon } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { Link, useLocation, useParams } from "react-router";
 import { useAudit } from "@/api/hooks";
@@ -74,6 +74,22 @@ function useElapsed(from: string | undefined): number | null {
   return Number.isFinite(start) ? Math.max(0, Math.round((now - start) / 1000)) : null;
 }
 
+/**
+ * The worker's note for an audit parked behind the model's daily quota ends in the reset time as an
+ * ISO timestamp; show it in the viewer's own time zone. Null when the note is about something else.
+ */
+function quotaReset(note: string | undefined): { at: string | null } | null {
+  if (!note || !/quota/i.test(note)) return null;
+  const iso = note.match(/(\d{4}-\d{2}-\d{2}T[\d:.]+Z)/)?.[1];
+  const t = iso ? Date.parse(iso) : NaN;
+  if (!Number.isFinite(t)) return { at: null };
+  const d = new Date(t);
+  const day = (offset: number) => new Date(Date.now() + offset * 86_400_000).toDateString();
+  const time = d.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit", timeZoneName: "short" });
+  const when = d.toDateString() === day(0) ? "today" : d.toDateString() === day(1) ? "tomorrow" : d.toLocaleDateString(undefined, { weekday: "long" });
+  return { at: `${time} ${when}` };
+}
+
 const clock = (s: number) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
 
 function Progress({
@@ -101,6 +117,7 @@ function Progress({
   const live = (useLocation().state as { live?: boolean } | null)?.live === true;
   const elapsed = useElapsed(createdAt);
   const expect = live ? "Fetching a new product from Amazon usually takes 1 to 2 minutes." : "Usually under a minute.";
+  const quota = quotaReset(note);
 
   return (
     <Page>
@@ -108,7 +125,7 @@ function Progress({
         <div className="rounded-2xl border bg-card p-6 shadow-card sm:p-8" role="status" aria-live="polite">
           <div className="flex items-baseline justify-between gap-3">
             <p className="text-sm font-semibold text-muted-foreground">{asin ? <span className="font-mono">{asin}</span> : "Audit"}</p>
-            {elapsed !== null && (
+            {elapsed !== null && !quota && (
               <p className="text-sm text-muted-foreground tabular-nums" aria-hidden="true">
                 {clock(elapsed)}
               </p>
@@ -117,10 +134,22 @@ function Progress({
           <h1 className="mt-1 text-2xl font-bold tracking-[-0.015em]" data-testid="audit-status">
             {status === "queued" ? "Queued" : "Running the audit"}
           </h1>
-          <p className="mt-1 text-[15px] text-muted-foreground">
-            {status === "queued" ? "Waiting for a worker to pick it up." : `${expect} This page updates on its own.`}
-          </p>
-          {note && (
+          {quota ? (
+            <div className="mt-4 flex gap-3 rounded-xl border border-[#fcd9a8] bg-tint px-4 py-3.5 text-[#7c2d12]" data-testid="audit-note">
+              <Clock3Icon className="mt-0.5 size-5 shrink-0" aria-hidden="true" />
+              <div className="text-sm">
+                <p className="font-semibold">
+                  Waiting for the model's daily quota to reset{quota.at ? ` at ${quota.at}` : ""}.
+                </p>
+                <p className="mt-1">The audit carries on by itself after that. You can close this page and find it later under Audits.</p>
+              </div>
+            </div>
+          ) : (
+            <p className="mt-1 text-[15px] text-muted-foreground">
+              {status === "queued" ? "Waiting for a worker to pick it up." : `${expect} This page updates on its own.`}
+            </p>
+          )}
+          {note && !quota && (
             <p className="mt-3 rounded-lg border border-[#fcd9a8] bg-tint px-3 py-2 text-sm text-[#7c2d12]" data-testid="audit-note">
               {note}
             </p>
@@ -139,7 +168,7 @@ function Progress({
             </div>
           )}
           <div className="mt-6 h-1.5 overflow-hidden rounded-full bg-muted" aria-hidden="true">
-            <div className={cn("h-full rounded-full bg-primary", status === "queued" ? "w-[8%]" : "w-1/3 animate-[progress_1.6s_ease-in-out_infinite]")} />
+            <div className={cn("h-full rounded-full bg-primary", status === "queued" || quota ? "w-[8%]" : "w-1/3 animate-[progress_1.6s_ease-in-out_infinite]")} />
           </div>
           <p className="mt-6 text-[13px] font-semibold text-muted-foreground">What the audit does</p>
           <ol className="mt-2 grid gap-2.5 text-[15px]">

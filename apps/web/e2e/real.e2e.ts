@@ -29,6 +29,9 @@ test("the hero audit runs from the landing page to the report", async ({ page })
   await expect(page.locator("blockquote").first()).toHaveText(`“${QUOTE}”`);
   await expect(page.getByRole("link", { name: /Alexa for Shopping Optimization 2026/ })).toHaveAttribute("href", BLOG_URL);
   await expect(page.getByRole("button", { name: /Ddaowanx/ })).toBeVisible();
+  // The example's photo loads from Amazon and fades in; let it settle before the screenshot.
+  await page.waitForLoadState("networkidle").catch(() => {});
+  await page.waitForTimeout(500);
   await shots.full(page, "01-landing");
 
   await page.getByRole("button", { name: /Ddaowanx/ }).click();

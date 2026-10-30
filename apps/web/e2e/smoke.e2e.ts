@@ -135,6 +135,29 @@ test("the widget shows a score and exactly three gaps", async ({ page }) => {
   await expect(page.getByTestId("email-captured")).toContainText("brand@example.com");
 });
 
+test("a widget check parked behind the daily quota says so and takes an email", async ({ page }) => {
+  await page.goto("/widget.html");
+  await page.getByLabel("ASIN").fill("B0QUOTA000");
+  await page.getByRole("button", { name: "Check my listing" }).click();
+  const waiting = page.getByTestId("widget-waiting");
+  await expect(waiting).toContainText("The check is busy right now. Your result will be ready later today");
+  // No spinner while it waits: the button is free again.
+  await expect(page.getByRole("button", { name: "Check my listing" })).toBeEnabled();
+  await fullShot(page, "07b-widget-quota");
+  await page.getByLabel("Get the result by email").fill("brand@example.com");
+  await page.getByRole("button", { name: "Send me the report" }).click();
+  await expect(page.getByTestId("email-captured")).toContainText("brand@example.com");
+});
+
+test("an app audit parked behind the daily quota shows the reset time", async ({ page }) => {
+  await page.goto("/");
+  await page.getByLabel("Amazon ASIN").fill("B0QUOTA000");
+  await page.getByRole("button", { name: "Run audit" }).click();
+  await expect(page.getByTestId("audit-status")).toHaveText("Queued");
+  await expect(page.getByTestId("audit-note")).toContainText(/Waiting for the model's daily quota to reset at .+ (today|tomorrow)/);
+  await page.screenshot({ path: shot("06b-audit-quota") });
+});
+
 test("audits list, bulk progress and integrations render", async ({ page }) => {
   await page.goto("/audits");
   await expect(page.getByRole("link", { name: /Ddaowanx/ })).toBeVisible();

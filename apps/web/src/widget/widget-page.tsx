@@ -1,6 +1,6 @@
 import { Asin, PublicAuditBody, PublicEmailBody } from "@aloud/contracts";
 import type { PublicAuditResult } from "@aloud/contracts";
-import { ArrowLeftIcon, CheckIcon, CircleDashedIcon, ImageIcon, LoaderCircleIcon, MailIcon, TriangleAlertIcon, XIcon } from "lucide-react";
+import { ArrowLeftIcon, CheckIcon, CircleDashedIcon, Clock3Icon, ImageIcon, LoaderCircleIcon, MailIcon, TriangleAlertIcon, XIcon } from "lucide-react";
 import { useId, useState, type FormEvent } from "react";
 import { usePastCap } from "@/api/use-past-cap";
 import { useCountUp } from "@/lib/use-count-up";
@@ -45,7 +45,9 @@ export function WidgetPage() {
   }
 
   const data = result.data;
-  const pending = !!id && (!data || data.status === "queued" || data.status === "running");
+  // Parked behind the model's daily quota: nothing to spin for, the result comes later.
+  const waiting = data?.waiting === "quota" && data.status === "queued";
+  const pending = !!id && !waiting && (!data || data.status === "queued" || data.status === "running");
   // Past the polling cap, or stuck on an error before any result: hand control back to the visitor.
   const stalled = usePastCap(since, pending);
   const lost = pending && !data && result.isError && !result.isFetching;
@@ -129,6 +131,7 @@ export function WidgetPage() {
                 {data.reason ?? "The audit couldn't be completed."}
               </p>
             )}
+            {waiting && data && <Waiting data={data} />}
             {done && <Result data={data} />}
           </div>
         </section>
@@ -145,6 +148,19 @@ function Checking() {
       <div className="mt-4 h-1.5 overflow-hidden rounded-full bg-sd-depth" aria-hidden="true">
         <div className="h-full w-1/3 animate-[progress_1.6s_ease-in-out_infinite] rounded-full bg-sd-orange" />
       </div>
+    </div>
+  );
+}
+
+/** The check is queued behind the model's daily quota: say so calmly and make the email the next step. */
+function Waiting({ data }: { data: PublicAuditResult }) {
+  return (
+    <div className="mt-7 border-t border-sd-depth pt-6" data-testid="widget-waiting">
+      <div className="flex gap-3 rounded-xl bg-[#f4e7c7]/60 px-4 py-3.5">
+        <Clock3Icon className="mt-0.5 size-5 shrink-0 text-[#5b4410]" aria-hidden="true" />
+        <p className="text-[15px] leading-snug text-[#3d2f0b]">{data.reason}</p>
+      </div>
+      <EmailCapture data={data} title="Get the result by email" />
     </div>
   );
 }
@@ -236,7 +252,7 @@ function Result({ data }: { data: PublicAuditResult }) {
   );
 }
 
-function EmailCapture({ data }: { data: PublicAuditResult }) {
+function EmailCapture({ data, title = "Get the full report by email" }: { data: PublicAuditResult; title?: string }) {
   const add = useAddPublicEmail();
   const [email, setEmail] = useState("");
   const [error, setError] = useState<string | null>(null);
@@ -259,15 +275,17 @@ function EmailCapture({ data }: { data: PublicAuditResult }) {
             <CheckIcon className="size-3.5" strokeWidth={3} />
           </span>
           <span>
-            The full report is on its way{email ? <> to <span className="font-semibold">{email}</span></> : null}: every question, the quotes behind each
-            answer, and a fix list written from your own listing.
+            {data.waiting === "quota" ? "The full report will be sent" : "The full report is on its way"}
+            {email ? <> to <span className="font-semibold">{email}</span></> : null}
+            {data.waiting === "quota" ? " as soon as the check finishes" : ""}: every question, the quotes behind each answer, and a fix list written from
+            your own listing.
           </span>
         </p>
       ) : (
         <form onSubmit={submit} noValidate>
           <label htmlFor={inputId} className="flex items-center gap-2 text-[17px] font-semibold">
             <MailIcon className="size-4 text-[#fdba74]" aria-hidden="true" />
-            Get the full report by email
+            {title}
           </label>
           <p className="mt-1 text-sm text-white/80">Every question, the quotes behind each answer, and a fix list written from your own listing.</p>
           <div className="mt-4 flex flex-col gap-2 sm:flex-row">
