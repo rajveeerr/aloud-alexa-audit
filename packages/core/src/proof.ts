@@ -177,8 +177,11 @@ export function wilson(k: number, n: number, z = 1.96): Rate {
  * - text: the verified grade is answered or partial, so its quotes are real words from real fields;
  * - images: an image claim the coverage step linked to that question.
  * Spec and experience questions are left out: a tip size isn't a promise reviews can test, and an
- * experience question has no promise to test.
+ * experience question has no promise to test. Warranty and guarantee lines are left out too: they
+ * promise what the seller will do, so a review saying the pen broke doesn't make them false.
  */
+const POLICY = /\b(warrant|guarantee|money[^a-z]*back|refund)/i;
+
 export function listingClaims(grades: Grade[], intents: Intent[], imageClaims: ImageClaim[], coverage: ClaimMatch[]): ListingClaim[] {
   const claimById = new Map(imageClaims.map((c) => [c.id, c]));
   const out: ListingClaim[] = [];
@@ -187,11 +190,11 @@ export function listingClaims(grades: Grade[], intents: Intent[], imageClaims: I
     const sources: BriefSource[] = [];
     const grade = grades.find((g) => g.intentId === intent.id);
     if (grade && (grade.status === "answered" || grade.status === "partial")) {
-      for (const q of grade.quotes) sources.push({ kind: "field", id: q.fieldId, text: q.text });
+      for (const q of grade.quotes) if (!POLICY.test(q.text)) sources.push({ kind: "field", id: q.fieldId, text: q.text });
     }
     for (const m of coverage) {
       const c = m.intentId === intent.id ? claimById.get(m.claimId) : undefined;
-      if (c && !sources.some((s) => s.text.toLowerCase() === c.text.toLowerCase())) sources.push({ kind: "image", id: c.imageIds.join(","), text: c.text });
+      if (c && !POLICY.test(c.text) && !sources.some((s) => s.text.toLowerCase() === c.text.toLowerCase())) sources.push({ kind: "image", id: c.imageIds.join(","), text: c.text });
     }
     if (sources.length > 0) out.push({ intentId: intent.id, sources });
   }
@@ -343,12 +346,18 @@ export function summarize(
       byLabel[l].push(r);
     }
   });
-  // Most helpful first: the reviews other shoppers found useful are the ones worth showing.
-  const pick = (list: ReviewText[]) =>
-    [...list]
-      .sort((a, b) => b.helpfulVotes - a.helpfulVotes)
-      .slice(0, 3)
-      .map((r) => exampleText(r, keywords));
+  // Reviews short enough to show whole come first: a cut snippet of a long review can land on the
+  // part that praises the pen ("writes smooth...") and drop the part that complains, which makes a
+  // correctly labelled review look mis-sorted. Then most helpful first, and the same text only once.
+  const pick = (list: ReviewText[]) => {
+    const whole = (r: ReviewText) => (cleanText(`${r.title}. ${r.text}`).length <= EXAMPLE_LENGTH ? 0 : 1);
+    const seen = new Set<string>();
+    return [...list]
+      .sort((a, b) => whole(a) - whole(b) || b.helpfulVotes - a.helpfulVotes)
+      .map((r) => exampleText(r, keywords))
+      .filter((t) => !seen.has(t) && seen.add(t))
+      .slice(0, 3);
+  };
   const base = {
     intentId: claim.intentId,
     claim: claim.sources[0]?.text ?? "",

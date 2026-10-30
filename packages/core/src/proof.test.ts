@@ -155,6 +155,16 @@ describe("listingClaims", () => {
     expect(claims[0]!.sources).toEqual([{ kind: "field", id: "bullet.2", text: "no smears" }]);
     expect(claims[1]!.sources).toEqual([{ kind: "image", id: "img.3", text: "Leak-proof design" }]);
   });
+
+  test("warranty and guarantee lines aren't claims reviews can test", () => {
+    const withPolicy: Grade[] = [
+      { intentId: "smudge", status: "answered", quotes: [{ fieldId: "bullet.4", text: "Backed by a Limited Lifetime Warranty" }, { fieldId: "bullet.2", text: "no smears" }], modelStatus: "answered", flags: [] },
+      { intentId: "leaking", status: "answered", quotes: [{ fieldId: "bullet.5", text: "100% money-back guarantee" }], modelStatus: "answered", flags: [] },
+    ];
+    const claims = listingClaims(withPolicy, intents, [], []);
+    expect(claims.map((c) => c.intentId)).toEqual(["smudge"]);
+    expect(claims[0]!.sources).toEqual([{ kind: "field", id: "bullet.2", text: "no smears" }]);
+  });
 });
 
 describe("verifyLabels (garbled model output)", () => {
@@ -224,6 +234,13 @@ describe("summarize", () => {
     const sample = sampleOf(40);
     const p = summarize(smudgeClaim, ["smudg"], 40, sample, labelsOf({ supports: 40 }), []);
     expect(p.examples.supports).toEqual(["r39", "r38", "r37"].map((t) => `. ${t}`));
+  });
+
+  test("reviews short enough to show whole come before long ones, and a repeated text shows once", () => {
+    const long = review(`Writes smooth without blobbing. ${"I use these daily at work for notes. ".repeat(6)}This pack skips constantly.`, 99);
+    const sample = [long, review("Skips a lot.", 3), review("Skips a lot.", 2), review("Stopped writing after a day.", 1)];
+    const p = summarize(smudgeClaim, ["skip"], 40, sample, labelsOf({ contradicts: 4 }), []);
+    expect(p.examples.contradicts).toEqual([". Skips a lot.", ". Stopped writing after a day.", expect.stringContaining("…")]);
   });
 });
 
