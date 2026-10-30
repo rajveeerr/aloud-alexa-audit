@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 /**
  * One real finding from the hero audit (Ddaowanx gel pens, B0C9W8DD9S), shown on the landing page so
  * the idea lands before anyone types an ASIN. Every number and quote here is from that saved report;
- * the boxes mark where each claim is printed in listing image 8.
+ * the boxes mark where each claim is printed in listing image 8 (shown cropped to its lower 80%).
  */
 const HERO = {
   asin: "B0C9W8DD9S",
@@ -15,14 +15,14 @@ const HERO = {
   claims: [
     {
       text: "Smooth Writing",
-      box: { left: 3, top: 65.5, width: 33, height: 7.5 },
+      box: { left: 3, top: 56.9, width: 33, height: 9.4 },
       asked: 171,
       question: "Does the ink flow consistently without skipping or clogging?",
       inText: "Not answered in the text",
     },
     {
       text: "No Smear: Perfect for Left-Handed",
-      box: { left: 3, top: 86.5, width: 43, height: 9.5 },
+      box: { left: 3, top: 83.1, width: 43, height: 11.9 },
       asked: 11,
       question: "Does it smudge for left-handed writers?",
       inText: "The text only says “Ambidextrous”",
@@ -35,6 +35,8 @@ export function LiveExample({ className }: { className?: string }) {
   const create = useCreateAudit();
   const [active, setActive] = useState<number | null>(null);
   const [failed, setFailed] = useState(false);
+  // The boxes mark spots on the photo, so they only appear once it has loaded.
+  const [loaded, setLoaded] = useState(false);
 
   return (
     <figure className={cn("overflow-hidden rounded-2xl border bg-card shadow-raised", className)} aria-labelledby="example-title">
@@ -45,9 +47,9 @@ export function LiveExample({ className }: { className?: string }) {
         <span className="font-mono text-xs text-muted-foreground">{HERO.asin}</span>
       </figcaption>
 
-      <div className="grid sm:grid-cols-[minmax(0,9fr)_minmax(0,11fr)]">
+      <div className="grid sm:grid-cols-[minmax(0,9fr)_minmax(0,11fr)] lg:grid-cols-1">
         <div className="flex flex-col bg-[#faf8f5]">
-        <div className="relative aspect-square overflow-hidden bg-white">
+        <div className={cn("relative aspect-[5/4] overflow-hidden", loaded || failed ? "bg-white" : "animate-pulse bg-muted")}>
           {failed ? (
             <span className="flex size-full flex-col items-center justify-center gap-1.5 text-xs text-muted-foreground">
               <ImageOffIcon className="size-5" aria-hidden="true" /> Image unavailable
@@ -58,10 +60,11 @@ export function LiveExample({ className }: { className?: string }) {
               alt="Listing image 8 of Ddaowanx gel pens: a hand writing in a notebook, with printed claims in a pink circle"
               referrerPolicy="no-referrer"
               onError={() => setFailed(true)}
-              className="size-full object-cover"
+              onLoad={() => setLoaded(true)}
+              className={cn("size-full object-cover object-bottom transition-opacity duration-300", loaded ? "opacity-100" : "opacity-0")}
             />
           )}
-          {!failed &&
+          {loaded &&
             HERO.claims.map((c, i) => (
               <span
                 key={c.text}
@@ -86,7 +89,7 @@ export function LiveExample({ className }: { className?: string }) {
           </p>
         </div>
 
-        <div className="flex flex-col border-t sm:border-t-0 sm:border-l">
+        <div className="flex flex-col border-t sm:border-t-0 sm:border-l lg:border-l-0">
           <ol className="grid flex-1 content-start [&>li:last-child]:border-b-0 sm:[&>li:last-child]:border-b">
             {HERO.claims.map((c, i) => (
               <li
