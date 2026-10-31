@@ -4,7 +4,7 @@
 
 [![CI](https://github.com/rajveeerr/aloud-alexa-audit/actions/workflows/ci.yml/badge.svg)](https://github.com/rajveeerr/aloud-alexa-audit/actions/workflows/ci.yml) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![Bun](https://img.shields.io/badge/Bun-1.1-000000?logo=bun&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) ![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white) ![Redis + BullMQ](https://img.shields.io/badge/Redis%20%2B%20BullMQ-DC382D?logo=redis&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini%20Flash--Lite-8E75B2?logo=googlegemini&logoColor=white)
 
-**[Live demo](https://aloud.rajveers.com)** · **[Widget](https://aloud.rajveers.com/widget.html)** · **[API spec](https://aloud-api.onrender.com/v1/openapi.json)** · **[Architecture diagrams](diagrams/)** · **Video:** coming soon
+**[Live demo](https://aloud.rajveers.com)** · **[Widget](https://aloud.rajveers.com/widget.html)** · **[API spec](https://aloud-api.onrender.com/v1/openapi.json)** · **[Architecture diagrams](diagrams/)** · **[Demo video](https://youtu.be/Bs914EeHKg4)**
 
 Shoppers ask Alexa questions about products, and Alexa answers from what the listing says. A
 brand has no way to see which of those questions its listing leaves unanswered.
