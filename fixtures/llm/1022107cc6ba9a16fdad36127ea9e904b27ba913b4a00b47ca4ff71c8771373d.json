@@ -1,0 +1,133 @@
+{
+  "data": [
+    {
+      "intentId": "weight_and_thickness",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.fabric_weight",
+          "text": "280 grams_per_square_meter"
+        }
+      ],
+      "value": "280 grams_per_square_meter"
+    },
+    {
+      "intentId": "durability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "feature high quality stitching with reinforced edges, they are durable and made to last hundreds of washings."
+        }
+      ],
+      "value": "feature high quality stitching with reinforced edges, they are durable and made to last hundreds of washings."
+    },
+    {
+      "intentId": "size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "32 x 32 cm (12.6 x 12.6 inches)"
+        }
+      ],
+      "value": "32 x 32 cm (12.6 x 12.6 inches)"
+    },
+    {
+      "intentId": "color_variety",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.color",
+          "text": "Assorted"
+        }
+      ],
+      "value": "Assorted"
+    },
+    {
+      "intentId": "washability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_care_instructions",
+          "text": "Hand or machine wash microfiber cloths separately in warm water with mild detergent. Do not use bleach or fabric softener. Do not tumble dry. Do not iron."
+        }
+      ],
+      "value": "Hand or machine wash microfiber cloths separately in warm water with mild detergent. Do not use bleach or fabric softener. Do not tumble dry. Do not iron."
+    },
+    {
+      "intentId": "absorbency",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "soak up water from the countertop and tables instantly and without lint or streaks left behind."
+        }
+      ],
+      "value": "soak up water from the countertop and tables instantly and without lint or streaks left behind."
+    },
+    {
+      "intentId": "material",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Made of 85% Polyester, 15% Nylon."
+        }
+      ],
+      "value": "85% Polyester, 15% Nylon"
+    },
+    {
+      "intentId": "lint_free",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "without lint or streaks left behind."
+        }
+      ],
+      "value": "without lint or streaks left behind"
+    },
+    {
+      "intentId": "streak_free",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Streak Free Microfiber Towels"
+        }
+      ],
+      "value": "Streak Free"
+    },
+    {
+      "intentId": "reusability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "REUSABLE & LONG LASTING"
+        }
+      ],
+      "value": "REUSABLE & LONG LASTING"
+    },
+    {
+      "intentId": "scratch_free",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "SCRATCH FREE - Ultra soft and highly absorbent microfiber cleaning cloths, great for cleaning windows, kitchenware, car or other delicate surfaces."
+        }
+      ],
+      "value": "SCRATCH FREE"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+cleaning-cloths@mined-live-1",
+  "usage": {
+    "inputTokens": 1855,
+    "outputTokens": 998
+  },
+  "latencyMs": 3123,
+  "cached": false
+}

@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "intentId": "adjustability_features",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "The height of this painting table can be adjusted from 28 inch to 35.8 inch with the knob on the leg allowing you to find the perfect position whether standing or sitting. Tilt the top surface(0-60 degrees) to your desired angle"
+        }
+      ],
+      "value": "28 inch to 35.8 inch with the knob on the leg, Tilt the top surface(0-60 degrees)"
+    },
+    {
+      "intentId": "appearance_and_design",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.color",
+          "text": "Retro-with Outlet"
+        },
+        {
+          "fieldId": "attr.style",
+          "text": "Modern"
+        },
+        {
+          "fieldId": "attr.finish_type",
+          "text": "Powder Coated"
+        }
+      ],
+      "value": "Retro-with Outlet, Modern, Powder Coated"
+    },
+    {
+      "intentId": "storage_capacity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "The painting table have 2 slide-out drawers and a storage shelf under the main table to store papers, drafting tools and other stuff. There is a pencil box on the right hand side."
+        }
+      ],
+      "value": "2 slide-out drawers and a storage shelf under the main table, pencil box on the right hand side"
+    },
+    {
+      "intentId": "dimensions_and_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_dimensions",
+          "text": "24.5\"D x 55\"W x 35.8\"H"
+        }
+      ],
+      "value": "24.5\"D x 55\"W x 35.8\"H"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+drafting-tables@insights-1",
+  "usage": {
+    "inputTokens": 2201,
+    "outputTokens": 519
+  },
+  "latencyMs": 2150,
+  "cached": false
+}

@@ -1,0 +1,83 @@
+{
+  "data": [
+    {
+      "intentId": "thickness",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "color_assortment",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "Pink, Green, Blue, and Purple"
+        }
+      ],
+      "value": "Pink, Green, Blue, and Purple"
+    },
+    {
+      "intentId": "size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "11.8\"X11.8\""
+        }
+      ],
+      "value": "11.8\" x 11.8\""
+    },
+    {
+      "intentId": "machine_washable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.6",
+          "text": "They can be washed by hand or machine."
+        }
+      ],
+      "value": "Machine washable"
+    },
+    {
+      "intentId": "absorbency",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Strong Absorbent"
+        }
+      ],
+      "value": "Strong Absorbent"
+    },
+    {
+      "intentId": "durability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.other_special_features_of_the_product",
+          "text": "Long Lasting"
+        }
+      ],
+      "value": "Long Lasting"
+    },
+    {
+      "intentId": "lint_free",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Lint-Free"
+        }
+      ],
+      "value": "Lint-Free"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+cleaning-cloths@mined-live-1",
+  "usage": {
+    "inputTokens": 1556,
+    "outputTokens": 498
+  },
+  "latencyMs": 49675,
+  "cached": false
+}

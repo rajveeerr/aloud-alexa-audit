@@ -1,0 +1,127 @@
+{
+  "data": [
+    {
+      "intentId": "weight_and_thickness",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "durability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Durable Construction for Long-Term Use"
+        }
+      ],
+      "value": "Durable Construction for Long-Term Use"
+    },
+    {
+      "intentId": "size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "11.8\"X11.8\""
+        }
+      ],
+      "value": "11.8\"X11.8\""
+    },
+    {
+      "intentId": "color_variety",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "Pink, Green, Blue, and Purple"
+        }
+      ],
+      "value": "Pink, Green, Blue, and Purple"
+    },
+    {
+      "intentId": "washability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_care_instructions",
+          "text": "Machine wash in cold or warm water. Do not bleach. Tumble dry low or air dry."
+        }
+      ],
+      "value": "Machine wash in cold or warm water. Do not bleach. Tumble dry low or air dry."
+    },
+    {
+      "intentId": "absorbency",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Strong Absorbent & Streak-Free: Crafted with premium microfiber, these cleaning rags quickly absorb water and wipe away spills, dust, grease, and dirt without leaving streaks."
+        }
+      ],
+      "value": "Strong Absorbent & Streak-Free: Crafted with premium microfiber, these cleaning rags quickly absorb water and wipe away spills, dust, grease, and dirt without leaving streaks."
+    },
+    {
+      "intentId": "material",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "85% polyester and 15% nylon"
+        }
+      ],
+      "value": "85% polyester and 15% nylon"
+    },
+    {
+      "intentId": "lint_free",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Soft & Lint-Free on Delicate Surfaces"
+        }
+      ],
+      "value": "Soft & Lint-Free on Delicate Surfaces"
+    },
+    {
+      "intentId": "streak_free",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Strong Absorbent & Streak-Free"
+        }
+      ],
+      "value": "Strong Absorbent & Streak-Free"
+    },
+    {
+      "intentId": "reusability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "these cleaning cloths are not only reusable"
+        }
+      ],
+      "value": "reusable"
+    },
+    {
+      "intentId": "scratch_free",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "They won’t scratch paint, glass, or delicate surfaces"
+        }
+      ],
+      "value": "Won't scratch paint, glass, or delicate surfaces"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+cleaning-cloths@mined-live-1",
+  "usage": {
+    "inputTokens": 1752,
+    "outputTokens": 922
+  },
+  "latencyMs": 2454,
+  "cached": false
+}

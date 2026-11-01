@@ -1,0 +1,56 @@
+{
+  "data": [
+    {
+      "intentId": "scent_and_fragrance",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "highest-quality mint essential oils that neutralize odors keeping your kitchen smelling fresh"
+        }
+      ],
+      "value": "Fresh,Mint"
+    },
+    {
+      "intentId": "pest_and_rodent_repellent",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Mint-X's patented Rodent Repellent Technology is a humane, safe solution to the problem of foraging rodents, raccoons and squirrels"
+        }
+      ],
+      "value": "Rodent Repellent"
+    },
+    {
+      "intentId": "bag_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "1 FT 11 ¾ Inches X 2 FT 1 Inch"
+        }
+      ],
+      "value": "1 FT 11 ¾ Inches X 2 FT 1 Inch"
+    },
+    {
+      "intentId": "holding_capacity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.capacity",
+          "text": "13 gallons"
+        }
+      ],
+      "value": "13 gallons"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+trash-bags@insights-1",
+  "usage": {
+    "inputTokens": 1687,
+    "outputTokens": 354
+  },
+  "latencyMs": 2077,
+  "cached": false
+}

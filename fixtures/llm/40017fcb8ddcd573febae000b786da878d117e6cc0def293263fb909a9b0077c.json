@@ -1,0 +1,89 @@
+{
+  "data": [
+    {
+      "intentId": "thickness",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.fabric_weight",
+          "text": "280 grams_per_square_meter"
+        }
+      ],
+      "value": "280 grams_per_square_meter"
+    },
+    {
+      "intentId": "color_assortment",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.color",
+          "text": "Assorted"
+        }
+      ],
+      "value": "Assorted"
+    },
+    {
+      "intentId": "size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.size",
+          "text": "12.6 x 12.6 inch"
+        }
+      ],
+      "value": "12.6 x 12.6 inch"
+    },
+    {
+      "intentId": "machine_washable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_care_instructions",
+          "text": "Hand or machine wash microfiber cloths separately in warm water with mild detergent."
+        }
+      ],
+      "value": "Hand or machine wash microfiber cloths separately in warm water with mild detergent."
+    },
+    {
+      "intentId": "absorbency",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "highly absorbent"
+        }
+      ],
+      "value": "highly absorbent"
+    },
+    {
+      "intentId": "durability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "durable and made to last hundreds of washings."
+        }
+      ],
+      "value": "durable and made to last hundreds of washings."
+    },
+    {
+      "intentId": "lint_free",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "without lint or streaks left behind."
+        }
+      ],
+      "value": "without lint or streaks left behind."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+cleaning-cloths@mined-live-1",
+  "usage": {
+    "inputTokens": 1659,
+    "outputTokens": 570
+  },
+  "latencyMs": 29713,
+  "cached": false
+}

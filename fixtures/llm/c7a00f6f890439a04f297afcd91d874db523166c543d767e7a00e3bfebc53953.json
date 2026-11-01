@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "intentId": "adjustability_features",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "adjusts from a flat surface to a 23-, 46-, 70-, and 90-degree angle; Rest of stand is not height adjustable"
+        }
+      ],
+      "value": "flat surface to a 23-, 46-, 70-, and 90-degree angle"
+    },
+    {
+      "intentId": "appearance_and_design",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Vintage Rustic Oak Drafting Table"
+        },
+        {
+          "fieldId": "attr.color",
+          "text": "Rustic Oak"
+        }
+      ],
+      "value": "Vintage Rustic Oak"
+    },
+    {
+      "intentId": "storage_capacity",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "built-in pencil groove and 24\"-wide pencil ledge for storing writing utensils and canvases"
+        }
+      ],
+      "value": "built-in pencil groove and 24\"-wide pencil ledge"
+    },
+    {
+      "intentId": "dimensions_and_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "36''W x 24''D"
+        },
+        {
+          "fieldId": "bullet.5",
+          "text": "Overall dimensions are 36\" W X 24\" D X 36\" H"
+        }
+      ],
+      "value": "36\" W X 24\" D X 36\" H"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+drafting-tables@insights-1",
+  "usage": {
+    "inputTokens": 2214,
+    "outputTokens": 460
+  },
+  "latencyMs": 2011,
+  "cached": false
+}

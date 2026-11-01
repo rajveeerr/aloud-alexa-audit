@@ -1,0 +1,130 @@
+{
+  "data": [
+    {
+      "intentId": "weight_and_thickness",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "durability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Built for long-lasting use with durable construction"
+        }
+      ],
+      "value": "Built for long-lasting use with durable construction"
+    },
+    {
+      "intentId": "size",
+      "status": "contradicted",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "16\" x 12\""
+        },
+        {
+          "fieldId": "bullet.2",
+          "text": "Each rectangular cleaning cloth measures 40.6 by 30.5 inches"
+        }
+      ]
+    },
+    {
+      "intentId": "color_variety",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Blue/White/Yellow"
+        }
+      ],
+      "value": "Blue/White/Yellow"
+    },
+    {
+      "intentId": "washability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "Machine washable for convenient maintenance; wash separately before first use & wash with like colors to preserve quality"
+        }
+      ],
+      "value": "Machine washable for convenient maintenance; wash separately before first use & wash with like colors to preserve quality"
+    },
+    {
+      "intentId": "absorbency",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Soaks up 8 times their own weight"
+        }
+      ],
+      "value": "Soaks up 8 times their own weight"
+    },
+    {
+      "intentId": "material",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Made of microfiber"
+        }
+      ],
+      "value": "Microfiber"
+    },
+    {
+      "intentId": "lint_free",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Lint Free"
+        }
+      ],
+      "value": "Lint Free"
+    },
+    {
+      "intentId": "streak_free",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Streak Free"
+        }
+      ],
+      "value": "Streak Free"
+    },
+    {
+      "intentId": "reusability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Reusable and Washable"
+        }
+      ],
+      "value": "Reusable and Washable"
+    },
+    {
+      "intentId": "scratch_free",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Non-Abrasive"
+        }
+      ],
+      "value": "Non-Abrasive"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+cleaning-cloths@mined-live-1",
+  "usage": {
+    "inputTokens": 1461,
+    "outputTokens": 826
+  },
+  "latencyMs": 3588,
+  "cached": false
+}

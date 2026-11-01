@@ -1,0 +1,38 @@
+{
+  "data": [
+    {
+      "intentId": "odor_resistance",
+      "target": "bullet.2",
+      "sources": [
+        {
+          "id": "ic.18",
+          "text": "100% ODORLESS & FAST DRYING."
+        }
+      ],
+      "draft": "REUSABLE, EASY TO CLEAN - The 100% odorless and fast-drying Skoy Swedish dishcloths for kitchen use are designed to stay clean and bug-free, even after multiple uses."
+    },
+    {
+      "intentId": "thickness",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.29",
+          "text": "30% COTTON Boosts Strength"
+        },
+        {
+          "id": "ic.30",
+          "text": "70% CELLULOSE Helps in Absorption"
+        }
+      ],
+      "draft": "DURABLE THIN DESIGN - Made with 70% cellulose and 30% cotton to provide a thin, highly absorbent profile that handles spills with ease."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.2",
+  "usage": {
+    "inputTokens": 2737,
+    "outputTokens": 262
+  },
+  "latencyMs": 1504,
+  "cached": false
+}

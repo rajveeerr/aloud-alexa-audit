@@ -1,0 +1,86 @@
+{
+  "data": [
+    {
+      "intentId": "thickness",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "color_assortment",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Blue/White/Yellow"
+        }
+      ],
+      "value": "Blue/White/Yellow"
+    },
+    {
+      "intentId": "size",
+      "status": "contradicted",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "16\" x 12\""
+        },
+        {
+          "fieldId": "bullet.2",
+          "text": "40.6 by 30.5 inches"
+        }
+      ]
+    },
+    {
+      "intentId": "machine_washable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "Machine washable"
+        }
+      ],
+      "value": "Machine washable"
+    },
+    {
+      "intentId": "absorbency",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Soaks up 8 times their own weight"
+        }
+      ],
+      "value": "Soaks up 8 times their own weight"
+    },
+    {
+      "intentId": "durability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Built for long-lasting use"
+        }
+      ],
+      "value": "long-lasting use"
+    },
+    {
+      "intentId": "lint_free",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Lint Free"
+        }
+      ],
+      "value": "Lint Free"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+cleaning-cloths@mined-live-1",
+  "usage": {
+    "inputTokens": 1265,
+    "outputTokens": 500
+  },
+  "latencyMs": 31613,
+  "cached": false
+}

@@ -1,0 +1,68 @@
+{
+  "data": [
+    {
+      "intentId": "adjustability_features",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "This adjustable drafting table tilts from 0-65°, allows to adjust as needed."
+        },
+        {
+          "fieldId": "attr.lifting_mechanism",
+          "text": "Manual"
+        }
+      ],
+      "value": "tilts from 0-65°"
+    },
+    {
+      "intentId": "appearance_and_design",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.color",
+          "text": "Rustic Brown"
+        },
+        {
+          "fieldId": "attr.finish_type",
+          "text": "Unfinished"
+        },
+        {
+          "fieldId": "title",
+          "text": "Rustic Brown"
+        }
+      ],
+      "value": "Rustic Brown"
+    },
+    {
+      "intentId": "storage_capacity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "two non-woven fabric drawers and a fabric storage shelf below, providing convenient storage for paper, drawing tools, and other items, with pencil box on the right side."
+        }
+      ],
+      "value": "two non-woven fabric drawers and a fabric storage shelf below"
+    },
+    {
+      "intentId": "dimensions_and_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "40.2\"(L) x23.7\"(W)x29.5\" (H)."
+        }
+      ],
+      "value": "40.2\"(L) x23.7\"(W)x29.5\" (H)"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+drafting-tables@insights-1",
+  "usage": {
+    "inputTokens": 2439,
+    "outputTokens": 473
+  },
+  "latencyMs": 14612,
+  "cached": false
+}

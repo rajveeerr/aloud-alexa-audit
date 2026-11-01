@@ -1,0 +1,50 @@
+{
+  "data": [
+    {
+      "intentId": "scent_and_fragrance",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.scent",
+          "text": "Lavender & Sweet Vanilla"
+        }
+      ],
+      "value": "Lavender & Sweet Vanilla"
+    },
+    {
+      "intentId": "pest_and_rodent_repellent",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "bag_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.capacity",
+          "text": "49.2 liters"
+        }
+      ],
+      "value": "49.2 liters"
+    },
+    {
+      "intentId": "holding_capacity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.unit_count",
+          "text": "80 Count"
+        }
+      ],
+      "value": "80 Count"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+trash-bags@insights-1",
+  "usage": {
+    "inputTokens": 1598,
+    "outputTokens": 266
+  },
+  "latencyMs": 1764,
+  "cached": false
+}

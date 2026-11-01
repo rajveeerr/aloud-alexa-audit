@@ -1,0 +1,521 @@
+{
+  "data": [
+    {
+      "claimId": "ic.0",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.10",
+          "text": "100-percent biodegradable"
+        }
+      ],
+      "intentId": "overall_quality"
+    },
+    {
+      "claimId": "ic.1",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "4-pack"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.2",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Swedish Dishcloths"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.3",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "adding a touch of fun to your cleaning routine."
+        }
+      ]
+    },
+    {
+      "claimId": "ic.4",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "REUSABLE, EASY TO CLEAN"
+        }
+      ],
+      "intentId": "washability_and_maintenance"
+    },
+    {
+      "claimId": "ic.5",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Our dishcloths are the perfect replacement for paper towels, sponges, and rags."
+        }
+      ],
+      "intentId": "value_for_money"
+    },
+    {
+      "claimId": "ic.6",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "The Skoy reusable cleaning cloths are not just for the kitchen. It's also great for cleaning appliances, dusting surfaces, and more."
+        }
+      ],
+      "intentId": "cleaning_performance"
+    },
+    {
+      "claimId": "ic.7",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.9",
+          "text": "can be used on most surface areas in your home"
+        }
+      ],
+      "intentId": "cleaning_performance"
+    },
+    {
+      "claimId": "ic.8",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.9",
+          "text": "Perfect for use in the kitchen, bathroom and office"
+        }
+      ],
+      "intentId": "cleaning_performance"
+    },
+    {
+      "claimId": "ic.9",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.9",
+          "text": "can be used on most surface areas in your home"
+        }
+      ],
+      "intentId": "cleaning_performance"
+    },
+    {
+      "claimId": "ic.10",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.9",
+          "text": "can be used on most surface areas in your home"
+        }
+      ],
+      "intentId": "cleaning_performance"
+    },
+    {
+      "claimId": "ic.11",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "It's also great for cleaning appliances, dusting surfaces, and more."
+        }
+      ],
+      "intentId": "cleaning_performance"
+    },
+    {
+      "claimId": "ic.12",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "With an absorption factor of 15x its own weight"
+        }
+      ],
+      "intentId": "absorbency"
+    },
+    {
+      "claimId": "ic.13",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "HIGHLY ABSORBENT DISHCLOTHS"
+        }
+      ],
+      "intentId": "absorbency"
+    },
+    {
+      "claimId": "ic.14",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "overall_quality"
+    },
+    {
+      "claimId": "ic.15",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.16",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.17",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.18",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "designed to stay clean and bug-free, even after multiple uses."
+        }
+      ],
+      "intentId": "odor_resistance"
+    },
+    {
+      "claimId": "ic.19",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "designed to stay clean and bug-free, even after multiple uses."
+        }
+      ],
+      "intentId": "odor_resistance"
+    },
+    {
+      "claimId": "ic.20",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "The Skoy Swedish dishcloths for kitchen use are machine washable"
+        }
+      ],
+      "intentId": "washability_and_maintenance"
+    },
+    {
+      "claimId": "ic.21",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "can be microwaved for a few minutes for deeper cleaning."
+        }
+      ],
+      "intentId": "washability_and_maintenance"
+    },
+    {
+      "claimId": "ic.22",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.23",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.24",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.10",
+          "text": "100-percent biodegradable"
+        }
+      ],
+      "intentId": "overall_quality"
+    },
+    {
+      "claimId": "ic.25",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.26",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.27",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "durability_and_wear"
+    },
+    {
+      "claimId": "ic.28",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.29",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.fabric_type",
+          "text": "30% Wood / 30% Cotton"
+        }
+      ],
+      "intentId": "thickness"
+    },
+    {
+      "claimId": "ic.30",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.fabric_type",
+          "text": "70% Wood"
+        }
+      ],
+      "intentId": "absorbency"
+    },
+    {
+      "claimId": "ic.31",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "durability_and_wear"
+    },
+    {
+      "claimId": "ic.32",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.33",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.34",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.35",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Dishwasher and Dryer-Safe"
+        }
+      ],
+      "intentId": "washability_and_maintenance"
+    },
+    {
+      "claimId": "ic.36",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "designed to stay clean and bug-free, even after multiple uses."
+        }
+      ],
+      "intentId": "odor_resistance"
+    },
+    {
+      "claimId": "ic.37",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "With an absorption factor of 15x its own weight"
+        }
+      ],
+      "intentId": "absorbency"
+    },
+    {
+      "claimId": "ic.38",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "The Skoy reusable cleaning cloths are not just for the kitchen. It's also great for cleaning appliances, dusting surfaces, and more."
+        }
+      ],
+      "intentId": "cleaning_performance"
+    },
+    {
+      "claimId": "ic.39",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "The Skoy Swedish dishcloths are designed to last for months"
+        }
+      ],
+      "intentId": "durability_and_wear"
+    },
+    {
+      "claimId": "ic.40",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.fabric_type",
+          "text": "30% Cotton"
+        }
+      ],
+      "intentId": "thickness"
+    },
+    {
+      "claimId": "ic.41",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.42",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Our dishcloths are the perfect replacement for paper towels, sponges, and rags."
+        }
+      ],
+      "intentId": "value_for_money"
+    },
+    {
+      "claimId": "ic.43",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.7",
+          "text": "Made of cotton and cellulose"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.44",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "The Skoy Swedish dishcloths come in an array of colors, designs, and pack sizes"
+        }
+      ],
+      "intentId": "color_options"
+    },
+    {
+      "claimId": "ic.45",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "REUSABLE"
+        }
+      ],
+      "intentId": "durability_and_wear"
+    },
+    {
+      "claimId": "ic.46",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "With an absorption factor of 15x its own weight"
+        }
+      ],
+      "intentId": "absorbency"
+    },
+    {
+      "claimId": "ic.47",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Our dishcloths are the perfect replacement for paper towels, sponges, and rags."
+        }
+      ],
+      "intentId": "value_for_money"
+    },
+    {
+      "claimId": "ic.48",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.10",
+          "text": "100-percent biodegradable"
+        }
+      ],
+      "intentId": "overall_quality"
+    },
+    {
+      "claimId": "ic.49",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "With an absorption factor of 15x its own weight"
+        },
+        {
+          "fieldId": "bullet.8",
+          "text": "A single skoy cloth will replace up to 15 rolls of paper towels"
+        }
+      ],
+      "intentId": "absorbency"
+    },
+    {
+      "claimId": "ic.50",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.8",
+          "text": "A single skoy cloth will replace up to 15 rolls of paper towels"
+        }
+      ],
+      "intentId": "value_for_money"
+    },
+    {
+      "claimId": "ic.51",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.52",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.53",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.54",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.55",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "adding a touch of fun to your cleaning routine."
+        }
+      ]
+    },
+    {
+      "claimId": "ic.56",
+      "coverage": "image_only",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "coverage@2026-10-27.1",
+  "usage": {
+    "inputTokens": 2180,
+    "outputTokens": 3794
+  },
+  "latencyMs": 7777,
+  "cached": false
+}

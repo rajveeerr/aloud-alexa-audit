@@ -1,0 +1,94 @@
+{
+  "data": [
+    {
+      "intentId": "puncture_and_tear_resistance",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.30",
+          "text": "These ultra-durable rodent-repellent trash bags are made from thick, heavy-duty plastic to lock in trash, and keep pests out."
+        }
+      ],
+      "draft": "PUNCTURE AND TEAR RESISTANCE: These ultra-durable rodent-repellent trash bags are made from thick, heavy-duty plastic to lock in trash and keep pests out."
+    },
+    {
+      "intentId": "overall_strength_and_load",
+      "target": "bullet.2",
+      "sources": [
+        {
+          "id": "bullet.2",
+          "text": "STRONG AND DURABLE: Mint-X's Tall Kitchen trash bags feature Mint-Flex superior stretching technology making them an ideal choice for both every day and serious clean-ups in your home with easy-to-use drawstring"
+        },
+        {
+          "id": "ic.30",
+          "text": "These ultra-durable rodent-repellent trash bags are made from thick, heavy-duty plastic to lock in trash, and keep pests out."
+        }
+      ],
+      "draft": "STRONG AND DURABLE: Made from thick, heavy-duty plastic with Mint-Flex superior stretching technology, these bags are ideal for everyday and serious clean-ups."
+    },
+    {
+      "intentId": "drawstring_features",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.24",
+          "text": "EASY TO USE DRAWSTRING TIES"
+        },
+        {
+          "id": "bullet.2",
+          "text": "easy-to-use drawstring"
+        }
+      ],
+      "draft": "SECURE CLOSURE: Designed with easy-to-use drawstring ties for a reliable and convenient hold."
+    },
+    {
+      "intentId": "leak_proof",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.30",
+          "text": "These ultra-durable rodent-repellent trash bags are made from thick, heavy-duty plastic to lock in trash, and keep pests out."
+        }
+      ],
+      "needsFromBrand": "Confirm whether the bags have a leak-proof or leak-resistant rating."
+    },
+    {
+      "intentId": "bag_durability",
+      "target": "bullet.2",
+      "sources": [
+        {
+          "id": "ic.30",
+          "text": "These ultra-durable rodent-repellent trash bags are made from thick, heavy-duty plastic to lock in trash, and keep pests out."
+        },
+        {
+          "id": "bullet.2",
+          "text": "STRONG AND DURABLE: Mint-X's Tall Kitchen trash bags feature Mint-Flex superior stretching technology making them an ideal choice for both every day and serious clean-ups in your home with easy-to-use drawstring"
+        }
+      ],
+      "draft": "STRONG AND DURABLE: Ultra-durable design crafted from thick, heavy-duty plastic with Mint-Flex stretching technology for everyday and serious clean-ups."
+    },
+    {
+      "intentId": "can_fit",
+      "target": "bullet.5",
+      "sources": [
+        {
+          "id": "bullet.5",
+          "text": "SIZE: Featuring easy-to-use drawstring, these Tall Kitchen Trash Bags have a 13 gallon capacity and come in a 40-count box"
+        },
+        {
+          "id": "ic.46",
+          "text": "Kitchen + Bathroom Trash Cans"
+        }
+      ],
+      "draft": "SIZE: Featuring an easy-to-use drawstring, these Tall Kitchen Trash Bags have a 13 gallon capacity designed for kitchen and bathroom trash cans."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.2",
+  "usage": {
+    "inputTokens": 3717,
+    "outputTokens": 932
+  },
+  "latencyMs": 3118,
+  "cached": false
+}

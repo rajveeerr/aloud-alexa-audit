@@ -1,0 +1,110 @@
+{
+  "data": [
+    {
+      "intentId": "overall_quality",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "durable and made to last hundreds of washings"
+        }
+      ],
+      "value": "durable and made to last hundreds of washings"
+    },
+    {
+      "intentId": "durability_and_wear",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "made to last hundreds of washings"
+        }
+      ],
+      "value": "made to last hundreds of washings"
+    },
+    {
+      "intentId": "washability_and_maintenance",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_care_instructions",
+          "text": "Hand or machine wash microfiber cloths separately in warm water with mild detergent."
+        }
+      ],
+      "value": "Hand or machine wash"
+    },
+    {
+      "intentId": "cleaning_performance",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "great for cleaning windows, kitchenware, car or other delicate surfaces."
+        }
+      ],
+      "value": "windows, kitchenware, car or other delicate surfaces"
+    },
+    {
+      "intentId": "versatility_and_use_cases",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "absorbency",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "soak up water from the countertop and tables instantly"
+        }
+      ],
+      "value": "soak up water from the countertop and tables instantly"
+    },
+    {
+      "intentId": "value_for_money",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "odor_resistance",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "dish rags which don't smell"
+        }
+      ],
+      "value": "don't smell"
+    },
+    {
+      "intentId": "thickness",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_dimensions",
+          "text": "12.6 x 12.6 x 0.2 inches"
+        }
+      ],
+      "value": "0.2 inches"
+    },
+    {
+      "intentId": "color_options",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.color",
+          "text": "Assorted"
+        }
+      ],
+      "value": "Assorted"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+cleaning-cloths@insights-1",
+  "usage": {
+    "inputTokens": 1955,
+    "outputTokens": 731
+  },
+  "latencyMs": 2212,
+  "cached": false
+}

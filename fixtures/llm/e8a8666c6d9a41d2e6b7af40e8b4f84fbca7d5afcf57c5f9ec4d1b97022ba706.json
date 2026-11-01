@@ -1,0 +1,89 @@
+{
+  "data": [
+    {
+      "intentId": "thickness",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "2.5mm thick"
+        }
+      ],
+      "value": "2.5mm"
+    },
+    {
+      "intentId": "color_assortment",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.color",
+          "text": "Gray"
+        }
+      ],
+      "value": "Gray"
+    },
+    {
+      "intentId": "size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "12.5\"x12.5\""
+        }
+      ],
+      "value": "12.5\"x12.5\""
+    },
+    {
+      "intentId": "machine_washable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_care_instructions",
+          "text": "Machine Wash, Tumble Dry"
+        }
+      ],
+      "value": "Machine Wash, Tumble Dry"
+    },
+    {
+      "intentId": "absorbency",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Ultra-absorbent"
+        }
+      ],
+      "value": "Ultra-absorbent"
+    },
+    {
+      "intentId": "durability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "LASTS 1200+ WASHES"
+        }
+      ],
+      "value": "LASTS 1200+ WASHES"
+    },
+    {
+      "intentId": "lint_free",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "WON’T LINT"
+        }
+      ],
+      "value": "Lint Free"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+cleaning-cloths@mined-live-1",
+  "usage": {
+    "inputTokens": 1686,
+    "outputTokens": 538
+  },
+  "latencyMs": 36394,
+  "cached": false
+}

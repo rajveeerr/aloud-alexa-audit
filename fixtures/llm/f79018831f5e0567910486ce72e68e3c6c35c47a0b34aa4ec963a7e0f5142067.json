@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "intentId": "storage_capacity",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "bullet.2",
+          "text": "BUILT-IN PENCIL GROOVE WITH PENCIL LEDGE: Designed with a built-in pencil groove and 24\"-wide pencil ledge for storing writing utensils and canvases; Easily set down pencils, pens, paintbrushes, and more as you work"
+        }
+      ],
+      "draft": "BUILT-IN STORAGE: Features a built-in pencil groove and 24\"-wide pencil ledge designed for storing writing utensils and canvases as you work.",
+      "needsFromBrand": ""
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.2",
+  "usage": {
+    "inputTokens": 2932,
+    "outputTokens": 164
+  },
+  "latencyMs": 2255,
+  "cached": false
+}

@@ -1,0 +1,178 @@
+{
+  "data": [
+    {
+      "i": 150,
+      "needs": [
+        "scent",
+        "flexibility",
+        "tear_resistance",
+        "load_capacity"
+      ]
+    },
+    {
+      "i": 151,
+      "needs": [
+        "puncture_resistance",
+        "leak_proof"
+      ]
+    },
+    {
+      "i": 152,
+      "needs": [
+        "can_fit_retention"
+      ]
+    },
+    {
+      "i": 153,
+      "needs": [
+        "scent",
+        "load_capacity",
+        "puncture_resistance",
+        "drawstring_strength",
+        "tear_resistance"
+      ]
+    },
+    {
+      "i": 154,
+      "needs": [
+        "tear_resistance"
+      ]
+    },
+    {
+      "i": 155,
+      "needs": [
+        "tear_resistance",
+        "strength"
+      ]
+    },
+    {
+      "i": 156,
+      "needs": [
+        "puncture_resistance",
+        "scent",
+        "durability"
+      ]
+    },
+    {
+      "i": 157,
+      "needs": [
+        "strength",
+        "dispensing_ease",
+        "puncture_resistance"
+      ]
+    },
+    {
+      "i": 158,
+      "needs": [
+        "bag_size",
+        "thickness",
+        "tear_resistance"
+      ]
+    },
+    {
+      "i": 159,
+      "needs": [
+        "leak_proof",
+        "strength",
+        "durability",
+        "bag_size",
+        "ease_of_use"
+      ]
+    },
+    {
+      "i": 160,
+      "needs": [
+        "strength",
+        "tear_resistance"
+      ]
+    },
+    {
+      "i": 161,
+      "needs": [
+        "strength",
+        "flexibility",
+        "odor_masking",
+        "tear_resistance",
+        "drawstring_type",
+        "scent"
+      ]
+    },
+    {
+      "i": 162,
+      "needs": [
+        "drawstring_strength"
+      ]
+    },
+    {
+      "i": 163,
+      "needs": [
+        "tear_resistance"
+      ]
+    },
+    {
+      "i": 164,
+      "needs": [
+        "drawstring_strength"
+      ]
+    },
+    {
+      "i": 165,
+      "needs": [
+        "flexibility",
+        "durability",
+        "scent",
+        "bag_size"
+      ]
+    },
+    {
+      "i": 166,
+      "needs": [
+        "tear_resistance",
+        "durability"
+      ]
+    },
+    {
+      "i": 167,
+      "needs": [
+        "tear_resistance",
+        "thickness"
+      ]
+    },
+    {
+      "i": 168,
+      "needs": [
+        "load_capacity",
+        "tear_resistance"
+      ]
+    },
+    {
+      "i": 169,
+      "needs": [
+        "strength",
+        "color"
+      ]
+    },
+    {
+      "i": 170,
+      "needs": [
+        "strength",
+        "tear_resistance"
+      ]
+    },
+    {
+      "i": 171,
+      "needs": [
+        "thickness",
+        "drawstring_strength"
+      ]
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "extract-needs@2026-10-27.1+trash-bags",
+  "usage": {
+    "inputTokens": 1260,
+    "outputTokens": 928
+  },
+  "latencyMs": 3289,
+  "cached": false
+}

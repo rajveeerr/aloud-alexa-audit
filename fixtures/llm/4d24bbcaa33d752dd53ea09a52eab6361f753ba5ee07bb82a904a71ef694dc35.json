@@ -1,0 +1,17 @@
+{
+  "data": [
+    {
+      "intentId": "storage_capacity",
+      "unsupported": [],
+      "answersQuestion": true
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "faithfulness@2026-10-27.2",
+  "usage": {
+    "inputTokens": 232,
+    "outputTokens": 34
+  },
+  "latencyMs": 1033,
+  "cached": false
+}

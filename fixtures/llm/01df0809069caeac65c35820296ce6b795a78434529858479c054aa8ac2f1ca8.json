@@ -1,0 +1,102 @@
+{
+  "data": [
+    {
+      "topics": [
+        0
+      ],
+      "id": "overall_quality",
+      "question": "What is the overall quality of the trash bags?",
+      "kind": "experience",
+      "rubric": "answered: The review details the overall quality and user satisfaction. partial: The review mentions quality vaguely. unmentioned: No mention of quality.",
+      "conditional": false
+    },
+    {
+      "topics": [
+        1
+      ],
+      "id": "durability_and_tear_resistance",
+      "question": "Are the trash bags durable and resistant to tearing?",
+      "kind": "experience",
+      "rubric": "answered: The review explicitly discusses whether the bags rip or hold up under weight. partial: The review mentions strength briefly. unmentioned: No mention of durability.",
+      "conditional": false
+    },
+    {
+      "topics": [
+        2
+      ],
+      "id": "scent_and_fragrance",
+      "question": "What scent do the trash bags have and is it overpowering?",
+      "kind": "spec",
+      "rubric": "answered: The review states the specific scent and whether it is strong or pleasant. partial: The review mentions a scent exists without details. unmentioned: No mention of scent.",
+      "conditional": true
+    },
+    {
+      "topics": [
+        3
+      ],
+      "id": "value_for_money",
+      "question": "Are the trash bags good value for the money?",
+      "kind": "experience",
+      "rubric": "answered: The review evaluates the cost versus the performance of the bags. partial: The review briefly mentions price. unmentioned: No mention of value.",
+      "conditional": false
+    },
+    {
+      "topics": [
+        4
+      ],
+      "id": "pest_and_rodent_repellent",
+      "question": "Do the trash bags effectively keep rodents, pests, and critters away?",
+      "kind": "claim",
+      "rubric": "answered: The review explicitly tests and comments on pest deterrence. partial: The review mentions pest control vaguely. unmentioned: No mention of pests.",
+      "conditional": true
+    },
+    {
+      "topics": [
+        5
+      ],
+      "id": "bag_size",
+      "question": "What is the size and capacity dimensions of the trash bags?",
+      "kind": "spec",
+      "rubric": "answered: The review gives specific feedback on the sizing dimensions. partial: The review mentions size in passing. unmentioned: No mention of size.",
+      "conditional": false
+    },
+    {
+      "topics": [
+        6
+      ],
+      "id": "can_fit",
+      "question": "Do the trash bags fit standard trash cans properly without slipping?",
+      "kind": "experience",
+      "rubric": "answered: The review describes how well the bags fit standard trash cans. partial: The review mentions fit briefly. unmentioned: No mention of fit.",
+      "conditional": true
+    },
+    {
+      "topics": [
+        7
+      ],
+      "id": "holding_capacity",
+      "question": "How much volume or weight can the trash bags hold?",
+      "kind": "spec",
+      "rubric": "answered: The review states how much trash or weight the bags can handle. partial: The review mentions capacity generally. unmentioned: No mention of capacity.",
+      "conditional": false
+    },
+    {
+      "topics": [
+        8
+      ],
+      "id": "ease_of_use",
+      "question": "Are the trash bags easy to use and tie closed?",
+      "kind": "experience",
+      "rubric": "answered: The review explains how easy the bags are to handle and close. partial: The review mentions usability briefly. unmentioned: No mention of ease of use.",
+      "conditional": false
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "insight-intents@2026-11-02.1+trash-bags",
+  "usage": {
+    "inputTokens": 1448,
+    "outputTokens": 860
+  },
+  "latencyMs": 3549,
+  "cached": false
+}

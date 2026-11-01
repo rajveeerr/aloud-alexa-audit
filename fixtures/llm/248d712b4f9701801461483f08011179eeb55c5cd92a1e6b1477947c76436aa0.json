@@ -1,0 +1,1072 @@
+{
+  "data": [
+    {
+      "i": 0,
+      "needs": []
+    },
+    {
+      "i": 1,
+      "needs": [
+        "strength",
+        "tear_resistance"
+      ]
+    },
+    {
+      "i": 2,
+      "needs": [
+        "strength",
+        "flexibility",
+        "durability",
+        "leak_proof"
+      ]
+    },
+    {
+      "i": 3,
+      "needs": [
+        "durability",
+        "strength"
+      ]
+    },
+    {
+      "i": 4,
+      "needs": [
+        "strength",
+        "drawstring"
+      ]
+    },
+    {
+      "i": 5,
+      "needs": [
+        "drawstring",
+        "tear_resistance"
+      ]
+    },
+    {
+      "i": 6,
+      "needs": [
+        "capacity",
+        "fit_size",
+        "tear_resistance"
+      ]
+    },
+    {
+      "i": 7,
+      "needs": []
+    },
+    {
+      "i": 8,
+      "needs": [
+        "strength",
+        "drawstring"
+      ]
+    },
+    {
+      "i": 9,
+      "needs": [
+        "strength",
+        "opening_ease",
+        "leak_proof",
+        "stretch",
+        "drawstring"
+      ]
+    },
+    {
+      "i": 10,
+      "needs": []
+    },
+    {
+      "i": 11,
+      "needs": [
+        "strength",
+        "tear_resistance"
+      ]
+    },
+    {
+      "i": 12,
+      "needs": [
+        "strength",
+        "can_fit",
+        "tear_resistance",
+        "scent"
+      ]
+    },
+    {
+      "i": 13,
+      "needs": [
+        "vacuum_compatibility"
+      ]
+    },
+    {
+      "i": 14,
+      "needs": [
+        "capacity",
+        "dimensions"
+      ]
+    },
+    {
+      "i": 15,
+      "needs": []
+    },
+    {
+      "i": 16,
+      "needs": [
+        "strength",
+        "durability",
+        "puncture_resistance"
+      ]
+    },
+    {
+      "i": 17,
+      "needs": [
+        "puncture_resistance"
+      ]
+    },
+    {
+      "i": 18,
+      "needs": [
+        "strength",
+        "size"
+      ]
+    },
+    {
+      "i": 19,
+      "needs": [
+        "size",
+        "puncture_resistance",
+        "drawstring"
+      ]
+    },
+    {
+      "i": 20,
+      "needs": [
+        "material_thickness",
+        "durability",
+        "puncture_resistance"
+      ]
+    },
+    {
+      "i": 21,
+      "needs": [
+        "thickness"
+      ]
+    },
+    {
+      "i": 22,
+      "needs": [
+        "capacity"
+      ]
+    },
+    {
+      "i": 23,
+      "needs": [
+        "strength",
+        "stretch",
+        "capacity"
+      ]
+    },
+    {
+      "i": 24,
+      "needs": [
+        "size",
+        "tear_resistance",
+        "leak_proof",
+        "drawstring"
+      ]
+    },
+    {
+      "i": 25,
+      "needs": []
+    },
+    {
+      "i": 26,
+      "needs": [
+        "drawstring",
+        "tear_resistance",
+        "puncture_resistance"
+      ]
+    },
+    {
+      "i": 27,
+      "needs": [
+        "strength",
+        "flexibility"
+      ]
+    },
+    {
+      "i": 28,
+      "needs": [
+        "drawstring",
+        "opening_ease",
+        "size",
+        "stretch"
+      ]
+    },
+    {
+      "i": 29,
+      "needs": []
+    },
+    {
+      "i": 30,
+      "needs": [
+        "strength",
+        "flexibility"
+      ]
+    },
+    {
+      "i": 31,
+      "needs": [
+        "size",
+        "opening_ease",
+        "quality"
+      ]
+    },
+    {
+      "i": 32,
+      "needs": [
+        "strength",
+        "leak_proof",
+        "stretch",
+        "thickness"
+      ]
+    },
+    {
+      "i": 33,
+      "needs": [
+        "strength",
+        "flexibility",
+        "tear_resistance"
+      ]
+    },
+    {
+      "i": 34,
+      "needs": [
+        "strength",
+        "tear_resistance",
+        "drawstring",
+        "capacity",
+        "fit_size",
+        "leak_proof"
+      ]
+    },
+    {
+      "i": 35,
+      "needs": [
+        "strength",
+        "drawstring",
+        "size",
+        "count"
+      ]
+    },
+    {
+      "i": 36,
+      "needs": [
+        "drawstring",
+        "quality_control"
+      ]
+    },
+    {
+      "i": 37,
+      "needs": [
+        "strength"
+      ]
+    },
+    {
+      "i": 38,
+      "needs": [
+        "scent",
+        "fit_size",
+        "strength",
+        "tear_resistance"
+      ]
+    },
+    {
+      "i": 39,
+      "needs": [
+        "size",
+        "fit_size",
+        "stretch",
+        "capacity",
+        "drawstring",
+        "scent"
+      ]
+    },
+    {
+      "i": 40,
+      "needs": [
+        "strength",
+        "capacity",
+        "texture",
+        "scent"
+      ]
+    },
+    {
+      "i": 41,
+      "needs": [
+        "quality",
+        "fit_size",
+        "capacity",
+        "puncture_resistance",
+        "scent"
+      ]
+    },
+    {
+      "i": 42,
+      "needs": [
+        "scent"
+      ]
+    },
+    {
+      "i": 43,
+      "needs": [
+        "quality"
+      ]
+    },
+    {
+      "i": 44,
+      "needs": [
+        "size",
+        "strength",
+        "leak_proof",
+        "burst_resistance"
+      ]
+    },
+    {
+      "i": 45,
+      "needs": [
+        "puncture_resistance",
+        "scent"
+      ]
+    },
+    {
+      "i": 46,
+      "needs": [
+        "scent"
+      ]
+    },
+    {
+      "i": 47,
+      "needs": [
+        "scent"
+      ]
+    },
+    {
+      "i": 48,
+      "needs": [
+        "scent",
+        "drawstring"
+      ]
+    },
+    {
+      "i": 49,
+      "needs": [
+        "drawstring",
+        "strength",
+        "scent"
+      ]
+    },
+    {
+      "i": 50,
+      "needs": [
+        "capacity",
+        "leak_proof"
+      ]
+    },
+    {
+      "i": 51,
+      "needs": [
+        "capacity",
+        "count"
+      ]
+    },
+    {
+      "i": 52,
+      "needs": [
+        "strength",
+        "tear_resistance",
+        "scent"
+      ]
+    },
+    {
+      "i": 53,
+      "needs": [
+        "strength",
+        "flexibility",
+        "count"
+      ]
+    },
+    {
+      "i": 54,
+      "needs": [
+        "tear_resistance",
+        "scent"
+      ]
+    },
+    {
+      "i": 55,
+      "needs": [
+        "tear_resistance",
+        "scent"
+      ]
+    },
+    {
+      "i": 56,
+      "needs": [
+        "fit_size",
+        "stretch",
+        "scent"
+      ]
+    },
+    {
+      "i": 57,
+      "needs": [
+        "strength",
+        "tear_resistance"
+      ]
+    },
+    {
+      "i": 58,
+      "needs": [
+        "drawstring"
+      ]
+    },
+    {
+      "i": 59,
+      "needs": [
+        "scent",
+        "strength",
+        "drawstring"
+      ]
+    },
+    {
+      "i": 60,
+      "needs": [
+        "stretch",
+        "leak_proof",
+        "scent",
+        "quality"
+      ]
+    },
+    {
+      "i": 61,
+      "needs": [
+        "strength",
+        "thickness"
+      ]
+    },
+    {
+      "i": 62,
+      "needs": [
+        "strength",
+        "scent"
+      ]
+    },
+    {
+      "i": 63,
+      "needs": [
+        "strength",
+        "tear_resistance",
+        "scent"
+      ]
+    },
+    {
+      "i": 64,
+      "needs": [
+        "tear_resistance",
+        "strength"
+      ]
+    },
+    {
+      "i": 65,
+      "needs": [
+        "quality_control"
+      ]
+    },
+    {
+      "i": 66,
+      "needs": [
+        "fit_size"
+      ]
+    },
+    {
+      "i": 67,
+      "needs": [
+        "size",
+        "durability"
+      ]
+    },
+    {
+      "i": 68,
+      "needs": [
+        "scent",
+        "strength"
+      ]
+    },
+    {
+      "i": 69,
+      "needs": [
+        "drawstring",
+        "tear_resistance",
+        "strength"
+      ]
+    },
+    {
+      "i": 70,
+      "needs": [
+        "drawstring",
+        "quality_control"
+      ]
+    },
+    {
+      "i": 71,
+      "needs": [
+        "strength",
+        "fit_size",
+        "drawstring",
+        "count"
+      ]
+    },
+    {
+      "i": 72,
+      "needs": [
+        "strength",
+        "scent"
+      ]
+    },
+    {
+      "i": 73,
+      "needs": [
+        "tear_resistance",
+        "leak_proof"
+      ]
+    },
+    {
+      "i": 74,
+      "needs": []
+    },
+    {
+      "i": 75,
+      "needs": [
+        "leak_proof"
+      ]
+    },
+    {
+      "i": 76,
+      "needs": [
+        "thickness",
+        "stretch",
+        "strength",
+        "fragility"
+      ]
+    },
+    {
+      "i": 77,
+      "needs": [
+        "tear_resistance"
+      ]
+    },
+    {
+      "i": 78,
+      "needs": [
+        "strength",
+        "tear_resistance",
+        "leak_proof"
+      ]
+    },
+    {
+      "i": 79,
+      "needs": [
+        "tear_resistance",
+        "puncture_resistance"
+      ]
+    },
+    {
+      "i": 80,
+      "needs": [
+        "scent"
+      ]
+    },
+    {
+      "i": 81,
+      "needs": [
+        "tear_resistance",
+        "leak_proof"
+      ]
+    },
+    {
+      "i": 82,
+      "needs": [
+        "tear_resistance",
+        "drawstring",
+        "quality_control"
+      ]
+    },
+    {
+      "i": 83,
+      "needs": [
+        "scent",
+        "strength",
+        "durability"
+      ]
+    },
+    {
+      "i": 84,
+      "needs": [
+        "thickness",
+        "quality"
+      ]
+    },
+    {
+      "i": 85,
+      "needs": [
+        "strength",
+        "tear_resistance"
+      ]
+    },
+    {
+      "i": 86,
+      "needs": [
+        "size",
+        "thickness",
+        "puncture_resistance"
+      ]
+    },
+    {
+      "i": 87,
+      "needs": [
+        "durability",
+        "scent",
+        "capacity"
+      ]
+    },
+    {
+      "i": 88,
+      "needs": [
+        "durability",
+        "strength",
+        "size",
+        "capacity",
+        "tear_resistance"
+      ]
+    },
+    {
+      "i": 89,
+      "needs": [
+        "thickness",
+        "tear_resistance",
+        "puncture_resistance"
+      ]
+    },
+    {
+      "i": 90,
+      "needs": [
+        "scent"
+      ]
+    },
+    {
+      "i": 91,
+      "needs": [
+        "leak_proof"
+      ]
+    },
+    {
+      "i": 92,
+      "needs": [
+        "split_resistance"
+      ]
+    },
+    {
+      "i": 93,
+      "needs": [
+        "durability",
+        "tear_resistance",
+        "scent"
+      ]
+    },
+    {
+      "i": 94,
+      "needs": [
+        "fit_size",
+        "strength",
+        "drawstring"
+      ]
+    },
+    {
+      "i": 95,
+      "needs": [
+        "drawstring",
+        "quality_control"
+      ]
+    },
+    {
+      "i": 96,
+      "needs": [
+        "fit_size"
+      ]
+    },
+    {
+      "i": 97,
+      "needs": [
+        "capacity",
+        "leak_proof",
+        "strength",
+        "scent"
+      ]
+    },
+    {
+      "i": 98,
+      "needs": [
+        "puncture_resistance",
+        "tear_resistance",
+        "flexibility",
+        "thickness"
+      ]
+    },
+    {
+      "i": 99,
+      "needs": [
+        "strength",
+        "drawstring"
+      ]
+    },
+    {
+      "i": 100,
+      "needs": [
+        "stretch",
+        "drawstring",
+        "scent"
+      ]
+    },
+    {
+      "i": 101,
+      "needs": [
+        "tear_resistance",
+        "thickness",
+        "strength"
+      ]
+    },
+    {
+      "i": 102,
+      "needs": [
+        "scent",
+        "thickness",
+        "puncture_resistance"
+      ]
+    },
+    {
+      "i": 103,
+      "needs": [
+        "stretch",
+        "drawstring",
+        "fit_size"
+      ]
+    },
+    {
+      "i": 104,
+      "needs": [
+        "tear_resistance"
+      ]
+    },
+    {
+      "i": 105,
+      "needs": [
+        "thickness",
+        "tear_resistance",
+        "drawstring"
+      ]
+    },
+    {
+      "i": 106,
+      "needs": [
+        "tear_resistance",
+        "drawstring"
+      ]
+    },
+    {
+      "i": 107,
+      "needs": [
+        "strength",
+        "flexibility",
+        "fit_size",
+        "drawstring",
+        "scent",
+        "count"
+      ]
+    },
+    {
+      "i": 108,
+      "needs": [
+        "scent"
+      ]
+    },
+    {
+      "i": 109,
+      "needs": []
+    },
+    {
+      "i": 110,
+      "needs": [
+        "fit_size"
+      ]
+    },
+    {
+      "i": 111,
+      "needs": [
+        "size"
+      ]
+    },
+    {
+      "i": 112,
+      "needs": [
+        "quality"
+      ]
+    },
+    {
+      "i": 113,
+      "needs": [
+        "size",
+        "strength"
+      ]
+    },
+    {
+      "i": 114,
+      "needs": [
+        "tear_resistance"
+      ]
+    },
+    {
+      "i": 115,
+      "needs": []
+    },
+    {
+      "i": 116,
+      "needs": [
+        "strength"
+      ]
+    },
+    {
+      "i": 117,
+      "needs": []
+    },
+    {
+      "i": 118,
+      "needs": [
+        "durability",
+        "scent"
+      ]
+    },
+    {
+      "i": 119,
+      "needs": [
+        "strength"
+      ]
+    },
+    {
+      "i": 120,
+      "needs": [
+        "tear_resistance",
+        "leak_proof"
+      ]
+    },
+    {
+      "i": 121,
+      "needs": [
+        "thickness",
+        "drawstring"
+      ]
+    },
+    {
+      "i": 122,
+      "needs": [
+        "strength",
+        "stretch",
+        "fit_size"
+      ]
+    },
+    {
+      "i": 123,
+      "needs": []
+    },
+    {
+      "i": 124,
+      "needs": [
+        "strength",
+        "tear_resistance",
+        "leak_proof",
+        "fit_size"
+      ]
+    },
+    {
+      "i": 125,
+      "needs": []
+    },
+    {
+      "i": 126,
+      "needs": [
+        "strength",
+        "leak_proof",
+        "opening_ease"
+      ]
+    },
+    {
+      "i": 127,
+      "needs": [
+        "drawstring"
+      ]
+    },
+    {
+      "i": 128,
+      "needs": [
+        "durability",
+        "stretch"
+      ]
+    },
+    {
+      "i": 129,
+      "needs": [
+        "durability",
+        "fit_size"
+      ]
+    },
+    {
+      "i": 130,
+      "needs": [
+        "tear_resistance"
+      ]
+    },
+    {
+      "i": 131,
+      "needs": [
+        "size"
+      ]
+    },
+    {
+      "i": 132,
+      "needs": [
+        "fit_size"
+      ]
+    },
+    {
+      "i": 133,
+      "needs": [
+        "strength"
+      ]
+    },
+    {
+      "i": 134,
+      "needs": [
+        "tear_resistance"
+      ]
+    },
+    {
+      "i": 135,
+      "needs": [
+        "durability",
+        "size"
+      ]
+    },
+    {
+      "i": 136,
+      "needs": [
+        "count"
+      ]
+    },
+    {
+      "i": 137,
+      "needs": [
+        "leak_proof",
+        "durability"
+      ]
+    },
+    {
+      "i": 138,
+      "needs": []
+    },
+    {
+      "i": 139,
+      "needs": []
+    },
+    {
+      "i": 140,
+      "needs": [
+        "tear_resistance"
+      ]
+    },
+    {
+      "i": 141,
+      "needs": [
+        "scent",
+        "size",
+        "thickness",
+        "tear_resistance",
+        "drawstring"
+      ]
+    },
+    {
+      "i": 142,
+      "needs": [
+        "strength",
+        "thickness",
+        "tear_resistance",
+        "quality_control"
+      ]
+    },
+    {
+      "i": 143,
+      "needs": [
+        "strength",
+        "drawstring"
+      ]
+    },
+    {
+      "i": 144,
+      "needs": [
+        "tear_resistance",
+        "strength"
+      ]
+    },
+    {
+      "i": 145,
+      "needs": [
+        "drawstring"
+      ]
+    },
+    {
+      "i": 146,
+      "needs": [
+        "strength",
+        "tear_resistance",
+        "scent"
+      ]
+    },
+    {
+      "i": 147,
+      "needs": [
+        "strength"
+      ]
+    },
+    {
+      "i": 148,
+      "needs": [
+        "scent",
+        "capacity"
+      ]
+    },
+    {
+      "i": 149,
+      "needs": [
+        "strength",
+        "tear_resistance",
+        "drawstring",
+        "scent"
+      ]
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "extract-needs@2026-10-27.1+trash-bags",
+  "usage": {
+    "inputTokens": 8971,
+    "outputTokens": 5535
+  },
+  "latencyMs": 11410,
+  "cached": false
+}

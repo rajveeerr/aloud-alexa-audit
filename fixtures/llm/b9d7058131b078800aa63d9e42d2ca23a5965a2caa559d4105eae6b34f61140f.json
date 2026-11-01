@@ -1,0 +1,122 @@
+{
+  "data": [
+    {
+      "topics": [
+        0
+      ],
+      "id": "overall_quality",
+      "question": "What is the overall quality and longevity of the cleaning cloths?",
+      "kind": "claim",
+      "rubric": "answered: States overall quality and expected lifespan; partial: Mentions quality generally without details; unaddressed: No information on quality.",
+      "conditional": false
+    },
+    {
+      "topics": [
+        1
+      ],
+      "id": "durability_and_wear",
+      "question": "How long do the cloths last and do they hold up after multiple washes without breaking down?",
+      "kind": "spec",
+      "rubric": "answered: Details expected lifespan and wash durability; partial: Mentions durability vaguely; unaddressed: No durability info.",
+      "conditional": false
+    },
+    {
+      "topics": [
+        2
+      ],
+      "id": "washability_and_maintenance",
+      "question": "Can the cloths be machine washed, placed in the dishwasher, or sanitized easily?",
+      "kind": "spec",
+      "rubric": "answered: Specifies washing methods like dishwasher or machine wash; partial: Mentions they are washable without specifics; unaddressed: No cleaning instructions.",
+      "conditional": false
+    },
+    {
+      "topics": [
+        3
+      ],
+      "id": "cleaning_performance",
+      "question": "What surfaces and cleaning tasks (like dishes, counters, or dusting) are these cloths effective for?",
+      "kind": "claim",
+      "rubric": "answered: Lists specific surfaces and tasks the cloths clean effectively; partial: States they clean well generally; unaddressed: No cleaning performance details.",
+      "conditional": false
+    },
+    {
+      "topics": [
+        4
+      ],
+      "id": "versatility_and_use_cases",
+      "question": "Can the cloths be used for alternative tasks like removing makeup or wiping screens?",
+      "kind": "claim",
+      "rubric": "answered: Details multi-purpose uses; partial: Mentions general versatility; unaddressed: No alternative uses mentioned.",
+      "conditional": false
+    },
+    {
+      "topics": [
+        5
+      ],
+      "id": "absorbency",
+      "question": "How absorbent are the cloths for spills and wet cleaning tasks?",
+      "kind": "claim",
+      "rubric": "answered: Describes absorbency capacity or performance; partial: States they are absorbent without context; unaddressed: No absorbency information.",
+      "conditional": false
+    },
+    {
+      "topics": [
+        6
+      ],
+      "id": "value_for_money",
+      "question": "Do the cloths provide good value compared to paper towels or traditional sponges?",
+      "kind": "claim",
+      "rubric": "answered: Explains cost-effectiveness and paper towel savings; partial: Mentions value vaguely; unaddressed: No value context.",
+      "conditional": false
+    },
+    {
+      "topics": [
+        7
+      ],
+      "id": "odor_resistance",
+      "question": "Do the cloths resist developing moldy or sour odors over time?",
+      "kind": "claim",
+      "rubric": "answered: States whether the material resists odors and dries quickly; partial: Mentions quick drying only; unaddressed: No mention of odor resistance.",
+      "conditional": false
+    },
+    {
+      "topics": [
+        8
+      ],
+      "id": "thickness",
+      "question": "How thick are the cloths?",
+      "kind": "spec",
+      "rubric": "answered: Provides thickness measurements or descriptive feel; partial: Mentions thin or thick without details; unaddressed: No thickness info.",
+      "conditional": false
+    },
+    {
+      "topics": [
+        9
+      ],
+      "id": "softness",
+      "question": "Are the cloths soft enough for delicate surfaces without leaving lint or residue?",
+      "kind": "experience",
+      "rubric": "answered: Describes tactile softness and performance on delicate surfaces; partial: Mentions softness only; unaddressed: No softness details.",
+      "conditional": false
+    },
+    {
+      "topics": [
+        10
+      ],
+      "id": "color_options",
+      "question": "What colors are available and do they help organize different cleaning tasks?",
+      "kind": "spec",
+      "rubric": "answered: Lists available colors and their intended organization use; partial: Mentions colors exist; unaddressed: No color details.",
+      "conditional": true
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "insight-intents@2026-11-02.1+cleaning-cloths",
+  "usage": {
+    "inputTokens": 1987,
+    "outputTokens": 1014
+  },
+  "latencyMs": 4032,
+  "cached": false
+}

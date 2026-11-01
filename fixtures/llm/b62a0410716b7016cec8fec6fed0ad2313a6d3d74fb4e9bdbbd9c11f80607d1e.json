@@ -1,0 +1,145 @@
+{
+  "data": [
+    {
+      "id": "material",
+      "question": "What material is the cleaning cloth made of?",
+      "kind": "spec",
+      "rubric": "answered: states fabric material partial: mentions blend or general fiber",
+      "members": [
+        "material"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "pack_size",
+      "question": "How many cloths come in a pack?",
+      "kind": "spec",
+      "rubric": "answered: states total quantity partial: mentions set configuration",
+      "members": [
+        "pack_size"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "size",
+      "question": "What are the dimensions of the cloth?",
+      "kind": "spec",
+      "rubric": "answered: states exact length and width partial: states general size category",
+      "members": [
+        "size"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "color_assortment",
+      "question": "What colors are included in the pack?",
+      "kind": "spec",
+      "rubric": "answered: lists all included colors partial: mentions assorted colors",
+      "members": [
+        "color_assortment"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "thickness",
+      "question": "How thick is the cleaning cloth?",
+      "kind": "spec",
+      "rubric": "answered: states GSM or thickness dimensions partial: describes as thin or thick",
+      "members": [
+        "thickness"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "machine_washable",
+      "question": "Can these cloths be cleaned in a washing machine?",
+      "kind": "spec",
+      "rubric": "answered: explicitly states machine washable partial: care instructions mention washing",
+      "members": [
+        "machine_washable",
+        "washability"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "absorbency",
+      "question": "How well does the cloth absorb liquids?",
+      "kind": "claim",
+      "rubric": "answered: states high absorbency or spill capacity partial: mentions moisture pickup",
+      "members": [
+        "absorbency"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "lint_free",
+      "question": "Does the cloth leave lint or residue behind?",
+      "kind": "claim",
+      "rubric": "answered: explicitly states lint-free partial: mentions low lint",
+      "members": [
+        "lint_free"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "scratch_resistant",
+      "question": "Is the cloth safe for delicate surfaces without scratching?",
+      "kind": "claim",
+      "rubric": "answered: states safe for glass or screens partial: mentions gentle on surfaces",
+      "members": [
+        "scratch_resistant"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "durability",
+      "question": "How long do the cloths last over time?",
+      "kind": "claim",
+      "rubric": "answered: states long-lasting construction partial: mentions reinforced edges",
+      "members": [
+        "durability",
+        "reusability",
+        "strength"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "dry_time",
+      "question": "How quickly does the wet cloth dry?",
+      "kind": "claim",
+      "rubric": "answered: states quick dry feature partial: mentions breathable fabric",
+      "members": [
+        "dry_time"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "softness",
+      "question": "How soft is the cloth to the touch?",
+      "kind": "experience",
+      "rubric": "answered: describes tactile softness partial: mentions plush feel",
+      "members": [
+        "softness"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "texture",
+      "question": "What does the texture of the cloth feel like?",
+      "kind": "experience",
+      "rubric": "answered: describes surface weave or microfiber texture partial: mentions smooth or waffle weave",
+      "members": [
+        "texture"
+      ],
+      "conditional": false
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "cluster-needs@2026-10-27.1+cleaning-cloths",
+  "usage": {
+    "inputTokens": 343,
+    "outputTokens": 1060
+  },
+  "latencyMs": 71362,
+  "cached": false
+}

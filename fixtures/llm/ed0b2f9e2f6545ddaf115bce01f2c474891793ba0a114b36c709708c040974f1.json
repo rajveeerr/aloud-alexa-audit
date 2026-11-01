@@ -1,0 +1,61 @@
+{
+  "data": [
+    {
+      "intentId": "weight_and_thickness",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Provide the thickness measurement or GSM weight for the cleaning cloths."
+    },
+    {
+      "intentId": "lint_free",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.31",
+          "text": "No Crumbling. No Shedding. Just Reliability!"
+        },
+        {
+          "id": "ic.27",
+          "text": "Stays intact without messy flakes"
+        }
+      ],
+      "draft": "No Crumbling. No Shedding. Stays intact without messy flakes for just reliability!"
+    },
+    {
+      "intentId": "color_variety",
+      "target": "attr.color",
+      "sources": [
+        {
+          "id": "ic.44",
+          "text": "Good clean fun includes eleven designs in assorted colors"
+        }
+      ],
+      "draft": "Good clean fun includes eleven designs in assorted colors"
+    },
+    {
+      "intentId": "streak_free",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.6",
+          "text": "Streak-free cleaning for the whole house, not just the kitchen"
+        }
+      ],
+      "draft": "Streak-free cleaning for the whole house, not just the kitchen"
+    },
+    {
+      "intentId": "scratch_free",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm whether the cloths are guaranteed scratch-free for delicate surfaces."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.2",
+  "usage": {
+    "inputTokens": 2903,
+    "outputTokens": 413
+  },
+  "latencyMs": 2443,
+  "cached": false
+}

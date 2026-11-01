@@ -1,0 +1,141 @@
+{
+  "data": [
+    {
+      "intentId": "weight_and_thickness",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "2.5mm thick"
+        },
+        {
+          "fieldId": "bullet.3",
+          "text": "300 GSM"
+        }
+      ],
+      "value": "2.5mm thick, 300 GSM"
+    },
+    {
+      "intentId": "durability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "OVERLOCK BRAIDED STITCHING"
+        },
+        {
+          "fieldId": "bullet.3",
+          "text": "LASTS 1200+ WASHES"
+        }
+      ],
+      "value": "LASTS 1200+ WASHES, OVERLOCK BRAIDED STITCHING"
+    },
+    {
+      "intentId": "size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "12.5\"x12.5\""
+        }
+      ],
+      "value": "12.5\"x12.5\""
+    },
+    {
+      "intentId": "color_variety",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.color",
+          "text": "Gray"
+        }
+      ],
+      "value": "Gray"
+    },
+    {
+      "intentId": "washability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_care_instructions",
+          "text": "Machine Wash, Tumble Dry"
+        }
+      ],
+      "value": "Machine Wash, Tumble Dry"
+    },
+    {
+      "intentId": "absorbency",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "sucking up & LOCKING AWAY 8x to 10x its weight in liquid"
+        }
+      ],
+      "value": "8x to 10x its weight in liquid"
+    },
+    {
+      "intentId": "material",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.fabric_type",
+          "text": "Polyester & Polyamide"
+        }
+      ],
+      "value": "Polyester & Polyamide"
+    },
+    {
+      "intentId": "lint_free",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "WON’T LINT"
+        }
+      ],
+      "value": "WON’T LINT"
+    },
+    {
+      "intentId": "streak_free",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Streak-Free Mirror Shine"
+        }
+      ],
+      "value": "Streak-Free Mirror Shine"
+    },
+    {
+      "intentId": "reusability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Reuseable"
+        }
+      ],
+      "value": "Reuseable"
+    },
+    {
+      "intentId": "scratch_free",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "SCRATCH"
+        }
+      ],
+      "value": "SCRATCH FREE"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+cleaning-cloths@mined-live-1",
+  "usage": {
+    "inputTokens": 1882,
+    "outputTokens": 928
+  },
+  "latencyMs": 2777,
+  "cached": false
+}

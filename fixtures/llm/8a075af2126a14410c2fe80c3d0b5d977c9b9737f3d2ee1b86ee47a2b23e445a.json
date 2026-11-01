@@ -1,0 +1,188 @@
+{
+  "data": [
+    {
+      "id": "bag_size",
+      "question": "What is the size and capacity of the trash bags?",
+      "kind": "spec",
+      "rubric": "answered: exact dimensions or gallon capacity stated. partial: vague size description.",
+      "members": [
+        "size",
+        "capacity",
+        "bag_size",
+        "dimensions"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "bag_count",
+      "question": "How many bags are included in the package?",
+      "kind": "spec",
+      "rubric": "answered: exact total count of bags stated. partial: box weight only.",
+      "members": [
+        "count"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "drawstring_features",
+      "question": "What type of drawstring do the bags have and how strong is it?",
+      "kind": "spec",
+      "rubric": "answered: type and strength details of the drawstring. partial: only mentions drawstring.",
+      "members": [
+        "drawstring",
+        "drawstring_strength",
+        "drawstring_type"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "bag_scent",
+      "question": "What scent do the trash bags have?",
+      "kind": "spec",
+      "rubric": "answered: specific scent or fragrance stated. partial: says scented without details.",
+      "members": [
+        "scent"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "bag_color",
+      "question": "What color are the trash bags?",
+      "kind": "spec",
+      "rubric": "answered: specific color stated. partial: general appearance note.",
+      "members": [
+        "color"
+      ],
+      "conditional": true
+    },
+    {
+      "id": "material_thickness",
+      "question": "What is the material thickness of the bags?",
+      "kind": "spec",
+      "rubric": "answered: mil thickness or gauge stated. partial: general thick or thin mention.",
+      "members": [
+        "thickness",
+        "material_thickness"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "vacuum_compatibility",
+      "question": "Are these bags compatible with vacuum systems?",
+      "kind": "spec",
+      "rubric": "answered: explicit vacuum compatibility statement. partial: unclear mention.",
+      "members": [
+        "vacuum_compatibility"
+      ],
+      "conditional": true
+    },
+    {
+      "id": "can_fit",
+      "question": "Will these bags fit my specific trash can size and stay in place?",
+      "kind": "claim",
+      "rubric": "answered: intended bin size and rim grip claims stated. partial: fits standard cans only.",
+      "members": [
+        "fit_size",
+        "can_fit",
+        "can_fit_retention"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "leak_proof",
+      "question": "Are the bags leak-proof to prevent liquid messes?",
+      "kind": "claim",
+      "rubric": "answered: explicit leak-proof promise or waterproof rating. partial: moisture resistant.",
+      "members": [
+        "leak_proof"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "puncture_and_tear_resistance",
+      "question": "How resistant are the bags to tearing, punctures, and splitting?",
+      "kind": "claim",
+      "rubric": "answered: puncture and tear resistance specs or claims. partial: general durability note.",
+      "members": [
+        "tear_resistance",
+        "puncture_resistance",
+        "burst_resistance",
+        "split_resistance"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "overall_strength_and_load",
+      "question": "What is the overall strength and load capacity of the bags?",
+      "kind": "claim",
+      "rubric": "answered: weight limit or heavy-duty claim stated. partial: general strength mention.",
+      "members": [
+        "strength",
+        "load_capacity"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "stretch_and_flexibility",
+      "question": "Do the bags stretch and flex to accommodate bulky loads?",
+      "kind": "claim",
+      "rubric": "answered: stretchable material claims or expansion capability. partial: mentions flexible plastic.",
+      "members": [
+        "stretch",
+        "flexibility"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "odor_masking",
+      "question": "Do the bags neutralize or mask unpleasant odors effectively?",
+      "kind": "claim",
+      "rubric": "answered: odor-blocking technology claims stated. partial: basic scent masking.",
+      "members": [
+        "odor_masking"
+      ],
+      "conditional": true
+    },
+    {
+      "id": "bag_durability",
+      "question": "Are the bags durable enough for long-term or heavy daily use?",
+      "kind": "claim",
+      "rubric": "answered: heavy-duty or long-lasting claims. partial: standard durability mention.",
+      "members": [
+        "durability",
+        "fragility"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "dispensing_and_opening_ease",
+      "question": "Are the bags easy to dispense from the box and open for use?",
+      "kind": "experience",
+      "rubric": "answered: design claims for easy dispensing and opening. partial: mentions packaging style.",
+      "members": [
+        "opening_ease",
+        "dispensing_ease",
+        "ease_of_use"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "material_texture",
+      "question": "What does the texture of the bag material feel like?",
+      "kind": "experience",
+      "rubric": "answered: texture description provided. partial: smooth or textured mention.",
+      "members": [
+        "texture"
+      ],
+      "conditional": false
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "cluster-needs@2026-10-27.1+trash-bags",
+  "usage": {
+    "inputTokens": 476,
+    "outputTokens": 1488
+  },
+  "latencyMs": 4550,
+  "cached": false
+}

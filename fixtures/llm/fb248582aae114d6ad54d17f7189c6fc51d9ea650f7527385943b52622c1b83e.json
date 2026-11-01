@@ -1,0 +1,109 @@
+{
+  "data": [
+    {
+      "intentId": "weight_and_thickness",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "durability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "designed to last for months"
+        }
+      ],
+      "value": "designed to last for months"
+    },
+    {
+      "intentId": "size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_dimensions",
+          "text": "8\"L x 7\"W"
+        }
+      ],
+      "value": "8\"L x 7\"W"
+    },
+    {
+      "intentId": "color_variety",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.color",
+          "text": "Colors May Vary"
+        }
+      ],
+      "value": "Colors May Vary"
+    },
+    {
+      "intentId": "washability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "machine washable"
+        }
+      ],
+      "value": "machine washable"
+    },
+    {
+      "intentId": "absorbency",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "absorption factor of 15x its own weight"
+        }
+      ],
+      "value": "absorption factor of 15x its own weight"
+    },
+    {
+      "intentId": "material",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.fabric_type",
+          "text": "70% Wood / 30% Cotton"
+        }
+      ],
+      "value": "70% Wood / 30% Cotton"
+    },
+    {
+      "intentId": "lint_free",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "streak_free",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "reusability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "reusable cleaning cloths"
+        }
+      ],
+      "value": "reusable cleaning cloths"
+    },
+    {
+      "intentId": "scratch_free",
+      "status": "missing",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+cleaning-cloths@mined-live-1",
+  "usage": {
+    "inputTokens": 1790,
+    "outputTokens": 666
+  },
+  "latencyMs": 2165,
+  "cached": false
+}

@@ -1,0 +1,116 @@
+{
+  "data": [
+    {
+      "intentId": "overall_quality",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Made from a non-abrasive blend of 85% polyester and 15% nylon, our microfiber cloths are gentle yet effective."
+        }
+      ],
+      "value": "Made from a non-abrasive blend of 85% polyester and 15% nylon, our microfiber cloths are gentle yet effective."
+    },
+    {
+      "intentId": "durability_and_wear",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "resist wear and tear even after frequent washing."
+        }
+      ],
+      "value": "resist wear and tear even after frequent washing"
+    },
+    {
+      "intentId": "washability_and_maintenance",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_care_instructions",
+          "text": "Machine wash in cold or warm water. Do not bleach. Tumble dry low or air dry."
+        }
+      ],
+      "value": "Machine wash in cold or warm water. Do not bleach. Tumble dry low or air dry."
+    },
+    {
+      "intentId": "cleaning_performance",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Ideal for drying dishes, cleaning countertops, or polishing surfaces in the kitchen, car, or around the home."
+        }
+      ],
+      "value": "Ideal for drying dishes, cleaning countertops, or polishing surfaces in the kitchen, car, or around the home."
+    },
+    {
+      "intentId": "versatility_and_use_cases",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "perfect for cleaning mirrors, electronics, stainless steel, and other smooth surfaces."
+        }
+      ],
+      "value": "perfect for cleaning mirrors, electronics, stainless steel, and other smooth surfaces"
+    },
+    {
+      "intentId": "absorbency",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "quickly absorb water and wipe away spills, dust, grease, and dirt without leaving streaks."
+        }
+      ],
+      "value": "quickly absorb water and wipe away spills, dust, grease, and dirt without leaving streaks"
+    },
+    {
+      "intentId": "value_for_money",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "A reliable alternative to disposable paper towels for everyday cleaning."
+        }
+      ],
+      "value": "A reliable alternative to disposable paper towels for everyday cleaning."
+    },
+    {
+      "intentId": "odor_resistance",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.6",
+          "text": "Quick-drying"
+        }
+      ],
+      "value": "Quick-drying"
+    },
+    {
+      "intentId": "thickness",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "color_options",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "Available in 4 assorted colors—Pink, Green, Blue, and Purple—for easy color-coding. Use different cleaning towels for the kitchen, bathroom, car, or electronics."
+        }
+      ],
+      "value": "Available in 4 assorted colors—Pink, Green, Blue, and Purple—for easy color-coding."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+cleaning-cloths@insights-1",
+  "usage": {
+    "inputTokens": 1852,
+    "outputTokens": 931
+  },
+  "latencyMs": 2686,
+  "cached": false
+}

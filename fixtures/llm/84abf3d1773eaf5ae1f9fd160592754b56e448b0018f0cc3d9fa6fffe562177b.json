@@ -1,0 +1,174 @@
+{
+  "data": [
+    {
+      "claimId": "ic.0",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Mint-X MintFlex Rodent Repellent Trash Bags"
+        }
+      ],
+      "intentId": "bag_scent"
+    },
+    {
+      "claimId": "ic.1",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Tall Kitchen Drawstring Bags"
+        }
+      ],
+      "intentId": "drawstring_features"
+    },
+    {
+      "claimId": "ic.2",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Mint-X's patented Rodent Repellent Technology is a humane, safe solution to the problem of foraging rodents, raccoons and squirrels"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.15",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "13 Gallon, 40 Count"
+        }
+      ],
+      "intentId": "bag_size"
+    },
+    {
+      "claimId": "ic.16",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "1 FT 11 ¾ Inches X 2 FT 1 Inch, 0.90 MIL"
+        }
+      ],
+      "intentId": "material_thickness"
+    },
+    {
+      "claimId": "ic.24",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "easy-to-use drawstring"
+        }
+      ],
+      "intentId": "drawstring_features"
+    },
+    {
+      "claimId": "ic.29",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Rodent Repellent"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.30",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "STRONG AND DURABLE: Mint-X's Tall Kitchen trash bags feature Mint-Flex superior stretching technology making them an ideal choice for both every day and serious clean-ups"
+        }
+      ],
+      "intentId": "bag_durability"
+    },
+    {
+      "claimId": "ic.45",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.capacity",
+          "text": "Capacity: 13 gallons"
+        }
+      ],
+      "intentId": "bag_size"
+    },
+    {
+      "claimId": "ic.68",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "40 Count"
+        }
+      ],
+      "intentId": "bag_count"
+    },
+    {
+      "claimId": "ic.72",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Mint-Flex superior stretching technology"
+        }
+      ],
+      "intentId": "stretch_and_flexibility"
+    },
+    {
+      "claimId": "ic.76",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "NEUTRALIZES ODORS"
+        }
+      ],
+      "intentId": "bag_scent"
+    },
+    {
+      "claimId": "ic.77",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "easy-to-use drawstring"
+        }
+      ],
+      "intentId": "drawstring_features"
+    },
+    {
+      "claimId": "ic.78",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "completely safe for humans and pets"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.79",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Mint-Flex superior stretching technology"
+        }
+      ],
+      "intentId": "stretch_and_flexibility"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "coverage@2026-10-27.1",
+  "usage": {
+    "inputTokens": 2749,
+    "outputTokens": 1205
+  },
+  "latencyMs": 3546,
+  "cached": false
+}

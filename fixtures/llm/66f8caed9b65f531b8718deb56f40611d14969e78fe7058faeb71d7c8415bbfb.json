@@ -1,0 +1,109 @@
+{
+  "data": [
+    {
+      "intentId": "puncture_and_tear_resistance",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Tear-resistant"
+        }
+      ],
+      "value": "Tear-resistant"
+    },
+    {
+      "intentId": "overall_strength_and_load",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.capacity",
+          "text": "30 gallons"
+        }
+      ],
+      "value": "30 gallons"
+    },
+    {
+      "intentId": "bag_scent",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.scent",
+          "text": "Unscented"
+        }
+      ],
+      "value": "Unscented"
+    },
+    {
+      "intentId": "drawstring_features",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Red drawstring closure"
+        }
+      ],
+      "value": "Red drawstring closure"
+    },
+    {
+      "intentId": "bag_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.item_dimensions",
+          "text": "33 x 30 x 0.1 inches"
+        }
+      ],
+      "value": "33 x 30 x 0.1 inches"
+    },
+    {
+      "intentId": "stretch_and_flexibility",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "leak_proof",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "can_fit",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "bag_durability",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.material_features",
+          "text": "Strong durable Plastic"
+        }
+      ],
+      "value": "Strong durable Plastic"
+    },
+    {
+      "intentId": "material_thickness",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "bag_count",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.unit_count",
+          "text": "50 Count"
+        }
+      ],
+      "value": "50 Count"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+trash-bags@mined-live-1",
+  "usage": {
+    "inputTokens": 1430,
+    "outputTokens": 666
+  },
+  "latencyMs": 2951,
+  "cached": false
+}

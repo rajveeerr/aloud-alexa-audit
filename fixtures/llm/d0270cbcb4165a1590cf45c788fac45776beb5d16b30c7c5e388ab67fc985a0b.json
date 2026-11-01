@@ -1,0 +1,82 @@
+{
+  "data": [
+    {
+      "topics": [
+        0
+      ],
+      "id": "overall_quality",
+      "question": "What is the overall build quality and durability of the drafting table?",
+      "kind": "experience",
+      "rubric": "answered: describes materials and build quality with customer sentiment; partial: mentions general quality without details; unanswered: no information on quality",
+      "conditional": false
+    },
+    {
+      "topics": [
+        1
+      ],
+      "id": "assembly_difficulty",
+      "question": "How difficult is the drafting table to assemble and are the instructions clear?",
+      "kind": "experience",
+      "rubric": "answered: details assembly steps, time, and clarity of instructions; partial: mentions whether it is easy or hard to build; unanswered: no details on assembly",
+      "conditional": false
+    },
+    {
+      "topics": [
+        2
+      ],
+      "id": "sturdiness_and_stability",
+      "question": "How sturdy and stable is the drafting table during use?",
+      "kind": "experience",
+      "rubric": "answered: provides details on how well the desk holds up under pressure and weight; partial: states it is sturdy or flimsy without context; unanswered: no mention of sturdiness",
+      "conditional": false
+    },
+    {
+      "topics": [
+        4
+      ],
+      "id": "adjustability_features",
+      "question": "What adjustment mechanisms does the drafting table have for height and angle?",
+      "kind": "spec",
+      "rubric": "answered: specifies adjustable height and angle ranges and mechanism types; partial: mentions that it adjusts but lacks details; unanswered: no mention of adjustability",
+      "conditional": false
+    },
+    {
+      "topics": [
+        5
+      ],
+      "id": "appearance_and_design",
+      "question": "What does the drafting table look like in terms of color and finish?",
+      "kind": "spec",
+      "rubric": "answered: describes colors, wood finish, and overall aesthetic; partial: mentions appearance broadly; unanswered: no description of appearance",
+      "conditional": false
+    },
+    {
+      "topics": [
+        6
+      ],
+      "id": "storage_capacity",
+      "question": "What storage features, such as drawers and shelves, are included with the drafting table?",
+      "kind": "spec",
+      "rubric": "answered: lists all storage compartments and their capacities; partial: mentions some storage exists; unanswered: no mention of storage",
+      "conditional": false
+    },
+    {
+      "topics": [
+        7
+      ],
+      "id": "dimensions_and_size",
+      "question": "What are the exact dimensions and overall size of the drafting table?",
+      "kind": "spec",
+      "rubric": "answered: provides full dimensions in length, width, and height; partial: gives general size category; unanswered: no size information provided",
+      "conditional": false
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "insight-intents@2026-11-02.1+drafting-tables",
+  "usage": {
+    "inputTokens": 1055,
+    "outputTokens": 664
+  },
+  "latencyMs": 3157,
+  "cached": false
+}

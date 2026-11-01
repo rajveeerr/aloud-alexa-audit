@@ -1,0 +1,186 @@
+{
+  "data": [
+    {
+      "id": "material",
+      "question": "What is the fabric type and material of the cleaning cloths?",
+      "kind": "spec",
+      "rubric": "answered: specifies exact fabric type and material composition. partial: mentions general material category.",
+      "members": [
+        "fabric_type"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "size",
+      "question": "What are the dimensions and size of each cloth?",
+      "kind": "spec",
+      "rubric": "answered: states exact length and width or dimensions. partial: gives vague size description.",
+      "members": [
+        "size"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "weight_and_thickness",
+      "question": "How thick and heavy are the cleaning cloths?",
+      "kind": "spec",
+      "rubric": "answered: states weight in GSM or thickness measurements. partial: mentions thick or thin without specs.",
+      "members": [
+        "thickness",
+        "weight"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "color_variety",
+      "question": "What colors are available and do they come in a variety pack?",
+      "kind": "spec",
+      "rubric": "answered: lists specific colors or variety pack contents. partial: mentions colors generally.",
+      "members": [
+        "color_variety"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "absorbency",
+      "question": "How well do the cloths absorb liquids and spills?",
+      "kind": "claim",
+      "rubric": "answered: details absorbency capacity and liquid pickup performance. partial: mentions absorbent material.",
+      "members": [
+        "absorbency"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "streak_free",
+      "question": "Do the cloths clean glass and mirrors without leaving streaks?",
+      "kind": "claim",
+      "rubric": "answered: explicitly promises streak-free cleaning on glass or shiny surfaces. partial: mentions general cleaning.",
+      "members": [
+        "streak_free"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "lint_free",
+      "question": "Do the cloths leave behind lint or fuzz on surfaces?",
+      "kind": "claim",
+      "rubric": "answered: guarantees lint-free performance. partial: mentions low lint.",
+      "members": [
+        "lint_free"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "scratch_free",
+      "question": "Are the cloths safe to use on delicate surfaces without scratching?",
+      "kind": "claim",
+      "rubric": "answered: states scratch-free guarantee for sensitive surfaces. partial: mentions soft edge.",
+      "members": [
+        "scratch_free"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "dry_time",
+      "question": "How quickly do the cloths dry after use or washing?",
+      "kind": "claim",
+      "rubric": "answered: states quick dry or hanging dry time claims. partial: mentions fast drying material.",
+      "members": [
+        "dry_time"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "durability",
+      "question": "How durable and long-lasting is the construction of the cloth?",
+      "kind": "claim",
+      "rubric": "answered: highlights heavy-duty stitching or long-lasting durability. partial: mentions durable fabric.",
+      "members": [
+        "durability",
+        "tear_resistant"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "washability",
+      "question": "Can the cloths be machine washed and dried?",
+      "kind": "spec",
+      "rubric": "answered: provides explicit machine washing and care instructions. partial: mentions washable.",
+      "members": [
+        "washability",
+        "bleach_safe"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "reusability",
+      "question": "Are the cloths designed for repeated long-term reuse?",
+      "kind": "claim",
+      "rubric": "answered: explicitly states reusable and washable for multiple uses. partial: mentions durable build.",
+      "members": [
+        "reusability"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "stain_resistance",
+      "question": "Do the cloths resist stains or release trapped dirt easily during washing?",
+      "kind": "claim",
+      "rubric": "answered: claims stain-resistant or easy-release properties. partial: mentions easy to rinse.",
+      "members": [
+        "stain_resistance"
+      ],
+      "conditional": true
+    },
+    {
+      "id": "softness",
+      "question": "How soft do the cloths feel to the touch?",
+      "kind": "experience",
+      "rubric": "answered: describes tactile softness and plush texture. partial: mentions soft fabric.",
+      "members": [
+        "softness",
+        "texture"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "odor",
+      "question": "Do the cloths trap unpleasant smells or come with an initial chemical odor?",
+      "kind": "experience",
+      "rubric": "answered: addresses odor resistance or anti-microbial treatments. partial: mentions fresh material.",
+      "members": [
+        "odor"
+      ],
+      "conditional": true
+    },
+    {
+      "id": "static_free",
+      "question": "Do the cloths prevent static buildup when dusting electronic screens?",
+      "kind": "claim",
+      "rubric": "answered: states anti-static or static-free properties. partial: mentions electronics safe.",
+      "members": [
+        "static_free"
+      ],
+      "conditional": true
+    },
+    {
+      "id": "pet_hair_removal",
+      "question": "Are the cloths effective at picking up and trapping pet hair?",
+      "kind": "claim",
+      "rubric": "answered: explicitly claims pet hair removal capabilities. partial: mentions hair pickup.",
+      "members": [
+        "pet_hair_removal"
+      ],
+      "conditional": true
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "cluster-needs@2026-10-27.1+cleaning-cloths",
+  "usage": {
+    "inputTokens": 388,
+    "outputTokens": 1505
+  },
+  "latencyMs": 6156,
+  "cached": false
+}

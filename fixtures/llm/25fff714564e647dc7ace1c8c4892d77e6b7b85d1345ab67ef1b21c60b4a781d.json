@@ -1,0 +1,68 @@
+{
+  "data": [
+    {
+      "intentId": "adjustability_features",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Adjustable Table Height: The height adjustable drawing table measures 47.4x23.6x(27.4-36.4)”"
+        },
+        {
+          "fieldId": "bullet.2",
+          "text": "tilted at an angle range of 0-60°"
+        }
+      ],
+      "value": "Height adjustable 27.4-36.4 inches and angle range 0-60 degrees"
+    },
+    {
+      "intentId": "appearance_and_design",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.color",
+          "text": "Brown"
+        },
+        {
+          "fieldId": "attr.finish_type",
+          "text": "Wood"
+        },
+        {
+          "fieldId": "attr.style",
+          "text": "Modern"
+        }
+      ],
+      "value": "Brown color with a wood finish and modern style"
+    },
+    {
+      "intentId": "storage_capacity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "An easy-to-clean detachable tabletop side tray with separate slots for different stationary items. A space-saving retractable board for documents/files. 2 simple yet practical nonwoven fabric drawers for mobile devices. An extra metal shelf down below for drawing drafts/paint cans."
+        }
+      ],
+      "value": "Detachable tabletop side tray, retractable board, 2 nonwoven fabric drawers, and an extra metal shelf"
+    },
+    {
+      "intentId": "dimensions_and_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_dimensions",
+          "text": "23.6\"D x 47.5\"W x 36.5\"H"
+        }
+      ],
+      "value": "23.6\"D x 47.5\"W x 36.5\"H"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+drafting-tables@insights-1",
+  "usage": {
+    "inputTokens": 2141,
+    "outputTokens": 543
+  },
+  "latencyMs": 2378,
+  "cached": false
+}

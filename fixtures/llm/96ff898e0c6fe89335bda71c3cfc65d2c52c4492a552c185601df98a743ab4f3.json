@@ -1,0 +1,77 @@
+{
+  "data": [
+    {
+      "intentId": "thickness",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "color_assortment",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.color",
+          "text": "Colors May Vary"
+        }
+      ],
+      "value": "Colors May Vary"
+    },
+    {
+      "intentId": "size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_dimensions",
+          "text": "8\"L x 7\"W"
+        }
+      ],
+      "value": "8\"L x 7\"W"
+    },
+    {
+      "intentId": "machine_washable",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "machine washable"
+        }
+      ],
+      "value": "machine washable"
+    },
+    {
+      "intentId": "absorbency",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "With an absorption factor of 15x its own weight"
+        }
+      ],
+      "value": "absorption factor of 15x its own weight"
+    },
+    {
+      "intentId": "durability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "designed to last for months"
+        }
+      ],
+      "value": "designed to last for months"
+    },
+    {
+      "intentId": "lint_free",
+      "status": "missing",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+cleaning-cloths@mined-live-1",
+  "usage": {
+    "inputTokens": 1594,
+    "outputTokens": 448
+  },
+  "latencyMs": 51397,
+  "cached": false
+}

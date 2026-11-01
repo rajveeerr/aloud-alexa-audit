@@ -1,0 +1,231 @@
+{
+  "data": [
+    {
+      "i": 0,
+      "needs": [
+        "color_assortment",
+        "texture",
+        "machine_washable"
+      ]
+    },
+    {
+      "i": 1,
+      "needs": []
+    },
+    {
+      "i": 2,
+      "needs": [
+        "texture"
+      ]
+    },
+    {
+      "i": 3,
+      "needs": [
+        "thickness",
+        "dry_time",
+        "color_assortment"
+      ]
+    },
+    {
+      "i": 4,
+      "needs": [
+        "machine_washable",
+        "thickness"
+      ]
+    },
+    {
+      "i": 5,
+      "needs": [
+        "softness",
+        "absorbency",
+        "machine_washable"
+      ]
+    },
+    {
+      "i": 6,
+      "needs": [
+        "thickness",
+        "color_assortment",
+        "pack_size"
+      ]
+    },
+    {
+      "i": 7,
+      "needs": [
+        "size",
+        "thickness",
+        "texture",
+        "softness",
+        "color_assortment"
+      ]
+    },
+    {
+      "i": 8,
+      "needs": []
+    },
+    {
+      "i": 9,
+      "needs": [
+        "thickness",
+        "softness"
+      ]
+    },
+    {
+      "i": 10,
+      "needs": [
+        "absorbency",
+        "size",
+        "color_assortment"
+      ]
+    },
+    {
+      "i": 11,
+      "needs": []
+    },
+    {
+      "i": 12,
+      "needs": [
+        "absorbency",
+        "color_assortment"
+      ]
+    },
+    {
+      "i": 13,
+      "needs": [
+        "lint_free",
+        "size",
+        "softness",
+        "machine_washable"
+      ]
+    },
+    {
+      "i": 14,
+      "needs": [
+        "material"
+      ]
+    },
+    {
+      "i": 15,
+      "needs": [
+        "thickness",
+        "absorbency",
+        "size",
+        "durability"
+      ]
+    },
+    {
+      "i": 16,
+      "needs": [
+        "softness",
+        "absorbency",
+        "color_assortment",
+        "machine_washable"
+      ]
+    },
+    {
+      "i": 17,
+      "needs": []
+    },
+    {
+      "i": 18,
+      "needs": [
+        "size",
+        "machine_washable"
+      ]
+    },
+    {
+      "i": 19,
+      "needs": []
+    },
+    {
+      "i": 20,
+      "needs": []
+    },
+    {
+      "i": 21,
+      "needs": [
+        "lint_free"
+      ]
+    },
+    {
+      "i": 22,
+      "needs": [
+        "size"
+      ]
+    },
+    {
+      "i": 23,
+      "needs": [
+        "lint_free",
+        "softness",
+        "scratch_resistant"
+      ]
+    },
+    {
+      "i": 24,
+      "needs": [
+        "pack_size"
+      ]
+    },
+    {
+      "i": 25,
+      "needs": [
+        "strength",
+        "durability"
+      ]
+    },
+    {
+      "i": 26,
+      "needs": [
+        "reusability",
+        "washability"
+      ]
+    },
+    {
+      "i": 27,
+      "needs": [
+        "strength",
+        "durability"
+      ]
+    },
+    {
+      "i": 28,
+      "needs": []
+    },
+    {
+      "i": 29,
+      "needs": [
+        "thickness",
+        "durability"
+      ]
+    },
+    {
+      "i": 30,
+      "needs": [
+        "thickness"
+      ]
+    },
+    {
+      "i": 31,
+      "needs": [
+        "thickness"
+      ]
+    },
+    {
+      "i": 32,
+      "needs": [
+        "softness",
+        "size",
+        "color_assortment"
+      ]
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "extract-needs@2026-10-27.1+cleaning-cloths",
+  "usage": {
+    "inputTokens": 2744,
+    "outputTokens": 1157
+  },
+  "latencyMs": 140625,
+  "cached": false
+}
