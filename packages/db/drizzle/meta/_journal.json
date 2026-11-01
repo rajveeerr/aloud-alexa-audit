@@ -8,6 +8,20 @@
       "when": 1793300777881,
       "tag": "0000_init",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1793569927770,
+      "tag": "0001_insights_basis",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1793571365762,
+      "tag": "0002_question_sets",
+      "breakpoints": true
     }
   ]
 }

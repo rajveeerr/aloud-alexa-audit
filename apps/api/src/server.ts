@@ -111,7 +111,7 @@ export async function startServer(
         db,
         redisUrl: cfg.redisUrl,
         prefix: cfg.redisPrefix,
-        makeDeps: opts.deps ?? makeDeps(depsConfigFromEnv()),
+        makeDeps: opts.deps ?? makeDeps(depsConfigFromEnv(), db),
         webhook: cfg.webhook,
         log,
       })

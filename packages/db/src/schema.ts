@@ -51,7 +51,7 @@ export const audits = mysqlTable(
     /** What runAudit needs beyond asin and source: competitors, maxCompetitors, live, paste, category. */
     request: json("request").notNull(),
     score: int("score"),
-    basis: mysqlEnum("basis", ["mined", "estimated"]),
+    basis: mysqlEnum("basis", ["mined", "insights", "estimated"]),
     categoryId: varchar("category_id", { length: 120 }),
     /** Copied out of the report so lists don't have to load every report. */
     categoryName: varchar("category_name", { length: 200 }),
@@ -108,3 +108,16 @@ export type ApiKeyRow = typeof apiKeys.$inferSelect;
 export type AuditSource = (typeof SOURCES)[number];
 export type AuditOriginValue = (typeof ORIGINS)[number];
 export type AuditStatusValue = (typeof STATUSES)[number];
+
+/**
+ * Question sets built in production (mined from store reviews, built from review topics, or
+ * estimated). The server's disk is wiped when a free instance sleeps, so they live here instead,
+ * and a category is mined once. Curated sets stay in fixtures/intents in the repo.
+ */
+export const questionSets = mysqlTable("question_sets", {
+  categoryId: varchar("category_id", { length: 120 }).primaryKey(),
+  basis: mysqlEnum("basis", ["mined", "insights", "estimated"]).notNull(),
+  set: json("set").notNull(),
+  note: text("note").notNull(),
+  updatedAt: at("updated_at").notNull(),
+});

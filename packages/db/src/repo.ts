@@ -1,7 +1,7 @@
 import { randomUUID } from "node:crypto";
 import { and, asc, desc, eq, getTableColumns, inArray, or, sql } from "drizzle-orm";
 import type { Db } from "./client";
-import { apiKeys, audits, bulkJobs, leads, listingSnapshots, type AuditOriginValue, type AuditRow, type AuditSource, type BulkJobRow } from "./schema";
+import { apiKeys, audits, bulkJobs, leads, listingSnapshots, questionSets, type AuditOriginValue, type AuditRow, type AuditSource, type BulkJobRow } from "./schema";
 
 export type NewAudit = {
   asin: string;
@@ -15,7 +15,7 @@ export type NewAudit = {
 export type AuditOutcome = {
   asin: string;
   score: number | null;
-  basis: "mined" | "estimated";
+  basis: "mined" | "insights" | "estimated";
   categoryId: string;
   categoryName: string;
   brand: string | null;
@@ -201,4 +201,15 @@ export async function ensureApiKey(db: Db, k: { name: string; hash: string; rate
     .insert(apiKeys)
     .values({ name: k.name, hash: k.hash, rateLimit: k.rateLimit ?? 120, createdAt: new Date() })
     .onDuplicateKeyUpdate({ set: { name: k.name } });
+}
+
+/** Question sets saved by the worker; each row's `set` is a core IntentSet. */
+export async function allQuestionSets(db: Db): Promise<unknown[]> {
+  const rows = await db.select({ set: questionSets.set }).from(questionSets).orderBy(asc(questionSets.categoryId));
+  return rows.map((r) => r.set);
+}
+
+export async function saveQuestionSet(db: Db, s: { categoryId: string; basis: "mined" | "insights" | "estimated"; set: unknown; note: string }): Promise<void> {
+  const row = { ...s, updatedAt: new Date() };
+  await db.insert(questionSets).values(row).onDuplicateKeyUpdate({ set: { basis: row.basis, set: row.set, note: row.note, updatedAt: row.updatedAt } });
 }

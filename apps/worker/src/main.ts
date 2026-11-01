@@ -12,7 +12,7 @@ const cfg = depsConfigFromEnv();
 const worker = startWorker({
   db,
   ...(process.env.REDIS_PREFIX && { prefix: process.env.REDIS_PREFIX }),
-  makeDeps: makeDeps(cfg),
+  makeDeps: makeDeps(cfg, db),
   webhook: webhookFromEnv(),
   log,
 });

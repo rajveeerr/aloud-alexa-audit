@@ -1,0 +1,1 @@
+ALTER TABLE `audits` MODIFY COLUMN `basis` enum('mined','insights','estimated');
