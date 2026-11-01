@@ -1,0 +1,2249 @@
+{
+  "listing": {
+    "asin": "B0H4HFHXSN",
+    "requestedAsin": "B0H4HFHXSN",
+    "marketplace": "amazon.com",
+    "source": "serpapi",
+    "fetchedAt": "2026-10-27T00:00:00.000Z",
+    "fields": [
+      {
+        "id": "title",
+        "kind": "title",
+        "text": "Wakefit Gravita Ergonomic Office Chair for Work | 3 Year Warranty | Single Lock and Recline | Soft Armrest with 3 Dimension adjustability| Strong Nylon Base | 8+ Hours of Comfort| White and Grey"
+      },
+      {
+        "id": "bullet.1",
+        "kind": "bullet",
+        "text": "Ergonomic Office Chair for Work: S Shaped curve supports spinal alignment with breathable mesh, adjustable height, and Single Lock recline upto 135, delivering all-day comfort for office work"
+      },
+      {
+        "id": "bullet.2",
+        "kind": "bullet",
+        "text": "BIFMA durability standard tested: Rigorously tested chair for home use and study, supports up to 120 kg with BIFMA Class-4 gas lift, and durability proven over 120,000 recline cycles"
+      },
+      {
+        "id": "bullet.3",
+        "kind": "bullet",
+        "text": "Best-in-Class Comfort: High-density antisag foam seat, breathable mesh back and adjustable headrest deliver lasting comfort, making it ideal as a study chair and office chairs for home"
+      },
+      {
+        "id": "bullet.4",
+        "kind": "bullet",
+        "text": "Advanced Specifications: Soft 3-direction adjustable armrests and strong nylon base making this an ergonomic office chair ideal for work"
+      },
+      {
+        "id": "bullet.5",
+        "kind": "bullet",
+        "text": "Warranty: In-house manufactured office chair backed by a 3-year warranty, including free part replacement for any manufacturing defects."
+      },
+      {
+        "id": "description.1",
+        "kind": "description",
+        "text": "Ergonomic backrest with adjustable lumber support to reduce stress on spine and lower back.2D Customizable height and angle for personalized neck support.Class 4 GAS LIFT with effortless height adjustment which ensures correct sitting height for every individual and absorbs shock while seated on it.60 MM Nylon casters ensures easy movements and have very high load capacity reduced friction when rolling to improve flexibility and performance.Heavy Duty Nylon Chair Base - Five-pronged Wider spider base for complete stability, extreme durability, sturdiness and unbreakable base is made out of Glass Filled Nylon"
+      },
+      {
+        "id": "attr.brand",
+        "kind": "attribute",
+        "key": "brand",
+        "text": "Brand: Wakefit"
+      },
+      {
+        "id": "attr.color",
+        "kind": "attribute",
+        "key": "color",
+        "text": "Color: Gravita Grey"
+      },
+      {
+        "id": "attr.material",
+        "kind": "attribute",
+        "key": "material",
+        "text": "Material: High-Density Injection Molded Foam Seat, its durable and comfortable"
+      },
+      {
+        "id": "attr.product_dimensions",
+        "kind": "attribute",
+        "key": "product_dimensions",
+        "text": "Product dimensions: 20.47\"D x 20.08\"W x 50.79\"H"
+      },
+      {
+        "id": "attr.size",
+        "kind": "attribute",
+        "key": "size",
+        "text": "Size: High Back"
+      },
+      {
+        "id": "attr.brand_name",
+        "kind": "attribute",
+        "key": "brand_name",
+        "text": "Brand name: Wakefit"
+      },
+      {
+        "id": "attr.additional_features",
+        "kind": "attribute",
+        "key": "additional_features",
+        "text": "Additional features: 3D Armrest, Ergonomic"
+      },
+      {
+        "id": "attr.unit_count",
+        "kind": "attribute",
+        "key": "unit_count",
+        "text": "Unit count: 1 Count"
+      },
+      {
+        "id": "attr.age_range_description",
+        "kind": "attribute",
+        "key": "age_range_description",
+        "text": "Age range description: Adult"
+      },
+      {
+        "id": "attr.included_components",
+        "kind": "attribute",
+        "key": "included_components",
+        "text": "Included components: 1 Office Chair"
+      },
+      {
+        "id": "attr.indoor_outdoor_usage",
+        "kind": "attribute",
+        "key": "indoor_outdoor_usage",
+        "text": "Indoor outdoor usage: Indoor"
+      },
+      {
+        "id": "attr.number_of_packs",
+        "kind": "attribute",
+        "key": "number_of_packs",
+        "text": "Number of packs: 1"
+      },
+      {
+        "id": "attr.manufacturer",
+        "kind": "attribute",
+        "key": "manufacturer",
+        "text": "Manufacturer: Wakefit Innovations Limited"
+      },
+      {
+        "id": "attr.importer_contact_information",
+        "kind": "attribute",
+        "key": "importer_contact_information",
+        "text": "Importer contact information: Wakefit Innovations Limited (formerly known as Wakefit Innovations Private Limited), Umiya Emporium, 97-99, 2nd and 4th Floor, Adugodi, Tavarekere, Opp. Forum Mall, Hosur Road, Bengaluru, Karnataka, India, 560029"
+      },
+      {
+        "id": "attr.item_type_name",
+        "kind": "attribute",
+        "key": "item_type_name",
+        "text": "Item type name: Chair"
+      },
+      {
+        "id": "attr.packer_contact_information",
+        "kind": "attribute",
+        "key": "packer_contact_information",
+        "text": "Packer contact information: Wakefit Innovations Limited (formerly known as Wakefit Innovations Private Limited), Umiya Emporium, 97-99, 2nd and 4th Floor, Adugodi, Tavarekere, Opp. Forum Mall, Hosur Road, Bengaluru, Karnataka, India, 560029"
+      },
+      {
+        "id": "attr.set_name",
+        "kind": "attribute",
+        "key": "set_name",
+        "text": "Set name: Single Lock Synchro Tilt"
+      },
+      {
+        "id": "attr.number_of_items",
+        "kind": "attribute",
+        "key": "number_of_items",
+        "text": "Number of items: 1"
+      },
+      {
+        "id": "attr.back_style",
+        "kind": "attribute",
+        "key": "back_style",
+        "text": "Back style: mesh back"
+      },
+      {
+        "id": "attr.style_name",
+        "kind": "attribute",
+        "key": "style_name",
+        "text": "Style name: Contemporary"
+      },
+      {
+        "id": "attr.pattern",
+        "kind": "attribute",
+        "key": "pattern",
+        "text": "Pattern: Solid"
+      },
+      {
+        "id": "attr.leg_style",
+        "kind": "attribute",
+        "key": "leg_style",
+        "text": "Leg style: wheels"
+      },
+      {
+        "id": "attr.form_factor",
+        "kind": "attribute",
+        "key": "form_factor",
+        "text": "Form factor: Office"
+      },
+      {
+        "id": "attr.item_dimensions_d_x_w_x_h",
+        "kind": "attribute",
+        "key": "item_dimensions_d_x_w_x_h",
+        "text": "Item dimensions d x w x h: 20.47\"D x 20.08\"W x 50.79\"H"
+      },
+      {
+        "id": "attr.item_weight",
+        "kind": "attribute",
+        "key": "item_weight",
+        "text": "Item weight: 16.5 kg"
+      },
+      {
+        "id": "attr.seat_height",
+        "kind": "attribute",
+        "key": "seat_height",
+        "text": "Seat height: 8.89 centimeters"
+      },
+      {
+        "id": "attr.seat_depth",
+        "kind": "attribute",
+        "key": "seat_depth",
+        "text": "Seat depth: 19 inches"
+      },
+      {
+        "id": "attr.seat_length",
+        "kind": "attribute",
+        "key": "seat_length",
+        "text": "Seat length: 50.8"
+      },
+      {
+        "id": "attr.item_dimensions",
+        "kind": "attribute",
+        "key": "item_dimensions",
+        "text": "Item dimensions: 20.47 x 20.08 x 50.79 inches"
+      },
+      {
+        "id": "attr.material_type",
+        "kind": "attribute",
+        "key": "material_type",
+        "text": "Material type: High-Density Injection Molded Foam Seat, its durable and comfortable"
+      },
+      {
+        "id": "attr.frame_material_type",
+        "kind": "attribute",
+        "key": "frame_material_type",
+        "text": "Frame material type: Glass filled Nylon and PP"
+      },
+      {
+        "id": "attr.product_care_instructions",
+        "kind": "attribute",
+        "key": "product_care_instructions",
+        "text": "Product care instructions: Wipe Clean"
+      },
+      {
+        "id": "attr.seat_material",
+        "kind": "attribute",
+        "key": "seat_material",
+        "text": "Seat material: High-Density Injection Molded Foam Seat"
+      },
+      {
+        "id": "attr.fill_material",
+        "kind": "attribute",
+        "key": "fill_material",
+        "text": "Fill material: Nylon"
+      },
+      {
+        "id": "attr.fabric_type",
+        "kind": "attribute",
+        "key": "fabric_type",
+        "text": "Fabric type: High Quality Imported Mesh Which Gives Air Circulation and Avoids Sweating"
+      },
+      {
+        "id": "attr.upholstery_fabric_type",
+        "kind": "attribute",
+        "key": "upholstery_fabric_type",
+        "text": "Upholstery fabric type: Mesh"
+      }
+    ],
+    "images": [
+      {
+        "id": "img.0",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/81MnLYM-LVL._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.1",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/6184erHzSbL._AC_SL1254_.jpg"
+      },
+      {
+        "id": "img.2",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/51k7FLdjekL._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.3",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/61C95gyTPwL._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.4",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/61hC+NkVPYL._AC_SL1254_.jpg"
+      },
+      {
+        "id": "img.5",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/61vw+8upkNL._AC_SL1254_.jpg"
+      },
+      {
+        "id": "img.6",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/61x295jE+BL._AC_SL1500_.jpg"
+      },
+      {
+        "id": "img.7",
+        "kind": "gallery",
+        "url": "https://m.media-amazon.com/images/I/61UC8mnBAzL._AC_SL1500_.jpg"
+      }
+    ],
+    "meta": {
+      "brand": "Wakefit",
+      "rating": 4.3,
+      "reviewCount": 861,
+      "categories": [
+        "Home & Kitchen",
+        "Furniture",
+        "Home Office Furniture",
+        "Home Office Chairs",
+        "Home Office Desk Chairs"
+      ],
+      "salesRanks": [],
+      "available": false
+    },
+    "contentHash": "0159911a9f035fe9daae2d7b27043a3ab8df536f5f2f430a7faeaa3fa096a646"
+  },
+  "intentSet": {
+    "categoryId": "home-office-desk-chairs",
+    "categoryName": "Home Office Desk Chairs",
+    "match": [
+      "Home Office Desk Chairs"
+    ],
+    "version": "mined-live-1",
+    "basis": "mined",
+    "reviewed": false,
+    "sampleSize": 177,
+    "intents": [
+      {
+        "id": "easy_assembly",
+        "kind": "claim",
+        "question": "How easy is it to assemble the chair?",
+        "rubric": "answered: instructions and assembly process described as straightforward; partial: mentions some difficulty or missing tools.",
+        "frequency": 105
+      },
+      {
+        "id": "cushioning",
+        "kind": "claim",
+        "question": "How comfortable and thick is the seat cushioning?",
+        "rubric": "answered: detailed padding and softness described; partial: general mention of cushion.",
+        "frequency": 98
+      },
+      {
+        "id": "sturdiness",
+        "kind": "claim",
+        "question": "How sturdy and durable is the chair's construction?",
+        "rubric": "answered: solid build and long-lasting materials confirmed; partial: minor wobbles noted.",
+        "frequency": 64
+      },
+      {
+        "id": "chair_size",
+        "kind": "spec",
+        "question": "What are the overall dimensions and seat size of the chair?",
+        "rubric": "answered: exact width, depth, and height provided; partial: general size described.",
+        "frequency": 42
+      },
+      {
+        "id": "caster_mobility",
+        "kind": "claim",
+        "question": "How smoothly do the wheels roll on various surfaces?",
+        "rubric": "answered: smooth rolling and good caster quality described; partial: wheels stick occasionally.",
+        "frequency": 35
+      },
+      {
+        "id": "backrest_support",
+        "kind": "claim",
+        "question": "Does the backrest provide adequate height and lumbar support?",
+        "rubric": "answered: ergonomic support and back height specified; partial: general back comfort mentioned.",
+        "frequency": 33
+      },
+      {
+        "id": "hydraulic_lift",
+        "kind": "claim",
+        "question": "Does the hydraulic lift hold its height securely?",
+        "rubric": "answered: reliable height adjustment described; partial: occasional sinking mentioned.",
+        "frequency": 32
+      },
+      {
+        "id": "adjustable_arms",
+        "kind": "spec",
+        "question": "Can the armrests be adjusted for height or position?",
+        "rubric": "answered: specific adjustment ranges detailed; partial: mentions fixed or limited adjustment.",
+        "frequency": 26,
+        "conditional": true
+      },
+      {
+        "id": "reclining_mechanism",
+        "kind": "claim",
+        "question": "Does the chair recline or rock smoothly?",
+        "rubric": "answered: tilt tension and reclining range detailed; partial: stiffness noted.",
+        "frequency": 17
+      },
+      {
+        "id": "appearance",
+        "kind": "experience",
+        "question": "How does the chair look in terms of style and color?",
+        "rubric": "answered: aesthetic appeal and color accuracy described; partial: basic visual mention.",
+        "frequency": 15
+      },
+      {
+        "id": "overall_comfort",
+        "kind": "experience",
+        "question": "Is the chair comfortable for long hours of sitting?",
+        "rubric": "answered: explicit long-term sitting comfort or discomfort stated; partial: general comfort.",
+        "frequency": 12
+      },
+      {
+        "id": "material_cleaning",
+        "kind": "claim",
+        "question": "How easy is it to clean and maintain the upholstery?",
+        "rubric": "answered: cleaning instructions or stain resistance detailed; partial: material staining noted.",
+        "frequency": 8
+      },
+      {
+        "id": "weight_capacity",
+        "kind": "spec",
+        "question": "What is the maximum weight capacity of the chair?",
+        "rubric": "answered: exact weight limit stated; partial: heavy-duty claim without exact number.",
+        "frequency": 7
+      },
+      {
+        "id": "swivel_smoothness",
+        "kind": "claim",
+        "question": "Does the chair swivel smoothly without squeaking?",
+        "rubric": "answered: swivel action described as smooth; partial: squeaking or resistance reported.",
+        "frequency": 7
+      },
+      {
+        "id": "warranty_and_condition",
+        "kind": "spec",
+        "question": "What warranty and product condition are guaranteed upon arrival?",
+        "rubric": "answered: warranty terms and delivery condition stated; partial: missing parts or damage noted.",
+        "frequency": 5
+      },
+      {
+        "id": "adjustable_height",
+        "kind": "spec",
+        "question": "What is the seat height adjustment range?",
+        "rubric": "answered: minimum and maximum seat height provided; partial: general height mentioned.",
+        "frequency": 3
+      }
+    ],
+    "reviewSource": "walmart",
+    "source": "Mined from 177 Walmart reviews of 5 \"Home Office Desk Chairs\" products. Not yet reviewed by hand."
+  },
+  "grades": [
+    {
+      "intentId": "easy_assembly",
+      "status": "missing",
+      "quotes": [],
+      "modelStatus": "missing",
+      "flags": []
+    },
+    {
+      "intentId": "cushioning",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "High-density antisag foam seat"
+        }
+      ],
+      "value": "High-density antisag foam seat",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "sturdiness",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "BIFMA durability standard tested: Rigorously tested chair for home use and study, supports up to 120 kg with BIFMA Class-4 gas lift, and durability proven over 120,000 recline cycles"
+        }
+      ],
+      "value": "BIFMA durability standard tested: Rigorously tested chair for home use and study, supports up to 120 kg with BIFMA Class-4 gas lift, and durability proven over 120,000 recline cycles",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "chair_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_dimensions",
+          "text": "20.47\"D x 20.08\"W x 50.79\"H"
+        }
+      ],
+      "value": "20.47\"D x 20.08\"W x 50.79\"H",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "caster_mobility",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "60 MM Nylon casters ensures easy movements and have very high load capacity reduced friction when rolling to improve flexibility and performance."
+        }
+      ],
+      "value": "60 MM Nylon casters ensures easy movements and have very high load capacity reduced friction when rolling to improve flexibility and performance.",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "backrest_support",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "Ergonomic backrest with adjustable lumber support to reduce stress on spine and lower back."
+        }
+      ],
+      "value": "Ergonomic backrest with adjustable lumber support to reduce stress on spine and lower back.",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "hydraulic_lift",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "Class 4 GAS LIFT with effortless height adjustment which ensures correct sitting height for every individual and absorbs shock while seated on it."
+        }
+      ],
+      "value": "Class 4 GAS LIFT with effortless height adjustment which ensures correct sitting height for every individual and absorbs shock while seated on it.",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "adjustable_arms",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Soft 3-direction adjustable armrests"
+        }
+      ],
+      "value": "3-direction adjustable",
+      "modelStatus": "partial",
+      "flags": []
+    },
+    {
+      "intentId": "reclining_mechanism",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Single Lock recline upto 135"
+        }
+      ],
+      "value": "Single Lock recline upto 135",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "material_cleaning",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_care_instructions",
+          "text": "Wipe Clean"
+        }
+      ],
+      "value": "Wipe Clean",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "weight_capacity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "supports up to 120 kg"
+        }
+      ],
+      "value": "120 kg",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "swivel_smoothness",
+      "status": "missing",
+      "quotes": [],
+      "modelStatus": "missing",
+      "flags": []
+    },
+    {
+      "intentId": "warranty_and_condition",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "backed by a 3-year warranty, including free part replacement for any manufacturing defects."
+        }
+      ],
+      "value": "3-year warranty, including free part replacement for any manufacturing defects.",
+      "modelStatus": "answered",
+      "flags": []
+    },
+    {
+      "intentId": "adjustable_height",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "adjustable height"
+        }
+      ],
+      "value": "adjustable height",
+      "modelStatus": "partial",
+      "flags": []
+    }
+  ],
+  "score": {
+    "score": 74,
+    "answered": 10,
+    "partial": 2,
+    "missing": 2,
+    "contradicted": 0,
+    "counted": 14,
+    "notApplicable": 0
+  },
+  "imageClaims": [
+    {
+      "id": "ic.0",
+      "text": "Size Details",
+      "imageIds": [
+        "img.1"
+      ]
+    },
+    {
+      "id": "ic.1",
+      "text": "11 in",
+      "imageIds": [
+        "img.1"
+      ]
+    },
+    {
+      "id": "ic.2",
+      "text": "20.5 in",
+      "imageIds": [
+        "img.1"
+      ]
+    },
+    {
+      "id": "ic.3",
+      "text": "20 in",
+      "imageIds": [
+        "img.1"
+      ]
+    },
+    {
+      "id": "ic.4",
+      "text": "26 in",
+      "imageIds": [
+        "img.1"
+      ]
+    },
+    {
+      "id": "ic.5",
+      "text": "6 in",
+      "imageIds": [
+        "img.1"
+      ]
+    },
+    {
+      "id": "ic.6",
+      "text": "23 in",
+      "imageIds": [
+        "img.1"
+      ]
+    },
+    {
+      "id": "ic.7",
+      "text": "10 in",
+      "imageIds": [
+        "img.1"
+      ]
+    },
+    {
+      "id": "ic.8",
+      "text": "19.5 in",
+      "imageIds": [
+        "img.1"
+      ]
+    },
+    {
+      "id": "ic.9",
+      "text": "26 in A",
+      "imageIds": [
+        "img.1"
+      ]
+    },
+    {
+      "id": "ic.10",
+      "text": "32.5 in B",
+      "imageIds": [
+        "img.1"
+      ]
+    },
+    {
+      "id": "ic.11",
+      "text": "Tolerance \u001040 mm",
+      "imageIds": [
+        "img.1"
+      ]
+    },
+    {
+      "id": "ic.12",
+      "text": "Gas lift & arm rest down",
+      "imageIds": [
+        "img.1"
+      ]
+    },
+    {
+      "id": "ic.13",
+      "text": "Gas lift up & arm rest up 26-32.5 A-B",
+      "imageIds": [
+        "img.1"
+      ]
+    },
+    {
+      "id": "ic.14",
+      "text": "Cervical",
+      "imageIds": [
+        "img.3"
+      ]
+    },
+    {
+      "id": "ic.15",
+      "text": "Thoracic",
+      "imageIds": [
+        "img.3"
+      ]
+    },
+    {
+      "id": "ic.16",
+      "text": "Lumbar",
+      "imageIds": [
+        "img.3"
+      ]
+    },
+    {
+      "id": "ic.17",
+      "text": "Sacrum",
+      "imageIds": [
+        "img.3"
+      ]
+    },
+    {
+      "id": "ic.18",
+      "text": "2-Way Adjustable Headrest",
+      "imageIds": [
+        "img.4"
+      ]
+    },
+    {
+      "id": "ic.19",
+      "text": "3D Armrest",
+      "imageIds": [
+        "img.4"
+      ]
+    },
+    {
+      "id": "ic.20",
+      "text": "Anti - Fall Singlelock Synchro Mechanism",
+      "imageIds": [
+        "img.4"
+      ]
+    },
+    {
+      "id": "ic.21",
+      "text": "1D Adjustable Lumbar Support",
+      "imageIds": [
+        "img.4"
+      ]
+    },
+    {
+      "id": "ic.22",
+      "text": "Class 4 gas lift",
+      "imageIds": [
+        "img.4"
+      ]
+    },
+    {
+      "id": "ic.23",
+      "text": "Heavy Duty Nylon Base",
+      "imageIds": [
+        "img.4"
+      ]
+    },
+    {
+      "id": "ic.24",
+      "text": "Antifall Synchro Tilt Mechanism",
+      "imageIds": [
+        "img.5"
+      ]
+    },
+    {
+      "id": "ic.25",
+      "text": "90\u0000 Concentrating",
+      "imageIds": [
+        "img.5"
+      ]
+    },
+    {
+      "id": "ic.26",
+      "text": "135\u0000 Relaxing",
+      "imageIds": [
+        "img.5"
+      ]
+    },
+    {
+      "id": "ic.27",
+      "text": "Tight or loose rocking tension",
+      "imageIds": [
+        "img.5"
+      ]
+    },
+    {
+      "id": "ic.28",
+      "text": "3D Adjustable Armrest For Perfect Support",
+      "imageIds": [
+        "img.6"
+      ]
+    },
+    {
+      "id": "ic.29",
+      "text": "Right & Left",
+      "imageIds": [
+        "img.6"
+      ]
+    },
+    {
+      "id": "ic.30",
+      "text": "Forward & Back",
+      "imageIds": [
+        "img.6"
+      ]
+    },
+    {
+      "id": "ic.31",
+      "text": "Up & Down",
+      "imageIds": [
+        "img.6"
+      ]
+    },
+    {
+      "id": "ic.32",
+      "text": "Heavy Duty Chrome Base",
+      "imageIds": [
+        "img.7"
+      ]
+    },
+    {
+      "id": "ic.33",
+      "text": "High-Tensile Air-Channel Mesh",
+      "imageIds": [
+        "img.7"
+      ]
+    },
+    {
+      "id": "ic.34",
+      "text": "360\u0000 Swivel",
+      "imageIds": [
+        "img.7"
+      ]
+    },
+    {
+      "id": "ic.35",
+      "text": "Spine Shaped Back",
+      "imageIds": [
+        "img.7"
+      ]
+    },
+    {
+      "id": "ic.36",
+      "text": "Height Adjustable",
+      "imageIds": [
+        "img.7"
+      ]
+    },
+    {
+      "id": "ic.37",
+      "text": "60mm Castors",
+      "imageIds": [
+        "img.7"
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "claimId": "ic.0",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "chair_size",
+      "flags": []
+    },
+    {
+      "claimId": "ic.1",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "chair_size",
+      "flags": []
+    },
+    {
+      "claimId": "ic.2",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "chair_size",
+      "flags": []
+    },
+    {
+      "claimId": "ic.3",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "chair_size",
+      "flags": []
+    },
+    {
+      "claimId": "ic.4",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "chair_size",
+      "flags": []
+    },
+    {
+      "claimId": "ic.5",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "chair_size",
+      "flags": []
+    },
+    {
+      "claimId": "ic.6",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "chair_size",
+      "flags": []
+    },
+    {
+      "claimId": "ic.7",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "chair_size",
+      "flags": []
+    },
+    {
+      "claimId": "ic.8",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "chair_size",
+      "flags": []
+    },
+    {
+      "claimId": "ic.9",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "chair_size",
+      "flags": []
+    },
+    {
+      "claimId": "ic.10",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "chair_size",
+      "flags": []
+    },
+    {
+      "claimId": "ic.11",
+      "coverage": "image_only",
+      "quotes": [],
+      "flags": []
+    },
+    {
+      "claimId": "ic.12",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "chair_size",
+      "flags": []
+    },
+    {
+      "claimId": "ic.13",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "chair_size",
+      "flags": []
+    },
+    {
+      "claimId": "ic.14",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "backrest_support",
+      "flags": []
+    },
+    {
+      "claimId": "ic.15",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "backrest_support",
+      "flags": []
+    },
+    {
+      "claimId": "ic.16",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "backrest_support",
+      "flags": []
+    },
+    {
+      "claimId": "ic.17",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "backrest_support",
+      "flags": []
+    },
+    {
+      "claimId": "ic.18",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "2D Customizable height and angle for personalized neck support."
+        }
+      ],
+      "intentId": "backrest_support",
+      "flags": []
+    },
+    {
+      "claimId": "ic.19",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.additional_features",
+          "text": "3D Armrest"
+        }
+      ],
+      "intentId": "adjustable_arms",
+      "flags": []
+    },
+    {
+      "claimId": "ic.20",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Single Lock recline"
+        }
+      ],
+      "intentId": "reclining_mechanism",
+      "flags": []
+    },
+    {
+      "claimId": "ic.21",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "Ergonomic backrest with adjustable lumber support"
+        }
+      ],
+      "intentId": "backrest_support",
+      "flags": []
+    },
+    {
+      "claimId": "ic.22",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "Class 4 gas lift"
+        }
+      ],
+      "intentId": "hydraulic_lift",
+      "flags": []
+    },
+    {
+      "claimId": "ic.23",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "strong nylon base"
+        }
+      ],
+      "intentId": "sturdiness",
+      "flags": []
+    },
+    {
+      "claimId": "ic.24",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Single Lock recline"
+        }
+      ],
+      "intentId": "reclining_mechanism",
+      "flags": []
+    },
+    {
+      "claimId": "ic.25",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "reclining_mechanism",
+      "flags": []
+    },
+    {
+      "claimId": "ic.26",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Single Lock recline upto 135"
+        }
+      ],
+      "intentId": "reclining_mechanism",
+      "flags": []
+    },
+    {
+      "claimId": "ic.27",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "reclining_mechanism",
+      "flags": []
+    },
+    {
+      "claimId": "ic.28",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Soft 3-direction adjustable armrests"
+        }
+      ],
+      "intentId": "adjustable_arms",
+      "flags": []
+    },
+    {
+      "claimId": "ic.29",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "adjustable_arms",
+      "flags": []
+    },
+    {
+      "claimId": "ic.30",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "adjustable_arms",
+      "flags": []
+    },
+    {
+      "claimId": "ic.31",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "adjustable_arms",
+      "flags": []
+    },
+    {
+      "claimId": "ic.32",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "sturdiness",
+      "flags": []
+    },
+    {
+      "claimId": "ic.33",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.fabric_type",
+          "text": "High Quality Imported Mesh"
+        }
+      ],
+      "intentId": "cushioning",
+      "flags": []
+    },
+    {
+      "claimId": "ic.34",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "swivel_smoothness",
+      "flags": []
+    },
+    {
+      "claimId": "ic.35",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "S Shaped curve supports spinal alignment"
+        }
+      ],
+      "intentId": "backrest_support",
+      "flags": []
+    },
+    {
+      "claimId": "ic.36",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "adjustable height"
+        }
+      ],
+      "intentId": "adjustable_height",
+      "flags": []
+    },
+    {
+      "claimId": "ic.37",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "60 MM Nylon casters"
+        }
+      ],
+      "intentId": "caster_mobility",
+      "flags": []
+    }
+  ],
+  "hiddenAnswers": [
+    {
+      "intentId": "adjustable_arms",
+      "textStatus": "partial",
+      "claims": [
+        {
+          "id": "ic.29",
+          "text": "Right & Left",
+          "imageIds": [
+            "img.6"
+          ]
+        },
+        {
+          "id": "ic.30",
+          "text": "Forward & Back",
+          "imageIds": [
+            "img.6"
+          ]
+        },
+        {
+          "id": "ic.31",
+          "text": "Up & Down",
+          "imageIds": [
+            "img.6"
+          ]
+        }
+      ]
+    },
+    {
+      "intentId": "swivel_smoothness",
+      "textStatus": "missing",
+      "claims": [
+        {
+          "id": "ic.34",
+          "text": "360\u0000 Swivel",
+          "imageIds": [
+            "img.7"
+          ]
+        }
+      ]
+    }
+  ],
+  "skippedImageIds": [],
+  "competitors": [
+    {
+      "asin": "B0CP22DQQS",
+      "brand": "Marsail",
+      "title": "Marsail Ergonomic Office Chair: Office Desk Chair with High Back Mesh and Adjustable Lumbar Support Rolling Work Swivel Task Chairs with Wheel 3D Armrests and Headrest",
+      "score": {
+        "score": 62,
+        "answered": 8,
+        "partial": 1,
+        "missing": 5,
+        "contradicted": 0,
+        "counted": 14,
+        "notApplicable": 0
+      },
+      "grades": [
+        {
+          "intentId": "easy_assembly",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "cushioning",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.4",
+              "text": "Adapting 3.14\" thick high-density foam to desk chair seat"
+            }
+          ],
+          "value": "3.14\" thick high-density foam",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "sturdiness",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.4",
+              "text": "high weight capacity 330 lbs for long-term durability"
+            }
+          ],
+          "value": "high weight capacity 330 lbs for long-term durability",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "chair_size",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.product_dimensions",
+              "text": "Product dimensions: 46.9\"D x 24.8\"W x 24.4\"H"
+            }
+          ],
+          "value": "46.9\"D x 24.8\"W x 24.4\"H",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "caster_mobility",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "backrest_support",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "Our computer chair lumbar support system adjusts 1.18\" forward & backward and 2.16\" up & down to precisely match your height and body shape"
+            }
+          ],
+          "value": "lumbar support system adjusts 1.18\" forward & backward and 2.16\" up & down",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "hydraulic_lift",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "adjustable_arms",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.5",
+              "text": "Move smoothly rounded PU-padded armrests forward or back and swivel them left or right"
+            }
+          ],
+          "value": "Move smoothly rounded PU-padded armrests forward or back and swivel them left or right",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "reclining_mechanism",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.1",
+              "text": "backrest with 90° to 120° recline"
+            }
+          ],
+          "value": "90° to 120° recline",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "material_cleaning",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.product_care_instructions",
+              "text": "Product care instructions: Dry Clean"
+            }
+          ],
+          "value": "Dry Clean",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "weight_capacity",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.maximum_weight_recommendation",
+              "text": "Maximum weight recommendation: 330 pounds"
+            }
+          ],
+          "value": "330 pounds",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "swivel_smoothness",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "warranty_and_condition",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "adjustable_height",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "attr.seat_height",
+              "text": "Seat height: 21.6 inches"
+            }
+          ],
+          "value": "21.6 inches",
+          "modelStatus": "partial",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "asin": "B0DPHLWNBG",
+      "brand": "ELABEST",
+      "title": "ELABEST X100 Ergonomic Mesh Office Chair with Footrest, Big and Tall Hone Desk Chair with 5D Flip-Up Arms, Adjustable 3D Lumbar Support,Gaming & Executive Computer Chairs",
+      "score": {
+        "score": 72,
+        "answered": 11,
+        "partial": 0,
+        "missing": 3,
+        "contradicted": 0,
+        "counted": 14,
+        "notApplicable": 0
+      },
+      "grades": [
+        {
+          "intentId": "easy_assembly",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.9",
+              "text": "Get it set up in around 15 minutes"
+            }
+          ],
+          "value": "Tool-free assembly within 15 minutes",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "cushioning",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "sturdiness",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.8",
+              "text": "Crafted with a BIFMA-certified structure that robustly holds up to 300 lbs"
+            }
+          ],
+          "value": "BIFMA-certified structure",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "chair_size",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.product_dimensions",
+              "text": "26\"D x 24\"W x 41\"H"
+            }
+          ],
+          "value": "26\"D x 24\"W x 41\"H",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "caster_mobility",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.8",
+              "text": "whisper-quiet rolling casters"
+            }
+          ],
+          "value": "whisper-quiet rolling casters",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "backrest_support",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.1",
+              "text": "dynamic 3D lumbar support"
+            }
+          ],
+          "value": "dynamic 3D lumbar support",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "hydraulic_lift",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "adjustable_arms",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.3",
+              "text": "it can be adjusted at Height/width/forward/backward/rotate/flip function"
+            }
+          ],
+          "value": "Height/width/forward/backward/rotate/flip function",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "reclining_mechanism",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.4",
+              "text": "3-stage reclining mechanism"
+            }
+          ],
+          "value": "3-stage reclining mechanism",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "material_cleaning",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.product_care_instructions",
+              "text": "Wipe Clean"
+            }
+          ],
+          "value": "Wipe Clean",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "weight_capacity",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.maximum_weight_recommendation",
+              "text": "300 pounds"
+            }
+          ],
+          "value": "300 pounds",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "swivel_smoothness",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "warranty_and_condition",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.9",
+              "text": "backed by our dedicated 5-year satisfaction care."
+            }
+          ],
+          "value": "5-year satisfaction care",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "adjustable_height",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.9",
+              "text": "adjust the seat height (18.3–23\")"
+            }
+          ],
+          "value": "18.3–23\"",
+          "modelStatus": "answered",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "asin": "B0FQDM23S4",
+      "brand": "BestOffice",
+      "title": "BestOffice Ergonomic Office Chair | Mid-Back Swivel Desk Chair | Dark Black",
+      "score": {
+        "score": 88,
+        "answered": 10,
+        "partial": 1,
+        "missing": 3,
+        "contradicted": 0,
+        "counted": 14,
+        "notApplicable": 0
+      },
+      "grades": [
+        {
+          "intentId": "easy_assembly",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.5",
+              "text": "Assemble your new office chair in just 10–15 minutes with minimal effort, no extra tools needed."
+            }
+          ],
+          "value": "10-15 minutes with minimal effort, no extra tools needed",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "cushioning",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "description.1",
+              "text": "The plush, high-density sponge seat cushion delivers flexible support for superior comfort."
+            }
+          ],
+          "value": "plush, high-density sponge seat cushion",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "sturdiness",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.4",
+              "text": "Built with durable components that meet strict BIFMA standards."
+            }
+          ],
+          "value": "Built with durable components that meet strict BIFMA standards",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "chair_size",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.product_dimensions",
+              "text": "Product dimensions: 18\"D x 18\"W x 38\"H"
+            }
+          ],
+          "value": "18\"D x 18\"W x 38\"H",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "caster_mobility",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "description.1",
+              "text": "Smooth-rolling wheels and a 360° swivel base offer effortless mobility across various floors."
+            }
+          ],
+          "value": "Smooth-rolling wheels",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "backrest_support",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "Curved mid-back design with lumbar support and ergonomic armrests reduces fatigue"
+            }
+          ],
+          "value": "Curved mid-back design with lumbar support",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "hydraulic_lift",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "adjustable_arms",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "bullet.3",
+              "text": "CUSTOMIZABLE HEIGHT & ARMRESTS"
+            }
+          ],
+          "value": "CUSTOMIZABLE HEIGHT & ARMRESTS",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "reclining_mechanism",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "description.1",
+              "text": "Customizable seat height (17.1\"–20.3\") and a tilt tension knob let you adjust your seating angle for relaxation or focus."
+            }
+          ],
+          "value": "tilt tension knob let you adjust your seating angle",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "material_cleaning",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "weight_capacity",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.4",
+              "text": "supports up to 250 lbs"
+            }
+          ],
+          "value": "250 pounds",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "swivel_smoothness",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "description.1",
+              "text": "and a 360° swivel base offer effortless mobility across various floors."
+            }
+          ],
+          "value": "360° swivel base",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "warranty_and_condition",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "adjustable_height",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.3",
+              "text": "adjustable seat height (17.1\"–20.3\")"
+            }
+          ],
+          "value": "17.1\"–20.3\"",
+          "modelStatus": "answered",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "asin": "B0GT4J72LW",
+      "brand": "GTPLAYER",
+      "title": "GTPLAYER PU Leather Office Chair, Home Desk Chairs with Memory Foam, Black",
+      "score": {
+        "score": 92,
+        "answered": 10,
+        "partial": 3,
+        "missing": 1,
+        "contradicted": 0,
+        "counted": 14,
+        "notApplicable": 0
+      },
+      "grades": [
+        {
+          "intentId": "easy_assembly",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.5",
+              "text": "allowing for a hassle-free assembly in 30-45 minutes"
+            }
+          ],
+          "value": "hassle-free assembly in 30-45 minutes",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "cushioning",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.3",
+              "text": "The memory foam cushion, high-strength elastic webbing ensures a non-sinking seat cushion"
+            }
+          ],
+          "value": "memory foam cushion, non-sinking seat cushion",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "sturdiness",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.3",
+              "text": "Engineered for superior stability, this heavy-duty office chair supports up to 300 lbs. It features a reinforced metal base, BIFMA-certified casters, and an SGS-certified Class 3 gas lift."
+            }
+          ],
+          "value": "reinforced metal base, BIFMA-certified casters, and SGS-certified Class 3 gas lift",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "chair_size",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.product_dimensions",
+              "text": "Product dimensions: 19\"D x 24.4\"W x 41.1\"H"
+            }
+          ],
+          "value": "19\"D x 24.4\"W x 41.1\"H",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "caster_mobility",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "bullet.3",
+              "text": "BIFMA-certified casters"
+            }
+          ],
+          "value": "BIFMA-certified casters",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "backrest_support",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.1",
+              "text": "Featuring built-in lumbar support and a winged mid-back design, this ergonomic home office chair follows your spine’s natural curve."
+            }
+          ],
+          "value": "built-in lumbar support and a winged mid-back design",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "hydraulic_lift",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "bullet.3",
+              "text": "SGS-certified Class 3 gas lift"
+            }
+          ],
+          "value": "SGS-certified Class 3 gas lift",
+          "modelStatus": "partial",
+          "flags": []
+        },
+        {
+          "intentId": "adjustable_arms",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.2",
+              "text": "The padded 90°flip-up armrests provide flexible arm support when you need it and fold away easily when you don't."
+            }
+          ],
+          "value": "90°flip-up armrests",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "reclining_mechanism",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.5",
+              "text": "relaxing tilt-and-lock mechanism"
+            },
+            {
+              "fieldId": "aplus.3",
+              "text": "90°-110° Rocking for Relaxing"
+            }
+          ],
+          "value": "90°-110° Rocking",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "material_cleaning",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "attr.product_care_instructions",
+              "text": "Wipe Clean"
+            }
+          ],
+          "value": "Wipe Clean",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "weight_capacity",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.3",
+              "text": "supports up to 300 lbs"
+            }
+          ],
+          "value": "300 lbs",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "swivel_smoothness",
+          "status": "answered",
+          "quotes": [
+            {
+              "fieldId": "bullet.5",
+              "text": "360-degree swivel"
+            }
+          ],
+          "value": "360-degree swivel",
+          "modelStatus": "answered",
+          "flags": []
+        },
+        {
+          "intentId": "warranty_and_condition",
+          "status": "missing",
+          "quotes": [],
+          "modelStatus": "missing",
+          "flags": []
+        },
+        {
+          "intentId": "adjustable_height",
+          "status": "partial",
+          "quotes": [
+            {
+              "fieldId": "bullet.5",
+              "text": "height adjustment"
+            }
+          ],
+          "value": "height adjustment",
+          "modelStatus": "partial",
+          "flags": []
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "intentId": "easy_assembly",
+      "status": "missing",
+      "frequency": 105,
+      "competitorShare": 0.75,
+      "competitorsAnswering": [
+        {
+          "asin": "B0DPHLWNBG",
+          "brand": "ELABEST",
+          "quote": {
+            "fieldId": "bullet.9",
+            "text": "Get it set up in around 15 minutes"
+          }
+        },
+        {
+          "asin": "B0FQDM23S4",
+          "brand": "BestOffice",
+          "quote": {
+            "fieldId": "bullet.5",
+            "text": "Assemble your new office chair in just 10–15 minutes with minimal effort, no extra tools needed."
+          }
+        },
+        {
+          "asin": "B0GT4J72LW",
+          "brand": "GTPLAYER",
+          "quote": {
+            "fieldId": "bullet.5",
+            "text": "allowing for a hassle-free assembly in 30-45 minutes"
+          }
+        }
+      ],
+      "hiddenClaims": [],
+      "priority": 91.9
+    },
+    {
+      "intentId": "adjustable_arms",
+      "status": "partial",
+      "frequency": 26,
+      "competitorShare": 0.875,
+      "competitorsAnswering": [
+        {
+          "asin": "B0CP22DQQS",
+          "brand": "Marsail",
+          "quote": {
+            "fieldId": "bullet.5",
+            "text": "Move smoothly rounded PU-padded armrests forward or back and swivel them left or right"
+          }
+        },
+        {
+          "asin": "B0DPHLWNBG",
+          "brand": "ELABEST",
+          "quote": {
+            "fieldId": "bullet.3",
+            "text": "it can be adjusted at Height/width/forward/backward/rotate/flip function"
+          }
+        },
+        {
+          "asin": "B0FQDM23S4",
+          "brand": "BestOffice",
+          "quote": {
+            "fieldId": "bullet.3",
+            "text": "CUSTOMIZABLE HEIGHT & ARMRESTS"
+          }
+        },
+        {
+          "asin": "B0GT4J72LW",
+          "brand": "GTPLAYER",
+          "quote": {
+            "fieldId": "bullet.2",
+            "text": "The padded 90°flip-up armrests provide flexible arm support when you need it and fold away easily when you don't."
+          }
+        }
+      ],
+      "hiddenClaims": [
+        {
+          "id": "ic.29",
+          "text": "Right & Left",
+          "imageIds": [
+            "img.6"
+          ]
+        },
+        {
+          "id": "ic.30",
+          "text": "Forward & Back",
+          "imageIds": [
+            "img.6"
+          ]
+        },
+        {
+          "id": "ic.31",
+          "text": "Up & Down",
+          "imageIds": [
+            "img.6"
+          ]
+        }
+      ],
+      "priority": 12.2
+    },
+    {
+      "intentId": "swivel_smoothness",
+      "status": "missing",
+      "frequency": 7,
+      "competitorShare": 0.5,
+      "competitorsAnswering": [
+        {
+          "asin": "B0FQDM23S4",
+          "brand": "BestOffice",
+          "quote": {
+            "fieldId": "description.1",
+            "text": "and a 360° swivel base offer effortless mobility across various floors."
+          }
+        },
+        {
+          "asin": "B0GT4J72LW",
+          "brand": "GTPLAYER",
+          "quote": {
+            "fieldId": "bullet.5",
+            "text": "360-degree swivel"
+          }
+        }
+      ],
+      "hiddenClaims": [
+        {
+          "id": "ic.34",
+          "text": "360\u0000 Swivel",
+          "imageIds": [
+            "img.7"
+          ]
+        }
+      ],
+      "priority": 5.3
+    },
+    {
+      "intentId": "adjustable_height",
+      "status": "partial",
+      "frequency": 3,
+      "competitorShare": 0.75,
+      "competitorsAnswering": [
+        {
+          "asin": "B0CP22DQQS",
+          "brand": "Marsail",
+          "quote": {
+            "fieldId": "attr.seat_height",
+            "text": "Seat height: 21.6 inches"
+          }
+        },
+        {
+          "asin": "B0DPHLWNBG",
+          "brand": "ELABEST",
+          "quote": {
+            "fieldId": "bullet.9",
+            "text": "adjust the seat height (18.3–23\")"
+          }
+        },
+        {
+          "asin": "B0FQDM23S4",
+          "brand": "BestOffice",
+          "quote": {
+            "fieldId": "bullet.3",
+            "text": "adjustable seat height (17.1\"–20.3\")"
+          }
+        },
+        {
+          "asin": "B0GT4J72LW",
+          "brand": "GTPLAYER",
+          "quote": {
+            "fieldId": "bullet.5",
+            "text": "height adjustment"
+          }
+        }
+      ],
+      "hiddenClaims": [],
+      "priority": 1.3
+    }
+  ],
+  "briefs": [
+    {
+      "intentId": "easy_assembly",
+      "question": "How easy is it to assemble the chair?",
+      "priority": 91.9,
+      "action": "request_fact",
+      "target": "new_bullet",
+      "needsFromBrand": "Provide instructions or details on how easy it is to assemble the chair.",
+      "sources": [],
+      "flags": []
+    },
+    {
+      "intentId": "adjustable_arms",
+      "question": "Can the armrests be adjusted for height or position?",
+      "priority": 12.2,
+      "action": "move_from_image",
+      "target": "bullet.4",
+      "draft": "Forward & Back",
+      "sources": [
+        {
+          "kind": "image",
+          "id": "ic.29",
+          "text": "Right & Left"
+        },
+        {
+          "kind": "image",
+          "id": "ic.30",
+          "text": "Forward & Back"
+        },
+        {
+          "kind": "image",
+          "id": "ic.31",
+          "text": "Up & Down"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "intentId": "swivel_smoothness",
+      "question": "Does the chair swivel smoothly without squeaking?",
+      "priority": 5.3,
+      "action": "move_from_image",
+      "target": "new_bullet",
+      "draft": "360\u0000 Swivel",
+      "sources": [
+        {
+          "kind": "image",
+          "id": "ic.34",
+          "text": "360\u0000 Swivel"
+        }
+      ],
+      "flags": [
+        "source_not_found"
+      ]
+    },
+    {
+      "intentId": "adjustable_height",
+      "question": "What is the seat height adjustment range?",
+      "priority": 1.3,
+      "action": "request_fact",
+      "target": "new_bullet",
+      "needsFromBrand": "Provide the exact minimum and maximum seat height adjustment range.",
+      "sources": [],
+      "flags": []
+    }
+  ],
+  "usage": {
+    "requests": 7,
+    "cachedRequests": 7,
+    "inputTokens": 15992,
+    "outputTokens": 8102
+  },
+  "notes": [
+    "The \"Home Office Desk Chairs\" questions haven't been reviewed by a person yet.",
+    "This product has no review summary on Amazon yet, so promise vs proof wasn't checked."
+  ]
+}

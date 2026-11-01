@@ -1,4 +1,4 @@
-import { Asin, PublicAuditBody, PublicEmailBody } from "@aloud/contracts";
+import { PublicAuditBody, PublicEmailBody } from "@aloud/contracts";
 import type { PublicAuditResult } from "@aloud/contracts";
 import { ArrowLeftIcon, CheckIcon, CircleDashedIcon, Clock3Icon, ImageIcon, LoaderCircleIcon, MailIcon, TriangleAlertIcon, XIcon } from "lucide-react";
 import { useId, useState, type FormEvent } from "react";
@@ -6,6 +6,7 @@ import { usePastCap } from "@/api/use-past-cap";
 import { BAND, scoreBand } from "@/lib/report";
 import { useCountUp } from "@/lib/use-count-up";
 import { useAddPublicEmail, useCreatePublicAudit, usePublicAudit } from "./hooks";
+import { asinFromInput, asinInputError } from "@/lib/asin";
 import { cn } from "@/lib/utils";
 
 const label = "font-sd-mono text-[11px] tracking-[0.07em] text-[#5f5862]";
@@ -32,10 +33,11 @@ export function WidgetPage() {
 
   function submit(e: FormEvent) {
     e.preventDefault();
-    const a = asin.trim().toUpperCase();
-    if (!Asin.safeParse(a).success) return setError("Enter a 10-character ASIN starting with B0.");
+    // A pasted product link works as well as the ASIN itself.
+    const a = asinFromInput(asin);
+    if (!a) return setError(asinInputError(asin));
     const body = { asin: a };
-    if (!PublicAuditBody.safeParse(body).success) return setError("Enter a 10-character ASIN starting with B0.");
+    if (!PublicAuditBody.safeParse(body).success) return setError(asinInputError(""));
     setError(null);
     create.mutate(body, {
       onSuccess: (r) => {
@@ -88,19 +90,19 @@ export function WidgetPage() {
         <section aria-label="Check a listing" className="rounded-[1.25rem] bg-white p-6 shadow-[0_1px_0_#ececec,0_16px_40px_-16px_rgba(35,31,35,0.22)] sm:p-8">
           <form onSubmit={submit} noValidate className="grid gap-3">
             <label htmlFor={ids.asin} className={label}>
-              ASIN
+              Your Amazon product link or ASIN
             </label>
             <div className="grid gap-2.5 sm:grid-cols-[minmax(0,1fr)_auto]">
               <input
                 id={ids.asin}
                 value={asin}
                 onChange={(e) => setAsin(e.target.value)}
-                placeholder="B0C9W8DD9S"
+                placeholder="https://www.amazon.com/dp/B0C9W8DD9S"
                 autoComplete="off"
                 spellCheck={false}
                 aria-invalid={!!error}
                 aria-describedby={error ? ids.err : undefined}
-                className={cn(field, "font-sd-mono uppercase placeholder:normal-case")}
+                className={cn(field, "font-sd-mono")}
               />
               <button type="submit" className={cta} disabled={busy}>
                 {busy && <LoaderCircleIcon className="size-4 animate-spin" aria-hidden="true" />}
@@ -112,7 +114,7 @@ export function WidgetPage() {
                 {error}
               </p>
             ) : (
-              <p className="text-[13px] text-[#5f5862]">Find it in your product's Amazon URL, after /dp/.</p>
+              <p className="text-[13px] text-[#5f5862]">Copy it from your browser's address bar on the product page.</p>
             )}
           </form>
 

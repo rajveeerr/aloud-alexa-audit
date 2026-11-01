@@ -19,6 +19,7 @@ const FIXTURES = [
   { asin: "B097CF46RC", source: "serpapi" },
   { asin: "B0BGPYR8Q3", source: "serpapi" },
   { asin: "B0BSMKF5BQ", source: "serpapi" },
+  { asin: "B0H4HFHXSN", source: "serpapi" },
   { asin: "B097CF46RC", source: "dataset" },
   { asin: "B09VD1Z3TK", source: "dataset" },
   { asin: "B08PD98HYG", source: "dataset" },

@@ -1,5 +1,5 @@
 import { expect, test, type Page } from "@playwright/test";
-import { BLOG_URL, noHorizontalScroll, QUOTE, shooter, watchConsole } from "./helpers";
+import { BLOG_URL, noHorizontalScroll, openDatasetAudit, QUOTE, shooter, watchConsole } from "./helpers";
 
 /** Mock-mode screenshots stay out of git; the committed ones in e2e/screenshots come from the real stack. */
 const shots = shooter("test-results/mock-screenshots");
@@ -36,6 +36,14 @@ test("an invalid ASIN is caught before anything is sent", async ({ page }) => {
   await page.getByRole("button", { name: "Run audit" }).click();
   await expect(page.getByLabel("Amazon ASIN")).toHaveAttribute("aria-invalid", "true");
   await expect(page).toHaveURL("/");
+});
+
+test("a pasted Amazon link is read as its ASIN", async ({ page }) => {
+  await page.goto("/");
+  await page.getByLabel("Amazon ASIN").fill("https://www.amazon.com/Ddaowanx-Retractable/dp/B0C9W8DD9S/ref=sr_1_3?keywords=gel+pens");
+  await expect(page.getByText("Saved product: the audit is ready in seconds.")).toBeVisible();
+  await page.getByRole("button", { name: "Run audit" }).click();
+  await expect(page.getByTestId("score")).toHaveText("52", { timeout: 10_000 });
 });
 
 test("the form says what a run will do before it starts", async ({ page }) => {
@@ -89,11 +97,7 @@ test("the hero audit runs, then shows score, hidden answers and the fix list", a
 });
 
 test("an estimated category is labelled as estimated", async ({ page }) => {
-  await page.goto("/");
-  // CamelBak isn't one of the featured chips, so type its ASIN like a user would.
-  await page.getByRole("radio", { name: "Saved (2023 dataset)" }).click();
-  await page.getByLabel("Amazon ASIN").fill("B00P6N6LC2");
-  await page.getByRole("button", { name: "Run audit" }).click();
+  await openDatasetAudit(page, "B00P6N6LC2");
   await expect(page.getByTestId("score")).toHaveText("60", { timeout: 10_000 });
   await expect(page.getByText("Estimated questions", { exact: true })).toBeVisible();
   await expect(page.getByText("(estimated)").first()).toBeVisible();
@@ -101,9 +105,7 @@ test("an estimated category is labelled as estimated", async ({ page }) => {
 });
 
 test("the Pentel dataset audit checks the listing's claims against reviews", async ({ page }) => {
-  await page.goto("/");
-  await page.getByRole("radio", { name: "Saved (2023 dataset)" }).click();
-  await page.getByRole("button", { name: /Pentel.*Gel Ink/ }).click();
+  await openDatasetAudit(page, "B097CF46RC");
   await expect(page.getByTestId("score")).toHaveText("61", { timeout: 10_000 });
   const leaking = page.locator('[data-testid="proof-claim"][data-intent="leaking"]');
   await expect(leaking).toHaveAttribute("data-verdict", "contested");

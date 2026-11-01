@@ -3,7 +3,7 @@
  * from fixtures/llm. See playwright.real.config.ts. Screenshots here are the committed ones.
  */
 import { expect, test, type Page } from "@playwright/test";
-import { BLOG_URL, noHorizontalScroll, QUOTE, shooter, watchConsole } from "./helpers";
+import { BLOG_URL, noHorizontalScroll, openDatasetAudit, QUOTE, shooter, watchConsole } from "./helpers";
 
 // The committed screenshots (used in the README) only change when asked: UPDATE_SCREENSHOTS=1.
 const shots = shooter(process.env.UPDATE_SCREENSHOTS ? "e2e/screenshots" : "test-results/real-screenshots");
@@ -17,9 +17,8 @@ test.afterEach(() => {
   expect(errors).toEqual([]);
 });
 
-async function pick(page: Page, source: "Live page" | "Saved (2023 dataset)", chip: RegExp) {
+async function pick(page: Page, chip: RegExp) {
   await page.goto("/");
-  await page.getByRole("radio", { name: source }).click();
   await page.getByRole("button", { name: chip }).click();
   await expect(page).toHaveURL(UUID);
 }
@@ -68,15 +67,15 @@ test("a failed poll doesn't stop the audit page: it retries and reaches the repo
     }
     return route.continue();
   });
-  await pick(page, "Saved (2023 dataset)", /U Brands/);
-  await expect(page.getByTestId("score")).toHaveText("84");
+  await pick(page, /Ddaowanx/);
+  await expect(page.getByTestId("score")).toHaveText("52");
   expect(failed).toBe(2);
   // The browser logs each 503 it was sent on purpose; anything else still fails the test.
   errors = errors.filter((e) => !e.includes("503"));
 });
 
 test("the Pentel dataset audit shows promise vs proof, with the leak claim contested", async ({ page }) => {
-  await pick(page, "Saved (2023 dataset)", /Pentel.*Gel Ink/);
+  await openDatasetAudit(page, "B097CF46RC");
   await expect(page.getByTestId("score")).toHaveText("61");
   const leaking = page.locator('[data-testid="proof-claim"][data-intent="leaking"]');
   await expect(leaking).toHaveAttribute("data-verdict", "contested");
@@ -88,11 +87,7 @@ test("the Pentel dataset audit shows promise vs proof, with the leak claim conte
 });
 
 test("an estimated category is labelled as estimated", async ({ page }) => {
-  // CamelBak isn't one of the featured chips, so type its ASIN like a user would.
-  await page.goto("/");
-  await page.getByRole("radio", { name: "Saved (2023 dataset)" }).click();
-  await page.getByLabel("Amazon ASIN").fill("B00P6N6LC2");
-  await page.getByRole("button", { name: "Run audit" }).click();
+  await openDatasetAudit(page, "B00P6N6LC2");
   await expect(page).toHaveURL(UUID);
   await expect(page.getByTestId("score")).toHaveText("60");
   await expect(page.getByText("Estimated questions", { exact: true })).toBeVisible();
@@ -169,7 +164,7 @@ test.describe("mobile, 375px", () => {
   test.use({ viewport: { width: 375, height: 812 }, isMobile: true, hasTouch: true });
 
   test("report and widget fit the screen", async ({ page }) => {
-    await pick(page, "Live page", /Ddaowanx/);
+    await pick(page, /Ddaowanx/);
     await expect(page.getByTestId("score")).toHaveText("52");
     await noHorizontalScroll(page);
     await shots.full(page, "14-mobile-report");

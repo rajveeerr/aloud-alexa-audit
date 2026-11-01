@@ -6,41 +6,30 @@ import { useCreateAudit, useListings } from "@/api/hooks";
 import { USE_MOCKS, type CreateAuditInput, type SavedSource } from "@/api";
 import { Button } from "@/components/ui/button";
 import { Input, Label, Textarea } from "@/components/ui/input";
-import { Segmented } from "@/components/ui/segmented";
+import { asinFromInput, asinInputError } from "@/lib/asin";
 import { cn } from "@/lib/utils";
-
-const SOURCES: { value: SavedSource; label: string }[] = [
-  { value: "serpapi", label: "Live page" },
-  { value: "dataset", label: "Saved (2023 dataset)" },
-];
 
 /** Placeholder ASIN for a pasted listing that has none; it passes the contract's ASIN check. */
 const PASTE_ASIN = "B0PASTE001";
-
-function asinError(value: string): string | null {
-  const r = Asin.safeParse(value);
-  return r.success ? null : (r.error.issues[0]?.message ?? "Not a valid ASIN");
-}
 
 export function AuditForm() {
   const navigate = useNavigate();
   const create = useCreateAudit();
   const [asin, setAsin] = useState("");
-  const [source, setSource] = useState<SavedSource>("serpapi");
   const [touched, setTouched] = useState(false);
   const [pasteOpen, setPasteOpen] = useState(false);
   const ids = { asin: useId(), asinHelp: useId(), mode: useId(), paste: useId() };
-  const listings = useListings(source);
-  const serpapiListings = useListings("serpapi");
-  const datasetListings = useListings("dataset");
+  const listings = useListings("serpapi");
 
-  const normalized = asin.trim().toUpperCase();
-  const error = touched ? asinError(normalized) : null;
-  const valid = !asinError(normalized);
-  // Saved products audit instantly; anything else on the live source is fetched from Amazon.
+  // A pasted product link works as well as the ASIN itself.
+  const parsed = asinFromInput(asin);
+  const normalized = parsed ?? asin.trim().toUpperCase();
+  const error = touched ? asinInputError(asin) : null;
+  const valid = parsed !== null;
+  // Saved products audit instantly; anything else is fetched from Amazon.
   const saved = listings.data?.some((l) => l.asin === normalized) ?? false;
   const known = listings.data !== undefined;
-  const live = source === "serpapi" && valid && known && !saved;
+  const live = valid && known && !saved;
 
   function start(body: CreateAuditInput) {
     create.mutate(body, { onSuccess: (job) => navigate(`/audits/${job.id}`, { state: { live: body.live === true } }) });
@@ -49,30 +38,26 @@ export function AuditForm() {
   function onSubmit(e: FormEvent) {
     e.preventDefault();
     setTouched(true);
-    if (asinError(normalized)) return;
-    start({ asin: normalized, source, ...(live && { live: true }) });
+    if (!valid) return;
+    start({ asin: normalized, source: "serpapi", ...(live && { live: true }) });
   }
 
   return (
     <div className="rounded-2xl border bg-card p-5 shadow-card sm:p-6">
       <form onSubmit={onSubmit} noValidate aria-label="Audit an ASIN">
-        <div className="flex flex-wrap items-center justify-between gap-3">
-          <Label htmlFor={ids.asin}>Amazon ASIN</Label>
-          <Segmented label="Listing source" value={source} onChange={setSource} options={SOURCES} />
-        </div>
+        <Label htmlFor={ids.asin}>Amazon ASIN or product link</Label>
         <div className="mt-3 flex flex-col gap-2 sm:flex-row">
           <Input
             id={ids.asin}
             value={asin}
             onChange={(e) => setAsin(e.target.value)}
             onBlur={() => asin && setTouched(true)}
-            placeholder="e.g. B0C9W8DD9S"
+            placeholder="B0C9W8DD9S or https://www.amazon.com/dp/…"
             autoComplete="off"
             spellCheck={false}
-            maxLength={14}
             aria-invalid={!!error}
             aria-describedby={`${ids.asinHelp} ${ids.mode}`}
-            className="h-11 font-mono text-base uppercase placeholder:normal-case sm:flex-1"
+            className="h-11 font-mono text-base sm:flex-1"
           />
           <Button type="submit" size="lg" disabled={create.isPending} className="sm:w-36">
             {create.isPending ? <LoaderCircleIcon className="animate-spin" aria-hidden="true" /> : null}
@@ -80,12 +65,12 @@ export function AuditForm() {
           </Button>
         </div>
         <p id={ids.asinHelp} className={cn("mt-2 text-[13px]", error ? "text-destructive" : "text-muted-foreground")} aria-live="polite">
-          {error ?? "10 characters, starting with B0. Find it in the listing URL after /dp/."}
+          {error ?? (valid && asin.trim().toUpperCase() !== normalized ? `ASIN ${normalized}` : "Paste the product page link, or the ASIN from it.")}
         </p>
-        <ModeNote id={ids.mode} source={source} valid={valid} known={known} saved={saved} />
+        <ModeNote id={ids.mode} valid={valid} known={known} saved={saved} />
       </form>
 
-      <DemoChips lists={[serpapiListings, datasetListings]} onPick={(a, s) => start({ asin: a, source: s })} disabled={create.isPending} />
+      <DemoChips lists={[listings]} onPick={(a, s) => start({ asin: a, source: s })} disabled={create.isPending} />
 
       {create.error && (
         <p role="alert" className="mt-4 rounded-md bg-missing-bg px-3 py-2 text-sm text-missing">
@@ -111,16 +96,13 @@ export function AuditForm() {
 }
 
 /** What happens when the button is pressed, said before it's pressed. */
-function ModeNote({ id, source, valid, known, saved }: { id: string; source: SavedSource; valid: boolean; known: boolean; saved: boolean }) {
+function ModeNote({ id, valid, known, saved }: { id: string; valid: boolean; known: boolean; saved: boolean }) {
   let icon = null;
   let text: string | null = null;
   if (valid && known) {
     if (saved) {
       icon = <ZapIcon className="size-3.5 text-answered" aria-hidden="true" />;
       text = "Saved product: the audit is ready in seconds.";
-    } else if (source === "dataset") {
-      icon = <InfoIcon className="size-3.5" aria-hidden="true" />;
-      text = "This ASIN isn't in the 2023 dataset. Switch to Live page to fetch it from Amazon.";
     } else if (USE_MOCKS) {
       icon = <InfoIcon className="size-3.5" aria-hidden="true" />;
       text = "New product: demo mode only has the saved products below. Start the API to fetch new ones from Amazon.";
@@ -139,12 +121,11 @@ function ModeNote({ id, source, valid, known, saved }: { id: string; source: Sav
 
 type Chip = { asin: string; source: SavedSource; label?: string; note?: string };
 
-/** Our best saved audits: the hero, a strong listing, and two with reviews (promise vs proof). */
+/** Our best saved audits: the hero gel pen, a strong listing, and an office chair. */
 const OURS: Chip[] = [
   { asin: "B0C9W8DD9S", source: "serpapi" },
   { asin: "B001GAOTSW", source: "serpapi" },
-  { asin: "B097CF46RC", source: "dataset", note: "with reviews" },
-  { asin: "B09VD1Z3TK", source: "dataset", note: "with reviews" },
+  { asin: "B0H4HFHXSN", source: "serpapi" },
 ];
 /** Listings from brands SalesDuo features in its public case studies, audited live from Amazon. */
 const CASE_STUDIES: Chip[] = [

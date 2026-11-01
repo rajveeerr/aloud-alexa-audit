@@ -47,3 +47,13 @@ export async function noHorizontalScroll(page: Page) {
   const width = await page.evaluate(() => document.documentElement.scrollWidth);
   expect(width).toBeLessThanOrEqual(page.viewportSize()!.width);
 }
+
+/** The 2023 dataset is only offered on the Bulk page now, so a dataset audit is opened from there. */
+export async function openDatasetAudit(page: Page, asin: string) {
+  await page.goto("/bulk");
+  await page.getByLabel("Name").fill(`Dataset ${asin}`);
+  await page.getByLabel("ASINs").fill(asin);
+  await page.getByRole("radio", { name: "Saved (2023 dataset)" }).click();
+  await page.getByRole("button", { name: "Start 1 audits" }).click();
+  await page.getByRole("link", { name: new RegExp(`Open ${asin}`) }).click({ timeout: 60_000 });
+}
