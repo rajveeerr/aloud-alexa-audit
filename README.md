@@ -83,9 +83,16 @@ a code check before the user sees it.
   for word, a faithfulness check can only remove claims, and a contradiction is never guessed:
   the brand is asked which value is right. A made-up spec in a listing is worse than a gap,
   because Alexa would repeat it.
-- **Any category.** A listing picks its question set from its category path. New categories are
-  mined from reviews (`bun apps/cli/src/mine.ts`); with no reviews, questions are estimated and
-  the report says so. Question sets are JSON files, so a new category needs no code change.
+- **Any category.** A listing picks its question set from its category path. When a live audit
+  meets a category with no set, it mines one on the spot: about 200 Walmart reviews of that
+  product type (through SerpApi, about 11 searches, once per category), through the same
+  extract, group and count steps as the curated sets. Amazon's own review pages need a login and
+  scraping them breaks its terms, while a question set describes a product type, so another
+  store's reviews of the same kind of product are what's needed. If there aren't enough reviews,
+  it builds the questions from Amazon's "Customers say" topics for the listing and its
+  competitors, weighted by review mentions; only when those are missing too are questions
+  estimated, and the report says which it was. Sets built in production are kept in the
+  database, so a category is mined once.
 
 All the diagrams are in [diagrams/](diagrams/) (Excalidraw files plus SVG).
 
@@ -199,7 +206,10 @@ diagrams/          architecture diagrams
   Only public listing and review text is sent.
 - It measures what a listing says, not what Alexa recommends. Whether Alexa reads text inside
   images is disputed. The score counts readable text only, and image claims feed the fix list.
-- Mined question sets marked `reviewed: false` haven't been checked by a person yet.
+- Mined question sets marked `reviewed: false` haven't been checked by a person yet. Sets mined
+  live from Walmart reviews are only as good as that sample (150 to 200 reviews of 5 products).
+- The public widget never mines (it would let anyone spend the monthly search quota), so a new
+  category checked there gets review topics or estimated questions until an app audit mines it.
 
 ## What I'd do next
 
@@ -210,8 +220,9 @@ diagrams/          architecture diagrams
   About 50 current listings checked against today's Best Sellers Rank would be a better test.
 - **Reviews for live listings.** Live SerpApi listings come without review text, so promise vs
   proof only runs on the 2023 dataset listings.
-- **More categories.** There are four question sets. Water bottles are estimated because no
-  reviews were mined for them.
+- **Review the live-mined sets.** Categories mined live (cleaning cloths, trash bags so far) are
+  marked unreviewed. A quick pass over their questions and kinds would make them as solid as the
+  gel-pen set.
 - **The reverse direction of promise vs proof**: strengths buyers praise that the listing never
   claims. It needs a pass over all reviews per product instead of one per claim, so it costs
   more calls than the rest of the check.
