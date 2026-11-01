@@ -11,12 +11,14 @@ import {
   MIN_EVIDENCE,
   sampleForClaim,
   summarize,
+  proofFromTopics,
   verifyLabels,
   wilson,
   type ListingClaim,
   type ProofLabel,
 } from "./proof";
 import type { ClaimMatch, Grade, ImageClaim, Intent } from "./types";
+import type { ReviewInsight } from "./types";
 
 const review = (text: string, helpfulVotes = 0): ReviewText => ({ asin: "B0TEST0001", title: "", text, helpfulVotes });
 const intents: Intent[] = [
@@ -282,5 +284,55 @@ describe("checkProof (fake model)", () => {
     expect(prompt).toContain('THE LISTING SAYS: "no smears, no smudges"');
     expect(prompt).toContain('never smudges "really" pen');
     expect(prompt).not.toContain("<br");
+  });
+});
+
+describe("proofFromTopics (live listings)", () => {
+  const topics: ReviewInsight[] = [
+    { topic: "Durability", mentions: 500, positive: 300, negative: 200, sentiment: "mixed", summary: "Some say they tear.", snippets: ["tore on day one"] },
+    { topic: "Scent", mentions: 900, positive: 880, negative: 20, sentiment: "positive", summary: "Smells fresh.", snippets: ["smells great"] },
+    { topic: "Fit", mentions: 12, positive: 10, negative: 2, sentiment: "positive", summary: "Fits cans.", snippets: [] },
+  ];
+  const claim = (intentId: string, text: string): ListingClaim => ({ intentId, sources: [{ kind: "field", id: "bullet.1", text }] });
+  const claims = [claim("durability", "STRONG AND DURABLE"), claim("scent", "smells fresh"), claim("fit", "fits most cans"), claim("eco", "eco-friendly")];
+  const answering = (data: unknown): JsonModel => ({
+    async generateJson<T>() {
+      return { data: data as T, model: "fake", usage: { inputTokens: 1, outputTokens: 1 }, latencyMs: 1, cached: false };
+    },
+  });
+
+  test("counts come from Amazon's mentions; same verdict rules as the review-text check", async () => {
+    const run = await proofFromTopics(
+      claims,
+      [],
+      topics,
+      answering([
+        { claim: 0, topic: 0 },
+        { claim: 0, topic: 1 },
+        { claim: 1, topic: 1 },
+        { claim: 2, topic: 2 },
+        { claim: 3, topic: -1 },
+        { claim: 9, topic: 0 },
+      ]),
+      "fake",
+    );
+    expect(run.source).toBe("amazon-topics");
+    const by = Object.fromEntries(run.claims.map((c) => [c.intentId, c]));
+    // 200 of 500 negative: the interval's low end is far above 5%.
+    expect(by.durability).toMatchObject({ verdict: "contested", counts: { supports: 300, contradicts: 200 }, keywords: ["Durability"] });
+    expect(by.durability!.examples.mixed).toEqual(["tore on day one"]);
+    // 20 of 900: under 5% even at the high end of the interval's low side.
+    expect(by.scent).toMatchObject({ verdict: "backed" });
+    expect(by.scent!.examples.supports).toEqual(["smells great"]);
+    // 12 mentions is under MIN_EVIDENCE.
+    expect(by.fit).toMatchObject({ verdict: "not_enough_evidence" });
+    // No topic for "eco-friendly", and claim 9 doesn't exist.
+    expect(run.claims.map((c) => c.intentId)).toEqual(["durability", "scent", "fit"]);
+  });
+
+  test("no claims or no topics: nothing to check, no model call", async () => {
+    const llm = answering([]);
+    expect((await proofFromTopics([], [], topics, llm, "fake")).claims).toEqual([]);
+    expect((await proofFromTopics(claims, [], [], llm, "fake")).claims).toEqual([]);
   });
 });

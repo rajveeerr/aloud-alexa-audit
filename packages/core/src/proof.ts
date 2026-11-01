@@ -2,7 +2,7 @@ import { createHash } from "node:crypto";
 import type { JsonModel } from "./llm";
 import type { ReviewText } from "./mine";
 import { cleanText } from "./normalize/text";
-import type { BriefSource, ClaimMatch, Grade, ImageClaim, Intent } from "./types";
+import type { BriefSource, ClaimMatch, Grade, ImageClaim, Intent, ReviewInsight } from "./types";
 
 /**
  * Promise vs proof: does what the listing promises match what its buyers report?
@@ -57,8 +57,14 @@ export type ClaimProof = {
 };
 
 export type ProofRun = {
-  /** How many reviews were available for this product. */
+  /** How many reviews were available for this product (for topics: positive + negative mentions). */
   reviews: number;
+  /**
+   * Where the evidence came from. Absent: this product's review text, each review labelled.
+   * "amazon-topics": Amazon's review summary for this product, positive and negative mentions per
+   * topic (live listings, which come without review text).
+   */
+  source?: "amazon-topics";
   claims: ClaimProof[];
   modelOutputs: unknown[];
   usage: { inputTokens: number; outputTokens: number; requests: number };
@@ -409,4 +415,81 @@ export async function checkProof(claims: ListingClaim[], intents: Intent[], allR
     out.push(summarize(claim, keywords, matching.length, sample, run.labels, run.flags));
   }
   return { reviews: reviews.length, claims: out, modelOutputs, usage };
+}
+
+
+// ---------- promise vs proof from Amazon's review topics (live listings) ----------
+
+export const TOPIC_PROOF_PROMPT_VERSION = "topic-proof@2026-11-02.1";
+
+const TOPIC_PROOF_INSTRUCTIONS = `A product listing makes the promises below. Amazon also summarises this product's reviews into topics.
+For each promise, give the number of the one topic whose reviews would show whether the promise holds
+(for "STRONG AND DURABLE", a topic like "Durability" or "Strength"). Use -1 if no topic is about it. Generic
+topics such as "Quality" or "Value for money" only fit a promise that is itself about overall quality or price.
+Return one item per promise: {"claim": its number, "topic": the topic number or -1}.`;
+
+/**
+ * Promise vs proof for a live listing, which has no review text: each claim is matched to one of
+ * Amazon's review topics for this same product, and the topic's positive and negative mention
+ * counts decide, with the same rules as the review-text check (MIN_EVIDENCE, the Wilson interval,
+ * CONTESTED_LOWER_BOUND). The model only picks the topic; every number comes from Amazon's counts.
+ */
+export async function proofFromTopics(claims: ListingClaim[], intents: Intent[], insights: ReviewInsight[], llm: JsonModel, model: string): Promise<ProofRun> {
+  const empty: ProofRun = { reviews: 0, source: "amazon-topics", claims: [], modelOutputs: [], usage: { inputTokens: 0, outputTokens: 0, requests: 0 } };
+  if (claims.length === 0 || insights.length === 0) return empty;
+  const question = new Map(intents.map((i) => [i.id, i.question]));
+  const topicList = insights.map((t, i) => `[${i}] ${t.topic}: ${t.summary}`).join("\n");
+  const claimList = claims.map((c, i) => `[${i}] ${question.get(c.intentId) ?? c.intentId} The listing says: ${c.sources.slice(0, 2).map((x) => `"${x.text}"`).join("; ")}`).join("\n");
+  const res = await llm.generateJson<{ claim: number; topic: number }[]>({
+    model,
+    promptVersion: TOPIC_PROOF_PROMPT_VERSION,
+    parts: [{ text: `${TOPIC_PROOF_INSTRUCTIONS}\n\nTOPICS\n${topicList}\n\nPROMISES\n${claimList}` }],
+    schema: { type: "ARRAY", items: { type: "OBJECT", properties: { claim: { type: "INTEGER" }, topic: { type: "INTEGER" } }, required: ["claim", "topic"] } },
+    temperature: 0,
+  });
+
+  // The first answer for a claim wins; indexes outside the lists are ignored.
+  // Each topic backs one claim (the first), so the same numbers aren't shown twice.
+  const topicFor = new Map<number, number>();
+  const used = new Set<number>();
+  for (const m of Array.isArray(res.data) ? res.data : []) {
+    if (!Number.isInteger(m?.claim) || m.claim < 0 || m.claim >= claims.length || topicFor.has(m.claim)) continue;
+    if (Number.isInteger(m.topic) && m.topic >= 0 && m.topic < insights.length && !used.has(m.topic)) {
+      topicFor.set(m.claim, m.topic);
+      used.add(m.topic);
+    }
+  }
+
+  const out: ClaimProof[] = [];
+  claims.forEach((claim, i) => {
+    const t = topicFor.get(i);
+    if (t === undefined) return;
+    const topic = insights[t]!;
+    const relevant = topic.positive + topic.negative;
+    const side = topic.sentiment === "negative" ? "contradicts" : topic.sentiment === "mixed" ? "mixed" : "supports";
+    const base = {
+      intentId: claim.intentId,
+      claim: claim.sources[0]?.text ?? "",
+      sources: claim.sources,
+      keywords: [topic.topic],
+      matching: topic.mentions,
+      sampled: relevant,
+      counts: { supports: topic.positive, contradicts: topic.negative, mixed: 0, unrelated: 0, unlabelled: 0 },
+      examples: { supports: side === "supports" ? topic.snippets : [], contradicts: side === "contradicts" ? topic.snippets : [], mixed: side === "mixed" ? topic.snippets : [] },
+      flags: [] as ClaimProof["flags"],
+    };
+    if (relevant < MIN_EVIDENCE) {
+      out.push({ ...base, verdict: "not_enough_evidence" });
+      return;
+    }
+    const contradiction = wilson(topic.negative, relevant);
+    out.push({ ...base, support: wilson(topic.positive, relevant), contradiction, verdict: contradiction.low >= CONTESTED_LOWER_BOUND ? "contested" : "backed" });
+  });
+  return {
+    reviews: insights.reduce((n, t) => n + t.positive + t.negative, 0),
+    source: "amazon-topics",
+    claims: out,
+    modelOutputs: [res.data],
+    usage: { inputTokens: res.usage.inputTokens, outputTokens: res.usage.outputTokens, requests: 1 },
+  };
 }

@@ -35,7 +35,16 @@ export type SalesRank = { category: string; rank: number };
  * One topic from Amazon's "Customers say" summary: what a product's reviews talk about, with how
  * many reviews mention it. Amazon computes these over all of the product's reviews.
  */
-export type ReviewInsight = { topic: string; mentions: number; positive: number; negative: number; summary: string; snippets: string[] };
+export type ReviewInsight = {
+  topic: string;
+  mentions: number;
+  positive: number;
+  negative: number;
+  /** Amazon's overall reading of the topic; its example snippets illustrate that side. */
+  sentiment?: "positive" | "negative" | "mixed";
+  summary: string;
+  snippets: string[];
+};
 
 export type ListingMeta = {
   brand?: string;
@@ -204,6 +213,7 @@ export type Brief = {
     | "unsupported_claim"
     | "off_question"
     | "repeats_field"
+    | "contested_by_reviews"
   )[];
   /** Statements the faithfulness check found in the model's draft that the sources don't support. */
   rejectedStatements?: string[];

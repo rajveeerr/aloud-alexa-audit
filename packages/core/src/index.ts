@@ -47,6 +47,8 @@ export {
 } from "./mine";
 export {
   checkProof,
+  proofFromTopics,
+  TOPIC_PROOF_PROMPT_VERSION,
   listingClaims,
   labelReviews,
   verifyLabels,

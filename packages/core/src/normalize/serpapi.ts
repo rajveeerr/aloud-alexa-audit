@@ -81,6 +81,7 @@ function readInsights(items: unknown[]): ReviewInsight[] {
       mentions,
       positive: asNumber(m.positive) ?? 0,
       negative: asNumber(m.negative) ?? 0,
+      ...(/^(positive|negative|mixed)$/.test(asString(r.sentiment) ?? "") && { sentiment: asString(r.sentiment) as "positive" | "negative" | "mixed" }),
       summary: asString(r.summary)?.trim() ?? "",
       snippets: asArray(r.examples).flatMap((e) => asString(asRecord(e).snippet)?.trim() ?? []).slice(0, 3),
     });
@@ -113,7 +114,11 @@ function readAplus(blocks: unknown[]): { aplusTexts: string[]; aplusImages: stri
 
 function isRealText(text: string): boolean {
   const t = text.trim();
-  return t.length >= 3 && !/^\d+$/.test(t);
+  if (t.length < 3 || /^\d+$/.test(t)) return false;
+  // Short labels that name the A+ layout ("White Bag A+ Header", "Benefits Callouts") or repeat a
+  // word back to back ("Problem Problem Solution") are the seller's module names, not shopper text.
+  if (t.length < 60 && (/\bA\+|\bmodules?\b|\bheaders?\b|\bcallouts?\b/i.test(t) || /\b(\w+) \1\b/i.test(t))) return false;
+  return true;
 }
 
 /** "Visit the PILOT Store" becomes "PILOT". */
