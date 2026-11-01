@@ -42,7 +42,7 @@ export function ListingPanel({ report, selected, all }: { report: Report; select
           <h3 id="listing-title" className="text-[15px] font-semibold">
             Listing text
           </h3>
-          <p className="text-[13px] text-muted-foreground">What Alexa can read. Select a question to mark its quote here.</p>
+          <p className="text-[13px] text-muted-foreground">What Alexa can read.</p>
         </div>
         <button
           type="button"

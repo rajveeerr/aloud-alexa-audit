@@ -1,7 +1,6 @@
 import { CheckIcon, CircleDashedIcon, MinusIcon, TriangleAlertIcon, XIcon } from "lucide-react";
 import { STATUS_LABEL, type GradeStatus } from "@/lib/report";
 import { cn } from "@/lib/utils";
-import { Term } from "./term";
 
 const STYLE: Record<GradeStatus, { icon: typeof CheckIcon; cls: string }> = {
   answered: { icon: CheckIcon, cls: "bg-answered-bg text-answered" },
@@ -55,7 +54,7 @@ export function StatusLegend({ statuses, className }: { statuses: GradeStatus[];
       {statuses.map((s) => (
         <li key={s} className="flex items-center gap-1.5">
           <StatusIcon status={s} label={false} className="size-[18px] [&_svg]:size-2.5" />
-          <Term help={STATUS_HELP[s]}>{STATUS_LABEL[s]}</Term>
+          {STATUS_LABEL[s]}
         </li>
       ))}
     </ul>

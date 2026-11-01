@@ -168,7 +168,7 @@ export function PromiseVsProof({ report, index }: { report: Report; index: Repor
 
   if (!proof) {
     return (
-      <Section id="proof" title="Promise vs proof" description="The listing's own claims, checked against what this product's reviews say.">
+      <Section id="proof" title="Promise vs proof">
         <p className="flex items-start gap-3 rounded-2xl border border-dashed px-4 py-3.5 text-[15px] text-muted-foreground" data-testid="proof-absent">
           <MessageSquareOffIcon className="mt-0.5 size-5 shrink-0" aria-hidden="true" />
           <span>{note ?? "Promise vs proof wasn't checked for this audit."}</span>
@@ -179,25 +179,7 @@ export function PromiseVsProof({ report, index }: { report: Report; index: Repor
 
   const claims = [...proof.claims].sort((a, b) => ORDER.indexOf(a.verdict) - ORDER.indexOf(b.verdict));
   return (
-    <Section
-      id="proof"
-      title="Promise vs proof"
-      description={
-        <>
-          {proof.source === "amazon-topics" ? (
-            <>
-              The listing's own claims, checked against Amazon's review summary for this product: how many reviews mention each topic, for
-              better or worse.
-            </>
-          ) : (
-            <>
-              The listing's own claims, checked against {proof.reviews.toLocaleString()} reviews of this product. Rates are shares of the reviews
-              that discuss each claim, not of all buyers, and the lighter band is the <Term help={TERMS.interval}>95% interval</Term>.
-            </>
-          )}
-        </>
-      }
-    >
+    <Section id="proof" title="Promise vs proof">
       {claims.length === 0 ? (
         <p className="text-[15px] text-muted-foreground">The listing makes no claims that reviews could test.</p>
       ) : (

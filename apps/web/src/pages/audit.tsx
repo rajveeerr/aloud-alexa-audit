@@ -18,7 +18,7 @@ import { SendToStudio } from "@/components/report/send-to-studio";
 import { TopFixes } from "@/components/report/top-fixes";
 import { Section } from "@/components/report/section";
 import { Button } from "@/components/ui/button";
-import { indexReport, isEstimated, type Report } from "@/lib/report";
+import { indexReport, type Report } from "@/lib/report";
 import { cn } from "@/lib/utils";
 
 export function AuditPage() {
@@ -254,15 +254,7 @@ function ReportView({ report, auditId }: { report: Report; auditId: string }) {
       <div className="mt-10 grid grid-cols-[minmax(0,1fr)] gap-14 [&>section:first-child]:border-t-0 [&>section:first-child]:pt-0">
         <HiddenAnswers report={report} index={index} />
 
-        <Section
-          id="questions"
-          title="Questions shoppers ask"
-          description={
-            isEstimated(report)
-              ? "Estimated for this category. Select a question to see where its answer sits in the listing."
-              : `Mined from ${report.intentSet.sampleSize.toLocaleString()} reviews in ${report.intentSet.categoryName}, worst first. Select a question to see where its answer sits in the listing.`
-          }
-        >
+        <Section id="questions" title="Questions shoppers ask">
           <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_360px] lg:items-start">
             <QuestionList report={report} index={index} selected={selected} onSelect={(id) => setSelected((s) => (s === id ? null : id))} />
             <div className="lg:sticky lg:top-32">
@@ -277,6 +269,9 @@ function ReportView({ report, auditId }: { report: Report; auditId: string }) {
         <Notes report={report} />
         <HowScored report={report} />
       </div>
+      <footer className="mt-14 border-t pt-4 font-mono text-xs text-muted-foreground" data-testid="score-formula">
+        score = 100 × Σ(frequency × weight) / Σ(frequency) · weight: answered 1, partly 0.5, missing 0, contradicted 0
+      </footer>
     </Page>
   );
 }

@@ -108,7 +108,7 @@ test("the Pentel dataset audit checks the listing's claims against reviews", asy
   const leaking = page.locator('[data-testid="proof-claim"][data-intent="leaking"]');
   await expect(leaking).toHaveAttribute("data-verdict", "contested");
   await expect(leaking).toContainText("33 of 62 reviews that discuss it contradict it");
-  await expect(page.getByText("not of all buyers")).toBeVisible();
+  await expect(page.getByTestId("score-formula")).toContainText("score = 100");
   await page.locator("#proof").screenshot({ path: shot("05b-proof") });
 });
 

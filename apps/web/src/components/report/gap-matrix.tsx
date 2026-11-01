@@ -4,7 +4,6 @@ import { competitorCounts, countsLabel, isEstimated, STATUS_LABEL, type Grade, t
 import { cn } from "@/lib/utils";
 import { Section } from "./section";
 import { StatusIcon, StatusLegend } from "./status";
-import { Term, TERMS } from "./term";
 
 function Cell({ grade }: { grade: Grade | undefined }) {
   const status = grade?.status ?? "missing";
@@ -37,20 +36,10 @@ export function GapMatrix({ report }: { report: Report }) {
   );
 
   return (
-    <Section
-      id="competitors"
-      title="Against competitors"
-      description={
-        comps.length === 0 ? (
-          "No competitors were found for this audit, so gaps are ranked without a comparison."
-        ) : (
-          <>
-            The same questions graded on {comps.length} competing listings in {report.intentSet.categoryName}. The{" "}
-            <Term help={TERMS.gap}>gaps</Term> come first.
-          </>
-        )
-      }
-    >
+    <Section id="competitors" title="Against competitors">
+      {comps.length === 0 && (
+        <p className="text-[15px] text-muted-foreground">No competitors were found for this audit, so gaps are ranked without a comparison.</p>
+      )}
       {comps.length > 0 && (
         <div>
           <StatusLegend statuses={statuses} className="mb-3" />
@@ -117,7 +106,6 @@ export function GapMatrix({ report }: { report: Report }) {
               </button>
             )}
           </div>
-          <p className="mt-2 text-xs text-muted-foreground">Hover a mark to see the quote behind it.</p>
         </div>
       )}
     </Section>

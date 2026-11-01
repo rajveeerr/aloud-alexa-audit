@@ -82,7 +82,7 @@ test("the Pentel dataset audit shows promise vs proof, with the leak claim conte
   await expect(leaking).toHaveAttribute("data-verdict", "contested");
   await expect(leaking).toContainText("“no globs”");
   await expect(leaking).toContainText("33 of 62 reviews that discuss it contradict it");
-  await expect(page.getByText("not of all buyers")).toBeVisible();
+  await expect(page.getByTestId("score-formula")).toContainText("score = 100");
   await shots.full(page, "05-report-proof");
   await shots.section(page, "#proof", "06-proof-section");
 });

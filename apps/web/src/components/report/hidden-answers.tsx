@@ -1,27 +1,15 @@
 import { PlusIcon, TypeIcon } from "lucide-react";
 import { CopyButton } from "@/components/copy-button";
 import { imagesLabel, isEstimated, placeLabel, targetLabel, type Report, type ReportIndex, demand } from "@/lib/report";
-import { plural } from "@/lib/utils";
 import { ImageThumb } from "./image-thumb";
 import { Section } from "./section";
-import { Term, TERMS } from "./term";
 
 export function HiddenAnswers({ report, index }: { report: Report; index: ReportIndex }) {
   const estimated = isEstimated(report);
-  const imageOnly = report.coverage.filter((m) => m.coverage === "image_only").length;
   const read = report.imageClaims.length > 0;
 
-  const description = read ? (
-    <>
-      <Term help={TERMS.hidden}>Answers the brand already gives</Term>, but only inside images. Found {plural(report.imageClaims.length, "claim")} across{" "}
-      {plural(report.listing.images.length, "image")}; {imageOnly} appear only in images.
-    </>
-  ) : (
-    "Answers the brand gives only inside images."
-  );
-
   return (
-    <Section id="hidden" title="Hidden answers" description={description}>
+    <Section id="hidden" title="Hidden answers">
       {!read ? (
         <p className="text-[15px] text-muted-foreground">The images weren't read for this audit, so hidden answers weren't checked.</p>
       ) : report.hiddenAnswers.length === 0 ? (

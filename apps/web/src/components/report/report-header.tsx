@@ -6,7 +6,6 @@ import { useCountUp } from "@/lib/use-count-up";
 import { BAND, basisLabel, competitorCounts, scoreBand, imagesLabel, indexReport, isEstimated, STATUS_LABEL, titleOf, type GradeStatus, type Report, demand } from "@/lib/report";
 import { cn, plural } from "@/lib/utils";
 import { STATUS_FILL } from "./status";
-import { Term } from "./term";
 
 const SOURCE_LABEL = { serpapi: "Live page", dataset: "2023 dataset", paste: "Pasted listing" } as const;
 
@@ -34,13 +33,6 @@ export function ReportHeader({ report }: { report: Report }) {
         <p className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1.5 text-[13px] text-muted-foreground">
           <span>{report.intentSet.categoryName}</span>
           {estimated ? <Badge variant="warn">Estimated questions</Badge> : <span>{basisLabel(report).replace("Questions", "questions")}</span>}
-          {!report.intentSet.reviewed && (
-            <Tip content="A person hasn't checked these questions, their kinds or their rubrics yet.">
-              <button type="button" className="rounded-full">
-                <Badge variant="outline">Not yet reviewed by hand</Badge>
-              </button>
-            </Tip>
-          )}
           {l.source !== "paste" && (
             <a
               href={`https://www.amazon.com/dp/${l.asin}`}
@@ -262,17 +254,11 @@ function ScoreBlock({ report }: { report: Report }) {
           </li>
         ))}
       </ul>
-      <p className="mt-3 text-[13px] leading-snug text-muted-foreground">
-        {estimated ? (
-          "Each block is one question. Every question weighs the same."
-        ) : (
-          <>
-            Each block is one question, as wide as the number of shoppers who ask it. The line marks the{" "}
-            <Term help="The share of shopper demand the listing answers in readable text. A partial answer counts as half.">score</Term>.
-          </>
-        )}{" "}
-        {s.notApplicable > 0 && `${plural(s.notApplicable, "question")} ${s.notApplicable === 1 ? "doesn't" : "don't"} apply to this product.`}
-      </p>
+      {s.notApplicable > 0 && (
+        <p className="mt-3 text-[13px] leading-snug text-muted-foreground">
+          {plural(s.notApplicable, "question")} {s.notApplicable === 1 ? "doesn't" : "don't"} apply to this product.
+        </p>
+      )}
     </section>
   );
 }

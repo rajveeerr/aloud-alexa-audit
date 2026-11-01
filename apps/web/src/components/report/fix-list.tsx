@@ -12,11 +12,7 @@ export function FixList({ report, index }: { report: Report; index: ReportIndex 
   const gains = fixGains(report);
 
   return (
-    <Section
-      id="fixes"
-      title="Fix list"
-      description="In priority order: how often shoppers ask, how far the listing falls short, and how many competitors answer it. Drafts only use the brand's own words."
-    >
+    <Section id="fixes" title="Fix list">
       {report.briefs.length === 0 ? (
         <p className="text-[15px] text-muted-foreground">Nothing to fix: the listing answers every question competitors answer.</p>
       ) : (
@@ -55,7 +51,6 @@ export function FixList({ report, index }: { report: Report; index: ReportIndex 
                     <span className="inline-flex items-center gap-1.5">
                       <TypeIcon className="size-3.5" aria-hidden="true" />
                       Target: <span className="font-semibold text-foreground">{targetLabel(b.target)}</span>
-                      {b.target !== "new_bullet" && <span className="font-mono text-xs">({b.target})</span>}
                     </span>
                   </p>
 
