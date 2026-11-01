@@ -135,8 +135,11 @@ function ModeNote({ id, source, valid, known, saved }: { id: string; source: Sav
   );
 }
 
-/** Demo products shown first, one per story: the hero, a strong listing, proof, other categories. */
-const FEATURED = ["B0C9W8DD9S", "B001GAOTSW", "B097CF46RC", "B09VD1Z3TK", "B08PD98HYG", "B00P6N6LC2"];
+/**
+ * Saved products shown first: the hero, then three listings from brands SalesDuo features in its
+ * case studies (SKOY, Mint-X, Studio Designs), then the 2023 dataset stories.
+ */
+const FEATURED = ["B0C9W8DD9S", "B00275BB6S", "B087VVWWGG", "B00B10MKDI", "B001GAOTSW", "B09VD1Z3TK", "B08PD98HYG", "B00P6N6LC2"];
 const MAX_CHIPS = 6;
 
 function pickChips(all: SavedListing[]): SavedListing[] {
