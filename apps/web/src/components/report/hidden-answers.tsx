@@ -1,6 +1,6 @@
 import { PlusIcon, TypeIcon } from "lucide-react";
 import { CopyButton } from "@/components/copy-button";
-import { imagesLabel, isEstimated, placeLabel, targetLabel, type Report, type ReportIndex } from "@/lib/report";
+import { imagesLabel, isEstimated, placeLabel, targetLabel, type Report, type ReportIndex, demand } from "@/lib/report";
 import { plural } from "@/lib/utils";
 import { ImageThumb } from "./image-thumb";
 import { Section } from "./section";
@@ -70,7 +70,7 @@ export function HiddenAnswers({ report, index }: { report: Report; index: Report
                     <span>{intent?.question}</span>
                     {!estimated && intent && (
                       <span className="rounded-full bg-tint-strong px-2 py-px text-xs font-semibold whitespace-nowrap text-[#9a3412] tabular-nums">
-                        {intent.frequency.toLocaleString()} shoppers ask
+                        {demand(report, intent.frequency)}
                       </span>
                     )}
                   </p>

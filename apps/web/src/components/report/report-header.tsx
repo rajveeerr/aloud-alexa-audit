@@ -3,7 +3,7 @@ import { useState, type ReactNode } from "react";
 import { Badge } from "@/components/ui/badge";
 import { Tip } from "@/components/ui/tooltip";
 import { useCountUp } from "@/lib/use-count-up";
-import { BAND, basisLabel, competitorCounts, scoreBand, imagesLabel, indexReport, isEstimated, STATUS_LABEL, titleOf, type GradeStatus, type Report } from "@/lib/report";
+import { BAND, basisLabel, competitorCounts, scoreBand, imagesLabel, indexReport, isEstimated, STATUS_LABEL, titleOf, type GradeStatus, type Report, demand } from "@/lib/report";
 import { cn, plural } from "@/lib/utils";
 import { STATUS_FILL } from "./status";
 import { Term } from "./term";
@@ -146,7 +146,7 @@ function findings(report: Report): Finding[] {
       title: estimated ? "A common question has no answer in the text" : "The most asked gap has no answer in the text",
       detail: (
         <>
-          “{q}”{estimated ? "" : `, asked by ${unanswered.frequency.toLocaleString()} shoppers`}.
+          “{q}”{estimated ? "" : `, ${demand(report, unanswered.frequency)}`}.
         </>
       ),
     });
@@ -231,7 +231,7 @@ function ScoreBlock({ report }: { report: Report }) {
                 content={
                   <>
                     <span className="font-semibold">{STATUS_LABEL[g.status]}</span>: {intents.get(g.intentId)?.question ?? g.intentId}
-                    {!estimated && <span className="text-white/70"> ({weight.toLocaleString()} ask)</span>}
+                    {!estimated && <span className="text-white/70"> ({demand(report, weight, "short")})</span>}
                   </>
                 }
               >

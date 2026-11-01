@@ -225,7 +225,11 @@ function Result({ data }: { data: PublicAuditResult }) {
         </p>
       )}
       <p className="mx-auto mt-2 max-w-[36ch] text-center text-sm text-[#4a444b]">
-        {estimated ? "There aren't enough reviews in this category yet, so the questions were estimated." : "Weighted by how often shoppers ask each question."}
+        {estimated
+          ? "There aren't enough reviews in this category yet, so the questions were estimated."
+          : data.scoreBasis === "insights"
+            ? "Weighted by how many reviews mention each topic."
+            : "Weighted by how often shoppers ask each question."}
       </p>
 
       <p className={cn(label, "mt-7")}>TOP 3 GAPS</p>

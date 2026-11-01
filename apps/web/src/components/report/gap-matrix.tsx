@@ -1,6 +1,6 @@
 import { ChevronDownIcon } from "lucide-react";
 import { useState } from "react";
-import { competitorCounts, countsLabel, isEstimated, STATUS_LABEL, type Grade, type GradeStatus, type Report } from "@/lib/report";
+import { competitorCounts, countsLabel, isEstimated, STATUS_LABEL, type Grade, type GradeStatus, type Report, demand } from "@/lib/report";
 import { cn } from "@/lib/utils";
 import { Section } from "./section";
 import { StatusIcon, StatusLegend } from "./status";
@@ -87,7 +87,7 @@ export function GapMatrix({ report }: { report: Report }) {
                           <span className="line-clamp-2 leading-snug font-semibold">{i.question}</span>
                           <span className="mt-0.5 flex flex-wrap items-center gap-x-2 text-xs text-muted-foreground tabular-nums">
                             {isGap && <span className="rounded-full bg-tint-strong px-1.5 py-px font-semibold text-[#9a3412]">Gap</span>}
-                            {!estimated && <span>{i.frequency} asking</span>}
+                            {!estimated && <span>{demand(report, i.frequency, "short")}</span>}
                             {isGap && counts.competitors > 0 && <span>{countsLabel(counts)}</span>}
                           </span>
                         </th>

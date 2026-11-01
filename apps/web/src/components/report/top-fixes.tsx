@@ -1,5 +1,5 @@
 import { ArrowDownIcon, ImageUpIcon, ListPlusIcon, MessageCircleQuestionIcon, PencilLineIcon, TriangleAlertIcon } from "lucide-react";
-import { ACTION_LABEL, competitorCounts, countsLabel, fixGains, isEstimated, type Brief, type Report } from "@/lib/report";
+import { ACTION_LABEL, competitorCounts, countsLabel, fixGains, isEstimated, type Brief, type Report, demand } from "@/lib/report";
 import { cn } from "@/lib/utils";
 
 export const ACTION_ICON: Record<Brief["action"], typeof ImageUpIcon> = {
@@ -73,7 +73,7 @@ export function TopFixes({ report }: { report: Report }) {
                   <span className="line-clamp-2 text-[13px] leading-snug text-sd-purple">Needs a fact from the brand first.</span>
                 ) : null}
                 <span className="mt-auto pt-1 text-[13px] text-muted-foreground tabular-nums">
-                  {estimated ? "Estimated question" : `${gap?.frequency.toLocaleString() ?? "?"} shoppers ask`} · {countsLabel(competitorCounts(report, b.intentId))}
+                  {estimated ? "Estimated question" : gap ? demand(report, gap.frequency) : "?"} · {countsLabel(competitorCounts(report, b.intentId))}
                 </span>
               </a>
             </li>

@@ -42,7 +42,20 @@ export function titleOf(r: Report): string {
 
 export function basisLabel(r: Report): string {
   const s = r.intentSet;
-  return s.basis === "estimated" ? "Estimated questions (no reviews mined), equal weights" : `Questions mined from ${s.sampleSize.toLocaleString()} reviews`;
+  if (s.basis === "estimated") return "Estimated questions (no reviews mined), equal weights";
+  if (s.basis === "insights") return `Questions from Amazon review topics, ${s.sampleSize.toLocaleString()} review mentions`;
+  if (s.reviewSource === "walmart") return `Questions mined from ${s.sampleSize.toLocaleString()} Walmart reviews of this product type`;
+  return `Questions mined from ${s.sampleSize.toLocaleString()} reviews`;
+}
+
+/**
+ * How much demand a question carries, said the way its numbers were counted: mined sets count
+ * shoppers who ask, review-topic sets count reviews that mention it.
+ */
+export function demand(r: Report, n: number, form: "full" | "short" = "full"): string {
+  const v = n.toLocaleString();
+  if (r.intentSet.basis === "insights") return form === "full" ? `${v} reviews mention it` : `${v} mentions`;
+  return form === "full" ? `${v} shoppers ask` : `${v} asking`;
 }
 
 const ORDER: GradeStatus[] = ["contradicted", "missing", "partial", "answered", "not_applicable"];

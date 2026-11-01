@@ -2,7 +2,7 @@ import { ImageIcon, InfoIcon } from "lucide-react";
 import { useState } from "react";
 import { Badge } from "@/components/ui/badge";
 import { Tip } from "@/components/ui/tooltip";
-import { GRADE_FLAG_TEXT, isEstimated, placeLabel, sortGrades, STATUS_LABEL, type Grade, type GradeStatus, type Report, type ReportIndex } from "@/lib/report";
+import { GRADE_FLAG_TEXT, isEstimated, placeLabel, sortGrades, STATUS_LABEL, type Grade, type GradeStatus, type Report, type ReportIndex, demand } from "@/lib/report";
 import { cn } from "@/lib/utils";
 import { StatusIcon, StatusLegend, STATUS_FILL, STATUS_TEXT_CLASS } from "./status";
 
@@ -100,7 +100,7 @@ export function QuestionList({
                       {intent?.question ?? g.intentId}
                     </button>
                     <span className="flex shrink-0 flex-col items-end gap-1 pt-0.5">
-                      <span className="text-[13px] text-muted-foreground tabular-nums">{estimated ? "estimated" : `${freq.toLocaleString()} asking`}</span>
+                      <span className="text-[13px] text-muted-foreground tabular-nums">{estimated ? "estimated" : demand(report, freq, "short")}</span>
                       {!estimated && (
                         <span className="h-1 w-16 overflow-hidden rounded-full bg-muted" aria-hidden="true">
                           <span className={cn("block h-full rounded-full", STATUS_FILL[g.status])} style={{ width: `${Math.max(4, (freq / maxFreq) * 100)}%` }} />
