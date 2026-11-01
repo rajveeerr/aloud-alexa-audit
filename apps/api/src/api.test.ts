@@ -574,7 +574,7 @@ describe.skipIf(process.env.SKIP_INTEGRATION === "1")("api + worker (compose, re
   test("with PUBLIC_LIVE unset, an unsaved ASIN isn't fetched live and nothing is counted", async () => {
     const res = await call<PublicAuditResult>("POST", "/v1/public/audits", { asin: "B0LIVE0005" }, { "x-forwarded-for": "10.2.1.1" });
     expect(res.status).toBe(202);
-    expect((await getAudit(handle.db, res.body.id))!.request).toEqual({ live: false });
+    expect((await getAudit(handle.db, res.body.id))!.request).toEqual({ live: false, mineReviews: false });
     const redis = redisConnection(REDIS_URL);
     try {
       expect(await redis.keys(`${PREFIX}:daily:*`)).toEqual([]);
@@ -660,7 +660,7 @@ describe.skipIf(process.env.SKIP_INTEGRATION === "1")("widget live mode (compose
     calls.search = 0;
     const res = await liveCall<PublicAuditResult>("POST", "/v1/public/audits", { asin: LIVE_ASIN }, { "x-forwarded-for": "10.2.0.1" });
     expect(res.status).toBe(202);
-    expect((await getAudit(liveDb.db, res.body.id))!.request).toEqual({ live: true, maxCompetitors: 0 });
+    expect((await getAudit(liveDb.db, res.body.id))!.request).toEqual({ live: true, maxCompetitors: 0, mineReviews: false });
 
     const done = await until(async () => (await liveCall<PublicAuditResult>("GET", `/v1/public/audits/${res.body.id}`, undefined, {})).body, (r) => finished(r.status));
     expect(done.status).toBe("done");
@@ -675,7 +675,7 @@ describe.skipIf(process.env.SKIP_INTEGRATION === "1")("widget live mode (compose
   test("a saved ASIN replays without a live fetch and doesn't touch the daily counter", async () => {
     const res = await liveCall<PublicAuditResult>("POST", "/v1/public/audits", { asin: "B09VD1Z3TK" }, { "x-forwarded-for": "10.2.0.2" });
     expect(res.status).toBe(202);
-    expect((await getAudit(liveDb.db, res.body.id))!.request).toEqual({ live: false });
+    expect((await getAudit(liveDb.db, res.body.id))!.request).toEqual({ live: false, mineReviews: false });
     expect(await counter()).toBe("1");
   });
 

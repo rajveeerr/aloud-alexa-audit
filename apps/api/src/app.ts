@@ -132,7 +132,8 @@ export function createApp(ctx: AppContext): express.Express {
       res.set("Retry-After", String(slot.retryAfterSec));
       throw new HttpError(429, "daily_limit", DAILY_LIMIT_MESSAGE);
     }
-    const request = live ? { live: true, maxCompetitors: 0 } : { live: false };
+    // No review mining from the public widget: it would let anyone spend the monthly search quota.
+    const request = live ? { live: true, maxCompetitors: 0, mineReviews: false } : { live: false, mineReviews: false };
     // The slot is only spent on an audit that actually reached the queue.
     const row = await submitAudit(jobs, { asin: body.asin, source, origin: "widget", request }).catch(async (err) => {
       await slot?.release().catch((e) => ctx.log(`couldn't give back a live widget slot: ${(e as Error).message}`));
