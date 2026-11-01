@@ -60,11 +60,14 @@ export function TopFixes({ report }: { report: Report }) {
                 </span>
                 <span className="text-[15px] leading-snug font-semibold">{b.question}</span>
                 {b.draft ? (
-                  <span className="line-clamp-2 rounded-md bg-answered-bg/70 px-2.5 py-1.5 text-[13px] leading-snug text-[#14532d]">
-                    <span className="font-mono text-answered" aria-hidden="true">
-                      +{" "}
+                  <span className="block rounded-md bg-answered-bg/70 px-2.5 py-1.5 text-[13px] leading-snug text-[#14532d]">
+                    {/* The clamp sits inside the padding, so a third line can't show through it. */}
+                    <span className="line-clamp-2">
+                      <span className="font-mono text-answered" aria-hidden="true">
+                        +{" "}
+                      </span>
+                      {b.draft}
                     </span>
-                    {b.draft}
                   </span>
                 ) : b.needsFromBrand ? (
                   <span className="line-clamp-2 text-[13px] leading-snug text-sd-purple">Needs a fact from the brand first.</span>
