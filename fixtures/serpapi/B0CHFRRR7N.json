@@ -1,0 +1,506 @@
+{
+  "product_results": {
+    "categories": [
+      {
+        "position": 1,
+        "name": "Health & Household",
+        "link": "https://www.amazon.com/health-personal-care-nutrition-fitness/b/ref=dp_bc_1?ie=UTF8&node=3760901",
+        "node": "3760901",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=3760901"
+      },
+      {
+        "position": 2,
+        "name": "Household Supplies",
+        "link": "https://www.amazon.com/Household-Supplies-Products/b/ref=dp_bc_2?ie=UTF8&node=15342811",
+        "node": "15342811",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15342811"
+      },
+      {
+        "position": 3,
+        "name": "Paper & Plastic",
+        "link": "https://www.amazon.com/Paper-Plastic-Household-Supplies/b/ref=dp_bc_3?ie=UTF8&node=15342841",
+        "node": "15342841",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15342841"
+      },
+      {
+        "position": 4,
+        "name": "Trash, Compost & Lawn Bags",
+        "link": "https://www.amazon.com/Trash-Compost-Lawn-Bags/b/ref=dp_bc_4?ie=UTF8&node=16284867011",
+        "node": "16284867011",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=16284867011"
+      },
+      {
+        "position": 5,
+        "name": "Trash Bags",
+        "link": "https://www.amazon.com/trash-bags/b/ref=dp_bc_5?ie=UTF8&node=15342971",
+        "node": "15342971",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15342971"
+      }
+    ],
+    "asin": "B0CHFRRR7N",
+    "title": "Amazon Basics Extra Strong & Flex Tall Kitchen Drawstring Trash Bags, Classic Clean Scented, 13 Gallon, 80 Count, Pack of 1, Packaging May Vary",
+    "link": "https://www.amazon.com/hp/wlp/pipeline/membersignup?ref=primedp_ventures_desktopBelowThreshold&primeCampaignId=primedp_ventures_desktopBelowThreshold",
+    "link_clean": "https://www.amazon.com/dp/B0CHFRRR7N/",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CHFRRR7N&device=desktop&engine=amazon_product",
+    "badges": [
+      "Amazon's Choice"
+    ],
+    "variants": [
+      {
+        "title": "Scent",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B0DKMFBGK1",
+            "name": "Citrus",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DKMFBGK1&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B0CHFRRR7N",
+            "name": "Clean Scent",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CHFRRR7N&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B0CH91K11H",
+            "name": "Lavender",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CH91K11H&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 4,
+            "asin": "B0DKLY1Z34",
+            "name": "Tropical Island",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DKLY1Z34&device=desktop&engine=amazon_product"
+          }
+        ]
+      },
+      {
+        "title": "Size",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B0CHFRRR7N",
+            "name": "80 Count",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CHFRRR7N&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B0DKMFBGK1",
+            "name": "40 Count",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DKMFBGK1&device=desktop&engine=amazon_product"
+          }
+        ]
+      }
+    ],
+    "variant_combinations": [
+      {
+        "dimensions": {
+          "scent": "Citrus",
+          "size": "40 Count"
+        },
+        "asin": "B0DKMFBGK1",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DKMFBGK1&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "scent": "Citrus",
+          "size": "80 Count"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "scent": "Clean Scent",
+          "size": "40 Count"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "scent": "Clean Scent",
+          "size": "80 Count"
+        },
+        "asin": "B0CHFRRR7N",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CHFRRR7N&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "scent": "Lavender",
+          "size": "40 Count"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "scent": "Lavender",
+          "size": "80 Count"
+        },
+        "asin": "B0CH91K11H",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CH91K11H&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "scent": "Tropical Island",
+          "size": "40 Count"
+        },
+        "asin": "B0DKLY1Z34",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DKLY1Z34&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "scent": "Tropical Island",
+          "size": "80 Count"
+        },
+        "unavailable": true
+      }
+    ],
+    "brand": "Visit the Amazon Basics Store",
+    "thumbnail": "https://m.media-amazon.com/images/I/71vHi9ar8OL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "thumbnails": [
+      "https://m.media-amazon.com/images/I/71vHi9ar8OL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71HrJ9fDyfL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71W7kaHRc-L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71JMsVXrgsL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61bCI4vgafL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/7134X3xJ+QL._AC_SL1500_.jpg"
+    ],
+    "rating": 4.4,
+    "reviews": 10890,
+    "bought_last_month": "30K+ bought in past month",
+    "discount": "-10%",
+    "price": "$12.86",
+    "extracted_price": 12.86,
+    "price_unit": "$0.16 / count",
+    "extracted_price_unit": 0.16,
+    "save_with_coupon": "Save an extra 25% on your first Subscribe and Save order.",
+    "coupons": [
+      {
+        "text": "Save 25%: Coupon available when you select Subscribe & Save.",
+        "discount": "25%",
+        "shop_items_link": "https://www.amazon.com/promotion/psp/A33C9NINJT27PJ?ref=clp_external&redirectAsin=B0CHFRRR7N&redirectMerchantId=ATVPDKIKX0DER&ref=cxcw_clp_A33C9NINJT27PJ&source=dp_cxcw",
+        "serpapi_amazon_promotion_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon_promotion&promotion_id=A33C9NINJT27PJ",
+        "terms_link": "https://www.amazon.com/promotion/details/popup/A33C9NINJT27PJ?ref=cxcw_bxgx_tc_A33C9NINJT27PJ&source=dp_cxcw"
+      }
+    ],
+    "promotions": [
+      {
+        "type": "subscribe_save",
+        "text": "Save an extra 25% on your first Subscribe and Save order.",
+        "discount_percent": 25,
+        "eligibility": "Subscribe & Save",
+        "link": "https://www.amazon.com/promotion/psp/A33C9NINJT27PJ?ref=clp_external&redirectAsin=B0CHFRRR7N&redirectMerchantId=ATVPDKIKX0DER&ref=cxcw_clp_A33C9NINJT27PJ&source=dp_cxcw"
+      },
+      {
+        "type": "prime",
+        "text": "Prime Savings Save 10%",
+        "discount_percent": 10,
+        "eligibility": "Prime members",
+        "link": "https://www.amazon.com/promotion/psp/A1YT6EDNFRE1E0?ref=psp_external&redirectAsin=B0CHFRRR7N&redirectMerchantId=ATVPDKIKX0DER&ref=cxcw_psp_A1YT6EDNFRE1E0&source=dp_cxcw"
+      }
+    ],
+    "offers": [
+      "Prime Savings Save 10% on 4 select item(s)"
+    ],
+    "prime": true,
+    "delivery": [
+      "FREE delivery Friday, November 6 on orders shipped by Amazon over $35",
+      "Or Prime members get FREE delivery Tuesday, November 3. Order within 9 hrs 25 mins."
+    ],
+    "stock": "In Stock",
+    "description": "Amazon Basics 13 Gallon Classic Clean Scented Embossed Trash Bags, 80 Count (Pack of 1). Amazon Basics are the quality products you count on for all your everyday moments."
+  },
+  "purchase_options": {
+    "buy_new": {
+      "caption": "One-time purchase",
+      "price": "$12.86",
+      "extracted_price": 12.86,
+      "price_unit": "$0.16 / count",
+      "extracted_price_unit": 0.16,
+      "delivery": [
+        "FREE delivery Friday, November 6 on orders shipped by Amazon over $35",
+        "Or Prime members get FREE delivery Tuesday, November 3. Order within 9 hrs 25 mins."
+      ],
+      "stock": "In Stock",
+      "features": {
+        "shipper_seller": {
+          "text": "Amazon.com",
+          "details": {
+            "heading": "Shipper / Seller",
+            "content": "Amazon.com"
+          }
+        },
+        "returns": {
+          "text": "FREE refund/replacement until Jan 31, 2027",
+          "details": {
+            "heading": "FREE refund/replacement until Jan 31, 2027",
+            "content": "For the 2026 holiday season, eligible items purchased between November 1 and December 31, 2026 can be returned until January 31, 2027."
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "payment": {
+          "text": "Secure transaction",
+          "details": {
+            "heading": "Your transaction is secure",
+            "content": "We work hard to protect your security and privacy. Our payment security system encrypts your information during transmission. We don’t share your credit card details with third-party sellers, and we don’t sell your information to others. Learn more"
+          },
+          "link": {
+            "text": "Learn more",
+            "link": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201909010"
+          }
+        }
+      }
+    },
+    "subscribe_and_save": {
+      "caption": "Subscribe & Save",
+      "price": "$11.57",
+      "extracted_price": 11.57,
+      "price_unit": "$0.14 / count",
+      "extracted_price_unit": 0.14,
+      "delivery": [
+        "FREE delivery Friday, November 6 on orders shipped by Amazon over $35",
+        "Or Prime members get FREE delivery Tuesday, November 3. Order within 9 hrs 25 mins."
+      ],
+      "stock": "In Stock",
+      "features": {
+        "shipper_seller": {
+          "text": "Amazon.com",
+          "details": {
+            "heading": "Shipper / Seller",
+            "content": "Amazon.com"
+          }
+        },
+        "returns": {
+          "text": "FREE refund/replacement until Jan 31, 2027",
+          "details": {
+            "heading": "FREE refund/replacement until Jan 31, 2027",
+            "content": "For the 2026 holiday season, eligible items purchased between November 1 and December 31, 2026 can be returned until January 31, 2027."
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "subscription": "No fees. Skip or cancel anytime."
+      }
+    }
+  },
+  "item_specifications": {
+    "brand": "Amazon Basics",
+    "capacity": "13 gallons",
+    "unit_count": "80 Count",
+    "recommended_uses_for_product": "Kitchen Waste",
+    "material_feature": "Heavy Duty",
+    "color": "White",
+    "material": "Plastic",
+    "item_form": "Bag",
+    "scent": "Clean Scent",
+    "number_of_items": "80"
+  },
+  "about_item": [
+    "SHIPMENT CONTAINS: 80-count of 13 gallon tall kitchen trash bags with Classic Clean scent for everyday household waste",
+    "EXTRA STRONG: Tear-resistant white plastic material with flex embossed technology and 0.9 mil thickness provides reliable durability for heavy loads",
+    "CONVENIENT DESIGN: Red drawstring closure ensures easy tying and carrying when taking out trash",
+    "PRECISE DIMENSIONS: Each bag measures 24 inches wide x 27 3/8 inches tall, perfect fit for standard kitchen trash cans",
+    "ODOR CONTROL: Classic Clean scent helps neutralize odors and keeps your kitchen smelling fresh",
+    "PACKAGING MAY VARY: Packaging may be different than what is shown but item and quality remain the same"
+  ],
+  "product_details": {
+    "capacity": "13 gallons",
+    "unit_count": "80 Count",
+    "number_of_items": "80",
+    "item_weight": "3.9 pounds",
+    "item_dimensions": "27.38 x 24 inches",
+    "material_features": "Heavy Duty",
+    "material_type": "Plastic",
+    "color": "White",
+    "item_form": "Bag",
+    "brand_name": "Amazon Basics",
+    "recommended_uses_for_product": "Kitchen Waste",
+    "manufacturer": "Amazon.com LLC",
+    "upc": "195515045384",
+    "global_trade_identification_number": "00195515045384",
+    "best_sellers_rank": [
+      {
+        "text": "#85 in Our Brands (See Top 100 in Our Brands)",
+        "extracted_rank": 85,
+        "link": "https://www.amazon.com/gp/bestsellers/private-brands/ref=pd_zg_ts_private-brands",
+        "link_text": "See Top 100 in Our Brands"
+      },
+      {
+        "text": "#8 in Trash Bags",
+        "extracted_rank": 8,
+        "link": "https://www.amazon.com/gp/bestsellers/hpc/15342971/ref=pd_zg_hrsr_hpc",
+        "link_text": "Trash Bags"
+      }
+    ],
+    "asin": "B0CHFRRR7N",
+    "customer_reviews": "4.4 out of 5 stars",
+    "rating": 4.4,
+    "reviews": 10890,
+    "scent": "Clean Scent"
+  },
+  "reviews_information": {
+    "summary": {
+      "text": "Customers find the trash bags work well and perform better than name brands. The quality and durability receive mixed feedback, with some finding them very good while others describe them as terrible, and some saying they last a long time while others report they rip easily. The scent also gets mixed reviews, with some saying it smells good while others find it terrible.",
+      "insights": [
+        {
+          "title": "Functionality",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 216,
+            "positive": 170,
+            "negative": 46
+          },
+          "summary": "Customers find that these trash bags work great, with one customer noting they perform as well as name brands like Hefty and Glad.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...The bags are sturdy, reliable, and delivered right to my door. I’m finding better value on Amazon than in several of the physical stores I shop at.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2Q2C4I5F91XCL"
+            },
+            {
+              "position": 2,
+              "snippet": "Does the job but doesnt fit quite right, scent is not very strong either. Sticking with other brands from now on",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1OMAIB6LDYKZM"
+            },
+            {
+              "position": 3,
+              "snippet": "Works. Have put my finger through a few times taking it out of the can. Not an over powering scent. Opens easy and fits the can as it should....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2ZOOPF5TIABLD"
+            },
+            {
+              "position": 4,
+              "snippet": "...stock, I realized that many of them have holes on the side which is unusable. It looks like there was some sort of manufacturer defect.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R23PI1OMW2L74D"
+            }
+          ]
+        },
+        {
+          "title": "Quality",
+          "sentiment": "mixed",
+          "mentions": {
+            "total": 1000,
+            "positive": 548,
+            "negative": 491
+          },
+          "summary": "Customers have mixed opinions about the waste bags, with some finding them very good and loving them, while others describe them as terrible and of low quality.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Good quality garbage bags that fit my 13 gallon trash can perfectly. Arrived on time. Bags are scented, which I appreciate. Would buy these again.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1IOTKITFW18QC"
+            },
+            {
+              "position": 2,
+              "snippet": "Poor Quality 😕 this was first time buying these Trash bags from Amazon and will be my last time About midway through rolls the seams are broken....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R20R504BFI57ET"
+            },
+            {
+              "position": 3,
+              "snippet": "I should have paid more attention. These are good bags but clean scent means they have a scent. Anyway I will use them but I really need unscented",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2H7WE32CTY0V"
+            },
+            {
+              "position": 4,
+              "snippet": "Terrible! They tear down the seam as you’re opening the bag. Spend the money and buy name brand. Save yourselves the headache.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1UVQRHOYDOAPP"
+            }
+          ]
+        },
+        {
+          "title": "Durability",
+          "sentiment": "mixed",
+          "mentions": {
+            "total": 952,
+            "positive": 408,
+            "negative": 544
+          },
+          "summary": "Customers have mixed experiences with the waste bags' durability, with some finding them super durable and lasting a long time, while others report that they rip easily and split at the seam.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...First for \"ultra force\" they sure do rip easily. I've cleaned more cat litter out of my car because the bag ripped even double layered....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RJODM49X8X6MC"
+            },
+            {
+              "position": 2,
+              "snippet": "...They are strong and flexible enough to hold large loads, and bags as well as the drawstring have never torn. The clean scent is not overwhelming....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3KG6DXHIYJGKL"
+            },
+            {
+              "position": 3,
+              "snippet": "These bags tear easily, even when you’re just pulling the drawstring. Don’t let them get too full, they can’t handle the weight without tearing.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R26049GWMK26MN"
+            },
+            {
+              "position": 4,
+              "snippet": "...These are durable. They have a great scent and did I say they're extremely durable? They're leak proof and the size just fits a 13 gallon kitchen....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1FLDD9Z9OA2XM"
+            }
+          ]
+        },
+        {
+          "title": "Scent",
+          "sentiment": "mixed",
+          "mentions": {
+            "total": 421,
+            "positive": 266,
+            "negative": 155
+          },
+          "summary": "Customers have mixed opinions about the waste bags' scent, with some finding it pleasant while others describe it as terrible.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...These actually smell good, feel sturdier, and hold up so much better. For the price, they’re honestly a great deal.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1MKR83AI61NUD"
+            },
+            {
+              "position": 2,
+              "snippet": "Bags good. I ordered lavendar scent ans these bags have no scent at all. Very disappointing",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2PL8XOKW3WLWG"
+            },
+            {
+              "position": 3,
+              "snippet": "Pretty good trash bags. Easy to tie, smell great and help contain the smell of the trash, are pretty durable. Will purchase again.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RNRLCK8MVRMMR"
+            },
+            {
+              "position": 4,
+              "snippet": "Smells great,mask odors well,very durable and you can't beat the price",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R15JR1B72FYGYS"
+            }
+          ]
+        }
+      ],
+      "customer_reviews": {
+        "5 star": 75,
+        "4 star": 10,
+        "3 star": 4,
+        "2 star": 2,
+        "1 star": 9
+      }
+    }
+  },
+  "related_asins": [
+    "B0FVMS3QQK",
+    "B0FBRFBP6K",
+    "B0FVSDX3QK",
+    "B0DY7RBMF5",
+    "B0H36258QZ",
+    "B0GVN2J6H4",
+    "B0BTBRP495",
+    "B0GZS9WRC4",
+    "B00D5YS4HE",
+    "B0DZ35W9SG",
+    "B01H3W4AM6",
+    "B0FVMSTJWZ",
+    "B01BZ0MR54",
+    "B0DKDSJ4NR"
+  ]
+}

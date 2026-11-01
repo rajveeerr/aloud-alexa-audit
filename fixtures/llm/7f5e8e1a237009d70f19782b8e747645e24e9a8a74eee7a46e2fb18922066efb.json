@@ -1,0 +1,117 @@
+{
+  "data": [
+    {
+      "id": "material_composition",
+      "question": "What materials are the cleaning cloths made of?",
+      "kind": "spec",
+      "rubric": "answered: specifies the exact fiber blend or material like microfiber or cellulose; partial: mentions general fabric type without specifics.",
+      "conditional": false
+    },
+    {
+      "id": "cloth_dimensions",
+      "question": "What are the dimensions or size of each cleaning cloth?",
+      "kind": "spec",
+      "rubric": "answered: provides exact length and width measurements; partial: gives a general size category like small or large.",
+      "conditional": false
+    },
+    {
+      "id": "pack_quantity",
+      "question": "How many cleaning cloths are included in a single pack?",
+      "kind": "spec",
+      "rubric": "answered: states the exact number of cloths per pack; partial: mentions multiple pack options are available.",
+      "conditional": false
+    },
+    {
+      "id": "absorbency_capacity",
+      "question": "How much liquid can the cleaning cloth absorb relative to its weight?",
+      "kind": "spec",
+      "rubric": "answered: gives a specific multiplier like 10x or 15x its weight; partial: states generally that it is highly absorbent.",
+      "conditional": false
+    },
+    {
+      "id": "fabric_gsm",
+      "question": "What is the GSM (grams per square meter) weight rating of the cloth?",
+      "kind": "spec",
+      "rubric": "answered: states the specific GSM rating; partial: mentions it is heavy-duty or lightweight without a number.",
+      "conditional": true
+    },
+    {
+      "id": "surface_safety",
+      "question": "Will these cloths scratch delicate surfaces like glass, car paint, or stainless steel?",
+      "kind": "claim",
+      "rubric": "answered: explicitly states whether the cloth is non-abrasive and safe for delicate surfaces; partial: mentions gentle cleaning without surface guarantees.",
+      "conditional": false
+    },
+    {
+      "id": "lint_free_performance",
+      "question": "Do the cloths leave behind any lint, fuzz, or streaks during use?",
+      "kind": "claim",
+      "rubric": "answered: confirms if the cloth is lint-free and streak-free; partial: mentions low lint production.",
+      "conditional": false
+    },
+    {
+      "id": "odor_resistance",
+      "question": "Do these cleaning cloths resist developing foul odors or sour smells over time?",
+      "kind": "claim",
+      "rubric": "answered: explains odor-resistant properties or lack thereof; partial: mentions general freshness.",
+      "conditional": true
+    },
+    {
+      "id": "lifespan_durability",
+      "question": "How many washes or how many months of use is the cloth rated to last?",
+      "kind": "claim",
+      "rubric": "answered: gives a specific wash count or expected lifespan duration; partial: states generally that it is durable and long-lasting.",
+      "conditional": false
+    },
+    {
+      "id": "grease_removal",
+      "question": "Can the cloths effectively remove heavy grease and oils without using chemical cleaners?",
+      "kind": "claim",
+      "rubric": "answered: details grease-trapping capabilities; partial: mentions general cleaning power.",
+      "conditional": false
+    },
+    {
+      "id": "washing_instructions",
+      "question": "Can these cleaning cloths be machine washed and dried?",
+      "kind": "experience",
+      "rubric": "answered: provides clear washing and drying instructions including machine safety; partial: mentions that they are reusable.",
+      "conditional": false
+    },
+    {
+      "id": "color_bleeding",
+      "question": "Do the colors of the cloth bleed or fade during the initial washes?",
+      "kind": "experience",
+      "rubric": "answered: addresses colorfastness and bleeding prevention; partial: advises washing with like colors.",
+      "conditional": true
+    },
+    {
+      "id": "drying_speed",
+      "question": "How quickly does the cloth dry after being soaked or washed?",
+      "kind": "experience",
+      "rubric": "answered: describes drying time or rapid-dry technology; partial: mentions air drying.",
+      "conditional": false
+    },
+    {
+      "id": "texture_after_washing",
+      "question": "Does the texture or softness of the cloth change after multiple wash cycles?",
+      "kind": "experience",
+      "rubric": "answered: explains whether the cloth stays soft or pills and hardens; partial: mentions general maintenance.",
+      "conditional": false
+    },
+    {
+      "id": "multipurpose_use",
+      "question": "What specific household or automotive tasks are these cloths best suited for?",
+      "kind": "claim",
+      "rubric": "answered: lists recommended cleaning applications like kitchens, cars, and glass; partial: mentions general cleaning.",
+      "conditional": false
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "estimate-intents@2026-10-27.1+cleaning-cloths",
+  "usage": {
+    "inputTokens": 1193,
+    "outputTokens": 1176
+  },
+  "latencyMs": 4710,
+  "cached": false
+}

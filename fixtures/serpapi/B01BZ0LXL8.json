@@ -1,0 +1,526 @@
+{
+  "product_results": {
+    "categories": [
+      {
+        "position": 1,
+        "name": "Health & Household",
+        "link": "https://www.amazon.com/health-personal-care-nutrition-fitness/b/ref=dp_bc_1?ie=UTF8&node=3760901",
+        "node": "3760901",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=3760901"
+      },
+      {
+        "position": 2,
+        "name": "Household Supplies",
+        "link": "https://www.amazon.com/Household-Supplies-Products/b/ref=dp_bc_2?ie=UTF8&node=15342811",
+        "node": "15342811",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15342811"
+      },
+      {
+        "position": 3,
+        "name": "Paper & Plastic",
+        "link": "https://www.amazon.com/Paper-Plastic-Household-Supplies/b/ref=dp_bc_3?ie=UTF8&node=15342841",
+        "node": "15342841",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15342841"
+      },
+      {
+        "position": 4,
+        "name": "Trash, Compost & Lawn Bags",
+        "link": "https://www.amazon.com/Trash-Compost-Lawn-Bags/b/ref=dp_bc_4?ie=UTF8&node=16284867011",
+        "node": "16284867011",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=16284867011"
+      },
+      {
+        "position": 5,
+        "name": "Trash Bags",
+        "link": "https://www.amazon.com/trash-bags/b/ref=dp_bc_5?ie=UTF8&node=15342971",
+        "node": "15342971",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15342971"
+      }
+    ],
+    "asin": "B01BZ0LXL8",
+    "title": "Hefty Ultra Strong 13 Gal Kitchen Trash Bags, White, Lavender Vanilla, 80ct",
+    "link": "https://www.amazon.com/gp/cart/view.html/ref=uss_cart",
+    "link_clean": "https://www.amazon.com/dp/B01BZ0LXL8/",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B01BZ0LXL8&device=desktop&engine=amazon_product",
+    "badges": [
+      "Amazon's Choice"
+    ],
+    "variants": [
+      {
+        "title": "Size",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B01DM5EZZ0",
+            "name": "40 Count (Pack of 1)",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B01DM5EZZ0&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B01BZ0LXL8",
+            "name": "80 Count (Pack of 1)",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B01BZ0LXL8&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B0B16SS82L",
+            "name": "110 Count (Pack of 1)",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0B16SS82L&device=desktop&engine=amazon_product"
+          }
+        ]
+      },
+      {
+        "title": "Style",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B0B16SS82L",
+            "name": "Clean Burst",
+            "image": "https://m.media-amazon.com/images/I/41Q2JCyqTxL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0B16SS82L&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B01BZ0LXL8",
+            "name": "Lavender & Sweet Vanilla",
+            "image": "https://m.media-amazon.com/images/I/51Zts3po3zL._SS64_.jpg",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B01BZ0LXL8&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B01BZ0N8SO",
+            "name": "Unscented",
+            "image": "https://m.media-amazon.com/images/I/41GfK8PbF1L._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B01BZ0N8SO&device=desktop&engine=amazon_product"
+          }
+        ]
+      }
+    ],
+    "variant_combinations": [
+      {
+        "dimensions": {
+          "size": "40 Count (Pack of 1)",
+          "style": "Clean Burst"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "size": "40 Count (Pack of 1)",
+          "style": "Lavender & Sweet Vanilla"
+        },
+        "asin": "B01DM5EZZ0",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B01DM5EZZ0&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "size": "40 Count (Pack of 1)",
+          "style": "Unscented"
+        },
+        "asin": "B01BZ0N8SO",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B01BZ0N8SO&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "size": "80 Count (Pack of 1)",
+          "style": "Clean Burst"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "size": "80 Count (Pack of 1)",
+          "style": "Lavender & Sweet Vanilla"
+        },
+        "asin": "B01BZ0LXL8",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B01BZ0LXL8&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "size": "80 Count (Pack of 1)",
+          "style": "Unscented"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "size": "110 Count (Pack of 1)",
+          "style": "Clean Burst"
+        },
+        "asin": "B0B16SS82L",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0B16SS82L&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "size": "110 Count (Pack of 1)",
+          "style": "Lavender & Sweet Vanilla"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "size": "110 Count (Pack of 1)",
+          "style": "Unscented"
+        },
+        "unavailable": true
+      }
+    ],
+    "brand": "Visit the Hefty Store",
+    "thumbnail": "https://m.media-amazon.com/images/I/81kB4aL-qBL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "thumbnails": [
+      "https://m.media-amazon.com/images/I/81kB4aL-qBL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71yAUAUdO4L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81HC8V3f0VL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71P8gJRLXvL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81GX-+qvaxL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81e4fp92UEL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71h-9+bbsCL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81KnHLEbG7L._AC_SL1500_.jpg"
+    ],
+    "rating": 4.8,
+    "reviews": 91422,
+    "bought_last_month": "100K+ bought in past month",
+    "discount": "-5%",
+    "price": "$15.52",
+    "extracted_price": 15.52,
+    "price_unit": "$0.19 / count",
+    "extracted_price_unit": 0.19,
+    "snap_ebt_eligible": true,
+    "prime": true,
+    "delivery": [
+      "FREE delivery Friday, November 6 on orders shipped by Amazon over $35",
+      "Or Prime members get FREE delivery Tomorrow, November 2. Order within 10 hrs 29 mins."
+    ],
+    "stock": "In Stock",
+    "description": "Trust Hefty Ultra Strong 13 Gallon Trash Bags to keep your kitchen waste contained—all the way from the can to the curb. Thanks to 6-in-1 Protection, these tall kitchen trash bags offer flexible strength, a secure closure, odor control technology, and resistance to leaks, punctures, and rips. The result is the highest protection you can get in flexible 13 gallon trash bags. Hefty’s stretchy strength means you don't have to worry about unexpected bag breakage and inconvenient messes when you use these tall kitchen garbage bags. A break-resistant grip drawstring makes it easy to close the bag and cart it away without incident. As a bonus, these tall trash bags include Arm and Hammer odor control technology and a Lavender and Sweet Vanilla scent to keep unpleasant smells at bay and keep your kitchen smelling fresh and clean. All Hefty trash bags are backed by a 100% satisfaction guarantee. **The ARM and HAMMER trademark is owned by Church and Dwight Co., Inc., and used by Reynolds Consumer Products LLC under license."
+  },
+  "purchase_options": {
+    "buy_new": {
+      "caption": "One-time purchase",
+      "price": "$15.52",
+      "extracted_price": 15.52,
+      "price_unit": "$0.19 / count",
+      "extracted_price_unit": 0.19,
+      "delivery": [
+        "FREE delivery Friday, November 6 on orders shipped by Amazon over $35",
+        "Or Prime members get FREE delivery Tomorrow, November 2. Order within 10 hrs 29 mins."
+      ],
+      "stock": "In Stock",
+      "features": {
+        "shipper_seller": {
+          "text": "Amazon.com",
+          "details": {
+            "heading": "Shipper / Seller",
+            "content": "Amazon.com"
+          }
+        },
+        "returns": {
+          "text": "FREE refund/replacement until Jan 31, 2027",
+          "details": {
+            "heading": "FREE refund/replacement until Jan 31, 2027",
+            "content": "For the 2026 holiday season, eligible items purchased between November 1 and December 31, 2026 can be returned until January 31, 2027."
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "payment": {
+          "text": "Secure transaction",
+          "details": {
+            "heading": "Your transaction is secure",
+            "content": "We work hard to protect your security and privacy. Our payment security system encrypts your information during transmission. We don’t share your credit card details with third-party sellers, and we don’t sell your information to others. Learn more"
+          },
+          "link": {
+            "text": "Learn more",
+            "link": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201909010"
+          }
+        }
+      }
+    },
+    "subscribe_and_save": {
+      "caption": "Subscribe & Save",
+      "price": "$14.74",
+      "extracted_price": 14.74,
+      "price_unit": "$0.18 / count",
+      "extracted_price_unit": 0.18,
+      "delivery": [
+        "FREE delivery Friday, November 6 on orders shipped by Amazon over $35",
+        "Or Prime members get FREE delivery Tomorrow, November 2. Order within 10 hrs 29 mins."
+      ],
+      "stock": "In Stock",
+      "features": {
+        "shipper_seller": {
+          "text": "Amazon.com",
+          "details": {
+            "heading": "Shipper / Seller",
+            "content": "Amazon.com"
+          }
+        },
+        "returns": {
+          "text": "FREE refund/replacement until Jan 31, 2027",
+          "details": {
+            "heading": "FREE refund/replacement until Jan 31, 2027",
+            "content": "For the 2026 holiday season, eligible items purchased between November 1 and December 31, 2026 can be returned until January 31, 2027."
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "subscription": "No fees. Skip or cancel anytime."
+      }
+    }
+  },
+  "about_item": [
+    "13 Gallon Tall Kitchen Garbage Bags: This package contains 80 Hefty Ultra Strong 13 Gallon Kitchen Trash Bags in White, Lavender and Sweet Vanilla scent",
+    "Toughness You Can Trust: Hefty’s strongest tall kitchen garbage bags deliver toughness you can trust with a secure, break-resistant drawstring and superior durability",
+    "Arm and Hammer Odor Control: Odor control technology, paired with the scent of Lavender and Sweet Vanilla, leverages the power of Arm and Hammer to fight nasty odors and keep your kitchen smelling fresh",
+    "6-in-1 Protection: These Hefty 13 gallon trash bags offer a powerful combination of six features: flex strength, tough drawstring, odor control technology, and resistance to leaks, punctures, and rips",
+    "100% Satisfaction Guarantee: We want you to be happy with your tall trash bags 13 gallon size; if you have any issues, please contact us via the hotline number on the back of the package so we can help"
+  ],
+  "product_description": [
+    {
+      "position": 1,
+      "title": "image",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/6c95d9dc-e483-4e22-830e-cacabf253297.__CR0,0,1940,1200_PT0_SX970_V1___.jpg"
+    },
+    {
+      "position": 2,
+      "title": "image",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2c2c8f61-889b-4549-95fb-1fafb0764edd.__CR0,0,1940,1200_PT0_SX970_V1___.jpg"
+    },
+    {
+      "position": 3,
+      "features": [
+        {
+          "position": 1,
+          "title": "How Strong Are These Bags?",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/4d004969-0f4e-4d83-9fdb-fccc10a99e4c.__CR0,0,440,440_PT0_SX220_V1___.jpg"
+        },
+        {
+          "position": 2,
+          "title": "Do These Bags Control Odors?",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/e328c8a6-8cab-4d63-b711-e2745ce5aa35.__CR0,0,440,440_PT0_SX220_V1___.jpg"
+        },
+        {
+          "position": 3,
+          "title": "Will These Bags Fit My Trash Can?",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/cbd1052a-1694-4af9-a37c-b988b6bca48d.__CR0,0,440,440_PT0_SX220_V1___.jpg"
+        },
+        {
+          "position": 4,
+          "title": "What Is 6-in-1 Protection?",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/8fe914ca-0879-4ff5-9a4d-55b858fc1b2a.__CR0,0,440,440_PT0_SX220_V1___.jpg"
+        }
+      ]
+    }
+  ],
+  "product_details": {
+    "capacity": "49.2 liters",
+    "unit_count": "80 Count",
+    "number_of_items": "1",
+    "item_weight": "3.5 pounds",
+    "item_dimensions": "4.4 x 9.5 x 8.9 inches",
+    "net_content_weight": "3.7 pounds",
+    "brand_name": "Hefty",
+    "recommended_uses_for_product": "Food Waste",
+    "manufacturer": "Reynolds Consumer Products",
+    "upc": "013700839672 371881996707 013700839689 746705583362 013700839764 746705583270 746705582938 013700016608 746705583744 013700838156 740642555673 772195128240 374315624245",
+    "global_trade_identification_number": "00013700016608",
+    "included_components": "Tall Kitchen Bags",
+    "item_type_name": "trash bag",
+    "manufacturer_warranty_description": "Hefty ultra strong trash bags (lavender sweet vanilla, tall kitchen drawstring, 13 gallon, 80 count).",
+    "best_sellers_rank": [
+      {
+        "text": "#56 in Health & Household (See Top 100 in Health & Household)",
+        "extracted_rank": 56,
+        "link": "https://www.amazon.com/gp/bestsellers/hpc/ref=pd_zg_ts_hpc",
+        "link_text": "See Top 100 in Health & Household"
+      },
+      {
+        "text": "#1 in Trash Bags",
+        "extracted_rank": 1,
+        "link": "https://www.amazon.com/gp/bestsellers/hpc/15342971/ref=pd_zg_hrsr_hpc",
+        "link_text": "Trash Bags"
+      },
+      {
+        "text": "#8 in Sales & Deals",
+        "extracted_rank": 8,
+        "link": "https://www.amazon.com/gp/bestsellers/hpc/120225718011/ref=pd_zg_hrsr_hpc",
+        "link_text": "Sales & Deals"
+      }
+    ],
+    "asin": "B01BZ0LXL8",
+    "rating": 4.8,
+    "reviews": 91422,
+    "material_features": "Disposable",
+    "material_type": "Plastic",
+    "color": "White",
+    "item_form": "Bag",
+    "scent": "Lavender & Sweet Vanilla",
+    "product_dimensions": "4.4 x 9.5 x 8.9 inches; 3.52 pounds",
+    "item_model_number": "Hefty",
+    "date_first_available": "February 22, 2016"
+  },
+  "reviews_information": {
+    "summary": {
+      "text": "Customers find these trash bags to be their favorite and appreciate their great scent that's not too overpowering. They consider them good value for money. The durability receives mixed feedback, with some customers reporting they never rip while others find them not durable at all.",
+      "insights": [
+        {
+          "title": "Quality",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 2400,
+            "positive": 1932,
+            "negative": 538
+          },
+          "summary": "Customers find these trash bags to be fantastic and among their favorites.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Great value and great product. Acent is clean but not overpowering. Value box is very good and easy to pull bags from. Will be ordering.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R310EA28HAI1HA"
+            },
+            {
+              "position": 2,
+              "snippet": "These bags are great and are now all we use at the house as they have a slight sent to them which is nice but they’re also durable and the straps do...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2XUFME6SDR2H"
+            },
+            {
+              "position": 3,
+              "snippet": "Good just dont like how they dont grip the garbage can. I have a 13g and I have to pull it out every once in a while",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R15J4KXHC8MYAX"
+            },
+            {
+              "position": 4,
+              "snippet": "For whatever reason, the last order of hefty trash bags were really poor quality all of the handles strings broke when tying the bag multiple of the...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2G3XTCV0TY3I4"
+            }
+          ]
+        },
+        {
+          "title": "Scent",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 2000,
+            "positive": 1679,
+            "negative": 385
+          },
+          "summary": "Customers like the waste bags' scent, finding it great and not too overpowering.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "These bags smell great but did not fit my 13 gallon kitchen trash can. The seam split every single time we tried to put a bag in the trash can....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1M2HP2Q0RQN4L"
+            },
+            {
+              "position": 2,
+              "snippet": "...my trash bags from COSTCO but I wanted to try out the Heft brand smells great but tears slightly back to my old brand but if I'm ever running low I...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1ZNKL6Z41E1LI"
+            },
+            {
+              "position": 3,
+              "snippet": "...Helps keep trash smell in bag. Love the scent. At first when opening the scent can be a little over powering but once in trash can it is perfect.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1YCY1EM78PQ57"
+            },
+            {
+              "position": 4,
+              "snippet": "...It fits in my garbage can nice and snug. It is durable smells good has a great appearance cause it’s white mess free I have not ever had one break...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1F4EUPO9DODY5"
+            }
+          ]
+        },
+        {
+          "title": "Value for money",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 947,
+            "positive": 831,
+            "negative": 116
+          },
+          "summary": "Customers find these waste bags good value for money.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "These were a great price for 80 bags. I paid more for off brand ones before. The lavender sent makes laundry smell fresh and helps with garbage odor.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R4P8D7UZWI840"
+            },
+            {
+              "position": 2,
+              "snippet": "Great value and great product. Acent is clean but not overpowering. Value box is very good and easy to pull bags from. Will be ordering.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R310EA28HAI1HA"
+            },
+            {
+              "position": 3,
+              "snippet": "Good price for incredible quality of this trash bag pack! Really strong bags and smells like flowers, easy to open and fits perfectly to use",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RIG0Z82BXJJYG"
+            },
+            {
+              "position": 4,
+              "snippet": "...Price changes a bit, but I think it's a good value. They're great as kitchen bags. I sometimes stuff them and they take it, don't rip, don't leak....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RRRQCARLCEES5"
+            }
+          ]
+        },
+        {
+          "title": "Durability",
+          "sentiment": "mixed",
+          "mentions": {
+            "total": 2300,
+            "positive": 1517,
+            "negative": 797
+          },
+          "summary": "Customers have mixed experiences with the durability of these trash bags, with some finding them super durable and noting they never rip, while others report they tear easily.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "These are a very reliable rubbish bag. They’re strong and I don’t have to worry about them breaking over the carpet between the kitchen and the door...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2B7439JG0JKKT"
+            },
+            {
+              "position": 2,
+              "snippet": "These bags are not ultra strong. Most times there is a whole in them when I pulled them out of the bin. I am not rough at all. Scratching my head....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2YYPTVN74VEOT"
+            },
+            {
+              "position": 3,
+              "snippet": "Durable and reliable. It can hold a lot without tearing. For my taste the smell is not necessary and a bit strong for those Who are sensitive....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3F9Q4JQ33RPOV"
+            },
+            {
+              "position": 4,
+              "snippet": "This was a good buy. There were 2 rolls in the box. Sturdy. Versatile, I use these for my shredding. Good closure. Compatible with anything you have....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R278Z9OOAUCIP8"
+            }
+          ]
+        }
+      ],
+      "customer_reviews": {
+        "5 star": 88,
+        "4 star": 8,
+        "3 star": 2,
+        "2 star": 0,
+        "1 star": 2
+      }
+    }
+  },
+  "related_asins": [
+    "B0FVSDX3QK",
+    "B0D7M36V8G",
+    "B0H5VTCNGS",
+    "B0BYS5WND4",
+    "B0DY7RBMF5",
+    "B0CBTGX8X2",
+    "B0H36258QZ",
+    "B07Y5R2575",
+    "B07Y5TCB7L",
+    "B09T4Q8LFZ",
+    "B09J1P2ZGP",
+    "B01BZ0MR54",
+    "B097F7XJM1",
+    "B0FVMSTJWZ"
+  ]
+}

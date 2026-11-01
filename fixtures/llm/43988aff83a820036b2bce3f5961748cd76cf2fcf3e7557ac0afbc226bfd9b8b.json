@@ -1,0 +1,129 @@
+{
+  "data": [
+    {
+      "intentId": "flavor_profile",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.7",
+          "text": "7 Delicious flavors of our Brittle Brothers Gourmet Brittles – Peanut Brittle, Bacon Peanut Brittle, Whiskey Peanut Brittle, Chocolate Covered Peanut Brittle, Cashew Brittle, Pecan Brittle & “Nashville Hot” Peanut Brittle!!!"
+        }
+      ],
+      "value": "Peanut Brittle, Bacon Peanut Brittle, Whiskey Peanut Bristle, Chocolate Covered Peanut Brittle, Cashew Brittle, Pecan Brittle & “Nashville Hot” Peanut Brittle"
+    },
+    {
+      "intentId": "nut_to_sugar_ratio",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "4 x’s more Nuts: We pride ourselves on adding as many nuts to our brittles as possible."
+        }
+      ],
+      "value": "4 x's more Nuts"
+    },
+    {
+      "intentId": "allergen_information",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.allergen_information",
+          "text": "Allergen information: Peanuts"
+        }
+      ],
+      "value": "Peanuts"
+    },
+    {
+      "intentId": "artificial_ingredients",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "ALL NATURAL: No preservatives, no artificial coloring, no artificial flavorings."
+        }
+      ],
+      "value": "No preservatives, no artificial coloring, no artificial flavorings."
+    },
+    {
+      "intentId": "packaging_type",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Gift Box"
+        }
+      ],
+      "value": "Gift Box"
+    },
+    {
+      "intentId": "gift_suitability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Gift Box"
+        },
+        {
+          "fieldId": "bullet.3",
+          "text": "GREAT GIFT IDEA: The perfect gift, for any occasion"
+        }
+      ],
+      "value": "Gift Box, The perfect gift, for any occasion"
+    },
+    {
+      "intentId": "shelf_life_and_freshness",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "serving_size_and_calories",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "16 ounces"
+        }
+      ],
+      "value": "16 ounces"
+    },
+    {
+      "intentId": "butter_and_sweetener_type",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "reducing the amount of sugar and corn syrup in his brittle"
+        },
+        {
+          "fieldId": "description.1",
+          "text": "sweet and savory layer of buttery, golden brittle"
+        }
+      ],
+      "value": "sugar, corn syrup, buttery, golden brittle"
+    },
+    {
+      "intentId": "dietary_restrictions",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "sharing_and_party_use",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "sure to please even the most finicky of recipients."
+        }
+      ],
+      "value": "sure to please even the most finicky of recipients."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+brittle@estimated-1",
+  "usage": {
+    "inputTokens": 1945,
+    "outputTokens": 957
+  },
+  "latencyMs": 2649,
+  "cached": false
+}

@@ -1,0 +1,761 @@
+{
+  "product_results": {
+    "categories": [
+      {
+        "position": 1,
+        "name": "Automotive",
+        "link": "https://www.amazon.com/automotive-auto-truck-replacements-parts/b/ref=dp_bc_1?ie=UTF8&node=15684181",
+        "node": "15684181",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15684181"
+      },
+      {
+        "position": 2,
+        "name": "Car Care",
+        "link": "https://www.amazon.com/Car-Care-Automotive/b/ref=dp_bc_2?ie=UTF8&node=15718271",
+        "node": "15718271",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15718271"
+      },
+      {
+        "position": 3,
+        "name": "Tools & Equipment",
+        "link": "https://www.amazon.com/Tools-Equipment/b/ref=dp_bc_3?ie=UTF8&node=15718651",
+        "node": "15718651",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15718651"
+      },
+      {
+        "position": 4,
+        "name": "Cloths",
+        "link": "https://www.amazon.com/Cleaning-Cloths-Towels/b/ref=dp_bc_4?ie=UTF8&node=15718681",
+        "node": "15718681",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15718681"
+      },
+      {
+        "position": 5,
+        "name": "Microfiber",
+        "link": "https://www.amazon.com/Cleaning-Microfiber/b/ref=dp_bc_5?ie=UTF8&node=15718721",
+        "node": "15718721",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15718721"
+      }
+    ],
+    "asin": "B009FUF6DM",
+    "title": "Amazon Basics Microfiber Cleaning Cloths, Ultra Absorbent, Lint Free, Streak Free, Non-Abrasive, Reusable and Washable, 16\" x 12\", Blue/White/Yellow, Pack of 24",
+    "link": "https://www.amazon.com/hp/wlp/pipeline/membersignup?ref=primedp_ventures_desktopBelowThreshold&primeCampaignId=primedp_ventures_desktopBelowThreshold",
+    "link_clean": "https://www.amazon.com/dp/B009FUF6DM/",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B009FUF6DM&device=desktop&engine=amazon_product",
+    "variants": [
+      {
+        "title": "Color",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B009FUF6DM",
+            "name": "Blue/White/Yellow",
+            "image": "https://m.media-amazon.com/images/I/51WuT5As98L._SS64_.jpg",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B009FUF6DM&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B082XSJT1R",
+            "name": "Green/Gray/Pink",
+            "image": "https://m.media-amazon.com/images/I/61fHP1YuJFL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B082XSJT1R&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B0H4F9RFQW",
+            "name": "Blue/White/Yellow (Pack of 24)",
+            "image": "https://m.media-amazon.com/images/I/51WuT5As98L._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0H4F9RFQW&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 4,
+            "asin": "B0FD7TT4GB",
+            "name": "Blue/White/Yellow (Pack of 36)",
+            "image": "https://m.media-amazon.com/images/I/51WuT5As98L._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FD7TT4GB&device=desktop&engine=amazon_product"
+          }
+        ]
+      },
+      {
+        "title": "Size",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B009FUFBTG",
+            "name": "36-Pack",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B009FUFBTG&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B009FUFD1C",
+            "name": "144-Pack",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B009FUFD1C&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B009FUF6DM",
+            "name": "24-Pack",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B009FUF6DM&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 4,
+            "asin": "B009FUFCDQ",
+            "name": "48-Pack",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B009FUFCDQ&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 5,
+            "asin": "B0FD7TT4GB",
+            "name": "Pack of 288",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FD7TT4GB&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 6,
+            "asin": "B0H4F9RFQW",
+            "name": "288_Pack",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0H4F9RFQW&device=desktop&engine=amazon_product"
+          }
+        ]
+      }
+    ],
+    "variant_combinations": [
+      {
+        "dimensions": {
+          "color": "Blue/White/Yellow",
+          "size": "36-Pack"
+        },
+        "asin": "B009FUFBTG",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B009FUFBTG&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Blue/White/Yellow",
+          "size": "144-Pack"
+        },
+        "asin": "B009FUFD1C",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B009FUFD1C&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Blue/White/Yellow",
+          "size": "24-Pack"
+        },
+        "asin": "B009FUF6DM",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B009FUF6DM&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Blue/White/Yellow",
+          "size": "48-Pack"
+        },
+        "asin": "B009FUFCDQ",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B009FUFCDQ&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Blue/White/Yellow",
+          "size": "Pack of 288"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Blue/White/Yellow",
+          "size": "288_Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Blue/White/Yellow (Pack of 24)",
+          "size": "36-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Blue/White/Yellow (Pack of 24)",
+          "size": "144-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Blue/White/Yellow (Pack of 24)",
+          "size": "24-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Blue/White/Yellow (Pack of 24)",
+          "size": "48-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Blue/White/Yellow (Pack of 24)",
+          "size": "Pack of 288"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Blue/White/Yellow (Pack of 24)",
+          "size": "288_Pack"
+        },
+        "asin": "B0H4F9RFQW",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0H4F9RFQW&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Blue/White/Yellow (Pack of 36)",
+          "size": "36-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Blue/White/Yellow (Pack of 36)",
+          "size": "144-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Blue/White/Yellow (Pack of 36)",
+          "size": "24-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Blue/White/Yellow (Pack of 36)",
+          "size": "48-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Blue/White/Yellow (Pack of 36)",
+          "size": "Pack of 288"
+        },
+        "asin": "B0FD7TT4GB",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FD7TT4GB&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Blue/White/Yellow (Pack of 36)",
+          "size": "288_Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Green/Gray/Pink",
+          "size": "36-Pack"
+        },
+        "asin": "B082XSXLZC",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B082XSXLZC&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Green/Gray/Pink",
+          "size": "144-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Green/Gray/Pink",
+          "size": "24-Pack"
+        },
+        "asin": "B082XSJT1R",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B082XSJT1R&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Green/Gray/Pink",
+          "size": "48-Pack"
+        },
+        "asin": "B082XSXNJ5",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B082XSXNJ5&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Green/Gray/Pink",
+          "size": "Pack of 288"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Green/Gray/Pink",
+          "size": "288_Pack"
+        },
+        "unavailable": true
+      }
+    ],
+    "brand": "Visit the Amazon Basics Store",
+    "thumbnail": "https://m.media-amazon.com/images/I/91WjG1lqmLL._AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "thumbnails": [
+      "https://m.media-amazon.com/images/I/91WjG1lqmLL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71tJ4-NhnnL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81zroTORvPL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71BbEHDMGzL._AC_SL1258_.jpg",
+      "https://m.media-amazon.com/images/I/81bm9IE0ZnL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81-j35gGAwL._AC_SL1500_.jpg"
+    ],
+    "rating": 4.7,
+    "reviews": 88702,
+    "bought_last_month": "20K+ bought in past month",
+    "discount": "-10%",
+    "price": "$10.38",
+    "extracted_price": 10.38,
+    "price_unit": "$0.43 / count",
+    "extracted_price_unit": 0.43,
+    "promotions": [
+      {
+        "type": "prime",
+        "text": "Prime Savings Save 10%",
+        "discount_percent": 10,
+        "eligibility": "Prime members",
+        "link": "https://www.amazon.com/promotion/psp/A1YT6EDNFRE1E0?ref=psp_external&redirectAsin=B009FUF6DM&redirectMerchantId=ATVPDKIKX0DER&ref=cxcw_psp_A1YT6EDNFRE1E0&source=dp_cxcw"
+      }
+    ],
+    "offers": [
+      "Prime Savings Save 10% on 4 select item(s)"
+    ],
+    "delivery": [
+      "FREE delivery Friday, November 6 on orders shipped by Amazon over $35",
+      "Or Prime members get FREE delivery Tomorrow, November 2. Order within 10 hrs 29 mins."
+    ],
+    "stock": "In Stock",
+    "description": "Amazon Basics Microfiber Cleaning Cloths, Non-Abrasive, Reusable and Washable - Pack of 24, 12 x16-Inch, Blue, White and Yellow"
+  },
+  "purchase_options": {
+    "buy_new": {
+      "caption": "One-time purchase",
+      "price": "$10.38",
+      "extracted_price": 10.38,
+      "price_unit": "$0.43 / count",
+      "extracted_price_unit": 0.43,
+      "delivery": [
+        "FREE delivery Friday, November 6 on orders shipped by Amazon over $35",
+        "Or Prime members get FREE delivery Tomorrow, November 2. Order within 10 hrs 29 mins."
+      ],
+      "stock": "In Stock",
+      "features": {
+        "shipper_seller": {
+          "text": "Amazon.com",
+          "details": {
+            "heading": "Shipper / Seller",
+            "content": "Amazon.com"
+          }
+        },
+        "returns": {
+          "text": "FREE refund/replacement until Jan 31, 2027",
+          "details": {
+            "heading": "FREE refund/replacement until Jan 31, 2027",
+            "content": "For the 2026 holiday season, eligible items purchased between November 1 and December 31, 2026 can be returned until January 31, 2027."
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "packaging": {
+          "text": "Ships in product packaging",
+          "details": {
+            "heading": "Ships in product packaging",
+            "content": "This item has been tested to certify it can ship safely in its original box or bag to avoid unnecessary packaging. Since 2015, we have reduced the weight of outbound packaging per shipment by 41% on average, that’s over 2 million tons of packaging material.If you still require Amazon packaging for this item, choose \"Ship in Amazon packaging\" at checkout. Learn more"
+          },
+          "link": {
+            "text": "Learn more",
+            "link": "https://www.amazon.com/sipp_home"
+          }
+        }
+      }
+    },
+    "subscribe_and_save": {
+      "caption": "Subscribe & Save",
+      "price": "$9.34",
+      "extracted_price": 9.34,
+      "price_unit": "$0.39 / count",
+      "extracted_price_unit": 0.39,
+      "delivery": [
+        "FREE delivery Friday, November 6 on orders shipped by Amazon over $35",
+        "Or Prime members get FREE delivery Tomorrow, November 2. Order within 10 hrs 29 mins."
+      ],
+      "stock": "In Stock",
+      "features": {
+        "shipper_seller": {
+          "text": "Amazon.com",
+          "details": {
+            "heading": "Shipper / Seller",
+            "content": "Amazon.com"
+          }
+        },
+        "returns": {
+          "text": "FREE refund/replacement until Jan 31, 2027",
+          "details": {
+            "heading": "FREE refund/replacement until Jan 31, 2027",
+            "content": "For the 2026 holiday season, eligible items purchased between November 1 and December 31, 2026 can be returned until January 31, 2027."
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "subscription": "No fees. Skip or cancel anytime."
+      }
+    }
+  },
+  "item_specifications": {
+    "brand": "Amazon Basics",
+    "material": "Microfiber",
+    "color": "Blue/White/Yellow",
+    "special_feature": "Durable,Reusable and Washable",
+    "item_package_quantity": "1",
+    "item_weight": "0.01 kg",
+    "number_of_items": "1",
+    "global_trade_identification_number": "00841710104554",
+    "manufacturer": "Amazon Basics, this product may originate from China or Cambodia",
+    "upc": "841710104554 885755921844"
+  },
+  "about_item": [
+    "MATERIAL & CONSTRUCTION: Made of microfiber with ultra-soft & non-abrasive design that will not scratch paints, vinyl, glass, finishes or other surfaces",
+    "SIZE & QUANTITY: Each rectangular cleaning cloth measures 40.6 by 30.5 inches; sold as a pack of 24 towels for multiple cleaning tasks & extended supply",
+    "ABSORBENCY & PERFORMANCE: Soaks up 8 times their own weight; cleans effectively either dry or with liquid cleaners for streak-free results & a lint-free shine",
+    "DURABLE & REUSABLE: Built for long-lasting use with durable construction; can be reused hundreds of times while maintaining softness & cleaning effectiveness",
+    "EASY CARE: Machine washable for convenient maintenance; wash separately before first use & wash with like colors to preserve quality",
+    "VERSATILE USE: Amazon Basics microfiber cleaning towels great for cleaning cars, trucks, boats & more without scratching"
+  ],
+  "product_details": {
+    "brand_name": "Amazon Basics",
+    "global_trade_identification_number": "00841710104554",
+    "manufacturer": "Amazon Basics, this product may originate from China or Cambodia",
+    "upc": "841710104554 885755921844",
+    "unit_count": "24 Count",
+    "item_type_name": "Microfiber Cleaning Cloth",
+    "best_sellers_rank": [
+      {
+        "text": "#12 in Automotive (See Top 100 in Automotive)",
+        "extracted_rank": 12,
+        "link": "https://www.amazon.com/gp/bestsellers/automotive/ref=pd_zg_ts_automotive",
+        "link_text": "See Top 100 in Automotive"
+      },
+      {
+        "text": "#2 in Exterior Car Care Microfiber Cloths",
+        "extracted_rank": 2,
+        "link": "https://www.amazon.com/gp/bestsellers/automotive/15718721/ref=pd_zg_hrsr_automotive",
+        "link_text": "Exterior Car Care Microfiber Cloths"
+      },
+      {
+        "text": "#2 in Reuseable Cleaning Cloths",
+        "extracted_rank": 2,
+        "link": "https://www.amazon.com/gp/bestsellers/hpc/15524361011/ref=pd_zg_hrsr_hpc",
+        "link_text": "Reuseable Cleaning Cloths"
+      }
+    ],
+    "asin": "B009FUF6DM",
+    "customer_reviews": "4.7 out of 5 stars",
+    "rating": 4.7,
+    "reviews": 88702,
+    "package_quantity": "1",
+    "item_weight": "0.01 kg",
+    "number_of_items": "1",
+    "material_type": "Microfiber",
+    "color": "Blue/White/Yellow",
+    "other_special_features_of_the_product": "Durable,Reusable and Washable"
+  },
+  "reviews_information": {
+    "summary": {
+      "text": "Customers find these cleaning cloths to be of good quality, offering great value for money and performing excellently for general cleaning tasks. They are durable, holding up well after washing, and customers appreciate their softness, with one noting they're gentle enough for wiping hands and mouths. The washability receives positive feedback for being easy to clean and wring out, though opinions about size are mixed, with some finding them great for most cleaning projects while others say they're much smaller than expected. The thickness receives mixed reviews, with several customers finding them somewhat thin.",
+      "insights": [
+        {
+          "title": "Quality",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 4500,
+            "positive": 3886,
+            "negative": 672
+          },
+          "summary": "Customers find these cleaning cloths to be of high quality, describing them as great rags and towels.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "☆★☆★☆ THANK YOU!! HIGHLY RECOMMENDED!!! FIVE STARS!!! ☆★☆★☆",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1GGMXL8XXKQ1L"
+            },
+            {
+              "position": 2,
+              "snippet": "...They are soft, absorbent, the perfect thickness, dry quickly and a good quality and you get a large amount. Works great for my needs.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RDLHZ65TBBTY3"
+            },
+            {
+              "position": 3,
+              "snippet": "Great seller, great product. Hubby loves them for the garage, I love using them in the kitchen and bathrooms. Wash well with no shrinkage.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1XT0AL85EADT8"
+            },
+            {
+              "position": 4,
+              "snippet": "These are great! With price increases these will drastically reduce my paper towel use!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3OJZP3DL0SMFJ"
+            }
+          ]
+        },
+        {
+          "title": "Value for money",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 2300,
+            "positive": 2178,
+            "negative": 193
+          },
+          "summary": "Customers find these cleaning cloths to be good value for money, offering great quality for the price.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Great value, works well. Do NOT wash with other laundry unless in a laundry bag. These will cling to towels and other clothes and pick them up....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/ROX5W466AEFW2"
+            },
+            {
+              "position": 2,
+              "snippet": "Great dusting or drying or cleaning clothes. Great price too . I got the odd color selection so that no one would use them in the garage!!!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R39PV9WEOS11TN"
+            },
+            {
+              "position": 3,
+              "snippet": "Good value and good microfiber cloths. A drop of water on these cleans fingerprint resistant stainless appliances well without chemicals....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RWMAPPTC4H9G0"
+            },
+            {
+              "position": 4,
+              "snippet": "Good price, works well for cleaning. A bit thinner than other microfiber cloths I've bought before but not a deal breaker.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RNVBLTV5YZQUG"
+            }
+          ]
+        },
+        {
+          "title": "Cleaning performance",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 1400,
+            "positive": 1334,
+            "negative": 73
+          },
+          "summary": "Customers find these cleaning cloths excellent for general cleaning, with one customer specifically mentioning they work well for dusting and drying dishes.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "These are great for cleaning, but I mostly love them to clean my glasses! I keep one in my room, car, purse, etc.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R34KD36B8Y5RZT"
+            },
+            {
+              "position": 2,
+              "snippet": "These are great cleaning cloths. I washed them as instructed and they are so soft. Nice big size and does a great job cleaning up around my place....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2M2KPLLHTHXF3"
+            },
+            {
+              "position": 3,
+              "snippet": "They are perfect for cleaning, reusable . The price is good",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2GP3UBBRPQIRQ"
+            },
+            {
+              "position": 4,
+              "snippet": "These are GREAT for dusting. They even pick up accumulated dust! I absolutely LOVE them! They’re scratch resistant, nice and thick, and easy to use.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1AQ9LF76DW4DB"
+            }
+          ]
+        },
+        {
+          "title": "Durability",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 760,
+            "positive": 552,
+            "negative": 208
+          },
+          "summary": "Customers find these cleaning cloths durable, noting they hold up well after washing and come out like new.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...They are soft and durable. They are good thickness, not thin but easy to use. I’ve used a few to clean the kitchen and they did not disappoint....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R32ZG1XK42P4O7"
+            },
+            {
+              "position": 2,
+              "snippet": "...These microfiber cloths are the best! Good size, very durable and edges are sewn finished....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2N6CO9KMCQXWO"
+            },
+            {
+              "position": 3,
+              "snippet": "These were too thin and flimsy. Returned Bought these instead...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3VTFCWUS7SXVP"
+            },
+            {
+              "position": 4,
+              "snippet": "These microfiber towels are great for any kind of use! Very soft and sturdy.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RYKZGZL85ABZS"
+            }
+          ]
+        },
+        {
+          "title": "Softness",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 734,
+            "positive": 540,
+            "negative": 194
+          },
+          "summary": "Customers find these cleaning cloths soft and gentle, with one customer noting they are suitable for wiping hands, mouths, and spills, while another mentions they are gentle on TVs and wood surfaces.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "I bought these to dry my face after washing it. They are soft, absorbent, the perfect thickness, dry quickly and a good quality and you get a large...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RDLHZ65TBBTY3"
+            },
+            {
+              "position": 2,
+              "snippet": "They are very soft , hold alot of moisture, the thickness is perfect, they don't smell at all and come in very pretty colors.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RCEI80943S29Z"
+            },
+            {
+              "position": 3,
+              "snippet": "...I opened these today and they felt so sticky and rough that I can't even touch the towels. Worse material I've ever touched ewe....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R20ZGVUIR95A13"
+            },
+            {
+              "position": 4,
+              "snippet": "These microfiber cloths are fantastic! Super soft, very absorbent, and perfect for cleaning all kinds of surfaces—counters, mirrors, electronics,...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3R98OR38TJ26N"
+            }
+          ]
+        },
+        {
+          "title": "Washability",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 731,
+            "positive": 643,
+            "negative": 88
+          },
+          "summary": "Customers find these cleaning cloths washable and quick-drying, with the ability to wring them out very well.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...Much better at cleaning than a sponge, and so easy to clean by just dropping them in the laundry. Just one tip - DON'T USE FABRIC SOFTENER ON THEM!...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R16HOHGNB09DQ1"
+            },
+            {
+              "position": 2,
+              "snippet": "...They’re also washable, and even after multiple cycles, they hold up well. For the amount of towels you get, the price is honestly unbeatable....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1300NTRE4OF0U"
+            },
+            {
+              "position": 3,
+              "snippet": "We use them for everything! Non scratching, wash well, even keep one in the car glove compartment for wiping the dull coating deposited on the...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1R366TFK7Y03"
+            },
+            {
+              "position": 4,
+              "snippet": "...They’re easy to wash and reuse, so they last a long time. A pack of 24 at this price was a no brainer. I'll buy more for sure.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3TCBHSL1NQ05P"
+            }
+          ]
+        },
+        {
+          "title": "Size",
+          "sentiment": "mixed",
+          "mentions": {
+            "total": 766,
+            "positive": 465,
+            "negative": 301
+          },
+          "summary": "Customers have mixed opinions about the size of these cleaning cloths, with some finding them great for most cleaning projects while others note they are much smaller than expected.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...They work great. Because they are small and there were many included in my order, I generally use them once or twice and then throw them in the wash....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R10RERKKQ2KQ2N"
+            },
+            {
+              "position": 2,
+              "snippet": "Too small!!!! useless,",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R33O1PNCP7ZU7H"
+            },
+            {
+              "position": 3,
+              "snippet": "...They are a good size and work fine. If you are looking for high quality microfiber cloths I would go with different ones....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R28RIFZM47H2A8"
+            },
+            {
+              "position": 4,
+              "snippet": "These are great microfiber towels - perfect size and absorbent (once you wash them). Great price considering how many towels are included.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2B0P1VZ99UBC0"
+            }
+          ]
+        },
+        {
+          "title": "Thickness",
+          "sentiment": "negative",
+          "mentions": {
+            "total": 727,
+            "positive": 189,
+            "negative": 538
+          },
+          "summary": "Customers find the cleaning cloths somewhat thin and not very dense, with one customer noting that the white ones are thinner than the blue or yellow ones.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...These are thin. Good size, but sort of semi-disposable type of microfiber. Definitely not for car detailing....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3DQJ8VCWE0OH4"
+            },
+            {
+              "position": 2,
+              "snippet": "Poor quality, a really long annoying tag inside that I had to cutoff, very thin compared to other Microfiber towel brands. I will not repurchase.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RUOS7B9S42Q4O"
+            },
+            {
+              "position": 3,
+              "snippet": "Soft, thick and doesn’t leave lint behind. I’m an upscale hotel housekeeper and these are just as good, if not better, than the ones at work....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3SKXR1K8AO3ZB"
+            },
+            {
+              "position": 4,
+              "snippet": "These were too thin and flimsy. Returned Bought these instead...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3VTFCWUS7SXVP"
+            }
+          ]
+        }
+      ],
+      "customer_reviews": {
+        "5 star": 80,
+        "4 star": 13,
+        "3 star": 5,
+        "2 star": 1,
+        "1 star": 1
+      }
+    }
+  },
+  "related_asins": [
+    "B0DGXK5VBB",
+    "B0CXHX237G",
+    "B09WHCHQWR",
+    "B0D8W1ZBBS",
+    "B07TYPC5ZW",
+    "B0BW8RS1G7",
+    "B017GAGHMQ",
+    "B0C22XLBDM",
+    "B07NDHL9TM",
+    "B08BRJHJF9",
+    "B07ZF9GTCJ",
+    "B0GXDWNFQ5",
+    "B0FM86H5SW",
+    "B0GS15X4F3"
+  ]
+}

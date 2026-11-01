@@ -1,0 +1,147 @@
+{
+  "asin": "B00275BB6S",
+  "promptVersion": "transcribe@2026-10-27.1",
+  "model": "gemini-3.5-flash-lite",
+  "usage": {
+    "inputTokens": 15807,
+    "outputTokens": 1167
+  },
+  "images": 16,
+  "skippedImageIds": [
+    "img.12",
+    "img.14"
+  ],
+  "modelOutput": [
+    {
+      "imageId": "img.0",
+      "claims": [
+        "Sustainable and 100% biodegradable",
+        "4-Pack",
+        "Swedish dishcloth",
+        "Good clean fun",
+        "Reusable and easy to clean",
+        "Replaces Paper Towels and Sponges."
+      ]
+    },
+    {
+      "imageId": "img.1",
+      "claims": []
+    },
+    {
+      "imageId": "img.2",
+      "claims": [
+        "Streak-free cleaning for the whole house, not just the kitchen",
+        "UNBEATABLE ON EVERY SURFACE",
+        "BATHROOM MIRROR",
+        "COFFEE TABLE",
+        "OUTDOOR FURNITURE",
+        "CAR DASHBOARD"
+      ]
+    },
+    {
+      "imageId": "img.3",
+      "claims": [
+        "Absorbs 15 times its weight in seconds!",
+        "ULTIMATE ABSORBENCY",
+        "PREMIUM QUALITY GUARANTEED",
+        "U.S OWNED BUSINESS SINCE 2007",
+        "SAFE FOR FAMILY AND PLANET",
+        "WOMEN OWNED"
+      ]
+    },
+    {
+      "imageId": "img.4",
+      "claims": [
+        "100% ODORLESS & FAST DRYING.",
+        "Dries lightning-fast to prevent bacteria growth for instant sanitizing!",
+        "MACHINE WASHABLE",
+        "MICROWAVE SAFE"
+      ]
+    },
+    {
+      "imageId": "img.5",
+      "claims": [
+        "PREMIUM QUALITY ZERO GUILT",
+        "WOMEN OWNED",
+        "MADE IN GERMANY",
+        "100% BIODEGRADABLE 100% COMPOSTTABLE",
+        "OEKO-TEX® CONFIDENCE IN TEXTILES STANDARD 100",
+        "CLIMATE PLEDGE FRIENDLY"
+      ]
+    },
+    {
+      "imageId": "img.6",
+      "claims": [
+        "Stays intact without messy flakes",
+        "EASY CLEANUP HAPPY MOMENTS",
+        "30% COTTON Boosts Strength",
+        "70% CELLULOSE Helps in Absorption",
+        "No Crumbling. No Shedding. Just Reliability!"
+      ]
+    },
+    {
+      "imageId": "img.7",
+      "claims": [
+        "A thoughtful gift that makes mom smile",
+        "PERFECT GIFT FOR MOM"
+      ]
+    },
+    {
+      "imageId": "img.8",
+      "claims": [
+        "Eco-friendly and sustainable",
+        "Dishwasher and microwave safe",
+        "No odor, no shredding",
+        "15X absorbent then its size",
+        "Multi-surface and multi-purpose",
+        "Long-lasting and superior quality (EU)",
+        "Not just cellulose but cotton riched",
+        "Trusted by thousands of customers"
+      ]
+    },
+    {
+      "imageId": "img.9",
+      "claims": [
+        "8\"",
+        "7\""
+      ]
+    },
+    {
+      "imageId": "img.10",
+      "claims": [
+        "Eco-conscious and reusable, Skoy Cloths are designed as a healthy replacement for sponges and paper towels.",
+        "Skoy Cloths are made in Germany from a unique combination of cotton and wood pulp cellulose harvested from sustainable forests."
+      ]
+    },
+    {
+      "imageId": "img.11",
+      "claims": [
+        "Good clean fun includes eleven designs in assorted colors",
+        "Reusable",
+        "Machine-washable",
+        "Absorbs 15-times its own weight",
+        "Healthier than sponges and disposables",
+        "Breaks down naturally over time"
+      ]
+    },
+    {
+      "imageId": "img.13",
+      "claims": [
+        "Breaks Down Naturally Over Time",
+        "Reusable, absorbs 15 times own weight. The Skoy Cloth is a environment-friendly, chlorine-free and unbleached cleaning cloth that will outlast 15 rolls of paper towel! It is made using water-based colors and ink.",
+        "A single Skoy Cloth can outlast 15 paper towel rolls."
+      ]
+    },
+    {
+      "imageId": "img.15",
+      "claims": [
+        "Two moms revolutionize kitchen cleaning - just for skoj*",
+        "Michelle Lundqvist and Karen Petersen launched Skoy in sunny Encinitas, California with the introduction of the Skoy Cloth in 2007.",
+        "It was the first in a line of indispensable Skoy products designed to outlast and outperform traditional and disposable alternatives - in style.",
+        "Skoy products combine unique materials and vibrant designs for refreshingly colorful and eco-conscious approach to everyday cleaning.",
+        "It's good clean fun!",
+        "* Skoj: Pronounced Skoy is Swedish for fun!"
+      ]
+    }
+  ]
+}

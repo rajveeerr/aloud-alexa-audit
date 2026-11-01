@@ -1,0 +1,141 @@
+{
+  "data": [
+    {
+      "intentId": "tank_capacity_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "4 Gallon"
+        }
+      ],
+      "value": "4 Gallon"
+    },
+    {
+      "intentId": "motor_horsepower",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "3 HP"
+        }
+      ],
+      "value": "3 HP"
+    },
+    {
+      "intentId": "wet_and_dry_pickup",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "reusable cloth filter, foam wet filter, and locking hose"
+        }
+      ],
+      "value": "reusable cloth filter, foam wet filter, and locking hose"
+    },
+    {
+      "intentId": "blower_feature",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "tank_material",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Stainless Steel"
+        }
+      ],
+      "value": "Stainless Steel"
+    },
+    {
+      "intentId": "included_accessories_and_nozzles",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "reusable cloth filter, foam wet filter, and locking hose, plus multiple nozzles and extension wands"
+        }
+      ],
+      "value": "reusable cloth filter, foam wet filter, and locking hose, plus multiple nozzles and extension wands"
+    },
+    {
+      "intentId": "hose_length_and_reach",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.hose_length",
+          "text": "72 inches"
+        }
+      ],
+      "value": "72 inches"
+    },
+    {
+      "intentId": "cord_length_and_storage",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "liquid_drain_port",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "portability_and_wheels",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "Equipped with sturdy wheels and a lightweight frame"
+        }
+      ],
+      "value": "Equipped with sturdy wheels and a lightweight frame"
+    },
+    {
+      "intentId": "filter_types_included",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "reusable cloth filter, foam wet filter"
+        }
+      ],
+      "value": "reusable cloth filter, foam wet filter"
+    },
+    {
+      "intentId": "noise_level",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "suction_power_cfm",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "builder_and_jobsite_durability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "ideal for home, garage, or job site cleaning tasks"
+        }
+      ],
+      "value": "ideal for home, garage, or job site cleaning tasks"
+    },
+    {
+      "intentId": "warranty_coverage",
+      "status": "missing",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+wet-dry-shop-vacuums@estimated-1",
+  "usage": {
+    "inputTokens": 1842,
+    "outputTokens": 946
+  },
+  "latencyMs": 2548,
+  "cached": false
+}

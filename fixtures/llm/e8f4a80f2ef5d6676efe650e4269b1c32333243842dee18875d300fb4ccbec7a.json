@@ -1,0 +1,104 @@
+{
+  "data": [
+    {
+      "intentId": "tabletop_dimensions",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "34 inch by 23.6 inch"
+        }
+      ],
+      "value": "34 inch by 23.6 inch"
+    },
+    {
+      "intentId": "maximum_tilt_angle",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "0-60 degrees"
+        }
+      ],
+      "value": "0-60 degrees"
+    },
+    {
+      "intentId": "height_adjustability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "28 inch to 35.8 inch"
+        }
+      ],
+      "value": "28 inch to 35.8 inch"
+    },
+    {
+      "intentId": "weight_capacity",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "material_composition",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "durable steel and wood"
+        }
+      ],
+      "value": "steel and wood"
+    },
+    {
+      "intentId": "pencil_ledge_included",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Pencil Ledge on the table can ensure the pencil and drawing paper do not fall"
+        }
+      ],
+      "value": "Pencil Ledge"
+    },
+    {
+      "intentId": "included_stool",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "comfortable 20 inch high stool"
+        }
+      ],
+      "value": "stool"
+    },
+    {
+      "intentId": "storage_features",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "2 slide-out drawers and a storage shelf under the main table"
+        }
+      ],
+      "value": "2 slide-out drawers and a storage shelf"
+    },
+    {
+      "intentId": "glass_top_compatibility",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "wheel_mobility_locks",
+      "status": "not_applicable",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+drafting-tables@estimated-1",
+  "usage": {
+    "inputTokens": 2433,
+    "outputTokens": 674
+  },
+  "latencyMs": 2443,
+  "cached": false
+}

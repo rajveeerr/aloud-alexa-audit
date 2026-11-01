@@ -1,0 +1,61 @@
+{
+  "data": [
+    {
+      "intentId": "surface_safety",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.6",
+          "text": "Streak-free cleaning for the whole house, not just the kitchen"
+        },
+        {
+          "id": "ic.27",
+          "text": "Stays intact without messy flakes"
+        }
+      ],
+      "draft": "SCRATCH-FREE CLEANING - Designed for streak-free cleaning for the whole house, staying intact without messy flakes on delicate surfaces."
+    },
+    {
+      "intentId": "lint_free_performance",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.6",
+          "text": "Streak-free cleaning for the whole house, not just the kitchen"
+        },
+        {
+          "id": "ic.31",
+          "text": "No Crumbling. No Shedding. Just Reliability!"
+        },
+        {
+          "id": "ic.36",
+          "text": "No odor, no shredding"
+        }
+      ],
+      "draft": "NO SHEDDING OR STREAKS - Offers streak-free cleaning with no crumbling, no shedding, and just reliability."
+    },
+    {
+      "intentId": "grease_removal",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "bullet.3",
+          "text": "HIGHLY ABSORBENT DISHCLOTHS - With an absorption factor of 15x its own weight, our kitchen washcloths are perfect for wiping up spills and drying dishes. These dishcloths are the ultimate kitchen helpers!"
+        },
+        {
+          "id": "bullet.4",
+          "text": "VERSATILE WASH CLOTH FOR CLEANING - The Skoy reusable cleaning cloths are not just for the kitchen. It's also great for cleaning appliances, dusting surfaces, and more. It's the only cleaning cloth you'll ever need!"
+        }
+      ],
+      "draft": "VERSATILE CLEANING POWER - With high absorption and versatility, these cloths are great for cleaning appliances and wiping up kitchen messes."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.2",
+  "usage": {
+    "inputTokens": 2798,
+    "outputTokens": 520
+  },
+  "latencyMs": 3146,
+  "cached": false
+}

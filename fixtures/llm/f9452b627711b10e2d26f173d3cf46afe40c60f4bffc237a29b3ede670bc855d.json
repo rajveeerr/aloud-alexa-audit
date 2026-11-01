@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "intentId": "piece_count_and_items",
+      "unsupported": [
+        "Set includes"
+      ],
+      "answersQuestion": true
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "faithfulness@2026-10-27.2",
+  "usage": {
+    "inputTokens": 217,
+    "outputTokens": 48
+  },
+  "latencyMs": 1111,
+  "cached": false
+}

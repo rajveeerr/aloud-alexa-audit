@@ -1,0 +1,320 @@
+{
+  "data": [
+    {
+      "claimId": "ic.0",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "36''W x 24''D"
+        }
+      ],
+      "intentId": "tabletop_dimensions"
+    },
+    {
+      "claimId": "ic.1",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "36''W"
+        }
+      ],
+      "intentId": "tabletop_dimensions"
+    },
+    {
+      "claimId": "ic.2",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "flat surface to a 23-, 46-, 70-, and 90-degree angle"
+        }
+      ],
+      "intentId": "maximum_tilt_angle"
+    },
+    {
+      "claimId": "ic.3",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.maximum_weight_recommendation",
+          "text": "25 pounds"
+        }
+      ],
+      "intentId": "weight_capacity"
+    },
+    {
+      "claimId": "ic.4",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "24''D"
+        }
+      ],
+      "intentId": "tabletop_dimensions"
+    },
+    {
+      "claimId": "ic.5",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "24\"-wide pencil ledge"
+        }
+      ],
+      "intentId": "pencil_ledge_included"
+    },
+    {
+      "claimId": "ic.6",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "36\" H"
+        }
+      ],
+      "intentId": "height_adjustability"
+    },
+    {
+      "claimId": "ic.7",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Classic antique design and finish that is reminiscent of turn-of-the-century furnishings"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.8",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Designed with a built-in pencil groove and 24\"-wide pencil ledge for storing writing utensils and canvases"
+        }
+      ],
+      "intentId": "pencil_ledge_included"
+    },
+    {
+      "claimId": "ic.9",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.10",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "The solid wood frame makes this wood drafting table stable and ready for years of use"
+        }
+      ],
+      "intentId": "material_composition"
+    },
+    {
+      "claimId": "ic.11",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Includes four floor levelers for uneven surfaces"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.12",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.13",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.14",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "reminiscent of turn-of-the-century furnishings, the Vintage Drafting Table by Studio Designs features an antique design and finish that adds a classic look to any room."
+        }
+      ]
+    },
+    {
+      "claimId": "ic.15",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Designed with a built-in pencil groove and 24\"-wide pencil ledge"
+        }
+      ],
+      "intentId": "pencil_ledge_included"
+    },
+    {
+      "claimId": "ic.16",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.color",
+          "text": "Rustic Oak"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.17",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "This drafting table sits on a solid wood frame for durability and long-term use."
+        }
+      ],
+      "intentId": "material_composition"
+    },
+    {
+      "claimId": "ic.18",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.19",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Studio Designs Vintage Rustic Oak Drafting Table"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.20",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.21",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.22",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "VINTAGE DRAFTING TABLE"
+        }
+      ],
+      "intentId": "height_adjustability"
+    },
+    {
+      "claimId": "ic.23",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "36''W x 24''D"
+        }
+      ],
+      "intentId": "tabletop_dimensions"
+    },
+    {
+      "claimId": "ic.24",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.color",
+          "text": "Rustic Oak"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.25",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.26",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.27",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.28",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.29",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.30",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.31",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.32",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.33",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.34",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.35",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.36",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.37",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.assembly_instructions_description",
+          "text": "Full Assembly Needed"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.38",
+      "coverage": "image_only",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "coverage@2026-10-27.1",
+  "usage": {
+    "inputTokens": 2530,
+    "outputTokens": 2231
+  },
+  "latencyMs": 5389,
+  "cached": false
+}

@@ -1,0 +1,113 @@
+{
+  "data": [
+    {
+      "intentId": "flavor_profile",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Original Chocolate Chip"
+        }
+      ],
+      "value": "Original Chocolate Chip"
+    },
+    {
+      "intentId": "nut_to_sugar_ratio",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "allergen_information",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.allergen_information",
+          "text": "Soy"
+        }
+      ],
+      "value": "Soy"
+    },
+    {
+      "intentId": "artificial_ingredients",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "packaging_type",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "RESEALABLE SNACK PACKS"
+        },
+        {
+          "fieldId": "attr.container_type",
+          "text": "Bag"
+        }
+      ],
+      "value": "Bag"
+    },
+    {
+      "intentId": "gift_suitability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Brownie Brittle is a gift that keeps on giving"
+        }
+      ],
+      "value": "gift"
+    },
+    {
+      "intentId": "shelf_life_and_freshness",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "serving_size_and_calories",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.size",
+          "text": "5 Ounce (Pack of 6)"
+        }
+      ],
+      "value": "5 Ounce (Pack of 6)"
+    },
+    {
+      "intentId": "butter_and_sweetener_type",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "dietary_restrictions",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.specialty",
+          "text": "Kosher Certified"
+        }
+      ],
+      "value": "Kosher Certified"
+    },
+    {
+      "intentId": "sharing_and_party_use",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "great when hosting parties"
+        }
+      ],
+      "value": "great when hosting parties"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+brittle@estimated-1",
+  "usage": {
+    "inputTokens": 1920,
+    "outputTokens": 695
+  },
+  "latencyMs": 2392,
+  "cached": false
+}

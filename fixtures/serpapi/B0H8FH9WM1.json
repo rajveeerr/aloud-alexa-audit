@@ -1,0 +1,561 @@
+{
+  "product_results": {
+    "categories": [
+      {
+        "position": 1,
+        "name": "Arts, Crafts & Sewing",
+        "link": "https://www.amazon.com/Arts-Crafts-Sewing/b/ref=dp_bc_1?ie=UTF8&node=2617941011",
+        "node": "2617941011",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=2617941011"
+      },
+      {
+        "position": 2,
+        "name": "Painting, Drawing & Art Supplies",
+        "link": "https://www.amazon.com/Painting-Drawing-Art-Supplies/b/ref=dp_bc_2?ie=UTF8&node=2747968011",
+        "node": "2747968011",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=2747968011"
+      },
+      {
+        "position": 3,
+        "name": "Drawing",
+        "link": "https://www.amazon.com/drawing/b/ref=dp_bc_3?ie=UTF8&node=12896641",
+        "node": "12896641",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=12896641"
+      },
+      {
+        "position": 4,
+        "name": "Drawing Tables & Boards",
+        "link": "https://www.amazon.com/Drawing-Tables-Boards/b/ref=dp_bc_4?ie=UTF8&node=12897051",
+        "node": "12897051",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=12897051"
+      }
+    ],
+    "asin": "B0H8FH9WM1",
+    "title": "Studio Designs Fusion Drafting Table with Integrated LED Light Pad, Height & Angle Adjustable Tempered Glass Light Table, Artograph Light Pad, Storage Drawers & Side Shelf",
+    "link": "https://www.amazon.com/Drafting-Integrated-Adjustable-Tempered-Artograph/dp/B0H8FH9WM1/",
+    "link_clean": "https://www.amazon.com/dp/B0H8FH9WM1/",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0H8FH9WM1&device=desktop&engine=amazon_product",
+    "badges": [
+      "Amazon's Choice"
+    ],
+    "variants": [
+      {
+        "title": "Set name",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B0H8FH9WM1",
+            "name": "Fusion Table + Integrated LED Light",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0H8FH9WM1&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B071ZL7RSS",
+            "name": "Fusion Table + Stool",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B071ZL7RSS&device=desktop&engine=amazon_product"
+          }
+        ]
+      }
+    ],
+    "brand": "Visit the SD STUDIO DESIGNS Store",
+    "thumbnail": "https://m.media-amazon.com/images/I/712FUsZbSmL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "thumbnails": [
+      "https://m.media-amazon.com/images/I/712FUsZbSmL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81x0sOkUabL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81xdYoWiMoL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81LIHa99F9L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71KkdLhxayL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71L3HtSgV8L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81A78jApeXL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81vosEJh4IL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/811TAxp8RyL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81qYE6eTppL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81locPLRUjL._AC_SL1500_.jpg"
+    ],
+    "rating": 4.6,
+    "reviews": 738,
+    "price": "$368.42",
+    "extracted_price": 368.42,
+    "prime": true,
+    "delivery": [
+      "FREE delivery November 13 - 18"
+    ]
+  },
+  "purchase_options": {
+    "single_offer": {
+      "price": "$368.42",
+      "extracted_price": 368.42,
+      "delivery": [
+        "FREE delivery November 13 - 18"
+      ],
+      "features": {
+        "shipper_seller": {
+          "text": "Amazon.com",
+          "details": {
+            "heading": "Shipper / Seller",
+            "content": "Amazon.com"
+          }
+        },
+        "returns": {
+          "text": "Returnable until Jan 31, 2027",
+          "details": {
+            "heading": "Returnable until Jan 31, 2027",
+            "content": "For the 2026 holiday season, eligible items purchased between November 1 and December 31, 2026 can be returned until January 31, 2027."
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "payment": {
+          "text": "Secure transaction",
+          "details": {
+            "heading": "Your transaction is secure",
+            "content": "We work hard to protect your security and privacy. Our payment security system encrypts your information during transmission. We don’t share your credit card details with third-party sellers, and we don’t sell your information to others. Learn more"
+          },
+          "link": {
+            "text": "Learn more",
+            "link": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201909010"
+          }
+        }
+      }
+    }
+  },
+  "protection_plan": [
+    {
+      "position": 1,
+      "asin": "B0CG6RZDZW",
+      "link": "https://www.amazon.com/dp/B0CG6RZDZW/",
+      "title": "3-Year Protection Plan",
+      "price": "$80.99",
+      "extracted_price": 80.99
+    },
+    {
+      "position": 2,
+      "asin": "B07RZ3LSHM",
+      "link": "https://www.amazon.com/dp/B07RZ3LSHM/",
+      "title": "Complete Protect: One plan covers all past and future eligible purchases (Broadest Coverage)",
+      "price": "$16.99/month",
+      "extracted_price": 16.99
+    }
+  ],
+  "item_specifications": {
+    "brand": "SD STUDIO DESIGNS",
+    "shape": "Rectangular",
+    "desk_design": "Drafting Table",
+    "product_dimensions": "23.75\"D x 47.75\"W x 35.5\"H",
+    "color": "Charcoal Black / Glass",
+    "style": "Modern",
+    "base_material": "Alloy Steel",
+    "top_material_type": "Tempered Glass + Integrated LED Light Table",
+    "finish_type": "Powder Coated",
+    "special_feature": "Adjustable, Adjustable Height"
+  },
+  "about_item": [
+    "All-in-One Lighted Art Workstation: The Fusion Light Table combines a height and angle adjustable drafting table with an integrated Artograph LED Light Pad, eliminating the need for a separate light box. Perfect for drawing, sketching, tracing, illustration, animation, architectural drafting, quilting, calligraphy, tattoo transfers, crafting, and more. Patent Pending. Overall Dimensions: 47.75\" W x 23.75\" D x 35.5\" H",
+    "Adjusts to your Perfect Working Position: Customize your workspace with a 5mm tempered safety glass top that adjusts from 0° to 40°, while the entire table adjusts in height from 27.5\" to 35.5\". The spacious work surface measures 35.5\" W x 23.5\" D, providing plenty of room for creative projects.",
+    "Integrated ARTOGRAPH LED Light Table: The built-in Artograph Light Pad features a generous 31.75\" x 20\" illuminated work area with adjustable brightness from 0–2,600 lux and daylight-balanced 6,000K–7,000K LEDs for exceptional visibility when tracing, transferring artwork, reviewing patterns, or working on fine details. Long-lasting LEDs are rated for 50,000 hours.",
+    "Organized Storage for your Supplies: Keep everything within easy reach with the Premier Metal Art Tray featuring a swivel cup and foam organizer that securely holds pencils and markers up to 10mm in diameter. Additional storage includes two wire mesh drawers, a slide-out side shelf, bottom storage shelf, and slide-up pencil ledge to keep tools from rolling while the tabletop is angled.",
+    "Built for Years of Creativity: Constructed with a durable steel frame and supported by four wide floor levelers for added stability on uneven surfaces. Weight capacity includes 25 lbs. on the tabletop, 5 lbs. per drawer, and 15 lbs. each on the side shelf and bottom shelf."
+  ],
+  "product_description": [
+    {
+      "position": 1,
+      "title": "aplus content image",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/48cd3837-087c-4aa6-b0d4-76b166d19a4b.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 2,
+      "title": "aplus content image",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a66c3432-41fb-47fc-8026-abaf88288faa.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 3,
+      "carousel_images": [
+        {
+          "position": 1,
+          "title": "aplus content image",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2a027cf1-53ad-41bd-9d60-066e80cebfbe.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 2,
+          "title": "aplus content image",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/b5a99fd4-d4b2-442f-bf32-034db07205cd.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 3,
+          "title": "aplus content image",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/7ee060ea-37ae-48bd-8af5-924b7e4a3c66.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 4,
+          "title": "aplus content image",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/b8f24b50-9c51-4d21-823c-920e4fc46c28.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 5,
+          "title": "aplus content image",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/265ab47d-3739-4ae4-b663-5c7829394c41.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "title": "aplus content image",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/91e7a2b1-b212-4944-8ed2-404d30c2f609.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 5,
+      "title": "aplus content image",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/89bc5add-ad1b-4200-a0d1-865b9ca0dfb5.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    }
+  ],
+  "product_details": {
+    "shape": "Rectangular",
+    "desk_design": "Drafting Table",
+    "color": "Charcoal Black / Glass",
+    "style_name": "Modern",
+    "finish_types": "Powder Coated",
+    "top_color": "Black",
+    "base_color": "Black",
+    "item_dimensions_d_x_w_x_h": "23.75\"D x 47.75\"W x 35.5\"H",
+    "number_of_drawers": "2",
+    "item_weight": "60 pounds",
+    "size": "47.75 x 23.75 x 35.5 inches",
+    "number_of_shelves": "2",
+    "tabletop_thickness": "5 millimeters",
+    "minimum_height": "27.5 inches",
+    "working_surface_diagonal_length": "44.1 inches",
+    "number_of_open_shelves": "2",
+    "item_depth": "23.75 inches",
+    "item_dimensions": "23.75 x 47.75 x 35.5 inches",
+    "maximum_height": "35.5 inches",
+    "base": "Alloy Steel",
+    "top_material_type": "Tempered Glass + Integrated LED Light Table",
+    "furniture_leg_material": "Alloy Steel",
+    "drawer_glide_material": "Metal",
+    "frame_material_type": "Alloy Steel",
+    "material_type": "Metal, Tempered Glass",
+    "recommended_number_of_people_for_assembly": "1",
+    "warranty_type": "Limited",
+    "brand_name": "SD STUDIO DESIGNS",
+    "additional_features": "Adjustable, Adjustable Height",
+    "room_type": "Craft Room, Hobby Room, Office, Study Room",
+    "recommended_uses_for_product": "Drawing, Sketching, Tracing, Illustration, Drafting, Architectural Drafting, Engineering, Blueprint Design, Technical Drawing, Animation, Comic Art, Manga Drawing, Graphic Design, Calligraphy, Tattoo Transfer, Quilting, Sewing Pattern Tracing, Diamond Painting, Vinyl Weeding, Arts and Crafts, Painting Preparation, Stenciling, Scrapbooking, Paper Crafts, Hand Lettering, Coloring, Design Projects, Hobby Projects, Student Projects, Studio Work, Creative Workspace, Light Box Tracing, Pattern Making, Mixed Media Art, DIY Crafts",
+    "included_components": "Table with LED Integrated Light Top",
+    "model_number": "10101",
+    "model_name": "Fusion Drafting Table with Integrated LED Light",
+    "upc": "017342101012",
+    "number_of_items": "1",
+    "manufacturer": "Studio Designs",
+    "number_of_packs": "1",
+    "unit_count": "1 Count",
+    "item_type_name": "Drafting Light Table",
+    "manufacturer_part_number": "10101",
+    "set_name": "Fusion Table + Integrated LED Light",
+    "best_sellers_rank": [
+      {
+        "text": "#69,472 in Arts, Crafts & Sewing (See Top 100 in Arts, Crafts & Sewing)",
+        "extracted_rank": 69472,
+        "link": "https://www.amazon.com/gp/bestsellers/arts-crafts/ref=pd_zg_ts_arts-crafts",
+        "link_text": "See Top 100 in Arts, Crafts & Sewing"
+      },
+      {
+        "text": "#87 in Drawing Tables & Boards",
+        "extracted_rank": 87,
+        "link": "https://www.amazon.com/gp/bestsellers/arts-crafts/12897051/ref=pd_zg_hrsr_arts-crafts",
+        "link_text": "Drawing Tables & Boards"
+      }
+    ],
+    "asin": "B0H8FH9WM1",
+    "customer_reviews": "4.6 out of 5 stars",
+    "rating": 4.6,
+    "reviews": 738,
+    "drawer_type": "Utility Drawer",
+    "base_type": "Leg",
+    "lifting_mechanism": "Manual",
+    "drawer_glide_mechanism": "Sliding",
+    "storage_options": "Drawer",
+    "number_of_height_positions": "6",
+    "mounting_type": "Freestanding"
+  },
+  "reviews_information": {
+    "summary": {
+      "text": "Customers find the drafting table easy to assemble and appreciate its sturdy construction and nice appearance, particularly noting it's perfect for painting and drawing. The functionality works great, and customers like its suitability for various uses, with one mentioning it doubles as a school desk. The stability receives mixed feedback, and while the instructions are generally good, some find them confusing. Durability is a concern, with one customer reporting damage to the main desk piece.",
+      "insights": [
+        {
+          "title": "Assembly",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 43,
+            "positive": 33,
+            "negative": 10
+          },
+          "summary": "Customers find the drafting table easy to assemble, with some mentioning they had fun putting it together.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...It's very well made and easy to assemble. Only thing I didn't like was the stool included. Very cheap, used it once and went with something else.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1CRA0VMZUG7CQ"
+            },
+            {
+              "position": 2,
+              "snippet": "I got this for my 10 yr old. It's perfect for her and was easy to put together. I would recommend.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2YMS4SSR1AD6"
+            },
+            {
+              "position": 3,
+              "snippet": "...Assembly was easy even with the bolts looking similar when opened, but only took about an hour to assemble....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R14YIOAB6PFPNQ"
+            },
+            {
+              "position": 4,
+              "snippet": "The instructions are okay but took a while to assemble as there are some things that were left up to us for guessing....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R12EPXVP22K21O"
+            }
+          ]
+        },
+        {
+          "title": "Sturdiness",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 36,
+            "positive": 29,
+            "negative": 7
+          },
+          "summary": "Customers find the drafting table sturdy, with one customer noting that the tabletop is stable and another mentioning that the overall structure supports well enough.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Meets my needs. For me it is sturdy and I like the fact that it is height adjustable and tilts. I my look for a stool that is height adjustable....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3J4PVYA0QGMK2"
+            },
+            {
+              "position": 2,
+              "snippet": "I use this table for making jewelry and painting. Very sturdy and can put it at the right height for me. Lots of room for all my “stuff”!!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1RHJ2I20DIEEW"
+            },
+            {
+              "position": 3,
+              "snippet": "...It is a sturdy table and the stool is sturdy as well I left the slide out side desk a little loose to slide in and out....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R14YIOAB6PFPNQ"
+            },
+            {
+              "position": 4,
+              "snippet": "...But the product is great for the price. Table is sturdy and I am looking forward to using it for my arts and painting.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R12EPXVP22K21O"
+            }
+          ]
+        },
+        {
+          "title": "Appearance",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 20,
+            "positive": 19,
+            "negative": 1
+          },
+          "summary": "Customers like the appearance of the drafting table, describing it as nice and well-designed, with one customer noting it matches the pictures exactly.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...It was also missing a few bolts. It's a nice table but I really regret buying it.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3HFMRPF7VJWKJ"
+            },
+            {
+              "position": 2,
+              "snippet": "...Solid enough when assembled right. She loves it. Looks great. Lots of accessories.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R14E81IIT49GUV"
+            },
+            {
+              "position": 3,
+              "snippet": "...I would totally recommend this item as is nice and small which is what I was looking for. 😀",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R26VD1A02P1V70"
+            },
+            {
+              "position": 4,
+              "snippet": "This is a nice desk. My daughter loves it and draws/paints at it every day. Only part I don't love it that the cupholder is a little too tippy.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RJ5J0U7JLDH7A"
+            }
+          ]
+        },
+        {
+          "title": "Suitability",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 14,
+            "positive": 14,
+            "negative": 0
+          },
+          "summary": "Customers find the drafting table perfect for painting and drawing, with one mentioning it doubles as a school desk.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Meets my needs. For me it is sturdy and I like the fact that it is height adjustable and tilts. I my look for a stool that is height adjustable....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3J4PVYA0QGMK2"
+            },
+            {
+              "position": 2,
+              "snippet": "I got this for my 10 yr old. It's perfect for her and was easy to put together. I would recommend.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2YMS4SSR1AD6"
+            },
+            {
+              "position": 3,
+              "snippet": "Love it so much for painting it has great storage and the bottom lip is great because you can pop it up to hold whatever you have on the desk or...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2XRZ6BLZHAOD1"
+            },
+            {
+              "position": 4,
+              "snippet": "...That said, the table is perfect for painting, drawing and calligraphy.<br />The stool is useless.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2SEC58D82EART"
+            }
+          ]
+        },
+        {
+          "title": "Functionality",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 12,
+            "positive": 10,
+            "negative": 2
+          },
+          "summary": "Customers find that the drafting table works great, with one mentioning it's particularly suitable for bujo and other craft projects.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "I use it to paint. Works great",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2WSS0VWSUPA0Y"
+            },
+            {
+              "position": 2,
+              "snippet": "Works well and love the design",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2I68E6U3PGZOL"
+            },
+            {
+              "position": 3,
+              "snippet": "...But it works and looks really nice!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RD4E0XHSKAMBW"
+            },
+            {
+              "position": 4,
+              "snippet": "I love this! It works great for bujo and other craft projects as well as a base for photos.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R28N6HBWN21IEE"
+            }
+          ]
+        },
+        {
+          "title": "Stability",
+          "sentiment": "mixed",
+          "mentions": {
+            "total": 15,
+            "positive": 6,
+            "negative": 9
+          },
+          "summary": "Customers have mixed opinions about the drafting table's stability, with some appreciating its adjustable angles and features like the swivel cup holder, while others report issues with instability, particularly with the slide-out mechanism.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...Even though I love the metal drawers, the slide out is a little unstable and if the drawer is pulled too quickly it falls right out which can...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1LNBTJ6E7NY0S"
+            },
+            {
+              "position": 2,
+              "snippet": "...me it is sturdy and I like the fact that it is height adjustable and tilts. I my look for a stool that is height adjustable....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3J4PVYA0QGMK2"
+            },
+            {
+              "position": 3,
+              "snippet": "...a. is in the way when sitting at the table b, its not solid. c.slides to far forward when wanting to open them....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RO9MBSWUXBOE8"
+            },
+            {
+              "position": 4,
+              "snippet": "Easily to assemble, took about an hour. Loving the leaning desk top. Price seems fair and it’s withstanding my pretty rough and tough handling....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R6ZG0Y49JBYBG"
+            }
+          ]
+        },
+        {
+          "title": "Instructions",
+          "sentiment": "mixed",
+          "mentions": {
+            "total": 13,
+            "positive": 6,
+            "negative": 7
+          },
+          "summary": "Customers have mixed opinions about the desk's instructions, with some finding them good while others report that the sheet was confusing.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...The instructions were a pain in the head. They weren't very useful. My daughter winged it throughout the entire time because they made no sense....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3HFMRPF7VJWKJ"
+            },
+            {
+              "position": 2,
+              "snippet": "The instructions are okay but took a while to assemble as there are some things that were left up to us for guessing....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R12EPXVP22K21O"
+            },
+            {
+              "position": 3,
+              "snippet": "This product was missing parts and the instructions did not correlate with parts. Extremely frustrating to assemble.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R39ZIJ677ZAHIK"
+            },
+            {
+              "position": 4,
+              "snippet": "Good instructions, easy to assemble . Took me an hour to build BY MYSELF! Didn’t even have to ask my husband for help. Great desk for the value.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RCT33FXJR7YIR"
+            }
+          ]
+        },
+        {
+          "title": "Durability",
+          "sentiment": "negative",
+          "mentions": {
+            "total": 13,
+            "positive": 1,
+            "negative": 12
+          },
+          "summary": "Customers report durability issues with the drafting table, including damage to the main desk piece, dented drawers, and paint chipping.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...5. On one of the primary supports the end threading broke under very light pressure... talking barely finger tight... and left one side completely...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1YLS83CXDWCMJ"
+            },
+            {
+              "position": 2,
+              "snippet": "Don't Trust what You SEE! This Desk with a Large Hole in Desk! Granddaughter was SO disappointed when she opened her gift Christmas morning!...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R16DEJLL1QGHQ"
+            },
+            {
+              "position": 3,
+              "snippet": "instruction manual difficult to follow. Pre cut holes in wrong place and unable to utilized complete product. Product not as shown or viewed.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3EOZ03S6VA3A0"
+            },
+            {
+              "position": 4,
+              "snippet": "...When assembling I noticed that the main foundation of the desk what broken I called the place multiple times and no answer I even ordered a...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3LTKKTH2E7J2H"
+            }
+          ]
+        }
+      ],
+      "customer_reviews": {
+        "5 star": 78,
+        "4 star": 14,
+        "3 star": 4,
+        "2 star": 1,
+        "1 star": 3
+      }
+    }
+  },
+  "related_asins": [
+    "B08RJ2NRH5",
+    "B072V53QV5",
+    "B0H9723F43",
+    "B07GKHQYCM",
+    "B09W1498ZN",
+    "B0H75SN3SD"
+  ]
+}

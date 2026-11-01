@@ -1,0 +1,187 @@
+{
+  "data": [
+    {
+      "claimId": "ic.0",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Mint-X MintFlex Rodent Repellent Trash Bags"
+        }
+      ],
+      "intentId": "are_the_bags_scented_or_unscented"
+    },
+    {
+      "claimId": "ic.1",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Tall Kitchen Drawstring Bags"
+        }
+      ],
+      "intentId": "do_the_bags_feature_a_drawstring_closure"
+    },
+    {
+      "claimId": "ic.2",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "foraging rodents, raccoons and squirrels"
+        }
+      ],
+      "intentId": "do_the_bags_repel_rodents_or_pests"
+    },
+    {
+      "claimId": "ic.15",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "13 gallon capacity and come in a 40-count box"
+        }
+      ],
+      "intentId": "what_is_the_capacity_in_gallons"
+    },
+    {
+      "claimId": "ic.16",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "1 FT 11 ¾ Inches X 2 FT 1 Inch, 0.90 MIL"
+        }
+      ],
+      "intentId": "what_are_the_exact_dimensions_of_each_bag"
+    },
+    {
+      "claimId": "ic.24",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "easy-to-use drawstring"
+        }
+      ],
+      "intentId": "do_the_bags_feature_a_drawstring_closure"
+    },
+    {
+      "claimId": "ic.29",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Rodent Repellent"
+        }
+      ],
+      "intentId": "do_the_bags_repel_rodents_or_pests"
+    },
+    {
+      "claimId": "ic.30",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "STRONG AND DURABLE: Mint-X's Tall Kitchen trash bags feature Mint-Flex superior stretching technology making them an ideal choice for both every day and serious clean-ups in your home"
+        }
+      ],
+      "intentId": "are_the_bags_tear_and_puncture_resistant"
+    },
+    {
+      "claimId": "ic.45",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.capacity",
+          "text": "Capacity: 13 gallons"
+        }
+      ],
+      "intentId": "what_is_the_capacity_in_gallons"
+    },
+    {
+      "claimId": "ic.68",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.unit_count",
+          "text": "Unit count: 40 Count"
+        }
+      ],
+      "intentId": "how_many_bags_are_included_in_the_box"
+    },
+    {
+      "claimId": "ic.71",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "foraging rodents, raccoons and squirrels"
+        }
+      ],
+      "intentId": "do_the_bags_repel_rodents_or_pests"
+    },
+    {
+      "claimId": "ic.72",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Mint-Flex superior stretching technology"
+        }
+      ],
+      "intentId": "are_the_bags_tear_and_puncture_resistant"
+    },
+    {
+      "claimId": "ic.76",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "NEUTRALIZES ODORS"
+        }
+      ],
+      "intentId": "how_effective_is_the_odor_control"
+    },
+    {
+      "claimId": "ic.77",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "easy-to-use drawstring"
+        }
+      ],
+      "intentId": "do_the_bags_feature_a_drawstring_closure"
+    },
+    {
+      "claimId": "ic.78",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "completely safe for humans and pets"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.79",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Mint-Flex superior stretching technology making them an ideal choice for both every day and serious clean-ups"
+        }
+      ],
+      "intentId": "are_the_bags_tear_and_puncture_resistant"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "coverage@2026-10-27.1",
+  "usage": {
+    "inputTokens": 2843,
+    "outputTokens": 1471
+  },
+  "latencyMs": 3629,
+  "cached": false
+}

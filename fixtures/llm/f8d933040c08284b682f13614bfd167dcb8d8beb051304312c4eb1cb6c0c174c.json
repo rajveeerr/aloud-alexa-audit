@@ -1,0 +1,117 @@
+{
+  "data": [
+    {
+      "id": "flavor_profile",
+      "question": "What is the primary flavor profile of the brittle?",
+      "kind": "spec",
+      "rubric": "answered: specifies the main flavors such as chocolate, peanut, or butter cashew. partial: mentions general sweetness without flavor details.",
+      "conditional": false
+    },
+    {
+      "id": "texture_and_crispness",
+      "question": "How would you describe the texture and crispness of the brittle?",
+      "kind": "experience",
+      "rubric": "answered: details whether it is thin and crispy, hard, or easy to bite without sticking. partial: mentions it is crunchy.",
+      "conditional": false
+    },
+    {
+      "id": "nut_to_sugar_ratio",
+      "question": "What is the ratio of nuts to sugar/candy coating in the product?",
+      "kind": "spec",
+      "rubric": "answered: specifies high nut content or exact proportions. partial: mentions nuts are present.",
+      "conditional": false
+    },
+    {
+      "id": "allergen_information",
+      "question": "Does the brittle contain common allergens like peanuts, tree nuts, dairy, or gluten?",
+      "kind": "spec",
+      "rubric": "answered: clearly lists allergen warnings and ingredients. partial: mentions some ingredients.",
+      "conditional": false
+    },
+    {
+      "id": "artificial_ingredients",
+      "question": "Does the product contain any artificial flavors, colors, or preservatives?",
+      "kind": "spec",
+      "rubric": "answered: explicitly states if it is all-natural or lists artificial additives. partial: states no artificial colors.",
+      "conditional": false
+    },
+    {
+      "id": "packaging_type",
+      "question": "What type of packaging does the brittle come in, and is it resealable?",
+      "kind": "spec",
+      "rubric": "answered: details the container type (gift box, bag) and whether it is resealable. partial: mentions the weight only.",
+      "conditional": false
+    },
+    {
+      "id": "gift_suitability",
+      "question": "Is the packaging suitable for gifting on holidays or special occasions?",
+      "kind": "claim",
+      "rubric": "answered: states whether it comes in a gift box or includes gift-ready packaging. partial: mentions it is good for sharing.",
+      "conditional": true
+    },
+    {
+      "id": "tooth_safety",
+      "question": "Is the brittle too hard, or does it stick to your teeth while eating?",
+      "kind": "experience",
+      "rubric": "answered: explicitly describes how it behaves on teeth and bite force required. partial: mentions it is crisp.",
+      "conditional": false
+    },
+    {
+      "id": "shelf_life_and_freshness",
+      "question": "How long does the brittle stay fresh after opening?",
+      "kind": "spec",
+      "rubric": "answered: provides expiration guidelines or freshness duration. partial: mentions the resealable feature keeps it fresh.",
+      "conditional": true
+    },
+    {
+      "id": "serving_size_and_calories",
+      "question": "What is the recommended serving size and calorie count per serving?",
+      "kind": "spec",
+      "rubric": "answered: provides nutritional facts data. partial: gives package weight only.",
+      "conditional": false
+    },
+    {
+      "id": "butter_and_sweetener_type",
+      "question": "What type of sweeteners and fats (such as real butter or corn syrup) are used?",
+      "kind": "spec",
+      "rubric": "answered: lists specific ingredients used for the candy base. partial: mentions it is homemade style.",
+      "conditional": false
+    },
+    {
+      "id": "crumb_messiness",
+      "question": "Does the brittle create a lot of crumbs or mess when eaten?",
+      "kind": "experience",
+      "rubric": "answered: describes how crumbly or wafer-thin the product is. partial: mentions it breaks easily.",
+      "conditional": true
+    },
+    {
+      "id": "dietary_restrictions",
+      "question": "Is the brittle suitable for vegan, gluten-free, or kosher diets?",
+      "kind": "spec",
+      "rubric": "answered: explicitly states dietary certifications. partial: lists ingredients without certifications.",
+      "conditional": true
+    },
+    {
+      "id": "sweetness_level",
+      "question": "Is the brittle overly sweet, or does it have a balanced flavor?",
+      "kind": "experience",
+      "rubric": "answered: describes the sugar intensity and flavor balance. partial: mentions it satisfies cravings.",
+      "conditional": false
+    },
+    {
+      "id": "sharing_and_party_use",
+      "question": "Is this product well-suited for party candy dishes, offices, or large gatherings?",
+      "kind": "claim",
+      "rubric": "answered: states suitability for bowls, events, and sharing. partial: mentions package size.",
+      "conditional": true
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "estimate-intents@2026-10-27.1+brittle",
+  "usage": {
+    "inputTokens": 617,
+    "outputTokens": 1194
+  },
+  "latencyMs": 4490,
+  "cached": false
+}

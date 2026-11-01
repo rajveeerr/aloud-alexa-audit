@@ -1,0 +1,123 @@
+{
+  "categoryId": "drafting-tables",
+  "categoryName": "Drafting Tables",
+  "match": [
+    "Drafting Tables"
+  ],
+  "version": "estimated-1",
+  "basis": "estimated",
+  "reviewed": false,
+  "sampleSize": 0,
+  "intents": [
+    {
+      "id": "tabletop_dimensions",
+      "kind": "spec",
+      "question": "What are the dimensions of the main work surface?",
+      "rubric": "answered: specifies length and width of the tabletop partial: gives only one dimension or vague size",
+      "frequency": 1
+    },
+    {
+      "id": "maximum_tilt_angle",
+      "kind": "spec",
+      "question": "What is the maximum angle to which the tabletop can be tilted?",
+      "rubric": "answered: provides the exact maximum tilt angle in degrees partial: states it tilts but gives no specific degree",
+      "frequency": 1
+    },
+    {
+      "id": "height_adjustability",
+      "kind": "spec",
+      "question": "Is the height of the desk adjustable, and what is the range?",
+      "rubric": "answered: states whether height is adjustable and provides the range partial: mentions adjustment without specific height range",
+      "frequency": 1
+    },
+    {
+      "id": "weight_capacity",
+      "kind": "spec",
+      "question": "What is the maximum weight capacity of the drafting table?",
+      "rubric": "answered: gives the weight limit in pounds or kilograms partial: vague statement about sturdiness",
+      "frequency": 1
+    },
+    {
+      "id": "material_composition",
+      "kind": "spec",
+      "question": "What materials are used for the tabletop and the frame?",
+      "rubric": "answered: lists materials for both top and frame partial: lists material for only one part",
+      "frequency": 1
+    },
+    {
+      "id": "pencil_ledge_included",
+      "kind": "spec",
+      "question": "Does the table include a pencil ledge or stopper to keep items from sliding off when tilted?",
+      "rubric": "answered: confirms presence or absence of a pencil ledge partial: unclear description of the ledge",
+      "frequency": 1
+    },
+    {
+      "id": "included_stool",
+      "kind": "spec",
+      "question": "Does the drafting table come with a matching stool included?",
+      "rubric": "answered: explicitly states if a stool is included or not partial: unclear or ambiguous mention of seating",
+      "frequency": 1,
+      "conditional": true
+    },
+    {
+      "id": "storage_features",
+      "kind": "spec",
+      "question": "What kind of built-in storage options (drawers, trays, shelves) does the desk provide?",
+      "rubric": "answered: details the types and locations of storage compartments partial: mentions storage generically",
+      "frequency": 1,
+      "conditional": true
+    },
+    {
+      "id": "glass_top_compatibility",
+      "kind": "claim",
+      "question": "Can the tempered glass tabletop be used with a light pad for tracing?",
+      "rubric": "answered: explains compatibility with light boxes or tracing partial: vague mention of glass transparency",
+      "frequency": 1,
+      "conditional": true
+    },
+    {
+      "id": "assembly_difficulty",
+      "kind": "experience",
+      "question": "How difficult is it to assemble the drafting table, and are tools provided?",
+      "rubric": "answered: outlines assembly steps, time required, and tool inclusion partial: general comment on assembly being easy or hard",
+      "frequency": 1
+    },
+    {
+      "id": "stability_at_height",
+      "kind": "experience",
+      "question": "Does the table wobble or shake when extended to its maximum height or tilt angle?",
+      "rubric": "answered: describes stability under pressure and at various adjustments partial: brief comment on sturdiness",
+      "frequency": 1
+    },
+    {
+      "id": "surface_durability",
+      "kind": "experience",
+      "question": "How well does the tabletop resist scratches, stains, and paint or ink spills during regular use?",
+      "rubric": "answered: details wear and tear resistance against art supplies partial: generic note about surface quality",
+      "frequency": 1
+    },
+    {
+      "id": "tilt_mechanism_ease",
+      "kind": "experience",
+      "question": "How smooth and reliable is the mechanism for adjusting the tabletop angle?",
+      "rubric": "answered: describes the locking and adjusting process in detail partial: mentions whether it works or not",
+      "frequency": 1
+    },
+    {
+      "id": "wheel_mobility_locks",
+      "kind": "spec",
+      "question": "If the table has wheels, do they lock securely to prevent movement while drawing?",
+      "rubric": "answered: confirms caster presence and locking effectiveness partial: mentions wheels without locking details",
+      "frequency": 1,
+      "conditional": true
+    },
+    {
+      "id": "surface_cleaning",
+      "kind": "experience",
+      "question": "How easy is it to clean pencil marks, paint, or tape residue off the work surface?",
+      "rubric": "answered: provides cleaning feedback for specific materials partial: vague cleaning advice",
+      "frequency": 1
+    }
+  ],
+  "source": "Estimated from listings; no reviews were mined. Not yet reviewed by hand."
+}

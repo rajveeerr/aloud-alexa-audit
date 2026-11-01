@@ -1,0 +1,362 @@
+{
+  "product_results": {
+    "categories": [
+      {
+        "position": 1,
+        "name": "Home & Kitchen",
+        "link": "https://www.amazon.com/home-garden-kitchen-furniture-bedding/b/ref=dp_bc_1?ie=UTF8&node=1055398",
+        "node": "1055398",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1055398"
+      },
+      {
+        "position": 2,
+        "name": "Furniture",
+        "link": "https://www.amazon.com/Furniture/b/ref=dp_bc_2?ie=UTF8&node=1063306",
+        "node": "1063306",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1063306"
+      },
+      {
+        "position": 3,
+        "name": "Home Office Furniture",
+        "link": "https://www.amazon.com/Home-Office-Furniture/b/ref=dp_bc_3?ie=UTF8&node=1063312",
+        "node": "1063312",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1063312"
+      },
+      {
+        "position": 4,
+        "name": "Drafting Tables",
+        "link": "https://www.amazon.com/Drafting-Tables/b/ref=dp_bc_4?ie=UTF8&node=3733771",
+        "node": "3733771",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=3733771"
+      }
+    ],
+    "asin": "B00B10MKDI",
+    "title": "Studio Designs Vintage Rustic Oak Drafting Table, Top Adjustable Drafting Table Craft Table Drawing Desk Hobby Table Writing Desk Studio Desk, 36''W x 24''D",
+    "link": "https://www.amazon.com/product-reviews/B0CG6RD2YJ/ref=dp_atch_dss_w_r_B00B10MKDI_?ie=UTF8&showViewpoints=1",
+    "link_clean": "https://www.amazon.com/dp/B00B10MKDI/",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B00B10MKDI&device=desktop&engine=amazon_product",
+    "badges": [
+      "Amazon's Choice"
+    ],
+    "variants": [
+      {
+        "title": "Color",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B00B10MKDI",
+            "name": "Rustic Oak",
+            "image": "https://m.media-amazon.com/images/I/31OYoM+-TLL._SS64_.jpg",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B00B10MKDI&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B0BVF1JQWV",
+            "name": "Coastal Whitewash",
+            "image": "https://m.media-amazon.com/images/I/31IVEprQpNL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0BVF1JQWV&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B08DRTK4N8",
+            "name": "Distressed Black",
+            "image": "https://m.media-amazon.com/images/I/41P1zaCK4BL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B08DRTK4N8&device=desktop&engine=amazon_product"
+          }
+        ]
+      },
+      {
+        "title": "Size",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B00B10MKDI",
+            "name": "36\" W x 24\" D",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B00B10MKDI&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B00BSY01QU",
+            "name": "42\" W x 30\" D",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B00BSY01QU&device=desktop&engine=amazon_product"
+          }
+        ]
+      }
+    ],
+    "variant_combinations": [
+      {
+        "dimensions": {
+          "color": "Coastal Whitewash",
+          "size": "36\" W x 24\" D"
+        },
+        "asin": "B0BVF1JQWV",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0BVF1JQWV&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Coastal Whitewash",
+          "size": "42\" W x 30\" D"
+        },
+        "asin": "B0BVDZQZYW",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0BVDZQZYW&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Distressed Black",
+          "size": "36\" W x 24\" D"
+        },
+        "asin": "B08DRTK4N8",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B08DRTK4N8&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Distressed Black",
+          "size": "42\" W x 30\" D"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Rustic Oak",
+          "size": "36\" W x 24\" D"
+        },
+        "asin": "B00B10MKDI",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B00B10MKDI&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Rustic Oak",
+          "size": "42\" W x 30\" D"
+        },
+        "asin": "B00BSY01QU",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B00BSY01QU&device=desktop&engine=amazon_product"
+      }
+    ],
+    "brand": "Visit the SD STUDIO DESIGNS Store",
+    "thumbnail": "https://m.media-amazon.com/images/I/71AocV2fbiL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "thumbnails": [
+      "https://m.media-amazon.com/images/I/71AocV2fbiL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91+RHAkCrEL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71alRsB6GrL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71+NklUhHqL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71S5Z9hpRpL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81gjrUknRZL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81lU-7NM0fL._AC_SL1500_.jpg"
+    ],
+    "rating": 4.5,
+    "reviews": 1608,
+    "price": "$199.99",
+    "extracted_price": 199.99,
+    "prime": true,
+    "delivery": [
+      "FREE delivery Friday, November 6",
+      "Or fastest delivery Thursday, November 5. Order within 9 hrs 24 mins"
+    ],
+    "stock": "Only 4 left in stock - order soon.",
+    "description": "Reminiscent of turn-of-the-century furnishings, the Vintage Drafting Table by Studio Designs features an antique design and finish that adds a classic look to any room. Designed with a 36\" W x 24\" D main work surface and a built-in pencil groove with a 24\"-wide pencil ledge, this drafting desk creates the perfect space for setting up supplies as you create, draw, paint, sketch, and more. The work surface adjusts to a variety of angles, from flat to 90 degrees, so you can transform your workspace and adapt to any creative project. This drafting table sits on a solid wood frame for durability and long-term use. Make your creative space your own with the Vintage Drafting Table by Studio Designs. Overall Dimensions: 36\" W X 24\" D X 36\" H"
+  },
+  "purchase_options": {
+    "single_offer": {
+      "price": "$199.99",
+      "extracted_price": 199.99,
+      "delivery": [
+        "FREE delivery Friday, November 6",
+        "Or fastest delivery Thursday, November 5. Order within 9 hrs 24 mins"
+      ],
+      "stock": "Only 4 left in stock - order soon.",
+      "features": {
+        "shipper_seller": {
+          "text": "Amazon.com",
+          "details": {
+            "heading": "Shipper / Seller",
+            "content": "Amazon.com"
+          }
+        },
+        "returns": {
+          "text": "FREE refund/replacement until Jan 31, 2027",
+          "details": {
+            "heading": "FREE refund/replacement until Jan 31, 2027",
+            "content": "For the 2026 holiday season, eligible items purchased between November 1 and December 31, 2026 can be returned until January 31, 2027."
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "payment": {
+          "text": "Secure transaction",
+          "details": {
+            "heading": "Your transaction is secure",
+            "content": "We work hard to protect your security and privacy. Our payment security system encrypts your information during transmission. We don’t share your credit card details with third-party sellers, and we don’t sell your information to others. Learn more"
+          },
+          "link": {
+            "text": "Learn more",
+            "link": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201909010"
+          }
+        }
+      }
+    }
+  },
+  "protection_plan": [
+    {
+      "position": 1,
+      "asin": "B0CG6RD2YJ",
+      "link": "https://www.amazon.com/dp/B0CG6RD2YJ/",
+      "title": "2-Year Protection Plan",
+      "price": "$37.99",
+      "extracted_price": 37.99
+    },
+    {
+      "position": 2,
+      "asin": "B0CG6SSFWW",
+      "link": "https://www.amazon.com/dp/B0CG6SSFWW/",
+      "title": "3-Year Protection Plan",
+      "price": "$46.99",
+      "extracted_price": 46.99
+    },
+    {
+      "position": 3,
+      "asin": "B07RZ3LSHM",
+      "link": "https://www.amazon.com/dp/B07RZ3LSHM/",
+      "title": "Complete Protect: One plan covers all past and future eligible purchases (Broadest Coverage)",
+      "price": "$16.99/month",
+      "extracted_price": 16.99
+    }
+  ],
+  "item_specifications": {
+    "brand": "SD STUDIO DESIGNS",
+    "shape": "Rectangular",
+    "desk_design": "Drafting Table",
+    "product_dimensions": "24\"D x 36\"W x 36\"H",
+    "color": "Rustic Oak",
+    "style": "Vintage 36\" W",
+    "base_material": "Wood",
+    "top_material_type": "Poplar Wood",
+    "finish_type": "Wood",
+    "special_feature": "Adjustable Work Surface, Built-in Pencil Groove with Pencil Ledge, Solid Wood Frame"
+  },
+  "about_item": [
+    "VINTAGE DRAFTING TABLE: Classic antique design and finish that is reminiscent of turn-of-the-century furnishings; Perfect for setting up and diving into a variety of creative projects, including painting, drawing, sketching, writing, and more",
+    "BUILT-IN PENCIL GROOVE WITH PENCIL LEDGE: Designed with a built-in pencil groove and 24\"-wide pencil ledge for storing writing utensils and canvases; Easily set down pencils, pens, paintbrushes, and more as you work",
+    "ADJUSTABLE WORK SURFACE: 36\" W x 24\" D main work surface features a unique platform that adjusts from a flat surface to a 23-, 46-, 70-, and 90-degree angle; Rest of stand is not height adjustable; Transforms space and allows for versatility as you create",
+    "SUSTAINABLE DESIGN: The solid wood frame makes this wood drafting table stable and ready for years of use; Includes four floor levelers for uneven surfaces",
+    "PERFECT FOR ANY ROOM: Ideal for adding a fashionable touch to a variety of spaces; Use our drafting and writing table in your office, art studio, or craft room; Overall dimensions are 36\" W X 24\" D X 36\" H"
+  ],
+  "product_description": [
+    {
+      "position": 1,
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/e9c1a379-b1bf-4cbd-a078-eaffe85fd2a8.__CR0,0,970,600_PT0_SX970_V1___.jpg"
+    },
+    {
+      "position": 2,
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/38dab84a-ddb0-4f16-a11a-cd626b625b55.__CR0,0,970,600_PT0_SX970_V1___.jpg"
+    },
+    {
+      "position": 3,
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/1bc0429b-165f-4f6a-b8bf-f4400d8b3dac.__CR0,0,970,600_PT0_SX970_V1___.jpg"
+    },
+    {
+      "position": 4,
+      "image": "https://m.media-amazon.com/images/S/aplus-media/vc/0e7c762a-fb0d-4b40-8ce1-8ea749089005.__CR0,0,970,300_PT0_SX970_V1___.jpg"
+    }
+  ],
+  "product_details": {
+    "shape": "Rectangular",
+    "desk_design": "Drafting Table",
+    "color": "Rustic Oak",
+    "style_name": "Vintage 36\" W",
+    "finish_types": "Wood",
+    "furniture_finish": "Oak",
+    "leg_style": "Turned Leg",
+    "top_color": "Rustic Oak",
+    "distressed_finish_type": "Coat/Paint Distressing",
+    "natural_variation_type": "Wood",
+    "base_color": "Rustic Oak",
+    "item_dimensions_d_x_w_x_h": "24\"D x 36\"W x 36\"H",
+    "item_weight": "27 pounds",
+    "size": "36\" W x 24\" D",
+    "tabletop_thickness": "0.75 inches",
+    "minimum_height": "5 inches",
+    "working_surface_diagonal_length": "44.72 inches",
+    "item_depth": "24 inches",
+    "item_dimensions": "24 x 36 x 36 inches",
+    "maximum_height": "34.25 inches",
+    "maximum_tilt_angle": "90 degrees",
+    "additional_features": "Adjustable Work Surface, Built-in Pencil Groove with Pencil Ledge, Solid Wood Frame",
+    "base_type": "wooden",
+    "frame_joint_type": "Mortise and tenon",
+    "cabinet_configuration": "Freestanding",
+    "number_of_height_positions": "5",
+    "mounting_type": "Tabletop",
+    "brand_name": "SD STUDIO DESIGNS",
+    "room_type": "Classroom",
+    "recommended_uses_for_product": "Residential Use",
+    "included_components": "other",
+    "model_number": "13304",
+    "model_name": "Vintage Rustic Oak Drafting Table, Top Adjustable Drafting Table",
+    "upc": "715877272978 785525640206 017342133044 634154120637 798804936297 670045393902 787766385960",
+    "global_trade_identification_number": "00017342133044",
+    "manufacturer_warranty_description": "10 year warranty on parts.",
+    "number_of_items": "1",
+    "manufacturer": "Studio Design",
+    "unit_count": "1 Count",
+    "age_range_description": "Adult",
+    "item_type_name": "Top Adjustable Drafting Table Craft Table Drawing Desk Hobby Table Writing Desk Studio Desk",
+    "manufacturer_part_number": "SRTA13304",
+    "best_sellers_rank": [
+      {
+        "text": "#113,254 in Office Products (See Top 100 in Office Products)",
+        "extracted_rank": 113254,
+        "link": "https://www.amazon.com/gp/bestsellers/office-products/ref=pd_zg_ts_office-products",
+        "link_text": "See Top 100 in Office Products"
+      },
+      {
+        "text": "#36 in Drafting Tables",
+        "extracted_rank": 36,
+        "link": "https://www.amazon.com/gp/bestsellers/home-garden/3733771/ref=pd_zg_hrsr_home-garden",
+        "link_text": "Drafting Tables"
+      },
+      {
+        "text": "#125 in Office Tables",
+        "extracted_rank": 125,
+        "link": "https://www.amazon.com/gp/bestsellers/office-products/1069222/ref=pd_zg_hrsr_office-products",
+        "link_text": "Office Tables"
+      }
+    ],
+    "asin": "B00B10MKDI",
+    "customer_reviews": "4.5 out of 5 stars",
+    "rating": 4.5,
+    "reviews": 1608,
+    "base": "Wood",
+    "top_material_type": "Poplar Wood",
+    "furniture_leg_material": "Wood",
+    "product_care_instructions": "Wipe with Dry Cloth",
+    "hutch_material": "Wood",
+    "frame_material_type": "Wood",
+    "material_type": "Poplar Wood",
+    "maximum_weight_recommendation": "25 pounds",
+    "recommended_number_of_people_for_assembly": "2",
+    "warranty_type": "Limited",
+    "tools_recommended_for_assembly": "Screw Driver",
+    "mfg_warranty_type_i_e_parts_labor": "10 Years",
+    "assembly_instructions_description": "Full Assembly Needed, Avoid Power Tools"
+  },
+  "related_asins": [
+    "B0G43MZ2JW",
+    "B07H2W9Y3W",
+    "B07HGCMZYM",
+    "B00E3V3YX2",
+    "B09DY2D5ZL",
+    "B0GFD6L4YK",
+    "B0DM5YLKNK",
+    "B0GGMB3LNW",
+    "B0DDXW9WXM",
+    "B0F7J4PYW7",
+    "B0HPJLP9JW",
+    "B0GY88PY4L",
+    "B0H75SN3SD",
+    "B0FRQ8S9VF"
+  ]
+}

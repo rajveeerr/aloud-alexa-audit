@@ -1,0 +1,117 @@
+{
+  "data": [
+    {
+      "id": "what_is_the_capacity_in_gallons",
+      "question": "What is the capacity of the trash bags in gallons?",
+      "kind": "spec",
+      "rubric": "answered: specifies exact gallon capacity; partial: implies capacity without exact figure; unanswered: does not state capacity",
+      "conditional": false
+    },
+    {
+      "id": "what are the exact dimensions of each bag",
+      "question": "What are the width and height dimensions of each trash bag?",
+      "kind": "spec",
+      "rubric": "answered: gives exact width and height dimensions; partial: gives only one dimension; unanswered: provides no dimensions",
+      "conditional": false
+    },
+    {
+      "id": "what is the thickness in mils",
+      "question": "What is the thickness of the trash bag material measured in mils?",
+      "kind": "spec",
+      "rubric": "answered: states the mil thickness; partial: describes as thick or thin without numeric mil; unanswered: no mention of thickness",
+      "conditional": true
+    },
+    {
+      "id": "are the bags scented or unscented",
+      "question": "Are the trash bags scented, and if so, what fragrance do they use?",
+      "kind": "spec",
+      "rubric": "answered: specifies if scented and names the scent; partial: states scented/unscented without details; unanswered: no information on scent",
+      "conditional": false
+    },
+    {
+      "id": "how many bags are included in the box",
+      "question": "How many trash bags are included in a single package or count?",
+      "kind": "spec",
+      "rubric": "answered: states the exact count of bags; partial: gives total weight instead of count; unanswered: does not state quantity",
+      "conditional": false
+    },
+    {
+      "id": "do the bags feature a drawstring closure",
+      "question": "Do these trash bags come with a drawstring closure for easy tying and carrying?",
+      "kind": "spec",
+      "rubric": "answered: explicitly states whether they have drawstrings; partial: mentions closure vaguely; unanswered: no closure details",
+      "conditional": true
+    },
+    {
+      "id": "do the bags repel rodents or pests",
+      "question": "Do these trash bags have special technology to repel rodents or pests?",
+      "kind": "claim",
+      "rubric": "answered: confirms rodent/pest repellent features; partial: mentions general pest deterrence; unanswered: no mention of pest control",
+      "conditional": true
+    },
+    {
+      "id": "how effective is the odor control",
+      "question": "How well do these trash bags neutralize or mask foul garbage odors?",
+      "kind": "claim",
+      "rubric": "answered: details odor-neutralizing technology or ingredients; partial: claims freshness without details; unanswered: no odor claims",
+      "conditional": true
+    },
+    {
+      "id": "are the bags tear and puncture resistant",
+      "question": "Are the trash bags tear-resistant and puncture-resistant under heavy loads?",
+      "kind": "claim",
+      "rubric": "answered: describes stretch or strength technology against tears; partial: states they are strong generally; unanswered: no durability claims",
+      "conditional": false
+    },
+    {
+      "id": "do the bags leak liquids",
+      "question": "Are the trash bags leak-proof to prevent liquid spills from wet garbage?",
+      "kind": "claim",
+      "rubric": "answered: confirms leak-proof design or bottom seal strength; partial: mentions moisture resistance; unanswered: no leak information",
+      "conditional": false
+    },
+    {
+      "id": "are the bags easy to remove from the can",
+      "question": "Do the bags slide out easily from standard tall kitchen trash cans without ripping?",
+      "kind": "experience",
+      "rubric": "answered: describes ease of removal and fit; partial: mentions sizing fit; unanswered: no details on removal",
+      "conditional": false
+    },
+    {
+      "id": "do the drawstrings break when pulled tight",
+      "question": "Do the drawstrings hold up under tension when pulling the bag closed or carrying a heavy load?",
+      "kind": "experience",
+      "rubric": "answered: details drawstring durability during use; partial: mentions drawstring presence; unanswered: no usage feedback on drawstrings",
+      "conditional": true
+    },
+    {
+      "id": "do the bags stretch without puncturing",
+      "question": "Do the bags stretch effectively around sharp objects or overstuffed loads without tearing?",
+      "kind": "experience",
+      "rubric": "answered: describes stretching behavior with full loads; partial: mentions stretching material; unanswered: no stretch performance details",
+      "conditional": true
+    },
+    {
+      "id": "do the scented bags overpower the room",
+      "question": "Is the scent of the trash bags overwhelmingly strong or subtle in a closed kitchen space?",
+      "kind": "experience",
+      "rubric": "answered: describes scent intensity and longevity; partial: mentions scent type; unanswered: no user feedback on scent strength",
+      "conditional": true
+    },
+    {
+      "id": "do pests actually stay away from repellent bags",
+      "question": "Do the repellent bags successfully deter mice, rats, or raccoons from chewing through the plastic?",
+      "kind": "experience",
+      "rubric": "answered: shares real-world pest deterrence results; partial: mentions repellent technology; unanswered: no pest deterrent feedback",
+      "conditional": true
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "estimate-intents@2026-10-27.1+trash-bags",
+  "usage": {
+    "inputTokens": 514,
+    "outputTokens": 1290
+  },
+  "latencyMs": 5791,
+  "cached": false
+}

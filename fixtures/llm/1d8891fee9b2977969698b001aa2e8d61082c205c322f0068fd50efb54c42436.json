@@ -1,0 +1,127 @@
+{
+  "data": [
+    {
+      "intentId": "flavor_profile",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.flavor",
+          "text": "Sweet Brown Butter Cashews"
+        }
+      ],
+      "value": "Sweet Brown Butter Cashews"
+    },
+    {
+      "intentId": "nut_to_sugar_ratio",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "premium roasted cashews"
+        }
+      ],
+      "value": "premium roasted cashews"
+    },
+    {
+      "intentId": "allergen_information",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.allergen_information",
+          "text": "Peanuts may contain, Soy, Tree Nuts, Tree nuts may contain"
+        }
+      ],
+      "value": "Peanuts may contain, Soy, Tree Nuts, Tree nuts may contain"
+    },
+    {
+      "intentId": "artificial_ingredients",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "packaging_type",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Resealable Bag"
+        }
+      ],
+      "value": "Resealable Bag"
+    },
+    {
+      "intentId": "gift_suitability",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "perfect for fans of candied cashews looking for a delicious, indulgent snack"
+        }
+      ],
+      "value": "perfect for fans of candied cashews looking for a delicious, indulgent snack"
+    },
+    {
+      "intentId": "shelf_life_and_freshness",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Keeps your Sweet Brown Butter Cashews fresh and ready wherever you go."
+        }
+      ],
+      "value": "Keeps your Sweet Brown Butter Cashews fresh and ready wherever you go."
+    },
+    {
+      "intentId": "serving_size_and_calories",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.item_weight",
+          "text": "3.5 ounces"
+        }
+      ],
+      "value": "3.5 ounces"
+    },
+    {
+      "intentId": "butter_and_sweetener_type",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "real browned butter"
+        }
+      ],
+      "value": "real browned butter"
+    },
+    {
+      "intentId": "dietary_restrictions",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "gluten free and vegetarian"
+        }
+      ],
+      "value": "gluten free and vegetarian"
+    },
+    {
+      "intentId": "sharing_and_party_use",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.package_size_name",
+          "text": "Single Serve"
+        }
+      ],
+      "value": "Single Serve"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+brittle@estimated-1",
+  "usage": {
+    "inputTokens": 1750,
+    "outputTokens": 855
+  },
+  "latencyMs": 2642,
+  "cached": false
+}

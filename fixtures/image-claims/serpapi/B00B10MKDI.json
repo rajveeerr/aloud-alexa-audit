@@ -1,0 +1,118 @@
+{
+  "asin": "B00B10MKDI",
+  "promptVersion": "transcribe@2026-10-27.1",
+  "model": "gemini-3.5-flash-lite",
+  "usage": {
+    "inputTokens": 12155,
+    "outputTokens": 985
+  },
+  "images": 11,
+  "skippedImageIds": [],
+  "modelOutput": [
+    {
+      "imageId": "img.0",
+      "claims": []
+    },
+    {
+      "imageId": "img.1",
+      "claims": []
+    },
+    {
+      "imageId": "img.2",
+      "claims": [
+        "VINTAGE DRAFTING TABLE - 36\" x 24\"",
+        "Width 36\"",
+        "Adjustable Angle 0° - 90°",
+        "25 LBS",
+        "Depth 24\"",
+        "Pencil Ledge 24\" W",
+        "Height 36\""
+      ]
+    },
+    {
+      "imageId": "img.3",
+      "claims": [
+        "VINTAGE DRAFTING TABLE - 36\" x 24\"",
+        "Rustic Design - Retro inspired for a modern world.",
+        "Pencil Ledge - With convenient built-in pencil groove keeps your tools from sliding off.",
+        "Rear Bars - Provide a super rigid stance.",
+        "Solid Wood - Guarantees many years of use.",
+        "Floor Levelers - Add stability on uneven floors."
+      ]
+    },
+    {
+      "imageId": "img.4",
+      "claims": [
+        "VINTAGE DRAFTING TABLE - 36\" x 24\"",
+        "Metal Bar - Holes are set at intervals to lock in your favorite angle.",
+        "Metal Knob - Quickly adjust the slanted top to you liking."
+      ]
+    },
+    {
+      "imageId": "img.5",
+      "claims": [
+        "VINTAGE DRAFTING TABLE - 36\" x 24\"",
+        "The retro inspired look adds class and charm to your creative space.",
+        "The wood ledge with indented groove holds your pencils in place.",
+        "Rich oak wood paired with black hardware gives it an elegant vibe.",
+        "Solid wood top, frame, and legs ensure many years of use."
+      ]
+    },
+    {
+      "imageId": "img.6",
+      "claims": [
+        "VINTAGE DRAFTING TABLE - 36\" x 24\"",
+        "With over 15 years of experience, Studio Designs is a trusted maker of high-quality arts and crafts furniture designed for creativity and durability."
+      ]
+    },
+    {
+      "imageId": "img.7",
+      "claims": [
+        "Vintage Drafting Table",
+        "Kubx Cart #53001",
+        "Winslow Chair #18623"
+      ]
+    },
+    {
+      "imageId": "img.8",
+      "claims": [
+        "A solid wood, drafting and drawing table with a rustic design. The top tilts with a circular bar and knob to lock it in place. You can sit or stand with it's 36\" high legs.",
+        "Available in 42\" x 30\" and 36\" x 24\" Table Top.",
+        "Rustic Oak",
+        "Dist. Black",
+        "Coastal Whitewash",
+        "Width 42\"",
+        "Adjustable Angle 0° - 90°",
+        "25 LBS",
+        "Depth 30\"",
+        "Pencil Ledge 30.5\" W",
+        "Height 36\"",
+        "Width 36\"",
+        "Adjustable Angle 0° - 90°",
+        "25 LBS",
+        "Depth 24\"",
+        "Pencil Ledge 24\" W",
+        "Height 36\""
+      ]
+    },
+    {
+      "imageId": "img.9",
+      "claims": [
+        "#13348",
+        "#13314",
+        "#13347",
+        "#13334",
+        "Add a stool to enhance your creative setting.",
+        "#13307 Retro Stool Rustic Oak",
+        "#13317 Retro Stool Distressed Black"
+      ]
+    },
+    {
+      "imageId": "img.10",
+      "claims": [
+        "READY TO ASSEMBLE FOR EASY SHIPPING",
+        "CREATE YOUR SPACE"
+      ]
+    }
+  ]
+}

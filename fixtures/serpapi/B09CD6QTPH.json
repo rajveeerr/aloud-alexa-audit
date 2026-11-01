@@ -1,0 +1,269 @@
+{
+  "product_results": {
+    "categories": [
+      {
+        "position": 1,
+        "name": "Health & Household",
+        "link": "https://www.amazon.com/health-personal-care-nutrition-fitness/b/ref=dp_bc_1?ie=UTF8&node=3760901",
+        "node": "3760901",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=3760901"
+      },
+      {
+        "position": 2,
+        "name": "Household Supplies",
+        "link": "https://www.amazon.com/Household-Supplies-Products/b/ref=dp_bc_2?ie=UTF8&node=15342811",
+        "node": "15342811",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15342811"
+      },
+      {
+        "position": 3,
+        "name": "Paper & Plastic",
+        "link": "https://www.amazon.com/Paper-Plastic-Household-Supplies/b/ref=dp_bc_3?ie=UTF8&node=15342841",
+        "node": "15342841",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15342841"
+      },
+      {
+        "position": 4,
+        "name": "Trash, Compost & Lawn Bags",
+        "link": "https://www.amazon.com/Trash-Compost-Lawn-Bags/b/ref=dp_bc_4?ie=UTF8&node=16284867011",
+        "node": "16284867011",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=16284867011"
+      },
+      {
+        "position": 5,
+        "name": "Trash Bags",
+        "link": "https://www.amazon.com/trash-bags/b/ref=dp_bc_5?ie=UTF8&node=15342971",
+        "node": "15342971",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15342971"
+      }
+    ],
+    "asin": "B09CD6QTPH",
+    "title": "Amazon Basics Scented Trash Bags, Tall Kitchen Drawstring, Clean Scent, 13 Gallon, 200 Count, Pack of 1, Packaging May Vary",
+    "link": "https://www.amazon.com/hp/wlp/pipeline/membersignup?ref=primedp_ventures_desktopBelowThreshold&primeCampaignId=primedp_ventures_desktopBelowThreshold",
+    "link_clean": "https://www.amazon.com/dp/B09CD6QTPH/",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09CD6QTPH&device=desktop&engine=amazon_product",
+    "badges": [
+      "Amazon's Choice"
+    ],
+    "variants": [
+      {
+        "title": "Size",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B09CD86MCT",
+            "name": "45 Count (Pack of 1)",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09CD86MCT&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B093X6VFN5",
+            "name": "80 Count (Pack of 1)",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B093X6VFN5&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B09CD6QTPH",
+            "name": "200 Count (Pack of 1)",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09CD6QTPH&device=desktop&engine=amazon_product"
+          }
+        ]
+      }
+    ],
+    "brand": "Visit the Amazon Basics Store",
+    "thumbnail": "https://m.media-amazon.com/images/I/71qoIGa+-xL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "thumbnails": [
+      "https://m.media-amazon.com/images/I/71qoIGa+-xL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71XltUPKPHL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71QrrqtZd2L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/712g-g7a7UL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61GWYQeQaEL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71B88tbtCOL._AC_SL1500_.jpg"
+    ],
+    "rating": 4.4,
+    "reviews": 29488,
+    "bought_last_month": "30K+ bought in past month",
+    "discount": "-10%",
+    "price": "$23.38",
+    "extracted_price": 23.38,
+    "price_unit": "$0.12 / count",
+    "extracted_price_unit": 0.12,
+    "save_with_coupon": "Save an extra 15% on your first Subscribe and Save order.",
+    "coupons": [
+      {
+        "text": "Save 15%: Coupon available when you select Subscribe & Save.",
+        "discount": "15%",
+        "shop_items_link": "https://www.amazon.com/promotion/psp/A21C7MJELXWBK9?ref=clp_external&redirectAsin=B09CD6QTPH&redirectMerchantId=ATVPDKIKX0DER&ref=cxcw_clp_A21C7MJELXWBK9&source=dp_cxcw",
+        "serpapi_amazon_promotion_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon_promotion&promotion_id=A21C7MJELXWBK9",
+        "terms_link": "https://www.amazon.com/promotion/details/popup/A21C7MJELXWBK9?ref=cxcw_bxgx_tc_A21C7MJELXWBK9&source=dp_cxcw"
+      }
+    ],
+    "promotions": [
+      {
+        "type": "subscribe_save",
+        "text": "Save an extra 15% on your first Subscribe and Save order.",
+        "discount_percent": 15,
+        "eligibility": "Subscribe & Save",
+        "link": "https://www.amazon.com/promotion/psp/A21C7MJELXWBK9?ref=clp_external&redirectAsin=B09CD6QTPH&redirectMerchantId=ATVPDKIKX0DER&ref=cxcw_clp_A21C7MJELXWBK9&source=dp_cxcw"
+      }
+    ],
+    "delivery": [
+      "FREE delivery Friday, November 6 on orders shipped by Amazon over $35",
+      "Or Prime members get FREE delivery Tomorrow, November 2. Order within 8 hrs 25 mins."
+    ],
+    "stock": "In Stock",
+    "description": "Amazon Basics Trash Bags are available in several varieties - both scented and unscented. 13 Gallon and 30 Gallon sizes available."
+  },
+  "purchase_options": {
+    "buy_new": {
+      "caption": "One-time purchase",
+      "price": "$23.38",
+      "extracted_price": 23.38,
+      "price_unit": "$0.12 / count",
+      "extracted_price_unit": 0.12,
+      "delivery": [
+        "FREE delivery Friday, November 6 on orders shipped by Amazon over $35",
+        "Or Prime members get FREE delivery Tomorrow, November 2. Order within 8 hrs 25 mins."
+      ],
+      "stock": "In Stock",
+      "features": {
+        "shipper_seller": {
+          "text": "Amazon.com",
+          "details": {
+            "heading": "Shipper / Seller",
+            "content": "Amazon.com"
+          }
+        },
+        "returns": {
+          "text": "FREE refund/replacement until Jan 31, 2027",
+          "details": {
+            "heading": "FREE refund/replacement until Jan 31, 2027",
+            "content": "For the 2026 holiday season, eligible items purchased between November 1 and December 31, 2026 can be returned until January 31, 2027."
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "payment": {
+          "text": "Secure transaction",
+          "details": {
+            "heading": "Your transaction is secure",
+            "content": "We work hard to protect your security and privacy. Our payment security system encrypts your information during transmission. We don’t share your credit card details with third-party sellers, and we don’t sell your information to others. Learn more"
+          },
+          "link": {
+            "text": "Learn more",
+            "link": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201909010"
+          }
+        }
+      }
+    },
+    "subscribe_and_save": {
+      "caption": "Subscribe & Save",
+      "price": "$21.04",
+      "extracted_price": 21.04,
+      "price_unit": "$0.11 / count",
+      "extracted_price_unit": 0.11,
+      "delivery": [
+        "FREE delivery Friday, November 6 on orders shipped by Amazon over $35",
+        "Or Prime members get FREE delivery Tomorrow, November 2. Order within 8 hrs 25 mins."
+      ],
+      "stock": "In Stock",
+      "features": {
+        "shipper_seller": {
+          "text": "Amazon.com",
+          "details": {
+            "heading": "Shipper / Seller",
+            "content": "Amazon.com"
+          }
+        },
+        "returns": {
+          "text": "FREE refund/replacement until Jan 31, 2027",
+          "details": {
+            "heading": "FREE refund/replacement until Jan 31, 2027",
+            "content": "For the 2026 holiday season, eligible items purchased between November 1 and December 31, 2026 can be returned until January 31, 2027."
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "subscription": "No fees. Skip or cancel anytime."
+      }
+    }
+  },
+  "item_specifications": {
+    "brand": "Amazon Basics",
+    "capacity": "13 gallons",
+    "unit_count": "200 Count",
+    "recommended_uses_for_product": "Food Waste",
+    "material_feature": "Scented",
+    "color": "White",
+    "material": "Plastic",
+    "item_form": "Bag",
+    "scent": "Clean",
+    "number_of_items": "1"
+  },
+  "about_item": [
+    "SHIPMENT CONTAINS: 200-count of durable 13-gallon tall kitchen drawstring trash bags with clean scent, measuring 24 inches wide by 27 3/8 inches tall",
+    "DURABLE STRENGTH: Crafted with 0.9 mil thickness, these sturdy kitchen trash bags withstand daily demands without tearing, perfect for household waste",
+    "EASY DISPOSAL: Convenient red drawstring closure provides effortless tying and carrying for quick, mess-free disposal",
+    "ODOR CONTROL: Clean scent helps mask unpleasant odors, keeping your kitchen smelling pleasant throughout the day",
+    "VERSATILE OPTIONS: Available in multiple sizes and scents to meet your unique household needs",
+    "PACKAGING MAY VARY: Packaging may be different than what is shown but item and quality remain the same"
+  ],
+  "product_details": {
+    "capacity": "13 gallons",
+    "unit_count": "200 Count",
+    "number_of_items": "1",
+    "item_weight": "4.3 kg",
+    "item_dimensions": "9.19 x 8.44 x 6.56 inches",
+    "net_content_weight": "9.5 pounds",
+    "material_features": "Scented",
+    "material_type": "Plastic",
+    "color": "White",
+    "item_form": "Bag",
+    "brand_name": "Amazon Basics",
+    "recommended_uses_for_product": "Food Waste",
+    "manufacturer": "Amazon.com LLC",
+    "upc": "195515020022",
+    "global_trade_identification_number": "00195515020022",
+    "included_components": "Trash Bags",
+    "item_type_name": "Kitchen Trash Bags",
+    "best_sellers_rank": [
+      {
+        "text": "#76 in Our Brands (See Top 100 in Our Brands)",
+        "extracted_rank": 76,
+        "link": "https://www.amazon.com/gp/bestsellers/private-brands/ref=pd_zg_ts_private-brands",
+        "link_text": "See Top 100 in Our Brands"
+      },
+      {
+        "text": "#11 in Trash Bags",
+        "extracted_rank": 11,
+        "link": "https://www.amazon.com/gp/bestsellers/hpc/15342971/ref=pd_zg_hrsr_hpc",
+        "link_text": "Trash Bags"
+      }
+    ],
+    "asin": "B09CD6QTPH",
+    "customer_reviews": "4.4 out of 5 stars",
+    "rating": 4.4,
+    "reviews": 29488,
+    "scent": "Clean"
+  },
+  "related_asins": [
+    "B095CN96JS",
+    "B09NQ42ZZT",
+    "B0FCP6DNLQ",
+    "B0040ZOD04",
+    "B0BYL8XPZG",
+    "B0DJCJMCKK",
+    "B0GKPTKKLC",
+    "B0GZSJDSTB",
+    "B0HHQMKW34",
+    "B0DBHN8N1S",
+    "B097F7XJM1",
+    "B0FY6BXYCH",
+    "B0GZSK6RG4"
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "data": [
+    {
+      "intentId": "tank_capacity_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.capacity",
+          "text": "Capacity: 2 gallons"
+        }
+      ],
+      "value": "2 gallons"
+    },
+    {
+      "intentId": "motor_horsepower",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "2.0 Peak HP"
+        }
+      ],
+      "value": "2.0 Peak HP"
+    },
+    {
+      "intentId": "wet_and_dry_pickup",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Sucks Up Spills and Debris Without Losing Power"
+        }
+      ],
+      "value": "Sucks up liquid spills, dry debris, dust, pet hair and everything in between."
+    },
+    {
+      "intentId": "blower_feature",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Switch to blower mode through the rear port to clear leaves, sawdust or garage floors."
+        }
+      ],
+      "value": "Switch to blower mode through the rear port"
+    },
+    {
+      "intentId": "tank_material",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "2-gallon polypropylene tank"
+        }
+      ],
+      "value": "polypropylene"
+    },
+    {
+      "intentId": "included_accessories_and_nozzles",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "crevice tool, utility nozzle, and filter bag"
+        }
+      ],
+      "value": "crevice tool, utility nozzle, and filter bag"
+    },
+    {
+      "intentId": "hose_length_and_reach",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "10-foot cleaning reach"
+        },
+        {
+          "fieldId": "bullet.2",
+          "text": "4-foot TWIST-N-LOCK hose"
+        }
+      ],
+      "value": "10-foot cleaning reach, 4-foot hose"
+    },
+    {
+      "intentId": "cord_length_and_storage",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Cord management system keeps the power cord tidy and tangle-free."
+        },
+        {
+          "fieldId": "attr.cable_length",
+          "text": "Cable length: 10 feet"
+        }
+      ],
+      "value": "10 feet"
+    },
+    {
+      "intentId": "liquid_drain_port",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "portability_and_wheels",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.special_feature",
+          "text": "Special feature: 5 year warranty, Compact, Lightweight, Portable"
+        },
+        {
+          "fieldId": "attr.number_of_handles",
+          "text": "Number of handles: 1"
+        }
+      ],
+      "value": "Compact, Lightweight, Portable"
+    },
+    {
+      "intentId": "filter_types_included",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.filter_type",
+          "text": "Filter type: Cloth"
+        }
+      ],
+      "value": "Cloth"
+    },
+    {
+      "intentId": "noise_level",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.noise_level",
+          "text": "Noise level: 52 db"
+        }
+      ],
+      "value": "52 db"
+    },
+    {
+      "intentId": "suction_power_cfm",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "60 CFM"
+        }
+      ],
+      "value": "60 CFM"
+    },
+    {
+      "intentId": "builder_and_jobsite_durability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "aplus.5",
+          "text": "heavy duty shop vac construction vacuum"
+        }
+      ],
+      "value": "heavy duty"
+    },
+    {
+      "intentId": "warranty_coverage",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.manufacturer_warranty_description",
+          "text": "5 year limited manufacturer."
+        }
+      ],
+      "value": "5 year limited manufacturer"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+wet-dry-shop-vacuums@estimated-1",
+  "usage": {
+    "inputTokens": 2464,
+    "outputTokens": 1275
+  },
+  "latencyMs": 3616,
+  "cached": false
+}

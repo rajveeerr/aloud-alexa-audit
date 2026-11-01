@@ -1,0 +1,439 @@
+{
+  "product_results": {
+    "categories": [
+      {
+        "position": 1,
+        "name": "Home & Kitchen",
+        "link": "https://www.amazon.com/home-garden-kitchen-furniture-bedding/b/ref=dp_bc_1?ie=UTF8&node=1055398",
+        "node": "1055398",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1055398"
+      },
+      {
+        "position": 2,
+        "name": "Furniture",
+        "link": "https://www.amazon.com/Furniture/b/ref=dp_bc_2?ie=UTF8&node=1063306",
+        "node": "1063306",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1063306"
+      },
+      {
+        "position": 3,
+        "name": "Home Office Furniture",
+        "link": "https://www.amazon.com/Home-Office-Furniture/b/ref=dp_bc_3?ie=UTF8&node=1063312",
+        "node": "1063312",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1063312"
+      },
+      {
+        "position": 4,
+        "name": "Drafting Tables",
+        "link": "https://www.amazon.com/Drafting-Tables/b/ref=dp_bc_4?ie=UTF8&node=3733771",
+        "node": "3733771",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=3733771"
+      }
+    ],
+    "asin": "B07X1PKV6Y",
+    "title": "Yaheetech Adjustable Drafting Table Art Desk, Storage Drawers & Stool, Wood",
+    "link": "https://www.amazon.com/product-reviews/B0CG6QY786/ref=dp_atch_dss_w_r_B07X1PKV6Y_?ie=UTF8&showViewpoints=1",
+    "link_clean": "https://www.amazon.com/dp/B07X1PKV6Y/",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B07X1PKV6Y&device=desktop&engine=amazon_product",
+    "badges": [
+      "Amazon's Choice"
+    ],
+    "variants": [
+      {
+        "title": "Color",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B07X1PKV6Y",
+            "name": "Brown",
+            "image": "https://m.media-amazon.com/images/I/41FQE2+DToL._SS64_.jpg",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B07X1PKV6Y&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B08P38ZXBH",
+            "name": "Black",
+            "image": "https://m.media-amazon.com/images/I/41Km0fW7sKL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B08P38ZXBH&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B0CMT355Z7",
+            "name": "White",
+            "image": "https://m.media-amazon.com/images/I/41xe-P0Ms1L._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CMT355Z7&device=desktop&engine=amazon_product"
+          }
+        ]
+      }
+    ],
+    "brand": "Visit the Yaheetech Store",
+    "thumbnail": "https://m.media-amazon.com/images/I/71uGQFB8CIL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "thumbnails": [
+      "https://m.media-amazon.com/images/I/71uGQFB8CIL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91VhvEWg+tL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71YvYNnlMwL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81H46zIx3hL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71q3cYxEcnL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81Yzxm4yTpL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71RlwOpW1vL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71SAFXw7BsL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61Cu0KZFEkL._AC_SL1000_.jpg"
+    ],
+    "rating": 4.5,
+    "reviews": 3694,
+    "bought_last_month": "100+ bought in past month",
+    "discount": "-11%",
+    "price": "$106.99",
+    "extracted_price": 106.99,
+    "old_price": "$119.99",
+    "extracted_old_price": 119.99,
+    "delivery": [
+      "FREE delivery November 4 - 5. Details"
+    ],
+    "stock": "In Stock"
+  },
+  "purchase_options": {
+    "single_offer": {
+      "price": "$106.99",
+      "extracted_price": 106.99,
+      "delivery": [
+        "FREE delivery November 4 - 5. Details"
+      ],
+      "stock": "In Stock",
+      "features": {
+        "shipper_seller": {
+          "text": "Yaheetech",
+          "details": {
+            "heading": "Shipper / Seller",
+            "content": "Yaheetech"
+          },
+          "link": {
+            "text": "Yaheetech",
+            "link": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A3AN9QJNQ0FYAY&asin=B07X1PKV6Y&ref_=dp_merchant_link"
+          }
+        },
+        "returns": {
+          "text": "Returnable until Jan 31, 2027",
+          "details": {
+            "heading": "Returnable until Jan 31, 2027",
+            "content": "For the 2026 holiday season, eligible items purchased between November 1 and December 31, 2026 can be returned until January 31, 2027."
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "payment": {
+          "text": "Secure transaction",
+          "details": {
+            "heading": "Your transaction is secure",
+            "content": "We work hard to protect your security and privacy. Our payment security system encrypts your information during transmission. We don’t share your credit card details with third-party sellers, and we don’t sell your information to others. Learn more"
+          },
+          "link": {
+            "text": "Learn more",
+            "link": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201909010"
+          }
+        }
+      }
+    }
+  },
+  "protection_plan": [
+    {
+      "position": 1,
+      "asin": "B0CG6QY786",
+      "link": "https://www.amazon.com/dp/B0CG6QY786/",
+      "title": "2-Year Protection Plan",
+      "price": "$22.99",
+      "extracted_price": 22.99
+    },
+    {
+      "position": 2,
+      "asin": "B0CG6SVP8G",
+      "link": "https://www.amazon.com/dp/B0CG6SVP8G/",
+      "title": "3-Year Protection Plan",
+      "price": "$27.99",
+      "extracted_price": 27.99
+    },
+    {
+      "position": 3,
+      "asin": "B07RZ3LSHM",
+      "link": "https://www.amazon.com/dp/B07RZ3LSHM/",
+      "title": "Complete Protect: One plan covers all past and future eligible purchases (Broadest Coverage)",
+      "price": "$16.99/month",
+      "extracted_price": 16.99
+    }
+  ],
+  "item_specifications": {
+    "brand": "Yaheetech",
+    "shape": "Rectangular",
+    "desk_design": "Drafting Table",
+    "product_dimensions": "23.6\"D x 47.5\"W x 36.5\"H",
+    "color": "Brown",
+    "style": "Modern",
+    "base_material": "Metal",
+    "top_material_type": "Wood",
+    "finish_type": "Wood",
+    "special_feature": "Adjustable Height, Easy Angle Control"
+  },
+  "about_item": [
+    "Adjustable Table Height: The height adjustable drawing table measures 47.4x23.6x(27.4-36.4)” (LxWxH) in overall dimensions. Rest assured that all the fittings applies (e.g. metal connectors, plastic knobs and more) work well to ease your every single adjustment.",
+    "Easy Angle Control: The artist table can be tilted at an angle range of 0-60°. It can work as a regular flat table for your laptop tasks or a professional drafting table for your art interests. The 100% tested adjustment system makes it easy for you to control the angle at your will.",
+    "Durable Pencil Ledge: The drawing board has an adjustable metal pencil ledge attached to the front edge to keep your drawing instruments from sliding/rolling off at a tilted angle. A special adjustment fitting design for you to lock and loose the pencil ledge with ease.",
+    "All-in-one Storage Options: The drawing table has all you need for art/office supplies storage. An easy-to-clean detachable tabletop side tray with separate slots for different stationary items. A space-saving retractable board for documents/files. 2 simple yet practical nonwoven fabric drawers for mobile devices. An extra metal shelf down below for drawing drafts/paint cans.",
+    "Table/Stool Set: This drafting table set includes a stool in the package, which features a sturdy construction of a well finished metal frame and color/style matching black PU-wrapped sponge padding round seat. Now enjoy the added comfort!"
+  ],
+  "sustainability_features": {
+    "summary": "This product has sustainability features recognized by trusted certifications.",
+    "climate_pledge_friendly": true,
+    "learn_more_link": "https://www.amazon.com/climatepledgefriendly",
+    "features": [
+      {
+        "position": 1,
+        "title": "Forestry practices",
+        "text": "Made with materials from well-managed forests, recycled materials, and/or other controlled wood sources.",
+        "certified_by": [
+          {
+            "name": "The Forest Stewardship Council",
+            "logo": "https://m.media-amazon.com/images/I/61LMPVSIgfL._SS128_.png",
+            "description": "Forest Stewardship Council (FSC) certified products are made with materials from well-managed forests, recycled materials and/or other controlled wood sources.",
+            "link": "https://fsc.org/en/page/about-us"
+          }
+        ]
+      }
+    ]
+  },
+  "product_description": [
+    {
+      "position": 1,
+      "title": "drafting table",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/1a4cb049-71fd-4921-8a59-5851338b035c.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 2
+    },
+    {
+      "position": 3,
+      "carousel_images": [
+        {
+          "position": 1,
+          "title": "drafting table",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/bf88948c-9665-43bc-a765-3e827c442ad2.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 2,
+          "title": "drafting table",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/f6558f0c-9e4f-4406-bf5a-a09a2bd1728a.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 3,
+          "title": "drafting table",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/1dfb3780-9119-4d52-ab8c-a071d3185934.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+        }
+      ]
+    },
+    {
+      "position": 4
+    },
+    {
+      "position": 5
+    },
+    {
+      "position": 6,
+      "compare_with_similar": [
+        {
+          "position": 1,
+          "asin": "B073HXKY8T",
+          "title": "Drafting Desk",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/5c41951d-f1b8-493a-ab04-132c8fd0027c.__CR0,0,200,225_PT0_SX200_V1___.png",
+          "link": "https://www.amazon.com/dp/B073HXKY8T?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B073HXKY8T&device=desktop&engine=amazon_product",
+          "rating": 4.5,
+          "reviews": 1704,
+          "price": "$99.99",
+          "extracted_price": 99.99,
+          "colour": "Black",
+          "dimension_lxwxh": "50.4 x 23.6 x (29.9-45.1)’’",
+          "materials": "MDF, Steel, Non-woven Fabric",
+          "with_stool": "✔",
+          "height_adjustable": "✔"
+        },
+        {
+          "position": 2,
+          "asin": "B0BTH62X11",
+          "title": "Mobile Corner Desk",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/98fd01b6-9ced-4e73-8eb3-2e438e03af73.__CR0,0,200,225_PT0_SX200_V1___.png",
+          "link": "https://www.amazon.com/dp/B0BTH62X11?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0BTH62X11&device=desktop&engine=amazon_product",
+          "rating": 4.4,
+          "reviews": 220,
+          "price": "$59.99",
+          "extracted_price": 59.99,
+          "colour": "Black",
+          "dimension_lxwxh": "22 × 20 × 31.5''",
+          "materials": "CARB P2 MDF， Iron",
+          "with_stool": "✔",
+          "height_adjustable": "✘"
+        },
+        {
+          "position": 3,
+          "asin": "B0BTGQVHLG",
+          "title": "Mobile Home Office Desk",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a9ce3379-6fea-42f5-8c9e-8abdd316ee64.__CR0,0,200,225_PT0_SX200_V1___.png",
+          "link": "https://www.amazon.com/dp/B0BTGQVHLG?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0BTGQVHLG&device=desktop&engine=amazon_product",
+          "rating": 4.6,
+          "reviews": 547,
+          "price": "$73.99",
+          "extracted_price": 73.99,
+          "colour": "Black",
+          "dimension_lxwxh": "31.5 × 20 × 52''",
+          "materials": "P2 Particle Board&Iron Tube",
+          "with_stool": "✔",
+          "height_adjustable": "✘"
+        },
+        {
+          "position": 4,
+          "asin": "B0C363TQ9Y",
+          "title": "Corner Computer Desk",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/c11667df-c6be-4ab2-af1f-84c9e2841632.__CR0,0,200,225_PT0_SX200_V1___.png",
+          "link": "https://www.amazon.com/dp/B0C363TQ9Y?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0C363TQ9Y&device=desktop&engine=amazon_product",
+          "rating": 4.5,
+          "reviews": 292,
+          "price": "$94.99",
+          "extracted_price": 94.99,
+          "colour": "White",
+          "dimension_lxwxh": "41.7 x 28 x 30’’",
+          "materials": "MDF Desktop & Pine Legs",
+          "with_stool": "✔",
+          "height_adjustable": "✘"
+        },
+        {
+          "position": 5,
+          "asin": "B0C8MYKJYV",
+          "title": "47 Inch Modern Desk",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/aa7557c4-e283-4201-bbbe-76ed04211141.__CR0,0,200,225_PT0_SX200_V1___.png",
+          "link": "https://www.amazon.com/dp/B0C8MYKJYV?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0C8MYKJYV&device=desktop&engine=amazon_product",
+          "rating": 4.6,
+          "reviews": 1167,
+          "colour": "White",
+          "dimension_lxwxh": "47.5 x 24 x 36''",
+          "materials": "P2 MDF, pinewood",
+          "with_stool": "✔",
+          "height_adjustable": "✘"
+        },
+        {
+          "position": 6,
+          "asin": "B0BLYVPNR6",
+          "title": "Computer Desk",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/48aa8609-ffc4-4a06-9888-eeded20c6bba.__CR0,0,200,225_PT0_SX200_V1___.png",
+          "link": "https://www.amazon.com/dp/B0BLYVPNR6?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0BLYVPNR6&device=desktop&engine=amazon_product",
+          "rating": 4.7,
+          "reviews": 479,
+          "colour": "Rustic Brown",
+          "dimension_lxwxh": "47.5 x 22.5 x 55''",
+          "materials": "MDF Board & Iron",
+          "with_stool": "✔",
+          "height_adjustable": "✘"
+        }
+      ]
+    }
+  ],
+  "product_details": {
+    "shape": "Rectangular",
+    "desk_design": "Drafting Table",
+    "color": "Brown",
+    "style_name": "Modern",
+    "finish_types": "Wood",
+    "furniture_finish": "Wood",
+    "leg_style": "Saber Leg",
+    "top_color": "Natural Wood",
+    "natural_variation_type": "wood",
+    "base_color": "brown",
+    "item_dimensions_d_x_w_x_h": "23.6\"D x 47.5\"W x 36.5\"H",
+    "number_of_drawers": "2",
+    "item_weight": "51.8 pounds",
+    "size": "Large",
+    "number_of_shelves": "1",
+    "tabletop_thickness": "0.25 inches",
+    "minimum_height": "27.4 inches",
+    "working_surface_diagonal_length": "70.6 inches",
+    "number_of_open_shelves": "1",
+    "item_depth": "23.6 inches",
+    "item_dimensions": "40.94 x 26.77 x 6.3 inches",
+    "maximum_height": "92.5 centimeters",
+    "maximum_tilt_angle": "60 degrees",
+    "storage_volume": "36.6 liters",
+    "additional_features": "Adjustable Height, Easy Angle Control",
+    "drawer_type": "Utility Drawer",
+    "base_type": "wood",
+    "lifting_mechanism": "Manual",
+    "frame_joint_type": "Mortise and Tenon",
+    "drawer_glide_mechanism": "standard",
+    "storage_options": "[All-in-one]",
+    "drawer_pedestal_count": "2",
+    "mounting_type": "Tabletop",
+    "brand_name": "Yaheetech",
+    "room_type": "Classroom, Home, Office",
+    "recommended_uses_for_product": "Drafting",
+    "included_components": "Drafting Table, Stool",
+    "model_number": "ZLJ38",
+    "model_name": "ZLJ38",
+    "manufacturer_warranty_description": "No warranty.",
+    "number_of_items": "1",
+    "item_highlight": "MDF Tabletop Tilts 0-60° on a Metal Frame for Drawing, Crafts, and Homework, with Two Supply Drawers and a Matching Stool.",
+    "manufacturer": "Yaheetech",
+    "number_of_packs": "1",
+    "unit_count": "1 Count",
+    "age_range_description": "Adult",
+    "manufacturer_part_number": "611055BLACKYELLOW",
+    "best_sellers_rank": [
+      {
+        "text": "#76,811 in Home & Kitchen (See Top 100 in Home & Kitchen)",
+        "extracted_rank": 76811,
+        "link": "https://www.amazon.com/gp/bestsellers/home-garden/ref=pd_zg_ts_home-garden",
+        "link_text": "See Top 100 in Home & Kitchen"
+      },
+      {
+        "text": "#3 in Drafting Tables",
+        "extracted_rank": 3,
+        "link": "https://www.amazon.com/gp/bestsellers/home-garden/3733771/ref=pd_zg_hrsr_home-garden",
+        "link_text": "Drafting Tables"
+      }
+    ],
+    "asin": "B07X1PKV6Y",
+    "customer_reviews": "4.5 out of 5 stars",
+    "rating": 4.5,
+    "reviews": 3694,
+    "base": "Metal",
+    "top_material_type": "Wood",
+    "furniture_leg_material": "Metal",
+    "product_care_instructions": "Wipe with Dry Cloth",
+    "drawer_glide_material": "Metal",
+    "frame_material_type": "Metal",
+    "material_type": "P2 MDF",
+    "maximum_weight_recommendation": "220.5 pounds",
+    "recommended_number_of_people_for_assembly": "2",
+    "warranty_type": "Limited",
+    "mfg_warranty_type_i_e_parts_labor": "Limited"
+  },
+  "related_asins": [
+    "B0G43MZ2JW",
+    "B08LB3QZ88",
+    "B00JC053D8",
+    "B00E3V3YX2",
+    "B0CDVYMT1X",
+    "B0DM5YLKNK",
+    "B09DY2D5ZL",
+    "B0H4Y7MK9B",
+    "B0HGRHW2QV",
+    "B0DXQ1ZMJF",
+    "B0FRQ8S9VF",
+    "B0H75SN3SD",
+    "B0GY88PY4L",
+    "B0B41X9SMT"
+  ]
+}

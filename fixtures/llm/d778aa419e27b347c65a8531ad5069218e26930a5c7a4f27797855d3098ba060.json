@@ -1,0 +1,90 @@
+{
+  "data": [
+    {
+      "intentId": "material_composition",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "55% cotton Poly 45%"
+        }
+      ],
+      "value": "55% cotton Poly 45%"
+    },
+    {
+      "intentId": "care_instructions",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_care_instructions",
+          "text": "Machine washable, Wash in cold water with like colors, Do not bleach, Tumble dry low or hang to dry, Store in a cool, dry place."
+        }
+      ],
+      "value": "Machine washable, Wash in cold water with like colors, Do not bleach, Tumble dry low or hang to dry, Store in a cool, dry place."
+    },
+    {
+      "intentId": "sizing_accuracy",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "piece_count_and_items",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Kimono top jacket"
+        },
+        {
+          "fieldId": "bullet.4",
+          "text": "twill pants"
+        }
+      ],
+      "value": "Kimono top jacket and twill pants"
+    },
+    {
+      "intentId": "pocket_inclusion",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "waistband_type",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "traditional drawstring"
+        },
+        {
+          "fieldId": "attr.closure_type",
+          "text": "Drawstring Waist"
+        }
+      ],
+      "value": "Drawstring Waist"
+    },
+    {
+      "intentId": "fabric_stretch",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.apparel_fabric_stretch",
+          "text": "No Stretch"
+        }
+      ],
+      "value": "No Stretch"
+    },
+    {
+      "intentId": "separates_versatility",
+      "status": "missing",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+sets@estimated-1",
+  "usage": {
+    "inputTokens": 1750,
+    "outputTokens": 593
+  },
+  "latencyMs": 5211,
+  "cached": false
+}

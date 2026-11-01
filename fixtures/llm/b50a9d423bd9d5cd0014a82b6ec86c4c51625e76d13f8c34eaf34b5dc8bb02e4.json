@@ -1,0 +1,124 @@
+{
+  "data": [
+    {
+      "id": "material_composition",
+      "question": "What is the exact fabric material and blend percentage of the set?",
+      "kind": "spec",
+      "rubric": "answered: specifies exact fabric and blend percentages; partial: mentions general fabric types without percentages",
+      "conditional": false
+    },
+    {
+      "id": "care_instructions",
+      "question": "How should this set be washed and dried to prevent shrinking or pilling?",
+      "kind": "spec",
+      "rubric": "answered: provides detailed washing and drying instructions; partial: mentions machine washable only",
+      "conditional": false
+    },
+    {
+      "id": "sizing_accuracy",
+      "question": "How does the sizing run and is there a specific size chart available?",
+      "kind": "spec",
+      "rubric": "answered: provides a complete size chart with measurements; partial: states to order true to size without measurements",
+      "conditional": false
+    },
+    {
+      "id": "piece_count_and_items",
+      "question": "How many pieces are included in the set and what are they?",
+      "kind": "spec",
+      "rubric": "answered: lists all individual items included in the set; partial: mentions the total count without detailing items",
+      "conditional": false
+    },
+    {
+      "id": "pocket_inclusion",
+      "question": "Do the pants or top feature functional pockets?",
+      "kind": "spec",
+      "rubric": "answered: clearly states whether pockets are present and their depth/location; partial: mentions pockets vaguely",
+      "conditional": true
+    },
+    {
+      "id": "waistband_type",
+      "question": "What type of waistband do the pants have and is it adjustable?",
+      "kind": "spec",
+      "rubric": "answered: details the waistband design and presence of a drawstring; partial: mentions elastic waist only",
+      "conditional": true
+    },
+    {
+      "id": "fabric_stretch",
+      "question": "Does the fabric have a good amount of stretch or is it rigid?",
+      "kind": "claim",
+      "rubric": "answered: describes the stretch level and elasticity; partial: mentions comfort without addressing stretch",
+      "conditional": false
+    },
+    {
+      "id": "shrinkage_after_wash",
+      "question": "Does the set shrink significantly after washing and drying?",
+      "kind": "experience",
+      "rubric": "answered: details percentage of shrinkage or confirms no shrinkage after care; partial: warns of potential minor shrinkage",
+      "conditional": false
+    },
+    {
+      "id": "fabric_opacity",
+      "question": "Is the material see-through or completely opaque, especially for lighter colors?",
+      "kind": "experience",
+      "rubric": "answered: confirms opacity level for all colors; partial: mentions thickness without addressing transparency",
+      "conditional": false
+    },
+    {
+      "id": "breathability_and_temperature",
+      "question": "Is the set breathable and suitable for warmer weather, or is it strictly for cold weather?",
+      "kind": "experience",
+      "rubric": "answered: describes thermal qualities and seasonal suitability; partial: mentions breathability generally",
+      "conditional": false
+    },
+    {
+      "id": "softness_against_skin",
+      "question": "How soft is the fabric against the skin, and does it cause any itching?",
+      "kind": "experience",
+      "rubric": "answered: details texture and skin feel; partial: states the fabric is soft",
+      "conditional": false
+    },
+    {
+      "id": "pilling_resistance",
+      "question": "Does the fabric pill or develop fuzzballs after repeated wear and washing?",
+      "kind": "experience",
+      "rubric": "answered: describes long-term fabric durability against pilling; partial: claims anti-pilling without proof",
+      "conditional": false
+    },
+    {
+      "id": "fit_proportions",
+      "question": "How does the fit look on different body types (e.g., petite, tall, curvy)?",
+      "kind": "experience",
+      "rubric": "answered: describes fit across various body shapes; partial: states it has a loose fit",
+      "conditional": false
+    },
+    {
+      "id": "separates_versatility",
+      "question": "Can the top and bottom be easily worn and styled as separate pieces with other clothing?",
+      "kind": "claim",
+      "rubric": "answered: explains how pieces can be paired with other wardrobe items; partial: simply states they can be worn separately",
+      "conditional": false
+    },
+    {
+      "id": "color_fading",
+      "question": "Do the colors fade or bleed after multiple washes?",
+      "kind": "experience",
+      "rubric": "answered: details color fastness and wash durability; partial: claims colors hold well without context",
+      "conditional": false
+    },
+    {
+      "id": "travel_friendliness",
+      "question": "Does the fabric wrinkle easily during travel or all-day wear?",
+      "kind": "experience",
+      "rubric": "answered: describes wrinkle resistance during sitting and traveling; partial: mentions it is good for travel",
+      "conditional": false
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "estimate-intents@2026-10-27.1+sets",
+  "usage": {
+    "inputTokens": 982,
+    "outputTokens": 1240
+  },
+  "latencyMs": 4522,
+  "cached": false
+}

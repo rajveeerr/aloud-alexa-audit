@@ -1,0 +1,104 @@
+{
+  "data": [
+    {
+      "intentId": "what_is_the_capacity_in_gallons",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "13 Gal"
+        }
+      ],
+      "value": "13 Gal"
+    },
+    {
+      "intentId": "what_are_the_exact_dimensions_of_each_bag",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "what_is_the_thickness_in_mils",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "are_the_bags_scented_or_unscented",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Lavender Vanilla"
+        }
+      ],
+      "value": "Lavender Vanilla"
+    },
+    {
+      "intentId": "how_many_bags_are_included_in_the_box",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "80ct"
+        }
+      ],
+      "value": "80ct"
+    },
+    {
+      "intentId": "do_the_bags_feature_a_drawstring_closure",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "secure, break-resistant drawstring"
+        }
+      ],
+      "value": "secure, break-resistant drawstring"
+    },
+    {
+      "intentId": "do_the_bags_repel_rodents_or_pests",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "how_effective_is_the_odor_control",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Odor control technology, paired with the scent of Lavender and Sweet Vanilla, leverages the power of Arm and Hammer to fight nasty odors"
+        }
+      ],
+      "value": "Odor control technology, paired with the scent of Lavender and Sweet Vanilla, leverages the power of Arm and Hammer to fight nasty odors"
+    },
+    {
+      "intentId": "are_the_bags_tear_and_puncture_resistant",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "resistance to leaks, punctures, and rips"
+        }
+      ],
+      "value": "resistance to leaks, punctures, and rips"
+    },
+    {
+      "intentId": "do_the_bags_leak_liquids",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "resistance to leaks, punctures, and rips"
+        }
+      ],
+      "value": "resistance to leaks"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+trash-bags@estimated-1",
+  "usage": {
+    "inputTokens": 1949,
+    "outputTokens": 755
+  },
+  "latencyMs": 2336,
+  "cached": false
+}

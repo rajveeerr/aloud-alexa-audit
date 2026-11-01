@@ -1,0 +1,1357 @@
+{
+  "product_results": {
+    "categories": [
+      {
+        "position": 1,
+        "name": "Health & Household",
+        "link": "https://www.amazon.com/health-personal-care-nutrition-fitness/b/ref=dp_bc_1?ie=UTF8&node=3760901",
+        "node": "3760901",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=3760901"
+      },
+      {
+        "position": 2,
+        "name": "Household Supplies",
+        "link": "https://www.amazon.com/Household-Supplies-Products/b/ref=dp_bc_2?ie=UTF8&node=15342811",
+        "node": "15342811",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15342811"
+      },
+      {
+        "position": 3,
+        "name": "Cleaning Tools",
+        "link": "https://www.amazon.com/cleaning-tools/b/ref=dp_bc_3?ie=UTF8&node=15342831",
+        "node": "15342831",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15342831"
+      },
+      {
+        "position": 4,
+        "name": "Cleaning Cloths",
+        "link": "https://www.amazon.com/Reuseable-Cleaning-Cloths/b/ref=dp_bc_4?ie=UTF8&node=15524361011",
+        "node": "15524361011",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15524361011"
+      }
+    ],
+    "asin": "B00275BB6S",
+    "title": "Skoy Cloth, 4-pack Versatile Swedish Dishcloths for Kitchen and Household Use, Reusable Cleaning Cloths, Planet-Friendly, Dishwasher and Dryer-Safe, Assorted Colors",
+    "link": "https://www.amazon.com/hp/wlp/pipeline/membersignup?ref=primedp_ventures_desktopBelowThreshold&primeCampaignId=primedp_ventures_desktopBelowThreshold",
+    "link_clean": "https://www.amazon.com/dp/B00275BB6S/",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B00275BB6S&device=desktop&engine=amazon_product",
+    "badges": [
+      "Amazon's Choice"
+    ],
+    "variants": [
+      {
+        "title": "Color",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B00275BB6S",
+            "name": "Colors May Vary",
+            "image": "https://m.media-amazon.com/images/I/41i+4iy9YHL._SS64_.jpg",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B00275BB6S&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B00CC7K0MW",
+            "name": "Apple Green/Orange/White/Purple",
+            "image": "https://m.media-amazon.com/images/I/51cVzUN4BSL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B00CC7K0MW&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B002ZDUG3G",
+            "name": "Purple/Blue/Apple Green/Teal",
+            "image": "https://m.media-amazon.com/images/I/51b1tpwC-fL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B002ZDUG3G&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 4,
+            "asin": "B002X08WLY",
+            "name": "White",
+            "image": "https://m.media-amazon.com/images/I/41EoAmS7VZL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B002X08WLY&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 5,
+            "asin": "B09D3RGDD4",
+            "name": "Apple Green",
+            "image": "https://m.media-amazon.com/images/I/41sqap1A3+L._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09D3RGDD4&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 6,
+            "asin": "B0858D5DYT",
+            "name": "Assorted/Eight",
+            "image": "https://m.media-amazon.com/images/I/51yMalfvAFL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0858D5DYT&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 7,
+            "asin": "B09D3Q7ZTS",
+            "name": "Blue",
+            "image": "https://m.media-amazon.com/images/I/51pEOO95kfL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09D3Q7ZTS&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 8,
+            "asin": "B00462HO7K",
+            "name": "Blue/White",
+            "image": "https://m.media-amazon.com/images/I/51CuWvOrnbL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B00462HO7K&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 9,
+            "asin": "B0CKBYKJ62",
+            "name": "Children Are the Future",
+            "image": "https://m.media-amazon.com/images/I/41C-+Xsy-IL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CKBYKJ62&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 10,
+            "asin": "B075J7Q9ZV",
+            "name": "Connections/Sunburst",
+            "image": "https://m.media-amazon.com/images/I/41TOT3H6cNL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B075J7Q9ZV&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 11,
+            "asin": "B075LP2JK4",
+            "name": "Dots/Abstract",
+            "image": "https://m.media-amazon.com/images/I/41QxH3LlVRL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B075LP2JK4&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 12,
+            "asin": "B09D3S8NSN",
+            "name": "Gray",
+            "image": "https://m.media-amazon.com/images/I/41vInTQ-0uL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09D3S8NSN&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 13,
+            "asin": "B0714L1Q3Y",
+            "name": "Gray/Teal",
+            "image": "https://m.media-amazon.com/images/I/41oabsHa-UL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0714L1Q3Y&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 14,
+            "asin": "B09D3R7XJN",
+            "name": "Mint Green",
+            "image": "https://m.media-amazon.com/images/I/51esbG2x3DL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09D3R7XJN&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 15,
+            "asin": "B09D3RGYKV",
+            "name": "Orange",
+            "image": "https://m.media-amazon.com/images/I/41wZLM-ANFL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09D3RGYKV&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 16,
+            "asin": "B09D3NV24Z",
+            "name": "Pink",
+            "image": "https://m.media-amazon.com/images/I/41dJETeN5uL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09D3NV24Z&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 17,
+            "asin": "B075J67PJC",
+            "name": "Pride/Freedom",
+            "image": "https://m.media-amazon.com/images/I/51D3SZgx-CL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B075J67PJC&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 18,
+            "asin": "B09D3QTRV4",
+            "name": "Purple",
+            "image": "https://m.media-amazon.com/images/I/41DYtIYA3bL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09D3QTRV4&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 19,
+            "asin": "B075J6QTNH",
+            "name": "Reindeer/Ornaments",
+            "image": "https://m.media-amazon.com/images/I/41cz6ZS4EHL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B075J6QTNH&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 20,
+            "asin": "B075J6B77X",
+            "name": "Whimsy/Carefree",
+            "image": "https://m.media-amazon.com/images/I/31cYiapytoL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B075J6B77X&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 21,
+            "asin": "B09D3PDHPX",
+            "name": "Yellow",
+            "image": "https://m.media-amazon.com/images/I/41UmGS4KF4L._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09D3PDHPX&device=desktop&engine=amazon_product"
+          }
+        ]
+      },
+      {
+        "title": "Size",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B09D3RGDD4",
+            "name": "8-Pack",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09D3RGDD4&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B00462HO7K",
+            "name": "2-Pack",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B00462HO7K&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B00275BB6S",
+            "name": "4-Pack",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B00275BB6S&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 4,
+            "asin": "B0CKBYKJ62",
+            "name": "10-Pack",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CKBYKJ62&device=desktop&engine=amazon_product"
+          }
+        ]
+      }
+    ],
+    "variant_combinations": [
+      {
+        "dimensions": {
+          "color": "Apple Green",
+          "size": "8-Pack"
+        },
+        "asin": "B09D3RGDD4",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09D3RGDD4&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Apple Green",
+          "size": "2-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Apple Green",
+          "size": "4-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Apple Green",
+          "size": "10-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Apple Green/Orange/White/Purple",
+          "size": "8-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Apple Green/Orange/White/Purple",
+          "size": "2-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Apple Green/Orange/White/Purple",
+          "size": "4-Pack"
+        },
+        "asin": "B00CC7K0MW",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B00CC7K0MW&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Apple Green/Orange/White/Purple",
+          "size": "10-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Assorted/Eight",
+          "size": "8-Pack"
+        },
+        "asin": "B0858D5DYT",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0858D5DYT&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Assorted/Eight",
+          "size": "2-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Assorted/Eight",
+          "size": "4-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Assorted/Eight",
+          "size": "10-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Blue",
+          "size": "8-Pack"
+        },
+        "asin": "B09D3Q7ZTS",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09D3Q7ZTS&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Blue",
+          "size": "2-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Blue",
+          "size": "4-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Blue",
+          "size": "10-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Blue/White",
+          "size": "8-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Blue/White",
+          "size": "2-Pack"
+        },
+        "asin": "B00462HO7K",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B00462HO7K&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Blue/White",
+          "size": "4-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Blue/White",
+          "size": "10-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Children Are the Future",
+          "size": "8-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Children Are the Future",
+          "size": "2-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Children Are the Future",
+          "size": "4-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Children Are the Future",
+          "size": "10-Pack"
+        },
+        "asin": "B0CKBYKJ62",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CKBYKJ62&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Colors May Vary",
+          "size": "8-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Colors May Vary",
+          "size": "2-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Colors May Vary",
+          "size": "4-Pack"
+        },
+        "asin": "B00275BB6S",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B00275BB6S&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Colors May Vary",
+          "size": "10-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Connections/Sunburst",
+          "size": "8-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Connections/Sunburst",
+          "size": "2-Pack"
+        },
+        "asin": "B075J7Q9ZV",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B075J7Q9ZV&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Connections/Sunburst",
+          "size": "4-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Connections/Sunburst",
+          "size": "10-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Dots/Abstract",
+          "size": "8-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Dots/Abstract",
+          "size": "2-Pack"
+        },
+        "asin": "B075LP2JK4",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B075LP2JK4&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Dots/Abstract",
+          "size": "4-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Dots/Abstract",
+          "size": "10-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Gray",
+          "size": "8-Pack"
+        },
+        "asin": "B09D3S8NSN",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09D3S8NSN&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Gray",
+          "size": "2-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Gray",
+          "size": "4-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Gray",
+          "size": "10-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Gray/Teal",
+          "size": "8-Pack"
+        },
+        "asin": "B0714L1Q3Y",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0714L1Q3Y&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Gray/Teal",
+          "size": "2-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Gray/Teal",
+          "size": "4-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Gray/Teal",
+          "size": "10-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Mint Green",
+          "size": "8-Pack"
+        },
+        "asin": "B09D3R7XJN",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09D3R7XJN&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Mint Green",
+          "size": "2-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Mint Green",
+          "size": "4-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Mint Green",
+          "size": "10-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Orange",
+          "size": "8-Pack"
+        },
+        "asin": "B09D3RGYKV",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09D3RGYKV&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Orange",
+          "size": "2-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Orange",
+          "size": "4-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Orange",
+          "size": "10-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Pink",
+          "size": "8-Pack"
+        },
+        "asin": "B09D3NV24Z",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09D3NV24Z&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Pink",
+          "size": "2-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Pink",
+          "size": "4-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Pink",
+          "size": "10-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Pride/Freedom",
+          "size": "8-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Pride/Freedom",
+          "size": "2-Pack"
+        },
+        "asin": "B075J67PJC",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B075J67PJC&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Pride/Freedom",
+          "size": "4-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Pride/Freedom",
+          "size": "10-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Purple",
+          "size": "8-Pack"
+        },
+        "asin": "B09D3QTRV4",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09D3QTRV4&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Purple",
+          "size": "2-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Purple",
+          "size": "4-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Purple",
+          "size": "10-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Purple/Blue/Apple Green/Teal",
+          "size": "8-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Purple/Blue/Apple Green/Teal",
+          "size": "2-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Purple/Blue/Apple Green/Teal",
+          "size": "4-Pack"
+        },
+        "asin": "B002ZDUG3G",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B002ZDUG3G&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Purple/Blue/Apple Green/Teal",
+          "size": "10-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Reindeer/Ornaments",
+          "size": "8-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Reindeer/Ornaments",
+          "size": "2-Pack"
+        },
+        "asin": "B075J6QTNH",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B075J6QTNH&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Reindeer/Ornaments",
+          "size": "4-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Reindeer/Ornaments",
+          "size": "10-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Whimsy/Carefree",
+          "size": "8-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Whimsy/Carefree",
+          "size": "2-Pack"
+        },
+        "asin": "B075J6B77X",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B075J6B77X&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Whimsy/Carefree",
+          "size": "4-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Whimsy/Carefree",
+          "size": "10-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "White",
+          "size": "8-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "White",
+          "size": "2-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "White",
+          "size": "4-Pack"
+        },
+        "asin": "B002X08WLY",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B002X08WLY&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "White",
+          "size": "10-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Yellow",
+          "size": "8-Pack"
+        },
+        "asin": "B09D3PDHPX",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09D3PDHPX&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Yellow",
+          "size": "2-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Yellow",
+          "size": "4-Pack"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Yellow",
+          "size": "10-Pack"
+        },
+        "unavailable": true
+      }
+    ],
+    "brand": "Visit the Skoy Store",
+    "thumbnail": "https://m.media-amazon.com/images/I/717drGSacvL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "thumbnails": [
+      "https://m.media-amazon.com/images/I/717drGSacvL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81kvS7Ro0tL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81VWQVc95JL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71l3X1x53JL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/716gyUx-4dL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71geYQqp0lL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71xml4F1WyL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71BTS2UemCL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71-sBVMLc8L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51MZuQg8QIL._AC_SL1500_.jpg"
+    ],
+    "rating": 4.7,
+    "reviews": 13078,
+    "bought_last_month": "300+ bought in past month",
+    "discount": "-5%",
+    "price": "$7.99",
+    "extracted_price": 7.99,
+    "price_unit": "$2.00 / count",
+    "extracted_price_unit": 2,
+    "delivery": [
+      "FREE delivery Friday, November 6 on orders shipped by Amazon over $35",
+      "Or Prime members get FREE delivery Tomorrow, November 2. Order within 9 hrs 30 mins."
+    ],
+    "stock": "In Stock"
+  },
+  "purchase_options": {
+    "buy_new": {
+      "caption": "One-time purchase",
+      "price": "$7.99",
+      "extracted_price": 7.99,
+      "price_unit": "$2.00 / count",
+      "extracted_price_unit": 2,
+      "delivery": [
+        "FREE delivery Friday, November 6 on orders shipped by Amazon over $35",
+        "Or Prime members get FREE delivery Tomorrow, November 2. Order within 9 hrs 30 mins."
+      ],
+      "stock": "In Stock",
+      "features": {
+        "ships_from": {
+          "text": "Amazon",
+          "details": {
+            "heading": "Ships from",
+            "content": "Amazon"
+          }
+        },
+        "sold_by": {
+          "text": "Skoy",
+          "details": {
+            "heading": "Sold by",
+            "content": "Skoy"
+          },
+          "link": {
+            "text": "Skoy",
+            "link": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A189BRX3TKBIU9&asin=B00275BB6S&ref_=dp_merchant_link&isAmazonFulfilled=1"
+          }
+        },
+        "returns": {
+          "text": "FREE refund/replacement until Jan 31, 2027",
+          "details": {
+            "heading": "FREE refund/replacement until Jan 31, 2027",
+            "content": "For the 2026 holiday season, eligible items purchased between November 1 and December 31, 2026 can be returned until January 31, 2027."
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "payment": {
+          "text": "Secure transaction",
+          "details": {
+            "heading": "Your transaction is secure",
+            "content": "We work hard to protect your security and privacy. Our payment security system encrypts your information during transmission. We don’t share your credit card details with third-party sellers, and we don’t sell your information to others. Learn more"
+          },
+          "link": {
+            "text": "Learn more",
+            "link": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201909010"
+          }
+        }
+      }
+    },
+    "subscribe_and_save": {
+      "caption": "Subscribe & Save",
+      "price": "$7.59",
+      "extracted_price": 7.59,
+      "price_unit": "$1.90 / count",
+      "extracted_price_unit": 1.9,
+      "delivery": [
+        "FREE delivery Friday, November 6 on orders shipped by Amazon over $35",
+        "Or Prime members get FREE delivery Tomorrow, November 2. Order within 9 hrs 30 mins."
+      ],
+      "stock": "In Stock",
+      "features": {
+        "ships_from": {
+          "text": "Amazon",
+          "details": {
+            "heading": "Ships from",
+            "content": "Amazon"
+          }
+        },
+        "sold_by": {
+          "text": "Skoy",
+          "details": {
+            "heading": "Sold by",
+            "content": "Skoy"
+          },
+          "link": {
+            "text": "Skoy",
+            "link": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A189BRX3TKBIU9&asin=B00275BB6S&ref_=dp_merchant_link&isAmazonFulfilled=1"
+          }
+        },
+        "returns": {
+          "text": "FREE refund/replacement until Jan 31, 2027",
+          "details": {
+            "heading": "FREE refund/replacement until Jan 31, 2027",
+            "content": "For the 2026 holiday season, eligible items purchased between November 1 and December 31, 2026 can be returned until January 31, 2027."
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "subscription": "No fees. Skip or cancel anytime."
+      }
+    }
+  },
+  "item_specifications": {
+    "color": "Colors May Vary",
+    "brand": "Skoy",
+    "towel_form_type": "Cleaning Cloth",
+    "material": "Cotton",
+    "product_dimensions": "8\"L x 7\"W"
+  },
+  "about_item": [
+    "DURABLE KITCHEN WASHCLOTHS - The Skoy Swedish dishcloths are designed to last for months, saving you money and reducing waste. Our dishcloths are the perfect replacement for paper towels, sponges, and rags.",
+    "REUSABLE, EASY TO CLEAN - The Skoy Swedish dishcloths for kitchen use are machine washable and can be microwaved for a few minutes for deeper cleaning. The reusable cleaning cloths are designed to stay clean and bug-free, even after multiple uses.",
+    "HIGHLY ABSORBENT DISHCLOTHS - With an absorption factor of 15x its own weight, our kitchen washcloths are perfect for wiping up spills and drying dishes. These dishcloths are the ultimate kitchen helpers!",
+    "VERSATILE WASH CLOTH FOR CLEANING - The Skoy reusable cleaning cloths are not just for the kitchen. It's also great for cleaning appliances, dusting surfaces, and more. It's the only cleaning cloth you'll ever need!",
+    "COLORFUL AND FUN - The Skoy Swedish dishcloths come in an array of colors, designs, and pack sizes, adding a touch of fun to your cleaning routine. It's the perfect addition to any household! Monochromatic color options are also available.",
+    "Multi-use cloth",
+    "Made of cotton and cellulose",
+    "A single skoy cloth will replace up to 15 rolls of paper towels",
+    "Perfect for use in the kitchen, bathroom and office; can be used on most surface areas in your home",
+    "100-percent biodegradable"
+  ],
+  "product_description": [
+    {
+      "position": 1
+    },
+    {
+      "position": 2,
+      "title": "Skoy Cloth, reusable, sustainable, paper towel alternative, sponge",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/ed353edb-65cd-46a1-b7fe-978060d7754b.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 3,
+      "title": "Skoy Cloth, reusable, sustainable, paper towel alternative, sponge",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a29d5347-ad43-44dd-a85b-605ae0293641.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 4,
+      "carousel_images": [
+        {
+          "position": 1,
+          "title": "1",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/353a0725-163f-48b5-a3d4-7364865be64f.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 2,
+          "title": "1",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/ac65a461-f52b-439c-a0ef-6165437d8683.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 3,
+          "title": "1",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/ff56326c-ae0b-459c-9196-1f7a72867e3e.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "title": "Skoy Cloth, reusable, sustainable, paper towel alternative, sponge",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/4564735b-c682-4f1b-a855-8246e8bd8e14.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    }
+  ],
+  "product_details": {
+    "brand_name": "Skoy",
+    "number_of_items": "1",
+    "customer_package_type": "Standard Packaging",
+    "upc": "718122943623 078433165733",
+    "number_of_packs": "4",
+    "set_name": "1",
+    "global_trade_identification_number": "00718122943623",
+    "model_name": "Skoy cloth or SKOY Reusable Cleaning Cloths",
+    "manufacturer": "Skoy Enterprises",
+    "age_range_description": "All Ages",
+    "item_type_name": "Skoy Eco-friendly Cleaning Cloth (4-pack: Assorted Colors)",
+    "model_number": "SK101",
+    "manufacturer_part_number": "4362",
+    "best_sellers_rank": [
+      {
+        "text": "#22,774 in Health & Household (See Top 100 in Health & Household)",
+        "extracted_rank": 22774,
+        "link": "https://www.amazon.com/gp/bestsellers/hpc/ref=pd_zg_ts_hpc",
+        "link_text": "See Top 100 in Health & Household"
+      },
+      {
+        "text": "#106 in Reuseable Cleaning Cloths",
+        "extracted_rank": 106,
+        "link": "https://www.amazon.com/gp/bestsellers/hpc/15524361011/ref=pd_zg_hrsr_hpc",
+        "link_text": "Reuseable Cleaning Cloths"
+      }
+    ],
+    "asin": "B00275BB6S",
+    "customer_reviews": "4.7 out of 5 stars",
+    "rating": 4.7,
+    "reviews": 13078,
+    "specification_met": "Meets environmental or sustainability criteria",
+    "color": "Colors May Vary",
+    "product_style": "Reusable",
+    "pattern": "Solid",
+    "theme": "Cleaning",
+    "shape": "Square",
+    "material_type": "Cotton",
+    "product_care_instructions": "Machine Wash",
+    "fabric_type": "70% Wood / 30% Cotton",
+    "item_dimensions_l_x_w": "8\"L x 7\"W",
+    "size": "4-Pack",
+    "unit_count": "4 Count",
+    "item_weight": "1.76 ounces",
+    "towel_form_type": "Cleaning Cloth",
+    "other_special_features_of_the_product": "Biodegradable,Durable,Reusable"
+  },
+  "reviews_information": {
+    "summary": {
+      "text": "Customers find these dishcloths durable, noting they don't fall apart in pieces and last for months, while being easy to sanitize and wash in the dishwasher. Customers praise their cleaning performance, particularly for dishwashing and wiping counters, and appreciate their absorbency for spills. They work well as an alternative to paper towels and are worth the money, with customers noting they never get smelly.",
+      "insights": [
+        {
+          "title": "Quality",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 2300,
+            "positive": 2273,
+            "negative": 112
+          },
+          "summary": "Customers find these dishcloths to be of high quality, with one customer noting they are better than paper towels.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Five Stars love them",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R23MGIHZL4MQ4W"
+            },
+            {
+              "position": 2,
+              "snippet": "love these, have given many as gifts. they last a long time, let them dry. when not in use. they do not get that smelly moldy smell like some sponges.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R14Y1KQG59YVOJ"
+            },
+            {
+              "position": 3,
+              "snippet": "Great product. Have used them for years. Easy to use and easy to clean. Have tried other products, but they are not nearly as good and have an odor.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RCFKVJ85XK5WI"
+            },
+            {
+              "position": 4,
+              "snippet": "Love them...so much more sanitary than a stinky sponge....i've been using one for about a month now and just rinse the cloth with a little...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R76M5395VO4LG"
+            }
+          ]
+        },
+        {
+          "title": "Durability",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 868,
+            "positive": 786,
+            "negative": 82
+          },
+          "summary": "Customers find these dishcloths durable, noting they hold up for a long time and don't fall apart in pieces, lasting for months of use.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Durable and absorbent. When they start to breakdown they don’t leave flakes or bursa and pieces. These will even tolerate some products with bleach....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2T4GND9V1AKN3"
+            },
+            {
+              "position": 2,
+              "snippet": "...They do the job & last a long time (a few months later & I'm still using the first one). Love that you put in dishwasher to clean along with dishes.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3LST20H5ZBTX"
+            },
+            {
+              "position": 3,
+              "snippet": "We love these dish cloths, they are very durable, excellent to scrub with and dry quickly. They also don't start to smell as quickly as cloth ones....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R28EK4Q3PDHZ4L"
+            },
+            {
+              "position": 4,
+              "snippet": "...They make cleaning the kitchen/bathroom/floors/etc so much easier. Long lasting, easy to clean (bleach spray or just launder) and economical...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1RH1PTDEGGWQU"
+            }
+          ]
+        },
+        {
+          "title": "Washability",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 701,
+            "positive": 684,
+            "negative": 17
+          },
+          "summary": "Customers find these dishcloths easy to wash and sanitize, with the ability to toss them in the dishwasher.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Great product. Have used them for years. Easy to use and easy to clean. Have tried other products, but they are not nearly as good and have an odor.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RCFKVJ85XK5WI"
+            },
+            {
+              "position": 2,
+              "snippet": "...They are a cheap alternative considering they are washable and reusable. They seem a little flimsy to the touch, but they definitely get the job done.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1DE4JQ2J2WQ7T"
+            },
+            {
+              "position": 3,
+              "snippet": "...The rinse out well and dry quickly and are machine washable, but If they get too stained by coffee, tea, etc, I don't feel bad composting...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1XIW1YBEPF6RX"
+            },
+            {
+              "position": 4,
+              "snippet": "...They dry quick and are easy to wash. I have yet to have them get that stick that dish rags can get and keep even after you've washed them.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2U2KTNYA8Y523"
+            }
+          ]
+        },
+        {
+          "title": "Cleaning performance",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 639,
+            "positive": 607,
+            "negative": 32
+          },
+          "summary": "Customers find these dishcloths excellent for various cleaning tasks, including dishwashing, wiping counters, and dusting, with one customer noting their effectiveness on granite surfaces.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Love these things. They wipe, clean, dry and do jobs generally done by paper towels. They last for weeks instead of one or two wipes.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R20XKUJMMFG01D"
+            },
+            {
+              "position": 2,
+              "snippet": "...size to be perfect - so easy to maneuver into tight spots, great for washing dishes. They wash easily and can be sterilized (wet) in the microwave....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R25CLSP5HSWAAS"
+            },
+            {
+              "position": 3,
+              "snippet": "...They are very absorbent and sturdy. Great for cleaning and wiping down the counter tops and cabinets. They cleanup and sanitize very easily too.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1OBUPRR12V255"
+            },
+            {
+              "position": 4,
+              "snippet": "Just what I needed to replace my paper towel use. Very absorbent and clean well. They remind me of the old \"shammys\" we use to use to dry our cars.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3QN5RRHB4ENQN"
+            }
+          ]
+        },
+        {
+          "title": "Absorbency",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 597,
+            "positive": 563,
+            "negative": 34
+          },
+          "summary": "Customers praise the dishcloths' absorbency, noting they quickly soak up spills and wipe surfaces clean.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "I love these little cloths. They are very absorbent and useful. I use them for wiping off my countertops and appliances. They’re soft and durable....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R20KSFU5XKUEL"
+            },
+            {
+              "position": 2,
+              "snippet": "Great for all kinds of jobs. Strong and absorbent. Like that they are biodegradable, I will definitely buy more. Quit wasting money on paper towels",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2XYZ8GZVCLNAG"
+            },
+            {
+              "position": 3,
+              "snippet": "I use these to wash all my dishes. Super absorbent and just the right size, not to bulky for small glasses. They wash and dry great which is a bonus.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2TNT2FRJ0E8U6"
+            },
+            {
+              "position": 4,
+              "snippet": "These work great for cleaning up the kitchen. Since they are so absorbent they don't leave streaks on my granite counters like a regular washcloth.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3T1UKBBM7AE71"
+            }
+          ]
+        },
+        {
+          "title": "Functionality",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 565,
+            "positive": 553,
+            "negative": 12
+          },
+          "summary": "Customers find that the dishcloths work wonderfully, particularly for dishes and housecleaning, and can be used as an alternative to paper towels.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...However, in addition to that, I use one to remove makeup. Works great and is very soft. the kitchen ones clean up great in the dishwasher.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1UI1G6WP68ASO"
+            },
+            {
+              "position": 2,
+              "snippet": "...I'm a fanatical kitchen counter wiper (leaping cats) & these work great at both hard cleaning with undiluted Simple Green/dilute bleach, and at the...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RDTFT460JWQKT"
+            },
+            {
+              "position": 3,
+              "snippet": "They work great. A little small for me. I may get bigger sizes next time. I like that they don't get that sour smell like some dish cloths.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1316WJDFRBFWL"
+            },
+            {
+              "position": 4,
+              "snippet": "Does the job and works well and stays cleaner and smells better then a normal dish cloth can use over and over and never gets bad or smells.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1B8IPF4PZ78OX"
+            }
+          ]
+        },
+        {
+          "title": "Value for money",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 530,
+            "positive": 474,
+            "negative": 56
+          },
+          "summary": "Customers find these dishcloths well worth the money, appreciating that they save money on paper towels.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Great price for fun colored Swedish dish cloths. I only use Swedish dish cloths now because my sponges always smelled bad after just a day or two....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3FL1YOX8YE47M"
+            },
+            {
+              "position": 2,
+              "snippet": "...They last a long time. Easy to clean. They don't stink. Will buy again.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1MAG9TPZXY7AU"
+            },
+            {
+              "position": 3,
+              "snippet": "...They are absorbent and long lasting without falling apart. Great value! Great Product!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R21LLUZ92TM2QK"
+            },
+            {
+              "position": 4,
+              "snippet": "...super absorbent! Need these with a stainless steel sink! Good value. Can be washed in the washing machine and come right back to nearly new.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RGA58T5110NQ0"
+            }
+          ]
+        },
+        {
+          "title": "Odorless",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 430,
+            "positive": 379,
+            "negative": 51
+          },
+          "summary": "Customers appreciate that the dishcloths don't get smelly.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "These are better than a sponge, no smell and the dry fast. I use a bleach spray to remove stains. Works well on the top of my solid surface stove.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3DH9KQUVRA2JP"
+            },
+            {
+              "position": 2,
+              "snippet": "...These are great - they aren't all soggy and they dry very quickly - no odor. And, of course, they are eco-friendly",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RGSFZJOBSBEVM"
+            },
+            {
+              "position": 3,
+              "snippet": "...They dry quickly so they don't get stinky or bacteria-laden in the same way sponges do. Overall, I am very happy with these and highly recommend them.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RNYYUJC39P8Z1"
+            },
+            {
+              "position": 4,
+              "snippet": "...These do not smell and I like that I can wash them in the dishwasher and know they are sanitized too. I will definitely be buying more in the future....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2IAYOG7M9DGJQ"
+            }
+          ]
+        }
+      ],
+      "customer_reviews": {
+        "5 star": 82,
+        "4 star": 11,
+        "3 star": 5,
+        "2 star": 1,
+        "1 star": 1
+      }
+    }
+  },
+  "related_asins": [
+    "B0F3DG1B7Q",
+    "B081NPK5Y2",
+    "B00JCER6U2",
+    "B0BW8RS1G7",
+    "B0CLTSD3X4",
+    "B0GZZYHFPX",
+    "B0DK212N75",
+    "B0D7CQ99L4",
+    "B0CCVXNQBF",
+    "B08FJ2Q4PY",
+    "B0CPYCNJNC",
+    "B07GX6TRQX",
+    "B07WMQP4SF"
+  ]
+}

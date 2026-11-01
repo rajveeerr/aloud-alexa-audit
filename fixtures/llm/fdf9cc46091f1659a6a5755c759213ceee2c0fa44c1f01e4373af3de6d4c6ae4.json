@@ -1,0 +1,171 @@
+{
+  "data": [
+    {
+      "intentId": "tank_capacity_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "16 Gallon"
+        }
+      ],
+      "value": "16 Gallon"
+    },
+    {
+      "intentId": "motor_horsepower",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "6.5 Peak HP"
+        }
+      ],
+      "value": "6.5 Peak HP"
+    },
+    {
+      "intentId": "wet_and_dry_pickup",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Wet Dry Shop Vacuum"
+        }
+      ],
+      "value": "Wet Dry Shop Vacuum"
+    },
+    {
+      "intentId": "blower_feature",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Rear blowing port on this wet dry shop vac allows for quick cleaning of leaves and grass clippings in your garage and outdoors"
+        }
+      ],
+      "value": "Rear blowing port on this wet dry shop vac allows for quick cleaning of leaves and grass clippings in your garage and outdoors"
+    },
+    {
+      "intentId": "tank_material",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "included_accessories_and_nozzles",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "2 Extension Wands, Utility Nozzle, Car Nozzle, Wet Nozzle, Qwik Lock Filter and Dust Collection Bag"
+        }
+      ],
+      "value": "2 Extension Wands, Utility Nozzle, Car Nozzle, Wet Nozzle, Qwik Lock Filter and Dust Collection Bag"
+    },
+    {
+      "intentId": "hose_length_and_reach",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.hose_length",
+          "text": "7 feet"
+        }
+      ],
+      "value": "7 feet"
+    },
+    {
+      "intentId": "cord_length_and_storage",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "On-board hose storage plus accessory and power cord organizers help eliminate unneeded hassle and reduce overall storage space."
+        }
+      ],
+      "value": "power cord organizers"
+    },
+    {
+      "intentId": "liquid_drain_port",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Built-in oversized drain on the wet/dry vac allows for convenient emptying of liquids"
+        }
+      ],
+      "value": "Built-in oversized drain"
+    },
+    {
+      "intentId": "portability_and_wheels",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.special_feature",
+          "text": "Blowing Port; Wet/Dry; Casters; Portable; Drain; Onboard Storage"
+        }
+      ],
+      "value": "Casters; Portable"
+    },
+    {
+      "intentId": "filter_types_included",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "Qwik Lock Filter and Dust Collection Bag"
+        }
+      ],
+      "value": "Qwik Lock Filter and Dust Collection Bag"
+    },
+    {
+      "intentId": "noise_level",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.noise_level",
+          "text": "77 db"
+        }
+      ],
+      "value": "77 db"
+    },
+    {
+      "intentId": "suction_power_cfm",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.maximum_suction",
+          "text": "46 inches"
+        }
+      ],
+      "value": "46 inches"
+    },
+    {
+      "intentId": "builder_and_jobsite_durability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Powerful 6.5 Peak HP provides extra power for large projects in the garage, shop and on the jobsite"
+        }
+      ],
+      "value": "Powerful 6.5 Peak HP provides extra power for large projects in the garage, shop and on the jobsite"
+    },
+    {
+      "intentId": "warranty_coverage",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.8",
+          "text": "3 Year Limited Warranty"
+        }
+      ],
+      "value": "3 Year Limited Warranty"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+wet-dry-shop-vacuums@estimated-1",
+  "usage": {
+    "inputTokens": 2623,
+    "outputTokens": 1258
+  },
+  "latencyMs": 3367,
+  "cached": false
+}

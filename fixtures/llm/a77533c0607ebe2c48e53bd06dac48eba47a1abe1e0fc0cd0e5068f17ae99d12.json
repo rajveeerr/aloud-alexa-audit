@@ -1,0 +1,173 @@
+{
+  "data": [
+    {
+      "intentId": "tank_capacity_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.capacity",
+          "text": "Capacity: 6 gallons"
+        }
+      ],
+      "value": "6 gallons"
+    },
+    {
+      "intentId": "motor_horsepower",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "4 Horsepower"
+        }
+      ],
+      "value": "4 Horsepower"
+    },
+    {
+      "intentId": "wet_and_dry_pickup",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "With this versatile vac you can vacuum both wet liquid spills and dry debris, dust, saw, dirt or blow leaves away(use blower port)"
+        }
+      ],
+      "value": "vacuum both wet liquid spills and dry debris"
+    },
+    {
+      "intentId": "blower_feature",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "blow leaves away(use blower port)"
+        }
+      ],
+      "value": "blow leaves away"
+    },
+    {
+      "intentId": "tank_material",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "included_accessories_and_nozzles",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "1-1/4\"x6’ super flexible hose x 1,extension wands x 3, gulper nozzle, floor nozzle x 1,crevice nozzle x 1,foam filter x 1, dust bag x 1, reusable dry filter x 1"
+        }
+      ],
+      "value": "1-1/4\"x6’ super flexible hose x 1,extension wands x 3, gulper nozzle, floor nozzle x 1,crevice nozzle x 1,foam filter x 1, dust bag x 1, reusable dry filter x 1"
+    },
+    {
+      "intentId": "hose_length_and_reach",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "over 16 ft of cleaning reach(6 ft hose, 10 ft power cord and 3 pieces of extension wands)"
+        }
+      ],
+      "value": "over 16 ft of cleaning reach"
+    },
+    {
+      "intentId": "cord_length_and_storage",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "organize the hose and power cord on top handle and side wraps after using"
+        },
+        {
+          "fieldId": "bullet.4",
+          "text": "10 ft power cord"
+        }
+      ],
+      "value": "10 ft power cord"
+    },
+    {
+      "intentId": "liquid_drain_port",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "portability_and_wheels",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "four swivel casters for convenient and easy manoeuvrability"
+        },
+        {
+          "fieldId": "description.1",
+          "text": "strong handle for easy carrying"
+        }
+      ],
+      "value": "four swivel casters"
+    },
+    {
+      "intentId": "filter_types_included",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "foam filter x 1, dust bag x 1, reusable dry filter x 1"
+        }
+      ],
+      "value": "foam filter, dust bag, reusable dry filter"
+    },
+    {
+      "intentId": "noise_level",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.noise_level",
+          "text": "Noise level: 80 db"
+        }
+      ],
+      "value": "80 db"
+    },
+    {
+      "intentId": "suction_power_cfm",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "14-kPa. Airflow 85 CFM."
+        }
+      ],
+      "value": "Airflow 85 CFM"
+    },
+    {
+      "intentId": "builder_and_jobsite_durability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "almost any cleanup jobs in vehicle, jobsite, workshop, garage, basement, van, house, etc"
+        }
+      ],
+      "value": "jobsite"
+    },
+    {
+      "intentId": "warranty_coverage",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.manufacturer_warranty_description",
+          "text": "1 year manufacturer and distributer limited warranty."
+        }
+      ],
+      "value": "1 year manufacturer and distributer limited warranty"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+wet-dry-shop-vacuums@estimated-1",
+  "usage": {
+    "inputTokens": 2668,
+    "outputTokens": 1345
+  },
+  "latencyMs": 3596,
+  "cached": false
+}

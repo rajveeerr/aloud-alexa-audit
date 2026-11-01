@@ -1,0 +1,1492 @@
+{
+  "product_results": {
+    "categories": [
+      {
+        "position": 1,
+        "name": "Health & Household",
+        "link": "https://www.amazon.com/health-personal-care-nutrition-fitness/b/ref=dp_bc_1?ie=UTF8&node=3760901",
+        "node": "3760901",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=3760901"
+      },
+      {
+        "position": 2,
+        "name": "Household Supplies",
+        "link": "https://www.amazon.com/Household-Supplies-Products/b/ref=dp_bc_2?ie=UTF8&node=15342811",
+        "node": "15342811",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15342811"
+      },
+      {
+        "position": 3,
+        "name": "Cleaning Tools",
+        "link": "https://www.amazon.com/cleaning-tools/b/ref=dp_bc_3?ie=UTF8&node=15342831",
+        "node": "15342831",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15342831"
+      },
+      {
+        "position": 4,
+        "name": "Cleaning Cloths",
+        "link": "https://www.amazon.com/Reuseable-Cleaning-Cloths/b/ref=dp_bc_4?ie=UTF8&node=15524361011",
+        "node": "15524361011",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15524361011"
+      }
+    ],
+    "asin": "B0FCYLYXW8",
+    "title": "Microfiber Cleaning Cloth, 12 Pack Assorted Color Cleaning Rags for Housekeeping, Colorful Reusable Microfiber Towels for Car, Kitchen, Bathroom and Household Cleaning Supplies, 11.8\"X11.8\"",
+    "link": "https://www.amazon.com/hp/wlp/pipeline/membersignup?ref=primedp_ventures_desktopBelowThreshold&primeCampaignId=primedp_ventures_desktopBelowThreshold",
+    "link_clean": "https://www.amazon.com/dp/B0FCYLYXW8/",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FCYLYXW8&device=desktop&engine=amazon_product",
+    "badges": [
+      "Amazon's Choice"
+    ],
+    "variants": [
+      {
+        "title": "Color",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B0FCYLYXW8",
+            "name": "Assorted - Multicolor",
+            "image": "https://m.media-amazon.com/images/I/61qyEVOE2yL._SS64_.jpg",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FCYLYXW8&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B0FCYHX33V",
+            "name": "Solid - Black",
+            "image": "https://m.media-amazon.com/images/I/51ZphBxG3qL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FCYHX33V&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B0GTVMQ8YP",
+            "name": "Assorted - 11 Colors",
+            "image": "https://m.media-amazon.com/images/I/51BtnxTnEGL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GTVMQ8YP&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 4,
+            "asin": "B0GTVQM1RH",
+            "name": "Assorted - 3 Colors",
+            "image": "https://m.media-amazon.com/images/I/51ns+fyOf9L._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GTVQM1RH&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 5,
+            "asin": "B0GTV8B217",
+            "name": "Assorted - 4 Colors",
+            "image": "https://m.media-amazon.com/images/I/51M28Dqq9tL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GTV8B217&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 6,
+            "asin": "B0GTVLPXQ3",
+            "name": "Assorted - 6 Colors",
+            "image": "https://m.media-amazon.com/images/I/510M0MYeZML._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GTVLPXQ3&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 7,
+            "asin": "B0FCYLW75H",
+            "name": "Solid - Blue",
+            "image": "https://m.media-amazon.com/images/I/6141ZUj0UkL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FCYLW75H&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 8,
+            "asin": "B0FCYKXV4V",
+            "name": "Solid - Green",
+            "image": "https://m.media-amazon.com/images/I/61eTU-SZZfL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FCYKXV4V&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 9,
+            "asin": "B0FCYHX331",
+            "name": "Solid - Grey",
+            "image": "https://m.media-amazon.com/images/I/61mxiOoXp1L._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FCYHX331&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 10,
+            "asin": "B0GTVHTK6P",
+            "name": "Solid - Hot Pink",
+            "image": "https://m.media-amazon.com/images/I/51YcZxNZKsL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GTVHTK6P&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 11,
+            "asin": "B0GTVJBFK1",
+            "name": "Solid - Lime Green",
+            "image": "https://m.media-amazon.com/images/I/51D7RsrWWzL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GTVJBFK1&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 12,
+            "asin": "B0GTVGKZCK",
+            "name": "Solid - Orange",
+            "image": "https://m.media-amazon.com/images/I/51iSPZ0uuML._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GTVGKZCK&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 13,
+            "asin": "B0FCYHYDGW",
+            "name": "Solid - Pink",
+            "image": "https://m.media-amazon.com/images/I/61nS5Owk8dL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FCYHYDGW&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 14,
+            "asin": "B0FCYM1RBS",
+            "name": "Solid - Purple",
+            "image": "https://m.media-amazon.com/images/I/61npX8NAZaL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FCYM1RBS&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 15,
+            "asin": "B0GTVGX8Z1",
+            "name": "Solid - Red",
+            "image": "https://m.media-amazon.com/images/I/41rzyWMMKGL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GTVGX8Z1&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 16,
+            "asin": "B0GTVRG783",
+            "name": "Solid - Royal Blue",
+            "image": "https://m.media-amazon.com/images/I/51O6GZG3j3L._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GTVRG783&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 17,
+            "asin": "B0GTVRJ3TY",
+            "name": "Solid - Sky Blue",
+            "image": "https://m.media-amazon.com/images/I/513SHEFnEwL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GTVRJ3TY&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 18,
+            "asin": "B0FCYPHCTB",
+            "name": "Solid - White",
+            "image": "https://m.media-amazon.com/images/I/41gvJ9W2ZHL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FCYPHCTB&device=desktop&engine=amazon_product"
+          }
+        ]
+      },
+      {
+        "title": "Size",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B0FCYLYXW8",
+            "name": "1 Count (Pack of 12)",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FCYLYXW8&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B0FCYM1JNR",
+            "name": "1 Count (Pack of 34)",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FCYM1JNR&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B0FCYKZYMD",
+            "name": "1 Count (Pack of 150)",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FCYKZYMD&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 4,
+            "asin": "B0FCYLBFWD",
+            "name": "1 Count (Pack of 100)",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FCYLBFWD&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 5,
+            "asin": "B0FCYPP28Z",
+            "name": "1 Count (Pack of 52)",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FCYPP28Z&device=desktop&engine=amazon_product"
+          }
+        ]
+      }
+    ],
+    "variant_combinations": [
+      {
+        "dimensions": {
+          "color": "Assorted - 11 Colors",
+          "size": "1 Count (Pack of 12)"
+        },
+        "asin": "B0GTVMQ8YP",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GTVMQ8YP&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Assorted - 11 Colors",
+          "size": "1 Count (Pack of 34)"
+        },
+        "asin": "B0GTV9ZLCV",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GTV9ZLCV&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Assorted - 11 Colors",
+          "size": "1 Count (Pack of 150)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Assorted - 11 Colors",
+          "size": "1 Count (Pack of 100)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Assorted - 11 Colors",
+          "size": "1 Count (Pack of 52)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Assorted - 3 Colors",
+          "size": "1 Count (Pack of 12)"
+        },
+        "asin": "B0GTVQM1RH",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GTVQM1RH&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Assorted - 3 Colors",
+          "size": "1 Count (Pack of 34)"
+        },
+        "asin": "B0GTVBF4CR",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GTVBF4CR&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Assorted - 3 Colors",
+          "size": "1 Count (Pack of 150)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Assorted - 3 Colors",
+          "size": "1 Count (Pack of 100)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Assorted - 3 Colors",
+          "size": "1 Count (Pack of 52)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Assorted - 4 Colors",
+          "size": "1 Count (Pack of 12)"
+        },
+        "asin": "B0GTV8B217",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GTV8B217&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Assorted - 4 Colors",
+          "size": "1 Count (Pack of 34)"
+        },
+        "asin": "B0GTVGPW2Y",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GTVGPW2Y&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Assorted - 4 Colors",
+          "size": "1 Count (Pack of 150)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Assorted - 4 Colors",
+          "size": "1 Count (Pack of 100)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Assorted - 4 Colors",
+          "size": "1 Count (Pack of 52)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Assorted - 6 Colors",
+          "size": "1 Count (Pack of 12)"
+        },
+        "asin": "B0GTVLPXQ3",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GTVLPXQ3&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Assorted - 6 Colors",
+          "size": "1 Count (Pack of 34)"
+        },
+        "asin": "B0GTV9SP9Z",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GTV9SP9Z&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Assorted - 6 Colors",
+          "size": "1 Count (Pack of 150)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Assorted - 6 Colors",
+          "size": "1 Count (Pack of 100)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Assorted - 6 Colors",
+          "size": "1 Count (Pack of 52)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Assorted - Multicolor",
+          "size": "1 Count (Pack of 12)"
+        },
+        "asin": "B0FCYLYXW8",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FCYLYXW8&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Assorted - Multicolor",
+          "size": "1 Count (Pack of 34)"
+        },
+        "asin": "B0FCYM1JNR",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FCYM1JNR&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Assorted - Multicolor",
+          "size": "1 Count (Pack of 150)"
+        },
+        "asin": "B0FCYKZYMD",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FCYKZYMD&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Assorted - Multicolor",
+          "size": "1 Count (Pack of 100)"
+        },
+        "asin": "B0FCYLBFWD",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FCYLBFWD&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Assorted - Multicolor",
+          "size": "1 Count (Pack of 52)"
+        },
+        "asin": "B0FCYPP28Z",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FCYPP28Z&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Black",
+          "size": "1 Count (Pack of 12)"
+        },
+        "asin": "B0FCYHX33V",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FCYHX33V&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Black",
+          "size": "1 Count (Pack of 34)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Black",
+          "size": "1 Count (Pack of 150)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Black",
+          "size": "1 Count (Pack of 100)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Black",
+          "size": "1 Count (Pack of 52)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Blue",
+          "size": "1 Count (Pack of 12)"
+        },
+        "asin": "B0FCYLW75H",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FCYLW75H&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Blue",
+          "size": "1 Count (Pack of 34)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Blue",
+          "size": "1 Count (Pack of 150)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Blue",
+          "size": "1 Count (Pack of 100)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Blue",
+          "size": "1 Count (Pack of 52)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Green",
+          "size": "1 Count (Pack of 12)"
+        },
+        "asin": "B0FCYKXV4V",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FCYKXV4V&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Green",
+          "size": "1 Count (Pack of 34)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Green",
+          "size": "1 Count (Pack of 150)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Green",
+          "size": "1 Count (Pack of 100)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Green",
+          "size": "1 Count (Pack of 52)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Grey",
+          "size": "1 Count (Pack of 12)"
+        },
+        "asin": "B0FCYHX331",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FCYHX331&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Grey",
+          "size": "1 Count (Pack of 34)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Grey",
+          "size": "1 Count (Pack of 150)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Grey",
+          "size": "1 Count (Pack of 100)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Grey",
+          "size": "1 Count (Pack of 52)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Hot Pink",
+          "size": "1 Count (Pack of 12)"
+        },
+        "asin": "B0GTVHTK6P",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GTVHTK6P&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Hot Pink",
+          "size": "1 Count (Pack of 34)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Hot Pink",
+          "size": "1 Count (Pack of 150)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Hot Pink",
+          "size": "1 Count (Pack of 100)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Hot Pink",
+          "size": "1 Count (Pack of 52)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Lime Green",
+          "size": "1 Count (Pack of 12)"
+        },
+        "asin": "B0GTVJBFK1",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GTVJBFK1&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Lime Green",
+          "size": "1 Count (Pack of 34)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Lime Green",
+          "size": "1 Count (Pack of 150)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Lime Green",
+          "size": "1 Count (Pack of 100)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Lime Green",
+          "size": "1 Count (Pack of 52)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Orange",
+          "size": "1 Count (Pack of 12)"
+        },
+        "asin": "B0GTVGKZCK",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GTVGKZCK&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Orange",
+          "size": "1 Count (Pack of 34)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Orange",
+          "size": "1 Count (Pack of 150)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Orange",
+          "size": "1 Count (Pack of 100)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Orange",
+          "size": "1 Count (Pack of 52)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Pink",
+          "size": "1 Count (Pack of 12)"
+        },
+        "asin": "B0FCYHYDGW",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FCYHYDGW&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Pink",
+          "size": "1 Count (Pack of 34)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Pink",
+          "size": "1 Count (Pack of 150)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Pink",
+          "size": "1 Count (Pack of 100)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Pink",
+          "size": "1 Count (Pack of 52)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Purple",
+          "size": "1 Count (Pack of 12)"
+        },
+        "asin": "B0FCYM1RBS",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FCYM1RBS&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Purple",
+          "size": "1 Count (Pack of 34)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Purple",
+          "size": "1 Count (Pack of 150)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Purple",
+          "size": "1 Count (Pack of 100)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Purple",
+          "size": "1 Count (Pack of 52)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Red",
+          "size": "1 Count (Pack of 12)"
+        },
+        "asin": "B0GTVGX8Z1",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GTVGX8Z1&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Red",
+          "size": "1 Count (Pack of 34)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Red",
+          "size": "1 Count (Pack of 150)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Red",
+          "size": "1 Count (Pack of 100)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Red",
+          "size": "1 Count (Pack of 52)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Royal Blue",
+          "size": "1 Count (Pack of 12)"
+        },
+        "asin": "B0GTVRG783",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GTVRG783&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Royal Blue",
+          "size": "1 Count (Pack of 34)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Royal Blue",
+          "size": "1 Count (Pack of 150)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Royal Blue",
+          "size": "1 Count (Pack of 100)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Royal Blue",
+          "size": "1 Count (Pack of 52)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Sky Blue",
+          "size": "1 Count (Pack of 12)"
+        },
+        "asin": "B0GTVRJ3TY",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GTVRJ3TY&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Sky Blue",
+          "size": "1 Count (Pack of 34)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Sky Blue",
+          "size": "1 Count (Pack of 150)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Sky Blue",
+          "size": "1 Count (Pack of 100)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - Sky Blue",
+          "size": "1 Count (Pack of 52)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - White",
+          "size": "1 Count (Pack of 12)"
+        },
+        "asin": "B0FCYPHCTB",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FCYPHCTB&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Solid - White",
+          "size": "1 Count (Pack of 34)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - White",
+          "size": "1 Count (Pack of 150)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - White",
+          "size": "1 Count (Pack of 100)"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Solid - White",
+          "size": "1 Count (Pack of 52)"
+        },
+        "unavailable": true
+      }
+    ],
+    "brand": "Brand: SIFANGKE",
+    "thumbnail": "https://m.media-amazon.com/images/I/81VH2pQCdoL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "thumbnails": [
+      "https://m.media-amazon.com/images/I/81VH2pQCdoL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81vwNgyqC7L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/815c9AmsDJL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/819EzrcY6WL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/813OTS2JVZL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71Muho9u0zL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/710mNrS7V1L._AC_SL1500_.jpg"
+    ],
+    "rating": 4.7,
+    "reviews": 3206,
+    "bought_last_month": "10K+ bought in past month",
+    "price": "$6.99",
+    "extracted_price": 6.99,
+    "price_unit": "$0.58 / count",
+    "extracted_price_unit": 0.58,
+    "prime": true,
+    "delivery": [
+      "FREE delivery Friday, November 6 on orders shipped by Amazon over $35",
+      "Or Prime members get FREE delivery Tomorrow, November 2. Order within 9 hrs 29 mins."
+    ],
+    "stock": "In Stock"
+  },
+  "purchase_options": {
+    "buy_new": {
+      "caption": "One-time purchase",
+      "price": "$6.99",
+      "extracted_price": 6.99,
+      "price_unit": "$0.58 / count",
+      "extracted_price_unit": 0.58,
+      "delivery": [
+        "FREE delivery Friday, November 6 on orders shipped by Amazon over $35",
+        "Or Prime members get FREE delivery Tomorrow, November 2. Order within 9 hrs 29 mins."
+      ],
+      "stock": "In Stock",
+      "features": {
+        "ships_from": {
+          "text": "Amazon",
+          "details": {
+            "heading": "Ships from",
+            "content": "Amazon"
+          }
+        },
+        "sold_by": {
+          "text": "XMSFK US",
+          "details": {
+            "heading": "Sold by",
+            "content": "XMSFK US"
+          },
+          "link": {
+            "text": "XMSFK US",
+            "link": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A36L24Y6ESUTYF&asin=B0FCYLYXW8&ref_=dp_merchant_link&isAmazonFulfilled=1"
+          }
+        },
+        "returns": {
+          "text": "FREE refund/replacement until Jan 31, 2027",
+          "details": {
+            "heading": "FREE refund/replacement until Jan 31, 2027",
+            "content": "For the 2026 holiday season, eligible items purchased between November 1 and December 31, 2026 can be returned until January 31, 2027."
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "gift_options": {
+          "text": "Available at checkout Available at checkout This item is a gift. Change",
+          "details": {
+            "content": "Add gift options at checkout"
+          }
+        }
+      }
+    },
+    "subscribe_and_save": {
+      "caption": "Subscribe & Save",
+      "price": "$6.99",
+      "extracted_price": 6.99,
+      "price_unit": "$0.58 / count",
+      "extracted_price_unit": 0.58,
+      "delivery": [
+        "FREE delivery Friday, November 6 on orders shipped by Amazon over $35",
+        "Or Prime members get FREE delivery Tomorrow, November 2. Order within 9 hrs 29 mins."
+      ],
+      "stock": "In Stock",
+      "features": {
+        "ships_from": {
+          "text": "Amazon",
+          "details": {
+            "heading": "Ships from",
+            "content": "Amazon"
+          }
+        },
+        "sold_by": {
+          "text": "XMSFK US",
+          "details": {
+            "heading": "Sold by",
+            "content": "XMSFK US"
+          },
+          "link": {
+            "text": "XMSFK US",
+            "link": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A36L24Y6ESUTYF&asin=B0FCYLYXW8&ref_=dp_merchant_link&isAmazonFulfilled=1"
+          }
+        },
+        "returns": {
+          "text": "FREE refund/replacement until Jan 31, 2027",
+          "details": {
+            "heading": "FREE refund/replacement until Jan 31, 2027",
+            "content": "For the 2026 holiday season, eligible items purchased between November 1 and December 31, 2026 can be returned until January 31, 2027."
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "subscription": "No fees. Skip or cancel anytime."
+      }
+    }
+  },
+  "item_specifications": {
+    "color": "Assorted - Multicolor",
+    "brand": "SIFANGKE",
+    "towel_form_type": "Cleaning Cloth",
+    "material": "Microfiber",
+    "product_dimensions": "11.8\"L x 11.8\"W"
+  },
+  "about_item": [
+    "Fiber",
+    "Strong Absorbent & Streak-Free: Crafted with premium microfiber, these cleaning rags quickly absorb water and wipe away spills, dust, grease, and dirt without leaving streaks. Ideal for drying dishes, cleaning countertops, or polishing surfaces in the kitchen, car, or around the home.",
+    "Soft & Lint-Free on Delicate Surfaces: Made from a non-abrasive blend of 85% polyester and 15% nylon, our microfiber cloths are gentle yet effective. They won’t scratch paint, glass, or delicate surfaces, and leave no lint behind—perfect for cleaning mirrors, electronics, stainless steel, and other smooth surfaces.",
+    "Durable Construction for Long-Term Use: Designed with reinforced stitching, these cleaning cloths are not only reusable but also resist wear and tear even after frequent washing. A reliable alternative to disposable paper towels for everyday cleaning.",
+    "Multi-Color Convenience for Any Task: Available in 4 assorted colors—Pink, Green, Blue, and Purple—for easy color-coding. Use different cleaning towels for the kitchen, bathroom, car, or electronics. Stay organized and keep your cleaning tasks clearly separated.",
+    "Machine Washable & Quick-Drying: Each microfiber cloth measures 11.8\" x 11.8\", making them compact and easy to store. They can be washed by hand or machine. Quick-drying and always ready for your next cleaning job."
+  ],
+  "product_description": [
+    {
+      "position": 1,
+      "title": "1-2-9.18",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a058bebb-4bac-45ee-beb0-7ccf764f175e.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 2,
+      "title": "Cleaning Cloths",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/dbe90bce-10a0-4625-bdc5-f58f27239905.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 3,
+      "title": "Cleaning Cloths",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/02054ace-90e3-411d-b12a-4b63de403f9c.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 4,
+      "title": "Cleaning Cloths",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/67672587-8818-4c00-a7b9-7b6c6289d793.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 5,
+      "title": "Cleaning Cloths",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d5b3c014-7ba3-4452-9070-61b3bec0c807.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 6,
+      "carousel_images": [
+        {
+          "position": 1,
+          "title": "Window cleaning",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/b3af27a7-53ff-40e7-8977-7a683871edf6.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 2,
+          "title": "Oven Cleaning",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/4ed69f54-b774-42a5-af37-ca3495388451.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 3,
+          "title": "Dishware Cleaning",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/369b95e0-2322-4269-9bab-8708427f3c9f.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 4,
+          "title": "Plant Care &amp;amp; Dusting",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/574f4b7e-431f-45d4-8af9-289fc0d204ae.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 5,
+          "title": "Car cleaning",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/52d774a2-0e82-4c23-ad8d-087e0fdc99db.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "compare_with_similar": [
+        {
+          "position": 1,
+          "asin": "B0DHCSLKK8",
+          "title": "Rubber Cleaning Gloves",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/931557d2-eaed-48e8-b8d7-c6e7edc0d3cb.__AC_SR200,225___.jpg",
+          "link": "https://www.amazon.com/dp/B0DHCSLKK8?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DHCSLKK8&device=desktop&engine=amazon_product",
+          "rating": 4.4,
+          "reviews": 7082,
+          "price": "$7.99",
+          "extracted_price": 7.99,
+          "size": "S M L",
+          "color": "Pink+Blue+Purple+Green",
+          "length": "12 Inches",
+          "item_package_quantity": "4 Pairs",
+          "material": "Rubber"
+        },
+        {
+          "position": 2,
+          "asin": "B0GH5X2TKX",
+          "title": "Rubber Cleaning Gloves",
+          "thumbnail": "https://m.media-amazon.com/images/I/41OaH1k7lmL.__AC_SR200,225___.jpg",
+          "link": "https://www.amazon.com/dp/B0GH5X2TKX?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GH5X2TKX&device=desktop&engine=amazon_product",
+          "rating": 4.4,
+          "reviews": 7082,
+          "price": "$21.99",
+          "extracted_price": 21.99,
+          "size": "S M L",
+          "color": "Pink+Blue+Purple+Green",
+          "length": "12 Inches",
+          "item_package_quantity": "12 Pairs",
+          "material": "Rubber"
+        },
+        {
+          "position": 3,
+          "asin": "B0FC5VW6ZJ",
+          "title": "Rubber Cleaning Gloves",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/f3f48d29-947e-490f-baa5-90cdfac29497.__AC_SR200,225___.jpg",
+          "link": "https://www.amazon.com/dp/B0FC5VW6ZJ?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FC5VW6ZJ&device=desktop&engine=amazon_product",
+          "rating": 4.4,
+          "reviews": 7082,
+          "price": "$14.99",
+          "extracted_price": 14.99,
+          "size": "S M L",
+          "color": "Green",
+          "length": "12 Inches",
+          "item_package_quantity": "4 Pairs",
+          "material": "Rubber"
+        },
+        {
+          "position": 4,
+          "asin": "B0FC61YD2G",
+          "title": "Rubber Cleaning Gloves",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/4c9d4b7b-57b0-45b0-986f-604e4f150bd1.__AC_SR200,225___.jpg",
+          "link": "https://www.amazon.com/dp/B0FC61YD2G?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FC61YD2G&device=desktop&engine=amazon_product",
+          "rating": 4.4,
+          "reviews": 7082,
+          "price": "$14.99",
+          "extracted_price": 14.99,
+          "size": "S M L",
+          "color": "Purple",
+          "length": "12 Inches",
+          "item_package_quantity": "4 Pairs",
+          "material": "Rubber"
+        },
+        {
+          "position": 5,
+          "asin": "B0FC5Z5YYY",
+          "title": "Rubber Cleaning Gloves",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/03477387-5f0a-4a7d-851b-67f3183a2285.__AC_SR200,225___.jpg",
+          "link": "https://www.amazon.com/dp/B0FC5Z5YYY?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FC5Z5YYY&device=desktop&engine=amazon_product",
+          "rating": 4.4,
+          "reviews": 7082,
+          "price": "$14.99",
+          "extracted_price": 14.99,
+          "size": "S M L",
+          "color": "Blue",
+          "length": "12 Inches",
+          "item_package_quantity": "4 Pairs",
+          "material": "Rubber"
+        },
+        {
+          "position": 6,
+          "asin": "B0FC5S59XY",
+          "title": "Rubber Cleaning Gloves",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/56e4d966-57e2-485d-b161-81f2179abe48.__AC_SR200,225___.jpg",
+          "link": "https://www.amazon.com/dp/B0FC5S59XY?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FC5S59XY&device=desktop&engine=amazon_product",
+          "rating": 4.4,
+          "reviews": 7082,
+          "price": "$14.99",
+          "extracted_price": 14.99,
+          "size": "S M L",
+          "color": "Pink",
+          "length": "12 Inches",
+          "item_package_quantity": "4 Pairs",
+          "material": "Rubber"
+        }
+      ]
+    }
+  ],
+  "product_details": {
+    "brand_name": "SIFANGKE",
+    "number_of_items": "12",
+    "upc": "752259856494",
+    "set_name": "12 Pack Assorted Color Cleaning Rags",
+    "model_name": "Cleaning Cloths",
+    "manufacturer": "SIFANGKE",
+    "target_audience": "Men, Women",
+    "age_range_description": "All Ages",
+    "model_number": "SF003-Towel-1",
+    "best_sellers_rank": [
+      {
+        "text": "#1,047 in Health & Household (See Top 100 in Health & Household)",
+        "extracted_rank": 1047,
+        "link": "https://www.amazon.com/gp/bestsellers/hpc/ref=pd_zg_ts_hpc",
+        "link_text": "See Top 100 in Health & Household"
+      },
+      {
+        "text": "#4 in Reuseable Cleaning Cloths",
+        "extracted_rank": 4,
+        "link": "https://www.amazon.com/gp/bestsellers/hpc/15524361011/ref=pd_zg_hrsr_hpc",
+        "link_text": "Reuseable Cleaning Cloths"
+      }
+    ],
+    "asin": "B0FCYLYXW8",
+    "customer_reviews": "4.7 out of 5 stars",
+    "rating": 4.7,
+    "reviews": 3206,
+    "color": "Assorted - Multicolor",
+    "product_style": "Casual",
+    "pattern": "Solid",
+    "material_type": "Microfiber",
+    "product_care_instructions": "Machine wash in cold or warm water. Do not bleach. Tumble dry low or air dry.",
+    "fabric_type": "Fiber",
+    "item_dimensions_l_x_w": "11.8\"L x 11.8\"W",
+    "size": "1 Count (Pack of 12)",
+    "unit_count": "12 Count",
+    "item_weight": "0.32 kg",
+    "towel_form_type": "Cleaning Cloth",
+    "other_special_features_of_the_product": "Long Lasting"
+  },
+  "reviews_information": {
+    "summary": {
+      "text": "Customers find these cleaning cloths effective, noting they clean surfaces without streaks and work well for both indoor and outdoor use. They are highly absorbent, with one customer mentioning they absorb more than half a roll of paper towels, and customers appreciate their softness and durability after multiple uses. Customers like the color options, which help keep the cloths separate, though opinions about thickness are mixed.",
+      "insights": [
+        {
+          "title": "Cleaning performance",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 126,
+            "positive": 120,
+            "negative": 6
+          },
+          "summary": "Customers find these cleaning cloths effective, particularly for dusting and wiping windows and walls without leaving streaks, and appreciate that they pick up dust and dirt easily.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "These are great for cleaning. I use for scrubbing sinks, windows and showers. Wash up nice. Super cheap so for dirty jobs I just throw away....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3CU1L1M3ZGZZB"
+            },
+            {
+              "position": 2,
+              "snippet": "Great little cloths for just about anything. Good for cleaning, especially on the kitchen and bathrooms.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R311FOC92BKQNR"
+            },
+            {
+              "position": 3,
+              "snippet": "Great cleaning towels, l love the colors and size, fabric is good for what l need them.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2GLLB87MSNDJD"
+            },
+            {
+              "position": 4,
+              "snippet": "Good cleaning rags, nice and plush, but the color bleeds in the wash",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1UMAVRPCNDCFF"
+            }
+          ]
+        },
+        {
+          "title": "Functionality",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 117,
+            "positive": 116,
+            "negative": 1
+          },
+          "summary": "Customers find that these cleaning cloths work wonderfully for everyday tasks and are versatile for both indoor and outdoor use. One customer specifically mentions their effectiveness on eyeglasses, sunglasses, and screens.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "These work great and wash up easily in the washing machine. I don’t use fabric softener with them. I like that they dry so quickly.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3PXYV205SJEHU"
+            },
+            {
+              "position": 2,
+              "snippet": "Works great love them for cleaning and dusting! They are soft, just the right size and easy to use.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R23TFZOHUNPF5Y"
+            },
+            {
+              "position": 3,
+              "snippet": "it does the job and they dry pretty fast and don't smell and was a good deal I wish they were a little bigger",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3RQ5OSAORTJ9L"
+            },
+            {
+              "position": 4,
+              "snippet": "...They're durable, wash well, and they work great! They're very light weight but thick enough to get the job done well.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2ASECFPH74CQY"
+            }
+          ]
+        },
+        {
+          "title": "Washability",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 77,
+            "positive": 76,
+            "negative": 1
+          },
+          "summary": "Customers find these cleaning cloths washable and reusable, and appreciate that they can be used wet or dry without needing to be dried in the dryer.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "My brand for cleaning, polishing and Scrubbing - washes well and remains Soft Practically Industructible!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RL9TS3CAWJ3PM"
+            },
+            {
+              "position": 2,
+              "snippet": "These cloths work great and are very soft and absorbent. They are easy to wash and they dry surfaces well. Very happy with these!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2YF38TY5476AO"
+            },
+            {
+              "position": 3,
+              "snippet": "The cloths needed for my new stainless steel appliances. Washable & versatile; also good for cleaning inside car windows, lint & streak free.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RI08MB8JP3G3F"
+            },
+            {
+              "position": 4,
+              "snippet": "...Hand wash to quickly refresh them or toss in the washer..they dry quickly. Great item!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1VFVX16TT3YYH"
+            }
+          ]
+        },
+        {
+          "title": "Absorbency",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 62,
+            "positive": 55,
+            "negative": 7
+          },
+          "summary": "Customers find these cleaning cloths highly absorbent, with one customer noting they can soak up as much as half a roll of paper towels, while another mentions their effectiveness on counter tops and stainless steel surfaces.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "These cloths work great and are very soft and absorbent. They are easy to wash and they dry surfaces well. Very happy with these!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2YF38TY5476AO"
+            },
+            {
+              "position": 2,
+              "snippet": "These are the best microfiber Cleaning cloths. Very absorbent that's what I like the most. I use them for everything. My bathroom and kitchen....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2GNDRX3NPNRES"
+            },
+            {
+              "position": 3,
+              "snippet": "...They are the perfect size, super absorbent, and clean streak-free without needing much cleaner. They've already held up well after a few washes....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RWXD11HX3OKC7"
+            },
+            {
+              "position": 4,
+              "snippet": "...They’re super versatile, highly absorbent, and tackling any mess—big or small—is a breeze....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2AQ5C672WZQON"
+            }
+          ]
+        },
+        {
+          "title": "Softness",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 62,
+            "positive": 57,
+            "negative": 5
+          },
+          "summary": "Customers find these cleaning cloths soft, with one customer noting they are gentle on delicate surfaces and don't leave fuzzy bits behind.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Bought it for car interior cleaning. It has good absorbing quality and soft but leaves residue if I want to clean glasses and become garbage just...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R4HQPLNH6P04O"
+            },
+            {
+              "position": 2,
+              "snippet": "Very soft, quick shipping and great size for any household cleaning. I bought them mainly to wash dishes and wiping down counter tops and for dusting.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1VVCGFB0NVS6O"
+            },
+            {
+              "position": 3,
+              "snippet": "...They are thick and durable and holding up very well in the wash. Super soft still even after a few washes and the size is perfect for what I needed!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R34FLUMULFPSYS"
+            },
+            {
+              "position": 4,
+              "snippet": "...cleaning, absorb more than a half a roll of paper towels and are so soft. I'm buying my daughter a set",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2RBO4YYIPWBIB"
+            }
+          ]
+        },
+        {
+          "title": "Durability",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 58,
+            "positive": 51,
+            "negative": 7
+          },
+          "summary": "Customers find these cleaning cloths durable, noting they hold up well after multiple uses and washing, and are suitable for long-term use.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...We use these for our cat blankets. Launder first. Durable and seem like they will hold up to extended use.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R6VKH120A6WHX"
+            },
+            {
+              "position": 2,
+              "snippet": "By far the best microfiber cloths I’ve purchased! Great quality and very durable ! You get your moneys worth!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3FRAKHACJ4346"
+            },
+            {
+              "position": 3,
+              "snippet": "Strong, soft, washes well.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R10Y2NJNYEEP9V"
+            },
+            {
+              "position": 4,
+              "snippet": "Not too bad! They get the job done, are dependable, & easy to wash. They hold up well to snags and rough surfaces ....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3IG1BL5H70VZT"
+            }
+          ]
+        },
+        {
+          "title": "Color",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 50,
+            "positive": 48,
+            "negative": 2
+          },
+          "summary": "Customers appreciate the colors of these cleaning cloths, noting that they help keep them separate and can be used to identify different cleaning tasks. One customer mentions that the colors are muted and not garish.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "These are a smaller size which is good for my purposes. Nice colors, muted not garish.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1CQ29RWV8TT0M"
+            },
+            {
+              "position": 2,
+              "snippet": "...Etc. These cloths are well made, colorful, clean well and absorb well also Prices is right and great for many uses.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2JK0UDORWOU7F"
+            },
+            {
+              "position": 3,
+              "snippet": "They are a nice size and pretty colors however they do leave little lint fuzzies! I do not use fabric softener when I wash these....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2V2NX0N13MGGX"
+            },
+            {
+              "position": 4,
+              "snippet": "Excellent choice for a microfiber towel. These are great colors and worked well. Absorbent, easy to use and cleaning is great....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R19L7KL2UCQT1J"
+            }
+          ]
+        },
+        {
+          "title": "Thickness",
+          "sentiment": "mixed",
+          "mentions": {
+            "total": 72,
+            "positive": 45,
+            "negative": 27
+          },
+          "summary": "Customers have mixed opinions about the thickness of these cleaning cloths, with some finding it acceptable while others consider it too thin.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...The wipe great! They don't leave a lot of linty mess! They are thick and durable and holding up very well in the wash....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R34FLUMULFPSYS"
+            },
+            {
+              "position": 2,
+              "snippet": "Disappointed. Thin. Have purchased microfiber cleaning cloths in the past, which were much thicker. Will not buy again.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2VIOEO0FV82L9"
+            },
+            {
+              "position": 3,
+              "snippet": "These microfiber cloths are the perfect thickness. I add a little water and use it to wipe my stainless steel to a steak-free shine....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2KGQFMR00K4FP"
+            },
+            {
+              "position": 4,
+              "snippet": "...Those are perfect and soft, love the color, work well, not too thick but just easy to use on a daily basis.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2GDXBDHRZ24A"
+            }
+          ]
+        }
+      ],
+      "customer_reviews": {
+        "5 star": 82,
+        "4 star": 11,
+        "3 star": 5,
+        "2 star": 1,
+        "1 star": 1
+      }
+    }
+  },
+  "related_asins": [
+    "B0DCCFG9JR",
+    "B0CN6BYYSD",
+    "B0DZGSLFL9",
+    "B0DHVGYH1S",
+    "B09SYYRBVP",
+    "B0FM86H5SW",
+    "B0D9TGXG5C",
+    "B0FQJQDYP1",
+    "B0DSC3YTM8",
+    "B083DMY62F",
+    "B0DHVGQD51"
+  ]
+}

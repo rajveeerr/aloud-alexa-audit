@@ -1,0 +1,30 @@
+{
+  "data": [
+    {
+      "intentId": "surface_safety",
+      "unsupported": [
+        "SCRATCH-FREE CLEANING",
+        "delicate surfaces"
+      ],
+      "answersQuestion": false
+    },
+    {
+      "intentId": "lint_free_performance",
+      "unsupported": [],
+      "answersQuestion": true
+    },
+    {
+      "intentId": "grease_removal",
+      "unsupported": [],
+      "answersQuestion": false
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "faithfulness@2026-10-27.2",
+  "usage": {
+    "inputTokens": 448,
+    "outputTokens": 119
+  },
+  "latencyMs": 1152,
+  "cached": false
+}

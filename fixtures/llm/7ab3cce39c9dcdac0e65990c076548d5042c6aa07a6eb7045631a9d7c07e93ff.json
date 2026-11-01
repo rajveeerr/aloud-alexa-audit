@@ -1,0 +1,94 @@
+{
+  "data": [
+    {
+      "intentId": "material_composition",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "solid color made of 37% Cotton + 63% Polyester"
+        }
+      ],
+      "value": "37% Cotton + 63% Polyester"
+    },
+    {
+      "intentId": "care_instructions",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "supports machine wash or dry clean"
+        }
+      ],
+      "value": "machine wash or dry clean"
+    },
+    {
+      "intentId": "sizing_accuracy",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "piece_count_and_items",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "slanted off-shoulder long sleeve sweatshirt... Matching wide leg sweatpants"
+        }
+      ],
+      "value": "slanted off-shoulder long sleeve sweatshirt and matching wide leg sweatpants"
+    },
+    {
+      "intentId": "pocket_inclusion",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "handy side pockets"
+        }
+      ],
+      "value": "side pockets"
+    },
+    {
+      "intentId": "waistband_type",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "elastic waistband and adjustable drawstring"
+        }
+      ],
+      "value": "elastic waistband and adjustable drawstring"
+    },
+    {
+      "intentId": "fabric_stretch",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.apparel_fabric_stretch",
+          "text": "Medium Stretch"
+        }
+      ],
+      "value": "Medium Stretch"
+    },
+    {
+      "intentId": "separates_versatility",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "the slanted shoulder sweatshirt pairs great with jeans & leggings; the wide leg sweatpants go perfectly with tank tops, crop tops or tees."
+        }
+      ],
+      "value": "the slanted shoulder sweatshirt pairs great with jeans & leggings; the wide leg sweatpants go perfectly with tank tops, crop tops or tees."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+sets@estimated-1",
+  "usage": {
+    "inputTokens": 1580,
+    "outputTokens": 638
+  },
+  "latencyMs": 2074,
+  "cached": false
+}

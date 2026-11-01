@@ -1,0 +1,125 @@
+{
+  "data": [
+    {
+      "intentId": "flavor_profile",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "peanut brittle"
+        }
+      ],
+      "value": "peanut brittle"
+    },
+    {
+      "intentId": "nut_to_sugar_ratio",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "roasted peanuts"
+        }
+      ],
+      "value": "roasted peanuts"
+    },
+    {
+      "intentId": "allergen_information",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "roasted peanuts"
+        }
+      ],
+      "value": "roasted peanuts"
+    },
+    {
+      "intentId": "artificial_ingredients",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "packaging_type",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.container_type",
+          "text": "Bag"
+        },
+        {
+          "fieldId": "bullet.4",
+          "text": "Resealable packaging"
+        }
+      ],
+      "value": "Bag, Resealable packaging"
+    },
+    {
+      "intentId": "gift_suitability",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Ideal for holidays, parties, care packages"
+        }
+      ],
+      "value": "Ideal for holidays, parties, care packages"
+    },
+    {
+      "intentId": "shelf_life_and_freshness",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Resealable bag keeps your peanut brittle fresh and crunchy for longer enjoyment"
+        }
+      ],
+      "value": "Resealable bag keeps your peanut brittle fresh"
+    },
+    {
+      "intentId": "serving_size_and_calories",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "butter_and_sweetener_type",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "real butter, roasted peanuts, and golden corn syrup"
+        }
+      ],
+      "value": "real butter, roasted peanuts, and golden corn syrup"
+    },
+    {
+      "intentId": "dietary_restrictions",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.diet_type",
+          "text": "Vegan, Vegetarian"
+        }
+      ],
+      "value": "Vegan, Vegetarian"
+    },
+    {
+      "intentId": "sharing_and_party_use",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Perfect for the Candy Dish at your Office or Dorm and Ideal for holidays, parties"
+        }
+      ],
+      "value": "Perfect for the Candy Dish at your Office or Dorm and Ideal for holidays, parties"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+brittle@estimated-1",
+  "usage": {
+    "inputTokens": 1490,
+    "outputTokens": 823
+  },
+  "latencyMs": 2543,
+  "cached": false
+}

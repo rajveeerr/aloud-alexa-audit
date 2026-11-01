@@ -1,0 +1,108 @@
+{
+  "data": [
+    {
+      "intentId": "tabletop_dimensions",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "36''W x 24''D"
+        }
+      ],
+      "value": "36''W x 24''D"
+    },
+    {
+      "intentId": "maximum_tilt_angle",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.maximum_tilt_angle",
+          "text": "90 degrees"
+        }
+      ],
+      "value": "90 degrees"
+    },
+    {
+      "intentId": "height_adjustability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Rest of stand is not height adjustable"
+        }
+      ],
+      "value": "not height adjustable"
+    },
+    {
+      "intentId": "weight_capacity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.maximum_weight_recommendation",
+          "text": "25 pounds"
+        }
+      ],
+      "value": "25 pounds"
+    },
+    {
+      "intentId": "material_composition",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.top_material_type",
+          "text": "Poplar Wood"
+        },
+        {
+          "fieldId": "attr.base_material",
+          "text": "Wood"
+        }
+      ],
+      "value": "Poplar Wood, Wood"
+    },
+    {
+      "intentId": "pencil_ledge_included",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "BUILT-IN PENCIL GROOVE WITH PENCIL LEDGE"
+        }
+      ],
+      "value": "Built-in pencil groove with pencil ledge"
+    },
+    {
+      "intentId": "included_stool",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "storage_features",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "built-in pencil groove and 24\"-wide pencil ledge for storing writing utensils and canvases"
+        }
+      ],
+      "value": "built-in pencil groove and 24\"-wide pencil ledge"
+    },
+    {
+      "intentId": "glass_top_compatibility",
+      "status": "not_applicable",
+      "quotes": []
+    },
+    {
+      "intentId": "wheel_mobility_locks",
+      "status": "not_applicable",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+drafting-tables@estimated-1",
+  "usage": {
+    "inputTokens": 2446,
+    "outputTokens": 710
+  },
+  "latencyMs": 2553,
+  "cached": false
+}

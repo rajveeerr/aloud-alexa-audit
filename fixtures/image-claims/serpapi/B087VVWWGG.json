@@ -1,0 +1,155 @@
+{
+  "asin": "B087VVWWGG",
+  "promptVersion": "transcribe@2026-10-27.1",
+  "model": "gemini-3.5-flash-lite",
+  "usage": {
+    "inputTokens": 11052,
+    "outputTokens": 1522
+  },
+  "images": 10,
+  "skippedImageIds": [],
+  "modelOutput": [
+    {
+      "imageId": "img.0",
+      "claims": [
+        "MINT SCENTED RODENT REPELLENT",
+        "TALL KITCHEN DRAWSTRING BAGS",
+        "REPELS RACCOONS & RODENTS",
+        "ACTIVE INGREDIENTS:",
+        "Corn Mint Oil...",
+        "Methyl Salicylate...",
+        "Camphor Oil...",
+        "Eucalyptus Oil...",
+        "Other Ingredients...",
+        "TOTAL...",
+        "U.S. PATENT NO. 7,811,587",
+        "EPA REG. NO. 85589-1",
+        "EPA EST. NO. 85589-NJ-04",
+        "Effective Against the Norway Rat and Raccoons",
+        "KEEP OUT OF REACH OF CHILDREN",
+        "40 DRAWSTRING BAGS 13 GAL (49.2 L)",
+        "1FT 11 3/4 IN X 2 FT 1 IN X 0.90 MIL (60.3CM X 63.5CM X 22.8μm)",
+        "TRASH BAGS",
+        "Active Ingredients: Methyl Salicylate... Corn Mint Oil... Camphor Oil... Eucalyptus Oil... Other Ingredients...",
+        "EPA Reg. No. 85589-1",
+        "EPA Est. D. 85589-NJ-001",
+        "KEEP ALL PLASTIC BAGS OUT OF REACH OF CHILDREN.",
+        "For additional information please see label on box.",
+        "U.S Patent Nos. 7,811,597; 8,734,819; Other Patents Pending",
+        "www.mint-x.com"
+      ]
+    },
+    {
+      "imageId": "img.1",
+      "claims": [
+        "EASY TO USE DRAWSTRING TIES",
+        "Mint Oil Made with 100% Natural",
+        "EPA REGISTERED",
+        "PATENTED",
+        "Confirms the Safety and Effectiveness of our Bags in Preventing pests from Penetrating Your Trash."
+      ]
+    },
+    {
+      "imageId": "img.2",
+      "claims": [
+        "RODENT REPELLENT",
+        "These ultra-durable rodent-repellent trash bags are made from thick, heavy-duty plastic to lock in trash, and keep pests out.",
+        "THE PROTECTIVE POWER OF MINT",
+        "*Effective Against the Norway Rat, Raccoons + Squirrels",
+        "Product Featured: MX4046XHC (46\" x 40\", Clear)"
+      ]
+    },
+    {
+      "imageId": "img.3",
+      "claims": [
+        "HOW MINT-X WORKS",
+        "The formula is EPA-approved, you can trust it's safe for home, your family, and your pets. Unlike sprays or traps, our technology is built into the bag itself-so there's nothing to apply, reapply, or worry about.",
+        "RODENT SENSITIVITY TO SCENT",
+        "Rodents' sense of smell is up to 1,000x stronger than ours. While mint smells fresh to us, it overwhelms them, disrupting their scent trails and driving them away.",
+        "CONTROLLED SCENT DISTRIBUION",
+        "Our proprietary process embeds mint directly into the plastic, ensuring a long-lasting, consistent scent that won't fade after one use. Reliable protection from curb to collection."
+      ]
+    },
+    {
+      "imageId": "img.4",
+      "claims": [
+        "FIND THE PERFECT FIT FOR EVERY TRASH NEED",
+        "RESIDENTIAL SIZES",
+        "Perfect for everyday household use. Durable, relianle, and just right for standard bins.",
+        "Capacity",
+        "Application",
+        "13 Gallon",
+        "Kitchen + Bathroom Trash Cans",
+        "33 Gallon",
+        "Large Household or Outdoor Cans",
+        "COMMERCIAL SIZES",
+        "Engineered for heavy-duty jobs, ideal for businesses, landscaping, renovations, and more. Offered in two strengths for flexibility.",
+        "Dimensions (HxL)",
+        "Application - Standard Strength (1.3 Mil)",
+        "46\" x 33\"",
+        "Compact Bins, Everyday Cleanup",
+        "46\" x 40\"",
+        "Wide Loads, Great for Yard Waste",
+        "47\" x 43\"",
+        "Bulkier Trash, Light Construction",
+        "58\" x 38\"",
+        "Extra Tall Bins + Overall Safety",
+        "Dimensions (HxL)",
+        "Application - Extra Strength (1.7 Mil)",
+        "46\" x 33\"",
+        "Extra Thick for Sharp or Heavy Waste",
+        "46\" x 40\"",
+        "Large Volume, Reinforced Durability",
+        "47\" x 43\"",
+        "Max Strength for Bulky, Tough Waste"
+      ]
+    },
+    {
+      "imageId": "img.5",
+      "claims": [
+        "EXPLORE MORE!",
+        "MINT SCENTED RODENT REPELLENT DRAWSTRING TRASH BAGS",
+        "REPELS RACCOONS AND SQUIRRELS",
+        "33 GALLON",
+        "40 BAGS",
+        "13 GALLON",
+        "120 BAGS",
+        "RODENT REPELLENT"
+      ]
+    },
+    {
+      "imageId": "img.6",
+      "claims": [
+        "SHIELD YOUR TRASH WITH THE PROTECTIVE POWER OF MINT"
+      ]
+    },
+    {
+      "imageId": "img.7",
+      "claims": [
+        "Keeps Away Rodents, Racoons, & Squirrels",
+        "Flex Stretch, Strong & Durable",
+        "Made With 100% Natural Essential Oils",
+        "World's Only Rodent Repellent Trash Bag",
+        "EPA REGISTERED"
+      ]
+    },
+    {
+      "imageId": "img.8",
+      "claims": [
+        "RODENT REPELLENT TRASH BAGS WITH MINT-FLEX TECHNOLOGY",
+        "Neutralize odors",
+        "Easy-to-use drawstring",
+        "Safe for humans & pets",
+        "Superior stretching & strength"
+      ]
+    },
+    {
+      "imageId": "img.9",
+      "claims": [
+        "Problem",
+        "Solution",
+        "Results"
+      ]
+    }
+  ]
+}

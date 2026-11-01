@@ -1,0 +1,192 @@
+{
+  "data": [
+    {
+      "claimId": "ic.0",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Chocolate Chip"
+        }
+      ],
+      "intentId": "flavor_profile"
+    },
+    {
+      "claimId": "ic.1",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "6 x 5oz"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.2",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "aplus.1",
+          "text": "thin crispy"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.3",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "rich gourmet brownie taste"
+        }
+      ],
+      "intentId": "flavor_profile"
+    },
+    {
+      "claimId": "ic.4",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "crisp cookie crunch"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.5",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "aplus.2",
+          "text": "chocolate bliss"
+        }
+      ],
+      "intentId": "flavor_profile"
+    },
+    {
+      "claimId": "ic.6",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "satisfy your cravings with a sweet crunch"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.7",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.8",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "great when hosting parties or keeping in the pantry to throw in your bag or purse"
+        }
+      ],
+      "intentId": "sharing_and_party_use"
+    },
+    {
+      "claimId": "ic.9",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "crumbs"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.10",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "use the broken pieces and chocolate chips crumbs as a topping on your favorite ice cream, yogurt"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.11",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.12",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.13",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.14",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "just like the edges of the brownie pan"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.15",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Brownie Brittle is the original crunchy brownie snack with a rich chocolate brownie flavor and crispy crunch just like the edges of the brownie pan"
+        }
+      ],
+      "intentId": "flavor_profile"
+    },
+    {
+      "claimId": "ic.16",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.17",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.18",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.19",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "aplus.3",
+          "text": "flavors for every craving"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.20",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.21",
+      "coverage": "image_only",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "coverage@2026-10-27.1",
+  "usage": {
+    "inputTokens": 1610,
+    "outputTokens": 1254
+  },
+  "latencyMs": 3262,
+  "cached": false
+}

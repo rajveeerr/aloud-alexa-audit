@@ -1,0 +1,820 @@
+{
+  "product_results": {
+    "categories": [
+      {
+        "position": 1,
+        "name": "Automotive",
+        "link": "https://www.amazon.com/automotive-auto-truck-replacements-parts/b/ref=dp_bc_1?ie=UTF8&node=15684181",
+        "node": "15684181",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15684181"
+      },
+      {
+        "position": 2,
+        "name": "Car Care",
+        "link": "https://www.amazon.com/Car-Care-Automotive/b/ref=dp_bc_2?ie=UTF8&node=15718271",
+        "node": "15718271",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15718271"
+      },
+      {
+        "position": 3,
+        "name": "Tools & Equipment",
+        "link": "https://www.amazon.com/Tools-Equipment/b/ref=dp_bc_3?ie=UTF8&node=15718651",
+        "node": "15718651",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15718651"
+      },
+      {
+        "position": 4,
+        "name": "Cloths",
+        "link": "https://www.amazon.com/Cleaning-Cloths-Towels/b/ref=dp_bc_4?ie=UTF8&node=15718681",
+        "node": "15718681",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15718681"
+      },
+      {
+        "position": 5,
+        "name": "Microfiber",
+        "link": "https://www.amazon.com/Cleaning-Microfiber/b/ref=dp_bc_5?ie=UTF8&node=15718721",
+        "node": "15718721",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15718721"
+      }
+    ],
+    "asin": "B08BRJHJF9",
+    "title": "USANOOKS Microfiber Cleaning Cloth Grey - 12 Pcs (12.5\"x12.5\") - High Performance - 1200 Washes, Ultra Absorbent Microfiber Towel Weave Grime & Liquid for Streak-Free Mirror Shine - Car Washing Cloth",
+    "link": "https://www.amazon.com/hp/wlp/pipeline/membersignup?ref=primedp_ventures_desktopBelowThreshold&primeCampaignId=primedp_ventures_desktopBelowThreshold",
+    "link_clean": "https://www.amazon.com/dp/B08BRJHJF9/",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B08BRJHJF9&device=desktop&engine=amazon_product",
+    "badges": [
+      "Amazon's Choice"
+    ],
+    "variants": [
+      {
+        "title": "Color",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B08BRJHJF9",
+            "name": "Gray",
+            "image": "https://m.media-amazon.com/images/I/51fh27nTSbL._SS64_.jpg",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B08BRJHJF9&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B0DBHSWDQP",
+            "name": "Light Green",
+            "image": "https://m.media-amazon.com/images/I/51-OocqUzcL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DBHSWDQP&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B0DBHTN9D7",
+            "name": "Light Pink",
+            "image": "https://m.media-amazon.com/images/I/51jMmVqoMwL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DBHTN9D7&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 4,
+            "asin": "B0F8YWPZNQ",
+            "name": "Sea Green",
+            "image": "https://m.media-amazon.com/images/I/51hXS5cZxyL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F8YWPZNQ&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 5,
+            "asin": "B08BRB6K9N",
+            "name": "Turqoise",
+            "image": "https://m.media-amazon.com/images/I/51g3lKhitPL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B08BRB6K9N&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 6,
+            "asin": "B08BQW95NF",
+            "name": "White",
+            "image": "https://m.media-amazon.com/images/I/41HQLQLp0FL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B08BQW95NF&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 7,
+            "asin": "B0DBHTD9W7",
+            "name": "Yellow",
+            "image": "https://m.media-amazon.com/images/I/51DzJ6RT6CL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DBHTD9W7&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 8,
+            "asin": "B0F8Z26143",
+            "name": "Beige",
+            "image": "https://m.media-amazon.com/images/I/61us+Pn2zTL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F8Z26143&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 9,
+            "asin": "B0FV4XPXR4",
+            "name": "Burgundy",
+            "image": "https://m.media-amazon.com/images/I/5130eJmP08L._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FV4XPXR4&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 10,
+            "asin": "B0HDJG87N4",
+            "name": "Emerald Green",
+            "image": "https://m.media-amazon.com/images/I/51BPy8iu7DL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0HDJG87N4&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 11,
+            "asin": "B0BH43JCR2",
+            "name": "Multicolor",
+            "image": "https://m.media-amazon.com/images/I/71Wac4x3OyL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0BH43JCR2&device=desktop&engine=amazon_product"
+          }
+        ]
+      },
+      {
+        "title": "Size",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B0F8YL89H8",
+            "name": "Pack of 24",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F8YL89H8&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B0F8YW5BDV",
+            "name": "Pack of 100",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F8YW5BDV&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B0F8Y977ZR",
+            "name": "Pack of 50",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F8Y977ZR&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 4,
+            "asin": "B0F8Z4DPNT",
+            "name": "Pack of 8",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F8Z4DPNT&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 5,
+            "asin": "B08BRJHJF9",
+            "name": "Pack of 12",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B08BRJHJF9&device=desktop&engine=amazon_product"
+          }
+        ]
+      }
+    ],
+    "variant_combinations": [
+      {
+        "dimensions": {
+          "color": "Beige",
+          "size": "Pack of 24"
+        },
+        "asin": "B0F8Z4BJZR",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F8Z4BJZR&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Beige",
+          "size": "Pack of 100"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Beige",
+          "size": "Pack of 50"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Beige",
+          "size": "Pack of 8"
+        },
+        "asin": "B0F8Z47MDX",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F8Z47MDX&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Beige",
+          "size": "Pack of 12"
+        },
+        "asin": "B0F8Z26143",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F8Z26143&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Burgundy",
+          "size": "Pack of 24"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Burgundy",
+          "size": "Pack of 100"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Burgundy",
+          "size": "Pack of 50"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Burgundy",
+          "size": "Pack of 8"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Burgundy",
+          "size": "Pack of 12"
+        },
+        "asin": "B0FV4XPXR4",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FV4XPXR4&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Emerald Green",
+          "size": "Pack of 24"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Emerald Green",
+          "size": "Pack of 100"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Emerald Green",
+          "size": "Pack of 50"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Emerald Green",
+          "size": "Pack of 8"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Emerald Green",
+          "size": "Pack of 12"
+        },
+        "asin": "B0HDJG87N4",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0HDJG87N4&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Gray",
+          "size": "Pack of 24"
+        },
+        "asin": "B0F8YL89H8",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F8YL89H8&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Gray",
+          "size": "Pack of 100"
+        },
+        "asin": "B0F8YW5BDV",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F8YW5BDV&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Gray",
+          "size": "Pack of 50"
+        },
+        "asin": "B0F8Y977ZR",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F8Y977ZR&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Gray",
+          "size": "Pack of 8"
+        },
+        "asin": "B0F8Z4DPNT",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F8Z4DPNT&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Gray",
+          "size": "Pack of 12"
+        },
+        "asin": "B08BRJHJF9",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B08BRJHJF9&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Light Green",
+          "size": "Pack of 24"
+        },
+        "asin": "B0F8YT97J9",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F8YT97J9&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Light Green",
+          "size": "Pack of 100"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Light Green",
+          "size": "Pack of 50"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Light Green",
+          "size": "Pack of 8"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Light Green",
+          "size": "Pack of 12"
+        },
+        "asin": "B0DBHSWDQP",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DBHSWDQP&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Light Pink",
+          "size": "Pack of 24"
+        },
+        "asin": "B0F8YZMYHZ",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F8YZMYHZ&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Light Pink",
+          "size": "Pack of 100"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Light Pink",
+          "size": "Pack of 50"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Light Pink",
+          "size": "Pack of 8"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Light Pink",
+          "size": "Pack of 12"
+        },
+        "asin": "B0DBHTN9D7",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DBHTN9D7&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Multicolor",
+          "size": "Pack of 24"
+        },
+        "asin": "B0DFMLWSNP",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DFMLWSNP&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Multicolor",
+          "size": "Pack of 100"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Multicolor",
+          "size": "Pack of 50"
+        },
+        "asin": "B0DFML5SSS",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DFML5SSS&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Multicolor",
+          "size": "Pack of 8"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Multicolor",
+          "size": "Pack of 12"
+        },
+        "asin": "B0BH43JCR2",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0BH43JCR2&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Sea Green",
+          "size": "Pack of 24"
+        },
+        "asin": "B0F8YTSZDH",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F8YTSZDH&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Sea Green",
+          "size": "Pack of 100"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Sea Green",
+          "size": "Pack of 50"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Sea Green",
+          "size": "Pack of 8"
+        },
+        "asin": "B0F8YSFM16",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F8YSFM16&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Sea Green",
+          "size": "Pack of 12"
+        },
+        "asin": "B0F8YWPZNQ",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F8YWPZNQ&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Turqoise",
+          "size": "Pack of 24"
+        },
+        "asin": "B0F8YNBLY8",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F8YNBLY8&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Turqoise",
+          "size": "Pack of 100"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Turqoise",
+          "size": "Pack of 50"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Turqoise",
+          "size": "Pack of 8"
+        },
+        "asin": "B0F8YMPDBK",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F8YMPDBK&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Turqoise",
+          "size": "Pack of 12"
+        },
+        "asin": "B08BRB6K9N",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B08BRB6K9N&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "White",
+          "size": "Pack of 24"
+        },
+        "asin": "B0F8Y91BN7",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F8Y91BN7&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "White",
+          "size": "Pack of 100"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "White",
+          "size": "Pack of 50"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "White",
+          "size": "Pack of 8"
+        },
+        "asin": "B0F8Z21R4J",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F8Z21R4J&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "White",
+          "size": "Pack of 12"
+        },
+        "asin": "B08BQW95NF",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B08BQW95NF&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Yellow",
+          "size": "Pack of 24"
+        },
+        "asin": "B0F8YTHFQ5",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F8YTHFQ5&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Yellow",
+          "size": "Pack of 100"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Yellow",
+          "size": "Pack of 50"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Yellow",
+          "size": "Pack of 8"
+        },
+        "asin": "B0F8YLMLWD",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F8YLMLWD&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Yellow",
+          "size": "Pack of 12"
+        },
+        "asin": "B0DBHTD9W7",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DBHTD9W7&device=desktop&engine=amazon_product"
+      }
+    ],
+    "brand": "Visit the USANOOKS Store",
+    "thumbnail": "https://m.media-amazon.com/images/I/A1U4ZA-OJmS._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "thumbnails": [
+      "https://m.media-amazon.com/images/I/A1U4ZA-OJmS._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91LeXaDL9nL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91v8Of7F6tL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91IUR7g65NL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91hoBtByhDL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81FXcMylv8L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81r-hGvH2nL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/710EiXw0QAL._AC_SL1226_.jpg",
+      "https://m.media-amazon.com/images/I/71g397cZ6yL._AC_SL1500_.jpg"
+    ],
+    "rating": 4.6,
+    "reviews": 25748,
+    "bought_last_month": "50K+ bought in past month",
+    "discount": "-5%",
+    "price": "$6.98",
+    "extracted_price": 6.98,
+    "price_unit": "$0.58 / count",
+    "extracted_price_unit": 0.58,
+    "delivery": [
+      "FREE delivery Friday, November 6 on orders shipped by Amazon over $35",
+      "Or Prime members get FREE delivery Tomorrow, November 2. Order within 9 hrs 29 mins."
+    ],
+    "stock": "In Stock"
+  },
+  "purchase_options": {
+    "buy_new": {
+      "caption": "One-time purchase",
+      "price": "$6.98",
+      "extracted_price": 6.98,
+      "price_unit": "$0.58 / count",
+      "extracted_price_unit": 0.58,
+      "delivery": [
+        "FREE delivery Friday, November 6 on orders shipped by Amazon over $35",
+        "Or Prime members get FREE delivery Tomorrow, November 2. Order within 9 hrs 29 mins."
+      ],
+      "stock": "In Stock",
+      "features": {
+        "ships_from": {
+          "text": "Amazon",
+          "details": {
+            "heading": "Ships from",
+            "content": "Amazon"
+          }
+        },
+        "sold_by": {
+          "text": "APAD",
+          "details": {
+            "heading": "Sold by",
+            "content": "APAD"
+          },
+          "link": {
+            "text": "APAD",
+            "link": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A3J8SPWK5KKD5E&asin=B08BRJHJF9&ref_=dp_merchant_link&isAmazonFulfilled=1"
+          }
+        },
+        "returns": {
+          "text": "FREE refund/replacement until Jan 31, 2027",
+          "details": {
+            "heading": "FREE refund/replacement until Jan 31, 2027",
+            "content": "For the 2026 holiday season, eligible items purchased between November 1 and December 31, 2026 can be returned until January 31, 2027."
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "packaging": {
+          "text": "Ships in product packaging",
+          "details": {
+            "heading": "Ships in product packaging",
+            "content": "This item has been tested to certify it can ship safely in its original box or bag to avoid unnecessary packaging. Since 2015, we have reduced the weight of outbound packaging per shipment by 41% on average, that’s over 2 million tons of packaging material.If you still require Amazon packaging for this item, choose \"Ship in Amazon packaging\" at checkout. Learn more"
+          },
+          "link": {
+            "text": "Learn more",
+            "link": "https://www.amazon.com/sipp_home"
+          }
+        }
+      }
+    },
+    "subscribe_and_save": {
+      "caption": "Subscribe & Save",
+      "price": "$6.63",
+      "extracted_price": 6.63,
+      "price_unit": "$0.55 / count",
+      "extracted_price_unit": 0.55,
+      "delivery": [
+        "FREE delivery Friday, November 6 on orders shipped by Amazon over $35",
+        "Or Prime members get FREE delivery Tomorrow, November 2. Order within 9 hrs 29 mins."
+      ],
+      "stock": "In Stock",
+      "features": {
+        "ships_from": {
+          "text": "Amazon",
+          "details": {
+            "heading": "Ships from",
+            "content": "Amazon"
+          }
+        },
+        "sold_by": {
+          "text": "APAD",
+          "details": {
+            "heading": "Sold by",
+            "content": "APAD"
+          },
+          "link": {
+            "text": "APAD",
+            "link": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A3J8SPWK5KKD5E&asin=B08BRJHJF9&ref_=dp_merchant_link&isAmazonFulfilled=1"
+          }
+        },
+        "returns": {
+          "text": "FREE refund/replacement until Jan 31, 2027",
+          "details": {
+            "heading": "FREE refund/replacement until Jan 31, 2027",
+            "content": "For the 2026 holiday season, eligible items purchased between November 1 and December 31, 2026 can be returned until January 31, 2027."
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "subscription": "No fees. Skip or cancel anytime."
+      }
+    }
+  },
+  "item_specifications": {
+    "color": "Gray",
+    "brand": "USANOOKS",
+    "towel_form_type": "Cleaning Cloth",
+    "material": "Microfiber",
+    "product_dimensions": "12.5\"L x 12.5\"W"
+  },
+  "about_item": [
+    "10x GRIP-ROOT WEAVE - TRAP MORE, WORK LESS: Ultra-absorbent microfiber towels for car Grip Root weave works like PLANT ROOT FOLLICLES, sucking up & LOCKING AWAY 8x to 10x its weight in liquid, particulates, moisture, grime and dirt in far LESS TIME than traditional ‘Heavy Duty’ Cleaning Rags. Each towel features a 2.5mm thick design, providing enhanced durability and better grip during use.",
+    "WON’T LINT, SCRATCH, PILL, SWIRL, SHED, or BLEED like thin, cheaply made microfiber towels for cars. RAPID DRY release layers make these the ideal microfiber towels for cars, creating that spectacular, SWIRL-FREE MIRROR SHINE with our cleaning rags. With a solid 2.5mm thickness, these towels are built to prevent damage while ensuring optimal performance.",
+    "LASTS 1200+ WASHES - That’s 3.27 YEARS worth of use in this 12-pack of COMMERCIAL GRADE 300 GSM Reuseable Cleaning Cloth. The 2.5mm thickness and OVERLOCK BRAIDED STITCHING makes the ideal SUSTAINABLE SOLUTION for cleaning every SURFACE, crack, and CREVICE in your home, garage, or office.",
+    "SOAK IT UP FASTER - 4X’s MORE ABSORBENT than COTTON cloths, these are the microfiber cleaning cloth for cars to get if you want an ALL PURPOSE cleaning towel, crafted with 2.5mm thickness to scoop up your messes, oils, and liquids FASTER than a SPONGE",
+    "UNRIVALED POWER - TEST THIS GRIP-ROOT technology risk-free for 30 full days. With a 2.5mm thick design, it LOCKS AWAY dirt, dust, grime, spills, and messes better than any other high-performance cleaning rags you’ve tried."
+  ],
+  "product_description": [
+    {
+      "position": 1,
+      "title": "Stop Wiping. Start Cleaning.",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d38afca6-0b23-4d24-8d5b-3b31c99790d4.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 2,
+      "title": "Grip-Root Technology",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/08730e41-d1cd-4ded-8328-36b0d4f27760.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 3,
+      "title": "Built For Tough Cleaning Tasks",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/24886229-76e4-42aa-883f-20713d585945.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 4,
+      "title": "Clean Beyond The Kitchen",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/5aad144b-0d84-4599-8b4c-73ede9c09c2c.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 5,
+      "title": "Streak-Free Every Time",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/7d2331ca-fc28-4bd8-adb8-f7d23686faa3.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 6,
+      "title": "Designed For Every Surface",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/48d4da74-ac15-4931-83fd-cd11b1149475.__CR0,0,4392,1800_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 7
+    }
+  ],
+  "product_details": {
+    "brand_name": "USANOOKS",
+    "number_of_items": "2",
+    "upc": "850019874006",
+    "number_of_packs": "12",
+    "set_name": "12",
+    "model_name": "Microfiber Cleaning Cloth Grey",
+    "manufacturer": "USANOOKS",
+    "age_range_description": "All Ages",
+    "model_number": "MF-001",
+    "manufacturer_part_number": "MF-001",
+    "best_sellers_rank": [
+      {
+        "text": "#3 in Automotive (See Top 100 in Automotive)",
+        "extracted_rank": 3,
+        "link": "https://www.amazon.com/gp/bestsellers/automotive/ref=pd_zg_ts_automotive",
+        "link_text": "See Top 100 in Automotive"
+      },
+      {
+        "text": "#1 in Exterior Car Care Microfiber Cloths",
+        "extracted_rank": 1,
+        "link": "https://www.amazon.com/gp/bestsellers/automotive/15718721/ref=pd_zg_hrsr_automotive",
+        "link_text": "Exterior Car Care Microfiber Cloths"
+      }
+    ],
+    "asin": "B08BRJHJF9",
+    "customer_reviews": "4.6 out of 5 stars",
+    "rating": 4.6,
+    "reviews": 25748,
+    "towel_form_type": "Cleaning Cloth",
+    "other_special_features_of_the_product": "Lint Free",
+    "color": "Gray",
+    "product_style": "Traditional",
+    "pattern": "Solid",
+    "theme": "No Theme",
+    "shape": "Square",
+    "material_type": "Microfiber",
+    "fabric_weight": "1.1 pounds",
+    "product_care_instructions": "Machine Wash, Tumble Dry",
+    "fabric_type": "Polyester & Polyamide",
+    "item_dimensions_l_x_w": "12.5\"L x 12.5\"W",
+    "size": "Pack of 12",
+    "unit_count": "12 Count",
+    "item_weight": "15.36 ounces"
+  },
+  "related_asins": [
+    "B0CYSYXW7N",
+    "B083DMY62F",
+    "B0BW8RS1G7",
+    "B0D8W4TGKH",
+    "B0B1DF5HLX",
+    "B0DYV7SPC2",
+    "B0FD3MTV7Q",
+    "B0CYT2JKRP",
+    "B0DB1TQY6R",
+    "B098DCRHXY",
+    "B0GS1VM5J8",
+    "B0D9TGXG5C"
+  ]
+}

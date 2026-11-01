@@ -1,0 +1,732 @@
+{
+  "product_results": {
+    "categories": [
+      {
+        "position": 1,
+        "name": "Home & Kitchen",
+        "link": "https://www.amazon.com/home-garden-kitchen-furniture-bedding/b/ref=dp_bc_1?ie=UTF8&node=1055398",
+        "node": "1055398",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1055398"
+      },
+      {
+        "position": 2,
+        "name": "Furniture",
+        "link": "https://www.amazon.com/Furniture/b/ref=dp_bc_2?ie=UTF8&node=1063306",
+        "node": "1063306",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1063306"
+      },
+      {
+        "position": 3,
+        "name": "Home Office Furniture",
+        "link": "https://www.amazon.com/Home-Office-Furniture/b/ref=dp_bc_3?ie=UTF8&node=1063312",
+        "node": "1063312",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1063312"
+      },
+      {
+        "position": 4,
+        "name": "Drafting Tables",
+        "link": "https://www.amazon.com/Drafting-Tables/b/ref=dp_bc_4?ie=UTF8&node=3733771",
+        "node": "3733771",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=3733771"
+      }
+    ],
+    "asin": "B0DQTFJYTY",
+    "title": "ZENY Adjustable Drafting Table with Stool Tilting Drawing Desk Artist Table",
+    "link": "https://www.amazon.com/product-reviews/B0CG6RYDXY/ref=dp_atch_dss_w_r_B0DQTFJYTY_?ie=UTF8&showViewpoints=1",
+    "link_clean": "https://www.amazon.com/dp/B0DQTFJYTY/",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DQTFJYTY&device=desktop&engine=amazon_product",
+    "badges": [
+      "Amazon's Choice",
+      "Limited time deal"
+    ],
+    "variants": [
+      {
+        "title": "Color",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B0DQTFJYTY",
+            "name": "Retro-with Outlet",
+            "image": "https://m.media-amazon.com/images/I/41IfLhyaylL._SS64_.jpg",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DQTFJYTY&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B0D3JYWTBK",
+            "name": "Black",
+            "image": "https://m.media-amazon.com/images/I/41Xnx7mM0qL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0D3JYWTBK&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B0DR1WSXBT",
+            "name": "Black-with Outlet",
+            "image": "https://m.media-amazon.com/images/I/51pWwiERXuL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DR1WSXBT&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 4,
+            "asin": "B077X73CMC",
+            "name": "Brown",
+            "image": "https://m.media-amazon.com/images/I/51xAu7yBOZL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B077X73CMC&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 5,
+            "asin": "B0DR29YNNZ",
+            "name": "Brown-with Outlet",
+            "image": "https://m.media-amazon.com/images/I/512LHG55LpL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DR29YNNZ&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 6,
+            "asin": "B0FLJ862HY",
+            "name": "White-with Outlet",
+            "image": "https://m.media-amazon.com/images/I/41jyw2v+rDL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FLJ862HY&device=desktop&engine=amazon_product"
+          }
+        ]
+      }
+    ],
+    "brand": "Visit the ZENY Store",
+    "thumbnail": "https://m.media-amazon.com/images/I/81RIUQfLZ3L._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "thumbnails": [
+      "https://m.media-amazon.com/images/I/81RIUQfLZ3L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81WBeYDuMLL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81UUrfvfMoL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81VONQIwEqL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/712jaFZ5AML._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/811jm8-pgcL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/814x4wNB+vL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71R9Y7GqkaL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71Mh0hWTbQL._AC_SL1500_.jpg"
+    ],
+    "rating": 4.5,
+    "reviews": 65,
+    "bought_last_month": "50+ bought in past month",
+    "discount": "-10%",
+    "price": "$125.99",
+    "extracted_price": 125.99,
+    "old_price": "$139.99",
+    "extracted_old_price": 139.99,
+    "delivery": [
+      "FREE delivery November 4 - 6. Details"
+    ],
+    "stock": "In Stock"
+  },
+  "purchase_options": {
+    "single_offer": {
+      "price": "$125.99",
+      "extracted_price": 125.99,
+      "delivery": [
+        "FREE delivery November 4 - 6. Details"
+      ],
+      "stock": "In Stock",
+      "features": {
+        "shipper_seller": {
+          "text": "ZENY Direct",
+          "details": {
+            "heading": "Shipper / Seller",
+            "content": "ZENY Direct"
+          },
+          "link": {
+            "text": "ZENY Direct",
+            "link": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A10PRH2DFOVNA8&asin=B0DQTFJYTY&ref_=dp_merchant_link"
+          }
+        },
+        "returns": {
+          "text": "Returnable until Jan 31, 2027",
+          "details": {
+            "heading": "Returnable until Jan 31, 2027",
+            "content": "For the 2026 holiday season, eligible items purchased between November 1 and December 31, 2026 can be returned until January 31, 2027."
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "payment": {
+          "text": "Secure transaction",
+          "details": {
+            "heading": "Your transaction is secure",
+            "content": "We work hard to protect your security and privacy. Our payment security system encrypts your information during transmission. We don’t share your credit card details with third-party sellers, and we don’t sell your information to others. Learn more"
+          },
+          "link": {
+            "text": "Learn more",
+            "link": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201909010"
+          }
+        }
+      }
+    }
+  },
+  "protection_plan": [
+    {
+      "position": 1,
+      "asin": "B0CG6RYDXY",
+      "link": "https://www.amazon.com/dp/B0CG6RYDXY/",
+      "title": "2-Year Protection Plan",
+      "price": "$27.99",
+      "extracted_price": 27.99
+    },
+    {
+      "position": 2,
+      "asin": "B0CG6QPQD6",
+      "link": "https://www.amazon.com/dp/B0CG6QPQD6/",
+      "title": "3-Year Protection Plan",
+      "price": "$34.99",
+      "extracted_price": 34.99
+    },
+    {
+      "position": 3,
+      "asin": "B07RZ3LSHM",
+      "link": "https://www.amazon.com/dp/B07RZ3LSHM/",
+      "title": "Complete Protect: One plan covers all past and future eligible purchases (Broadest Coverage)",
+      "price": "$16.99/month",
+      "extracted_price": 16.99
+    }
+  ],
+  "item_specifications": {
+    "brand": "ZENY",
+    "shape": "Rectangular",
+    "desk_design": "Computer Desk, Drafting Table",
+    "product_dimensions": "24.5\"D x 55\"W x 35.8\"H",
+    "color": "Retro-with Outlet",
+    "style": "Modern",
+    "base_material": "Metal",
+    "top_material_type": "Engineered Wood",
+    "finish_type": "Powder Coated",
+    "special_feature": "with outlet,adjustable height, tilting"
+  },
+  "about_item": [
+    "Wood Drafting Table: This art table is constructed of durable steel and wood, sturdy and durable. The artist desk provides a stable platform and smooth work surface for creative pursuits. The triangle legs provide stable support. The professional drawing table is great for architects and hobbyists",
+    "Height and Angle Adjustable: The height of this painting table can be adjusted from 28 inch to 35.8 inch with the knob on the leg allowing you to find the perfect position whether standing or sitting. Tilt the top surface(0-60 degrees) to your desired angle for optimal comfort and productivity",
+    "Double Tabletop: The drafting desk has a main wood tabletop 34 inch by 23.6 inch, big enough for your drafting, painting and other work. There is also a small slide-out tray providing a 15 inch by 23.6 inch surface for sketching, drafting, or laptop use. Ideal for artists, architects, and designers",
+    "Large Storage Space: The painting table have 2 slide-out drawers and a storage shelf under the main table to store papers, drafting tools and other stuff. There is a pencil box on the right hand side. When the desktop is tilted, the Pencil Ledge on the table can ensure the pencil and drawing paper do not fall",
+    "Multi-purpose Desk: The main drawing desk can be tilted up according to your art work need. Adjust flat, it is a versatile table to read, write or do computer work. This adjustable hobby desk offers a spacious work surface, and a comfortable 20 inch high stool for painting, sketching, sculpting or other art projects"
+  ],
+  "product_description": [
+    {
+      "position": 1,
+      "title": "drafting table",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/b3228bf9-b4b6-4676-a5d6-35da818b93ed.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 2,
+      "carousel_images": [
+        {
+          "position": 1,
+          "title": "art desk",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/1d6370d5-9e99-4698-8048-ebe2b3b56a92.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 2,
+          "title": "desk",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/41b2d80a-a103-4542-b82a-a0594f143943.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 3,
+          "title": "desk",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/8de7afa7-8e08-4d5f-98b3-ae7920a13be5.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 4,
+          "title": "desk",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/62f45d39-1122-42bb-9651-8bf087ee7335.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "title": "desk",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/7c3f74c1-d7ae-4758-9394-cf1b7b9d78d5.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 4,
+      "title": "DESK",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/13ff0053-17b6-4134-a072-92ccc6adf68b.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 5,
+      "compare_with_similar": [
+        {
+          "position": 1,
+          "asin": "B074RDB74G",
+          "title": "Glass Drafting Table",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/e7bcd265-76c4-473b-b7b8-ca5b0a4b4ad8.__AC_SR200,225___.jpg",
+          "link": "https://www.amazon.com/dp/B074RDB74G?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B074RDB74G&device=desktop&engine=amazon_product",
+          "rating": 4.5,
+          "reviews": 1842,
+          "price": "$63.99",
+          "extracted_price": 63.99,
+          "tabletop_size": "41.5''x23.5''",
+          "material": "Metal. Glass",
+          "color": "Sliver Grey",
+          "drawer": "Yes",
+          "storage_shelves": "No"
+        },
+        {
+          "position": 2,
+          "asin": "B07D5PJRDD",
+          "title": "Drafting Table and Stool",
+          "thumbnail": "https://m.media-amazon.com/images/I/41tMXAkyUzL.__AC_SR200,225___.jpg",
+          "link": "https://www.amazon.com/dp/B07D5PJRDD?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B07D5PJRDD&device=desktop&engine=amazon_product",
+          "rating": 4.4,
+          "reviews": 1434,
+          "price": "$65.99",
+          "extracted_price": 65.99,
+          "tabletop_size": "44.3''x20''",
+          "material": "Metal, Wood",
+          "color": "Black",
+          "drawer": "Yes",
+          "storage_shelves": "Yes"
+        },
+        {
+          "position": 3,
+          "asin": "B08JQ379L8",
+          "title": "Computer Desk",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/e7d28593-52ef-4c5c-a982-0897bf2223f3.__AC_SR200,225___.jpg",
+          "link": "https://www.amazon.com/dp/B08JQ379L8?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B08JQ379L8&device=desktop&engine=amazon_product",
+          "rating": 4.4,
+          "reviews": 55,
+          "price": "$56.99",
+          "extracted_price": 56.99,
+          "tabletop_size": "55''x29.5''",
+          "material": "Metal, Engineered Wood",
+          "color": "Black",
+          "drawer": "No",
+          "storage_shelves": "No"
+        },
+        {
+          "position": 4,
+          "asin": "B07SJZ8QP7",
+          "title": "Folding Computer Desk",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/69030eb5-b016-408f-af6e-63450ed9091a.__AC_SR200,225___.jpg",
+          "link": "https://www.amazon.com/dp/B07SJZ8QP7?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B07SJZ8QP7&device=desktop&engine=amazon_product",
+          "rating": 4.6,
+          "reviews": 118,
+          "price": "$27.99",
+          "extracted_price": 27.99,
+          "tabletop_size": "39''x19''",
+          "material": "Metal, Engineered Wood",
+          "color": "Brown",
+          "drawer": "No",
+          "storage_shelves": "No"
+        },
+        {
+          "position": 5,
+          "asin": "B0DNQ5QJZ6",
+          "title": "Gaming Desk with LED",
+          "thumbnail": "https://m.media-amazon.com/images/I/51gGFgT3GYL.__AC_SR200,225___.jpg",
+          "link": "https://www.amazon.com/dp/B0DNQ5QJZ6?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DNQ5QJZ6&device=desktop&engine=amazon_product",
+          "rating": 5,
+          "reviews": 1,
+          "price": "$58.99",
+          "extracted_price": 58.99,
+          "tabletop_size": "44.3''x20''",
+          "material": "Metal, Carbon Steel",
+          "color": "Black",
+          "drawer": "No",
+          "storage_shelves": "Yes"
+        },
+        {
+          "position": 6,
+          "asin": "B07MB5RLKX",
+          "title": "Drafting Stool with back",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/5104668d-e1ec-4e22-93a2-ef8081ef150e.__AC_SR200,225___.jpg",
+          "link": "https://www.amazon.com/dp/B07MB5RLKX?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B07MB5RLKX&device=desktop&engine=amazon_product",
+          "customer_reviews": ".aplus-v2 .aplus-review-right-padding { padding-right: 0.1rem; } —",
+          "tabletop_size": "15.7''",
+          "material": "Steel+Foam+PU",
+          "color": "Black"
+        },
+        {
+          "position": 7,
+          "asin": "B08T1RDL6Z",
+          "title": "Thick Drafting Stool",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d1a1fd5d-781e-47f5-86ab-f80ccbc545e4.__AC_SR200,225___.jpg",
+          "link": "https://www.amazon.com/dp/B08T1RDL6Z?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B08T1RDL6Z&device=desktop&engine=amazon_product",
+          "rating": 4.3,
+          "reviews": 191,
+          "price": "$23.99",
+          "extracted_price": 23.99,
+          "tabletop_size": "15.7''",
+          "material": "Steel+Foam+PU",
+          "color": "Black",
+          "drawer": "No",
+          "storage_shelves": "No"
+        }
+      ]
+    }
+  ],
+  "product_details": {
+    "shape": "Rectangular",
+    "desk_design": "Computer Desk, Drafting Table",
+    "color": "Retro-with Outlet",
+    "style_name": "Modern",
+    "finish_types": "Powder Coated",
+    "furniture_finish": "Wood",
+    "leg_style": "Saber Leg",
+    "top_color": "Retro",
+    "base_color": "Black",
+    "item_dimensions_d_x_w_x_h": "24.5\"D x 55\"W x 35.8\"H",
+    "number_of_drawers": "2",
+    "maximum_compatible_number_of_seats": "1",
+    "item_weight": "43 pounds",
+    "size": "55 inches (W) x 24.5 inches (L) x 35.8 inches (H)",
+    "number_of_shelves": "1",
+    "tabletop_thickness": "0.5 inches",
+    "minimum_height": "28 inches",
+    "working_surface_diagonal_length": "41.55 inches",
+    "number_of_open_shelves": "1",
+    "item_depth": "24.5 inches",
+    "item_dimensions": "24.5 x 55 x 35.8 inches",
+    "maximum_height": "35.8 inches",
+    "maximum_tilt_angle": "60 degrees",
+    "additional_features": "with outlet,adjustable height, tilting",
+    "drawer_type": "Utility Drawer",
+    "base_type": "Leg",
+    "lifting_mechanism": "Manual",
+    "frame_joint_type": "Bolted",
+    "drawer_glide_mechanism": "Standard",
+    "storage_options": "Side Storage Bag, Shelves",
+    "cabinet_configuration": "Freestanding",
+    "drawer_pedestal_count": "1",
+    "number_of_height_positions": "6",
+    "mounting_type": "Freestanding",
+    "brand_name": "ZENY",
+    "room_type": "Office, Study Room",
+    "recommended_uses_for_product": "Drafting, Gaming, Working, Writing",
+    "included_components": "Desk and Stool",
+    "product_grade": "New",
+    "model_number": "8512A",
+    "model_name": "Drafting Table",
+    "number_of_items": "1",
+    "item_highlight": "with Outlet, Storage Drawers, Art Craft Workstation for Home Office Reading, Writing, Crafting",
+    "manufacturer": "ZENY",
+    "number_of_packs": "1",
+    "unit_count": "1 Count",
+    "age_range_description": "Adult",
+    "manufacturer_part_number": "3633",
+    "best_sellers_rank": [
+      {
+        "text": "#86,737 in Office Products (See Top 100 in Office Products)",
+        "extracted_rank": 86737,
+        "link": "https://www.amazon.com/gp/bestsellers/office-products/ref=pd_zg_ts_office-products",
+        "link_text": "See Top 100 in Office Products"
+      },
+      {
+        "text": "#15 in Drafting Tables",
+        "extracted_rank": 15,
+        "link": "https://www.amazon.com/gp/bestsellers/home-garden/3733771/ref=pd_zg_hrsr_home-garden",
+        "link_text": "Drafting Tables"
+      },
+      {
+        "text": "#78 in Office Tables",
+        "extracted_rank": 78,
+        "link": "https://www.amazon.com/gp/bestsellers/office-products/1069222/ref=pd_zg_hrsr_office-products",
+        "link_text": "Office Tables"
+      }
+    ],
+    "asin": "B0DQTFJYTY",
+    "customer_reviews": "4.5 out of 5 stars",
+    "rating": 4.5,
+    "reviews": 65,
+    "base": "Metal",
+    "top_material_type": "Engineered Wood",
+    "furniture_leg_material": "Metal",
+    "product_care_instructions": "Wipe with Damp Cloth",
+    "frame_material_type": "Metal",
+    "material_type": "Metal. Wood, MDF",
+    "recommended_number_of_people_for_assembly": "1",
+    "warranty_type": "Limited",
+    "tools_recommended_for_assembly": "Screw Driver",
+    "mfg_warranty_type_i_e_parts_labor": "No Warranty",
+    "assembly_instructions_description": "Easy to follow instructions for one person to assemble the product."
+  },
+  "reviews_information": {
+    "summary": {
+      "text": "Customers love the drafting table's quality, appearance, and storage capacity, finding it easy to assemble and worth the cost. However, the sturdiness and adjustability receive mixed feedback - while some find it sturdy, others describe it as flimsy, and while many appreciate the adjustable height feature, one customer reports issues with the height adjustment breaking.",
+      "insights": [
+        {
+          "title": "Quality",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 17,
+            "positive": 15,
+            "negative": 2
+          },
+          "summary": "Customers love this drafting table and find it to be of great quality.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Love it!!!! Perfect size for a small apartment.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RCBE7HW6VTS17"
+            },
+            {
+              "position": 2,
+              "snippet": "...It’s well built and I love it. I’m very happy with my purchase",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1YOFR05X1TKAO"
+            },
+            {
+              "position": 3,
+              "snippet": "Very sturdy and nice looking set. Great quality. But was huge pain to put together",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RVCZ9AG4YWYTB"
+            },
+            {
+              "position": 4,
+              "snippet": "Very nice desk...it had a broken part...they sent me a new piece with no problem",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3NMJDM23F631"
+            }
+          ]
+        },
+        {
+          "title": "Assembly",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 10,
+            "positive": 7,
+            "negative": 3
+          },
+          "summary": "Customers find the drafting table easy to assemble.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...I also love the storage space. Easy to put together. The stool that comes with it is not comfortable but I just use another chair.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R6FMMJJA83H6L"
+            },
+            {
+              "position": 2,
+              "snippet": "...Instructions were very easy to follow and every part was labeled clearly. Quality materials make this desk strong and sturdy!...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2NKCUYFL6QFJ9"
+            },
+            {
+              "position": 3,
+              "snippet": "...the size is good, the assembly was a nightmare. So, so many parts and it was incredibly frustrating....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3GWW3Q2YJYEYP"
+            },
+            {
+              "position": 4,
+              "snippet": "...It took me about 1 and a half to 2 days to put it together and it is very very stable....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2KEDOV1U0LPN1"
+            }
+          ]
+        },
+        {
+          "title": "Value for money",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 7,
+            "positive": 5,
+            "negative": 2
+          },
+          "summary": "Customers find the drafting table to be well worth the cost.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...It is a good value even considering those minor issues.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2YK2MOU058U2E"
+            },
+            {
+              "position": 2,
+              "snippet": "...Definitely worth the amount of money",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1EQ8OHWQF6AWI"
+            },
+            {
+              "position": 3,
+              "snippet": "...Cant send it back if it's already built. Money wasted.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RNQ62S4P218HX"
+            },
+            {
+              "position": 4,
+              "snippet": "...service is really professional and this drafting table is well worth the cost. It’s well built and I love it. I’m very happy with my purchase",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1YOFR05X1TKAO"
+            }
+          ]
+        },
+        {
+          "title": "Appearance",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 6,
+            "positive": 6,
+            "negative": 0
+          },
+          "summary": "Customers like the appearance of the drafting table, with one mentioning they love its color.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Oh my goodness, I LOVE THIS ADJUSTABLE DRAFTING TABLE!!! It is so pretty and functional.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RPJBV2Q8Y3Z38"
+            },
+            {
+              "position": 2,
+              "snippet": "...I really like the gorgeous brown wood design of the table tops and the red labeling that made it even easier to follow the manual....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2KEDOV1U0LPN1"
+            },
+            {
+              "position": 3,
+              "snippet": "...He loves the color and assembly took him less than a few hours....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1FDDYJI5S0AR4"
+            },
+            {
+              "position": 4,
+              "snippet": "Very sturdy and nice looking set. Great quality. But was huge pain to put together",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RVCZ9AG4YWYTB"
+            }
+          ]
+        },
+        {
+          "title": "Storage capacity",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 6,
+            "positive": 5,
+            "negative": 1
+          },
+          "summary": "Customers appreciate the drafting table's storage capacity.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...I also love the storage space. Easy to put together. The stool that comes with it is not comfortable but I just use another chair.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R6FMMJJA83H6L"
+            },
+            {
+              "position": 2,
+              "snippet": "My 13 yr old built it himself, he loves it. It has enough storage space for the art supplies he uses regularly and fits perfectly under his window....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1FDDYJI5S0AR4"
+            },
+            {
+              "position": 3,
+              "snippet": "This is so awesome and has drawers to put all your junk in there! I would definitely recommend this!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RG71SEFR7X9IF"
+            },
+            {
+              "position": 4,
+              "snippet": "Storage capacity is as advertised (though I do wish there was more), the quality is average...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3GWW3Q2YJYEYP"
+            }
+          ]
+        },
+        {
+          "title": "Sturdiness",
+          "sentiment": "mixed",
+          "mentions": {
+            "total": 9,
+            "positive": 4,
+            "negative": 5
+          },
+          "summary": "Customers have mixed opinions about the drafting table's sturdiness, with some finding it sturdy while others describe it as fragile and report it breaking immediately.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Terrible product. It’s so flimsy that it broke during assembly.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RMKG6RPV70Q12"
+            },
+            {
+              "position": 2,
+              "snippet": "...Quality materials make this desk strong and sturdy! The stool is not very comfortable for my size and build but still made from quality metal....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2NKCUYFL6QFJ9"
+            },
+            {
+              "position": 3,
+              "snippet": "Flimsy!!! Save your money!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R465CTX3N9U3E"
+            },
+            {
+              "position": 4,
+              "snippet": "...took me about 1 and a half to 2 days to put it together and it is very very stable....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2KEDOV1U0LPN1"
+            }
+          ]
+        },
+        {
+          "title": "Adjustability",
+          "sentiment": "mixed",
+          "mentions": {
+            "total": 7,
+            "positive": 4,
+            "negative": 3
+          },
+          "summary": "Customers have mixed opinions about the drafting table's adjustability, with some loving the adjustable drafting table while others report issues with the height adjustment mechanism.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...I highly urge this company to reassemble more pieces. Adjustability of table is great. I wish the chair was adjustable, we are using our own....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3GWW3Q2YJYEYP"
+            },
+            {
+              "position": 2,
+              "snippet": "Height adjustment broke as soon as it was finished. Completely unusable as one part is permanently lodged inside the support tubes....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RNQ62S4P218HX"
+            },
+            {
+              "position": 3,
+              "snippet": "Very handy for doing my diamond art. The difference adjustable height makes it alot easier so you don’t have to bend over a table....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2GWNWEZ8I1UOQ"
+            },
+            {
+              "position": 4,
+              "snippet": "...I am unable to adjust the height of the table by myself as it slips down. It is a good value even considering those minor issues.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2YK2MOU058U2E"
+            }
+          ]
+        },
+        {
+          "title": "Size",
+          "sentiment": "mixed",
+          "mentions": {
+            "total": 5,
+            "positive": 3,
+            "negative": 2
+          },
+          "summary": "Customers have mixed opinions about the size of the drafting table, with some finding it good while others report issues with drawers not fitting properly.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Love it!!!! Perfect size for a small apartment.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RCBE7HW6VTS17"
+            },
+            {
+              "position": 2,
+              "snippet": "The metal shelf and pencil basket broke during assembly also the drawers barely fit",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2QOK5HHRAB4S6"
+            },
+            {
+              "position": 3,
+              "snippet": "...the size is good, the assembly was a nightmare....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3GWW3Q2YJYEYP"
+            },
+            {
+              "position": 4,
+              "snippet": "...falls out if you tilt the desk up and I cant find a water container small enough to fit in the cup holder....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2YK2MOU058U2E"
+            }
+          ]
+        }
+      ],
+      "customer_reviews": {
+        "5 star": 78,
+        "4 star": 11,
+        "3 star": 4,
+        "2 star": 2,
+        "1 star": 5
+      }
+    }
+  },
+  "related_asins": [
+    "B07X1PKV6Y",
+    "B0CYPK6BD6",
+    "B0H75SN3SD",
+    "B09W1498ZN",
+    "B07GKHQYCM",
+    "B0C3RD5V7H"
+  ]
+}

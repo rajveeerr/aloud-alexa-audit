@@ -1,0 +1,114 @@
+{
+  "data": [
+    {
+      "intentId": "tabletop_dimensions",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "47.4x23.6x(27.4-36.4)”"
+        }
+      ],
+      "value": "47.4x23.6 inches"
+    },
+    {
+      "intentId": "maximum_tilt_angle",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "0-60°"
+        }
+      ],
+      "value": "60 degrees"
+    },
+    {
+      "intentId": "height_adjustability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "27.4-36.4"
+        }
+      ],
+      "value": "27.4-36.4 inches"
+    },
+    {
+      "intentId": "weight_capacity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.maximum_weight_recommendation",
+          "text": "220.5 pounds"
+        }
+      ],
+      "value": "220.5 pounds"
+    },
+    {
+      "intentId": "material_composition",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.material_type",
+          "text": "P2 MDF"
+        },
+        {
+          "fieldId": "attr.frame_material_type",
+          "text": "Metal"
+        }
+      ],
+      "value": "P2 MDF, Metal"
+    },
+    {
+      "intentId": "pencil_ledge_included",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "adjustable metal pencil ledge attached to the front edge"
+        }
+      ],
+      "value": "Yes"
+    },
+    {
+      "intentId": "included_stool",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "This drafting table set includes a stool in the package"
+        }
+      ],
+      "value": "Includes stool"
+    },
+    {
+      "intentId": "storage_features",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "An easy-to-clean detachable tabletop side tray with separate slots for different stationary items. A space-saving retractable board for documents/files. 2 simple yet practical nonwoven fabric drawers for mobile devices. An extra metal shelf down below for drawing drafts/paint cans."
+        }
+      ],
+      "value": "detachable tabletop side tray, retractable board, 2 nonwoven fabric drawers, metal shelf"
+    },
+    {
+      "intentId": "glass_top_compatibility",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "wheel_mobility_locks",
+      "status": "missing",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+drafting-tables@estimated-1",
+  "usage": {
+    "inputTokens": 2373,
+    "outputTokens": 803
+  },
+  "latencyMs": 2848,
+  "cached": false
+}

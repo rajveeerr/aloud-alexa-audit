@@ -1,0 +1,604 @@
+{
+  "product_results": {
+    "categories": [
+      {
+        "position": 1,
+        "name": "Home & Kitchen",
+        "link": "https://www.amazon.com/home-garden-kitchen-furniture-bedding/b/ref=dp_bc_1?ie=UTF8&node=1055398",
+        "node": "1055398",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1055398"
+      },
+      {
+        "position": 2,
+        "name": "Furniture",
+        "link": "https://www.amazon.com/Furniture/b/ref=dp_bc_2?ie=UTF8&node=1063306",
+        "node": "1063306",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1063306"
+      },
+      {
+        "position": 3,
+        "name": "Home Office Furniture",
+        "link": "https://www.amazon.com/Home-Office-Furniture/b/ref=dp_bc_3?ie=UTF8&node=1063312",
+        "node": "1063312",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1063312"
+      },
+      {
+        "position": 4,
+        "name": "Drafting Tables",
+        "link": "https://www.amazon.com/Drafting-Tables/b/ref=dp_bc_4?ie=UTF8&node=3733771",
+        "node": "3733771",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=3733771"
+      }
+    ],
+    "asin": "B08P38ZXBH",
+    "title": "Yaheetech Adjustable Drafting Table Art Desk,Storage Drawers & Stool,Black",
+    "link": "https://www.amazon.com/product-reviews/B0CG6QY786/ref=dp_atch_dss_w_r_B08P38ZXBH_?ie=UTF8&showViewpoints=1",
+    "link_clean": "https://www.amazon.com/dp/B08P38ZXBH/",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B08P38ZXBH&device=desktop&engine=amazon_product",
+    "badges": [
+      "Amazon's Choice"
+    ],
+    "variants": [
+      {
+        "title": "Color",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B08P38ZXBH",
+            "name": "Black",
+            "image": "https://m.media-amazon.com/images/I/41Km0fW7sKL._SS64_.jpg",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B08P38ZXBH&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B07X1PKV6Y",
+            "name": "Brown",
+            "image": "https://m.media-amazon.com/images/I/41FQE2+DToL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B07X1PKV6Y&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B0CMT355Z7",
+            "name": "White",
+            "image": "https://m.media-amazon.com/images/I/41xe-P0Ms1L._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CMT355Z7&device=desktop&engine=amazon_product"
+          }
+        ]
+      }
+    ],
+    "brand": "Visit the Yaheetech Store",
+    "thumbnail": "https://m.media-amazon.com/images/I/71xq8Srsu0L._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "thumbnails": [
+      "https://m.media-amazon.com/images/I/71xq8Srsu0L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81ANnnbPzvL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71ALHbUb88L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71bw3YqCT2L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71WwufPRqcL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81hj0rCo3pL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/7149vgZo8BL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81f83yOrErL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71Q4hqYkivL._AC_SL1500_.jpg"
+    ],
+    "rating": 4.5,
+    "reviews": 3694,
+    "bought_last_month": "100+ bought in past month",
+    "discount": "-5%",
+    "price": "$109.99",
+    "extracted_price": 109.99,
+    "old_price": "$115.99",
+    "extracted_old_price": 115.99,
+    "delivery": [
+      "FREE delivery November 4 - 5. Details"
+    ],
+    "stock": "In Stock"
+  },
+  "purchase_options": {
+    "single_offer": {
+      "price": "$109.99",
+      "extracted_price": 109.99,
+      "delivery": [
+        "FREE delivery November 4 - 5. Details"
+      ],
+      "stock": "In Stock",
+      "features": {
+        "shipper_seller": {
+          "text": "Yaheetech",
+          "details": {
+            "heading": "Shipper / Seller",
+            "content": "Yaheetech"
+          },
+          "link": {
+            "text": "Yaheetech",
+            "link": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A3AN9QJNQ0FYAY&asin=B08P38ZXBH&ref_=dp_merchant_link"
+          }
+        },
+        "returns": {
+          "text": "Returnable until Jan 31, 2027",
+          "details": {
+            "heading": "Returnable until Jan 31, 2027",
+            "content": "For the 2026 holiday season, eligible items purchased between November 1 and December 31, 2026 can be returned until January 31, 2027."
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "payment": {
+          "text": "Secure transaction",
+          "details": {
+            "heading": "Your transaction is secure",
+            "content": "We work hard to protect your security and privacy. Our payment security system encrypts your information during transmission. We don’t share your credit card details with third-party sellers, and we don’t sell your information to others. Learn more"
+          },
+          "link": {
+            "text": "Learn more",
+            "link": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201909010"
+          }
+        }
+      }
+    }
+  },
+  "protection_plan": [
+    {
+      "position": 1,
+      "asin": "B0CG6QY786",
+      "link": "https://www.amazon.com/dp/B0CG6QY786/",
+      "title": "2-Year Protection Plan",
+      "price": "$22.99",
+      "extracted_price": 22.99
+    },
+    {
+      "position": 2,
+      "asin": "B0CG6SVP8G",
+      "link": "https://www.amazon.com/dp/B0CG6SVP8G/",
+      "title": "3-Year Protection Plan",
+      "price": "$27.99",
+      "extracted_price": 27.99
+    },
+    {
+      "position": 3,
+      "asin": "B07RZ3LSHM",
+      "link": "https://www.amazon.com/dp/B07RZ3LSHM/",
+      "title": "Complete Protect: One plan covers all past and future eligible purchases (Broadest Coverage)",
+      "price": "$16.99/month",
+      "extracted_price": 16.99
+    }
+  ],
+  "item_specifications": {
+    "brand": "Yaheetech",
+    "shape": "Rectangular",
+    "desk_design": "Drafting Table",
+    "product_dimensions": "23.6\"D x 47.5\"W x 36.5\"H",
+    "color": "Black",
+    "style": "Modern",
+    "base_material": "Metal",
+    "top_material_type": "Wood",
+    "finish_type": "Wood",
+    "special_feature": "Adjustable"
+  },
+  "about_item": [
+    "Adjustable table height: The height-adjustable drawing table measures 120.5x60x(69.5-92.5)cm/ 47.5x23.6x(27.5-36.5)” (LxWxH) in overall dimensions. Rest assured that all the fittings applied (e.g. metal connectors, plastic knobs and more) work well to ease your every single adjustment.",
+    "Easy angle adjustment: The angle of the tabletop can be adjusted from 0 to 60° by simply lifting/lowering the top. This practical table works perfectly as a regular flat table for your laptop/books, and an easel for drawing and drafting.",
+    "Durable pencil ledge: The drawing board has an adjustable metal pencil ledge attached to the front edge to keep your drawing instruments from sliding/rolling off at a tilted angle. A special adjustment fitting design for you to lock and loose the pencil ledge with ease.",
+    "Retractable auxiliary surface: A 38 x 60cm/ 15 x 23.6’’ flat surface on the left can be pulled out for placing laptop and tablet to display pictures as drawing references, or an extra storage space for palette, documents, etc.; the side table can be slid under the main tabletop if needed.",
+    "Table/stool set: This drafting table set includes a stool in the package, which features a sturdy construction of a well finished metal frame and color/style matching black PU-wrapped sponge padding round seat. Now enjoy the added comfort!"
+  ],
+  "sustainability_features": {
+    "summary": "This product has sustainability features recognized by trusted certifications.",
+    "climate_pledge_friendly": true,
+    "learn_more_link": "https://www.amazon.com/climatepledgefriendly",
+    "features": [
+      {
+        "position": 1,
+        "title": "Forestry practices",
+        "text": "Made with materials from well-managed forests, recycled materials, and/or other controlled wood sources.",
+        "certified_by": [
+          {
+            "name": "The Forest Stewardship Council",
+            "logo": "https://m.media-amazon.com/images/I/61LMPVSIgfL._SS128_.png",
+            "description": "Forest Stewardship Council (FSC) certified products are made with materials from well-managed forests, recycled materials and/or other controlled wood sources.",
+            "link": "https://fsc.org/en/page/about-us"
+          }
+        ]
+      }
+    ]
+  },
+  "product_description": [
+    {
+      "position": 1,
+      "title": "drafting table",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/114465cd-46fe-47af-ad32-cf26b06640b2.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 2,
+      "title": "drafting table",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/4e40569f-c34d-4816-8be9-0d5a044a0472.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 3,
+      "title": "drafting table",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/12a32d44-bf0a-4513-b7af-cf150a735469.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 4,
+      "title": "drafting table",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/9cef585c-eab4-4e00-9f1b-4d0669927a96.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 5,
+      "title": "drafting table",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/9536f177-e003-402f-8aa2-5df6f67671fa.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 6,
+      "title": "drafting table",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/67a0c44d-dc90-4cf4-8cb0-3ac861b10aa7.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 7,
+      "title": "drafting table",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/ef15beb1-4906-4479-bd91-4f9dfb3f5ecb.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    }
+  ],
+  "product_details": {
+    "shape": "Rectangular",
+    "desk_design": "Drafting Table",
+    "color": "Black",
+    "style_name": "Modern",
+    "finish_types": "Wood",
+    "furniture_finish": "Black",
+    "leg_style": "straight",
+    "top_color": "Black",
+    "base_color": "black",
+    "item_dimensions_d_x_w_x_h": "23.6\"D x 47.5\"W x 36.5\"H",
+    "number_of_drawers": "2",
+    "item_weight": "51.8 pounds",
+    "size": "Large",
+    "number_of_shelves": "1",
+    "tabletop_thickness": "0.75 inches",
+    "minimum_height": "69.5 inches",
+    "working_surface_diagonal_length": "53.7 inches",
+    "number_of_enclosed_shelves": "2",
+    "number_of_open_shelves": "1",
+    "item_depth": "23.6 inches",
+    "item_dimensions": "23.62 x 47.44 x 27.36 inches",
+    "maximum_height": "36.5 inches",
+    "maximum_tilt_angle": "60 degrees",
+    "additional_features": "Adjustable",
+    "drawer_type": "two drawers",
+    "base_type": "Metal Desktop",
+    "lifting_mechanism": "Manual",
+    "storage_options": "[HAS STORAGE]",
+    "cabinet_configuration": "Freestanding",
+    "mounting_type": "Tabletop",
+    "brand_name": "Yaheetech",
+    "room_type": "Classroom, Home, Office",
+    "recommended_uses_for_product": "Drafting",
+    "included_components": "Drafting Table, Stool",
+    "model_number": "YT-6011290-01",
+    "model_name": "YT-6011290-01",
+    "manufacturer_warranty_description": "No warranty.",
+    "number_of_items": "2",
+    "item_highlight": "MDF Tabletop Tilts 0-60° on a Metal Frame for Drawing, Crafts, and Homework, with Two Supply Drawers and a Matching Stool.",
+    "manufacturer": "Yaheetech",
+    "unit_count": "1 Count",
+    "age_range_description": "Adult",
+    "manufacturer_part_number": "611055BLACKYELLOW",
+    "set_name": "Drafting Table and Stool Set",
+    "best_sellers_rank": [
+      {
+        "text": "#76,811 in Home & Kitchen (See Top 100 in Home & Kitchen)",
+        "extracted_rank": 76811,
+        "link": "https://www.amazon.com/gp/bestsellers/home-garden/ref=pd_zg_ts_home-garden",
+        "link_text": "See Top 100 in Home & Kitchen"
+      },
+      {
+        "text": "#3 in Drafting Tables",
+        "extracted_rank": 3,
+        "link": "https://www.amazon.com/gp/bestsellers/home-garden/3733771/ref=pd_zg_hrsr_home-garden",
+        "link_text": "Drafting Tables"
+      }
+    ],
+    "asin": "B08P38ZXBH",
+    "customer_reviews": "4.5 out of 5 stars",
+    "rating": 4.5,
+    "reviews": 3694,
+    "base": "Metal",
+    "top_material_type": "Wood",
+    "furniture_leg_material": "Metal",
+    "product_care_instructions": "Wipe with Dry Cloth",
+    "drawer_glide_material": "metal",
+    "frame_material_type": "Metal",
+    "material_type": "Engineered Wood, Iron",
+    "maximum_weight_recommendation": "220.5 pounds",
+    "warranty_type": "Limited",
+    "mfg_warranty_type_i_e_parts_labor": "limited warranty",
+    "assembly_instructions_description": "The product requires assembly."
+  },
+  "reviews_information": {
+    "summary": {
+      "text": "Customers find the drafting table to be a great desk that offers good value for money and is perfect for drawing and other art or craft projects. They appreciate its storage compartments, spacious design, and small footprint, with one customer noting it fits a 2x2x2' plenum. However, the stability is concerning as the structure wobbles with the slightest touch, and customers report durability issues with the fake wood breaking easily. The height adjustment mechanism receives mixed feedback, with some finding it easily adjustable while others find it incredibly difficult to adjust.",
+      "insights": [
+        {
+          "title": "Appearance",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 454,
+            "positive": 393,
+            "negative": 61
+          },
+          "summary": "Customers love the appearance of the drafting table, describing it as amazing and highly recommend it.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "This is a great desk, wish the drawers were not made of felt because weight causes them to sag but it is an overall good purchase",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3SWZEADQXO43Z"
+            },
+            {
+              "position": 2,
+              "snippet": "Great product, a little harder to put together than I anticipated. Looked up and followed the U Tub feed. That made it easy. Great product .",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3MYKG1HKYOGZG"
+            },
+            {
+              "position": 3,
+              "snippet": "Great table! This seller is not. Originally wanted to cancel due to delayed shipping. Soon as I do that, they ship it. Will not answer contact....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/ROUPCQVN3B9HM"
+            },
+            {
+              "position": 4,
+              "snippet": "This table is perfect for my 8 year old artist! Adjustable and sturdy, even the stool is sturdy and perfect for a smaller person.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3LGJE2A2OWTWX"
+            }
+          ]
+        },
+        {
+          "title": "Value for money",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 207,
+            "positive": 174,
+            "negative": 33
+          },
+          "summary": "Customers find the drafting table to be good value for money, appreciating its quality relative to the price and noting its stylish appearance.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Definitely a Great buy this table has strong metal and wood features. I assembled by myself u could use two people for further assistance....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R24YNE3FT3E5CV"
+            },
+            {
+              "position": 2,
+              "snippet": "...Comes with a stool as well but I opt to use my own chair instead. Great value if you are willing to take some time to piece together!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RFJZP8JMJAAEV"
+            },
+            {
+              "position": 3,
+              "snippet": "...All in all great purchase. Definitely worth the price.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R13C8NS8YXJK8L"
+            },
+            {
+              "position": 4,
+              "snippet": "Great price for this desk it was exactly what my daughter wanted. But beware it is not the simplest or easiest to put together....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2E80CQ681FGLT"
+            }
+          ]
+        },
+        {
+          "title": "Storage",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 61,
+            "positive": 49,
+            "negative": 12
+          },
+          "summary": "Customers appreciate the desk's storage features, which include multiple drawers and a shelf underneath, providing ample space for pencils, paints, and other art supplies.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...it was easy to assemble (I did it alone) and has lots of storage....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RM96LRCBL9GG8"
+            },
+            {
+              "position": 2,
+              "snippet": "...Wasn't missing parts or anything I like the storage options Came earlier I think Summary...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R11OPFS6BCNP6N"
+            },
+            {
+              "position": 3,
+              "snippet": "...With the extra table space, drawers and the \"tools\" holder on the side it is all right where I need it....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R31H81H0RWC776"
+            },
+            {
+              "position": 4,
+              "snippet": "...Adjustable top, two drawers and a storage shelf. Great quality and very sturdy.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2EO1A5NHWVCDS"
+            }
+          ]
+        },
+        {
+          "title": "Size",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 60,
+            "positive": 42,
+            "negative": 18
+          },
+          "summary": "Customers appreciate the desk's size, describing it as spacious and having a small footprint, with one customer noting it accommodates a 2x2x2' plenum and another mentioning it's perfect for D-sized drawings.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...Anyway it’s sturdy and a great size definitely not too small. Would recommend.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RX0V3R9J5ZRQN"
+            },
+            {
+              "position": 2,
+              "snippet": "grear value and just perfect size fir my small den! since i have a real small area i did not attach the side tray but still a great product....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R32WJDCHHNWROO"
+            },
+            {
+              "position": 3,
+              "snippet": "...No leg room...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R11OPFS6BCNP6N"
+            },
+            {
+              "position": 4,
+              "snippet": "...I like the size of the table and it does not overpower the room....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3COHH1W4AAPMF"
+            }
+          ]
+        },
+        {
+          "title": "Suitability for artists",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 59,
+            "positive": 58,
+            "negative": 1
+          },
+          "summary": "Customers find the drafting table perfect for various artistic activities, including drawing, painting, and diamond painting.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...I’ve used it already and it is perfect for diamond painting. Love the spacious dreams and side table.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2E2AVINUMT5BB"
+            },
+            {
+              "position": 2,
+              "snippet": "Great for diamond painting lots of room",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3T8DXBR8LXFRM"
+            },
+            {
+              "position": 3,
+              "snippet": "Easy to assemble with very clear instructions. Great table for any artist.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R120NAZQIU1URC"
+            },
+            {
+              "position": 4,
+              "snippet": "Perfect for my young artist 🎨",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R63XIOT0K2W44"
+            }
+          ]
+        },
+        {
+          "title": "Height adjustment",
+          "sentiment": "mixed",
+          "mentions": {
+            "total": 83,
+            "positive": 44,
+            "negative": 39
+          },
+          "summary": "Customers have mixed experiences with the desk's height adjustment, with some finding it easily adjustable while others report it being incredibly difficult to adjust.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "This table is perfect for my 8 year old artist! Adjustable and sturdy, even the stool is sturdy and perfect for a smaller person.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3LGJE2A2OWTWX"
+            },
+            {
+              "position": 2,
+              "snippet": "...It's biggest drawback is that it is not easy to adjust the height of the desk as a whole. Assembly was not difficult, but did take nearly 2 hours.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2GA4JB82PZJWS"
+            },
+            {
+              "position": 3,
+              "snippet": "...everything in the pictures, its small enough to fit anywhere and adjustable height , can be used as an excellent easel, im using it for school, its...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2XN6BSVZIPKL2"
+            },
+            {
+              "position": 4,
+              "snippet": "...It was fairly easy to build, but it does take two people to adjust the height....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RVT85HDZ0R78G"
+            }
+          ]
+        },
+        {
+          "title": "Stability",
+          "sentiment": "negative",
+          "mentions": {
+            "total": 92,
+            "positive": 25,
+            "negative": 67
+          },
+          "summary": "Customers report significant stability issues with the drafting table, noting that the entire structure wobbles with minimal touch and items slide off easily.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...Several metal pieces were bent and in order to put it together I had to use tools to reshape them in order for the slide out piece to function.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2AGSFZ2OYDO0Z"
+            },
+            {
+              "position": 2,
+              "snippet": "...it several times ensuring I followed the directions properly, but it still wobbles....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R22PZA3ZO0SZ21"
+            },
+            {
+              "position": 3,
+              "snippet": "...I'm very happy with its construction and appreciate that I can stand at it. For the price, this desk suits my needs well.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2C0F8F4X6BWVQ"
+            },
+            {
+              "position": 4,
+              "snippet": "...Slide guard at the bottom is sharp so watch I when using. Drawers don't slide well and I have to fight them to put them back in....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R46ZWXFDTXSG9"
+            }
+          ]
+        },
+        {
+          "title": "Durability",
+          "sentiment": "negative",
+          "mentions": {
+            "total": 63,
+            "positive": 15,
+            "negative": 48
+          },
+          "summary": "Customers report durability issues with the drafting table, noting that the fake wood breaks easily and tears like a flimsy plastic sheet.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Broke immediately upon first try to incline it....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2BAS8QSPTK3MU"
+            },
+            {
+              "position": 2,
+              "snippet": "...Cons: only moderately sturdy, top scratches easily, hard to move around with just one person",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2ISN84KJJYS8H"
+            },
+            {
+              "position": 3,
+              "snippet": "...I had a FEW issues with the desk: 1. The desk was chipped and looked as if someone tried to put it together before I did....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R21TP8RLIHUQLY"
+            },
+            {
+              "position": 4,
+              "snippet": "...table is an excellent investment for anyone seeking a flexible, durable, and stylish workspace for creative projects....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2VP1O8G5RG8PD"
+            }
+          ]
+        }
+      ],
+      "customer_reviews": {
+        "5 star": 75,
+        "4 star": 15,
+        "3 star": 5,
+        "2 star": 2,
+        "1 star": 3
+      }
+    }
+  },
+  "related_asins": [
+    "B0G43MZ2JW",
+    "B0FL7NTDGC",
+    "B08LB3QZ88",
+    "B00JC053D8",
+    "B0CDVYMT1X",
+    "B0DM5YLKNK",
+    "B00E3V3YX2",
+    "B0H4Y7MK9B",
+    "B0GGMB3LNW",
+    "B09W1498ZN",
+    "B0DDXW9WXM",
+    "B0H75SN3SD",
+    "B0GY88PY4L",
+    "B0HGRHW2QV"
+  ]
+}

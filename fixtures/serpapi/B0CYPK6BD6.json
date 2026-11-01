@@ -1,0 +1,347 @@
+{
+  "product_results": {
+    "categories": [
+      {
+        "position": 1,
+        "name": "Home & Kitchen",
+        "link": "https://www.amazon.com/home-garden-kitchen-furniture-bedding/b/ref=dp_bc_1?ie=UTF8&node=1055398",
+        "node": "1055398",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1055398"
+      },
+      {
+        "position": 2,
+        "name": "Furniture",
+        "link": "https://www.amazon.com/Furniture/b/ref=dp_bc_2?ie=UTF8&node=1063306",
+        "node": "1063306",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1063306"
+      },
+      {
+        "position": 3,
+        "name": "Home Office Furniture",
+        "link": "https://www.amazon.com/Home-Office-Furniture/b/ref=dp_bc_3?ie=UTF8&node=1063312",
+        "node": "1063312",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1063312"
+      },
+      {
+        "position": 4,
+        "name": "Drafting Tables",
+        "link": "https://www.amazon.com/Drafting-Tables/b/ref=dp_bc_4?ie=UTF8&node=3733771",
+        "node": "3733771",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=3733771"
+      }
+    ],
+    "asin": "B0CYPK6BD6",
+    "title": "VECELO Drafting Table Art Desk Art Table Adjustable Drawing Table Tilted Tabletop with 2 Storage Drawers and Stool, Drawing Desk for Artist Painters Drawing, Crafting, Reading, Writing, Rustic Brown",
+    "link": "https://www.amazon.com/product-reviews/B0CG6SG11F/ref=dp_atch_dss_w_r_B0CYPK6BD6_?ie=UTF8&showViewpoints=1",
+    "link_clean": "https://www.amazon.com/dp/B0CYPK6BD6/",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CYPK6BD6&device=desktop&engine=amazon_product",
+    "badges": [
+      "Amazon's Choice",
+      "Limited time deal"
+    ],
+    "variants": [
+      {
+        "title": "Color",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B0CYPK6BD6",
+            "name": "Rustic Brown",
+            "image": "https://m.media-amazon.com/images/I/51jtwOZfFxL._SS64_.jpg",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CYPK6BD6&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B0GH6TBY78",
+            "name": "Black",
+            "image": "https://m.media-amazon.com/images/I/41UHsvD8bCL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GH6TBY78&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B0GH6XYJKC",
+            "name": "Natural",
+            "image": "https://m.media-amazon.com/images/I/51d3I-X+mrL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GH6XYJKC&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 4,
+            "asin": "B0HFZZ3R7C",
+            "name": "White",
+            "image": "https://m.media-amazon.com/images/I/41e78TWbz+L._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0HFZZ3R7C&device=desktop&engine=amazon_product"
+          }
+        ]
+      }
+    ],
+    "brand": "Visit the VECELO Store",
+    "thumbnail": "https://m.media-amazon.com/images/I/81MMx+ELRHL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "thumbnails": [
+      "https://m.media-amazon.com/images/I/81MMx+ELRHL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/816tg4cCOIL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71XKjbPUZxL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81NPUctl2NL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81Z+gjELweL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81eX8K86ydL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61mdOCeMUFL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81U5mx+gRiL._AC_SL1500_.jpg"
+    ],
+    "rating": 4.4,
+    "reviews": 304,
+    "bought_last_month": "200+ bought in past month",
+    "discount": "-26%",
+    "price": "$91.88",
+    "extracted_price": 91.88,
+    "old_price": "$124.99",
+    "extracted_old_price": 124.99,
+    "delivery": [
+      "FREE delivery Monday, November 9"
+    ],
+    "stock": "In Stock"
+  },
+  "purchase_options": {
+    "single_offer": {
+      "price": "$91.88",
+      "extracted_price": 91.88,
+      "delivery": [
+        "FREE delivery Monday, November 9"
+      ],
+      "stock": "In Stock",
+      "features": {
+        "shipper_seller": {
+          "text": "Amazon.com",
+          "details": {
+            "heading": "Shipper / Seller",
+            "content": "Amazon.com"
+          }
+        },
+        "returns": {
+          "text": "FREE refund/replacement until Jan 31, 2027",
+          "details": {
+            "heading": "FREE refund/replacement until Jan 31, 2027",
+            "content": "For the 2026 holiday season, eligible items purchased between November 1 and December 31, 2026 can be returned until January 31, 2027."
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "payment": {
+          "text": "Secure transaction",
+          "details": {
+            "heading": "Your transaction is secure",
+            "content": "We work hard to protect your security and privacy. Our payment security system encrypts your information during transmission. We don’t share your credit card details with third-party sellers, and we don’t sell your information to others. Learn more"
+          },
+          "link": {
+            "text": "Learn more",
+            "link": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201909010"
+          }
+        }
+      }
+    }
+  },
+  "protection_plan": [
+    {
+      "position": 1,
+      "asin": "B0CG6SG11F",
+      "link": "https://www.amazon.com/dp/B0CG6SG11F/",
+      "title": "2-Year Protection Plan",
+      "price": "$17.99",
+      "extracted_price": 17.99
+    },
+    {
+      "position": 2,
+      "asin": "B0CG6RKV5L",
+      "link": "https://www.amazon.com/dp/B0CG6RKV5L/",
+      "title": "3-Year Protection Plan",
+      "price": "$22.99",
+      "extracted_price": 22.99
+    },
+    {
+      "position": 3,
+      "asin": "B07RZ3LSHM",
+      "link": "https://www.amazon.com/dp/B07RZ3LSHM/",
+      "title": "Complete Protect: One plan covers all past and future eligible purchases (Broadest Coverage)",
+      "price": "$16.99/month",
+      "extracted_price": 16.99
+    }
+  ],
+  "item_specifications": {
+    "brand": "VECELO",
+    "shape": "Square",
+    "desk_design": "Drafting Table",
+    "product_dimensions": "23.7\"D x 40.2\"W x 29.5\"H",
+    "color": "Rustic Brown",
+    "style": "Rustic",
+    "base_material": "Metal",
+    "top_material_type": "Engineered Wood",
+    "finish_type": "Unfinished",
+    "special_feature": "Drawing Table with 2 Storage Drawers and Stool, Tilt-Adjustable Tabletop"
+  },
+  "about_item": [
+    "Effortlessly Control Angle: This adjustable drafting table tilts from 0-65°, allows to adjust as needed. It serves both as a regular flat table for daily tasks and an art desk for artistic pursuits. Whether writing reports or diving into creative artwork, this versatile desk has you covered.",
+    "Reliably Constructed: This drawing hobby table is crafted with a heavy-duty metal frame and a 12mm thick MDF, ensuring a sturdy and durable structure. The triangular leg design provides stable support. The drafting table desk comes with four protective foot pads to prevent scratches on floors.",
+    "User-centred Storage Design: The drafting table with storage features two non-woven fabric drawers and a fabric storage shelf below, providing convenient storage for paper, drawing tools, and other items, with pencil box on the right side. When the tabletop tilts, the pencil rack ensures that pencils and other drawing tools do not roll off, and this artist desk includes separate slots for various drawing utensils.",
+    "Drafting Table Desk Combo: This architect's drafting desk comes with a 20-inch high drawing stool. The stool features a sturdy structure, refined metal frame, and matches the color and style of the art desk for adults. Its seat is covered in black PU material with a foam cushion, offering a comfortable seating experience.",
+    "Drafting Table with Drawers Dimensions: 40.2\"(L) x23.7\"(W)x29.5\" (H). Stool: 15.8\"(L) x11.8\"(W)x20\" (H). Max Weight Capacity: Tabletop: 55 lb; Stool: 220 lb."
+  ],
+  "product_description": [
+    {
+      "position": 1,
+      "title": "drafting table",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/398b8b13-e935-456b-bc9a-82a4acda9a84.__CR0,0,970,600_PT0_SX970_V1___.jpg"
+    },
+    {
+      "position": 2,
+      "title": "drafting table",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/29a83ff4-150e-4ba7-9b55-5f8506404e73.__CR0,0,970,300_PT0_SX970_V1___.jpg"
+    },
+    {
+      "position": 3,
+      "features": [
+        {
+          "position": 1,
+          "title": "Special Design Pencil Holder",
+          "text": "When the tabletop of the craft desk tilts, a specially designed pencil rack ensures that pencils and other drawing tools do not roll off, and it includes separate slots for various drawing utensils.",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/b0997ad4-c316-4f94-958d-2c1e47c03c38.__CR0,0,300,300_PT0_SX300_V1___.jpg"
+        },
+        {
+          "position": 2,
+          "title": "Comfortable PU Stool",
+          "text": "The stool features a sturdy structure, refined metal frame, and matches the color and style of the art table for adults. Its seat is covered in black PU material with a foam cushion, offering a comfortable seating experience.",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0971d7a3-e650-4eb1-b6db-b1626dfec0ab.__CR0,0,300,300_PT0_SX300_V1___.jpg"
+        },
+        {
+          "position": 3,
+          "title": "Sturdy Frame",
+          "text": "The triangular leg design provides the painting table stable support. Additionally, the drafting table desk comes with four protective foot pads to prevent scratches on hard floors.",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/c79a2ef5-448a-4169-b7c8-491a79f23fc0.__CR0,0,300,300_PT0_SX300_V1___.jpg"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "features": [
+        {
+          "position": 1,
+          "title": "Ample Storage Space",
+          "text": "Two storage drawers and an open long storage bag provide convenient storage for paper, drawing tools, and other items.",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/3f0f62d2-e82e-4a75-8d75-b521d3dd84a2.__CR0,0,300,300_PT0_SX300_V1___.jpg"
+        },
+        {
+          "position": 2,
+          "title": "Adjustable Tabletop Angle",
+          "text": "This adjustable drawing drafting table tilts from 0° to 65°, serving as both a regular flat table and a professional art desk.",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/1a244183-988d-47b3-a70b-1100223abcba.__CR0,0,300,300_PT0_SX300_V1___.jpg"
+        },
+        {
+          "position": 3,
+          "title": "Wooden Tabletop",
+          "text": "This drawing hobby table is crafted with a heavy-duty metal frame and a 12mm thick medium-density fiberboard, ensuring a sturdy and durable structure.",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/8d1cb114-0f5b-4c63-90e6-685003dd7072.__CR0,0,300,300_PT0_SX300_V1___.jpg"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "title": "drafting table",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/bf5f586d-c095-4fe9-9329-885537323953.__CR0,0,970,600_PT0_SX970_V1___.jpg"
+    }
+  ],
+  "product_details": {
+    "shape": "Square",
+    "desk_design": "Drafting Table",
+    "color": "Rustic Brown",
+    "style_name": "Rustic",
+    "finish_types": "Unfinished",
+    "furniture_finish": "Unfinished",
+    "leg_style": "Straight Leg",
+    "top_color": "Rustic Brown",
+    "base_color": "Black",
+    "item_dimensions_d_x_w_x_h": "23.7\"D x 40.2\"W x 29.5\"H",
+    "number_of_drawers": "2",
+    "item_weight": "30.1 pounds",
+    "size": "40.2 inches x 23.7 inches x 29.5 inches",
+    "number_of_shelves": "1",
+    "tabletop_thickness": "12 millimeters",
+    "minimum_height": "29.5 inches",
+    "working_surface_diagonal_length": "49.1 inches",
+    "item_depth": "23.7 inches",
+    "item_dimensions": "23.7 x 40.2 x 29.5 inches",
+    "maximum_height": "29.5 inches",
+    "maximum_tilt_angle": "65 degrees",
+    "base": "Metal",
+    "top_material_type": "Engineered Wood",
+    "furniture_leg_material": "Metal",
+    "drawer_glide_material": "Metal",
+    "frame_material_type": "Metal",
+    "material_type": "Engineered Wood, Metal",
+    "maximum_weight_recommendation": "55 pounds",
+    "recommended_number_of_people_for_assembly": "1",
+    "warranty_type": "Limited",
+    "assembly_instructions_description": "The product requires assembly. Assembly tools and instructions are included.",
+    "brand_name": "VECELO",
+    "additional_features": "Drawing Table with 2 Storage Drawers and Stool, Tilt-Adjustable Tabletop",
+    "room_type": "Living Room, Office, Study Room",
+    "recommended_uses_for_product": "Drafting, Studying, Working, Writing",
+    "included_components": "Drafting Table, Stool, Assembly Tools, Instruction",
+    "product_grade": "new",
+    "model_number": "KHD-DT04-BRN",
+    "model_name": "VECELO Drafting Table",
+    "upc": "840408916639",
+    "number_of_items": "1",
+    "manufacturer": "VECELO",
+    "number_of_packs": "1",
+    "unit_count": "1 Count",
+    "age_range_description": "Adult",
+    "item_type_name": "Art Desk Art Table Adjustable Drawing Table Tilted Tabletop with 2 Storage Drawers and Stool, Drawing Desk for Artist Painters Drawing, Crafting, Reading, Writing, Rustic Brown",
+    "manufacturer_part_number": "KHD-DT04-BRN",
+    "best_sellers_rank": [
+      {
+        "text": "#15,573 in Office Products (See Top 100 in Office Products)",
+        "extracted_rank": 15573,
+        "link": "https://www.amazon.com/gp/bestsellers/office-products/ref=pd_zg_ts_office-products",
+        "link_text": "See Top 100 in Office Products"
+      },
+      {
+        "text": "#2 in Drafting Tables",
+        "extracted_rank": 2,
+        "link": "https://www.amazon.com/gp/bestsellers/home-garden/3733771/ref=pd_zg_hrsr_home-garden",
+        "link_text": "Drafting Tables"
+      },
+      {
+        "text": "#11 in Office Tables",
+        "extracted_rank": 11,
+        "link": "https://www.amazon.com/gp/bestsellers/office-products/1069222/ref=pd_zg_hrsr_office-products",
+        "link_text": "Office Tables"
+      }
+    ],
+    "asin": "B0CYPK6BD6",
+    "customer_reviews": "4.4 out of 5 stars",
+    "rating": 4.4,
+    "reviews": 304,
+    "drawer_type": "Double Drawer",
+    "base_type": "Metal",
+    "lifting_mechanism": "Manual",
+    "drawer_glide_mechanism": "Slide or Roller",
+    "storage_options": "3",
+    "mounting_type": "Freestanding"
+  },
+  "related_asins": [
+    "B0G43MZ2JW",
+    "B08LB3QZ88",
+    "B00E3V3YX2",
+    "B074NH61RS",
+    "B00JC053D8",
+    "B07HGCMZYM",
+    "B0DWMNPW7D",
+    "B09W1498ZN",
+    "B0H4YMLBY3",
+    "B0H7C28DHJ",
+    "B0GVSP4TYF",
+    "B0H75SN3SD",
+    "B0HGRHW2QV",
+    "B0HBWHZ4B7"
+  ]
+}

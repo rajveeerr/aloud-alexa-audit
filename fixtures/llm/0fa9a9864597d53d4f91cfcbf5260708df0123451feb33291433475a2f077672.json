@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "intentId": "butter_and_sweetener_type",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm the specific types of fats and sweeteners used in the brownie brittle."
+    },
+    {
+      "intentId": "nut_to_sugar_ratio",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm whether nuts are included and what the ratio of nuts to sugar is."
+    },
+    {
+      "intentId": "artificial_ingredients",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm if the product contains any artificial flavors, colors, or preservatives."
+    },
+    {
+      "intentId": "serving_size_and_calories",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Provide the recommended serving size and calorie count per serving for the nutrition information."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.2",
+  "usage": {
+    "inputTokens": 2047,
+    "outputTokens": 238
+  },
+  "latencyMs": 1835,
+  "cached": false
+}

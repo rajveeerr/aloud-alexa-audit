@@ -1,0 +1,121 @@
+{
+  "data": [
+    {
+      "intentId": "material_composition",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "85% polyester and 15% nylon"
+        }
+      ],
+      "value": "85% polyester and 15% nylon"
+    },
+    {
+      "intentId": "cloth_dimensions",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "11.8\"X11.8\""
+        }
+      ],
+      "value": "11.8\"X11.8\""
+    },
+    {
+      "intentId": "pack_quantity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.number_of_items",
+          "text": "12"
+        }
+      ],
+      "value": "12"
+    },
+    {
+      "intentId": "absorbency_capacity",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Strong Absorbent"
+        }
+      ],
+      "value": "Strong Absorbent"
+    },
+    {
+      "intentId": "fabric_gsm",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "surface_safety",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "non-abrasive"
+        }
+      ],
+      "value": "non-abrasive"
+    },
+    {
+      "intentId": "lint_free_performance",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "lint-free"
+        }
+      ],
+      "value": "lint-free"
+    },
+    {
+      "intentId": "odor_resistance",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "lifespan_durability",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Durable Construction for Long-Term Use"
+        }
+      ],
+      "value": "Durable Construction for Long-Term Use"
+    },
+    {
+      "intentId": "grease_removal",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "wipe away spills, dust, grease, and dirt without leaving streaks"
+        }
+      ],
+      "value": "wipe away spills, dust, grease, and dirt without leaving streaks"
+    },
+    {
+      "intentId": "multipurpose_use",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Car, Kitchen, Bathroom and Household Cleaning"
+        }
+      ],
+      "value": "Car, Kitchen, Bathroom and Household Cleaning"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+cleaning-cloths@estimated-1",
+  "usage": {
+    "inputTokens": 1853,
+    "outputTokens": 784
+  },
+  "latencyMs": 2861,
+  "cached": false
+}

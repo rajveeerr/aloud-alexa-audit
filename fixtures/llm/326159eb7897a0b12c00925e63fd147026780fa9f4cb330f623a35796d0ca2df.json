@@ -1,0 +1,194 @@
+{
+  "data": [
+    {
+      "claimId": "ic.0",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "aplus.3",
+          "text": "traditional weave"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.1",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "stiff, thick collar and multi-layered reinforcements across all stress points"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.2",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.3",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.apparel_fabric_weight_class",
+          "text": "Medium Weight"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.4",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Mid-weight with stiff, thick collar and multi-layered reinforcements across all stress points"
+        },
+        {
+          "fieldId": "bullet.5",
+          "text": "designed for durability, comfort"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.5",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.material",
+          "text": "Cotton, Cotton Blend"
+        }
+      ],
+      "intentId": "material_composition"
+    },
+    {
+      "claimId": "ic.6",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "comfortable, twill pants with a traditional drawstring made of our premium cotton blend"
+        }
+      ],
+      "intentId": "waistband_type"
+    },
+    {
+      "claimId": "ic.7",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "FUJI All-Around Gi (Kimono)"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.8",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "aplus.5",
+          "text": "Built to last and designed for heavy-duty daily training, the Gi has a simple look and feels great on the mat."
+        }
+      ]
+    },
+    {
+      "claimId": "ic.9",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "All-Around"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.10",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.11",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.12",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.7",
+          "text": "Perfect Fit for Martial Arts Clothing"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.13",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "aplus.6",
+          "text": "Premium, High-Quality Cotton Blend Design"
+        }
+      ],
+      "intentId": "material_composition"
+    },
+    {
+      "claimId": "ic.14",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "multi-layered reinforcements across all stress points"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.15",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.6",
+          "text": "100% Competition Certified"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.16",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "designed for durability, comfort"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.17",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "aplus.5",
+          "text": "simple look"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.18",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "aplus.5",
+          "text": "designed for heavy-duty daily training"
+        }
+      ]
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "coverage@2026-10-27.1",
+  "usage": {
+    "inputTokens": 1568,
+    "outputTokens": 1277
+  },
+  "latencyMs": 3168,
+  "cached": false
+}

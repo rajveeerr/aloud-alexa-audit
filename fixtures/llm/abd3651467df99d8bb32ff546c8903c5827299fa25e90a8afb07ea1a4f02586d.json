@@ -1,0 +1,561 @@
+{
+  "data": [
+    {
+      "claimId": "ic.0",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.capacity",
+          "text": "2 gallons"
+        }
+      ],
+      "intentId": "tank_capacity_size"
+    },
+    {
+      "claimId": "ic.1",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "2.0 Peak HP"
+        }
+      ],
+      "intentId": "motor_horsepower"
+    },
+    {
+      "claimId": "ic.2",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.3",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.4",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.special_feature",
+          "text": "Compact"
+        }
+      ],
+      "intentId": "portability_and_wheels"
+    },
+    {
+      "claimId": "ic.5",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.special_feature",
+          "text": "Lightweight"
+        }
+      ],
+      "intentId": "portability_and_wheels"
+    },
+    {
+      "claimId": "ic.6",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "10-foot cleaning reach"
+        }
+      ],
+      "intentId": "hose_length_and_reach"
+    },
+    {
+      "claimId": "ic.7",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Clean the Whole Car Without Moving the Vacuum"
+        }
+      ],
+      "intentId": "hose_length_and_reach"
+    },
+    {
+      "claimId": "ic.8",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "TWIST-N-LOCK hose"
+        }
+      ],
+      "intentId": "hose_length_and_reach"
+    },
+    {
+      "claimId": "ic.9",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "locks into place so it won’t disconnect mid-clean."
+        }
+      ],
+      "intentId": "hose_length_and_reach"
+    },
+    {
+      "claimId": "ic.10",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "One Machine for the Kitchen, Garage and Car"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.11",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Sucks up liquid spills"
+        }
+      ],
+      "intentId": "wet_and_dry_pickup"
+    },
+    {
+      "claimId": "ic.12",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "dry debris"
+        }
+      ],
+      "intentId": "wet_and_dry_pickup"
+    },
+    {
+      "claimId": "ic.13",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.14",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Switch to blower mode"
+        }
+      ],
+      "intentId": "blower_feature"
+    },
+    {
+      "claimId": "ic.15",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.16",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "5-year warranty"
+        }
+      ],
+      "intentId": "warranty_coverage"
+    },
+    {
+      "claimId": "ic.17",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.18",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Everything Stores Right on the Unit"
+        }
+      ],
+      "intentId": "cord_length_and_storage"
+    },
+    {
+      "claimId": "ic.19",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.20",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.21",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "2.0 Peak HP"
+        },
+        {
+          "fieldId": "bullet.1",
+          "text": "60 CFM"
+        }
+      ],
+      "intentId": "suction_power_cfm"
+    },
+    {
+      "claimId": "ic.22",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.23",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.24",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "crevice tool"
+        }
+      ],
+      "intentId": "included_accessories_and_nozzles"
+    },
+    {
+      "claimId": "ic.25",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.capacity",
+          "text": "2 gallons"
+        }
+      ],
+      "intentId": "tank_capacity_size"
+    },
+    {
+      "claimId": "ic.26",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.filter_type",
+          "text": "Cloth"
+        }
+      ],
+      "intentId": "filter_types_included"
+    },
+    {
+      "claimId": "ic.27",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.hose_length",
+          "text": "4 feet"
+        }
+      ],
+      "intentId": "hose_length_and_reach"
+    },
+    {
+      "claimId": "ic.28",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "included_accessories_and_nozzles"
+    },
+    {
+      "claimId": "ic.29",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.30",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.31",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.item_dimensions_l_x_w_x_h",
+          "text": "11.45\"W"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.32",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.33",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.34",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.35",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.36",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.37",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.38",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.39",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.40",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.41",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.42",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.43",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.44",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.45",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.46",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.47",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.48",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.49",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.50",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "pet hair"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.51",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.52",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.53",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.54",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.55",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.56",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Sucks up liquid spills"
+        }
+      ],
+      "intentId": "wet_and_dry_pickup"
+    },
+    {
+      "claimId": "ic.57",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "dry debris"
+        }
+      ],
+      "intentId": "wet_and_dry_pickup"
+    },
+    {
+      "claimId": "ic.58",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "One Machine for the Kitchen, Garage and Car"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.59",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "clear leaves, sawdust or garage floors."
+        }
+      ],
+      "intentId": "blower_feature"
+    },
+    {
+      "claimId": "ic.60",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.61",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "portability_and_wheels"
+    },
+    {
+      "claimId": "ic.62",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "liquid_drain_port"
+    },
+    {
+      "claimId": "ic.63",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "built-in compartments and hooks to store all of them right on the unit."
+        }
+      ],
+      "intentId": "cord_length_and_storage"
+    },
+    {
+      "claimId": "ic.64",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "TWIST-N-LOCK hose"
+        }
+      ],
+      "intentId": "hose_length_and_reach"
+    },
+    {
+      "claimId": "ic.65",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "portability_and_wheels"
+    },
+    {
+      "claimId": "ic.66",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.special_feature",
+          "text": "Compact, Lightweight"
+        }
+      ],
+      "intentId": "portability_and_wheels"
+    },
+    {
+      "claimId": "ic.67",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.special_feature",
+          "text": "Lightweight"
+        }
+      ],
+      "intentId": "portability_and_wheels"
+    },
+    {
+      "claimId": "ic.68",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.69",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.70",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.71",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "builder_and_jobsite_durability"
+    },
+    {
+      "claimId": "ic.72",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "company making home appliances since 1959."
+        }
+      ]
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "coverage@2026-10-27.1",
+  "usage": {
+    "inputTokens": 2751,
+    "outputTokens": 3914
+  },
+  "latencyMs": 8475,
+  "cached": false
+}

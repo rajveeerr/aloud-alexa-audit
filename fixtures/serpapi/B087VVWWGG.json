@@ -1,0 +1,496 @@
+{
+  "product_results": {
+    "categories": [
+      {
+        "position": 1,
+        "name": "Health & Household",
+        "link": "https://www.amazon.com/health-personal-care-nutrition-fitness/b/ref=dp_bc_1?ie=UTF8&node=3760901",
+        "node": "3760901",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=3760901"
+      },
+      {
+        "position": 2,
+        "name": "Household Supplies",
+        "link": "https://www.amazon.com/Household-Supplies-Products/b/ref=dp_bc_2?ie=UTF8&node=15342811",
+        "node": "15342811",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15342811"
+      },
+      {
+        "position": 3,
+        "name": "Paper & Plastic",
+        "link": "https://www.amazon.com/Paper-Plastic-Household-Supplies/b/ref=dp_bc_3?ie=UTF8&node=15342841",
+        "node": "15342841",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15342841"
+      },
+      {
+        "position": 4,
+        "name": "Trash, Compost & Lawn Bags",
+        "link": "https://www.amazon.com/Trash-Compost-Lawn-Bags/b/ref=dp_bc_4?ie=UTF8&node=16284867011",
+        "node": "16284867011",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=16284867011"
+      },
+      {
+        "position": 5,
+        "name": "Trash Bags",
+        "link": "https://www.amazon.com/trash-bags/b/ref=dp_bc_5?ie=UTF8&node=15342971",
+        "node": "15342971",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15342971"
+      }
+    ],
+    "asin": "B087VVWWGG",
+    "title": "Mint-X MintFlex Rodent Repellent Trash Bags, Tall Kitchen Drawstring Bags, 1 FT 11 ¾ Inches X 2 FT 1 Inch, 0.90 MIL, 13 Gallon, 40 Count",
+    "link": "https://www.amazon.com/Mint-X-MintFlex-Rodent-Repellent-Trash/dp/B087VVWWGG/",
+    "link_clean": "https://www.amazon.com/dp/B087VVWWGG/",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B087VVWWGG&device=desktop&engine=amazon_product",
+    "variants": [
+      {
+        "title": "Size",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B087VVWWGG",
+            "name": "40 Count (Pack of 1)",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B087VVWWGG&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B08NCKWQ24",
+            "name": "120 Count (Pack of 1)",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B08NCKWQ24&device=desktop&engine=amazon_product"
+          }
+        ]
+      }
+    ],
+    "brand": "Visit the Mint-X Store",
+    "thumbnail": "https://m.media-amazon.com/images/I/91gigyYsdlL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "thumbnails": [
+      "https://m.media-amazon.com/images/I/91gigyYsdlL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81D5SM0WbzL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81A6xfyq5hL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/714VgZx+q6L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71jU4EcIUkL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91GR6FZ4QrL._AC_SL1500_.jpg"
+    ],
+    "rating": 4.6,
+    "reviews": 1401,
+    "bought_last_month": "600+ bought in past month",
+    "discount": "-6%",
+    "price": "$19.99",
+    "extracted_price": 19.99,
+    "price_unit": "$0.50 / count",
+    "extracted_price_unit": 0.5,
+    "old_price": "$21.33",
+    "extracted_old_price": 21.33,
+    "snap_ebt_eligible": true,
+    "prime": true,
+    "delivery": [
+      "FREE delivery Friday, November 6 on orders shipped by Amazon over $35",
+      "Or Prime members get FREE delivery Wednesday, November 4."
+    ],
+    "stock": "In Stock",
+    "description": "Product Description: Mint-X® Rodent Repellent Trash Bags are the only EPA registered and patented rodent repellent trash bags in the world. Using a blend of plant-derived mint oils, Mint-X® Rodent Repellent Trash Bags are designed to smell fresh when used inside the home and keep rodents and raccoons away when outside for trash collection. The EPA registration ensures that Mint-X® Rodent Repellent Trash Bags are effective at repelling rodents and raccoons from the trash, while being entirely safe for humans and pets. And now, the plastic strength is stronger than ever with MintFlex® flexible bag technology!Mint-X offers a solution to all businesses that are challenged with maintaining sanitary conditions. Mint-X will eliminate rats, rodents and other pests from basements, curbsides and alleys of apartment buildings keeping tenants confident in management's ability to maintain a clean building. Mint-X trash bags can help keep the public parks beautiful by preventing rats, rodents and other pests from spreading garbage and disease where people are sitting, playing and eating. Any company engaged in food processing and preparation can benefit from making sure that rats, rodents and other vermin will not penetrate the trash bags while waiting for sanitation pick up. Any large complex like schools, universities, prisons, corporations that serves hundreds or thousands of meals per day must contain their garbage to prevent exposure to rats, rodents, raccoons and other pests that penetrate trash bags. The bag is 100 percent safe to handle just like a regular trash bag. Measures 1ft 11 ¾ inches X 2ft 1 inch."
+  },
+  "purchase_options": {
+    "single_offer": {
+      "price": "$19.99",
+      "extracted_price": 19.99,
+      "price_unit": "$0.50 / count",
+      "extracted_price_unit": 0.5,
+      "delivery": [
+        "FREE delivery Friday, November 6 on orders shipped by Amazon over $35",
+        "Or Prime members get FREE delivery Wednesday, November 4."
+      ],
+      "stock": "In Stock",
+      "features": {
+        "ships_from": {
+          "text": "Amazon",
+          "details": {
+            "heading": "Ships from",
+            "content": "Amazon"
+          }
+        },
+        "sold_by": {
+          "text": "InstaFinds Inc",
+          "details": {
+            "heading": "Sold by",
+            "content": "InstaFinds Inc"
+          },
+          "link": {
+            "text": "InstaFinds Inc",
+            "link": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A1ZRDQ2C7RSKS8&asin=B087VVWWGG&ref_=dp_merchant_link&isAmazonFulfilled=1"
+          }
+        },
+        "returns": {
+          "text": "FREE refund/replacement until Jan 31, 2027",
+          "details": {
+            "heading": "FREE refund/replacement until Jan 31, 2027",
+            "content": "For the 2026 holiday season, eligible items purchased between November 1 and December 31, 2026 can be returned until January 31, 2027."
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "payment": {
+          "text": "Secure transaction",
+          "details": {
+            "heading": "Your transaction is secure",
+            "content": "We work hard to protect your security and privacy. Our payment security system encrypts your information during transmission. We don’t share your credit card details with third-party sellers, and we don’t sell your information to others. Learn more"
+          },
+          "link": {
+            "text": "Learn more",
+            "link": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201909010"
+          }
+        }
+      }
+    }
+  },
+  "about_item": [
+    "RODENT REPELLENT TRASH BAGS: Mint-X's patented Rodent Repellent Technology is a humane, safe solution to the problem of foraging rodents, raccoons and squirrels",
+    "STRONG AND DURABLE: Mint-X's Tall Kitchen trash bags feature Mint-Flex superior stretching technology making them an ideal choice for both every day and serious clean-ups in your home with easy-to-use drawstring",
+    "NEUTRALIZES ODORS: These trash bags are made with the highest-quality mint essential oils that neutralize odors keeping your kitchen smelling fresh, while naturally repelling any unwanted pests",
+    "FREE OF CHEMICALS & TOXINS: Mint-X trash bags are made with the highest quality food grade, mint essential oils to naturally and effectively keep pesky wildofe out of your trash while being completely safe for humans and pets",
+    "SIZE: Featuring easy-to-use drawstring, these Tall Kitchen Trash Bags have a 13 gallon capacity and come in a 40-count box"
+  ],
+  "product_description": [
+    {
+      "position": 1,
+      "title": "White Bag A+ Header",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/4f7cefe9-a39e-427e-9860-69adbb9db23b.__CR0,0,970,300_PT0_SX970_V1___.jpg"
+    },
+    {
+      "position": 2,
+      "title": "A+ Bag Features Module",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/5412ffdd-5a8d-4051-b5a2-7ba42a493feb.__CR0,0,970,600_PT0_SX970_V1___.jpg"
+    },
+    {
+      "position": 3,
+      "title": "Benefits Callouts",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/ca736ae7-554c-46fe-b640-03529f0559ee.__CR0,0,970,600_PT0_SX970_V1___.jpg"
+    },
+    {
+      "position": 4,
+      "title": "Problem Problem Solution ResultsSolution Results",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d9cc3fe6-bca1-4b07-b55d-3a53996ba04e.__CR0,0,970,300_PT0_SX970_V1___.png"
+    }
+  ],
+  "product_details": {
+    "capacity": "13 gallons",
+    "unit_count": "40 Count",
+    "number_of_items": "1",
+    "item_weight": "2.1 pounds",
+    "item_dimensions": "25 x 23.75 x 25 inches",
+    "brand_name": "Mint-X",
+    "recommended_uses_for_product": "Trash Bag",
+    "manufacturer": "Mint-X Corporation",
+    "upc": "856174003701",
+    "global_trade_identification_number": "00856174003701",
+    "included_components": "Trash Bags",
+    "item_type_name": "Trash Bags, 13 Gallon, 40 Count",
+    "best_sellers_rank": [
+      {
+        "text": "#38,351 in Health & Household (See Top 100 in Health & Household)",
+        "extracted_rank": 38351,
+        "link": "https://www.amazon.com/gp/bestsellers/hpc/ref=pd_zg_ts_hpc",
+        "link_text": "See Top 100 in Health & Household"
+      },
+      {
+        "text": "#365 in Trash Bags",
+        "extracted_rank": 365,
+        "link": "https://www.amazon.com/gp/bestsellers/hpc/15342971/ref=pd_zg_hrsr_hpc",
+        "link_text": "Trash Bags"
+      }
+    ],
+    "asin": "B087VVWWGG",
+    "rating": 4.6,
+    "reviews": 1401,
+    "material_features": "Eco-Friendly",
+    "material_type": "Plastic",
+    "color": "White",
+    "item_form": "Bag",
+    "scent": "Fresh,Mint",
+    "product_dimensions": "25 x 23.75 x 25 inches; 2.05 pounds",
+    "item_model_number": "MX2425W40F",
+    "department": "Unisex-Adult",
+    "date_first_available": "May 15, 2020"
+  },
+  "reviews_information": {
+    "summary": {
+      "text": "Customers find these waste bags easy to use and appreciate their pleasant smell and quality, with one noting they hold a good amount of waste. The size receives mixed feedback - while some say they're the right size for their containers, others find them too large for trash can openings. The effectiveness against pests is mixed, with some saying they keep rodents away while others report they don't deter raccoons. The value for money and fit also receive mixed reviews, with some finding them worth the money while others consider them expensive.",
+      "insights": [
+        {
+          "title": "Scent",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 91,
+            "positive": 71,
+            "negative": 20
+          },
+          "summary": "Customers like the pleasant smell of these waste bags.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Pleasant scent, value for the money.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RX0OC93KW9X53"
+            },
+            {
+              "position": 2,
+              "snippet": "Don't know if it repels but its sturdy and smells good...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1Z4FGH501KL9F"
+            },
+            {
+              "position": 3,
+              "snippet": "Smells great but rodents ignore smell. I love it though. The bags aren't as sturdy as the compactor bags I used before. Probably go back to them....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R25JJSWKQBG4F5"
+            },
+            {
+              "position": 4,
+              "snippet": "...I haven’t seen any bugs or mice near my trash. Strong scent of peppermint tho so if you’ve got a sensitive smell stand back lol.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RB3X4JGQOWXUF"
+            }
+          ]
+        },
+        {
+          "title": "Quality",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 72,
+            "positive": 57,
+            "negative": 15
+          },
+          "summary": "Customers find these waste bags to be of good quality, noting they are better than other brands and work as described.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Love these. Slightly too small for my garbage can but supposedly the right size. Still, the best mint garbage bag on the market.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RQTSNZPD4JPO4"
+            },
+            {
+              "position": 2,
+              "snippet": "...as well and the smell don’t last as long other than that these are great bags.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R20WSHPA0JO6HX"
+            },
+            {
+              "position": 3,
+              "snippet": "great product it does as advertised i can fill bag with garbage put it outside a rodents stay away",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R35AZSXFA2XOJ2"
+            },
+            {
+              "position": 4,
+              "snippet": "Very disappointed . I had read such good reviews and for me, the product didn’t work. The critters ripped open the garbage as usual. Didn’t work",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RO8THHKG9T529"
+            }
+          ]
+        },
+        {
+          "title": "Capacity",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 7,
+            "positive": 7,
+            "negative": 0
+          },
+          "summary": "Customers appreciate the waste bags' capacity, with one mentioning they hold a good amount and are perfect for pet waste, while another notes they work well in baby pails.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...The bags do seem to hold a good amount for the size that they are but still on the thin side. Which may allow for liquid to seep through....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R37LFNYAOX0VWB"
+            },
+            {
+              "position": 2,
+              "snippet": "...Use them for many other uses<br />They handle my weekly trash<br />Dont bust open<br />Drawstring Top<br />I recommend",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1JP2MONZ8Q8RL"
+            },
+            {
+              "position": 3,
+              "snippet": "Perfect for use in a baby pail!!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RHI90QVH21NED"
+            },
+            {
+              "position": 4,
+              "snippet": "They mey my needs.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1WB9NOOVCJJ3X"
+            }
+          ]
+        },
+        {
+          "title": "Ease of use",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 7,
+            "positive": 6,
+            "negative": 1
+          },
+          "summary": "Customers find the waste bags easy to use, with one mentioning that they make trash day go much smoother.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...They are durable, size is perfect for a kitchen trash bin & easy to use. Tying to close is pretty standard with most trash bags these days.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R141YX9442ZLW3"
+            },
+            {
+              "position": 2,
+              "snippet": "...They’re a simple, effective solution, and well worth the purchase",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R14YZB20IDOJBF"
+            },
+            {
+              "position": 3,
+              "snippet": "They are a little pricey, but it's better than cleaning....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R161MAT345QB1T"
+            },
+            {
+              "position": 4,
+              "snippet": "Makes trash day go much smoother!!!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2JZTXLLRNBFA3"
+            }
+          ]
+        },
+        {
+          "title": "Pet prevention",
+          "sentiment": "mixed",
+          "mentions": {
+            "total": 60,
+            "positive": 36,
+            "negative": 24
+          },
+          "summary": "Customers have mixed experiences with the trash bags' effectiveness against pests, with some reporting they keep rodents away while others say they don't stop mice or rats and raccoons.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Keeps flies away. This is the ONLY garbage bags I use now. Super great deal! Definitely worth the money.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R11ZMI745W7CAR"
+            },
+            {
+              "position": 2,
+              "snippet": "DON’T WASTE YOUR MONEY, RACOONS EAT RIGHT THROUGH THE BAGS. See picture.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3FQ4VEHZXKKW7"
+            },
+            {
+              "position": 3,
+              "snippet": "...Anyway fits well in our kitchen trash bin, has never ripped and keeps critters away when we put them in the trash.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R25D9QVDGLLE14"
+            },
+            {
+              "position": 4,
+              "snippet": "These DO NOT repel rodents!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R9DBUAEPJWJCW"
+            }
+          ]
+        },
+        {
+          "title": "Value for money",
+          "sentiment": "mixed",
+          "mentions": {
+            "total": 45,
+            "positive": 17,
+            "negative": 28
+          },
+          "summary": "Customers have mixed opinions about the waste bags' value for money, with some finding them worth the investment while others consider them expensive and worthless.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...It’s a waste of money in my opinion and more work having to pick up the trash . If anything it attracts the wild life !...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RIMACM25HZDTP"
+            },
+            {
+              "position": 2,
+              "snippet": "...Never had a problem with rodents. I just like the fresh mint smell. Will buy again.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RO95XWA62EVYW"
+            },
+            {
+              "position": 3,
+              "snippet": "DON’T WASTE YOUR MONEY, RACOONS EAT RIGHT THROUGH THE BAGS. See picture.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3FQ4VEHZXKKW7"
+            },
+            {
+              "position": 4,
+              "snippet": "...However, at 50cents per bag, they are overpriced and not worth it....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2L2TNXHYZ1CCM"
+            }
+          ]
+        },
+        {
+          "title": "Size",
+          "sentiment": "mixed",
+          "mentions": {
+            "total": 12,
+            "positive": 7,
+            "negative": 5
+          },
+          "summary": "Customers have mixed opinions about the size of the waste bags, with some finding them the right fit for their containers while others report they are smaller than expected and too large for trash can openings.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...They are just a tad bigger so easier to fit around the can. Yes, they are too expensive but for me well worth it. Try them and you'll never go back.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RA9UKQUDXBRM3"
+            },
+            {
+              "position": 2,
+              "snippet": "They don't fit my 13 gallon garbage can. They are too small.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RCRY1JWMWJLLE"
+            },
+            {
+              "position": 3,
+              "snippet": "...They are durable, size is perfect for a kitchen trash bin & easy to use. Tying to close is pretty standard with most trash bags these days.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R141YX9442ZLW3"
+            },
+            {
+              "position": 4,
+              "snippet": "These bags seem smaller than the ones I purchased before. They are wider and does not have the length.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3NN3A8AV6F4A1"
+            }
+          ]
+        },
+        {
+          "title": "Fit",
+          "sentiment": "mixed",
+          "mentions": {
+            "total": 10,
+            "positive": 4,
+            "negative": 6
+          },
+          "summary": "Customers have mixed experiences with how the waste bags fit: one customer reports they work well in their kitchen trash bin, while another mentions they stick together.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "They don't fit my 13 gallon garbage can. They are too small.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RCRY1JWMWJLLE"
+            },
+            {
+              "position": 2,
+              "snippet": "...Now I use them in the basement too. Great smelling, strong bags, fit my cans and great value. Recommend highly",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3TS3E5KYT7Y61"
+            },
+            {
+              "position": 3,
+              "snippet": "...Also, they slip really easily. I also wish there were more colors as well and the smell don’t last as long other than that these are great bags.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R20WSHPA0JO6HX"
+            },
+            {
+              "position": 4,
+              "snippet": "...They are just a tad bigger so easier to fit around the can. Yes, they are too expensive but for me well worth it. Try them and you'll never go back.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RA9UKQUDXBRM3"
+            }
+          ]
+        }
+      ],
+      "customer_reviews": {
+        "5 star": 79,
+        "4 star": 11,
+        "3 star": 4,
+        "2 star": 2,
+        "1 star": 4
+      }
+    }
+  },
+  "related_asins": [
+    "B07TPBQSVP",
+    "B09WDDGKVD",
+    "B0DK9Y2LTR",
+    "B0168899P4",
+    "B09J1RYQ94",
+    "B012REF4D4"
+  ]
+}

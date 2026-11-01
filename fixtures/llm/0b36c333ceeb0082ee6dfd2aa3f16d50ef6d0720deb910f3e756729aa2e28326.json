@@ -1,0 +1,98 @@
+{
+  "data": [
+    {
+      "intentId": "what_is_the_capacity_in_gallons",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.capacity",
+          "text": "30 gallons"
+        }
+      ],
+      "value": "30 gallons"
+    },
+    {
+      "intentId": "what_are_the_exact_dimensions_of_each_bag",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.item_dimensions",
+          "text": "33 x 30 x 0.1 inches"
+        }
+      ],
+      "value": "33 x 30 x 0.1 inches"
+    },
+    {
+      "intentId": "what_is_the_thickness_in_mils",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "are_the_bags_scented_or_unscented",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.scent",
+          "text": "Unscented"
+        }
+      ],
+      "value": "Unscented"
+    },
+    {
+      "intentId": "how_many_bags_are_included_in_the_box",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.unit_count",
+          "text": "50 Count"
+        }
+      ],
+      "value": "50 Count"
+    },
+    {
+      "intentId": "do_the_bags_feature_a_drawstring_closure",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Red drawstring closure for easy tying and carrying"
+        }
+      ],
+      "value": "Red drawstring closure"
+    },
+    {
+      "intentId": "do_the_bags_repel_rodents_or_pests",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "how_effective_is_the_odor_control",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "are_the_bags_tear_and_puncture_resistant",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Tear-resistant black plastic material provides reliable strength"
+        }
+      ],
+      "value": "Tear-resistant"
+    },
+    {
+      "intentId": "do_the_bags_leak_liquids",
+      "status": "missing",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+trash-bags@estimated-1",
+  "usage": {
+    "inputTokens": 1594,
+    "outputTokens": 693
+  },
+  "latencyMs": 2364,
+  "cached": false
+}

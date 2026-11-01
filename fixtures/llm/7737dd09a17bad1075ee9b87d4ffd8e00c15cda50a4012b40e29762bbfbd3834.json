@@ -1,0 +1,127 @@
+{
+  "data": [
+    {
+      "intentId": "material_composition",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.fabric_type",
+          "text": "Polyester & Polyamide"
+        }
+      ],
+      "value": "Polyester & Polyamide"
+    },
+    {
+      "intentId": "cloth_dimensions",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "12.5\"x12.5\""
+        }
+      ],
+      "value": "12.5\"x12.5\""
+    },
+    {
+      "intentId": "pack_quantity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "12 Pcs"
+        }
+      ],
+      "value": "12 Pcs"
+    },
+    {
+      "intentId": "absorbency_capacity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "8x to 10x its weight"
+        }
+      ],
+      "value": "8x to 10x its weight"
+    },
+    {
+      "intentId": "fabric_gsm",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "300 GSM"
+        }
+      ],
+      "value": "300 GSM"
+    },
+    {
+      "intentId": "surface_safety",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "WON’T LINT, SCRATCH, PILL, SWIRL, SHED, or BLEED"
+        }
+      ],
+      "value": "WON’T LINT, SCRATCH, PILL, SWIRL, SHED, or BLEED"
+    },
+    {
+      "intentId": "lint_free_performance",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Streak-Free Mirror Shine"
+        }
+      ],
+      "value": "Streak-Free"
+    },
+    {
+      "intentId": "odor_resistance",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "lifespan_durability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "1200 Washes"
+        }
+      ],
+      "value": "1200 Washes"
+    },
+    {
+      "intentId": "grease_removal",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "scoop up your messes, oils, and liquids FASTER"
+        }
+      ],
+      "value": "oils"
+    },
+    {
+      "intentId": "multipurpose_use",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "home, garage, or office"
+        }
+      ],
+      "value": "home, garage, or office"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+cleaning-cloths@estimated-1",
+  "usage": {
+    "inputTokens": 1983,
+    "outputTokens": 846
+  },
+  "latencyMs": 2591,
+  "cached": false
+}

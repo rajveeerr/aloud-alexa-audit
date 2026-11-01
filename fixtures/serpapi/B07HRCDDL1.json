@@ -1,0 +1,602 @@
+{
+  "product_results": {
+    "categories": [
+      {
+        "position": 1,
+        "name": "Health & Household",
+        "link": "https://www.amazon.com/health-personal-care-nutrition-fitness/b/ref=dp_bc_1?ie=UTF8&node=3760901",
+        "node": "3760901",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=3760901"
+      },
+      {
+        "position": 2,
+        "name": "Household Supplies",
+        "link": "https://www.amazon.com/Household-Supplies-Products/b/ref=dp_bc_2?ie=UTF8&node=15342811",
+        "node": "15342811",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15342811"
+      },
+      {
+        "position": 3,
+        "name": "Cleaning Tools",
+        "link": "https://www.amazon.com/cleaning-tools/b/ref=dp_bc_3?ie=UTF8&node=15342831",
+        "node": "15342831",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15342831"
+      },
+      {
+        "position": 4,
+        "name": "Cleaning Cloths",
+        "link": "https://www.amazon.com/Reuseable-Cleaning-Cloths/b/ref=dp_bc_4?ie=UTF8&node=15524361011",
+        "node": "15524361011",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15524361011"
+      }
+    ],
+    "asin": "B07HRCDDL1",
+    "title": "MR.SIGA Microfiber Cleaning Cloths, Streak Free Microfiber Towels, 12 Pack",
+    "link": "https://www.amazon.com/gp/cart/view.html/ref=uss_cart",
+    "link_clean": "https://www.amazon.com/dp/B07HRCDDL1/",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B07HRCDDL1&device=desktop&engine=amazon_product",
+    "badges": [
+      "Amazon's Choice"
+    ],
+    "variants": [
+      {
+        "title": "Color",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B07HRCDDL1",
+            "name": "Assorted",
+            "image": "https://m.media-amazon.com/images/I/51t2RCyuJ0L._SS64_.jpg",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B07HRCDDL1&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B09573GMW6",
+            "name": "Black",
+            "image": "https://m.media-amazon.com/images/I/41DYw2alFNL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09573GMW6&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B09FX7TFJV",
+            "name": "Grey",
+            "image": "https://m.media-amazon.com/images/I/41rEXJmtK4L._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09FX7TFJV&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 4,
+            "asin": "B09KGQD338",
+            "name": "Light Teal",
+            "image": "https://m.media-amazon.com/images/I/51-ta6l5AML._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09KGQD338&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 5,
+            "asin": "B0CFXZ2Q99",
+            "name": "Purple",
+            "image": "https://m.media-amazon.com/images/I/61rGsAZxVwL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CFXZ2Q99&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 6,
+            "asin": "B0D2NP2F4W",
+            "name": "Wheat",
+            "image": "https://m.media-amazon.com/images/I/51Tk40-NX8L._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0D2NP2F4W&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 7,
+            "asin": "B09TKLWJ2B",
+            "name": "White",
+            "image": "https://m.media-amazon.com/images/I/41GnERyLtNL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09TKLWJ2B&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 8,
+            "asin": "B0D2NR9Y4F",
+            "name": "Sky Blue",
+            "image": "https://m.media-amazon.com/images/I/51bCi4p3KDL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0D2NR9Y4F&device=desktop&engine=amazon_product"
+          }
+        ]
+      },
+      {
+        "title": "Total product quantity",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B07HRCDDL1",
+            "name": "12 Count",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B07HRCDDL1&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B0GZK8CPD9",
+            "name": "24 Count",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GZK8CPD9&device=desktop&engine=amazon_product"
+          }
+        ]
+      }
+    ],
+    "variant_combinations": [
+      {
+        "dimensions": {
+          "color": "Assorted",
+          "total_product_quantity": "12 Count"
+        },
+        "asin": "B07HRCDDL1",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B07HRCDDL1&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Assorted",
+          "total_product_quantity": "24 Count"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Black",
+          "total_product_quantity": "12 Count"
+        },
+        "asin": "B09573GMW6",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09573GMW6&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Black",
+          "total_product_quantity": "24 Count"
+        },
+        "asin": "B0GZK8CPD9",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GZK8CPD9&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Grey",
+          "total_product_quantity": "12 Count"
+        },
+        "asin": "B09FX7TFJV",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09FX7TFJV&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Grey",
+          "total_product_quantity": "24 Count"
+        },
+        "asin": "B0GZK74Q75",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GZK74Q75&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Light Teal",
+          "total_product_quantity": "12 Count"
+        },
+        "asin": "B09KGQD338",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09KGQD338&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Light Teal",
+          "total_product_quantity": "24 Count"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Purple",
+          "total_product_quantity": "12 Count"
+        },
+        "asin": "B0CFXZ2Q99",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CFXZ2Q99&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Purple",
+          "total_product_quantity": "24 Count"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Sky Blue",
+          "total_product_quantity": "12 Count"
+        },
+        "asin": "B0D2NR9Y4F",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0D2NR9Y4F&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Sky Blue",
+          "total_product_quantity": "24 Count"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Wheat",
+          "total_product_quantity": "12 Count"
+        },
+        "asin": "B0D2NP2F4W",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0D2NP2F4W&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Wheat",
+          "total_product_quantity": "24 Count"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "White",
+          "total_product_quantity": "12 Count"
+        },
+        "asin": "B09TKLWJ2B",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09TKLWJ2B&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "White",
+          "total_product_quantity": "24 Count"
+        },
+        "asin": "B0HD9TDPSJ",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0HD9TDPSJ&device=desktop&engine=amazon_product"
+      }
+    ],
+    "brand": "Visit the MR.SIGA Store",
+    "thumbnail": "https://m.media-amazon.com/images/I/51t2RCyuJ0L._SY300_SX300_QL70_FMwebp_.jpg",
+    "thumbnails": [
+      "https://m.media-amazon.com/images/I/91AFRzSSLbL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71qdyGH2UhL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81M-dDByfgL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71EjzkTWVHL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71Oo4yeP5tL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/8197FO4fdkL._SL1500_.jpg"
+    ],
+    "rating": 4.7,
+    "reviews": 105463,
+    "bought_last_month": "20K+ bought in past month",
+    "price": "$13.99",
+    "extracted_price": 13.99,
+    "price_unit": "$1.17 / count",
+    "extracted_price_unit": 1.17,
+    "delivery": [
+      "FREE delivery Friday, November 6 on orders shipped by Amazon over $35",
+      "Or Prime members get FREE delivery Tomorrow, November 2. Order within 4 hrs 44 mins."
+    ],
+    "stock": "In Stock"
+  },
+  "purchase_options": {
+    "buy_new": {
+      "caption": "One-time purchase",
+      "price": "$13.99",
+      "extracted_price": 13.99,
+      "price_unit": "$1.17 / count",
+      "extracted_price_unit": 1.17,
+      "delivery": [
+        "FREE delivery Friday, November 6 on orders shipped by Amazon over $35",
+        "Or Prime members get FREE delivery Tomorrow, November 2. Order within 4 hrs 44 mins."
+      ],
+      "stock": "In Stock",
+      "features": {
+        "ships_from": {
+          "text": "Amazon",
+          "details": {
+            "heading": "Ships from",
+            "content": "Amazon"
+          }
+        },
+        "sold_by": {
+          "text": "Mr SIGA USA",
+          "details": {
+            "heading": "Sold by",
+            "content": "Mr SIGA USA"
+          },
+          "link": {
+            "text": "Mr SIGA USA",
+            "link": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A3F26DF64ZIPJZ&asin=B07HRCDDL1&ref_=dp_merchant_link&isAmazonFulfilled=1"
+          }
+        },
+        "returns": {
+          "text": "FREE refund/replacement until Jan 31, 2027",
+          "details": {
+            "heading": "FREE refund/replacement until Jan 31, 2027",
+            "content": "For the 2026 holiday season, eligible items purchased between November 1 and December 31, 2026 can be returned until January 31, 2027."
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "payment": {
+          "text": "Secure transaction",
+          "details": {
+            "heading": "Your transaction is secure",
+            "content": "We work hard to protect your security and privacy. Our payment security system encrypts your information during transmission. We don’t share your credit card details with third-party sellers, and we don’t sell your information to others. Learn more"
+          },
+          "link": {
+            "text": "Learn more",
+            "link": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201909010"
+          }
+        }
+      }
+    },
+    "subscribe_and_save": {
+      "caption": "Subscribe & Save",
+      "price": "$13.99",
+      "extracted_price": 13.99,
+      "price_unit": "$1.17 / count",
+      "extracted_price_unit": 1.17,
+      "delivery": [
+        "FREE delivery Friday, November 6 on orders shipped by Amazon over $35",
+        "Or Prime members get FREE delivery Tomorrow, November 2. Order within 4 hrs 44 mins."
+      ],
+      "stock": "In Stock",
+      "features": {
+        "ships_from": {
+          "text": "Amazon",
+          "details": {
+            "heading": "Ships from",
+            "content": "Amazon"
+          }
+        },
+        "sold_by": {
+          "text": "Mr SIGA USA",
+          "details": {
+            "heading": "Sold by",
+            "content": "Mr SIGA USA"
+          },
+          "link": {
+            "text": "Mr SIGA USA",
+            "link": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A3F26DF64ZIPJZ&asin=B07HRCDDL1&ref_=dp_merchant_link&isAmazonFulfilled=1"
+          }
+        },
+        "returns": {
+          "text": "FREE refund/replacement until Jan 31, 2027",
+          "details": {
+            "heading": "FREE refund/replacement until Jan 31, 2027",
+            "content": "For the 2026 holiday season, eligible items purchased between November 1 and December 31, 2026 can be returned until January 31, 2027."
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "subscription": "No fees. Skip or cancel anytime."
+      }
+    }
+  },
+  "about_item": [
+    "ULTRA SOFT MATERIAL & SCRATCH FREE - Ultra soft and highly absorbent microfiber cleaning cloths, great for cleaning windows, kitchenware, car or other delicate surfaces.",
+    "ABSORBENT & LINT FREE - Made of 85% Polyester, 15% Nylon. These non-abrasive cleaning rags can soak up water from the countertop and tables instantly and without lint or streaks left behind. Clean with or without water, from worktops, appliances to kitchens, bathrooms, mirrors etc, they will make your house sparkling.",
+    "TACKLE VERSATILE CLEANING JOBS - These premium microfiber towels are also perfect dish rags which don't smell, removes grease and particles from microwave oven, plates, pots or pans effortlessly. Not only that, you will be amazed they are also terrific duster that removes fingertips from silverware and glasses easily and leaves your kitchen spotless.",
+    "REUSABLE & LONG LASTING - These microfiber towels feature high quality stitching with reinforced edges, they are durable and made to last hundreds of washings. They are lightweight, super absorbent and dry quickly, use them everyday to enjoy your cleaning.",
+    "GENEROUS SIZE: Each kitchen towel measures 32 x 32 cm (12.6 x 12.6 inches), offering a good coverage area for efficient cleaning. Comes in a pack of 12 microfiber towels, providing ample supply for various cleaning needs around the home or office."
+  ],
+  "product_description": [
+    {
+      "position": 1,
+      "carousel_images": [
+        {
+          "position": 1,
+          "title": "MR.SIGA microfiber cleaning cloth for house,cleaning towel,cleaning rag,toallas para limpiar casas",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/7840ffed-fc12-459c-8a65-10bccb6604c1.__CR0,0,1952,800_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 2,
+          "title": "MR.SIGA kitchen dish cloths for washing dishes,microfiber kitchen rags for counter house",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/491060b3-0a2b-410e-b864-347d7124af6b.__CR0,0,1952,800_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 3,
+          "title": "MR.SIGA micro fiber wipes cloth for kitchen,microfiber cleaning rag,cleaning cloths for housekeeping",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/00526b14-d908-4388-b214-39195c422c92.__CR0,0,1952,800_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 4,
+          "title": "MR.SIGA dust cloth, cleaning cloths for house washable microfiber,paños de limpieza de microfibra",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/fb296abd-ec77-450d-9511-1353a84ab6dc.__CR0,0,1952,800_PT0_SX1464_V1___.jpg"
+        }
+      ]
+    },
+    {
+      "position": 2
+    },
+    {
+      "position": 3
+    },
+    {
+      "position": 4
+    },
+    {
+      "position": 5
+    },
+    {
+      "position": 6,
+      "compare_with_similar": [
+        {
+          "position": 1,
+          "asin": "B07HRCDDL1",
+          "title": "Microfiber Cleaning Cloth",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/bafe4cd3-7887-45b2-8a78-f691a1c17277.__CR0,0,600,675_PT0_SX200_V1___.jpg",
+          "link": "https://www.amazon.com/dp/B07HRCDDL1?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B07HRCDDL1&device=desktop&engine=amazon_product",
+          "rating": 4.7,
+          "reviews": 105463,
+          "price": "$13.99",
+          "extracted_price": 13.99,
+          "size": "12.6\" x 12.6\"",
+          "pack": "12",
+          "color": "Green, Blue, Yellow, Pink",
+          "super_absorbent": "✔",
+          "lint_free": "✔"
+        },
+        {
+          "position": 2,
+          "asin": "B09FX7TFJV",
+          "title": "Microfiber Cleaning Cloth",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/f6651afd-f8f6-496b-820e-898666c082ed.__CR0,328,750,844_PT0_SX200_V1___.jpg",
+          "link": "https://www.amazon.com/dp/B09FX7TFJV?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09FX7TFJV&device=desktop&engine=amazon_product",
+          "rating": 4.7,
+          "reviews": 105463,
+          "price": "$16.75",
+          "extracted_price": 16.75,
+          "size": "12.6\" x 12.6\"",
+          "pack": "12",
+          "color": "Grey",
+          "super_absorbent": "✔",
+          "lint_free": "✔"
+        },
+        {
+          "position": 3,
+          "asin": "B09573GMW6",
+          "title": "Microfiber Cleaning Cloth",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/9141ef3a-a0a9-4c22-97ae-5a6e1c5e86af.__CR0,328,750,844_PT0_SX200_V1___.jpg",
+          "link": "https://www.amazon.com/dp/B09573GMW6?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09573GMW6&device=desktop&engine=amazon_product",
+          "rating": 4.7,
+          "reviews": 105463,
+          "price": "$16.99",
+          "extracted_price": 16.99,
+          "size": "12.6\" x 12.6\"",
+          "pack": "12",
+          "color": "Black",
+          "super_absorbent": "✔",
+          "lint_free": "✔"
+        },
+        {
+          "position": 4,
+          "asin": "B09KGQD338",
+          "title": "Microfiber Cleaning Cloth",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/1a0b0a29-0ad8-46d2-b541-5c2a23f84a88.__CR0,328,750,844_PT0_SX200_V1___.jpg",
+          "link": "https://www.amazon.com/dp/B09KGQD338?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09KGQD338&device=desktop&engine=amazon_product",
+          "rating": 4.7,
+          "reviews": 105463,
+          "price": "$16.99",
+          "extracted_price": 16.99,
+          "size": "12.6\" x 12.6\"",
+          "pack": "12",
+          "color": "Light Teal",
+          "super_absorbent": "✔",
+          "lint_free": "✔"
+        },
+        {
+          "position": 5,
+          "asin": "B09TKLWJ2B",
+          "title": "Microfiber Cleaning Cloth",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/520de716-1293-42a2-9e0e-971d5265b1c5.__CR0,328,750,844_PT0_SX200_V1___.jpg",
+          "link": "https://www.amazon.com/dp/B09TKLWJ2B?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09TKLWJ2B&device=desktop&engine=amazon_product",
+          "rating": 4.7,
+          "reviews": 105463,
+          "price": "$16.99",
+          "extracted_price": 16.99,
+          "size": "12.6\" x 12.6\"",
+          "pack": "12",
+          "color": "White",
+          "super_absorbent": "✔",
+          "lint_free": "✔"
+        },
+        {
+          "position": 6,
+          "asin": "B010N0N7PQ",
+          "title": "Microfiber Cleaning Cloth",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/3264c07e-2ecb-4351-aa17-0262b9b40f4f.__CR0,0,600,675_PT0_SX200_V1___.jpg",
+          "link": "https://www.amazon.com/dp/B010N0N7PQ?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B010N0N7PQ&device=desktop&engine=amazon_product",
+          "rating": 4.7,
+          "reviews": 22651,
+          "price": "$19.99",
+          "extracted_price": 19.99,
+          "size": "12.6\" x 12.6\"",
+          "pack": "24",
+          "color": "Green, Blue, Yellow, Pink",
+          "super_absorbent": "✔",
+          "lint_free": "✔"
+        },
+        {
+          "position": 7,
+          "asin": "B07XT288Y5",
+          "title": "Microfiber Cleaning Cloth",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/9645df60-fcc8-48e1-8ded-5d2f5427e86c.__CR0,0,600,675_PT0_SX200_V1___.jpg",
+          "link": "https://www.amazon.com/dp/B07XT288Y5?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B07XT288Y5&device=desktop&engine=amazon_product",
+          "rating": 4.6,
+          "reviews": 12507,
+          "price": "$25.99",
+          "extracted_price": 25.99,
+          "size": "11.8\" x 11.8\"",
+          "pack": "50",
+          "color": "Green, Blue, Yellow, Pink,Grey",
+          "super_absorbent": "✔",
+          "lint_free": "✔"
+        }
+      ]
+    }
+  ],
+  "product_details": {
+    "brand_name": "MR.SIGA",
+    "number_of_items": "12",
+    "set_name": "Pack of 12",
+    "global_trade_identification_number": "06925828216324",
+    "model_name": "Microfiber Cleaning Cloth",
+    "manufacturer": "Ningbo Shijia Cleaning Tools Co., Ltd.",
+    "age_range_description": "All Ages",
+    "item_type_name": "microfiber cleaning cloth",
+    "model_number": "SJ21632",
+    "manufacturer_part_number": "SJ21632",
+    "best_sellers_rank": [
+      {
+        "text": "#371 in Health & Household (See Top 100 in Health & Household)",
+        "extracted_rank": 371,
+        "link": "https://www.amazon.com/gp/bestsellers/hpc/ref=pd_zg_ts_hpc",
+        "link_text": "See Top 100 in Health & Household"
+      },
+      {
+        "text": "#1 in Reuseable Cleaning Cloths",
+        "extracted_rank": 1,
+        "link": "https://www.amazon.com/gp/bestsellers/hpc/15524361011/ref=pd_zg_hrsr_hpc",
+        "link_text": "Reuseable Cleaning Cloths"
+      }
+    ],
+    "asin": "B07HRCDDL1",
+    "rating": 4.7,
+    "reviews": 105463,
+    "color": "Assorted",
+    "product_style": "Modern",
+    "pattern": "Solid",
+    "theme": "No Theme",
+    "shape": "Square",
+    "material_type": "Microfiber",
+    "fabric_weight": "280 grams_per_square_meter",
+    "product_care_instructions": "Hand or machine wash microfiber cloths separately in warm water with mild detergent. Do not use bleach or fabric softener. Do not tumble dry. Do not iron.",
+    "fabric_type": "85% Polyester, 15% Nylon",
+    "item_dimensions_l_x_w": "12.6\"L x 12.6\"W",
+    "size": "12.6 x 12.6 inch",
+    "unit_count": "12 Count",
+    "item_weight": "348 g",
+    "towel_form_type": "Cleaning Cloth",
+    "other_special_features_of_the_product": "Hanging Loop, Lint Free, Quick Dry, Scratch Free, Super Absorbent",
+    "item_highlight": "Ultra absorbent and high density, reusable cleaning towels for kitchen, car, glass and household surfaces, color coded cloths",
+    "product_dimensions": "12.6 x 12.6 x 0.2 inches; 12.28 ounces",
+    "item_model_number": "SJ21632"
+  },
+  "related_asins": [
+    "B0CN6BYYSD",
+    "B010N0N7PQ",
+    "B07ZF9GTCJ",
+    "B098D79MQB",
+    "B0B5KGVTRZ",
+    "B0B6RHR6C1",
+    "B0D9TGXG5C",
+    "B0D9X45SK7",
+    "B08BRJHJF9",
+    "B0CXHX237G",
+    "B0DHVGQD51",
+    "B0FSRQLHMP"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "data": [
+    {
+      "intentId": "separates_versatility",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm whether the top and bottom can be worn separately with other clothing."
+    },
+    {
+      "intentId": "sizing_accuracy",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Provide a complete size chart with measurements for the gi."
+    },
+    {
+      "intentId": "piece_count_and_items",
+      "target": "bullet.4",
+      "sources": [
+        {
+          "id": "bullet.4",
+          "text": "Designed For The Best Jiu-Jitsu: The FUJI All-Around Kimono top jacket is mid-weight with a stiff, thick collar and multi-layered reinforcements across all stress points. Enjoy comfortable, twill pants with a traditional drawstring made of our premium cotton blend"
+        }
+      ],
+      "draft": "Set includes a mid-weight Kimono top jacket and comfortable twill pants."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.2",
+  "usage": {
+    "inputTokens": 1993,
+    "outputTokens": 252
+  },
+  "latencyMs": 1631,
+  "cached": false
+}

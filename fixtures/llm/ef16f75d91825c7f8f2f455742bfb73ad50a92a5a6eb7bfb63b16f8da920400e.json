@@ -1,0 +1,65 @@
+{
+  "data": [
+    {
+      "intentId": "surface_safety",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.6",
+          "text": "Streak-free cleaning for the whole house, not just the kitchen"
+        },
+        {
+          "id": "ic.27",
+          "text": "Stays intact without messy flakes"
+        },
+        {
+          "id": "ic.31",
+          "text": "No Crumbling. No Shedding. Just Reliability!"
+        }
+      ],
+      "draft": "GENTLE ON SURFACES - Designed for streak-free cleaning across the whole house without messy flakes, crumbling, or shedding."
+    },
+    {
+      "intentId": "lint_free_performance",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.6",
+          "text": "Streak-free cleaning for the whole house, not just the kitchen"
+        },
+        {
+          "id": "ic.31",
+          "text": "No Crumbling. No Shedding. Just Reliability!"
+        },
+        {
+          "id": "ic.36",
+          "text": "No odor, no shredding"
+        }
+      ],
+      "draft": "STREAK-FREE CLEANING - Provides streak-free cleaning with no shredding, crumbling, or messy flakes for reliable results."
+    },
+    {
+      "intentId": "grease_removal",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "bullet.3",
+          "text": "HIGHLY ABSORBENT DISHCLOTHS - With an absorption factor of 15x its own weight, our kitchen washcloths are perfect for wiping up spills and drying dishes. These dishcloths are the ultimate kitchen helpers!"
+        },
+        {
+          "id": "ic.12",
+          "text": "Absorbs 15 times its weight in seconds!"
+        }
+      ],
+      "needsFromBrand": "Confirm whether the cloths remove heavy grease and oils without chemical cleaners."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.2",
+  "usage": {
+    "inputTokens": 2790,
+    "outputTokens": 508
+  },
+  "latencyMs": 2260,
+  "cached": false
+}

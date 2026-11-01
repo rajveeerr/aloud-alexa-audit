@@ -1,0 +1,117 @@
+{
+  "data": [
+    {
+      "id": "tank_capacity_size",
+      "question": "What is the liquid and dry capacity of the vacuum tank?",
+      "kind": "spec",
+      "rubric": "answered: specifies the exact tank capacity in gallons or liters; partial: mentions general size description without exact capacity",
+      "conditional": false
+    },
+    {
+      "id": "motor_horsepower",
+      "question": "What is the peak horsepower (HP) or motor wattage of the vacuum?",
+      "kind": "spec",
+      "rubric": "answered: provides exact peak HP or motor rating; partial: mentions powerful motor without specific rating",
+      "conditional": false
+    },
+    {
+      "id": "wet_and_dry_pickup",
+      "question": "Can this vacuum pick up both wet liquid spills and dry debris without changing filters?",
+      "kind": "claim",
+      "rubric": "answered: clarifies capability and filter requirements for both wet and dry messes; partial: mentions versatility generally",
+      "conditional": false
+    },
+    {
+      "id": "blower_feature",
+      "question": "Does the shop vacuum convert into a leaf blower or have a blower port?",
+      "kind": "spec",
+      "rubric": "answered: states whether it has a blower port and how to use it; partial: mentions blowing function without details",
+      "conditional": false
+    },
+    {
+      "id": "tank_material",
+      "question": "What material is the vacuum tank made of (e.g., stainless steel, polypropylene, plastic)?",
+      "kind": "spec",
+      "rubric": "answered: explicitly states tank construction material; partial: describes durability without material name",
+      "conditional": false
+    },
+    {
+      "id": "included_accessories_and_nozzles",
+      "question": "What attachments, nozzles, and extension wands are included with the vacuum?",
+      "kind": "spec",
+      "rubric": "answered: lists specific included tools and nozzles; partial: mentions that accessories are included",
+      "conditional": false
+    },
+    {
+      "id": "hose_length_and_reach",
+      "question": "What is the length of the vacuum hose and the total cleaning reach?",
+      "kind": "spec",
+      "rubric": "answered: provides exact hose length and total reach dimensions; partial: describes reach generally",
+      "conditional": false
+    },
+    {
+      "id": "cord_length_and_storage",
+      "question": "How long is the power cord and does the unit feature onboard cord storage?",
+      "kind": "spec",
+      "rubric": "answered: gives cord length and storage details; partial: mentions cord management only",
+      "conditional": false
+    },
+    {
+      "id": "liquid_drain_port",
+      "question": "Does the tank feature a built-in drain port for easily emptying liquids?",
+      "kind": "spec",
+      "rubric": "answered: confirms presence of a drain port or plug; partial: mentions emptying is easy",
+      "conditional": false
+    },
+    {
+      "id": "portability_and_wheels",
+      "question": "Is the vacuum equipped with wheels, casters, or a carrying handle for mobility?",
+      "kind": "spec",
+      "rubric": "answered: details wheel configuration and handle design; partial: states whether it is portable",
+      "conditional": false
+    },
+    {
+      "id": "filter_types_included",
+      "question": "What types of filters are included (e.g., foam wet filter, cloth filter, cartridge filter, HEPA)?",
+      "kind": "spec",
+      "rubric": "answered: lists specific filter types included in the box; partial: mentions filters are included",
+      "conditional": false
+    },
+    {
+      "id": "noise_level",
+      "question": "What is the noise level or decibel (dB) rating of the shop vacuum during operation?",
+      "kind": "spec",
+      "rubric": "answered: provides exact decibel rating; partial: describes noise generally",
+      "conditional": true
+    },
+    {
+      "id": "suction_power_cfm",
+      "question": "What is the airflow rating in CFM (cubic feet per minute) or water lift suction?",
+      "kind": "spec",
+      "rubric": "answered: gives precise CFM or water lift measurement; partial: claims strong suction without numbers",
+      "conditional": true
+    },
+    {
+      "id": "builder_and_jobsite_durability",
+      "question": "Is the vacuum heavy-duty enough for construction sites, drywall dust, and heavy workshop debris?",
+      "kind": "claim",
+      "rubric": "answered: details suitability for heavy-duty jobsite applications; partial: mentions general durability",
+      "conditional": true
+    },
+    {
+      "id": "warranty_coverage",
+      "question": "What type of manufacturer warranty is included with the shop vacuum?",
+      "kind": "spec",
+      "rubric": "answered: specifies warranty duration and coverage terms; partial: mentions warranty exists without terms",
+      "conditional": true
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "estimate-intents@2026-10-27.1+wet-dry-shop-vacuums",
+  "usage": {
+    "inputTokens": 916,
+    "outputTokens": 1201
+  },
+  "latencyMs": 4480,
+  "cached": false
+}

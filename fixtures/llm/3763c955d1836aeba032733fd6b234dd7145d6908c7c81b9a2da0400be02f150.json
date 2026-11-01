@@ -1,0 +1,23 @@
+{
+  "data": [
+    {
+      "intentId": "liquid_drain_port",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.62",
+          "text": "Easy Liquid Emptying in Larger Models"
+        }
+      ],
+      "needsFromBrand": "Confirm whether this 2-gallon model features a built-in drain port or if the image claim regarding easy liquid emptying applies only to larger models."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.2",
+  "usage": {
+    "inputTokens": 3279,
+    "outputTokens": 110
+  },
+  "latencyMs": 1484,
+  "cached": false
+}

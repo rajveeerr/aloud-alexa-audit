@@ -1,0 +1,109 @@
+{
+  "data": [
+    {
+      "intentId": "material_composition",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.7",
+          "text": "Made of cotton and cellulose"
+        }
+      ],
+      "value": "cotton and cellulose"
+    },
+    {
+      "intentId": "cloth_dimensions",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_dimensions",
+          "text": "8\"L x 7\"W"
+        }
+      ],
+      "value": "8\"L x 7\"W"
+    },
+    {
+      "intentId": "pack_quantity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "4-pack"
+        }
+      ],
+      "value": "4"
+    },
+    {
+      "intentId": "absorbency_capacity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "absorption factor of 15x its own weight"
+        }
+      ],
+      "value": "15x its own weight"
+    },
+    {
+      "intentId": "fabric_gsm",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "surface_safety",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "lint_free_performance",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "odor_resistance",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "designed to stay clean and bug-free"
+        }
+      ],
+      "value": "stay clean and bug-free"
+    },
+    {
+      "intentId": "lifespan_durability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "designed to last for months"
+        }
+      ],
+      "value": "designed to last for months"
+    },
+    {
+      "intentId": "grease_removal",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "multipurpose_use",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.9",
+          "text": "Perfect for use in the kitchen, bathroom and office"
+        }
+      ],
+      "value": "kitchen, bathroom and office"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+cleaning-cloths@estimated-1",
+  "usage": {
+    "inputTokens": 1891,
+    "outputTokens": 675
+  },
+  "latencyMs": 2400,
+  "cached": false
+}

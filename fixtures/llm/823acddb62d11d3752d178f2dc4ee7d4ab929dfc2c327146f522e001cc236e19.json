@@ -1,0 +1,110 @@
+{
+  "data": [
+    {
+      "intentId": "tabletop_dimensions",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_dimensions",
+          "text": "23.7\"D x 40.2\"W x 29.5\"H"
+        }
+      ],
+      "value": "40.2\"W x 23.7\"D"
+    },
+    {
+      "intentId": "maximum_tilt_angle",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.maximum_tilt_angle",
+          "text": "65 degrees"
+        }
+      ],
+      "value": "65 degrees"
+    },
+    {
+      "intentId": "height_adjustability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_dimensions",
+          "text": "29.5\"H"
+        }
+      ],
+      "value": "29.5\""
+    },
+    {
+      "intentId": "weight_capacity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.maximum_weight_recommendation",
+          "text": "55 pounds"
+        }
+      ],
+      "value": "55 pounds"
+    },
+    {
+      "intentId": "material_composition",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.material_type",
+          "text": "Engineered Wood, Metal"
+        }
+      ],
+      "value": "Engineered Wood, Metal"
+    },
+    {
+      "intentId": "pencil_ledge_included",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "with pencil box on the right side. When the tabletop tilts, the pencil rack ensures that pencils and other drawing tools do not roll off"
+        }
+      ],
+      "value": "pencil rack"
+    },
+    {
+      "intentId": "included_stool",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "This architect's drafting desk comes with a 20-inch high drawing stool."
+        }
+      ],
+      "value": "comes with a 20-inch high drawing stool"
+    },
+    {
+      "intentId": "storage_features",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "two non-woven fabric drawers and a fabric storage shelf below, providing convenient storage for paper, drawing tools, and other items, with pencil box on the right side."
+        }
+      ],
+      "value": "two non-woven fabric drawers and a fabric storage shelf below"
+    },
+    {
+      "intentId": "glass_top_compatibility",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "wheel_mobility_locks",
+      "status": "missing",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+drafting-tables@estimated-1",
+  "usage": {
+    "inputTokens": 2671,
+    "outputTokens": 781
+  },
+  "latencyMs": 2672,
+  "cached": false
+}

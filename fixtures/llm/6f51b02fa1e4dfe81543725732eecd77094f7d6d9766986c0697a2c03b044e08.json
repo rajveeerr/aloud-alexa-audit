@@ -1,0 +1,169 @@
+{
+  "data": [
+    {
+      "intentId": "tank_capacity_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.capacity",
+          "text": "2.5 gallons"
+        }
+      ],
+      "value": "2.5 gallons"
+    },
+    {
+      "intentId": "motor_horsepower",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "2 Peak HP"
+        }
+      ],
+      "value": "2 Peak HP"
+    },
+    {
+      "intentId": "wet_and_dry_pickup",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "wet and dry messes"
+        }
+      ],
+      "value": "wet and dry messes"
+    },
+    {
+      "intentId": "blower_feature",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Easily blow leaves and larger debris from the garage or windshield with a simple conversion"
+        }
+      ],
+      "value": "Easily blow leaves and larger debris from the garage or windshield with a simple conversion"
+    },
+    {
+      "intentId": "tank_material",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "polypropylene"
+        }
+      ],
+      "value": "polypropylene"
+    },
+    {
+      "intentId": "included_accessories_and_nozzles",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "(3) extension wands, crevice tool, blower nozzle adapter, deluxe car nozzle, round dust brush, detail brush, 2-in-1 utility nozzle, floor brush/squeegee nozzle"
+        }
+      ],
+      "value": "(3) extension wands, crevice tool, blower nozzle adapter, deluxe car nozzle, round dust brush, detail brush, 2-in-1 utility nozzle, floor brush/squeegee nozzle"
+    },
+    {
+      "intentId": "hose_length_and_reach",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "6-ft x 1-1/4-inch hose"
+        }
+      ],
+      "value": "6-ft x 1-1/4-inch hose"
+    },
+    {
+      "intentId": "cord_length_and_storage",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "12-ft cord"
+        },
+        {
+          "fieldId": "bullet.4",
+          "text": "INTEGRATED HOSE AND ACCESSORY STORAGE: Keeps the hose, cord, and nozzles in one place"
+        }
+      ],
+      "value": "12-ft cord"
+    },
+    {
+      "intentId": "liquid_drain_port",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "portability_and_wheels",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "the wheel-base and top handle make it easy to carry on the job"
+        }
+      ],
+      "value": "wheel-base and top handle"
+    },
+    {
+      "intentId": "filter_types_included",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "reusable cloth filter, foam wet filter"
+        }
+      ],
+      "value": "reusable cloth filter, foam wet filter"
+    },
+    {
+      "intentId": "noise_level",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.noise_level",
+          "text": "75 db"
+        }
+      ],
+      "value": "75 db"
+    },
+    {
+      "intentId": "suction_power_cfm",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.maximum_suction",
+          "text": "48 inches"
+        }
+      ],
+      "value": "48 inches"
+    },
+    {
+      "intentId": "builder_and_jobsite_durability",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "durable polypropylene tank"
+        }
+      ],
+      "value": "durable"
+    },
+    {
+      "intentId": "warranty_coverage",
+      "status": "missing",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+wet-dry-shop-vacuums@estimated-1",
+  "usage": {
+    "inputTokens": 2295,
+    "outputTokens": 1226
+  },
+  "latencyMs": 3640,
+  "cached": false
+}
