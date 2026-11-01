@@ -1,0 +1,82 @@
+{
+  "data": [
+    {
+      "intentId": "puncture_and_tear_resistance",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.30",
+          "text": "These ultra-durable rodent-repellent trash bags are made from thick, heavy-duty plastic to lock in trash, and keep pests out."
+        },
+        {
+          "id": "title",
+          "text": "0.90 MIL"
+        }
+      ],
+      "draft": "PUNCTURE AND TEAR RESISTANT: Made from thick, heavy-duty 0.90 MIL plastic designed to lock in trash and prevent rips."
+    },
+    {
+      "intentId": "overall_strength_and_load",
+      "target": "bullet.2",
+      "sources": [
+        {
+          "id": "bullet.2",
+          "text": "STRONG AND DURABLE: Mint-X's Tall Kitchen trash bags feature Mint-Flex superior stretching technology making them an ideal choice for both every day and serious clean-ups in your home with easy-to-use drawstring"
+        },
+        {
+          "id": "ic.30",
+          "text": "These ultra-durable rodent-repellent trash bags are made from thick, heavy-duty plastic to lock in trash, and keep pests out."
+        }
+      ],
+      "draft": "STRONG AND DURABLE: Mint-X's Tall Kitchen trash bags feature Mint-Flex superior stretching technology and heavy-duty plastic for reliable load capacity during everyday and serious clean-ups."
+    },
+    {
+      "intentId": "drawstring_features",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "bullet.2",
+          "text": "easy-to-use drawstring"
+        },
+        {
+          "id": "ic.24",
+          "text": "EASY TO USE DRAWSTRING TIES"
+        }
+      ],
+      "draft": "SECURE CLOSURE: Features easy-to-use drawstring ties for a reliable and convenient grip on your trash can."
+    },
+    {
+      "intentId": "leak_proof",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm whether the trash bags are leak-proof and provide any relevant specs."
+    },
+    {
+      "intentId": "can_fit",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.42",
+          "text": "Perfect for everyday household use. Durable, relianle, and just right for standard bins."
+        },
+        {
+          "id": "ic.46",
+          "text": "Kitchen + Bathroom Trash Cans"
+        },
+        {
+          "id": "attr.capacity",
+          "text": "Capacity: 13 gallons"
+        }
+      ],
+      "draft": "PERFECT FIT: Designed with a 13-gallon capacity that is just right for standard kitchen and bathroom trash cans."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.2",
+  "usage": {
+    "inputTokens": 3578,
+    "outputTokens": 719
+  },
+  "latencyMs": 3172,
+  "cached": false
+}

@@ -1,0 +1,225 @@
+{
+  "data": [
+    {
+      "id": "cushion_comfort",
+      "question": "How comfortable and soft are the seat cushions?",
+      "kind": "experience",
+      "rubric": "answered: detailed buyer reviews on cushion softness and comfort, partial: mentions padding",
+      "members": [
+        "cushioning",
+        "material_softness",
+        "comfort",
+        "cushion_firmness",
+        "armrest_cushioning",
+        "seat_firmness",
+        "armrest_softness",
+        "padding_thickness",
+        "seat_softness"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "assembly_process",
+      "question": "How easy is it to assemble the chair and are the instructions clear?",
+      "kind": "experience",
+      "rubric": "answered: steps, tools, and time needed for assembly, partial: instruction clarity",
+      "members": [
+        "assembly_instructions",
+        "easy_assembly",
+        "clear_instructions",
+        "caster_installation"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "sturdiness_and_durability",
+      "question": "How sturdy and durable is the chair over time?",
+      "kind": "experience",
+      "rubric": "answered: reports on long-term wear, frame sturdiness, and stability, partial: materials",
+      "members": [
+        "sturdiness",
+        "material_quality",
+        "durability",
+        "material_durability",
+        "hardware_quality",
+        "seam_quality",
+        "cushion_durability",
+        "backrest_stability",
+        "armrest_durability",
+        "fabric_wear_resistance",
+        "leg_sturdiness",
+        "material_condition",
+        "caster_sturdiness",
+        "product_condition",
+        "material_safety",
+        "material_texture"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "hydraulic_and_height_adjustment",
+      "question": "Does the hydraulic lift adjust smoothly and support the desired chair height?",
+      "kind": "spec",
+      "rubric": "answered: cylinder type and height range specs, partial: mentions height adjustment",
+      "members": [
+        "hydraulic_lift",
+        "chair_height",
+        "adjustable_height",
+        "weight",
+        "smooth_hydraulic"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "dimensions_and_sizing",
+      "question": "What are the overall size, seat width, and depth of the chair?",
+      "kind": "spec",
+      "rubric": "answered: specific dimensions for height, width, and depth, partial: general size claim",
+      "members": [
+        "chair_size",
+        "seat_width",
+        "seat_depth",
+        "chair_width",
+        "high_back",
+        "back_height",
+        "compact_size"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "caster_mobility",
+      "question": "How smoothly do the wheels roll and move across the floor?",
+      "kind": "experience",
+      "rubric": "answered: caster wheel performance and flooring suitability, partial: mobility mentioned",
+      "members": [
+        "caster_mobility",
+        "caster_quality",
+        "mobility",
+        "smooth_wheels",
+        "chair_mobility"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "armrest_features",
+      "question": "Are the armrests adjustable, flip-up, or removable?",
+      "kind": "spec",
+      "rubric": "answered: armrest adjustability and height/flip specs, partial: armrest presence",
+      "members": [
+        "adjustable_arms",
+        "flip_up_arms",
+        "armrest_height",
+        "armrest_material",
+        "armrest_sturdiness",
+        "armrest_design",
+        "armrests"
+      ],
+      "conditional": true
+    },
+    {
+      "id": "back_and_lumbar_support",
+      "question": "Does the backrest provide adequate lumbar support and height alignment?",
+      "kind": "experience",
+      "rubric": "answered: ergonomic support and posture feedback, partial: backrest height",
+      "members": [
+        "backrest_height",
+        "lumbar_support",
+        "back_support",
+        "ergonomic_design",
+        "backrest_alignment",
+        "ergonomic",
+        "gaming_suitability"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "recline_and_rocking",
+      "question": "Does the chair feature a reclining or rocking mechanism with adjustable tension?",
+      "kind": "spec",
+      "rubric": "answered: tilt lock, recline angle, and rocking features, partial: tilt tension",
+      "members": [
+        "reclining_mechanism",
+        "rocking_mechanism",
+        "tilt_tension_adjustment",
+        "tilt_mechanism"
+      ],
+      "conditional": true
+    },
+    {
+      "id": "swivel_functionality",
+      "question": "Does the chair swivel smoothly 360 degrees?",
+      "kind": "experience",
+      "rubric": "answered: reviews on swivel action and smoothness, partial: swivel mentioned",
+      "members": [
+        "swivel_smoothness",
+        "smooth_spin",
+        "functionality"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "appearance_and_color",
+      "question": "What is the overall appearance, color, and surface finish of the chair?",
+      "kind": "spec",
+      "rubric": "answered: color options and style details, partial: appearance remarks",
+      "members": [
+        "appearance",
+        "color",
+        "surface_finish"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "weight_capacity",
+      "question": "What is the maximum weight capacity supported by the chair?",
+      "kind": "spec",
+      "rubric": "answered: weight limit in pounds or kilograms, partial: weight notes",
+      "members": [
+        "weight_capacity",
+        "weight_light"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "material_cleaning",
+      "question": "How easy is it to clean and maintain the chair's upholstery?",
+      "kind": "experience",
+      "rubric": "answered: cleaning instructions and stain resistance, partial: easy to clean notes",
+      "members": [
+        "material_cleaning",
+        "cushion_cleaning",
+        "easy_to_clean"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "warranty_coverage",
+      "question": "What warranty or guarantee comes with the chair?",
+      "kind": "spec",
+      "rubric": "answered: warranty length and terms, partial: warranty mention",
+      "members": [
+        "warranty"
+      ],
+      "conditional": true
+    },
+    {
+      "id": "breathable_mesh",
+      "question": "Is the backrest made of breathable mesh to prevent heat buildup?",
+      "kind": "spec",
+      "rubric": "answered: mesh material specification, partial: breathable claim",
+      "members": [
+        "breathable_mesh",
+        "headrest"
+      ],
+      "conditional": true
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "cluster-needs@2026-10-27.1+home-office-desk-chairs",
+  "usage": {
+    "inputTokens": 837,
+    "outputTokens": 1806
+  },
+  "latencyMs": 4771,
+  "cached": false
+}

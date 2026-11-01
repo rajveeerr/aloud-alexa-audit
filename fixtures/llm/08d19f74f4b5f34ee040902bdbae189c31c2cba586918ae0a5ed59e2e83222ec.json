@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "claim": 0,
+      "topic": 1
+    },
+    {
+      "claim": 1,
+      "topic": 2
+    },
+    {
+      "claim": 2,
+      "topic": 6
+    },
+    {
+      "claim": 3,
+      "topic": 1
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "topic-proof@2026-11-02.1",
+  "usage": {
+    "inputTokens": 559,
+    "outputTokens": 59
+  },
+  "latencyMs": 1438,
+  "cached": false
+}

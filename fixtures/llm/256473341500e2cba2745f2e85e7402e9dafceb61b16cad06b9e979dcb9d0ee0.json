@@ -1,0 +1,172 @@
+{
+  "data": [
+    {
+      "id": "fabric_type",
+      "question": "What fabric type are the cleaning cloths made of?",
+      "kind": "spec",
+      "rubric": "answered: specifies the material composition. partial: mentions general fabric type.",
+      "members": [
+        "fabric_type"
+      ]
+    },
+    {
+      "id": "size",
+      "question": "What are the dimensions and size of the cloths?",
+      "kind": "spec",
+      "rubric": "answered: gives exact dimensions or size. partial: mentions large or small.",
+      "members": [
+        "size"
+      ]
+    },
+    {
+      "id": "color_variety",
+      "question": "What colors are available in the pack?",
+      "kind": "spec",
+      "rubric": "answered: lists available colors. partial: mentions assorted colors.",
+      "members": [
+        "color_variety"
+      ]
+    },
+    {
+      "id": "weight_and_thickness",
+      "question": "How thick and heavy are the cleaning cloths?",
+      "kind": "spec",
+      "rubric": "answered: states thickness or GSM weight. partial: mentions thin or thick.",
+      "members": [
+        "thickness",
+        "weight"
+      ]
+    },
+    {
+      "id": "washability",
+      "question": "Can these cleaning cloths be machine washed?",
+      "kind": "spec",
+      "rubric": "answered: states washing and drying instructions. partial: mentions washable.",
+      "members": [
+        "washability"
+      ]
+    },
+    {
+      "id": "bleach_safe",
+      "question": "Are these cloths safe to use with bleach?",
+      "kind": "spec",
+      "rubric": "answered: explicitly states bleach safety. partial: mentions chemical resistance.",
+      "members": [
+        "bleach_safe"
+      ],
+      "conditional": true
+    },
+    {
+      "id": "reusability",
+      "question": "Are these reusable cloths?",
+      "kind": "spec",
+      "rubric": "answered: states they are reusable. partial: implies multiple uses.",
+      "members": [
+        "reusability"
+      ]
+    },
+    {
+      "id": "absorbency",
+      "question": "How absorbent are the cloths for spills and drying?",
+      "kind": "claim",
+      "rubric": "answered: describes high absorbency capacity. partial: mentions moderate liquid pickup.",
+      "members": [
+        "absorbency"
+      ]
+    },
+    {
+      "id": "streak_free",
+      "question": "Do these cloths clean glass and mirrors without leaving streaks?",
+      "kind": "claim",
+      "rubric": "answered: guarantees streak-free cleaning. partial: mentions minimal streaks.",
+      "members": [
+        "streak_free"
+      ]
+    },
+    {
+      "id": "lint_free",
+      "question": "Do these cloths leave lint behind on surfaces?",
+      "kind": "claim",
+      "rubric": "answered: claims to be lint-free. partial: mentions very little lint.",
+      "members": [
+        "lint_free"
+      ]
+    },
+    {
+      "id": "scratch_free",
+      "question": "Are these cloths safe and non-scratching on delicate surfaces?",
+      "kind": "claim",
+      "rubric": "answered: guarantees scratch-free use on sensitive surfaces. partial: mentions gentle wiping.",
+      "members": [
+        "scratch_free"
+      ]
+    },
+    {
+      "id": "softness",
+      "question": "How soft is the texture of the cloth?",
+      "kind": "claim",
+      "rubric": "answered: describes soft texture and pile. partial: mentions moderate softness.",
+      "members": [
+        "softness",
+        "texture"
+      ]
+    },
+    {
+      "id": "durability",
+      "question": "How durable are the cloths over multiple uses and washes?",
+      "kind": "claim",
+      "rubric": "answered: details high durability and stitching quality. partial: mentions standard wear.",
+      "members": [
+        "durability",
+        "tear_resistant"
+      ]
+    },
+    {
+      "id": "dry_time",
+      "question": "How quickly do the cloths dry after use or washing?",
+      "kind": "claim",
+      "rubric": "answered: states fast dry time. partial: mentions hanging to dry.",
+      "members": [
+        "dry_time"
+      ]
+    },
+    {
+      "id": "stain_resistance",
+      "question": "Do the cloths resist stains or hold onto odors?",
+      "kind": "claim",
+      "rubric": "answered: claims stain and odor resistance. partial: mentions easy rinsing.",
+      "members": [
+        "stain_resistance",
+        "odor"
+      ]
+    },
+    {
+      "id": "static_free",
+      "question": "Do these cloths generate static electricity?",
+      "kind": "claim",
+      "rubric": "answered: guarantees static-free performance. partial: mentions anti-static properties.",
+      "members": [
+        "static_free"
+      ],
+      "conditional": true
+    },
+    {
+      "id": "pet_hair_removal",
+      "question": "Can these cloths effectively pick up pet hair?",
+      "kind": "claim",
+      "rubric": "answered: claims pet hair trapping ability. partial: mentions general hair pickup.",
+      "members": [
+        "pet_hair_removal"
+      ],
+      "conditional": true
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "cluster-needs@2026-11-02.1+cleaning-cloths",
+  "usage": {
+    "inputTokens": 438,
+    "outputTokens": 1346
+  },
+  "latencyMs": 4130,
+  "cached": false
+}

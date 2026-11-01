@@ -1,0 +1,113 @@
+{
+  "data": [
+    {
+      "intentId": "hydraulic_and_height_adjustment",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "BIFMA Class-4 gas lift"
+        },
+        {
+          "fieldId": "description.1",
+          "text": "Class 4 GAS LIFT with effortless height adjustment which ensures correct sitting height"
+        }
+      ],
+      "value": "Class 4 GAS LIFT"
+    },
+    {
+      "intentId": "dimensions_and_sizing",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_dimensions",
+          "text": "20.47\"D x 20.08\"W x 50.79\"H"
+        },
+        {
+          "fieldId": "attr.seat_depth",
+          "text": "19 inches"
+        }
+      ],
+      "value": "20.47\"D x 20.08\"W x 50.79\"H, seat depth 19 inches"
+    },
+    {
+      "intentId": "armrest_features",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Soft 3-direction adjustable armrests"
+        },
+        {
+          "fieldId": "attr.additional_features",
+          "text": "3D Armrest"
+        }
+      ],
+      "value": "3-direction adjustable armrests"
+    },
+    {
+      "intentId": "recline_and_rocking",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Single Lock recline upto 135"
+        },
+        {
+          "fieldId": "title",
+          "text": "Single Lock and Recline"
+        }
+      ],
+      "value": "Single Lock and Recline upto 135"
+    },
+    {
+      "intentId": "appearance_and_color",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.color",
+          "text": "Gravita Grey"
+        },
+        {
+          "fieldId": "title",
+          "text": "White and Grey"
+        }
+      ],
+      "value": "Gravita Grey, White and Grey"
+    },
+    {
+      "intentId": "weight_capacity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "supports up to 120 kg"
+        }
+      ],
+      "value": "120 kg"
+    },
+    {
+      "intentId": "breathable_mesh",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "breathable mesh"
+        },
+        {
+          "fieldId": "fabric_type",
+          "text": "High Quality Imported Mesh Which Gives Air Circulation and Avoids Sweating"
+        }
+      ],
+      "value": "breathable mesh"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+home-office-desk-chairs@mined-live-1",
+  "usage": {
+    "inputTokens": 1942,
+    "outputTokens": 793
+  },
+  "latencyMs": 2574,
+  "cached": false
+}

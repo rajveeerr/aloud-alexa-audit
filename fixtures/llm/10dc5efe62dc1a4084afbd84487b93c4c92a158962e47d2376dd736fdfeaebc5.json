@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "intentId": "tear_resistance",
+      "unsupported": [],
+      "answersQuestion": true
+    },
+    {
+      "intentId": "puncture_resistance",
+      "unsupported": [
+        "help prevent punctures from sharp waste"
+      ],
+      "answersQuestion": true
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "faithfulness@2026-10-27.2",
+  "usage": {
+    "inputTokens": 257,
+    "outputTokens": 79
+  },
+  "latencyMs": 1237,
+  "cached": false
+}

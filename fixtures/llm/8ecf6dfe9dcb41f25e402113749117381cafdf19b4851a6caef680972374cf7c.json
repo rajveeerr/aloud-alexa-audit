@@ -1,0 +1,136 @@
+{
+  "data": [
+    {
+      "intentId": "easy_assembly",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "cushioning",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Adapting 3.14\" thick high-density foam to desk chair seat"
+        }
+      ],
+      "value": "3.14\" thick high-density foam"
+    },
+    {
+      "intentId": "sturdiness",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "high weight capacity 330 lbs for long-term durability"
+        }
+      ],
+      "value": "high weight capacity 330 lbs for long-term durability"
+    },
+    {
+      "intentId": "chair_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_dimensions",
+          "text": "Product dimensions: 46.9\"D x 24.8\"W x 24.4\"H"
+        }
+      ],
+      "value": "46.9\"D x 24.8\"W x 24.4\"H"
+    },
+    {
+      "intentId": "caster_mobility",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "backrest_support",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Our computer chair lumbar support system adjusts 1.18\" forward & backward and 2.16\" up & down to precisely match your height and body shape"
+        }
+      ],
+      "value": "lumbar support system adjusts 1.18\" forward & backward and 2.16\" up & down"
+    },
+    {
+      "intentId": "hydraulic_lift",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "adjustable_arms",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "Move smoothly rounded PU-padded armrests forward or back and swivel them left or right"
+        }
+      ],
+      "value": "Move smoothly rounded PU-padded armrests forward or back and swivel them left or right"
+    },
+    {
+      "intentId": "reclining_mechanism",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "backrest with 90° to 120° recline"
+        }
+      ],
+      "value": "90° to 120° recline"
+    },
+    {
+      "intentId": "material_cleaning",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_care_instructions",
+          "text": "Product care instructions: Dry Clean"
+        }
+      ],
+      "value": "Dry Clean"
+    },
+    {
+      "intentId": "weight_capacity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.maximum_weight_recommendation",
+          "text": "Maximum weight recommendation: 330 pounds"
+        }
+      ],
+      "value": "330 pounds"
+    },
+    {
+      "intentId": "swivel_smoothness",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "warranty_and_condition",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "adjustable_height",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.seat_height",
+          "text": "Seat height: 21.6 inches"
+        }
+      ],
+      "value": "21.6 inches"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+home-office-desk-chairs@mined-live-1",
+  "usage": {
+    "inputTokens": 2208,
+    "outputTokens": 1018
+  },
+  "latencyMs": 3041,
+  "cached": false
+}

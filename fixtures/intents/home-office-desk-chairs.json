@@ -1,0 +1,128 @@
+{
+  "categoryId": "home-office-desk-chairs",
+  "categoryName": "Home Office Desk Chairs",
+  "match": [
+    "Home Office Desk Chairs"
+  ],
+  "version": "mined-live-1",
+  "basis": "mined",
+  "reviewed": false,
+  "sampleSize": 177,
+  "intents": [
+    {
+      "id": "easy_assembly",
+      "kind": "claim",
+      "question": "How easy is it to assemble the chair?",
+      "rubric": "answered: instructions and assembly process described as straightforward; partial: mentions some difficulty or missing tools.",
+      "frequency": 105
+    },
+    {
+      "id": "cushioning",
+      "kind": "claim",
+      "question": "How comfortable and thick is the seat cushioning?",
+      "rubric": "answered: detailed padding and softness described; partial: general mention of cushion.",
+      "frequency": 98
+    },
+    {
+      "id": "sturdiness",
+      "kind": "claim",
+      "question": "How sturdy and durable is the chair's construction?",
+      "rubric": "answered: solid build and long-lasting materials confirmed; partial: minor wobbles noted.",
+      "frequency": 64
+    },
+    {
+      "id": "chair_size",
+      "kind": "spec",
+      "question": "What are the overall dimensions and seat size of the chair?",
+      "rubric": "answered: exact width, depth, and height provided; partial: general size described.",
+      "frequency": 42
+    },
+    {
+      "id": "caster_mobility",
+      "kind": "claim",
+      "question": "How smoothly do the wheels roll on various surfaces?",
+      "rubric": "answered: smooth rolling and good caster quality described; partial: wheels stick occasionally.",
+      "frequency": 35
+    },
+    {
+      "id": "backrest_support",
+      "kind": "claim",
+      "question": "Does the backrest provide adequate height and lumbar support?",
+      "rubric": "answered: ergonomic support and back height specified; partial: general back comfort mentioned.",
+      "frequency": 33
+    },
+    {
+      "id": "hydraulic_lift",
+      "kind": "claim",
+      "question": "Does the hydraulic lift hold its height securely?",
+      "rubric": "answered: reliable height adjustment described; partial: occasional sinking mentioned.",
+      "frequency": 32
+    },
+    {
+      "id": "adjustable_arms",
+      "kind": "spec",
+      "question": "Can the armrests be adjusted for height or position?",
+      "rubric": "answered: specific adjustment ranges detailed; partial: mentions fixed or limited adjustment.",
+      "frequency": 26,
+      "conditional": true
+    },
+    {
+      "id": "reclining_mechanism",
+      "kind": "claim",
+      "question": "Does the chair recline or rock smoothly?",
+      "rubric": "answered: tilt tension and reclining range detailed; partial: stiffness noted.",
+      "frequency": 17
+    },
+    {
+      "id": "appearance",
+      "kind": "experience",
+      "question": "How does the chair look in terms of style and color?",
+      "rubric": "answered: aesthetic appeal and color accuracy described; partial: basic visual mention.",
+      "frequency": 15
+    },
+    {
+      "id": "overall_comfort",
+      "kind": "experience",
+      "question": "Is the chair comfortable for long hours of sitting?",
+      "rubric": "answered: explicit long-term sitting comfort or discomfort stated; partial: general comfort.",
+      "frequency": 12
+    },
+    {
+      "id": "material_cleaning",
+      "kind": "claim",
+      "question": "How easy is it to clean and maintain the upholstery?",
+      "rubric": "answered: cleaning instructions or stain resistance detailed; partial: material staining noted.",
+      "frequency": 8
+    },
+    {
+      "id": "weight_capacity",
+      "kind": "spec",
+      "question": "What is the maximum weight capacity of the chair?",
+      "rubric": "answered: exact weight limit stated; partial: heavy-duty claim without exact number.",
+      "frequency": 7
+    },
+    {
+      "id": "swivel_smoothness",
+      "kind": "claim",
+      "question": "Does the chair swivel smoothly without squeaking?",
+      "rubric": "answered: swivel action described as smooth; partial: squeaking or resistance reported.",
+      "frequency": 7
+    },
+    {
+      "id": "warranty_and_condition",
+      "kind": "spec",
+      "question": "What warranty and product condition are guaranteed upon arrival?",
+      "rubric": "answered: warranty terms and delivery condition stated; partial: missing parts or damage noted.",
+      "frequency": 5
+    },
+    {
+      "id": "adjustable_height",
+      "kind": "spec",
+      "question": "What is the seat height adjustment range?",
+      "rubric": "answered: minimum and maximum seat height provided; partial: general height mentioned.",
+      "frequency": 3
+    }
+  ],
+  "reviewSource": "walmart",
+  "source": "Mined from 177 Walmart reviews of 5 \"Home Office Desk Chairs\" products. Not yet reviewed by hand."
+}

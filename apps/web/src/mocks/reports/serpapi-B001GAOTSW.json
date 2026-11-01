@@ -360,7 +360,113 @@
           "rank": 2
         }
       ],
-      "available": true
+      "available": true,
+      "insights": [
+        {
+          "topic": "Quality",
+          "mentions": 4900,
+          "positive": 4671,
+          "negative": 231,
+          "sentiment": "positive",
+          "summary": "Customers love these gel pens, describing them as their favorite writing instruments.",
+          "snippets": [
+            "...As go-to as it comes. Five stars.",
+            "Great pens We use lots of them but if you are looking for a package of IE the BOX of PENS looks some place else these get shipped in a envelope so...",
+            "Love these pens, the design has been around for a while. Noticed its made in Japan which speaks to the higher quality. Love its thick black writing...."
+          ]
+        },
+        {
+          "topic": "Writing performance",
+          "mentions": 1200,
+          "positive": 1143,
+          "negative": 117,
+          "sentiment": "positive",
+          "summary": "Customers find that these pens write very nicely.",
+          "snippets": [
+            "Love these pens...they write so well...dark black line! Smooth writing...only problem...they seem to have legs on them...cause they sure walk away...",
+            "...They write smoothly, no smears, no smudged fingers because the ink dries quickly, no discernible skips. They are the best roller pen I've ever used.",
+            "How much can a guy really say about a pen? It writes smoothly, doesn't dry out even if you leave it clicked, it lasts longer than a..."
+          ]
+        },
+        {
+          "topic": "Value for money",
+          "mentions": 1000,
+          "positive": 939,
+          "negative": 106,
+          "sentiment": "positive",
+          "summary": "Customers find these gel pens to be well worth the price, noting that they don't break the bank.",
+          "snippets": [
+            "Great price, they work, but I don't like the way they wright. Personally, I don't like when the pen point is really fine. I like a bigger ball point....",
+            "...We only buy this brand and model. Great to get them at such a good price and in larger quantities than what is available at the local drugstore.",
+            "Authentic. Great value for someone who uses these pens often ( I use them for work). Came in timely fashion (came before estimated time)...."
+          ]
+        },
+        {
+          "topic": "Durability",
+          "mentions": 723,
+          "positive": 579,
+          "negative": 144,
+          "sentiment": "positive",
+          "summary": "Customers find these pens durable, noting that the ink lasts a long time and the cartridge is sturdy.",
+          "snippets": [
+            "Pilot pens are great!! I like the fine point version. They last a long time and always produce a solid line. I am so glad I can get them on Amazon !",
+            "The Pilot G2 is my favorite pen and used every day. These are long lasting, and somehow they magically make my writing look better than other pens....",
+            "Good quality pen. Lasts a long time. Writes well, with little to no skipping. Very comfortable grips. Will most likely purchase more."
+          ]
+        },
+        {
+          "topic": "Functionality",
+          "mentions": 575,
+          "positive": 483,
+          "negative": 92,
+          "sentiment": "positive",
+          "summary": "Customers find that these pens work well, never failing them, and one customer mentions they perform effectively in all types of weather.",
+          "snippets": [
+            "The pens I have used so far work great. I use these pens for home and work. I work construction and they get dirty and still write great.",
+            "The Pilot G2 Roller Ball Retractable Gel Pen, Green Ink, Fine works great, no smudging dries instantly and each pen lasts for a long time",
+            "...I have quit looking fro replacements at this point. Works well and no complaints other than I keep misplacing them, but that ones on me."
+          ]
+        },
+        {
+          "topic": "Smoothness",
+          "mentions": 542,
+          "positive": 505,
+          "negative": 37,
+          "sentiment": "positive",
+          "summary": "Customers praise the pen's smooth writing experience, noting that it glides without skipping and feels great in hand.",
+          "snippets": [
+            "I am not even sure how I got my first one of these, but I love them. Smooth, no blobs of ink to smear and they seem to be better at writing on more...",
+            "...all to get it to write for you which is great because it makes it very smooth and relaxed to write on. There is no smoother pen than this brand....",
+            "...They are just so smooth and glide so well! They are expensive but this was a pretty good deal. If you've never tried these pens TRY THEM!..."
+          ]
+        },
+        {
+          "topic": "Color",
+          "mentions": 500,
+          "positive": 410,
+          "negative": 90,
+          "sentiment": "positive",
+          "summary": "Customers love the ink color of these pens, particularly the black and purple varieties, with one customer noting that the red ink stands out well.",
+          "snippets": [
+            "These are great pens; I love the color and the way the ink rolls. They have nice grip, and are weighty enough to feel sturdy without being bulky....",
+            "Just LOVE these purple Pilot pens. Write easily, great color, very distinctive. Good for check writing, cannot be erased....",
+            "...They are so smooth and dark and last a decently long time. I write a lot of notes for my graduate program and I go through about a pen a week...."
+          ]
+        },
+        {
+          "topic": "Smudge-resistant",
+          "mentions": 394,
+          "positive": 232,
+          "negative": 162,
+          "sentiment": "mixed",
+          "summary": "Customers have mixed experiences with the smudge resistance of these pens, with some reporting that they write without smudging and have no skips or blotches, while others mention that the ink can smear.",
+          "snippets": [
+            "This is my favorite pen. Period. It writes smoothly, doesn't smear, and is downright reliable. They last a long time too....",
+            "Love these pens for our office! Only downside is they do smear if you do not let them dry right after use!",
+            "...ink not only binds to the paper better but also dries faster and does not smear, making it easier to read and more durable than ballpoints"
+          ]
+        }
+      ]
     },
     "contentHash": "ed7edf60c7df87851f0365c0c965ae95d3f7aff6cc7151dc0ca61a3b0fe31e67"
   },
@@ -3134,13 +3240,221 @@
       "flags": []
     }
   ],
-  "usage": {
-    "requests": 8,
-    "cachedRequests": 8,
-    "inputTokens": 16881,
-    "outputTokens": 10627
+  "proof": {
+    "reviews": 9941,
+    "source": "amazon-topics",
+    "claims": [
+      {
+        "intentId": "smudge",
+        "claim": "helps prevent smudges and smears",
+        "sources": [
+          {
+            "kind": "field",
+            "id": "bullet.4",
+            "text": "helps prevent smudges and smears"
+          }
+        ],
+        "keywords": [
+          "Smudge-resistant"
+        ],
+        "matching": 394,
+        "sampled": 394,
+        "counts": {
+          "supports": 232,
+          "contradicts": 162,
+          "mixed": 0,
+          "unrelated": 0,
+          "unlabelled": 0
+        },
+        "examples": {
+          "supports": [],
+          "contradicts": [],
+          "mixed": [
+            "This is my favorite pen. Period. It writes smoothly, doesn't smear, and is downright reliable. They last a long time too....",
+            "Love these pens for our office! Only downside is they do smear if you do not let them dry right after use!",
+            "...ink not only binds to the paper better but also dries faster and does not smear, making it easier to read and more durable than ballpoints"
+          ]
+        },
+        "flags": [],
+        "support": {
+          "rate": 0.5888324873096447,
+          "low": 0.539616015229829,
+          "high": 0.6363334078571483
+        },
+        "contradiction": {
+          "rate": 0.41116751269035534,
+          "low": 0.3636665921428517,
+          "high": 0.46038398477017095
+        },
+        "verdict": "contested"
+      },
+      {
+        "intentId": "ink_flow",
+        "claim": "smooth writing experience",
+        "sources": [
+          {
+            "kind": "field",
+            "id": "bullet.1",
+            "text": "smooth writing experience"
+          },
+          {
+            "kind": "image",
+            "id": "img.0",
+            "text": "Super Smooth"
+          },
+          {
+            "kind": "image",
+            "id": "img.2",
+            "text": "Super Smooth Writing"
+          },
+          {
+            "kind": "image",
+            "id": "img.4",
+            "text": "Smooth Gel Ink"
+          },
+          {
+            "kind": "image",
+            "id": "img.7",
+            "text": "The Smooth Writing,"
+          }
+        ],
+        "keywords": [
+          "Smoothness"
+        ],
+        "matching": 542,
+        "sampled": 542,
+        "counts": {
+          "supports": 505,
+          "contradicts": 37,
+          "mixed": 0,
+          "unrelated": 0,
+          "unlabelled": 0
+        },
+        "examples": {
+          "supports": [
+            "I am not even sure how I got my first one of these, but I love them. Smooth, no blobs of ink to smear and they seem to be better at writing on more...",
+            "...all to get it to write for you which is great because it makes it very smooth and relaxed to write on. There is no smoother pen than this brand....",
+            "...They are just so smooth and glide so well! They are expensive but this was a pretty good deal. If you've never tried these pens TRY THEM!..."
+          ],
+          "contradicts": [],
+          "mixed": []
+        },
+        "flags": [],
+        "support": {
+          "rate": 0.9317343173431735,
+          "low": 0.9073209501081666,
+          "high": 0.9500706448160753
+        },
+        "contradiction": {
+          "rate": 0.06826568265682657,
+          "low": 0.049929355183924745,
+          "high": 0.09267904989183351
+        },
+        "verdict": "backed"
+      },
+      {
+        "intentId": "longevity",
+        "claim": "longest-lasting gel ink pens",
+        "sources": [
+          {
+            "kind": "field",
+            "id": "bullet.1",
+            "text": "longest-lasting gel ink pens"
+          },
+          {
+            "kind": "image",
+            "id": "img.2",
+            "text": "LONGEST WRITING"
+          },
+          {
+            "kind": "image",
+            "id": "img.7",
+            "text": "LONGEST LASTING;"
+          },
+          {
+            "kind": "image",
+            "id": "img.9",
+            "text": "Get exceptional value from the G2 Premium Gel Roller - proven to be the longest writing gel ink pen"
+          }
+        ],
+        "keywords": [
+          "Durability"
+        ],
+        "matching": 723,
+        "sampled": 723,
+        "counts": {
+          "supports": 579,
+          "contradicts": 144,
+          "mixed": 0,
+          "unrelated": 0,
+          "unlabelled": 0
+        },
+        "examples": {
+          "supports": [
+            "Pilot pens are great!! I like the fine point version. They last a long time and always produce a solid line. I am so glad I can get them on Amazon !",
+            "The Pilot G2 is my favorite pen and used every day. These are long lasting, and somehow they magically make my writing look better than other pens....",
+            "Good quality pen. Lasts a long time. Writes well, with little to no skipping. Very comfortable grips. Will most likely purchase more."
+          ],
+          "contradicts": [],
+          "mixed": []
+        },
+        "flags": [],
+        "support": {
+          "rate": 0.8008298755186722,
+          "low": 0.7701616154206951,
+          "high": 0.8283181633921853
+        },
+        "contradiction": {
+          "rate": 0.1991701244813278,
+          "low": 0.1716818366078147,
+          "high": 0.22983838457930503
+        },
+        "verdict": "contested"
+      }
+    ],
+    "modelOutputs": [
+      [
+        {
+          "claim": 0,
+          "topic": 7
+        },
+        {
+          "claim": 1,
+          "topic": -1
+        },
+        {
+          "claim": 2,
+          "topic": 5
+        },
+        {
+          "claim": 3,
+          "topic": 3
+        },
+        {
+          "claim": 4,
+          "topic": -1
+        },
+        {
+          "claim": 5,
+          "topic": -1
+        },
+        {
+          "claim": 6,
+          "topic": 3
+        }
+      ]
+    ],
+    "usage": {
+      "inputTokens": 563,
+      "outputTokens": 150,
+      "requests": 1
+    }
   },
-  "notes": [
-    "Live listings come without review text, so promise vs proof wasn't checked."
-  ]
+  "usage": {
+    "requests": 9,
+    "cachedRequests": 9,
+    "inputTokens": 17444,
+    "outputTokens": 10777
+  },
+  "notes": []
 }

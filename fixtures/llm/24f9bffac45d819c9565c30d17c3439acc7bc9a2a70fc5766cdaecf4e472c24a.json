@@ -1,0 +1,154 @@
+{
+  "data": [
+    {
+      "intentId": "easy_assembly",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "cushioning",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "High-density antisag foam seat"
+        }
+      ],
+      "value": "High-density antisag foam seat"
+    },
+    {
+      "intentId": "sturdiness",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "BIFMA durability standard tested: Rigorously tested chair for home use and study, supports up to 120 kg with BIFMA Class-4 gas lift, and durability proven over 120,000 recline cycles"
+        }
+      ],
+      "value": "BIFMA durability standard tested: Rigorously tested chair for home use and study, supports up to 120 kg with BIFMA Class-4 gas lift, and durability proven over 120,000 recline cycles"
+    },
+    {
+      "intentId": "chair_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_dimensions",
+          "text": "20.47\"D x 20.08\"W x 50.79\"H"
+        }
+      ],
+      "value": "20.47\"D x 20.08\"W x 50.79\"H"
+    },
+    {
+      "intentId": "caster_mobility",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "60 MM Nylon casters ensures easy movements and have very high load capacity reduced friction when rolling to improve flexibility and performance."
+        }
+      ],
+      "value": "60 MM Nylon casters ensures easy movements and have very high load capacity reduced friction when rolling to improve flexibility and performance."
+    },
+    {
+      "intentId": "backrest_support",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "Ergonomic backrest with adjustable lumber support to reduce stress on spine and lower back."
+        }
+      ],
+      "value": "Ergonomic backrest with adjustable lumber support to reduce stress on spine and lower back."
+    },
+    {
+      "intentId": "hydraulic_lift",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "Class 4 GAS LIFT with effortless height adjustment which ensures correct sitting height for every individual and absorbs shock while seated on it."
+        }
+      ],
+      "value": "Class 4 GAS LIFT with effortless height adjustment which ensures correct sitting height for every individual and absorbs shock while seated on it."
+    },
+    {
+      "intentId": "adjustable_arms",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Soft 3-direction adjustable armrests"
+        }
+      ],
+      "value": "3-direction adjustable"
+    },
+    {
+      "intentId": "reclining_mechanism",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Single Lock recline upto 135"
+        }
+      ],
+      "value": "Single Lock recline upto 135"
+    },
+    {
+      "intentId": "material_cleaning",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_care_instructions",
+          "text": "Wipe Clean"
+        }
+      ],
+      "value": "Wipe Clean"
+    },
+    {
+      "intentId": "weight_capacity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "supports up to 120 kg"
+        }
+      ],
+      "value": "120 kg"
+    },
+    {
+      "intentId": "swivel_smoothness",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "warranty_and_condition",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "backed by a 3-year warranty, including free part replacement for any manufacturing defects."
+        }
+      ],
+      "value": "3-year warranty, including free part replacement for any manufacturing defects."
+    },
+    {
+      "intentId": "adjustable_height",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "adjustable height"
+        }
+      ],
+      "value": "adjustable height"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+home-office-desk-chairs@mined-live-1",
+  "usage": {
+    "inputTokens": 2153,
+    "outputTokens": 1238
+  },
+  "latencyMs": 3173,
+  "cached": false
+}

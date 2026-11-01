@@ -1940,7 +1940,9 @@
           "text": "U Brands dry erase markers provide the ultimate writing experience"
         }
       ],
-      "flags": []
+      "flags": [
+        "contested_by_reviews"
+      ]
     },
     {
       "intentId": "frameless_and_border_design",

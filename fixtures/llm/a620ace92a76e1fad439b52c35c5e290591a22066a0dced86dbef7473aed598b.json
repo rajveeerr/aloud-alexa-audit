@@ -1,0 +1,126 @@
+{
+  "data": [
+    {
+      "intentId": "overall_strength",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Hefty’s strongest tall kitchen garbage bags deliver toughness you can trust"
+        }
+      ],
+      "value": "Hefty's strongest tall kitchen garbage bags deliver toughness you can trust"
+    },
+    {
+      "intentId": "tear_resistance",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "resistance to leaks, punctures, and rips"
+        }
+      ],
+      "value": "resistance to rips"
+    },
+    {
+      "intentId": "bag_dimensions_and_size",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "13 Gallon"
+        }
+      ],
+      "value": "13 Gallon"
+    },
+    {
+      "intentId": "scent_and_odor",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Odor control technology, paired with the scent of Lavender and Sweet Vanilla"
+        }
+      ],
+      "value": "Lavender and Sweet Vanilla"
+    },
+    {
+      "intentId": "drawstring_features",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "secure, break-resistant drawstring"
+        }
+      ],
+      "value": "secure, break-resistant drawstring"
+    },
+    {
+      "intentId": "stretch_and_flexibility",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "Hefty’s stretchy strength"
+        }
+      ],
+      "value": "stretchy strength"
+    },
+    {
+      "intentId": "leak_proof",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "resistance to leaks, punctures, and rips"
+        }
+      ],
+      "value": "resistance to leaks"
+    },
+    {
+      "intentId": "puncture_resistance",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "resistance to leaks, punctures, and rips"
+        }
+      ],
+      "value": "resistance to punctures"
+    },
+    {
+      "intentId": "bag_thickness",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "item_count",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.unit_count",
+          "text": "80 Count"
+        }
+      ],
+      "value": "80 Count"
+    },
+    {
+      "intentId": "opening_and_dispensing",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "load_capacity",
+      "status": "missing",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+trash-bags@mined-live-1",
+  "usage": {
+    "inputTokens": 1851,
+    "outputTokens": 813
+  },
+  "latencyMs": 2256,
+  "cached": false
+}

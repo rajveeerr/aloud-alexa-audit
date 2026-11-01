@@ -1,0 +1,93 @@
+{
+  "data": [
+    {
+      "intentId": "hydraulic_and_height_adjustment",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.additional_features",
+          "text": "Adjustable Height"
+        }
+      ],
+      "value": "Adjustable Height"
+    },
+    {
+      "intentId": "dimensions_and_sizing",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_dimensions",
+          "text": "46.9\"D x 24.8\"W x 24.4\"H"
+        }
+      ],
+      "value": "46.9\"D x 24.8\"W x 24.4\"H"
+    },
+    {
+      "intentId": "armrest_features",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "Move smoothly rounded PU-padded armrests forward or back and swivel them left or right to find the optimal arm position. Flip the armrests up when you want more freedom"
+        }
+      ],
+      "value": "Move smoothly rounded PU-padded armrests forward or back and swivel them left or right. Flip the armrests up"
+    },
+    {
+      "intentId": "recline_and_rocking",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "backrest with 90° to 120° recline"
+        }
+      ],
+      "value": "90° to 120° recline"
+    },
+    {
+      "intentId": "appearance_and_color",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.color",
+          "text": "Black"
+        },
+        {
+          "fieldId": "title",
+          "text": "Marsail Ergonomic Office Chair: Office Desk Chair with High Back Mesh and Adjustable Lumbar Support Rolling Work Swivel Task Chairs with Wheel 3D Armrests and Headrest"
+        }
+      ],
+      "value": "Black"
+    },
+    {
+      "intentId": "weight_capacity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "330 lbs"
+        }
+      ],
+      "value": "330 lbs"
+    },
+    {
+      "intentId": "breathable_mesh",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "The minimalist mesh backrest molds to your back with responsive support while promoting maximum airflow to keep you cool."
+        }
+      ],
+      "value": "mesh backrest... promoting maximum airflow to keep you cool"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+home-office-desk-chairs@mined-live-1",
+  "usage": {
+    "inputTokens": 1997,
+    "outputTokens": 707
+  },
+  "latencyMs": 2468,
+  "cached": false
+}

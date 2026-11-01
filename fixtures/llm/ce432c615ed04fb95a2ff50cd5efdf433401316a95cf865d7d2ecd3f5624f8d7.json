@@ -1,0 +1,244 @@
+{
+  "data": [
+    {
+      "i": 150,
+      "needs": [
+        "easy_assembly",
+        "comfort",
+        "appearance"
+      ]
+    },
+    {
+      "i": 151,
+      "needs": [
+        "high_back",
+        "lumbar_support",
+        "breathable_mesh",
+        "sturdiness",
+        "smooth_wheels",
+        "adjustable_height",
+        "easy_assembly"
+      ]
+    },
+    {
+      "i": 152,
+      "needs": [
+        "easy_assembly",
+        "appearance",
+        "comfort"
+      ]
+    },
+    {
+      "i": 153,
+      "needs": [
+        "seat_firmness"
+      ]
+    },
+    {
+      "i": 154,
+      "needs": [
+        "comfort",
+        "mobility",
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 155,
+      "needs": [
+        "appearance",
+        "comfort",
+        "functionality"
+      ]
+    },
+    {
+      "i": 156,
+      "needs": [
+        "easy_assembly",
+        "comfort",
+        "sturdiness",
+        "durability"
+      ]
+    },
+    {
+      "i": 157,
+      "needs": [
+        "comfort"
+      ]
+    },
+    {
+      "i": 158,
+      "needs": [
+        "easy_assembly",
+        "sturdiness",
+        "lumbar_support",
+        "comfort",
+        "color"
+      ]
+    },
+    {
+      "i": 159,
+      "needs": [
+        "easy_assembly",
+        "sturdiness",
+        "durability",
+        "weight_capacity",
+        "appearance"
+      ]
+    },
+    {
+      "i": 160,
+      "needs": [
+        "comfort",
+        "weight",
+        "mobility",
+        "adjustable_arms",
+        "adjustable_height"
+      ]
+    },
+    {
+      "i": 161,
+      "needs": [
+        "material_quality",
+        "easy_assembly"
+      ]
+    },
+    {
+      "i": 162,
+      "needs": [
+        "easy_assembly",
+        "comfort"
+      ]
+    },
+    {
+      "i": 163,
+      "needs": [
+        "ergonomic",
+        "breathable_mesh",
+        "lumbar_support",
+        "appearance"
+      ]
+    },
+    {
+      "i": 164,
+      "needs": [
+        "color",
+        "comfort"
+      ]
+    },
+    {
+      "i": 165,
+      "needs": [
+        "easy_assembly",
+        "clear_instructions",
+        "material_quality",
+        "seat_firmness",
+        "easy_to_clean",
+        "adjustable_arms",
+        "smooth_hydraulic"
+      ]
+    },
+    {
+      "i": 166,
+      "needs": [
+        "easy_assembly"
+      ]
+    },
+    {
+      "i": 167,
+      "needs": [
+        "padding_thickness",
+        "adjustable_arms"
+      ]
+    },
+    {
+      "i": 168,
+      "needs": [
+        "adjustable_arms",
+        "appearance",
+        "material_safety"
+      ]
+    },
+    {
+      "i": 169,
+      "needs": [
+        "back_height",
+        "weight",
+        "appearance"
+      ]
+    },
+    {
+      "i": 170,
+      "needs": [
+        "seat_softness",
+        "easy_assembly",
+        "clear_instructions",
+        "appearance"
+      ]
+    },
+    {
+      "i": 171,
+      "needs": [
+        "easy_assembly",
+        "smooth_wheels",
+        "smooth_spin",
+        "adjustable_arms",
+        "adjustable_height"
+      ]
+    },
+    {
+      "i": 172,
+      "needs": [
+        "easy_assembly",
+        "clear_instructions",
+        "sturdiness",
+        "appearance",
+        "color",
+        "seat_width",
+        "tilt_mechanism",
+        "comfort"
+      ]
+    },
+    {
+      "i": 173,
+      "needs": [
+        "appearance",
+        "easy_assembly",
+        "clear_instructions"
+      ]
+    },
+    {
+      "i": 174,
+      "needs": [
+        "appearance",
+        "material_texture",
+        "sturdiness",
+        "easy_assembly"
+      ]
+    },
+    {
+      "i": 175,
+      "needs": [
+        "clear_instructions",
+        "easy_assembly",
+        "comfort",
+        "color"
+      ]
+    },
+    {
+      "i": 176,
+      "needs": [
+        "easy_assembly",
+        "sturdiness",
+        "compact_size"
+      ]
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "extract-needs@2026-10-27.1+home-office-desk-chairs",
+  "usage": {
+    "inputTokens": 1444,
+    "outputTokens": 783
+  },
+  "latencyMs": 2470,
+  "cached": false
+}

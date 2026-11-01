@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "intentId": "easy_assembly",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Provide instructions or details on how easy it is to assemble the chair."
+    },
+    {
+      "intentId": "adjustable_arms",
+      "target": "bullet.4",
+      "sources": [
+        {
+          "id": "ic.29",
+          "text": "Right & Left"
+        },
+        {
+          "id": "ic.30",
+          "text": "Forward & Back"
+        },
+        {
+          "id": "ic.31",
+          "text": "Up & Down"
+        }
+      ],
+      "draft": "Soft 3-direction adjustable armrests move Right & Left, Forward & Back, and Up & Down for perfect support."
+    },
+    {
+      "intentId": "swivel_smoothness",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.34",
+          "text": "360  Swivel"
+        }
+      ],
+      "draft": "Designed with a 360 Swivel for effortless mobility."
+    },
+    {
+      "intentId": "adjustable_height",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Provide the exact minimum and maximum seat height adjustment range."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.2",
+  "usage": {
+    "inputTokens": 2516,
+    "outputTokens": 346
+  },
+  "latencyMs": 1581,
+  "cached": false
+}

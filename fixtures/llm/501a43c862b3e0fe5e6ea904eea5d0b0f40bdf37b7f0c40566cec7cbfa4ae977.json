@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "intentId": "puncture_and_tear_resistance",
+      "unsupported": [],
+      "answersQuestion": true
+    },
+    {
+      "intentId": "overall_strength_and_load",
+      "unsupported": [],
+      "answersQuestion": true
+    },
+    {
+      "intentId": "drawstring_features",
+      "unsupported": [],
+      "answersQuestion": true
+    },
+    {
+      "intentId": "can_fit",
+      "unsupported": [
+        "bathroom"
+      ],
+      "answersQuestion": true
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "faithfulness@2026-10-27.2",
+  "usage": {
+    "inputTokens": 532,
+    "outputTokens": 145
+  },
+  "latencyMs": 1172,
+  "cached": false
+}

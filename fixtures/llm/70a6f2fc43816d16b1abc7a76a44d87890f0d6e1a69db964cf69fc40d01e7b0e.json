@@ -1,0 +1,174 @@
+{
+  "data": [
+    {
+      "claimId": "ic.0",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "NEUTRALIZES ODORS: These trash bags are made with the highest-quality mint essential oils that neutralize odors keeping your kitchen smelling fresh, while naturally repelling any unwanted pests"
+        }
+      ],
+      "intentId": "scent_and_odor"
+    },
+    {
+      "claimId": "ic.1",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Mint-X's Tall Kitchen trash bags feature Mint-Flex superior stretching technology making them an ideal choice for both every day and serious clean-ups in your home with easy-to-use drawstring"
+        }
+      ],
+      "intentId": "drawstring_features"
+    },
+    {
+      "claimId": "ic.2",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "RODENT REPELLENT TRASH BAGS: Mint-X's patented Rodent Repellent Technology is a humane, safe solution to the problem of foraging rodents, raccoons and squirrels"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.15",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "SIZE: Featuring easy-to-use drawstring, these Tall Kitchen Trash Bags have a 13 gallon capacity and come in a 40-count box"
+        }
+      ],
+      "intentId": "item_count"
+    },
+    {
+      "claimId": "ic.16",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Mint-X MintFlex Rodent Repellent Trash Bags, Tall Kitchen Drawstring Bags, 1 FT 11 ¾ Inches X 2 FT 1 Inch, 0.90 MIL, 13 Gallon, 40 Count"
+        }
+      ],
+      "intentId": "bag_dimensions_and_size"
+    },
+    {
+      "claimId": "ic.24",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Mint-X's Tall Kitchen trash bags feature Mint-Flex superior stretching technology making them an ideal choice for both every day and serious clean-ups in your home with easy-to-use drawstring"
+        }
+      ],
+      "intentId": "drawstring_features"
+    },
+    {
+      "claimId": "ic.30",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "STRONG AND DURABLE: Mint-X's Tall Kitchen trash bags feature Mint-Flex superior stretching technology making them an ideal choice for both every day and serious clean-ups in your home with easy-to-use drawstring"
+        }
+      ],
+      "intentId": "overall_strength"
+    },
+    {
+      "claimId": "ic.45",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.capacity",
+          "text": "Capacity: 13 gallons"
+        }
+      ],
+      "intentId": "load_capacity"
+    },
+    {
+      "claimId": "ic.68",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.unit_count",
+          "text": "Unit count: 40 Count"
+        }
+      ],
+      "intentId": "item_count"
+    },
+    {
+      "claimId": "ic.71",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "RODENT REPELLENT TRASH BAGS: Mint-X's patented Rodent Repellent Technology is a humane, safe solution to the problem of foraging rodents, raccoons and squirrels"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.72",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "STRONG AND DURABLE: Mint-X's Tall Kitchen trash bags feature Mint-Flex superior stretching technology making them an ideal choice for both every day and serious clean-ups in your home with easy-to-use drawstring"
+        }
+      ],
+      "intentId": "stretch_and_flexibility"
+    },
+    {
+      "claimId": "ic.76",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "NEUTRALIZES ODORS: These trash bags are made with the highest-quality mint essential oils that neutralize odors keeping your kitchen smelling fresh, while naturally repelling any unwanted pests"
+        }
+      ],
+      "intentId": "scent_and_odor"
+    },
+    {
+      "claimId": "ic.77",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "SIZE: Featuring easy-to-use drawstring, these Tall Kitchen Trash Bags have a 13 gallon capacity and come in a 40-count box"
+        }
+      ],
+      "intentId": "drawstring_features"
+    },
+    {
+      "claimId": "ic.78",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "FREE OF CHEMICALS & TOXINS: Mint-X trash bags are made with the highest quality food grade, mint essential oils to naturally and effectively keep pesky wildofe out of your trash while being completely safe for humans and pets"
+        }
+      ]
+    },
+    {
+      "claimId": "ic.79",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "STRONG AND DURABLE: Mint-X's Tall Kitchen trash bags feature Mint-Flex superior stretching technology making them an ideal choice for both every day and serious clean-ups in your home with easy-to-use drawstring"
+        }
+      ],
+      "intentId": "stretch_and_flexibility"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "coverage@2026-10-27.1",
+  "usage": {
+    "inputTokens": 2700,
+    "outputTokens": 1605
+  },
+  "latencyMs": 4183,
+  "cached": false
+}

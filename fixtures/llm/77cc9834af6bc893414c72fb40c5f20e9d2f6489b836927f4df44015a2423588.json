@@ -1,0 +1,113 @@
+{
+  "data": [
+    {
+      "intentId": "hydraulic_and_height_adjustment",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.9",
+          "text": "seat height (18.3–23\")"
+        },
+        {
+          "fieldId": "attr..bullet.8",
+          "text": "Grade-4 central column"
+        }
+      ],
+      "value": "18.3–23\""
+    },
+    {
+      "intentId": "dimensions_and_sizing",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_dimensions",
+          "text": "26\"D x 24\"W x 41\"H"
+        },
+        {
+          "fieldId": "attr.seat_height",
+          "text": "18.3 inches"
+        },
+        {
+          "fieldId": "attr.seat_depth",
+          "text": "18 inches"
+        }
+      ],
+      "value": "26\"D x 24\"W x 41\"H"
+    },
+    {
+      "intentId": "armrest_features",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "5D Flip-Up Armrests"
+        },
+        {
+          "fieldId": "bullet.3",
+          "text": "adjusted at Height/width/forward/backward/rotate/flip function"
+        }
+      ],
+      "value": "5D Flip-Up Armrests"
+    },
+    {
+      "intentId": "recline_and_rocking",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "3-stage reclining mechanism"
+        },
+        {
+          "fieldId": "bullet.2",
+          "text": "3D Synchro-Tilt Lumbar（Lockable ±1.6\" depth spring-loaded auto-tracking/±2\" height/15° rotation）"
+        }
+      ],
+      "value": "3-stage reclining mechanism"
+    },
+    {
+      "intentId": "appearance_and_color",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.color",
+          "text": "Midnight Mist"
+        },
+        {
+          "fieldId": "attr.style_name",
+          "text": "Modern"
+        }
+      ],
+      "value": "Midnight Mist"
+    },
+    {
+      "intentId": "weight_capacity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.8",
+          "text": "holds up to 300 lbs."
+        }
+      ],
+      "value": "300 lbs"
+    },
+    {
+      "intentId": "breathable_mesh",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "Dual-Stripe AirMesh technology offers 38% better airflow and 25% higher elasticity than standard mesh"
+        }
+      ],
+      "value": "Dual-Stripe AirMesh technology"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+home-office-desk-chairs@mined-live-1",
+  "usage": {
+    "inputTokens": 2392,
+    "outputTokens": 811
+  },
+  "latencyMs": 2551,
+  "cached": false
+}

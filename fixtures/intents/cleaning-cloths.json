@@ -13,84 +13,99 @@
       "id": "weight_and_thickness",
       "kind": "spec",
       "question": "How thick and heavy are the cleaning cloths?",
-      "rubric": "answered: states weight in GSM or thickness measurements. partial: mentions thick or thin without specs.",
+      "rubric": "answered: states thickness or GSM weight. partial: mentions thin or thick.",
       "frequency": 29
     },
     {
       "id": "durability",
       "kind": "claim",
-      "question": "How durable and long-lasting is the construction of the cloth?",
-      "rubric": "answered: highlights heavy-duty stitching or long-lasting durability. partial: mentions durable fabric.",
+      "question": "How durable are the cloths over multiple uses and washes?",
+      "rubric": "answered: details high durability and stitching quality. partial: mentions standard wear.",
       "frequency": 28
     },
     {
       "id": "size",
       "kind": "spec",
-      "question": "What are the dimensions and size of each cloth?",
-      "rubric": "answered: states exact length and width or dimensions. partial: gives vague size description.",
+      "question": "What are the dimensions and size of the cloths?",
+      "rubric": "answered: gives exact dimensions or size. partial: mentions large or small.",
       "frequency": 24
     },
     {
       "id": "softness",
-      "kind": "experience",
-      "question": "How soft do the cloths feel to the touch?",
-      "rubric": "answered: describes tactile softness and plush texture. partial: mentions soft fabric.",
+      "kind": "claim",
+      "question": "How soft is the texture of the cloth?",
+      "rubric": "answered: describes soft texture and pile. partial: mentions moderate softness.",
       "frequency": 23
     },
     {
       "id": "color_variety",
       "kind": "spec",
-      "question": "What colors are available and do they come in a variety pack?",
-      "rubric": "answered: lists specific colors or variety pack contents. partial: mentions colors generally.",
+      "question": "What colors are available in the pack?",
+      "rubric": "answered: lists available colors. partial: mentions assorted colors.",
       "frequency": 21
-    },
-    {
-      "id": "washability",
-      "kind": "spec",
-      "question": "Can the cloths be machine washed and dried?",
-      "rubric": "answered: provides explicit machine washing and care instructions. partial: mentions washable.",
-      "frequency": 19
     },
     {
       "id": "absorbency",
       "kind": "claim",
-      "question": "How well do the cloths absorb liquids and spills?",
-      "rubric": "answered: details absorbency capacity and liquid pickup performance. partial: mentions absorbent material.",
+      "question": "How absorbent are the cloths for spills and drying?",
+      "rubric": "answered: describes high absorbency capacity. partial: mentions moderate liquid pickup.",
       "frequency": 17
     },
     {
-      "id": "material",
+      "id": "fabric_type",
       "kind": "spec",
-      "question": "What is the fabric type and material of the cleaning cloths?",
-      "rubric": "answered: specifies exact fabric type and material composition. partial: mentions general material category.",
+      "question": "What fabric type are the cleaning cloths made of?",
+      "rubric": "answered: specifies the material composition. partial: mentions general fabric type.",
+      "frequency": 16
+    },
+    {
+      "id": "washability",
+      "kind": "spec",
+      "question": "Can these cleaning cloths be machine washed?",
+      "rubric": "answered: states washing and drying instructions. partial: mentions washable.",
       "frequency": 16
     },
     {
       "id": "lint_free",
       "kind": "claim",
-      "question": "Do the cloths leave behind lint or fuzz on surfaces?",
-      "rubric": "answered: guarantees lint-free performance. partial: mentions low lint.",
+      "question": "Do these cloths leave lint behind on surfaces?",
+      "rubric": "answered: claims to be lint-free. partial: mentions very little lint.",
       "frequency": 13
     },
     {
       "id": "streak_free",
       "kind": "claim",
-      "question": "Do the cloths clean glass and mirrors without leaving streaks?",
-      "rubric": "answered: explicitly promises streak-free cleaning on glass or shiny surfaces. partial: mentions general cleaning.",
+      "question": "Do these cloths clean glass and mirrors without leaving streaks?",
+      "rubric": "answered: guarantees streak-free cleaning. partial: mentions minimal streaks.",
       "frequency": 8
     },
     {
       "id": "reusability",
-      "kind": "claim",
-      "question": "Are the cloths designed for repeated long-term reuse?",
-      "rubric": "answered: explicitly states reusable and washable for multiple uses. partial: mentions durable build.",
+      "kind": "spec",
+      "question": "Are these reusable cloths?",
+      "rubric": "answered: states they are reusable. partial: implies multiple uses.",
       "frequency": 6
+    },
+    {
+      "id": "bleach_safe",
+      "kind": "spec",
+      "question": "Are these cloths safe to use with bleach?",
+      "rubric": "answered: explicitly states bleach safety. partial: mentions chemical resistance.",
+      "frequency": 3,
+      "conditional": true
     },
     {
       "id": "scratch_free",
       "kind": "claim",
-      "question": "Are the cloths safe to use on delicate surfaces without scratching?",
-      "rubric": "answered: states scratch-free guarantee for sensitive surfaces. partial: mentions soft edge.",
+      "question": "Are these cloths safe and non-scratching on delicate surfaces?",
+      "rubric": "answered: guarantees scratch-free use on sensitive surfaces. partial: mentions gentle wiping.",
+      "frequency": 3
+    },
+    {
+      "id": "stain_resistance",
+      "kind": "claim",
+      "question": "Do the cloths resist stains or hold onto odors?",
+      "rubric": "answered: claims stain and odor resistance. partial: mentions easy rinsing.",
       "frequency": 3
     }
   ],

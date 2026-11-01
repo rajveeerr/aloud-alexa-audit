@@ -1,0 +1,304 @@
+{
+  "data": [
+    {
+      "claimId": "ic.0",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "chair_size"
+    },
+    {
+      "claimId": "ic.1",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "chair_size"
+    },
+    {
+      "claimId": "ic.2",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "chair_size"
+    },
+    {
+      "claimId": "ic.3",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "chair_size"
+    },
+    {
+      "claimId": "ic.4",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "chair_size"
+    },
+    {
+      "claimId": "ic.5",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "chair_size"
+    },
+    {
+      "claimId": "ic.6",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "chair_size"
+    },
+    {
+      "claimId": "ic.7",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "chair_size"
+    },
+    {
+      "claimId": "ic.8",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "chair_size"
+    },
+    {
+      "claimId": "ic.9",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "chair_size"
+    },
+    {
+      "claimId": "ic.10",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "chair_size"
+    },
+    {
+      "claimId": "ic.11",
+      "coverage": "image_only",
+      "quotes": []
+    },
+    {
+      "claimId": "ic.12",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "chair_size"
+    },
+    {
+      "claimId": "ic.13",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "chair_size"
+    },
+    {
+      "claimId": "ic.14",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "backrest_support"
+    },
+    {
+      "claimId": "ic.15",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "backrest_support"
+    },
+    {
+      "claimId": "ic.16",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "backrest_support"
+    },
+    {
+      "claimId": "ic.17",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "backrest_support"
+    },
+    {
+      "claimId": "ic.18",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "2D Customizable height and angle for personalized neck support."
+        }
+      ],
+      "intentId": "backrest_support"
+    },
+    {
+      "claimId": "ic.19",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "attr.additional_features",
+          "text": "3D Armrest"
+        }
+      ],
+      "intentId": "adjustable_arms"
+    },
+    {
+      "claimId": "ic.20",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Single Lock recline"
+        }
+      ],
+      "intentId": "reclining_mechanism"
+    },
+    {
+      "claimId": "ic.21",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "Ergonomic backrest with adjustable lumber support"
+        }
+      ],
+      "intentId": "backrest_support"
+    },
+    {
+      "claimId": "ic.22",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "BIFMA Class-4 gas lift"
+        }
+      ],
+      "intentId": "hydraulic_lift"
+    },
+    {
+      "claimId": "ic.23",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "strong nylon base"
+        }
+      ],
+      "intentId": "sturdiness"
+    },
+    {
+      "claimId": "ic.24",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Single Lock recline"
+        }
+      ],
+      "intentId": "reclining_mechanism"
+    },
+    {
+      "claimId": "ic.25",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "reclining_mechanism"
+    },
+    {
+      "claimId": "ic.26",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Single Lock recline upto 135"
+        }
+      ],
+      "intentId": "reclining_mechanism"
+    },
+    {
+      "claimId": "ic.27",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "reclining_mechanism"
+    },
+    {
+      "claimId": "ic.28",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Soft 3-direction adjustable armrests"
+        }
+      ],
+      "intentId": "adjustable_arms"
+    },
+    {
+      "claimId": "ic.29",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "adjustable_arms"
+    },
+    {
+      "claimId": "ic.30",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "adjustable_arms"
+    },
+    {
+      "claimId": "ic.31",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "adjustable_arms"
+    },
+    {
+      "claimId": "ic.32",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "sturdiness"
+    },
+    {
+      "claimId": "ic.33",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "fabric_type",
+          "text": "High Quality Imported Mesh"
+        }
+      ],
+      "intentId": "cushioning"
+    },
+    {
+      "claimId": "ic.34",
+      "coverage": "image_only",
+      "quotes": [],
+      "intentId": "swivel_smoothness"
+    },
+    {
+      "claimId": "ic.35",
+      "coverage": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "S Shaped curve supports spinal alignment"
+        }
+      ],
+      "intentId": "backrest_support"
+    },
+    {
+      "claimId": "ic.36",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "adjustable height"
+        }
+      ],
+      "intentId": "adjustable_height"
+    },
+    {
+      "claimId": "ic.37",
+      "coverage": "in_text",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "60 MM Nylon casters"
+        }
+      ],
+      "intentId": "caster_mobility"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "coverage@2026-10-27.1",
+  "usage": {
+    "inputTokens": 1974,
+    "outputTokens": 2125
+  },
+  "latencyMs": 5095,
+  "cached": false
+}

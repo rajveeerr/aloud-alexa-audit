@@ -1,0 +1,89 @@
+{
+  "asin": "B0H4HFHXSN",
+  "promptVersion": "transcribe@2026-10-27.1",
+  "model": "gemini-3.5-flash-lite",
+  "usage": {
+    "inputTokens": 8862,
+    "outputTokens": 548
+  },
+  "images": 8,
+  "skippedImageIds": [],
+  "modelOutput": [
+    {
+      "imageId": "img.0",
+      "claims": []
+    },
+    {
+      "imageId": "img.1",
+      "claims": [
+        "Size Details",
+        "11 in",
+        "20.5 in",
+        "20 in",
+        "26 in",
+        "6 in",
+        "23 in",
+        "10 in",
+        "19.5 in",
+        "26 in A",
+        "32.5 in B",
+        "Tolerance \u001040 mm",
+        "Gas lift & arm rest down",
+        "Gas lift up & arm rest up 26-32.5 A-B"
+      ]
+    },
+    {
+      "imageId": "img.2",
+      "claims": []
+    },
+    {
+      "imageId": "img.3",
+      "claims": [
+        "Cervical",
+        "Thoracic",
+        "Lumbar",
+        "Sacrum"
+      ]
+    },
+    {
+      "imageId": "img.4",
+      "claims": [
+        "2-Way Adjustable Headrest",
+        "3D Armrest",
+        "Anti - Fall Singlelock Synchro Mechanism",
+        "1D Adjustable Lumbar Support",
+        "Class 4 gas lift",
+        "Heavy Duty Nylon Base"
+      ]
+    },
+    {
+      "imageId": "img.5",
+      "claims": [
+        "Antifall Synchro Tilt Mechanism",
+        "90\u0000 Concentrating",
+        "135\u0000 Relaxing",
+        "Tight or loose rocking tension"
+      ]
+    },
+    {
+      "imageId": "img.6",
+      "claims": [
+        "3D Adjustable Armrest For Perfect Support",
+        "Right & Left",
+        "Forward & Back",
+        "Up & Down"
+      ]
+    },
+    {
+      "imageId": "img.7",
+      "claims": [
+        "Heavy Duty Chrome Base",
+        "High-Tensile Air-Channel Mesh",
+        "360\u0000 Swivel",
+        "Spine Shaped Back",
+        "Height Adjustable",
+        "60mm Castors"
+      ]
+    }
+  ]
+}

@@ -10,88 +10,88 @@
   "sampleSize": 172,
   "intents": [
     {
-      "id": "puncture_and_tear_resistance",
+      "id": "overall_strength",
       "kind": "claim",
-      "question": "How resistant are the bags to tearing, punctures, and splitting?",
-      "rubric": "answered: puncture and tear resistance specs or claims. partial: general durability note.",
-      "frequency": 68
+      "question": "How strong and sturdy are these trash bags?",
+      "rubric": "answered: specifies high strength, heavy-duty material, or load ratings. partial: mentions thick construction without specific tests.",
+      "frequency": 82
     },
     {
-      "id": "overall_strength_and_load",
+      "id": "tear_resistance",
       "kind": "claim",
-      "question": "What is the overall strength and load capacity of the bags?",
-      "rubric": "answered: weight limit or heavy-duty claim stated. partial: general strength mention.",
-      "frequency": 67
+      "question": "Do these bags resist tearing when loaded?",
+      "rubric": "answered: explicitly states tear-resistant features or rip-stop technology. partial: mentions durable material generally.",
+      "frequency": 56
     },
     {
-      "id": "bag_scent",
+      "id": "bag_dimensions_and_size",
       "kind": "spec",
-      "question": "What scent do the trash bags have?",
-      "rubric": "answered: specific scent or fragrance stated. partial: says scented without details.",
+      "question": "What are the dimensions and size of each bag?",
+      "rubric": "answered: explicitly provides height, width, and gallon size. partial: provides gallon capacity only.",
+      "frequency": 44
+    },
+    {
+      "id": "scent_and_odor",
+      "kind": "spec",
+      "question": "Do these bags have a scent or mask odors effectively?",
+      "rubric": "answered: lists specific scents or odor-blocking technology. partial: mentions freshness without naming scent type.",
       "frequency": 41
     },
     {
       "id": "drawstring_features",
       "kind": "spec",
-      "question": "What type of drawstring do the bags have and how strong is it?",
-      "rubric": "answered: type and strength details of the drawstring. partial: only mentions drawstring.",
+      "question": "Do these bags have drawstrings and how strong are they?",
+      "rubric": "answered: states drawstring presence, type, and reinforced strength. partial: mentions closures generally.",
       "frequency": 39
-    },
-    {
-      "id": "bag_size",
-      "kind": "spec",
-      "question": "What is the size and capacity of the trash bags?",
-      "rubric": "answered: exact dimensions or gallon capacity stated. partial: vague size description.",
-      "frequency": 31
     },
     {
       "id": "stretch_and_flexibility",
       "kind": "claim",
-      "question": "Do the bags stretch and flex to accommodate bulky loads?",
-      "rubric": "answered: stretchable material claims or expansion capability. partial: mentions flexible plastic.",
+      "question": "Do these bags stretch and flex under pressure?",
+      "rubric": "answered: states stretchable plastic or core-flex technology. partial: mentions flexible material.",
       "frequency": 22
     },
     {
       "id": "leak_proof",
       "kind": "claim",
-      "question": "Are the bags leak-proof to prevent liquid messes?",
-      "rubric": "answered: explicit leak-proof promise or waterproof rating. partial: moisture resistant.",
+      "question": "Are these bags leak-proof and waterproof?",
+      "rubric": "answered: states leak-proof, waterproof, or liquid-containing guarantee. partial: mentions thick bottom seal.",
       "frequency": 20
     },
     {
-      "id": "can_fit",
+      "id": "puncture_resistance",
       "kind": "claim",
-      "question": "Will these bags fit my specific trash can size and stay in place?",
-      "rubric": "answered: intended bin size and rim grip claims stated. partial: fits standard cans only.",
-      "frequency": 19
-    },
-    {
-      "id": "bag_durability",
-      "kind": "claim",
-      "question": "Are the bags durable enough for long-term or heavy daily use?",
-      "rubric": "answered: heavy-duty or long-lasting claims. partial: standard durability mention.",
-      "frequency": 19
-    },
-    {
-      "id": "material_thickness",
-      "kind": "spec",
-      "question": "What is the material thickness of the bags?",
-      "rubric": "answered: mil thickness or gauge stated. partial: general thick or thin mention.",
+      "question": "Do these bags resist punctures from sharp objects?",
+      "rubric": "answered: states puncture-resistant design or thick plastic guarding against pokes. partial: general heavy-duty claim.",
       "frequency": 18
     },
     {
-      "id": "bag_count",
+      "id": "bag_thickness",
       "kind": "spec",
-      "question": "How many bags are included in the package?",
-      "rubric": "answered: exact total count of bags stated. partial: box weight only.",
+      "question": "How thick is the material used for these bags?",
+      "rubric": "answered: provides mil thickness or gauge measurements. partial: mentions heavy-duty or thick plastic without numbers.",
+      "frequency": 18
+    },
+    {
+      "id": "item_count",
+      "kind": "spec",
+      "question": "How many bags are included in a pack?",
+      "rubric": "answered: states total count per box or pack. partial: mentions bulk pack without exact count.",
       "frequency": 6
     },
     {
-      "id": "dispensing_and_opening_ease",
-      "kind": "experience",
-      "question": "Are the bags easy to dispense from the box and open for use?",
-      "rubric": "answered: design claims for easy dispensing and opening. partial: mentions packaging style.",
+      "id": "opening_and_dispensing",
+      "kind": "claim",
+      "question": "Are these bags easy to open and dispense from the package?",
+      "rubric": "answered: describes dispensing box design or easy-open top seams. partial: mentions user-friendly packaging.",
       "frequency": 6
+    },
+    {
+      "id": "load_capacity",
+      "kind": "spec",
+      "question": "What is the maximum weight load capacity for these bags?",
+      "rubric": "answered: states weight limit or heavy load rating. partial: mentions heavy duty.",
+      "frequency": 3
     }
   ],
   "reviewSource": "walmart",

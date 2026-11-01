@@ -1,0 +1,1328 @@
+{
+  "product_results": {
+    "categories": [
+      {
+        "position": 1,
+        "name": "Home & Kitchen",
+        "link": "https://www.amazon.com/home-garden-kitchen-furniture-bedding/b/ref=dp_bc_1?ie=UTF8&node=1055398",
+        "node": "1055398",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1055398"
+      },
+      {
+        "position": 2,
+        "name": "Furniture",
+        "link": "https://www.amazon.com/Furniture/b/ref=dp_bc_2?ie=UTF8&node=1063306",
+        "node": "1063306",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1063306"
+      },
+      {
+        "position": 3,
+        "name": "Home Office Furniture",
+        "link": "https://www.amazon.com/Home-Office-Furniture/b/ref=dp_bc_3?ie=UTF8&node=1063312",
+        "node": "1063312",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1063312"
+      },
+      {
+        "position": 4,
+        "name": "Home Office Chairs",
+        "link": "https://www.amazon.com/b/ref=dp_bc_4?ie=UTF8&node=18682064011",
+        "node": "18682064011",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=18682064011"
+      },
+      {
+        "position": 5,
+        "name": "Home Office Desk Chairs",
+        "link": "https://www.amazon.com/Home-Office-Desk-Chairs-Furniture/b/ref=dp_bc_5?ie=UTF8&node=3733721",
+        "node": "3733721",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=3733721"
+      }
+    ],
+    "asin": "B0CP22DQQS",
+    "title": "Marsail Ergonomic Office Chair: Office Desk Chair with High Back Mesh and Adjustable Lumbar Support Rolling Work Swivel Task Chairs with Wheel 3D Armrests and Headrest",
+    "link": "https://www.amazon.com/Marsail-Ergonomic-Office-Chair-Adjustable/dp/B0CP22DQQS/",
+    "link_clean": "https://www.amazon.com/dp/B0CP22DQQS/",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CP22DQQS&device=desktop&engine=amazon_product",
+    "badges": [
+      "Amazon's Choice"
+    ],
+    "variants": [
+      {
+        "title": "Color",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B0CP22DQQS",
+            "name": "Black",
+            "image": "https://m.media-amazon.com/images/I/414F2+8uGaL._SS64_.jpg",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CP22DQQS&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B0FN7DY2V7",
+            "name": "Black & White",
+            "image": "https://m.media-amazon.com/images/I/41kuMV2ii8L._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FN7DY2V7&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B0FN7CXTPC",
+            "name": "Blue",
+            "image": "https://m.media-amazon.com/images/I/41eWrFW-R1L._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FN7CXTPC&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 4,
+            "asin": "B0GWD8ZZXZ",
+            "name": "Dark",
+            "image": "https://m.media-amazon.com/images/I/51uXFY3ghKL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GWD8ZZXZ&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 5,
+            "asin": "B0DDC8MWCB",
+            "name": "Grey",
+            "image": "https://m.media-amazon.com/images/I/41svbCf7aUL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DDC8MWCB&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 6,
+            "asin": "B0HN1JGTP2",
+            "name": "Ink Black",
+            "image": "https://m.media-amazon.com/images/I/513s6pG5qVL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0HN1JGTP2&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 7,
+            "asin": "B0HN4P1K29",
+            "name": "Light Black",
+            "image": "https://m.media-amazon.com/images/I/41NurOpD7SL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0HN4P1K29&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 8,
+            "asin": "B0HN4RCRW7",
+            "name": "Midnight Black",
+            "image": "https://m.media-amazon.com/images/I/41g4Z6aVSyL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0HN4RCRW7&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 9,
+            "asin": "B0HN4VP6HS",
+            "name": "Soft Black",
+            "image": "https://m.media-amazon.com/images/I/31jPgAscFwL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0HN4VP6HS&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 10,
+            "asin": "B0DDC9PWK1",
+            "name": "White",
+            "image": "https://m.media-amazon.com/images/I/4149RwKw+SL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DDC9PWK1&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 11,
+            "asin": "B0HNK9W86Z",
+            "name": "White & Black",
+            "image": "https://m.media-amazon.com/images/I/51rUnkaMcZL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0HNK9W86Z&device=desktop&engine=amazon_product"
+          }
+        ]
+      },
+      {
+        "title": "Number of Items",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B0CP22DQQS",
+            "name": "1",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CP22DQQS&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B0H7BK8B14",
+            "name": "2",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0H7BK8B14&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B0H7BNZQQG",
+            "name": "3",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0H7BNZQQG&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 4,
+            "asin": "B0H7BPKKW5",
+            "name": "4",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0H7BPKKW5&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 5,
+            "asin": "B0H7BMD91B",
+            "name": "5",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0H7BMD91B&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 6,
+            "asin": "B0H7BKXLD1",
+            "name": "10",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0H7BKXLD1&device=desktop&engine=amazon_product"
+          }
+        ]
+      }
+    ],
+    "variant_combinations": [
+      {
+        "dimensions": {
+          "color": "Black",
+          "number_of_items": "1"
+        },
+        "asin": "B0CP22DQQS",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CP22DQQS&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Black",
+          "number_of_items": "2"
+        },
+        "asin": "B0H7BK8B14",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0H7BK8B14&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Black",
+          "number_of_items": "3"
+        },
+        "asin": "B0H7BNZQQG",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0H7BNZQQG&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Black",
+          "number_of_items": "4"
+        },
+        "asin": "B0H7BPKKW5",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0H7BPKKW5&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Black",
+          "number_of_items": "5"
+        },
+        "asin": "B0H7BMD91B",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0H7BMD91B&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Black",
+          "number_of_items": "10"
+        },
+        "asin": "B0H7BKXLD1",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0H7BKXLD1&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Black & White",
+          "number_of_items": "1"
+        },
+        "asin": "B0FN7DY2V7",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FN7DY2V7&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Black & White",
+          "number_of_items": "2"
+        },
+        "asin": "B0H7BCG384",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0H7BCG384&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Black & White",
+          "number_of_items": "3"
+        },
+        "asin": "B0H7BFWNKW",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0H7BFWNKW&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Black & White",
+          "number_of_items": "4"
+        },
+        "asin": "B0H7BLJ82Q",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0H7BLJ82Q&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Black & White",
+          "number_of_items": "5"
+        },
+        "asin": "B0H7BJN5ZK",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0H7BJN5ZK&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Black & White",
+          "number_of_items": "10"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Blue",
+          "number_of_items": "1"
+        },
+        "asin": "B0FN7CXTPC",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FN7CXTPC&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Blue",
+          "number_of_items": "2"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Blue",
+          "number_of_items": "3"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Blue",
+          "number_of_items": "4"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Blue",
+          "number_of_items": "5"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Blue",
+          "number_of_items": "10"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Dark",
+          "number_of_items": "1"
+        },
+        "asin": "B0GWD8ZZXZ",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GWD8ZZXZ&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Dark",
+          "number_of_items": "2"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Dark",
+          "number_of_items": "3"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Dark",
+          "number_of_items": "4"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Dark",
+          "number_of_items": "5"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Dark",
+          "number_of_items": "10"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Grey",
+          "number_of_items": "1"
+        },
+        "asin": "B0DDC8MWCB",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DDC8MWCB&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Grey",
+          "number_of_items": "2"
+        },
+        "asin": "B0H7BNK1PH",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0H7BNK1PH&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Grey",
+          "number_of_items": "3"
+        },
+        "asin": "B0H7BTM8GW",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0H7BTM8GW&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Grey",
+          "number_of_items": "4"
+        },
+        "asin": "B0H7BP55F9",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0H7BP55F9&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Grey",
+          "number_of_items": "5"
+        },
+        "asin": "B0H7BR879B",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0H7BR879B&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Grey",
+          "number_of_items": "10"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Ink Black",
+          "number_of_items": "1"
+        },
+        "asin": "B0HN1JGTP2",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0HN1JGTP2&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Ink Black",
+          "number_of_items": "2"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Ink Black",
+          "number_of_items": "3"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Ink Black",
+          "number_of_items": "4"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Ink Black",
+          "number_of_items": "5"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Ink Black",
+          "number_of_items": "10"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Light Black",
+          "number_of_items": "1"
+        },
+        "asin": "B0HN4P1K29",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0HN4P1K29&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Light Black",
+          "number_of_items": "2"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Light Black",
+          "number_of_items": "3"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Light Black",
+          "number_of_items": "4"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Light Black",
+          "number_of_items": "5"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Light Black",
+          "number_of_items": "10"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Midnight Black",
+          "number_of_items": "1"
+        },
+        "asin": "B0HN4RCRW7",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0HN4RCRW7&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Midnight Black",
+          "number_of_items": "2"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Midnight Black",
+          "number_of_items": "3"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Midnight Black",
+          "number_of_items": "4"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Midnight Black",
+          "number_of_items": "5"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Midnight Black",
+          "number_of_items": "10"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Soft Black",
+          "number_of_items": "1"
+        },
+        "asin": "B0HN4VP6HS",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0HN4VP6HS&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "Soft Black",
+          "number_of_items": "2"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Soft Black",
+          "number_of_items": "3"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Soft Black",
+          "number_of_items": "4"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Soft Black",
+          "number_of_items": "5"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "Soft Black",
+          "number_of_items": "10"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "White",
+          "number_of_items": "1"
+        },
+        "asin": "B0DDC9PWK1",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DDC9PWK1&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "White",
+          "number_of_items": "2"
+        },
+        "asin": "B0H7BQ5D48",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0H7BQ5D48&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "White",
+          "number_of_items": "3"
+        },
+        "asin": "B0H7BRS428",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0H7BRS428&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "White",
+          "number_of_items": "4"
+        },
+        "asin": "B0H7BF64LJ",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0H7BF64LJ&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "White",
+          "number_of_items": "5"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "White",
+          "number_of_items": "10"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "White & Black",
+          "number_of_items": "1"
+        },
+        "asin": "B0HNK9W86Z",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0HNK9W86Z&device=desktop&engine=amazon_product"
+      },
+      {
+        "dimensions": {
+          "color": "White & Black",
+          "number_of_items": "2"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "White & Black",
+          "number_of_items": "3"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "White & Black",
+          "number_of_items": "4"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "White & Black",
+          "number_of_items": "5"
+        },
+        "unavailable": true
+      },
+      {
+        "dimensions": {
+          "color": "White & Black",
+          "number_of_items": "10"
+        },
+        "unavailable": true
+      }
+    ],
+    "brand": "Visit the Marsail Store",
+    "thumbnail": "https://m.media-amazon.com/images/I/712kZm3lUrL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "thumbnails": [
+      "https://m.media-amazon.com/images/I/712kZm3lUrL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71V-LvPJTwL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61k19nDmbYL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81JymDVNgaL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81GyRz690pL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61dCnpI8MpL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71UZ5d+dIyL._AC_SL1500_.jpg"
+    ],
+    "rating": 4.2,
+    "reviews": 2093,
+    "bought_last_month": "4K+ bought in past month",
+    "discount": "-7%",
+    "price": "$129.99",
+    "extracted_price": 129.99,
+    "old_price": "$139.99",
+    "extracted_old_price": 139.99,
+    "delivery": [
+      "This item cannot be shipped to your selected delivery location. Please choose a different delivery location."
+    ],
+    "stock": "In Stock"
+  },
+  "purchase_options": {
+    "buy_new": {
+      "caption": "Buy New",
+      "price": "$129.99",
+      "extracted_price": 129.99,
+      "delivery": [
+        "This item cannot be shipped to your selected delivery location. Please choose a different delivery location."
+      ],
+      "stock": "In Stock",
+      "features": {
+        "shipper_seller": {
+          "text": "Amazon.com",
+          "details": {
+            "heading": "Shipper / Seller",
+            "content": "Amazon.com"
+          }
+        },
+        "returns": {
+          "text": "Returnable until Jan 31, 2027",
+          "details": {
+            "heading": "Returnable until Jan 31, 2027",
+            "content": "For the 2026 holiday season, eligible items purchased between November 1 and December 31, 2026 can be returned until January 31, 2027."
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "packaging": {
+          "text": "Ships in product packaging",
+          "details": {
+            "heading": "Ships in product packaging",
+            "content": "This item has been tested to certify it can ship safely in its original box or bag to avoid unnecessary packaging. Since 2015, we have reduced the weight of outbound packaging per shipment by 41% on average, that’s over 2 million tons of packaging material.If you still require Amazon packaging for this item, choose \"Ship in Amazon packaging\" at checkout. Learn more"
+          },
+          "link": {
+            "text": "Learn more",
+            "link": "https://www.amazon.com/sipp_home"
+          }
+        }
+      }
+    },
+    "buy_used": {
+      "caption": "Used - Like New",
+      "price": "$119.59",
+      "extracted_price": 119.59,
+      "delivery": [
+        "This item cannot be shipped to your selected delivery location. Please choose a different delivery location."
+      ],
+      "stock": "Only 6 left in stock - order soon.",
+      "features": {
+        "ships_from": "Amazon",
+        "sold_by": "Amazon Resale"
+      }
+    }
+  },
+  "protection_plan": [
+    {
+      "position": 1,
+      "asin": "B0CG6RYDXY",
+      "link": "https://www.amazon.com/dp/B0CG6RYDXY/",
+      "title": "2-Year Protection Plan",
+      "price": "$27.99",
+      "extracted_price": 27.99
+    },
+    {
+      "position": 2,
+      "asin": "B0CG6QPQD6",
+      "link": "https://www.amazon.com/dp/B0CG6QPQD6/",
+      "title": "3-Year Protection Plan",
+      "price": "$34.99",
+      "extracted_price": 34.99
+    },
+    {
+      "position": 3,
+      "asin": "B07RZ3LSHM",
+      "link": "https://www.amazon.com/dp/B07RZ3LSHM/",
+      "title": "Complete Protect: One plan covers all past and future eligible purchases (Broadest Coverage)",
+      "price": "$16.99/month",
+      "extracted_price": 16.99
+    }
+  ],
+  "item_specifications": {
+    "brand": "Marsail",
+    "color": "Black",
+    "material": "Metal, Plastic",
+    "product_dimensions": "46.9\"D x 24.8\"W x 24.4\"H",
+    "size": "46.9\" x 24.8\" x 24.4\""
+  },
+  "about_item": [
+    "Fully Adjustable Office Chair: Customized chairs, featuring with an adjustable 2D headrest, backrest with 90° to 120° recline, and 3D adjustable armrests for multiple work postures at will and discover unparalleled comfort throughout the workday.",
+    "Adaptable Lumbar Support: Our computer chair lumbar support system adjusts 1.18\" forward & backward and 2.16\" up & down to precisely match your height and body shape, providing tailored comfort and promoting optimal sitting posture.",
+    "Supportive Mesh: The minimalist mesh backrest molds to your back with responsive support while promoting maximum airflow to keep you cool. Every component is designed with your safety and well-being in mind.",
+    "Comfy Desk Chair Seat: Adapting 3.14\" thick high-density foam to desk chair seat，double your comfort in daily work moreover high weight capacity 330 lbs for long-term durability. Wider seat provides a larger load-bearing area, enhancing overall support and sitting ease.",
+    "Flexible Armrests: Move smoothly rounded PU-padded armrests forward or back and swivel them left or right to find the optimal arm position. Flip the armrests up when you want more freedom or to easily slide the ergonomic chair under the desk."
+  ],
+  "product_description": [
+    {
+      "position": 1
+    },
+    {
+      "position": 2,
+      "title": "ergonomic office chair",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d576dea9-332b-4109-8be8-cfc866686dbb.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 3,
+      "title": "Recline&amp;amp;Tilt-Rock",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/674d4a7e-e362-449f-b0bd-3e3e897ce7b2.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 4,
+      "title": "ergonomic office chair",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/dbcfd7b7-a598-4f87-a3eb-8f889322ab66.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 5,
+      "title": "ergonomic office chair",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/3fc8a256-cdb8-442a-8f59-e300a4763fbc.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 6,
+      "compare_with_similar": [
+        {
+          "position": 1,
+          "asin": "B0FF3XBWFY",
+          "title": "Premium Mesh Chair MSOC28",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/f9c75905-d14c-46d2-bf25-3b18261624c0.__AC_SR200,225___.jpg",
+          "link": "https://www.amazon.com/dp/B0FF3XBWFY?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FF3XBWFY&device=desktop&engine=amazon_product",
+          "rating": 4.3,
+          "reviews": 293,
+          "price": "$129.99",
+          "extracted_price": 129.99,
+          "material": "Mseh",
+          "ergonomic_design": "✔",
+          "lumbar_support": "✔",
+          "armrest_type": "Up and down adjustable armrest",
+          "tilt_rock_angel": "90°-130° (Rocking)",
+          "max_recommended_weight": "300lbs",
+          "seat_width": "19.7\"",
+          "seat_depth": "19.3\"",
+          "seat_height": "18.1\"-21.3\"",
+          "overall_height": "43.7\"-51.4\"",
+          "service": "5 Years"
+        },
+        {
+          "position": 2,
+          "asin": "B0FN7DY2V7",
+          "title": "Office Chair MSOC10W-B",
+          "thumbnail": "https://m.media-amazon.com/images/I/412--voGiBL.__AC_SR200,225___.jpg",
+          "link": "https://www.amazon.com/dp/B0FN7DY2V7?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FN7DY2V7&device=desktop&engine=amazon_product",
+          "rating": 4.2,
+          "reviews": 2093,
+          "price": "$131.24",
+          "extracted_price": 131.24,
+          "material": "Mseh",
+          "ergonomic_design": "✔",
+          "lumbar_support": "✔",
+          "armrest_type": "forward-back &left-right",
+          "tilt_rock_angel": "90°-130° (Rocking)",
+          "max_recommended_weight": "300lbs",
+          "seat_width": "19.7\"",
+          "seat_depth": "20\"",
+          "seat_height": "17.7\"-21.6\"",
+          "overall_height": "44.9\"-52\"",
+          "service": "5 Years"
+        },
+        {
+          "position": 3,
+          "asin": "B0GWD8ZZXZ",
+          "title": "Premium Mesh Chair OFC48B",
+          "thumbnail": "https://m.media-amazon.com/images/I/51uXFY3ghKL.__AC_SR200,225___.jpg",
+          "link": "https://www.amazon.com/dp/B0GWD8ZZXZ?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GWD8ZZXZ&device=desktop&engine=amazon_product",
+          "rating": 4.2,
+          "reviews": 2093,
+          "price": "$129.99",
+          "extracted_price": 129.99,
+          "material": "Mesh",
+          "ergonomic_design": "✔",
+          "lumbar_support": "✔",
+          "armrest_type": "6D Armrest",
+          "tilt_rock_angel": "95°-123° (Rocking)",
+          "max_recommended_weight": "330lbs",
+          "seat_width": "20.7\"",
+          "seat_depth": "21.6\"",
+          "seat_height": "15.55\"-19.29\"",
+          "overall_height": "48.92\"-54.35\"",
+          "service": "5 Years"
+        },
+        {
+          "position": 4,
+          "asin": "B0DKP341VM",
+          "title": "Premium Mesh Chair MSOC23",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/97861d9b-32c4-4b81-8c62-a27d7a89797c.__AC_SR200,225___.jpg",
+          "link": "https://www.amazon.com/dp/B0DKP341VM?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DKP341VM&device=desktop&engine=amazon_product",
+          "rating": 4.2,
+          "reviews": 193,
+          "price": "$161.89",
+          "extracted_price": 161.89,
+          "material": "Mseh",
+          "ergonomic_design": "✔",
+          "lumbar_support": "✔",
+          "armrest_type": "Flip-up Armrests",
+          "tilt_rock_angel": "90°-120° (Rocking)",
+          "max_recommended_weight": "300lbs",
+          "seat_width": "19.69\"",
+          "seat_depth": "21.47\"",
+          "seat_height": "18.89\"-22.83\"",
+          "overall_height": "44.06\"-52.75\"",
+          "service": "5 Years"
+        },
+        {
+          "position": 5,
+          "asin": "B0GSZZKMKB",
+          "title": "Executive Chair MSOC4",
+          "thumbnail": "https://m.media-amazon.com/images/I/410hWYonOIL.__AC_SR200,225___.jpg",
+          "link": "https://www.amazon.com/dp/B0GSZZKMKB?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GSZZKMKB&device=desktop&engine=amazon_product",
+          "rating": 4.2,
+          "reviews": 64,
+          "price": "$129.99",
+          "extracted_price": 129.99,
+          "material": "Leather, Plastic, Wood",
+          "ergonomic_design": "✘",
+          "lumbar_support": "✘",
+          "armrest_type": "Flip-up Armrests",
+          "tilt_rock_angel": "90°-120° (Rocking)",
+          "max_recommended_weight": "300lbs",
+          "seat_width": "20.3\"",
+          "seat_depth": "18.9\"",
+          "seat_height": "15.6''-22.19.5''",
+          "overall_height": "43.2\"-47.1\"",
+          "service": "5 Years"
+        },
+        {
+          "position": 6,
+          "asin": "B0H6GYH65W",
+          "title": "Mesh Chair HNOFC47",
+          "thumbnail": "https://m.media-amazon.com/images/I/51vK9tjDm-L.__AC_SR200,225___.jpg",
+          "link": "https://www.amazon.com/dp/B0H6GYH65W?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0H6GYH65W&device=desktop&engine=amazon_product",
+          "rating": 4.1,
+          "reviews": 362,
+          "price": "$199.99",
+          "extracted_price": 199.99,
+          "material": "Mesh",
+          "ergonomic_design": "✔",
+          "lumbar_support": "✔",
+          "armrest_type": "Flip-up Armrests",
+          "tilt_rock_angel": "90°-121° (Rocking)",
+          "max_recommended_weight": "330lbs",
+          "seat_width": "21.6\"",
+          "seat_depth": "20.9\"",
+          "seat_height": "15.5\"19.29\"",
+          "overall_height": "48.92\"-54.35\"",
+          "service": "5 Years"
+        },
+        {
+          "position": 7,
+          "asin": "B0DYCMXYYF",
+          "title": "Drafting Chair MSOC27",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/929c6ffa-303f-4b0e-ad2b-4dda0d4ac36b.__AC_SR200,225___.jpg",
+          "link": "https://www.amazon.com/dp/B0DYCMXYYF?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DYCMXYYF&device=desktop&engine=amazon_product",
+          "rating": 4.4,
+          "reviews": 137,
+          "price": "$118.97",
+          "extracted_price": 118.97,
+          "material": "Mesh",
+          "ergonomic_design": "✔",
+          "lumbar_support": "✔",
+          "armrest_type": "Flip-up Armrests",
+          "tilt_rock_angel": "0°",
+          "max_recommended_weight": "300lbs",
+          "seat_width": "19.7\"",
+          "seat_depth": "19.3\"",
+          "seat_height": "17.7\"-21.6\"",
+          "overall_height": "37.8\"-41.9\"",
+          "service": "5 Years"
+        }
+      ]
+    }
+  ],
+  "product_details": {
+    "brand_name": "Marsail",
+    "additional_features": "Adjustable Backrest, Adjustable Headrest, Adjustable Height, Adjustable Lumbar, Arm Rest",
+    "unit_count": "1 Count",
+    "recommended_uses_for_product": "Office, Reading, Relaxing",
+    "room_type": "Bedroom, Home, Living Room, Office, Study Room",
+    "age_range_description": "Adult",
+    "included_components": "Arm Pad, Caster, Cushion",
+    "model_name": "RM-MSOC10B",
+    "surface_recommendation": "Hard Floor",
+    "indoor_outdoor_usage": "Indoor",
+    "model_number": "RM-MSOC10B",
+    "upc": "810145636695",
+    "number_of_packs": "1",
+    "manufacturer": "BESTQI INNOVATION (HONGKONG)TECHNOLOGY CO., LIMITED",
+    "item_type_name": "Office Chair",
+    "manufacturer_part_number": "RM-MSOC10B",
+    "number_of_items": "1",
+    "best_sellers_rank": [
+      {
+        "text": "#4,827 in Home & Kitchen (See Top 100 in Home & Kitchen)",
+        "extracted_rank": 4827,
+        "link": "https://www.amazon.com/gp/bestsellers/home-garden/ref=pd_zg_ts_home-garden",
+        "link_text": "See Top 100 in Home & Kitchen"
+      },
+      {
+        "text": "#6 in Home Office Desk Chairs",
+        "extracted_rank": 6,
+        "link": "https://www.amazon.com/gp/bestsellers/home-garden/3733721/ref=pd_zg_hrsr_home-garden",
+        "link_text": "Home Office Desk Chairs"
+      }
+    ],
+    "asin": "B0CP22DQQS",
+    "customer_reviews": "4.2 out of 5 stars",
+    "rating": 4.2,
+    "reviews": 2093,
+    "material_type": "Metal, Plastic",
+    "frame_material_type": "Nylon",
+    "product_care_instructions": "Dry Clean",
+    "seat_material": "Foam",
+    "fill_material": "Foam",
+    "upholstery_fabric_type": "Mesh",
+    "color": "Black",
+    "back_style": "Mesh Back",
+    "style_name": "With Headrest",
+    "pattern": "Solid",
+    "theme": "Office",
+    "shape": "S-Shape",
+    "arm_style": "With arms",
+    "furniture_finish": "Nylon",
+    "cushion_style": "Boxed Edge",
+    "leg_style": "Swivel Leg",
+    "form_factor": "Metal, Plastic",
+    "item_dimensions_d_x_w_x_h": "46.9\"D x 24.8\"W x 24.4\"H",
+    "size": "46.9\" x 24.8\" x 24.4\"",
+    "item_weight": "30.4 pounds",
+    "seat_back_interior_height": "31.5 inches",
+    "seat_height": "21.6 inches",
+    "seat_depth": "29.5 inches",
+    "seat_length": "23.6 inches",
+    "chair_backrest_width": "46.06 inches",
+    "item_depth": "46.06 inches",
+    "item_dimensions": "46.9 x 24.8 x 24.4 inches",
+    "furniture_base_movement": "Swivel",
+    "reclining_position_count": "2",
+    "maximum_weight_recommendation": "330 pounds",
+    "assembly_instructions_description": "Assembly required. Instructions included."
+  },
+  "reviews_information": {
+    "summary": {
+      "text": "Customers find the office chair to be of good quality and easy to assemble, appreciating its value for money. The back support and armrest adjustability receive mixed feedback - while some praise the lumbar and headrest support, others note it won't lean back even with adjustment. The chair's sturdiness, cushioning, and build quality also get mixed reviews, with some finding it robust while others report it isn't sturdy at all.",
+      "insights": [
+        {
+          "title": "Quality",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 441,
+            "positive": 360,
+            "negative": 81
+          },
+          "summary": "Customers find the office chair to be of good quality, with one customer describing it as a perfect office chair.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "⭐⭐⭐⭐⭐ Great Chair for My Home Office! I’m really happy with this chair! It has a sleek, modern design that looks great in my home office....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R25HWU34XO1YWS"
+            },
+            {
+              "position": 2,
+              "snippet": "Good chair all the functions work well I don’t really care for the armrest rotating but the fact they lift up an extend is nice. It’s comfortable....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3SAGEKK1309DB"
+            },
+            {
+              "position": 3,
+              "snippet": "It's comfortable and great! I followed the video, and it was an easy setup. Took about 50 mins.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R8FXQEL24VUA4"
+            },
+            {
+              "position": 4,
+              "snippet": "...I use it some 8 hours a day, it's very comfortable, and highly recommend. Thus far great product for the value.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1K7PC7LGQ775Y"
+            }
+          ]
+        },
+        {
+          "title": "Assembly",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 269,
+            "positive": 255,
+            "negative": 14
+          },
+          "summary": "Customers find the chair easy to assemble, with items labeled correctly and clearly, and don't need two people to complete the process.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...But it paid off! Those chair was not only easy to assemble but is very comfortable. I work from home and sit in it for long periods without trouble....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R38WOIXONVDJQY"
+            },
+            {
+              "position": 2,
+              "snippet": "Easy to put together, great instructions! Really like the chair, everything works great! Looks good, comfortable and sturdy. Fits good too!...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2WT84XK5D47BM"
+            },
+            {
+              "position": 3,
+              "snippet": "...Overall, I’m very happy with this chair. Easy assembly, comfortable for long work sessions, reasonably priced, and still holding up great after a...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3BEI5K5HLQVEP"
+            },
+            {
+              "position": 4,
+              "snippet": "...Very easy to assemble, very comfortable after hours of sitting. Price is reasonable and after owning it for a while, totally worth every dollar....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RWNW4H6QFA0X3"
+            }
+          ]
+        },
+        {
+          "title": "Value for money",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 259,
+            "positive": 207,
+            "negative": 52
+          },
+          "summary": "Customers find the chair offers good value for money, with several mentioning it's a great product for the price and they would buy it again. One customer particularly appreciates the armrest feature that disappears when not needed.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Nice quality chair at a great price. Seems like it will hold up and was easy to put together.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R33HKYRAGN6319"
+            },
+            {
+              "position": 2,
+              "snippet": "...this chair because it was the same style and looked to be a great value. This chair is amazingly comfortable. It is everything I wanted in a chair....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3A9VY9J1HCDLZ"
+            },
+            {
+              "position": 3,
+              "snippet": "Great chair for the price and very high quality and design!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1EHLFY7YO05LY"
+            },
+            {
+              "position": 4,
+              "snippet": "DO NOT BUY!!! I’ve had it for 3 weeks and it’s giving me back pain, absolutely no space to lean back, really discomforting.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1EQVG2N7YTPYA"
+            }
+          ]
+        },
+        {
+          "title": "Adjustability",
+          "sentiment": "mixed",
+          "mentions": {
+            "total": 213,
+            "positive": 131,
+            "negative": 82
+          },
+          "summary": "Customers have mixed opinions about the chair's adjustability, with some finding the 2D headrest good and easy to assemble, while others report that the chair constantly shifts and is not adjustable up and down.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "This chair is comfy, adjustable, easy to build, stylish, looks great in my office, and sturdy!! Very great chair for the value!!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R26HZFCAP4USWY"
+            },
+            {
+              "position": 2,
+              "snippet": "...Also not adjustable up and down instead it’s only angle up and down , so if you have an adjustable table it’s ok otherwise limited adjustments",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2ONJIEGH3K0XO"
+            },
+            {
+              "position": 3,
+              "snippet": "...it is *very* comfortable so far, and -- even more to the point -- VERY adjustable in so many different ways that physical therapists etc recommended...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1ERPJMNI6H4SG"
+            },
+            {
+              "position": 4,
+              "snippet": "...There are pros and cons. Pros: -Chair has adjustable arm rests -Adjustable lumbar support -Adjustable head rest...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3OLPTSSSQUY8W"
+            }
+          ]
+        },
+        {
+          "title": "Adjustable back support",
+          "sentiment": "mixed",
+          "mentions": {
+            "total": 172,
+            "positive": 120,
+            "negative": 52
+          },
+          "summary": "Customers have mixed experiences with the chair's back support: while some praise its lumbar and headrest support and consider it a game-changer, others report that it won't lean back even with adjustment and leans to one side.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...would definitely recommend it to anyone looking for a comfortable, supportive office chair, especially if you’re on the taller or bigger side like me.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2NJGGVA88S56K"
+            },
+            {
+              "position": 2,
+              "snippet": "...comfortable for long durational sitting, seating cushion, lumbar support, adjusted arm rests of high and low, and left & right angles, with also...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3RKL47RLEYFIX"
+            },
+            {
+              "position": 3,
+              "snippet": "...is definitely worth the money the only downside is that the chair does not recline. Other than that, the neck rest is perfect and adjustable....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R20NERHELWJ5TD"
+            },
+            {
+              "position": 4,
+              "snippet": "...another 100 dollar ergonomic chair on Amazon that has an adjustable lumbar support, adjustable neck support and a movable armrest....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1GQ2NJP7O4A5V"
+            }
+          ]
+        },
+        {
+          "title": "Sturdiness",
+          "sentiment": "mixed",
+          "mentions": {
+            "total": 158,
+            "positive": 97,
+            "negative": 61
+          },
+          "summary": "Customers have mixed opinions about the chair's sturdiness, with some finding it robust and noting it should last 3-5 years, while others report it isn't very sturdy at all.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "It is very strong and sturdy, much better than I expected. It is well designed and made. The lumbar and the headrest support my body perfectly....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3UXKWPGD907E"
+            },
+            {
+              "position": 2,
+              "snippet": "...when I go to put my arm on it it just moves from side to side, not sturdy even though I put the screws in tight, it's a nice budget chair, if I...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3U4HL2T1BBDGV"
+            },
+            {
+              "position": 3,
+              "snippet": "...this chair for my boyfriend and he loves it he states that it’s very sturdy and comfortable. He even recommended it to one of his friends....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3FKED1YJSGSC"
+            },
+            {
+              "position": 4,
+              "snippet": "...Aside from these issues, the chair performs well and feels sturdy, but the lack of independent backrest adjustment and a usable recline lock...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3QCWUAFE5A8QY"
+            }
+          ]
+        },
+        {
+          "title": "Cushioning",
+          "sentiment": "mixed",
+          "mentions": {
+            "total": 86,
+            "positive": 41,
+            "negative": 45
+          },
+          "summary": "Customers have mixed opinions about the chair's cushioning, with some finding it good and soft, while others report that the seat doesn't have as much padding as expected.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...It is hard and very awkard. Not at all the position it relax in. The seat is hard compared to other chairs I have had....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R276NJ1PYOOT16"
+            },
+            {
+              "position": 2,
+              "snippet": "Easy to assemble, feels great, lightweight, the only thing missing is being able to slide the seat forward, but even without it it's quite...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/REB7WNTCR6T93"
+            },
+            {
+              "position": 3,
+              "snippet": "The seat cushion is VERY HARD. If you are looking for comfort, this is not the chair for you....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1WZOS322C43ZA"
+            },
+            {
+              "position": 4,
+              "snippet": "...It is very comfortable both at back and neck support. The cushion is good and has nice lumbar support....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2US625WCEGY3O"
+            }
+          ]
+        },
+        {
+          "title": "Build quality",
+          "sentiment": "mixed",
+          "mentions": {
+            "total": 85,
+            "positive": 55,
+            "negative": 30
+          },
+          "summary": "Customers have mixed opinions about the chair's build quality, with some finding it well-built and not feeling cheap, while others report issues with the back mesh feeling flimsy.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "It’s a solid chair especially on sale for $115 when I got it. It’s comfortable and build quality is solid.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2STNCLQSI98D7"
+            },
+            {
+              "position": 2,
+              "snippet": "I just didn't like it cheaply made I couldn't get comfortable in it",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3GHG00IZAYY5F"
+            },
+            {
+              "position": 3,
+              "snippet": "...without feeling oversized, and the overall build feels sturdy and solid. Comfort-wise, it’s been excellent....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2NJGGVA88S56K"
+            },
+            {
+              "position": 4,
+              "snippet": "Well built and comfortable, easy to assemble with good instructions and tool included....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R39W9D757ZO6HW"
+            }
+          ]
+        }
+      ],
+      "customer_reviews": {
+        "5 star": 66,
+        "4 star": 14,
+        "3 star": 8,
+        "2 star": 5,
+        "1 star": 7
+      }
+    }
+  },
+  "related_asins": [
+    "B07BDFW1Y7",
+    "B0GTPXK71Y",
+    "B0FHB3CG9X",
+    "B0FP28DWVQ",
+    "B0HHDLGP4X",
+    "B0H2GLTL6C",
+    "B0H6PWPMSM",
+    "B0HJC4HSKN",
+    "B0HGMFCFS7",
+    "B07T291QPJ",
+    "B0GXFM32XQ",
+    "B0GZNRSP64"
+  ]
+}

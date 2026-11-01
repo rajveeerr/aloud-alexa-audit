@@ -1,0 +1,89 @@
+{
+  "data": [
+    {
+      "intentId": "hydraulic_and_height_adjustment",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "adjustable seat height (17.1\"–20.3\")"
+        }
+      ],
+      "value": "adjustable seat height (17.1\"–20.3\")"
+    },
+    {
+      "intentId": "dimensions_and_sizing",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_dimensions",
+          "text": "Product dimensions: 18\"D x 18\"W x 38\"H"
+        }
+      ],
+      "value": "18\"D x 18\"W x 38\"H"
+    },
+    {
+      "intentId": "armrest_features",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "ergonomic armrests"
+        }
+      ],
+      "value": "ergonomic armrests"
+    },
+    {
+      "intentId": "recline_and_rocking",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "tilt tension knob let you adjust your seating angle for relaxation or focus"
+        }
+      ],
+      "value": "tilt tension knob let you adjust your seating angle"
+    },
+    {
+      "intentId": "appearance_and_color",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.color",
+          "text": "Color: Dark Black"
+        }
+      ],
+      "value": "Dark Black"
+    },
+    {
+      "intentId": "weight_capacity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "supports up to 250 lbs"
+        }
+      ],
+      "value": "250 lbs"
+    },
+    {
+      "intentId": "breathable_mesh",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "100% ventilated mesh back promotes airflow"
+        }
+      ],
+      "value": "100% ventilated mesh back"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+home-office-desk-chairs@mined-live-1",
+  "usage": {
+    "inputTokens": 2045,
+    "outputTokens": 604
+  },
+  "latencyMs": 2125,
+  "cached": false
+}

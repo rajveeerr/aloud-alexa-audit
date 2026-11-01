@@ -1,0 +1,97 @@
+{
+  "data": [
+    {
+      "intentId": "hydraulic_and_height_adjustment",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "height adjustment"
+        }
+      ],
+      "value": "height adjustment"
+    },
+    {
+      "intentId": "dimensions_and_sizing",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_dimensions",
+          "text": "Product dimensions: 19\"D x 24.4\"W x 41.1\"H"
+        }
+      ],
+      "value": "19\"D x 24.4\"W x 41.1\"H"
+    },
+    {
+      "intentId": "armrest_features",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "90° flip-up armrests"
+        }
+      ],
+      "value": "90° flip-up armrests"
+    },
+    {
+      "intentId": "recline_and_rocking",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "tilt-and-lock mechanism"
+        },
+        {
+          "fieldId": "aplus.3",
+          "text": "90°-110° Rocking for Relaxing"
+        }
+      ],
+      "value": "90°-110° Rocking with tilt-and-lock mechanism"
+    },
+    {
+      "intentId": "appearance_and_color",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.color",
+          "text": "Black"
+        },
+        {
+          "fieldId": "attr.style_name",
+          "text": "Modern"
+        }
+      ],
+      "value": "Black Modern"
+    },
+    {
+      "intentId": "weight_capacity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.maximum_weight_recommendation",
+          "text": "300 pounds"
+        }
+      ],
+      "value": "300 pounds"
+    },
+    {
+      "intentId": "breathable_mesh",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "breathable center panel tackles the stuffiness typical of traditional leather chairs, ensuring superior airflow"
+        }
+      ],
+      "value": "breathable center panel"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+home-office-desk-chairs@mined-live-1",
+  "usage": {
+    "inputTokens": 2071,
+    "outputTokens": 661
+  },
+  "latencyMs": 2337,
+  "cached": false
+}

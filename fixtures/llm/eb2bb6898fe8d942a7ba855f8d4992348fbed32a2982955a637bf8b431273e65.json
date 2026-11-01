@@ -1,0 +1,154 @@
+{
+  "data": [
+    {
+      "intentId": "weight_and_thickness",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "durability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "resist wear and tear even after frequent washing"
+        }
+      ],
+      "value": "resist wear and tear even after frequent washing"
+    },
+    {
+      "intentId": "size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_dimensions",
+          "text": "11.8\"L x 11.8\"W"
+        }
+      ],
+      "value": "11.8\"L x 11.8\"W"
+    },
+    {
+      "intentId": "softness",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Soft & Lint-Free on Delicate Surfaces"
+        }
+      ],
+      "value": "Soft"
+    },
+    {
+      "intentId": "color_variety",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "Pink, Green, Blue, and Purple"
+        }
+      ],
+      "value": "Pink, Green, Blue, and Purple"
+    },
+    {
+      "intentId": "absorbency",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Strong Absorbent"
+        }
+      ],
+      "value": "Strong Absorbent"
+    },
+    {
+      "intentId": "fabric_type",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.material",
+          "text": "Microfiber"
+        }
+      ],
+      "value": "Microfiber"
+    },
+    {
+      "intentId": "washability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_care_instructions",
+          "text": "Machine wash in cold or warm water. Do not bleach. Tumble dry low or air dry."
+        }
+      ],
+      "value": "Machine wash in cold or warm water. Do not bleach. Tumble dry low or air dry."
+    },
+    {
+      "intentId": "lint_free",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Lint-Free"
+        }
+      ],
+      "value": "Lint-Free"
+    },
+    {
+      "intentId": "streak_free",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Streak-Free"
+        }
+      ],
+      "value": "Streak-Free"
+    },
+    {
+      "intentId": "reusability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Reusable"
+        }
+      ],
+      "value": "Reusable"
+    },
+    {
+      "intentId": "bleach_safe",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_care_instructions",
+          "text": "Do not bleach."
+        }
+      ],
+      "value": "Do not bleach."
+    },
+    {
+      "intentId": "scratch_free",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "They won’t scratch paint, glass, or delicate surfaces"
+        }
+      ],
+      "value": "They won’t scratch paint, glass, or delicate surfaces"
+    },
+    {
+      "intentId": "stain_resistance",
+      "status": "missing",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+cleaning-cloths@mined-live-1",
+  "usage": {
+    "inputTokens": 1807,
+    "outputTokens": 1014
+  },
+  "latencyMs": 2999,
+  "cached": false
+}

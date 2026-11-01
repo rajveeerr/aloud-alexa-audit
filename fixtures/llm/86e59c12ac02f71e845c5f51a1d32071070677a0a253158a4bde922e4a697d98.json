@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "intentId": "tear_resistance",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.30",
+          "text": "These ultra-durable rodent-repellent trash bags are made from thick, heavy-duty plastic to lock in trash, and keep pests out."
+        }
+      ],
+      "draft": "Made from thick, heavy-duty plastic to lock in trash and resist tearing."
+    },
+    {
+      "intentId": "leak_proof",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm whether the trash bags are leak-proof or waterproof."
+    },
+    {
+      "intentId": "puncture_resistance",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.30",
+          "text": "These ultra-durable rodent-repellent trash bags are made from thick, heavy-duty plastic to lock in trash, and keep pests out."
+        }
+      ],
+      "draft": "Constructed from thick, heavy-duty plastic to help prevent punctures from sharp waste."
+    },
+    {
+      "intentId": "opening_and_dispensing",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Describe how the bags are dispensed or opened from the package."
+    },
+    {
+      "intentId": "load_capacity",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Provide the maximum weight load capacity in pounds for these 13-gallon trash bags."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.2",
+  "usage": {
+    "inputTokens": 3553,
+    "outputTokens": 395
+  },
+  "latencyMs": 1798,
+  "cached": false
+}

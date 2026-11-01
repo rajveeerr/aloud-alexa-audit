@@ -326,7 +326,113 @@
           "rank": 16
         }
       ],
-      "available": true
+      "available": true,
+      "insights": [
+        {
+          "topic": "Quality",
+          "mentions": 1600,
+          "positive": 1525,
+          "negative": 111,
+          "sentiment": "positive",
+          "summary": "Customers find these pens to be of good quality, describing them as their absolute favorite.",
+          "snippets": [
+            "I’d have to agree with ALL THE OTHER REVIEWS! They’re great pens. I love them. But it sucks that everyone is not getting the orange pen!...",
+            "Love these pens. Love the colors and the way they write. A few of the colors don't write dark enough. But love the pink, purple, and teal blue.",
+            "I’m very disappointed in this company, although I love these pens I do not like the fact that these have very little ink in them so you end up with..."
+          ]
+        },
+        {
+          "topic": "Writing performance",
+          "mentions": 723,
+          "positive": 674,
+          "negative": 49,
+          "sentiment": "positive",
+          "summary": "Customers praise how smoothly these pens write.",
+          "snippets": [
+            "...But, the rest of the aspects of the pen - the smooth writing, the bold, rich lines, and the bright colors - make it worth ignoring the discomfort...",
+            "These pens write smoothly--however, the ink will smear if touched before it dries. I use them for everything--so much so--that they run out of ink.",
+            "...I have them in all the colors! They write so smooth and the full rubber grip on the entire pen means no matter how YOU hold your pen, you have the..."
+          ]
+        },
+        {
+          "topic": "Color",
+          "mentions": 626,
+          "positive": 510,
+          "negative": 116,
+          "sentiment": "positive",
+          "summary": "Customers appreciate the pens' colors, describing them as vibrant and very pigmented.",
+          "snippets": [
+            "Great colors but multiple pens stopped working very quickly. Plenty of ink left, but ink won't flow even heating the end didnt help.",
+            "I love the colors and all the shades. I bought these because of the brand and the fact they were 0.7 mm. Did not disappoint in that regard....",
+            "...I can comment on how awesome other aspects of these pens are. The colors are vibrant, the ink is super smooth and the do indeed dry quickly...."
+          ]
+        },
+        {
+          "topic": "Smoothness",
+          "mentions": 326,
+          "positive": 313,
+          "negative": 13,
+          "sentiment": "positive",
+          "summary": "Customers appreciate the smoothness of these pens, describing them as the smoothest with a great feel when writing.",
+          "snippets": [
+            "...to find the pack of blue but as a left handed writer these pens are smooth and dry quickly so that I do not have ink running down the side of my hand...",
+            "...These are my absolute favorite. They're so smooth, the ink flow is beautiful, you can get fun colors if you like, and the best part, they dry FAST!...",
+            "...The photo shows my very first write with each pen. Very smooth and fast drying. They have great pigment. I love the rubbery texture of the pens...."
+          ]
+        },
+        {
+          "topic": "Smudge-resistant",
+          "mentions": 294,
+          "positive": 249,
+          "negative": 45,
+          "sentiment": "positive",
+          "summary": "Customers praise these pens for their smudge-resistant properties, noting that the ink doesn't smear, bleed, or leave blotches.",
+          "snippets": [
+            "...are medium point and another great feature they dry really fast so no smearing and you get 12 pens in the box so they are a good value",
+            "...They write smoothly and leave a nice line, though it is a bit thick. No smudging and the design makes it easy to hold, though very small hands may...",
+            "...Not only have they worked great and don't smear but I've had this pack for almost a year and 3 of the pens just started to run out... after one year..."
+          ]
+        },
+        {
+          "topic": "Drying time",
+          "mentions": 280,
+          "positive": 234,
+          "negative": 46,
+          "sentiment": "positive",
+          "summary": "Customers appreciate that these pens dry quickly and never run dry, with one customer noting they last a long time without drying out.",
+          "snippets": [
+            "...These pens right so smooth and dry quickly. These will definitely be the pens I use from now on. These pens don’t clog or get spotty when writing....",
+            "...Cute colors and quick dry I would highly recommend these to someone looking for fun pens. Attached is the pink color!",
+            "Writes smoothly, dries quickly and it is a nice medium-point. Loves these for work and will be buying more to share with my colleagues."
+          ]
+        },
+        {
+          "topic": "Ink flow",
+          "mentions": 224,
+          "positive": 167,
+          "negative": 57,
+          "sentiment": "positive",
+          "summary": "Customers appreciate the ink flow of these pens, describing it as smooth and even, with one customer noting that it doesn't bleed through much.",
+          "snippets": [
+            "...felt tip pen, with the added bonus of extremely smooth writing, and no bleeding. I'm about to order a second box for work....",
+            "Love these pens! Great flow",
+            "Full of ink and won't work at all... not the only color like this either"
+          ]
+        },
+        {
+          "topic": "Comfort",
+          "mentions": 194,
+          "positive": 176,
+          "negative": 18,
+          "sentiment": "positive",
+          "summary": "Customers find these pens comfortable to hold, particularly noting that the grip is suitable for long writing sessions and easy on their hands.",
+          "snippets": [
+            "...The pen is comfortable to hold and fits a lot of hands; my second favorite pen is the Pilot G-Tec C4, but the tiny, friction-attracting tip makes it...",
+            "I am a big of a pen snob and seek out pens that are comfortable and smooth, but at the same time cheap and so they need to be inexpensive enough...",
+            "As advertised. Very smooth writing. Good longevity. Comfortable grip. Decent, fairly broad writing tip. I definitely recommend these pens."
+          ]
+        }
+      ]
     },
     "contentHash": "fd318e3021e9c6fce45745dcd098ba1ba0885c1d1dbddda3ecf8dc045e3339ce"
   },
@@ -2450,13 +2556,227 @@
       "flags": []
     }
   ],
-  "usage": {
-    "requests": 7,
-    "cachedRequests": 7,
-    "inputTokens": 15206,
-    "outputTokens": 8081
+  "proof": {
+    "reviews": 4303,
+    "source": "amazon-topics",
+    "claims": [
+      {
+        "intentId": "smudge",
+        "claim": "doesn't smear",
+        "sources": [
+          {
+            "kind": "field",
+            "id": "bullet.4",
+            "text": "doesn't smear"
+          },
+          {
+            "kind": "image",
+            "id": "img.0,img.1",
+            "text": "SMEAR RESISTANT WRITING"
+          },
+          {
+            "kind": "image",
+            "id": "img.10",
+            "text": "SMOOTH AND SMEAR RESISTANT*"
+          }
+        ],
+        "keywords": [
+          "Smudge-resistant"
+        ],
+        "matching": 294,
+        "sampled": 294,
+        "counts": {
+          "supports": 249,
+          "contradicts": 45,
+          "mixed": 0,
+          "unrelated": 0,
+          "unlabelled": 0
+        },
+        "examples": {
+          "supports": [
+            "...are medium point and another great feature they dry really fast so no smearing and you get 12 pens in the box so they are a good value",
+            "...They write smoothly and leave a nice line, though it is a bit thick. No smudging and the design makes it easy to hold, though very small hands may...",
+            "...Not only have they worked great and don't smear but I've had this pack for almost a year and 3 of the pens just started to run out... after one year..."
+          ],
+          "contradicts": [],
+          "mixed": []
+        },
+        "flags": [],
+        "support": {
+          "rate": 0.8469387755102041,
+          "low": 0.8013293286876912,
+          "high": 0.8835984987212404
+        },
+        "contradiction": {
+          "rate": 0.15306122448979592,
+          "low": 0.11640150127875966,
+          "high": 0.19867067131230892
+        },
+        "verdict": "contested"
+      },
+      {
+        "intentId": "dry_time",
+        "claim": "dries in as little as five seconds",
+        "sources": [
+          {
+            "kind": "field",
+            "id": "bullet.4",
+            "text": "dries in as little as five seconds"
+          },
+          {
+            "kind": "image",
+            "id": "img.0,img.1,img.10",
+            "text": "QUICK DRY"
+          },
+          {
+            "kind": "image",
+            "id": "img.10",
+            "text": "*Quick-drying ink dries in as little as 5 seconds."
+          },
+          {
+            "kind": "image",
+            "id": "img.11",
+            "text": "Quick Drying Ink"
+          },
+          {
+            "kind": "image",
+            "id": "img.11",
+            "text": "Available in 17 vibrant colors, vivid ink that dries up to 3x faster.*"
+          }
+        ],
+        "keywords": [
+          "Drying time"
+        ],
+        "matching": 280,
+        "sampled": 280,
+        "counts": {
+          "supports": 234,
+          "contradicts": 46,
+          "mixed": 0,
+          "unrelated": 0,
+          "unlabelled": 0
+        },
+        "examples": {
+          "supports": [
+            "...These pens right so smooth and dry quickly. These will definitely be the pens I use from now on. These pens don’t clog or get spotty when writing....",
+            "...Cute colors and quick dry I would highly recommend these to someone looking for fun pens. Attached is the pink color!",
+            "Writes smoothly, dries quickly and it is a nice medium-point. Loves these for work and will be buying more to share with my colleagues."
+          ],
+          "contradicts": [],
+          "mixed": []
+        },
+        "flags": [],
+        "support": {
+          "rate": 0.8357142857142857,
+          "low": 0.7878249181891185,
+          "high": 0.8745163312965102
+        },
+        "contradiction": {
+          "rate": 0.16428571428571428,
+          "low": 0.1254836687034899,
+          "high": 0.21217508181088154
+        },
+        "verdict": "contested"
+      },
+      {
+        "intentId": "ink_flow",
+        "claim": "writes smoothly and consistently",
+        "sources": [
+          {
+            "kind": "field",
+            "id": "description.1",
+            "text": "writes smoothly and consistently"
+          },
+          {
+            "kind": "image",
+            "id": "img.0",
+            "text": "EXTRA SMOOTH GEL PEN"
+          },
+          {
+            "kind": "image",
+            "id": "img.6",
+            "text": "SUPER-SMOOTH,"
+          },
+          {
+            "kind": "image",
+            "id": "img.6",
+            "text": "EASY-FLOWING INK"
+          }
+        ],
+        "keywords": [
+          "Smoothness"
+        ],
+        "matching": 326,
+        "sampled": 326,
+        "counts": {
+          "supports": 313,
+          "contradicts": 13,
+          "mixed": 0,
+          "unrelated": 0,
+          "unlabelled": 0
+        },
+        "examples": {
+          "supports": [
+            "...to find the pack of blue but as a left handed writer these pens are smooth and dry quickly so that I do not have ink running down the side of my hand...",
+            "...These are my absolute favorite. They're so smooth, the ink flow is beautiful, you can get fun colors if you like, and the best part, they dry FAST!...",
+            "...The photo shows my very first write with each pen. Very smooth and fast drying. They have great pigment. I love the rubbery texture of the pens...."
+          ],
+          "contradicts": [],
+          "mixed": []
+        },
+        "flags": [],
+        "support": {
+          "rate": 0.9601226993865031,
+          "low": 0.9329774898261884,
+          "high": 0.9765499924562162
+        },
+        "contradiction": {
+          "rate": 0.03987730061349693,
+          "low": 0.023450007543783773,
+          "high": 0.06702251017381158
+        },
+        "verdict": "backed"
+      }
+    ],
+    "modelOutputs": [
+      [
+        {
+          "claim": 0,
+          "topic": 4
+        },
+        {
+          "claim": 1,
+          "topic": 4
+        },
+        {
+          "claim": 2,
+          "topic": 5
+        },
+        {
+          "claim": 3,
+          "topic": 3
+        },
+        {
+          "claim": 4,
+          "topic": -1
+        },
+        {
+          "claim": 5,
+          "topic": -1
+        }
+      ]
+    ],
+    "usage": {
+      "inputTokens": 526,
+      "outputTokens": 129,
+      "requests": 1
+    }
   },
-  "notes": [
-    "Live listings come without review text, so promise vs proof wasn't checked."
-  ]
+  "usage": {
+    "requests": 8,
+    "cachedRequests": 8,
+    "inputTokens": 15732,
+    "outputTokens": 8210
+  },
+  "notes": []
 }

@@ -1,0 +1,124 @@
+{
+  "data": [
+    {
+      "intentId": "weight_and_thickness",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "durability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "designed to last for months"
+        }
+      ],
+      "value": "designed to last for months"
+    },
+    {
+      "intentId": "size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_dimensions",
+          "text": "8\"L x 7\"W"
+        }
+      ],
+      "value": "8\"L x 7\"W"
+    },
+    {
+      "intentId": "softness",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "color_variety",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Assorted Colors"
+        }
+      ],
+      "value": "Assorted Colors"
+    },
+    {
+      "intentId": "absorbency",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "absorption factor of 15x its own weight"
+        }
+      ],
+      "value": "absorption factor of 15x its own weight"
+    },
+    {
+      "intentId": "fabric_type",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.fabric_type",
+          "text": "70% Wood / 30% Cotton"
+        }
+      ],
+      "value": "70% Wood / 30% Cotton"
+    },
+    {
+      "intentId": "washability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Dishwasher and Dryer-Safe"
+        }
+      ],
+      "value": "Dishwasher and Dryer-Safe"
+    },
+    {
+      "intentId": "lint_free",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "streak_free",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "reusability",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Reusable"
+        }
+      ],
+      "value": "Reusable"
+    },
+    {
+      "intentId": "bleach_safe",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "scratch_free",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "stain_resistance",
+      "status": "missing",
+      "quotes": []
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+cleaning-cloths@mined-live-1",
+  "usage": {
+    "inputTokens": 1845,
+    "outputTokens": 758
+  },
+  "latencyMs": 2632,
+  "cached": false
+}

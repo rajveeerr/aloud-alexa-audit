@@ -1,0 +1,164 @@
+{
+  "data": [
+    {
+      "intentId": "easy_assembly",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "allowing for a hassle-free assembly in 30-45 minutes"
+        }
+      ],
+      "value": "hassle-free assembly in 30-45 minutes"
+    },
+    {
+      "intentId": "cushioning",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "The memory foam cushion, high-strength elastic webbing ensures a non-sinking seat cushion"
+        }
+      ],
+      "value": "memory foam cushion, non-sinking seat cushion"
+    },
+    {
+      "intentId": "sturdiness",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Engineered for superior stability, this heavy-duty office chair supports up to 300 lbs. It features a reinforced metal base, BIFMA-certified casters, and an SGS-certified Class 3 gas lift."
+        }
+      ],
+      "value": "reinforced metal base, BIFMA-certified casters, and SGS-certified Class 3 gas lift"
+    },
+    {
+      "intentId": "chair_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_dimensions",
+          "text": "Product dimensions: 19\"D x 24.4\"W x 41.1\"H"
+        }
+      ],
+      "value": "19\"D x 24.4\"W x 41.1\"H"
+    },
+    {
+      "intentId": "caster_mobility",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "BIFMA-certified casters"
+        }
+      ],
+      "value": "BIFMA-certified casters"
+    },
+    {
+      "intentId": "backrest_support",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "Featuring built-in lumbar support and a winged mid-back design, this ergonomic home office chair follows your spine’s natural curve."
+        }
+      ],
+      "value": "built-in lumbar support and a winged mid-back design"
+    },
+    {
+      "intentId": "hydraulic_lift",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "SGS-certified Class 3 gas lift"
+        }
+      ],
+      "value": "SGS-certified Class 3 gas lift"
+    },
+    {
+      "intentId": "adjustable_arms",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "The padded 90°flip-up armrests provide flexible arm support when you need it and fold away easily when you don't."
+        }
+      ],
+      "value": "90°flip-up armrests"
+    },
+    {
+      "intentId": "reclining_mechanism",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "relaxing tilt-and-lock mechanism"
+        },
+        {
+          "fieldId": "aplus.3",
+          "text": "90°-110° Rocking for Relaxing"
+        }
+      ],
+      "value": "90°-110° Rocking"
+    },
+    {
+      "intentId": "material_cleaning",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_care_instructions",
+          "text": "Wipe Clean"
+        }
+      ],
+      "value": "Wipe Clean"
+    },
+    {
+      "intentId": "weight_capacity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "supports up to 300 lbs"
+        }
+      ],
+      "value": "300 lbs"
+    },
+    {
+      "intentId": "swivel_smoothness",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "360-degree swivel"
+        }
+      ],
+      "value": "360-degree swivel"
+    },
+    {
+      "intentId": "warranty_and_condition",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "adjustable_height",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "height adjustment"
+        }
+      ],
+      "value": "height adjustment"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+home-office-desk-chairs@mined-live-1",
+  "usage": {
+    "inputTokens": 2282,
+    "outputTokens": 1253
+  },
+  "latencyMs": 3421,
+  "cached": false
+}

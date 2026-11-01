@@ -1,0 +1,118 @@
+{
+  "data": [
+    {
+      "intentId": "overall_strength",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "reliable strength"
+        }
+      ],
+      "value": "reliable strength"
+    },
+    {
+      "intentId": "tear_resistance",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "Tear Resistant"
+        }
+      ],
+      "value": "Tear Resistant"
+    },
+    {
+      "intentId": "bag_dimensions_and_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.item_dimensions",
+          "text": "33 x 30 x 0.1 inches"
+        },
+        {
+          "fieldId": "title",
+          "text": "30 Gallon Capacity"
+        }
+      ],
+      "value": "33 x 30 x 0.1 inches, 30 Gallon"
+    },
+    {
+      "intentId": "scent_and_odor",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.scent",
+          "text": "Unscented"
+        }
+      ],
+      "value": "Unscented"
+    },
+    {
+      "intentId": "drawstring_features",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "Red drawstring closure for easy tying and carrying"
+        }
+      ],
+      "value": "Red drawstring closure"
+    },
+    {
+      "intentId": "stretch_and_flexibility",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "leak_proof",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "puncture_resistance",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "bag_thickness",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "item_count",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "title",
+          "text": "50 Count"
+        }
+      ],
+      "value": "50 Count"
+    },
+    {
+      "intentId": "opening_and_dispensing",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "load_capacity",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "attr.recommended_uses_for_product",
+          "text": "Multipurpose"
+        }
+      ],
+      "value": "Multipurpose"
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+trash-bags@mined-live-1",
+  "usage": {
+    "inputTokens": 1496,
+    "outputTokens": 729
+  },
+  "latencyMs": 2476,
+  "cached": false
+}

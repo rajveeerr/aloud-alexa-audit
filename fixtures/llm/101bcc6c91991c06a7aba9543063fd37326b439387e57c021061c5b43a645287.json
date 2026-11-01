@@ -1,0 +1,148 @@
+{
+  "data": [
+    {
+      "intentId": "easy_assembly",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.9",
+          "text": "Get it set up in around 15 minutes"
+        }
+      ],
+      "value": "Tool-free assembly within 15 minutes"
+    },
+    {
+      "intentId": "cushioning",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "sturdiness",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.8",
+          "text": "Crafted with a BIFMA-certified structure that robustly holds up to 300 lbs"
+        }
+      ],
+      "value": "BIFMA-certified structure"
+    },
+    {
+      "intentId": "chair_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_dimensions",
+          "text": "26\"D x 24\"W x 41\"H"
+        }
+      ],
+      "value": "26\"D x 24\"W x 41\"H"
+    },
+    {
+      "intentId": "caster_mobility",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.8",
+          "text": "whisper-quiet rolling casters"
+        }
+      ],
+      "value": "whisper-quiet rolling casters"
+    },
+    {
+      "intentId": "backrest_support",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.1",
+          "text": "dynamic 3D lumbar support"
+        }
+      ],
+      "value": "dynamic 3D lumbar support"
+    },
+    {
+      "intentId": "hydraulic_lift",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "adjustable_arms",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "it can be adjusted at Height/width/forward/backward/rotate/flip function"
+        }
+      ],
+      "value": "Height/width/forward/backward/rotate/flip function"
+    },
+    {
+      "intentId": "reclining_mechanism",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "3-stage reclining mechanism"
+        }
+      ],
+      "value": "3-stage reclining mechanism"
+    },
+    {
+      "intentId": "material_cleaning",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_care_instructions",
+          "text": "Wipe Clean"
+        }
+      ],
+      "value": "Wipe Clean"
+    },
+    {
+      "intentId": "weight_capacity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.maximum_weight_recommendation",
+          "text": "300 pounds"
+        }
+      ],
+      "value": "300 pounds"
+    },
+    {
+      "intentId": "swivel_smoothness",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "warranty_and_condition",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.9",
+          "text": "backed by our dedicated 5-year satisfaction care."
+        }
+      ],
+      "value": "5-year satisfaction care"
+    },
+    {
+      "intentId": "adjustable_height",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.9",
+          "text": "adjust the seat height (18.3–23\")"
+        }
+      ],
+      "value": "18.3–23\""
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+home-office-desk-chairs@mined-live-1",
+  "usage": {
+    "inputTokens": 2603,
+    "outputTokens": 1022
+  },
+  "latencyMs": 2970,
+  "cached": false
+}

@@ -1,0 +1,135 @@
+{
+  "product_results": {
+    "categories": [
+      {
+        "position": 1,
+        "name": "Home & Kitchen",
+        "link": "https://www.amazon.com/home-garden-kitchen-furniture-bedding/b/ref=dp_bc_1?ie=UTF8&node=1055398",
+        "node": "1055398",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1055398"
+      },
+      {
+        "position": 2,
+        "name": "Furniture",
+        "link": "https://www.amazon.com/Furniture/b/ref=dp_bc_2?ie=UTF8&node=1063306",
+        "node": "1063306",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1063306"
+      },
+      {
+        "position": 3,
+        "name": "Home Office Furniture",
+        "link": "https://www.amazon.com/Home-Office-Furniture/b/ref=dp_bc_3?ie=UTF8&node=1063312",
+        "node": "1063312",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1063312"
+      },
+      {
+        "position": 4,
+        "name": "Home Office Chairs",
+        "link": "https://www.amazon.com/b/ref=dp_bc_4?ie=UTF8&node=18682064011",
+        "node": "18682064011",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=18682064011"
+      },
+      {
+        "position": 5,
+        "name": "Home Office Desk Chairs",
+        "link": "https://www.amazon.com/Home-Office-Desk-Chairs-Furniture/b/ref=dp_bc_5?ie=UTF8&node=3733721",
+        "node": "3733721",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=3733721"
+      }
+    ],
+    "asin": "B0H4HFHXSN",
+    "title": "Wakefit Gravita Ergonomic Office Chair for Work | 3 Year Warranty | Single Lock and Recline | Soft Armrest with 3 Dimension adjustability| Strong Nylon Base | 8+ Hours of Comfort| White and Grey",
+    "link": "https://www.amazon.com/Wakefit-Ergonomic-Warranty-Dimension-adjustability/dp/B0H4HFHXSN/",
+    "link_clean": "https://www.amazon.com/dp/B0H4HFHXSN/",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0H4HFHXSN&device=desktop&engine=amazon_product",
+    "brand": "Visit the Wakefit Store",
+    "thumbnail": "https://m.media-amazon.com/images/I/81MnLYM-LVL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "thumbnails": [
+      "https://m.media-amazon.com/images/I/81MnLYM-LVL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/6184erHzSbL._AC_SL1254_.jpg",
+      "https://m.media-amazon.com/images/I/51k7FLdjekL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61C95gyTPwL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61hC+NkVPYL._AC_SL1254_.jpg",
+      "https://m.media-amazon.com/images/I/61vw+8upkNL._AC_SL1254_.jpg",
+      "https://m.media-amazon.com/images/I/61x295jE+BL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61UC8mnBAzL._AC_SL1500_.jpg"
+    ],
+    "rating": 4.3,
+    "reviews": 861,
+    "stock": "Currently unavailable.",
+    "description": "Ergonomic backrest with adjustable lumber support to reduce stress on spine and lower back.2D Customizable height and angle for personalized neck support.Class 4 GAS LIFT with effortless height adjustment which ensures correct sitting height for every individual and absorbs shock while seated on it.60 MM Nylon casters ensures easy movements and have very high load capacity reduced friction when rolling to improve flexibility and performance.Heavy Duty Nylon Chair Base - Five-pronged Wider spider base for complete stability, extreme durability, sturdiness and unbreakable base is made out of Glass Filled Nylon"
+  },
+  "item_specifications": {
+    "brand": "Wakefit",
+    "color": "Gravita Grey",
+    "material": "High-Density Injection Molded Foam Seat, its durable and comfortable",
+    "product_dimensions": "20.47\"D x 20.08\"W x 50.79\"H",
+    "size": "High Back"
+  },
+  "about_item": [
+    "Ergonomic Office Chair for Work: S Shaped curve supports spinal alignment with breathable mesh, adjustable height, and Single Lock recline upto 135, delivering all-day comfort for office work",
+    "BIFMA durability standard tested: Rigorously tested chair for home use and study, supports up to 120 kg with BIFMA Class-4 gas lift, and durability proven over 120,000 recline cycles",
+    "Best-in-Class Comfort: High-density antisag foam seat, breathable mesh back and adjustable headrest deliver lasting comfort, making it ideal as a study chair and office chairs for home",
+    "Advanced Specifications: Soft 3-direction adjustable armrests and strong nylon base making this an ergonomic office chair ideal for work",
+    "Warranty: In-house manufactured office chair backed by a 3-year warranty, including free part replacement for any manufacturing defects."
+  ],
+  "product_details": {
+    "brand_name": "Wakefit",
+    "additional_features": "3D Armrest, Ergonomic",
+    "unit_count": "1 Count",
+    "age_range_description": "Adult",
+    "included_components": "1 Office Chair",
+    "indoor_outdoor_usage": "Indoor",
+    "model_number": "WSCHRGRAVIHB3DNBWYWEGYR1",
+    "number_of_packs": "1",
+    "manufacturer": "Wakefit Innovations Limited",
+    "importer_contact_information": "Wakefit Innovations Limited (formerly known as Wakefit Innovations Private Limited), Umiya Emporium, 97-99, 2nd and 4th Floor, Adugodi, Tavarekere, Opp. Forum Mall, Hosur Road, Bengaluru, Karnataka, India, 560029",
+    "item_type_name": "Chair",
+    "packer_contact_information": "Wakefit Innovations Limited (formerly known as Wakefit Innovations Private Limited), Umiya Emporium, 97-99, 2nd and 4th Floor, Adugodi, Tavarekere, Opp. Forum Mall, Hosur Road, Bengaluru, Karnataka, India, 560029",
+    "set_name": "Single Lock Synchro Tilt",
+    "number_of_items": "1",
+    "asin": "B0H4HFHXSN",
+    "customer_reviews": "4.3 out of 5 stars",
+    "rating": 4.3,
+    "reviews": 861,
+    "color": "Gravita Grey",
+    "back_style": "mesh back",
+    "style_name": "Contemporary",
+    "pattern": "Solid",
+    "leg_style": "wheels",
+    "form_factor": "Office",
+    "item_dimensions_d_x_w_x_h": "20.47\"D x 20.08\"W x 50.79\"H",
+    "size": "High Back",
+    "item_weight": "16.5 kg",
+    "seat_height": "8.89 centimeters",
+    "seat_depth": "19 inches",
+    "seat_length": "50.8",
+    "item_dimensions": "20.47 x 20.08 x 50.79 inches",
+    "material_type": "High-Density Injection Molded Foam Seat, its durable and comfortable",
+    "frame_material_type": "Glass filled Nylon and PP",
+    "product_care_instructions": "Wipe Clean",
+    "seat_material": "High-Density Injection Molded Foam Seat",
+    "fill_material": "Nylon",
+    "fabric_type": "High Quality Imported Mesh Which Gives Air Circulation and Avoids Sweating",
+    "upholstery_fabric_type": "Mesh"
+  },
+  "reviews_information": {
+    "summary": {
+      "customer_reviews": {
+        "5 star": 64,
+        "4 star": 23,
+        "3 star": 1,
+        "2 star": 2,
+        "1 star": 10
+      }
+    }
+  },
+  "related_asins": [
+    "B0H7VKYTV5",
+    "B0HKMFTQG6",
+    "B0FF3XBWFY",
+    "B0DKF1M7TC",
+    "B0HHHPCQGC",
+    "B0H7WDRPPC"
+  ]
+}

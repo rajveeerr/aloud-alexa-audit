@@ -1,0 +1,610 @@
+{
+  "product_results": {
+    "categories": [
+      {
+        "position": 1,
+        "name": "Home & Kitchen",
+        "link": "https://www.amazon.com/home-garden-kitchen-furniture-bedding/b/ref=dp_bc_1?ie=UTF8&node=1055398",
+        "node": "1055398",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1055398"
+      },
+      {
+        "position": 2,
+        "name": "Furniture",
+        "link": "https://www.amazon.com/Furniture/b/ref=dp_bc_2?ie=UTF8&node=1063306",
+        "node": "1063306",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1063306"
+      },
+      {
+        "position": 3,
+        "name": "Home Office Furniture",
+        "link": "https://www.amazon.com/Home-Office-Furniture/b/ref=dp_bc_3?ie=UTF8&node=1063312",
+        "node": "1063312",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1063312"
+      },
+      {
+        "position": 4,
+        "name": "Home Office Chairs",
+        "link": "https://www.amazon.com/b/ref=dp_bc_4?ie=UTF8&node=18682064011",
+        "node": "18682064011",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=18682064011"
+      },
+      {
+        "position": 5,
+        "name": "Home Office Desk Chairs",
+        "link": "https://www.amazon.com/Home-Office-Desk-Chairs-Furniture/b/ref=dp_bc_5?ie=UTF8&node=3733721",
+        "node": "3733721",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=3733721"
+      }
+    ],
+    "asin": "B0GT4J72LW",
+    "title": "GTPLAYER PU Leather Office Chair, Home Desk Chairs with Memory Foam, Black",
+    "link": "https://www.amazon.com/GTPLAYER-Leather-Office-Flip-up-Modern/dp/B0GT4J72LW/",
+    "link_clean": "https://www.amazon.com/dp/B0GT4J72LW/",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GT4J72LW&device=desktop&engine=amazon_product",
+    "badges": [
+      "Amazon's Choice",
+      "Limited time deal"
+    ],
+    "variants": [
+      {
+        "title": "Color",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B0GT4J72LW",
+            "name": "Black",
+            "image": "https://m.media-amazon.com/images/I/41ijb4sfHuL._SS64_.jpg",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GT4J72LW&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B0HK8D74WZ",
+            "name": "Brown",
+            "image": "https://m.media-amazon.com/images/I/419UUgfxTHL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0HK8D74WZ&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B0HNS6RF2F",
+            "name": "Grey",
+            "image": "https://m.media-amazon.com/images/I/41GcLw2TmFL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0HNS6RF2F&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 4,
+            "asin": "B0HNSL2T35",
+            "name": "White",
+            "image": "https://m.media-amazon.com/images/I/41sVz1NGBJL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0HNSL2T35&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 5,
+            "asin": "B0HNSFXFVY",
+            "name": "Dark",
+            "image": "https://m.media-amazon.com/images/I/41XLQrbrQVL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0HNSFXFVY&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 6,
+            "asin": "B0HLG3YZK8",
+            "name": "Ink",
+            "image": "https://m.media-amazon.com/images/I/4167UeC1gpL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0HLG3YZK8&device=desktop&engine=amazon_product"
+          }
+        ]
+      }
+    ],
+    "brand": "Visit the GTPLAYER Store",
+    "thumbnail": "https://m.media-amazon.com/images/I/61w81ZwW6zL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "thumbnails": [
+      "https://m.media-amazon.com/images/I/61w81ZwW6zL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71F-IFLqbiL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71d-DOi5M7L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71j0OXbRvKL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71ss-5LBOvL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71-5qXYmrPL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/714W+YgQSkL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61uNrmjvbmL._AC_SL1500_.jpg"
+    ],
+    "rating": 4.4,
+    "reviews": 1156,
+    "bought_last_month": "3K+ bought in past month",
+    "discount": "-11%",
+    "price": "$79.99",
+    "extracted_price": 79.99,
+    "old_price": "$89.99",
+    "extracted_old_price": 89.99,
+    "delivery": [
+      "FREE delivery Friday, November 6",
+      "Or Prime members get FREE delivery Wednesday, November 4. Order within 6 hrs 24 mins."
+    ],
+    "stock": "In Stock"
+  },
+  "purchase_options": {
+    "single_offer": {
+      "price": "$79.99",
+      "extracted_price": 79.99,
+      "delivery": [
+        "FREE delivery Friday, November 6",
+        "Or Prime members get FREE delivery Wednesday, November 4. Order within 6 hrs 24 mins."
+      ],
+      "stock": "In Stock",
+      "features": {
+        "shipper_seller": {
+          "text": "Amazon.com",
+          "details": {
+            "heading": "Shipper / Seller",
+            "content": "Amazon.com"
+          }
+        },
+        "returns": {
+          "text": "FREE refund/replacement until Jan 31, 2027",
+          "details": {
+            "heading": "FREE refund/replacement until Jan 31, 2027",
+            "content": "For the 2026 holiday season, eligible items purchased between November 1 and December 31, 2026 can be returned until January 31, 2027."
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "payment": {
+          "text": "Secure transaction",
+          "details": {
+            "heading": "Your transaction is secure",
+            "content": "We work hard to protect your security and privacy. Our payment security system encrypts your information during transmission. We don’t share your credit card details with third-party sellers, and we don’t sell your information to others. Learn more"
+          },
+          "link": {
+            "text": "Learn more",
+            "link": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201909010"
+          }
+        }
+      }
+    }
+  },
+  "protection_plan": [
+    {
+      "position": 1,
+      "asin": "B0CG6RXNF6",
+      "link": "https://www.amazon.com/dp/B0CG6RXNF6/",
+      "title": "2-Year Protection Plan",
+      "price": "$13.99",
+      "extracted_price": 13.99
+    },
+    {
+      "position": 2,
+      "asin": "B0CG6RVR12",
+      "link": "https://www.amazon.com/dp/B0CG6RVR12/",
+      "title": "3-Year Protection Plan",
+      "price": "$17.99",
+      "extracted_price": 17.99
+    },
+    {
+      "position": 3,
+      "asin": "B07RZ3LSHM",
+      "link": "https://www.amazon.com/dp/B07RZ3LSHM/",
+      "title": "Complete Protect: One plan covers all past and future eligible purchases (Broadest Coverage)",
+      "price": "$16.99/month",
+      "extracted_price": 16.99
+    }
+  ],
+  "item_specifications": {
+    "brand": "GTPLAYER",
+    "color": "Black",
+    "material": "Faux Leather",
+    "product_dimensions": "19\"D x 24.4\"W x 41.1\"H",
+    "size": "Small"
+  },
+  "about_item": [
+    "【ERGONOMIC DESIGN FOR ALL-DAY RELIEF】 Comfy Low-Back desk chair, Say goodbye to back fatigue. Featuring built-in lumbar support and a winged mid-back design, this ergonomic home office chair follows your spine’s natural curve. It significantly alleviates back pain and reduces pressure during marathon gaming sessions or long workdays, promoting healthy posture.",
+    "【SPACE-SAVING 90° FLIP-UP ARMS】 Maximize your workspace with versatility. The padded 90°flip-up armrests provide flexible arm support when you need it and fold away easily when you don't. This design allows you to push the chair completely flush against your desk, saving valuable room space in home offices or compact setups. (IF LOOSE, TIGHTEN IT)",
+    "【MEMORY FOAM CUSHION】 Engineered for superior stability, this heavy-duty office chair supports up to 300 lbs. It features a reinforced metal base, BIFMA-certified casters, and an SGS-certified Class 3 gas lift. The memory foam cushion, high-strength elastic webbing ensures a non-sinking seat cushion, providing long-lasting safety and durability for users of all sizes.",
+    "【BREATHABLE PREMIUM PU LEATHER】 Crafted from skin-friendly, scratch-resistant PU leather, this chair combines luxury with practicality. The innovative diamond-stitched breathable center panel tackles the stuffiness typical of traditional leather chairs, ensuring superior airflow to keep you cool, sweat-free, and comfortable year-round.",
+    "【FULLY ADJUSTABLE & EASY ASSEMBLY】 Customize your seating experience with 360-degree swivel, height adjustment, and a relaxing tilt-and-lock mechanism. Built with eco-conscious FSC-certified inner wood, this chair comes with clear instructions and all necessary tools, allowing for a hassle-free assembly in 30-45 minutes."
+  ],
+  "product_description": [
+    {
+      "position": 1,
+      "title": "leather office chair",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/8a701913-03e8-4d00-be8a-c5aa7818dc34.__CR0,106,3072,1259_PT0_SX1464_V1___.png"
+    },
+    {
+      "position": 2,
+      "title": "Flip-up armrests chair",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/b830af25-b213-4fe2-894c-fcd6969d455e.__CR0,25,1464,600_PT0_SX1464_V1___.png"
+    },
+    {
+      "position": 3,
+      "title": "90°-110° Rocking for Relaxing",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/e4f4dd46-d739-4375-b429-d959e2f51a10.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 4,
+      "title": "Ergonomic Office Chair",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/ae84b5a5-1604-4787-a1b3-2b29f2e3a053.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 5,
+      "title": "Comfy Office Chair",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/6401ef23-afda-466c-b9c8-44b8b2a33ab9.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 6,
+      "title": "Sturdy Base",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2ad117f8-9e17-4fb6-a09c-a71f1859cf0e.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 7,
+      "carousel_images": [
+        {
+          "position": 1,
+          "title": "Office Chair",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/b982427f-e60e-43ae-8da0-8b0c874f2ba2.__CR0,1,1464,600_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 2,
+          "title": "Office Chair",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/9821828d-cf1e-4380-9fb0-62445958dd83.__CR0,1,1464,600_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 3,
+          "title": "Office Chair",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/7180dabe-8c71-4f8d-a633-34853e44f8a2.__CR0,18,1464,600_PT0_SX1464_V1___.jpg"
+        }
+      ]
+    }
+  ],
+  "product_details": {
+    "brand_name": "GTPLAYER",
+    "additional_features": "Ergonomic",
+    "unit_count": "1 Count",
+    "recommended_uses_for_product": "Computer, Office, Relaxing, Video Game",
+    "room_type": "Bedroom, Living Room, Office, Study Room",
+    "age_range_description": "Adult",
+    "included_components": "Arm Pad",
+    "model_name": "Office Chair",
+    "indoor_outdoor_usage": "Indoor",
+    "model_number": "CH228-NEW",
+    "upc": "810211836301",
+    "number_of_packs": "1",
+    "item_highlight": "Ergonomic Mid Back, 90° Flip-up Arms, Comfy Executive Chair for Home Office Gaming, Flexible Rocking, Heavy Duty Chairs",
+    "manufacturer": "GTPLAYER",
+    "item_type_name": "Office Chair",
+    "manufacturer_part_number": "CH228-NEW",
+    "number_of_items": "1",
+    "best_sellers_rank": [
+      {
+        "text": "#4,307 in Home & Kitchen (See Top 100 in Home & Kitchen)",
+        "extracted_rank": 4307,
+        "link": "https://www.amazon.com/gp/bestsellers/home-garden/ref=pd_zg_ts_home-garden",
+        "link_text": "See Top 100 in Home & Kitchen"
+      },
+      {
+        "text": "#5 in Home Office Desk Chairs",
+        "extracted_rank": 5,
+        "link": "https://www.amazon.com/gp/bestsellers/home-garden/3733721/ref=pd_zg_hrsr_home-garden",
+        "link_text": "Home Office Desk Chairs"
+      }
+    ],
+    "asin": "B0GT4J72LW",
+    "customer_reviews": "4.4 out of 5 stars",
+    "rating": 4.4,
+    "reviews": 1156,
+    "furniture_base_movement": "Swivel",
+    "reclining_position_count": "1",
+    "maximum_weight_recommendation": "300 pounds",
+    "assembly_instructions_description": "Assembly required. Instructions included.",
+    "color": "Black",
+    "back_style": "Wing Back",
+    "style_name": "Modern",
+    "pattern": "Solid",
+    "theme": "Space",
+    "shape": "Rectangular",
+    "arm_style": "Flip-Up",
+    "cushion_style": "Boxed Edge",
+    "leg_style": "wheels",
+    "form_factor": "Upholstered",
+    "item_dimensions_d_x_w_x_h": "19\"D x 24.4\"W x 41.1\"H",
+    "size": "Small",
+    "item_weight": "29 pounds",
+    "seat_height": "4 inches",
+    "seat_depth": "19 inches",
+    "seat_length": "20 inches",
+    "chair_backrest_width": "24.4 inches",
+    "item_dimensions": "19 x 24.4 x 41.1 inches",
+    "material_type": "Faux Leather",
+    "frame_material_type": "Metal",
+    "product_care_instructions": "Wipe Clean",
+    "seat_material": "Memory Foam",
+    "fill_material": "Memory Foam",
+    "upholstery_fabric_type": "Faux Leather"
+  },
+  "reviews_information": {
+    "summary": {
+      "text": "Customers find the gaming chair comfortable and easy to assemble with clear instructions, and appreciate its ergonomic design and appearance. However, the durability and sturdiness receive mixed feedback - while some find it sturdy enough, others report issues with armrests ripping after 6 months and the chair wobbling back and forth. Moreover, the cushioning receives negative feedback, with customers noting almost no cushioning on the frame.",
+      "insights": [
+        {
+          "title": "Quality",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 168,
+            "positive": 127,
+            "negative": 41
+          },
+          "summary": "Customers find the gaming chair to be of good quality.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Great chair for a great price. Easy to assemble. And it's comfortable to sit in for hours at a time",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R32GIK1MZATXXM"
+            },
+            {
+              "position": 2,
+              "snippet": "Bought this chair for my sons He loves it , it’s very comfortable fits perfectly, looks great too, and the price was awesome",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2LBR5FH6RRMIR"
+            },
+            {
+              "position": 3,
+              "snippet": "Love it! Got this for my boyfriend for Christmas and it’s perfect! Super comfy too....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R10KII2NWXKVJ6"
+            },
+            {
+              "position": 4,
+              "snippet": "...The cushions themselves are incredibly thin and poor quality. If you have back problems, don't expect support from this product....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RG0MZWJZJR1T3"
+            }
+          ]
+        },
+        {
+          "title": "Comfort",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 120,
+            "positive": 91,
+            "negative": 29
+          },
+          "summary": "Customers find the gaming chair comfortable and say it offers good value for the price.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...chair for the price, I WFH so I’m sitting most of the day and it’s comfortable there isn’t much lumbar support but it’s nothing that a small pillow...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R13DOIFQ0DL9ME"
+            },
+            {
+              "position": 2,
+              "snippet": "The chair is very comfortable. I love it! The directions are easy to follow for assembly. The massage feature on the lumbar pillow is nice too.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2LIJAV7GSYYPE"
+            },
+            {
+              "position": 3,
+              "snippet": "This chair is all you can look for. Comfy, you can have massage and elevate your legs. Not really sturdy, but for the price it's doing the job....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2X7KVAR21IMZ5"
+            },
+            {
+              "position": 4,
+              "snippet": "Not very comfortable, the arm rest only move when the back of the chair reclines and the cushions are super hard which added to the discomfort....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1ZJ13B7PJD48G"
+            }
+          ]
+        },
+        {
+          "title": "Assembly",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 56,
+            "positive": 48,
+            "negative": 8
+          },
+          "summary": "Customers find the gaming chair easy to assemble, with clear instructions provided.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "The chair was easy to assemble and it is pretty comfortable but I had to bend one of the pieces back into place because it was shipped to me damaged",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2BJAPRK4W6EZ6"
+            },
+            {
+              "position": 2,
+              "snippet": "Chair seems ok, not fantastic quality. Easy to put together, however ours came with some missing parts and I have a bumming kid Christmas morning....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1W3MEYR6BCWN4"
+            },
+            {
+              "position": 3,
+              "snippet": "This chair is amazing, very easy to assemble and one of the craziest thing is the delivery speed, I was impressed by the time they sent it to me, it...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2FN20D1045BZD"
+            },
+            {
+              "position": 4,
+              "snippet": "Easy assembly",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R18QH7N25UYAIM"
+            }
+          ]
+        },
+        {
+          "title": "Appearance",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 23,
+            "positive": 21,
+            "negative": 2
+          },
+          "summary": "Customers like the appearance of the gaming chair, describing it as nice-looking and stylish.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...The comfort of the chair not so much. It was a good deal and it looks good but the comfort is just not there.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R32BMHCEEST4QD"
+            },
+            {
+              "position": 2,
+              "snippet": "...my sons He loves it , it’s very comfortable fits perfectly, looks great too, and the price was awesome",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2LBR5FH6RRMIR"
+            },
+            {
+              "position": 3,
+              "snippet": "...No more couch potato. He’s now gaming in style!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3VE11CF82OKCE"
+            },
+            {
+              "position": 4,
+              "snippet": "...Looks great in his room.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R7LX9903C2JQ0"
+            }
+          ]
+        },
+        {
+          "title": "Leg support",
+          "sentiment": "mixed",
+          "mentions": {
+            "total": 57,
+            "positive": 29,
+            "negative": 28
+          },
+          "summary": "Customers have mixed opinions about the chair's leg support, with some praising its ergonomic design and back support, while others report issues with the reclining mechanism.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...Highly recommended if you are looking for a reliable and supportive office or gaming chair!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3MG01IZAW63P8"
+            },
+            {
+              "position": 2,
+              "snippet": "...After a while, your legs will start to ache. 2. The leg rest is weak and will likely not support both legs.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1H7RSPYU6FOI9"
+            },
+            {
+              "position": 3,
+              "snippet": "...I'm only sorry that I didn't order one for me. Lower back massage, reclines. Adjustable.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R721ODHJGFUZX"
+            },
+            {
+              "position": 4,
+              "snippet": "...the leg rest does not extend far enough, so it only reaches to the middle of my shins. not comfortable at all....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1GICBQH8RP9AJ"
+            }
+          ]
+        },
+        {
+          "title": "Sturdiness",
+          "sentiment": "mixed",
+          "mentions": {
+            "total": 39,
+            "positive": 23,
+            "negative": 16
+          },
+          "summary": "Customers have mixed opinions about the chair's sturdiness, with some finding it sturdy while others report it wobbling back and forth.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...The chair is comfortable, and sturdy. The manual did say armrest may become loose in the future, but to just tighten it up again....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1W0XHQMAQQZDM"
+            },
+            {
+              "position": 2,
+              "snippet": "...Only bad part is the foot rest seems a little flimsy but it manages to hold up....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R28BMAQU7UHMP9"
+            },
+            {
+              "position": 3,
+              "snippet": "...It is a very sturdy and attractive chair! So comfortable for him!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2LRJB1LT1UT6T"
+            },
+            {
+              "position": 4,
+              "snippet": "...I keep having to tighten it's screws. It creaks and wobbles no matter what I do....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3FKLP4WOFDQ5C"
+            }
+          ]
+        },
+        {
+          "title": "Durability",
+          "sentiment": "negative",
+          "mentions": {
+            "total": 52,
+            "positive": 7,
+            "negative": 45
+          },
+          "summary": "Customers report significant durability issues with the gaming chair, noting that the armrests rip after 6 months of use and the material cracks.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "One year later, this chair is falling apart. I keep having to tighten it's screws. It creaks and wobbles no matter what I do....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3FKLP4WOFDQ5C"
+            },
+            {
+              "position": 2,
+              "snippet": "Not even 2 months later, the screws are coming out and the entire chair is falling apart....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RKCFCU85NUZYD"
+            },
+            {
+              "position": 3,
+              "snippet": "As I was putting it together I came across a hole in the armrest and it was broken. Several other parts were also broken. Quality is not good....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R31MPOPIBG1RQQ"
+            },
+            {
+              "position": 4,
+              "snippet": "only 2 years and material is already cracking and coming off the seat. What does it take to make a durable chair?",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2IH9BSXKIGOWB"
+            }
+          ]
+        },
+        {
+          "title": "Cushioning",
+          "sentiment": "negative",
+          "mentions": {
+            "total": 30,
+            "positive": 8,
+            "negative": 22
+          },
+          "summary": "Customers report issues with the chair's cushioning, noting there is almost no cushioning at all on the frame and not much padding in the seat.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...Most gaming chairs are running several hundred dollars. But this chair is HARD. It kills my butt and back after a little while....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1LN1L7S0Z0NVR"
+            },
+            {
+              "position": 2,
+              "snippet": "...Assembly was pretty easy and straightforward. The seat is SO hard and unless you are a midget, the footrest is useless....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2OWHHF4LH622"
+            },
+            {
+              "position": 3,
+              "snippet": "Chair feels good but the back pillow thing quit w/i 2 weeks.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R22YQ6N9M1BHRR"
+            },
+            {
+              "position": 4,
+              "snippet": "...The cushion is very hard and the recline feature is crap. Will be returning",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3R42JHF4ULXKL"
+            }
+          ]
+        }
+      ],
+      "customer_reviews": {
+        "5 star": 72,
+        "4 star": 14,
+        "3 star": 5,
+        "2 star": 4,
+        "1 star": 5
+      }
+    }
+  },
+  "related_asins": [
+    "B0D97DY219",
+    "B0GF1XSTR8",
+    "B0HFJKZ66K",
+    "B0DPHLWNBG",
+    "B0HHDLGP4X",
+    "B0FP28DWVQ",
+    "B0HFZY24K4",
+    "B0FNRPKH4D",
+    "B0D97GSG5X",
+    "B0HHRL21ST",
+    "B0CGR6NZGW",
+    "B0HHJKKN98",
+    "B0GVG7BQM1",
+    "B0H5QP3G5P"
+  ]
+}

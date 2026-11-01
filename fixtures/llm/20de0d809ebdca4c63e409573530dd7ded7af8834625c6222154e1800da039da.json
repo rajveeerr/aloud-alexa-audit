@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "intentId": "lint_free",
+      "unsupported": [],
+      "answersQuestion": true
+    },
+    {
+      "intentId": "color_variety",
+      "unsupported": [],
+      "answersQuestion": true
+    },
+    {
+      "intentId": "streak_free",
+      "unsupported": [],
+      "answersQuestion": true
+    },
+    {
+      "intentId": "stain_resistance",
+      "unsupported": [
+        "to help prevent bacteria growth"
+      ],
+      "answersQuestion": true
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "faithfulness@2026-10-27.2",
+  "usage": {
+    "inputTokens": 385,
+    "outputTokens": 140
+  },
+  "latencyMs": 1113,
+  "cached": false
+}

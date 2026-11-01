@@ -1,0 +1,1223 @@
+{
+  "data": [
+    {
+      "i": 0,
+      "needs": [
+        "weight_capacity",
+        "durability"
+      ]
+    },
+    {
+      "i": 1,
+      "needs": [
+        "assembly_instructions",
+        "cushioning",
+        "ergonomic_design"
+      ]
+    },
+    {
+      "i": 2,
+      "needs": [
+        "assembly_instructions"
+      ]
+    },
+    {
+      "i": 3,
+      "needs": []
+    },
+    {
+      "i": 4,
+      "needs": [
+        "backrest_height",
+        "headrest"
+      ]
+    },
+    {
+      "i": 5,
+      "needs": [
+        "durability",
+        "cushioning",
+        "armrest_material"
+      ]
+    },
+    {
+      "i": 6,
+      "needs": [
+        "backrest_height",
+        "ergonomic_design",
+        "cushioning",
+        "assembly_instructions",
+        "hydraulic_lift"
+      ]
+    },
+    {
+      "i": 7,
+      "needs": [
+        "assembly_instructions",
+        "material_quality",
+        "seat_width"
+      ]
+    },
+    {
+      "i": 8,
+      "needs": [
+        "hardware_quality",
+        "assembly_instructions"
+      ]
+    },
+    {
+      "i": 9,
+      "needs": [
+        "chair_size",
+        "material_quality",
+        "cushioning",
+        "armrest_cushioning",
+        "rocking_mechanism",
+        "caster_mobility"
+      ]
+    },
+    {
+      "i": 10,
+      "needs": [
+        "backrest_height",
+        "assembly_instructions",
+        "flip_up_arms",
+        "lumbar_support"
+      ]
+    },
+    {
+      "i": 11,
+      "needs": [
+        "durability",
+        "chair_size",
+        "armrest_sturdiness",
+        "reclining_mechanism"
+      ]
+    },
+    {
+      "i": 12,
+      "needs": [
+        "cushioning",
+        "assembly_instructions"
+      ]
+    },
+    {
+      "i": 13,
+      "needs": [
+        "material_durability",
+        "seam_quality",
+        "cushion_durability"
+      ]
+    },
+    {
+      "i": 14,
+      "needs": [
+        "hydraulic_lift"
+      ]
+    },
+    {
+      "i": 15,
+      "needs": [
+        "chair_height",
+        "cushioning",
+        "material_quality"
+      ]
+    },
+    {
+      "i": 16,
+      "needs": []
+    },
+    {
+      "i": 17,
+      "needs": [
+        "back_support",
+        "cushioning"
+      ]
+    },
+    {
+      "i": 18,
+      "needs": [
+        "back_support",
+        "cushioning",
+        "chair_size"
+      ]
+    },
+    {
+      "i": 19,
+      "needs": [
+        "assembly_instructions",
+        "backrest_height",
+        "seat_width",
+        "material_quality",
+        "caster_quality"
+      ]
+    },
+    {
+      "i": 20,
+      "needs": [
+        "swivel_smoothness",
+        "cushioning",
+        "mobility",
+        "adjustable_arms",
+        "material_durability"
+      ]
+    },
+    {
+      "i": 21,
+      "needs": [
+        "reclining_mechanism",
+        "cushioning",
+        "weight_capacity",
+        "gaming_suitability",
+        "hydraulic_lift",
+        "adjustable_arms",
+        "assembly_instructions"
+      ]
+    },
+    {
+      "i": 22,
+      "needs": [
+        "assembly_instructions",
+        "backrest_alignment"
+      ]
+    },
+    {
+      "i": 23,
+      "needs": [
+        "sturdiness",
+        "assembly_instructions",
+        "cushioning"
+      ]
+    },
+    {
+      "i": 24,
+      "needs": [
+        "assembly_instructions",
+        "material_softness",
+        "lumbar_support",
+        "chair_height",
+        "armrest_softness"
+      ]
+    },
+    {
+      "i": 25,
+      "needs": [
+        "cushioning",
+        "lumbar_support",
+        "material_softness"
+      ]
+    },
+    {
+      "i": 26,
+      "needs": [
+        "material_cleaning",
+        "cushioning",
+        "armrest_cushioning",
+        "flip_up_arms",
+        "rocking_mechanism",
+        "hydraulic_lift",
+        "caster_mobility",
+        "weight_capacity",
+        "assembly_instructions"
+      ]
+    },
+    {
+      "i": 27,
+      "needs": [
+        "backrest_height",
+        "assembly_instructions"
+      ]
+    },
+    {
+      "i": 28,
+      "needs": [
+        "cushion_firmness",
+        "surface_finish"
+      ]
+    },
+    {
+      "i": 29,
+      "needs": [
+        "durability",
+        "seam_quality",
+        "armrest_durability",
+        "cushion_durability"
+      ]
+    },
+    {
+      "i": 30,
+      "needs": [
+        "sturdiness",
+        "assembly_instructions"
+      ]
+    },
+    {
+      "i": 31,
+      "needs": [
+        "cushioning",
+        "fabric_wear_resistance",
+        "hydraulic_lift",
+        "weight_capacity"
+      ]
+    },
+    {
+      "i": 32,
+      "needs": [
+        "assembly_instructions",
+        "cushioning"
+      ]
+    },
+    {
+      "i": 33,
+      "needs": [
+        "assembly_instructions",
+        "cushioning"
+      ]
+    },
+    {
+      "i": 34,
+      "needs": [
+        "durability",
+        "material_quality",
+        "caster_quality",
+        "leg_sturdiness",
+        "chair_size"
+      ]
+    },
+    {
+      "i": 35,
+      "needs": [
+        "assembly_instructions",
+        "material_durability",
+        "backrest_stability"
+      ]
+    },
+    {
+      "i": 36,
+      "needs": [
+        "assembly_instructions",
+        "sturdiness",
+        "cushioning",
+        "seat_width",
+        "ergonomic_design",
+        "flip_up_arms",
+        "hydraulic_lift"
+      ]
+    },
+    {
+      "i": 37,
+      "needs": [
+        "cushioning",
+        "chair_size",
+        "flip_up_arms"
+      ]
+    },
+    {
+      "i": 38,
+      "needs": [
+        "material_quality",
+        "cushioning",
+        "back_support"
+      ]
+    },
+    {
+      "i": 39,
+      "needs": [
+        "material_softness",
+        "assembly_instructions",
+        "sturdiness",
+        "cushioning",
+        "caster_mobility",
+        "hydraulic_lift",
+        "material_cleaning"
+      ]
+    },
+    {
+      "i": 40,
+      "needs": [
+        "cushioning",
+        "swivel_smoothness"
+      ]
+    },
+    {
+      "i": 41,
+      "needs": [
+        "assembly_instructions",
+        "sturdiness",
+        "material_softness",
+        "cushioning",
+        "caster_mobility"
+      ]
+    },
+    {
+      "i": 42,
+      "needs": [
+        "chair_size",
+        "material_quality"
+      ]
+    },
+    {
+      "i": 43,
+      "needs": [
+        "reclining_mechanism",
+        "swivel_smoothness",
+        "assembly_instructions"
+      ]
+    },
+    {
+      "i": 44,
+      "needs": [
+        "seat_depth"
+      ]
+    },
+    {
+      "i": 45,
+      "needs": [
+        "cushioning",
+        "sturdiness",
+        "warranty"
+      ]
+    },
+    {
+      "i": 46,
+      "needs": [
+        "assembly_instructions",
+        "material_softness",
+        "cushioning",
+        "chair_size",
+        "caster_mobility"
+      ]
+    },
+    {
+      "i": 47,
+      "needs": [
+        "assembly_instructions",
+        "material_softness",
+        "back_support",
+        "hydraulic_lift",
+        "caster_mobility"
+      ]
+    },
+    {
+      "i": 48,
+      "needs": [
+        "assembly_instructions",
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 49,
+      "needs": [
+        "seat_width",
+        "seat_depth",
+        "backrest_height",
+        "hydraulic_lift",
+        "assembly_instructions",
+        "material_softness"
+      ]
+    },
+    {
+      "i": 50,
+      "needs": [
+        "assembly_instructions",
+        "material_softness",
+        "cushioning"
+      ]
+    },
+    {
+      "i": 51,
+      "needs": [
+        "chair_height",
+        "armrest_design",
+        "caster_mobility"
+      ]
+    },
+    {
+      "i": 52,
+      "needs": [
+        "assembly_instructions",
+        "material_softness",
+        "cushioning"
+      ]
+    },
+    {
+      "i": 53,
+      "needs": [
+        "material_softness",
+        "cushioning",
+        "caster_mobility"
+      ]
+    },
+    {
+      "i": 54,
+      "needs": [
+        "assembly_instructions",
+        "caster_mobility",
+        "hydraulic_lift"
+      ]
+    },
+    {
+      "i": 55,
+      "needs": [
+        "assembly_instructions",
+        "sturdiness",
+        "chair_width",
+        "cushioning",
+        "hydraulic_lift"
+      ]
+    },
+    {
+      "i": 56,
+      "needs": [
+        "cushioning",
+        "assembly_instructions",
+        "backrest_height"
+      ]
+    },
+    {
+      "i": 57,
+      "needs": [
+        "assembly_instructions",
+        "cushion_firmness",
+        "backrest_height"
+      ]
+    },
+    {
+      "i": 58,
+      "needs": [
+        "assembly_instructions",
+        "cushioning",
+        "material_quality"
+      ]
+    },
+    {
+      "i": 59,
+      "needs": [
+        "material_softness",
+        "cushioning",
+        "caster_mobility",
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 60,
+      "needs": [
+        "hydraulic_lift",
+        "cushioning"
+      ]
+    },
+    {
+      "i": 61,
+      "needs": [
+        "assembly_instructions",
+        "cushioning",
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 62,
+      "needs": [
+        "chair_size",
+        "material_softness",
+        "cushion_cleaning",
+        "assembly_instructions"
+      ]
+    },
+    {
+      "i": 63,
+      "needs": [
+        "cushioning",
+        "assembly_instructions",
+        "material_cleaning",
+        "caster_mobility"
+      ]
+    },
+    {
+      "i": 64,
+      "needs": [
+        "chair_size",
+        "material_softness"
+      ]
+    },
+    {
+      "i": 65,
+      "needs": [
+        "material_condition"
+      ]
+    },
+    {
+      "i": 66,
+      "needs": [
+        "cushioning",
+        "caster_installation"
+      ]
+    },
+    {
+      "i": 67,
+      "needs": [
+        "cushioning"
+      ]
+    },
+    {
+      "i": 68,
+      "needs": [
+        "assembly_instructions",
+        "sturdiness",
+        "cushioning"
+      ]
+    },
+    {
+      "i": 69,
+      "needs": [
+        "material_softness",
+        "cushioning"
+      ]
+    },
+    {
+      "i": 70,
+      "needs": [
+        "assembly_instructions"
+      ]
+    },
+    {
+      "i": 71,
+      "needs": [
+        "material_softness",
+        "assembly_instructions",
+        "back_support",
+        "swivel_smoothness",
+        "hydraulic_lift",
+        "caster_mobility",
+        "warranty",
+        "cushion_cleaning"
+      ]
+    },
+    {
+      "i": 72,
+      "needs": [
+        "cushioning",
+        "assembly_instructions"
+      ]
+    },
+    {
+      "i": 73,
+      "needs": [
+        "assembly_instructions"
+      ]
+    },
+    {
+      "i": 74,
+      "needs": [
+        "cushioning"
+      ]
+    },
+    {
+      "i": 75,
+      "needs": [
+        "hydraulic_lift",
+        "chair_size",
+        "assembly_instructions"
+      ]
+    },
+    {
+      "i": 76,
+      "needs": [
+        "sturdiness",
+        "caster_mobility"
+      ]
+    },
+    {
+      "i": 77,
+      "needs": [
+        "assembly_instructions",
+        "caster_mobility",
+        "sturdiness",
+        "cushioning"
+      ]
+    },
+    {
+      "i": 78,
+      "needs": [
+        "assembly_instructions",
+        "chair_size"
+      ]
+    },
+    {
+      "i": 79,
+      "needs": [
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 80,
+      "needs": [
+        "assembly_instructions",
+        "sturdiness",
+        "cushioning"
+      ]
+    },
+    {
+      "i": 81,
+      "needs": [
+        "cushioning"
+      ]
+    },
+    {
+      "i": 82,
+      "needs": [
+        "caster_mobility"
+      ]
+    },
+    {
+      "i": 83,
+      "needs": [
+        "chair_mobility",
+        "chair_size",
+        "assembly_instructions"
+      ]
+    },
+    {
+      "i": 84,
+      "needs": [
+        "chair_size",
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 85,
+      "needs": [
+        "assembly_instructions",
+        "cushioning",
+        "hydraulic_lift"
+      ]
+    },
+    {
+      "i": 86,
+      "needs": [
+        "chair_size",
+        "assembly_instructions",
+        "cushioning"
+      ]
+    },
+    {
+      "i": 87,
+      "needs": [
+        "weight_light",
+        "chair_size"
+      ]
+    },
+    {
+      "i": 88,
+      "needs": [
+        "chair_size",
+        "hydraulic_lift",
+        "sturdiness",
+        "assembly_instructions"
+      ]
+    },
+    {
+      "i": 89,
+      "needs": [
+        "assembly_instructions",
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 90,
+      "needs": [
+        "cushioning"
+      ]
+    },
+    {
+      "i": 91,
+      "needs": [
+        "caster_sturdiness"
+      ]
+    },
+    {
+      "i": 92,
+      "needs": [
+        "assembly_instructions",
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 93,
+      "needs": [
+        "assembly_instructions",
+        "sturdiness",
+        "cushioning"
+      ]
+    },
+    {
+      "i": 94,
+      "needs": [
+        "caster_mobility",
+        "assembly_instructions"
+      ]
+    },
+    {
+      "i": 95,
+      "needs": [
+        "assembly_instructions",
+        "cushioning",
+        "chair_size"
+      ]
+    },
+    {
+      "i": 96,
+      "needs": [
+        "cushioning",
+        "assembly_instructions",
+        "hydraulic_lift",
+        "armrests"
+      ]
+    },
+    {
+      "i": 97,
+      "needs": [
+        "assembly_instructions"
+      ]
+    },
+    {
+      "i": 98,
+      "needs": [
+        "caster_mobility"
+      ]
+    },
+    {
+      "i": 99,
+      "needs": [
+        "assembly_instructions",
+        "caster_mobility",
+        "swivel_smoothness",
+        "cushion_firmness",
+        "hydraulic_lift",
+        "backrest_stability"
+      ]
+    },
+    {
+      "i": 100,
+      "needs": [
+        "cushioning",
+        "chair_size"
+      ]
+    },
+    {
+      "i": 101,
+      "needs": [
+        "cushioning",
+        "hydraulic_lift",
+        "assembly_instructions",
+        "chair_size"
+      ]
+    },
+    {
+      "i": 102,
+      "needs": [
+        "assembly_instructions",
+        "weight_capacity"
+      ]
+    },
+    {
+      "i": 103,
+      "needs": [
+        "assembly_instructions",
+        "cushioning",
+        "back_support",
+        "hydraulic_lift",
+        "caster_mobility"
+      ]
+    },
+    {
+      "i": 104,
+      "needs": [
+        "assembly_instructions"
+      ]
+    },
+    {
+      "i": 105,
+      "needs": [
+        "durability",
+        "cushioning"
+      ]
+    },
+    {
+      "i": 106,
+      "needs": [
+        "assembly_instructions",
+        "chair_size",
+        "cushioning"
+      ]
+    },
+    {
+      "i": 107,
+      "needs": [
+        "caster_mobility",
+        "cushioning"
+      ]
+    },
+    {
+      "i": 108,
+      "needs": [
+        "product_condition"
+      ]
+    },
+    {
+      "i": 109,
+      "needs": [
+        "assembly_instructions",
+        "cushioning",
+        "chair_size"
+      ]
+    },
+    {
+      "i": 110,
+      "needs": [
+        "assembly_instructions",
+        "sturdiness"
+      ]
+    },
+    {
+      "i": 111,
+      "needs": [
+        "weight_capacity",
+        "cushioning"
+      ]
+    },
+    {
+      "i": 112,
+      "needs": []
+    },
+    {
+      "i": 113,
+      "needs": [
+        "sturdiness",
+        "material_quality",
+        "assembly_instructions",
+        "cushioning",
+        "swivel_smoothness",
+        "caster_mobility"
+      ]
+    },
+    {
+      "i": 114,
+      "needs": [
+        "assembly_instructions",
+        "chair_size"
+      ]
+    },
+    {
+      "i": 115,
+      "needs": [
+        "hydraulic_lift"
+      ]
+    },
+    {
+      "i": 116,
+      "needs": [
+        "cushioning",
+        "adjustable_arms",
+        "sturdiness",
+        "material_quality"
+      ]
+    },
+    {
+      "i": 117,
+      "needs": [
+        "weight_light",
+        "assembly_instructions",
+        "cushioning",
+        "backrest_height",
+        "adjustable_arms",
+        "hydraulic_lift"
+      ]
+    },
+    {
+      "i": 118,
+      "needs": [
+        "material_quality",
+        "rocking_mechanism",
+        "hydraulic_lift",
+        "sturdiness",
+        "cushioning"
+      ]
+    },
+    {
+      "i": 119,
+      "needs": [
+        "chair_height",
+        "cushioning"
+      ]
+    },
+    {
+      "i": 120,
+      "needs": [
+        "cushioning",
+        "sturdiness",
+        "chair_size",
+        "assembly_instructions",
+        "adjustable_arms"
+      ]
+    },
+    {
+      "i": 121,
+      "needs": [
+        "assembly_instructions",
+        "hardware_quality"
+      ]
+    },
+    {
+      "i": 122,
+      "needs": [
+        "material_softness",
+        "adjustable_arms",
+        "rocking_mechanism",
+        "hydraulic_lift",
+        "cushioning",
+        "caster_mobility",
+        "assembly_instructions"
+      ]
+    },
+    {
+      "i": 123,
+      "needs": [
+        "adjustable_arms",
+        "lumbar_support",
+        "hydraulic_lift",
+        "reclining_mechanism",
+        "assembly_instructions"
+      ]
+    },
+    {
+      "i": 124,
+      "needs": [
+        "cushioning",
+        "material_cleaning",
+        "assembly_instructions",
+        "armrest_height",
+        "adjustable_arms"
+      ]
+    },
+    {
+      "i": 125,
+      "needs": [
+        "cushioning",
+        "adjustable_arms",
+        "assembly_instructions"
+      ]
+    },
+    {
+      "i": 126,
+      "needs": [
+        "material_quality",
+        "backrest_height",
+        "cushioning"
+      ]
+    },
+    {
+      "i": 127,
+      "needs": [
+        "material_quality",
+        "ergonomic_design"
+      ]
+    },
+    {
+      "i": 128,
+      "needs": [
+        "lumbar_support",
+        "cushioning",
+        "assembly_instructions"
+      ]
+    },
+    {
+      "i": 129,
+      "needs": [
+        "assembly_instructions",
+        "cushioning",
+        "caster_mobility",
+        "reclining_mechanism"
+      ]
+    },
+    {
+      "i": 130,
+      "needs": [
+        "caster_mobility",
+        "cushioning",
+        "material_quality"
+      ]
+    },
+    {
+      "i": 131,
+      "needs": [
+        "reclining_mechanism",
+        "caster_mobility",
+        "cushioning"
+      ]
+    },
+    {
+      "i": 132,
+      "needs": [
+        "cushioning",
+        "material_quality",
+        "assembly_instructions"
+      ]
+    },
+    {
+      "i": 133,
+      "needs": [
+        "cushioning",
+        "lumbar_support"
+      ]
+    },
+    {
+      "i": 134,
+      "needs": [
+        "cushioning",
+        "lumbar_support",
+        "material_quality",
+        "adjustable_arms",
+        "hydraulic_lift",
+        "reclining_mechanism"
+      ]
+    },
+    {
+      "i": 135,
+      "needs": [
+        "assembly_instructions",
+        "cushioning",
+        "hydraulic_lift",
+        "armrest_height",
+        "chair_height"
+      ]
+    },
+    {
+      "i": 136,
+      "needs": [
+        "sturdiness",
+        "cushioning",
+        "hydraulic_lift",
+        "adjustable_arms",
+        "assembly_instructions"
+      ]
+    },
+    {
+      "i": 137,
+      "needs": [
+        "backrest_height",
+        "reclining_mechanism"
+      ]
+    },
+    {
+      "i": 138,
+      "needs": [
+        "assembly_instructions"
+      ]
+    },
+    {
+      "i": 139,
+      "needs": [
+        "cushioning",
+        "reclining_mechanism",
+        "assembly_instructions",
+        "material_cleaning"
+      ]
+    },
+    {
+      "i": 140,
+      "needs": [
+        "assembly_instructions",
+        "cushioning",
+        "backrest_height"
+      ]
+    },
+    {
+      "i": 141,
+      "needs": [
+        "cushioning",
+        "chair_size",
+        "swivel_smoothness",
+        "rocking_mechanism",
+        "sturdiness",
+        "assembly_instructions",
+        "material_quality"
+      ]
+    },
+    {
+      "i": 142,
+      "needs": [
+        "assembly_instructions",
+        "cushioning"
+      ]
+    },
+    {
+      "i": 143,
+      "needs": [
+        "assembly_instructions",
+        "material_quality",
+        "cushioning",
+        "adjustable_arms"
+      ]
+    },
+    {
+      "i": 144,
+      "needs": [
+        "material_quality",
+        "cushioning",
+        "back_support",
+        "chair_size",
+        "reclining_mechanism"
+      ]
+    },
+    {
+      "i": 145,
+      "needs": [
+        "hydraulic_lift",
+        "tilt_tension_adjustment",
+        "caster_mobility",
+        "adjustable_arms",
+        "material_quality"
+      ]
+    },
+    {
+      "i": 146,
+      "needs": [
+        "assembly_instructions",
+        "cushioning",
+        "hydraulic_lift",
+        "caster_mobility"
+      ]
+    },
+    {
+      "i": 147,
+      "needs": [
+        "hydraulic_lift",
+        "assembly_instructions"
+      ]
+    },
+    {
+      "i": 148,
+      "needs": [
+        "chair_size",
+        "cushioning",
+        "adjustable_arms"
+      ]
+    },
+    {
+      "i": 149,
+      "needs": [
+        "chair_size",
+        "assembly_instructions",
+        "cushioning"
+      ]
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "extract-needs@2026-10-27.1+home-office-desk-chairs",
+  "usage": {
+    "inputTokens": 10995,
+    "outputTokens": 7084
+  },
+  "latencyMs": 14346,
+  "cached": false
+}

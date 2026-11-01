@@ -1,0 +1,82 @@
+{
+  "data": [
+    {
+      "intentId": "softness",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm the softness texture description for the cloth."
+    },
+    {
+      "intentId": "weight_and_thickness",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Send the thickness or GSM weight of the cloth."
+    },
+    {
+      "intentId": "lint_free",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.31",
+          "text": "No Crumbling. No Shedding. Just Reliability!"
+        },
+        {
+          "id": "ic.27",
+          "text": "Stays intact without messy flakes"
+        }
+      ],
+      "draft": "No Crumbling. No Shedding. Just Reliability! Stays intact without messy flakes."
+    },
+    {
+      "intentId": "color_variety",
+      "target": "bullet.5",
+      "sources": [
+        {
+          "id": "bullet.5",
+          "text": "The Skoy Swedish dishcloths come in an array of colors, designs, and pack sizes, adding a touch of fun to your cleaning routine."
+        },
+        {
+          "id": "ic.44",
+          "text": "Good clean fun includes eleven designs in assorted colors"
+        }
+      ],
+      "draft": "The Skoy Swedish dishcloths come in an array of eleven designs in assorted colors, adding a touch of fun to your cleaning routine."
+    },
+    {
+      "intentId": "streak_free",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.6",
+          "text": "Streak-free cleaning for the whole house, not just the kitchen"
+        }
+      ],
+      "draft": "Streak-free cleaning for the whole house, not just the kitchen."
+    },
+    {
+      "intentId": "scratch_free",
+      "target": "new_bullet",
+      "sources": [],
+      "needsFromBrand": "Confirm whether the cloths are scratch-free on delicate surfaces."
+    },
+    {
+      "intentId": "stain_resistance",
+      "target": "new_bullet",
+      "sources": [
+        {
+          "id": "ic.18",
+          "text": "100% ODORLESS & FAST DRYING."
+        }
+      ],
+      "draft": "100% Odorless and fast drying to help prevent bacteria growth."
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "brief@2026-10-27.2",
+  "usage": {
+    "inputTokens": 2983,
+    "outputTokens": 623
+  },
+  "latencyMs": 2419,
+  "cached": false
+}

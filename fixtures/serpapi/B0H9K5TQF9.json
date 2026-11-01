@@ -1,0 +1,702 @@
+{
+  "product_results": {
+    "categories": [
+      {
+        "position": 1,
+        "name": "Office Products",
+        "link": "https://www.amazon.com/Office-Products/b/ref=dp_bc_1?ie=UTF8&node=1064954",
+        "node": "1064954",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1064954"
+      },
+      {
+        "position": 2,
+        "name": "Office Furniture & Lighting",
+        "link": "https://www.amazon.com/Office-Furniture-Lighting/b/ref=dp_bc_2?ie=UTF8&node=1069102",
+        "node": "1069102",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1069102"
+      },
+      {
+        "position": 3,
+        "name": "Chairs & Sofas",
+        "link": "https://www.amazon.com/Office-Chairs-Sofas/b/ref=dp_bc_3?ie=UTF8&node=1069122",
+        "node": "1069122",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1069122"
+      },
+      {
+        "position": 4,
+        "name": "Managerial & Executive Chairs",
+        "link": "https://www.amazon.com/Managerial-Chairs-Executive-Chairs/b/ref=dp_bc_4?ie=UTF8&node=1069132",
+        "node": "1069132",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1069132"
+      }
+    ],
+    "asin": "B0H9K5TQF9",
+    "title": "NEO CHAIR Office Computer Gaming Mid-Back Mesh Desk Chair, Dark Black",
+    "link": "https://www.amazon.com/NEO-CHAIR-Computer-Breathable-Adjustment/dp/B0H9K5TQF9/",
+    "link_clean": "https://www.amazon.com/dp/B0H9K5TQF9/",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0H9K5TQF9&device=desktop&engine=amazon_product",
+    "badges": [
+      "Amazon's Choice",
+      "Ends in 10:06:02"
+    ],
+    "variants": [
+      {
+        "title": "Color",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B0H9K5TQF9",
+            "name": "Dark Black, 1 Pack",
+            "image": "https://m.media-amazon.com/images/I/41LEEzRNpWL._SS64_.jpg",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0H9K5TQF9&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B0CNV3829C",
+            "name": "Beige, 1 Pack",
+            "image": "https://m.media-amazon.com/images/I/41u8oe1muWL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CNV3829C&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B0GXX75JN5",
+            "name": "Black, 1 Pack",
+            "image": "https://m.media-amazon.com/images/I/41XIOlHd8WL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GXX75JN5&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 4,
+            "asin": "B0BKG8SC4Z",
+            "name": "Grey, 1 Pack",
+            "image": "https://m.media-amazon.com/images/I/51jBLGQ1AjL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0BKG8SC4Z&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 5,
+            "asin": "B0CPHZTJK8",
+            "name": "Ivory, 1 Pack",
+            "image": "https://m.media-amazon.com/images/I/41cWWefeXtL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CPHZTJK8&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 6,
+            "asin": "B0BKGCTRBS",
+            "name": "Pink, 1 Pack",
+            "image": "https://m.media-amazon.com/images/I/51riyQsDNuL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0BKGCTRBS&device=desktop&engine=amazon_product"
+          }
+        ]
+      }
+    ],
+    "brand": "Visit the NEO CHAIR Store",
+    "thumbnail": "https://m.media-amazon.com/images/I/71d5dMpCQNL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "thumbnails": [
+      "https://m.media-amazon.com/images/I/71d5dMpCQNL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71ZAHHFmWJL._AC_SL1250_.jpg",
+      "https://m.media-amazon.com/images/I/61ZltEV70DL._AC_SL1250_.jpg",
+      "https://m.media-amazon.com/images/I/61ZBGpBtb3L._AC_SL1250_.jpg",
+      "https://m.media-amazon.com/images/I/61FQMw+nU1L._AC_SL1250_.jpg",
+      "https://m.media-amazon.com/images/I/71IZkvtwVwL._AC_SL1250_.jpg",
+      "https://m.media-amazon.com/images/I/71LgucZSOhL._AC_SL1250_.jpg",
+      "https://m.media-amazon.com/images/I/81r7Et88JsL._AC_SL1500_.jpg"
+    ],
+    "rating": 4.2,
+    "reviews": 4006,
+    "bought_last_month": "3K+ bought in past month",
+    "discount": "-12%",
+    "price": "$38.87",
+    "extracted_price": 38.87,
+    "old_price": "$43.98",
+    "extracted_old_price": 43.98,
+    "prime": true,
+    "delivery": [
+      "FREE delivery Friday, November 6",
+      "Or fastest delivery Thursday, November 5. Order within 8 hrs 21 mins"
+    ],
+    "stock": "In Stock"
+  },
+  "purchase_options": {
+    "single_offer": {
+      "price": "$38.87",
+      "extracted_price": 38.87,
+      "delivery": [
+        "FREE delivery Friday, November 6",
+        "Or fastest delivery Thursday, November 5. Order within 8 hrs 21 mins"
+      ],
+      "stock": "In Stock",
+      "features": {
+        "shipper_seller": {
+          "text": "Amazon.com",
+          "details": {
+            "heading": "Shipper / Seller",
+            "content": "Amazon.com"
+          }
+        },
+        "returns": {
+          "text": "FREE refund/replacement until Jan 31, 2027",
+          "details": {
+            "heading": "FREE refund/replacement until Jan 31, 2027",
+            "content": "For the 2026 holiday season, eligible items purchased between November 1 and December 31, 2026 can be returned until January 31, 2027."
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "payment": {
+          "text": "Secure transaction",
+          "details": {
+            "heading": "Your transaction is secure",
+            "content": "We work hard to protect your security and privacy. Our payment security system encrypts your information during transmission. We don’t share your credit card details with third-party sellers, and we don’t sell your information to others. Learn more"
+          },
+          "link": {
+            "text": "Learn more",
+            "link": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201909010"
+          }
+        }
+      }
+    }
+  },
+  "protection_plan": [
+    {
+      "position": 1,
+      "asin": "B0CG6RMHKC",
+      "link": "https://www.amazon.com/dp/B0CG6RMHKC/",
+      "title": "2-Year Protection Plan",
+      "price": "$6.99",
+      "extracted_price": 6.99
+    },
+    {
+      "position": 2,
+      "asin": "B0CG6QN9VW",
+      "link": "https://www.amazon.com/dp/B0CG6QN9VW/",
+      "title": "3-Year Protection Plan",
+      "price": "$7.99",
+      "extracted_price": 7.99
+    },
+    {
+      "position": 3,
+      "asin": "B07RZ3LSHM",
+      "link": "https://www.amazon.com/dp/B07RZ3LSHM/",
+      "title": "Complete Protect: One plan covers all past and future eligible purchases (Broadest Coverage)",
+      "price": "$16.99/month",
+      "extracted_price": 16.99
+    }
+  ],
+  "item_specifications": {
+    "brand": "NEO CHAIR",
+    "color": "Dark Black, 1 Pack",
+    "material": "Mesh",
+    "product_dimensions": "22.44\"D x 22.8\"W x 36\"H",
+    "size": "22.8 x 22.44 x 36 inches"
+  },
+  "about_item": [
+    "Breathable & Ergonomic — Premium mesh promotes airflow, while integrated lumbar support helps maintain healthy posture for all-day comfort.",
+    "Comfortable Seat — Thick, supportive foam cushioning provides lasting comfort during extended computer use, whether you're working, studying, or gaming.",
+    "Fully Adjustable Design — Easily adjust the seat height, tilt, and smooth 360° swivel to create your ideal sitting position whether you're working, studying, or gaming.",
+    "Certified Quality & Durability — Made with quality materials tested to applicable SGS and BIFMA standards, offering reliable performance and lasting durability for everyday computer use, whether at your desk or gaming setup.",
+    "FSC-Certified Materials — The internal support structure within the cushion is crafted from FSC-certified wood for responsible sourcing."
+  ],
+  "product_description": [
+    {
+      "position": 1,
+      "title": "Computer chair with supportive mesh back, lumbar support",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/f126d9db-441a-4153-b74d-b58bf3630ebc.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 2
+    },
+    {
+      "position": 3,
+      "carousel_images": [
+        {
+          "position": 1,
+          "title": "Office chair for work, computer desk, conference room",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/b80f494e-dabc-4e19-9bd6-2b366d48ac05.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 2,
+          "title": "Office chair for work, computer desk, conference room",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d60b25eb-d22b-4564-be7f-f7778fb797bb.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 3,
+          "title": "CPS_A+_BLACK_PC_03",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/287487df-8697-4e90-8910-ef26292408e2.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "title": "Comfortable mesh chair with breathable supportive mesh back support",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/12ff333a-3385-43a1-aaae-29f7532d8bae.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 5,
+      "title": "Soft fabric cushion seat for comfy chair all day comfort",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0a05f182-4681-4c39-bbf5-b438b61d2d58.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 6,
+      "carousel_images": [
+        {
+          "position": 1,
+          "title": "Height adjustable task chair",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/c979e9b9-11e7-4944-aa9e-aff43fab293a.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 2,
+          "title": "360 swivel chair with durable and strong wheels",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/6af1d028-6cc4-4bf8-9440-6bc581b17ecd.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 3,
+          "title": "computer chair with sturdy base comfortable",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a262522a-aebe-4006-96c8-39cee862753e.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "compare_with_similar": [
+        {
+          "position": 1,
+          "asin": "B0GXX75JN5",
+          "title": "CPS",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/71548494-bdff-467a-915a-8651c85ab20a.__AC_SR200,225___.jpg",
+          "link": "https://www.amazon.com/dp/B0GXX75JN5?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GXX75JN5&device=desktop&engine=amazon_product",
+          "rating": 4.2,
+          "reviews": 4006,
+          "price": "$39.98",
+          "extracted_price": 39.98,
+          "tilting": "✔",
+          "height_adjustment": "✔",
+          "360°_swivel": "✔",
+          "max_weight": "250 lbs",
+          "type": "Mid Back"
+        },
+        {
+          "position": 2,
+          "asin": "B0DKNGL1J9",
+          "title": "CPS (Pack of 2)",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2b499ffd-16dc-401c-8172-641734855fb0.__AC_SR200,225___.jpg",
+          "link": "https://www.amazon.com/dp/B0DKNGL1J9?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DKNGL1J9&device=desktop&engine=amazon_product",
+          "rating": 4.2,
+          "reviews": 4006,
+          "tilting": "✔",
+          "height_adjustment": "✔",
+          "360°_swivel": "✔",
+          "max_weight": "250 lbs",
+          "type": "Mid Back"
+        },
+        {
+          "position": 3,
+          "asin": "B0G1BF9F15",
+          "title": "801",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/4af66b11-4f0e-4189-bdda-2168135836fd.__AC_SR200,225___.jpg",
+          "link": "https://www.amazon.com/dp/B0G1BF9F15?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0G1BF9F15&device=desktop&engine=amazon_product",
+          "rating": 4.3,
+          "reviews": 382,
+          "price": "$47.98",
+          "extracted_price": 47.98,
+          "tilting": "✔",
+          "height_adjustment": "✔",
+          "360°_swivel": "✔",
+          "max_weight": "275 lbs",
+          "type": "Mid Back"
+        },
+        {
+          "position": 4,
+          "asin": "B0DS57S2V5",
+          "title": "M28",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/bcfd827b-ad79-431f-a354-b1977b018c15.__CR0,0,200,225_PT0_SX200_V1___.jpg",
+          "link": "https://www.amazon.com/dp/B0DS57S2V5?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DS57S2V5&device=desktop&engine=amazon_product",
+          "rating": 4.2,
+          "reviews": 2428,
+          "price": "$44.42",
+          "extracted_price": 44.42,
+          "tilting": "✔",
+          "height_adjustment": "✔",
+          "360°_swivel": "✔",
+          "max_weight": "250 lbs",
+          "type": "Mid Back"
+        },
+        {
+          "position": 5,
+          "asin": "B0GCMKBVNC",
+          "title": "STNEC",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a20fb53f-fdfb-4f45-b310-c58943a615d2.__AC_SR200,225___.png",
+          "link": "https://www.amazon.com/dp/B0GCMKBVNC?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GCMKBVNC&device=desktop&engine=amazon_product",
+          "rating": 4.4,
+          "reviews": 156,
+          "tilting": "✔",
+          "height_adjustment": "✔",
+          "360°_swivel": "✔",
+          "max_weight": "300 lbs",
+          "type": "Mid Back",
+          "flip_up_armrest": "Available"
+        },
+        {
+          "position": 6,
+          "asin": "B0GJYKWLVH",
+          "title": "STDBS",
+          "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/22c9db92-c4c4-4817-a0a7-f4f16eda1db0.__AC_SR200,225___.png",
+          "link": "https://www.amazon.com/dp/B0GJYKWLVH?ref=emc_p_m_5_i_atc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GJYKWLVH&device=desktop&engine=amazon_product",
+          "rating": 4.1,
+          "reviews": 49,
+          "price": "$64.89",
+          "extracted_price": 64.89,
+          "tilting": "✔",
+          "height_adjustment": "✔",
+          "360°_swivel": "✔",
+          "max_weight": "300 lbs",
+          "type": "High Back",
+          "flip_up_armrest": "Available"
+        }
+      ]
+    }
+  ],
+  "product_details": {
+    "brand_name": "NEO CHAIR",
+    "additional_features": "Back Support",
+    "unit_count": "1 Count",
+    "recommended_uses_for_product": "Office",
+    "room_type": "Office",
+    "age_range_description": "Adult",
+    "included_components": "Caster",
+    "model_name": "Office Chair",
+    "indoor_outdoor_usage": "Indoor",
+    "model_number": "CPS",
+    "number_of_packs": "1",
+    "global_trade_identification_number": "00810093607945",
+    "item_highlight": "Breathable Mesh Back with Lumbar Support, Height Adjustment, Smooth Rolling Casters for Home Office, Study or Gaming Setup",
+    "manufacturer": "NEO CHAIR INC.",
+    "item_type_name": "Chair",
+    "manufacturer_part_number": "CPS-12",
+    "number_of_items": "1",
+    "best_sellers_rank": [
+      {
+        "text": "#299 in Office Products (See Top 100 in Office Products)",
+        "extracted_rank": 299,
+        "link": "https://www.amazon.com/gp/bestsellers/office-products/ref=pd_zg_ts_office-products",
+        "link_text": "See Top 100 in Office Products"
+      },
+      {
+        "text": "#1 in Managerial Chairs & Executive Chairs",
+        "extracted_rank": 1,
+        "link": "https://www.amazon.com/gp/bestsellers/office-products/1069132/ref=pd_zg_hrsr_office-products",
+        "link_text": "Managerial Chairs & Executive Chairs"
+      }
+    ],
+    "asin": "B0H9K5TQF9",
+    "customer_reviews": "4.2 out of 5 stars",
+    "rating": 4.2,
+    "reviews": 4006,
+    "furniture_base_movement": "Swivel",
+    "reclining_position_count": "1",
+    "color": "Dark Black, 1 Pack",
+    "back_style": "Mesh Back",
+    "style_name": "Modern",
+    "pattern": "Solid",
+    "shape": "L-Shaped",
+    "item_dimensions_d_x_w_x_h": "22.44\"D x 22.8\"W x 36\"H",
+    "size": "22.8 x 22.44 x 36 inches",
+    "item_weight": "19.4 pounds",
+    "seat_height": "17 inches",
+    "seat_depth": "19.5 inches",
+    "chair_backrest_width": "17.7 inches",
+    "item_dimensions": "22.44 x 22.8 x 36 inches",
+    "material_type": "Mesh",
+    "frame_material_type": "Polypropylene",
+    "product_care_instructions": "Wipe Clean",
+    "seat_material": "Foam",
+    "fill_material": "Foam",
+    "upholstery_fabric_type": "Mesh",
+    "maximum_weight_recommendation": "250 pounds"
+  },
+  "reviews_information": {
+    "summary": {
+      "text": "Customers find the chair comfortable, easy to assemble, and appreciate its color options, with one noting it matches well with pink desks. The stability and sturdiness receive mixed feedback - while some find it sturdy, others report it feels about to break. Assembly issues are common, with multiple customers mentioning problems with screw alignment. The size also draws mixed reactions, with some finding it perfect while others say it's too small.",
+      "insights": [
+        {
+          "title": "Quality",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 570,
+            "positive": 420,
+            "negative": 150
+          },
+          "summary": "Customers find the chair to be of good quality.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "This was a great chair until one of the wheels popped off and when I checked where the wheel was supposed to go, it was eroded so the wheel wouldn’t...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RDRZP1LF3478B"
+            },
+            {
+              "position": 2,
+              "snippet": "Overall, it's a nice chair, but with a flaw. I have other office chairs that I can sit forward of center and there's no danger of tipping over....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R19WMGTHRKF7WH"
+            },
+            {
+              "position": 3,
+              "snippet": "...not figure out how to get it to not squeak, I think it’s just cuz it’s cheap. If I could go back in time and get a better chair I would.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R8JKKF3HUKW7H"
+            },
+            {
+              "position": 4,
+              "snippet": "This is my second time buying this chair within six years it’s a good chair it lasted me 6 years and I just purchased another one for my work space....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/REBTVGHOVWVIT"
+            }
+          ]
+        },
+        {
+          "title": "Comfort",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 435,
+            "positive": 314,
+            "negative": 121
+          },
+          "summary": "Customers find the chair comfortable, with one mentioning it's easy to set up.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Love the chair, nice and comfortable easy to install, looks just as the picture I must say that it is definitely worth buying you can use the handle...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2KRCEA97SPJME"
+            },
+            {
+              "position": 2,
+              "snippet": "...The color is beautiful and just as shown. It’s very comfortable, feels good quality, lightweight and easy enough to move upstairs by myself, and I do...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R34Q1DLK4NO79T"
+            },
+            {
+              "position": 3,
+              "snippet": "Chair was so uncomfortable and hard! To return I had to disassemble and had to purchase tools to do so! Would not recommend.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3CMCOXG0CFFCG"
+            },
+            {
+              "position": 4,
+              "snippet": "the chair is very very nice & comfy, just perfect for my study table, i can now move around the room without standing. i love this chair! thank you",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3NR07FN7C77DL"
+            }
+          ]
+        },
+        {
+          "title": "Assembly",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 385,
+            "positive": 290,
+            "negative": 95
+          },
+          "summary": "Customers find the chair easy to assemble.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...Does not squeak maybe with age. Easy to assemble.. the only negative is the seat cushion is kind of thin and the overall size of the cushion is a...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R4ABC62EWBH7B"
+            },
+            {
+              "position": 2,
+              "snippet": "Easy to put together!!! AWESOME SKY BLUE COLOR! COMFORT: Supports your back! Needed for granddaughter's desk. She LOVES IT!!!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1R1Q43ERGZXS5"
+            },
+            {
+              "position": 3,
+              "snippet": "Easy assembly. Looks nicer than it feels. Not the most comfortable and the round knob that’s supposed to tilt the back more doesn’t seem to work....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RPSDD90Z0YC82"
+            },
+            {
+              "position": 4,
+              "snippet": "The chair is hard to put together the back mounting screws are stripped, and do not hold anything....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RHU9XNMAX13B3"
+            }
+          ]
+        },
+        {
+          "title": "Color",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 91,
+            "positive": 87,
+            "negative": 4
+          },
+          "summary": "Customers like the chair's color options, particularly noting that it pairs well with pink desks and comes in three shades of grey, beige, and white.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Love the color! Was easy to put together and price was good. Does hurt my neck a little after working 8 hours. Other than that love the chair!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1085UTDUQN9Z7"
+            },
+            {
+              "position": 2,
+              "snippet": "We love the chair and the ease of assembly for it. Great color and super comfy. Rolls around and adjusts smoothly.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RCX89UYZSA7SF"
+            },
+            {
+              "position": 3,
+              "snippet": "...Incredibly sturdy, great for my daughters room. The color is beautiful and we constantly get asked where we got it. I now have 2 in different colors.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2PHJJJRJQTGK"
+            },
+            {
+              "position": 4,
+              "snippet": "This is a cute pink chair. I love the color and it goes great with the pink theme of my work from home office I’m trying to put together....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2NLQVBLTEP44D"
+            }
+          ]
+        },
+        {
+          "title": "Stability",
+          "sentiment": "mixed",
+          "mentions": {
+            "total": 198,
+            "positive": 68,
+            "negative": 130
+          },
+          "summary": "Customers have mixed experiences with the chair's stability, with some praising its back support and lumbar support, while others report that it forces them to lean forward awkwardly and feels wobbly.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "the chair is so cute but it’s god awful to sit in, makes you lean forward and the bolts don’t fit properly into the holes and they fall out and get...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R9Y8NT4XBPONO"
+            },
+            {
+              "position": 2,
+              "snippet": "...Came with extra screws. Comfy inexpensive chart. Great back support. Very sturdy. Has no squeaky parts. Quality thick material.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2LKV8O6ZPFSUY"
+            },
+            {
+              "position": 3,
+              "snippet": "Poor support. Uncomfortable on the back and seating",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R16LZUZA806RNC"
+            },
+            {
+              "position": 4,
+              "snippet": "very uncomfortable. not stable. I rolled it to the side it tipped over. Luckly, I had bed beside it and fell into that to hold myself up.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3LR5I8UZGVRUR"
+            }
+          ]
+        },
+        {
+          "title": "Sturdiness",
+          "sentiment": "mixed",
+          "mentions": {
+            "total": 191,
+            "positive": 104,
+            "negative": 87
+          },
+          "summary": "Customers have mixed opinions about the chair's sturdiness, with some finding it sturdy and expecting it to last years, while others report it feels like it's about to break.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Very Comfortable, Sturdy, chair. I’m 5’1 and it adjusts for me perfectly. I absolutely love the pink and white it fits my shop esthetics perfectly 💕",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RC7NPN2W00EZW"
+            },
+            {
+              "position": 2,
+              "snippet": "Not sturdy, would not recommend unless you're a short thin individual lol but i guess its wroth the price",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R11ABGVTBVB5YO"
+            },
+            {
+              "position": 3,
+              "snippet": "...👌🏽 Mine is however very sturdy and motion is very smooth on hard floors alittle push and it's across the room. 10/10 for the price and quality",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RP5TKCTYGPYJR"
+            },
+            {
+              "position": 4,
+              "snippet": "Cheap quality and not durable",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RXKIZ3L8FW4JT"
+            }
+          ]
+        },
+        {
+          "title": "Size",
+          "sentiment": "mixed",
+          "mentions": {
+            "total": 86,
+            "positive": 31,
+            "negative": 55
+          },
+          "summary": "Customers have mixed opinions about the chair's size, with some finding it perfect and compact, while others note it's a bit small and not suitable for those of wider stature.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Not comfortable and small",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R81460Y2PUE8P"
+            },
+            {
+              "position": 2,
+              "snippet": "Sturdy , cute & compact. Great quality. Rolls well. Works as expected.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R38EF4C5ZZ1IHB"
+            },
+            {
+              "position": 3,
+              "snippet": "For my family, Too small. Difficult to assemble.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2PTXTJI2IW06R"
+            },
+            {
+              "position": 4,
+              "snippet": "chair is small and leans forward when u sit on it making it impossible to relax in its like youre leaning on a slanted surface instead of sitting",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R20FWBUFDKFVQQ"
+            }
+          ]
+        },
+        {
+          "title": "Screw alignment",
+          "sentiment": "negative",
+          "mentions": {
+            "total": 93,
+            "positive": 7,
+            "negative": 86
+          },
+          "summary": "Customers report significant issues with the chair's screws, noting that they would not properly screw in, did not match the holes, and were extremely poor quality.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Horrible chair. The screws fall out. The holes the provided were not sized right some wouldn’t even tighten in the spots for them. Lasted 2 months....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1N01ECYJT35PN"
+            },
+            {
+              "position": 2,
+              "snippet": "...'s for sure, chair was delivered with no instructions and screw holes were not lined up so had to put in the screws janky to put it together",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1CKOTY5Y3O4OH"
+            },
+            {
+              "position": 3,
+              "snippet": "...The screws didn’t align & the chair is wobbly. Would not recommend.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3IELLMH8OLK20"
+            },
+            {
+              "position": 4,
+              "snippet": "...Also, the screws constantly come loose and fall out. I feel like it break at any moment. Invest in your body.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R34OTWCU56EYWO"
+            }
+          ]
+        }
+      ],
+      "customer_reviews": {
+        "5 star": 67,
+        "4 star": 11,
+        "3 star": 7,
+        "2 star": 3,
+        "1 star": 12
+      }
+    }
+  },
+  "related_asins": [
+    "B0FQDM23S4",
+    "B0HKM9BJV2",
+    "B0DS57S2V5",
+    "B0HMHF5KG2",
+    "B0HGDLLCRY",
+    "B0GVNQH8MG"
+  ]
+}

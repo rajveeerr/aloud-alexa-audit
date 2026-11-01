@@ -298,7 +298,113 @@
           "rank": 4
         }
       ],
-      "available": true
+      "available": true,
+      "insights": [
+        {
+          "topic": "Quality",
+          "mentions": 1300,
+          "positive": 1129,
+          "negative": 252,
+          "sentiment": "positive",
+          "summary": "Customers find these pens to be wonderful, with one mentioning they are perfect for their needs.",
+          "snippets": [
+            "Great pens! They write smoothly with a very fine tip. The weight of the pen is slightly more then normal which I find helpful for penmanship....",
+            "Love these pens! Very fine point which I love and the hand feel of the pens is soft and kinda a smooth rubber feel to it! Nice feel on the hand!",
+            "Looks just like Picture Shown here on Amazon. I love these pens they feel buttery smooth and write the same as well omg I love these pens worth the..."
+          ]
+        },
+        {
+          "topic": "Writing performance",
+          "mentions": 937,
+          "positive": 735,
+          "negative": 202,
+          "sentiment": "positive",
+          "summary": "Customers praise how smoothly these gel pens write.",
+          "snippets": [
+            "I love these pens. Smooth writing and easy to use. Typically I am one to smudge my writing but rarely if ever do with this pen.",
+            "I really like these pens! They write smoothly and consistently without skipping, and the ink dries quickly enough that I don’t have to worry much...",
+            "...I love the sleek design and pale/ pastel colors! The pen writes smooth and thin and doesn’t smear which is what I need, while also being comfortable..."
+          ]
+        },
+        {
+          "topic": "Appearance",
+          "mentions": 534,
+          "positive": 524,
+          "negative": 10,
+          "sentiment": "positive",
+          "summary": "Customers appreciate the appearance of these pens, describing them as lovely and noting that they write beautifully, with one customer mentioning they look expensive.",
+          "snippets": [
+            "These pens are cute and all, but in order for you to be able to highlight something you have to wait until it completely dries and that takes a while...",
+            "These pens are pretty, and the feel is soft to the touch, which is great, but the ink comes out spotty, which makes them difficult to use for taking...",
+            "...I love them so much and they are super cute, I have bought many times and they just work so well I get compliments on them all the time because they..."
+          ]
+        },
+        {
+          "topic": "Ergonomics",
+          "mentions": 331,
+          "positive": 320,
+          "negative": 11,
+          "sentiment": "positive",
+          "summary": "Customers appreciate the pens' ergonomic design, noting they feel buttery smooth, are soft to touch, and fit comfortably in the hand.",
+          "snippets": [
+            "...OMG, theyre even better in person! Soft, matte, pastel colors, they write very smoothly, and are very comfortable to hold. I absolutely love them....",
+            "Love the feel of them- the grip, the texture, the colors. They write good- when they work....",
+            "...They are so soft and glide well on paper. I’ve even had some doctors ask me for the brand name. They come in different colors and the price isn’t bad."
+          ]
+        },
+        {
+          "topic": "Smoothness",
+          "mentions": 299,
+          "positive": 258,
+          "negative": 41,
+          "sentiment": "positive",
+          "summary": "Customers appreciate the smoothness of these gel pens, noting their smooth glide and excellent ink flow.",
+          "snippets": [
+            "...and the functionality was working good too since I liked how thin and smooth it felt on paper but it’s only been a couple of times in a week and now...",
+            "Very smooth, with great ink flow. Easy to glide across the page when writing alot of information. Adorable aesthetic, Im very happy with my purchase.",
+            "...I've purchased them three times. They are so smooth, glide across your paper and love the creamy colors. Great quality for low price."
+          ]
+        },
+        {
+          "topic": "Color",
+          "mentions": 279,
+          "positive": 259,
+          "negative": 20,
+          "sentiment": "positive",
+          "summary": "Customers like the pens' colors, particularly the muted pastel shades and dark black ink.",
+          "snippets": [
+            "...I am surprised with the smoothness of the strokes, i love the colors and overall feel of the pens. I more than pleased with this purchase....",
+            "I was very excited for these pens—the colors are beautiful and exactly what I was looking for. Unfortunately, they are completely unreliable....",
+            "Beautiful colors. Nice rubbery material on exterior to hold. Writes smoothly and good consistency of ink flow...."
+          ]
+        },
+        {
+          "topic": "Smudge-resistant",
+          "mentions": 246,
+          "positive": 154,
+          "negative": 92,
+          "sentiment": "mixed",
+          "summary": "Customers have mixed experiences with the pens' smudge resistance, with some reporting that the ink does not smear at all, while others mention that it smudges badly and gets all over their hands.",
+          "snippets": [
+            "...Writes smoothly and no smearing. This is the only pens i’ll re order every time and when it goes on sale you better believe i’m stocking up!!!",
+            "Yes, they are \"cute\" BUT they are NOT \"quick dry ink\", they smudge & mess up whatever you are writing!...",
+            "Perfect glide and I’m picky about my pens. No smear, not gaps in the writing, easy to use and fits perfectly in my journal spiral binding"
+          ]
+        },
+        {
+          "topic": "Ink flow",
+          "mentions": 323,
+          "positive": 96,
+          "negative": 227,
+          "sentiment": "negative",
+          "summary": "Customers report issues with ink flow in these pens, noting that the ink does not flow well, skips constantly, and gets all over the place.",
+          "snippets": [
+            "Ink skips!! Every few words the ink skips, so your words will look inconsistent....",
+            "...Soft and the colors are great. They do not write well at all. The ink skips and then you have to drawl on scratch paper until they start writing...",
+            "These write so smooth & easy! The pen and ink just glides! Ink flow is great & and the feel of the pen is smooth & soft. Easy to hold & handle...."
+          ]
+        }
+      ]
     },
     "contentHash": "8166aa612fa7a20e36f5f0524d9d2075483d141948b3c5cb87ee289aa898faf2"
   },
@@ -2228,7 +2334,9 @@
           "text": "Smooth Writing"
         }
       ],
-      "flags": []
+      "flags": [
+        "contested_by_reviews"
+      ]
     },
     {
       "intentId": "longevity",
@@ -2319,13 +2427,147 @@
       "flags": []
     }
   ],
-  "usage": {
-    "requests": 8,
-    "cachedRequests": 8,
-    "inputTokens": 14444,
-    "outputTokens": 7324
+  "proof": {
+    "reviews": 4330,
+    "source": "amazon-topics",
+    "claims": [
+      {
+        "intentId": "smudge",
+        "claim": "won't fade or smudge easily",
+        "sources": [
+          {
+            "kind": "field",
+            "id": "bullet.2",
+            "text": "won't fade or smudge easily"
+          }
+        ],
+        "keywords": [
+          "Smudge-resistant"
+        ],
+        "matching": 246,
+        "sampled": 246,
+        "counts": {
+          "supports": 154,
+          "contradicts": 92,
+          "mixed": 0,
+          "unrelated": 0,
+          "unlabelled": 0
+        },
+        "examples": {
+          "supports": [],
+          "contradicts": [],
+          "mixed": [
+            "...Writes smoothly and no smearing. This is the only pens i’ll re order every time and when it goes on sale you better believe i’m stocking up!!!",
+            "Yes, they are \"cute\" BUT they are NOT \"quick dry ink\", they smudge & mess up whatever you are writing!...",
+            "Perfect glide and I’m picky about my pens. No smear, not gaps in the writing, easy to use and fits perfectly in my journal spiral binding"
+          ]
+        },
+        "flags": [],
+        "support": {
+          "rate": 0.6260162601626016,
+          "low": 0.5640484954321757,
+          "high": 0.6841087369902871
+        },
+        "contradiction": {
+          "rate": 0.37398373983739835,
+          "low": 0.31589126300971293,
+          "high": 0.4359515045678243
+        },
+        "verdict": "contested"
+      },
+      {
+        "intentId": "ink_flow",
+        "claim": "Smooth Writing without Skipping",
+        "sources": [
+          {
+            "kind": "image",
+            "id": "img.2,img.11",
+            "text": "Smooth Writing without Skipping"
+          },
+          {
+            "kind": "image",
+            "id": "img.8",
+            "text": "Smooth Writing"
+          }
+        ],
+        "keywords": [
+          "Ink flow"
+        ],
+        "matching": 323,
+        "sampled": 323,
+        "counts": {
+          "supports": 96,
+          "contradicts": 227,
+          "mixed": 0,
+          "unrelated": 0,
+          "unlabelled": 0
+        },
+        "examples": {
+          "supports": [],
+          "contradicts": [
+            "Ink skips!! Every few words the ink skips, so your words will look inconsistent....",
+            "...Soft and the colors are great. They do not write well at all. The ink skips and then you have to drawl on scratch paper until they start writing...",
+            "These write so smooth & easy! The pen and ink just glides! Ink flow is great & and the feel of the pen is smooth & soft. Easy to hold & handle...."
+          ],
+          "mixed": []
+        },
+        "flags": [],
+        "support": {
+          "rate": 0.29721362229102166,
+          "low": 0.24999098623393926,
+          "high": 0.3492032411838679
+        },
+        "contradiction": {
+          "rate": 0.7027863777089783,
+          "low": 0.6507967588161321,
+          "high": 0.7500090137660607
+        },
+        "verdict": "contested"
+      }
+    ],
+    "modelOutputs": [
+      [
+        {
+          "claim": 0,
+          "topic": 6
+        },
+        {
+          "claim": 1,
+          "topic": 6
+        },
+        {
+          "claim": 2,
+          "topic": -1
+        },
+        {
+          "claim": 3,
+          "topic": 7
+        },
+        {
+          "claim": 4,
+          "topic": -1
+        },
+        {
+          "claim": 5,
+          "topic": -1
+        },
+        {
+          "claim": 6,
+          "topic": -1
+        }
+      ]
+    ],
+    "usage": {
+      "inputTokens": 555,
+      "outputTokens": 150,
+      "requests": 1
+    }
   },
-  "notes": [
-    "Live listings come without review text, so promise vs proof wasn't checked."
-  ]
+  "usage": {
+    "requests": 9,
+    "cachedRequests": 9,
+    "inputTokens": 14999,
+    "outputTokens": 7474
+  },
+  "notes": []
 }

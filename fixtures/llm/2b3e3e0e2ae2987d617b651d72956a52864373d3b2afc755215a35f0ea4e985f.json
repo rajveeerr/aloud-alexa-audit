@@ -1,0 +1,148 @@
+{
+  "data": [
+    {
+      "intentId": "easy_assembly",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.5",
+          "text": "Assemble your new office chair in just 10–15 minutes with minimal effort, no extra tools needed."
+        }
+      ],
+      "value": "10-15 minutes with minimal effort, no extra tools needed"
+    },
+    {
+      "intentId": "cushioning",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "The plush, high-density sponge seat cushion delivers flexible support for superior comfort."
+        }
+      ],
+      "value": "plush, high-density sponge seat cushion"
+    },
+    {
+      "intentId": "sturdiness",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "Built with durable components that meet strict BIFMA standards."
+        }
+      ],
+      "value": "Built with durable components that meet strict BIFMA standards"
+    },
+    {
+      "intentId": "chair_size",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "attr.product_dimensions",
+          "text": "Product dimensions: 18\"D x 18\"W x 38\"H"
+        }
+      ],
+      "value": "18\"D x 18\"W x 38\"H"
+    },
+    {
+      "intentId": "caster_mobility",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "Smooth-rolling wheels and a 360° swivel base offer effortless mobility across various floors."
+        }
+      ],
+      "value": "Smooth-rolling wheels"
+    },
+    {
+      "intentId": "backrest_support",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.2",
+          "text": "Curved mid-back design with lumbar support and ergonomic armrests reduces fatigue"
+        }
+      ],
+      "value": "Curved mid-back design with lumbar support"
+    },
+    {
+      "intentId": "hydraulic_lift",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "adjustable_arms",
+      "status": "partial",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "CUSTOMIZABLE HEIGHT & ARMRESTS"
+        }
+      ],
+      "value": "CUSTOMIZABLE HEIGHT & ARMRESTS"
+    },
+    {
+      "intentId": "reclining_mechanism",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "Customizable seat height (17.1\"–20.3\") and a tilt tension knob let you adjust your seating angle for relaxation or focus."
+        }
+      ],
+      "value": "tilt tension knob let you adjust your seating angle"
+    },
+    {
+      "intentId": "material_cleaning",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "weight_capacity",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.4",
+          "text": "supports up to 250 lbs"
+        }
+      ],
+      "value": "250 pounds"
+    },
+    {
+      "intentId": "swivel_smoothness",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "description.1",
+          "text": "and a 360° swivel base offer effortless mobility across various floors."
+        }
+      ],
+      "value": "360° swivel base"
+    },
+    {
+      "intentId": "warranty_and_condition",
+      "status": "missing",
+      "quotes": []
+    },
+    {
+      "intentId": "adjustable_height",
+      "status": "answered",
+      "quotes": [
+        {
+          "fieldId": "bullet.3",
+          "text": "adjustable seat height (17.1\"–20.3\")"
+        }
+      ],
+      "value": "17.1\"–20.3\""
+    }
+  ],
+  "model": "gemini-3.5-flash-lite",
+  "promptVersion": "grade@2026-10-27.1+home-office-desk-chairs@mined-live-1",
+  "usage": {
+    "inputTokens": 2256,
+    "outputTokens": 1100
+  },
+  "latencyMs": 3078,
+  "cached": false
+}

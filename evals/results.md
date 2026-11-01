@@ -103,7 +103,7 @@ Disagreements:
 | sharpie-bleed-14 | unrelated | contradicts | End up bleeding On my second pen now and its atarting to get those bleeding globs just like the last one. Not sure but it could be because I |
 | sharpie-bleed-36 | unrelated | contradicts | Not worth the hype! Nothing special of a pen; and if you carry a pen in your pants pocket... this is not the one for you!! It will bleed thr |
 
-## Cost per audit (recorded usage, 28 fixture audits)
+## Cost per audit (recorded usage, 29 fixture audits)
 
 Averages per audit, including grading up to 4 competitors (a first audit pays for them; later audits
 reuse their cached grades). Priced at paid Gemini Flash-Lite rates ($0.3 / 1M input,
@@ -111,13 +111,14 @@ $2.5 / 1M output, checked 2026-10-30). On the free tier it's $0.
 
 | step | requests | input tokens | output tokens | paid cost |
 |---|---:|---:|---:|---:|
-| brief | 1.0 | 1902 | 397 | $0.0016 |
-| coverage | 1.0 | 1355 | 1315 | $0.0037 |
-| faithfulness | 0.7 | 169 | 54 | $0.0002 |
-| grade | 4.8 | 8393 | 4054 | $0.0127 |
-| proof-labels | 1.8 | 9641 | 1808 | $0.0074 |
-| transcribe (vision, saved) | 1.0 | 9554 | 602 | $0.0044 |
-| **total** | 10.2 | 31014 | 8229 | **$0.0299** |
+| brief | 1.0 | 1920 | 384 | $0.0015 |
+| coverage | 1.0 | 1376 | 1354 | $0.0038 |
+| faithfulness | 0.7 | 152 | 50 | $0.0002 |
+| grade | 4.8 | 8511 | 4125 | $0.0129 |
+| proof-labels | 1.7 | 9308 | 1745 | $0.0072 |
+| topic-proof | 0.2 | 90 | 19 | $0.0001 |
+| transcribe (vision, saved) | 1.0 | 9530 | 600 | $0.0044 |
+| **total** | 10.3 | 30887 | 8277 | **$0.0300** |
 
 Promise vs proof ran on 12 audits (dataset listings with saved reviews), averaging
 4.1 requests each.

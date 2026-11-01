@@ -1,0 +1,758 @@
+{
+  "product_results": {
+    "categories": [
+      {
+        "position": 1,
+        "name": "Home & Kitchen",
+        "link": "https://www.amazon.com/home-garden-kitchen-furniture-bedding/b/ref=dp_bc_1?ie=UTF8&node=1055398",
+        "node": "1055398",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1055398"
+      },
+      {
+        "position": 2,
+        "name": "Furniture",
+        "link": "https://www.amazon.com/Furniture/b/ref=dp_bc_2?ie=UTF8&node=1063306",
+        "node": "1063306",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1063306"
+      },
+      {
+        "position": 3,
+        "name": "Home Office Furniture",
+        "link": "https://www.amazon.com/Home-Office-Furniture/b/ref=dp_bc_3?ie=UTF8&node=1063312",
+        "node": "1063312",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1063312"
+      },
+      {
+        "position": 4,
+        "name": "Home Office Chairs",
+        "link": "https://www.amazon.com/b/ref=dp_bc_4?ie=UTF8&node=18682064011",
+        "node": "18682064011",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=18682064011"
+      },
+      {
+        "position": 5,
+        "name": "Home Office Desk Chairs",
+        "link": "https://www.amazon.com/Home-Office-Desk-Chairs-Furniture/b/ref=dp_bc_5?ie=UTF8&node=3733721",
+        "node": "3733721",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=3733721"
+      }
+    ],
+    "asin": "B0DPHLWNBG",
+    "title": "ELABEST X100 Ergonomic Mesh Office Chair with Footrest, Big and Tall Hone Desk Chair with 5D Flip-Up Arms, Adjustable 3D Lumbar Support,Gaming & Executive Computer Chairs",
+    "link": "https://www.amazon.com/product-reviews/B0CG7284XZ/ref=dp_atch_dss_w_r_B0DPHLWNBG_?ie=UTF8&showViewpoints=1",
+    "link_clean": "https://www.amazon.com/dp/B0DPHLWNBG/",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DPHLWNBG&device=desktop&engine=amazon_product",
+    "badges": [
+      "Amazon's Choice",
+      "Limited time deal"
+    ],
+    "variants": [
+      {
+        "title": "Color",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B0DPHLWNBG",
+            "name": "Midnight Mist",
+            "image": "https://m.media-amazon.com/images/I/51Lgq+43l4L._SS64_.jpg",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DPHLWNBG&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B0FDVXF8PW",
+            "name": "Coffee Break",
+            "image": "https://m.media-amazon.com/images/I/5162eBqjijL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FDVXF8PW&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B0HFJKZ5GW",
+            "name": "Ember Orange",
+            "image": "https://m.media-amazon.com/images/I/51fFkxEsjtL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0HFJKZ5GW&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 4,
+            "asin": "B0FDVG54ZS",
+            "name": "Foggy Morning",
+            "image": "https://m.media-amazon.com/images/I/517auMtUykL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FDVG54ZS&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 5,
+            "asin": "B0HBPRFMB1",
+            "name": "Frost White",
+            "image": "https://m.media-amazon.com/images/I/51V7Cnr+skL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0HBPRFMB1&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 6,
+            "asin": "B0FXRRY4JJ",
+            "name": "Peach Blossom",
+            "image": "https://m.media-amazon.com/images/I/41NHlzL5BUL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FXRRY4JJ&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 7,
+            "asin": "B0HFJSWPQ8",
+            "name": "Void Skull",
+            "image": "https://m.media-amazon.com/images/I/512jl0g0dRL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0HFJSWPQ8&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 8,
+            "asin": "B0FXRQQKQK",
+            "name": "Cybernetic Pulse",
+            "image": "https://m.media-amazon.com/images/I/51SANTNTBKL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FXRQQKQK&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 9,
+            "asin": "B0FDVFQ8BB",
+            "name": "Dusty Sage",
+            "image": "https://m.media-amazon.com/images/I/51NM4iKi0oL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FDVFQ8BB&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 10,
+            "asin": "B0FXRJ52M2",
+            "name": "Forest Ranger",
+            "image": "https://m.media-amazon.com/images/I/511k4RKl-3L._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FXRJ52M2&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 11,
+            "asin": "B0FDVYFWD4",
+            "name": "Library Oak",
+            "image": "https://m.media-amazon.com/images/I/51M8mlB9jQL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FDVYFWD4&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 12,
+            "asin": "B0FXRQ6GPJ",
+            "name": "Midnight Cloud",
+            "image": "https://m.media-amazon.com/images/I/41jw3zsRDJL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FXRQ6GPJ&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 13,
+            "asin": "B0FDWBSZWS",
+            "name": "Oaxaca Blue",
+            "image": "https://m.media-amazon.com/images/I/51q+xRipBxL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FDWBSZWS&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 14,
+            "asin": "B0FDVZN14B",
+            "name": "Tangerine Burst",
+            "image": "https://m.media-amazon.com/images/I/51fFkxEsjtL._SS64_.jpg",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FDVZN14B&device=desktop&engine=amazon_product"
+          }
+        ]
+      }
+    ],
+    "brand": "Visit the ELABEST Store",
+    "thumbnail": "https://m.media-amazon.com/images/I/81iQNQO0o-L._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "thumbnails": [
+      "https://m.media-amazon.com/images/I/81iQNQO0o-L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71aAllf2fwL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81HOzb7cC4L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71oL7xByVQL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71h6GN93btL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71yZwLDI4KL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91+7-nR0QTL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71pjCOXcRtL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71XU6w7E0rL._AC_SL1500_.jpg"
+    ],
+    "rating": 4.6,
+    "reviews": 1574,
+    "bought_last_month": "2K+ bought in past month",
+    "discount": "-15%",
+    "price": "$297.49",
+    "extracted_price": 297.49,
+    "old_price": "$349.99",
+    "extracted_old_price": 349.99,
+    "delivery": [
+      "FREE delivery Friday, November 6",
+      "Or Prime members get FREE delivery Tuesday, November 3. Order within 7 hrs 20 mins."
+    ],
+    "stock": "In Stock"
+  },
+  "purchase_options": {
+    "single_offer": {
+      "price": "$297.49",
+      "extracted_price": 297.49,
+      "delivery": [
+        "FREE delivery Friday, November 6",
+        "Or Prime members get FREE delivery Tuesday, November 3. Order within 7 hrs 20 mins."
+      ],
+      "stock": "In Stock",
+      "features": {
+        "ships_from": {
+          "text": "Amazon",
+          "details": {
+            "heading": "Ships from",
+            "content": "Amazon"
+          }
+        },
+        "sold_by": {
+          "text": "Woot",
+          "details": {
+            "heading": "Sold by",
+            "content": "Woot"
+          },
+          "link": {
+            "text": "Woot",
+            "link": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A1KWJVS57NX03I&asin=B0DPHLWNBG&ref_=dp_merchant_link&isAmazonFulfilled=1"
+          }
+        },
+        "returns": {
+          "text": "FREE refund/replacement until Jan 31, 2027",
+          "details": {
+            "heading": "FREE refund/replacement until Jan 31, 2027",
+            "content": "For the 2026 holiday season, eligible items purchased between November 1 and December 31, 2026 can be returned until January 31, 2027."
+          },
+          "link": {
+            "text": "See exceptions",
+            "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+          }
+        },
+        "payment": {
+          "text": "Secure transaction",
+          "details": {
+            "heading": "Your transaction is secure",
+            "content": "We work hard to protect your security and privacy. Our payment security system encrypts your information during transmission. We don’t share your credit card details with third-party sellers, and we don’t sell your information to others. Learn more"
+          },
+          "link": {
+            "text": "Learn more",
+            "link": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201909010"
+          }
+        }
+      }
+    }
+  },
+  "protection_plan": [
+    {
+      "position": 1,
+      "asin": "B0CG7284XZ",
+      "link": "https://www.amazon.com/dp/B0CG7284XZ/",
+      "title": "2-Year Protection Plan",
+      "price": "$52.99",
+      "extracted_price": 52.99
+    },
+    {
+      "position": 2,
+      "asin": "B0CG6TTC79",
+      "link": "https://www.amazon.com/dp/B0CG6TTC79/",
+      "title": "3-Year Protection Plan",
+      "price": "$67.99",
+      "extracted_price": 67.99
+    },
+    {
+      "position": 3,
+      "asin": "B07RZ3LSHM",
+      "link": "https://www.amazon.com/dp/B07RZ3LSHM/",
+      "title": "Complete Protect: One plan covers all past and future eligible purchases (Broadest Coverage)",
+      "price": "$16.99/month",
+      "extracted_price": 16.99
+    }
+  ],
+  "item_specifications": {
+    "brand": "ELABEST",
+    "color": "Midnight Mist",
+    "material": "Metal, Mist Black",
+    "product_dimensions": "26\"D x 24\"W x 41\"H",
+    "size": "18.3 in x 20.47 in x 41 in"
+  },
+  "about_item": [
+    "【Your All-Day Comfort Solution】 Premium Ergonomic Desk Chair with Footrest featuring dynamic 3D lumbar support, 5D Flip-Up Armrests, and extra-wide 3D breathable headrest, 2-position angle foot-rest, perfect for home office chairs seeking ultimate comfort",
+    "【Engineered with Dynamic Spinal Alignment System】3D Synchro-Tilt Lumbar（Lockable ±1.6\" depth spring-loaded auto-tracking/±2\" height/15° rotation）with force-sensitive springs mimics natural spine curvature, certified by AEP* for 12hrs+ fatigue reduction in high back ergonomic chairs (*American Ergonomics Partnership)",
+    "【Smart Space-Saving Features】 5D Flip-Up Armrests with skin-friendly panels - 27% denser EVA foam padding achieves Zero-Pressure Contact, it can be adjusted at Height/width/forward/backward/rotate/flip function, a space-saving flip-up design that tucks neatly under standard desks",
+    "【Advanced Adjustability】 3-stage reclining mechanism pairs with an 18\" extendable footrest (2-position angle adjustment) for seamless transition between work mode and relaxation in home office desk chairs, while 28cm³ 3D AirFloat Headrest with cervical curve mapping reduces 31% neck strain",
+    "【Breathe Easy with Premium Ventilated Mesh】The exclusive Dual-Stripe AirMesh technology offers 38% better airflow and 25% higher elasticity than standard mesh, making it a durable and breathable mesh office chairs.",
+    "【Orthopedic-Engineered for Active Recovery】 Born from collaboration with California-based orthopedic specialists, the X100 ergonomic mesh office chair features a Dynamic Spine Alignment System. This isn't just sitting—it's active recovery. The 17-point micro-adjustment system, combined with synchronized lumbar and tilt mechanisms, actively supports your spine's natural movement, promoting better posture and circulation during long hours of use.",
+    "【Professional & Gaming Ready】 The ELABEST X100 ergonomic gaming chair is engineered to excel in any environment. Seamlessly transition from focused work to immersive gaming with a chair that understands dual-purpose design. Its adaptive support and robust construction make it the perfect all-in-one throne for coders, creatives, streamers, and professionals who demand versatility without compromising on comfort or performance.",
+    "【Certified Safety & Heavy-Duty Support】 Crafted with a BIFMA-certified structure that robustly holds up to 300 lbs. It features a heavy-duty Grade-4 central column paired with an integrated step-on footrest nylon base and whisper-quiet rolling casters, ensuring seamless vertical adjustment and rock-solid stability for long hours of seating.",
+    "【Hassle-Free Assembly & 5-Year Quality Support】 No need to hunt for tools – we've included everything you need. Get it set up in around 15 minutes, then adjust the seat height (18.3–23\") to find your perfect sitting position, backed by our dedicated 5-year satisfaction care."
+  ],
+  "sustainability_features": {
+    "summary": "This product has sustainability features recognized by trusted certifications.",
+    "climate_pledge_friendly": true,
+    "learn_more_link": "https://www.amazon.com/climatepledgefriendly",
+    "features": [
+      {
+        "position": 1,
+        "title": "Recycled materials",
+        "text": "Contains at least 50% recycled material.",
+        "certified_by": [
+          {
+            "name": "Global Recycled Standard",
+            "logo": "https://m.media-amazon.com/images/I/51IhSrucIyL._SS128_.png",
+            "description": "Global Recycled Standard (GRS) certified products contain recycled content (>50%) that has been independently verified at each stage of the supply chain, from the source to the final product and meet social, environmental, and chemical requirements. The purchase of Global Recycled Standard (GRS) certified products supports the use of recycled content in the supply chain.",
+            "link": "https://textileexchange.org/integrity/"
+          }
+        ]
+      },
+      {
+        "position": 2,
+        "title": "Safer chemicals",
+        "text": "Made with chemicals safer for human health and the environment.",
+        "certified_by": [
+          {
+            "name": "Global Recycled Standard",
+            "logo": "https://m.media-amazon.com/images/I/51IhSrucIyL._SS128_.png",
+            "description": "Global Recycled Standard (GRS) certified products contain recycled content (>50%) that has been independently verified at each stage of the supply chain, from the source to the final product and meet social, environmental, and chemical requirements. The purchase of Global Recycled Standard (GRS) certified products supports the use of recycled content in the supply chain.",
+            "link": "https://textileexchange.org/integrity/"
+          }
+        ]
+      },
+      {
+        "position": 3,
+        "title": "Worker well-being",
+        "text": "Manufactured on farms or in facilities that protect the rights and/or health of workers.",
+        "certified_by": [
+          {
+            "name": "Global Recycled Standard",
+            "logo": "https://m.media-amazon.com/images/I/51IhSrucIyL._SS128_.png",
+            "description": "Global Recycled Standard (GRS) certified products contain recycled content (>50%) that has been independently verified at each stage of the supply chain, from the source to the final product and meet social, environmental, and chemical requirements. The purchase of Global Recycled Standard (GRS) certified products supports the use of recycled content in the supply chain.",
+            "link": "https://textileexchange.org/integrity/"
+          }
+        ]
+      }
+    ]
+  },
+  "product_description": [
+    {
+      "position": 1,
+      "carousel_images": [
+        {
+          "position": 1,
+          "title": "1",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/807d587b-4394-49bd-a632-7adef021167e.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 2,
+          "title": "1",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/68235d34-5df0-4bfc-824f-438693d8a8f3.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "title": "1",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/281ba7e6-49a1-46eb-ba0d-f89e97ceaf1e.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 3,
+      "title": "1",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/1154b320-db6a-455a-b854-f016ca821c8f.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 4,
+      "carousel_images": [
+        {
+          "position": 1,
+          "title": "1",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2bfe8ecd-efae-4d4c-9911-abbabc132ae5.__CR0,0,3658,1499_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 2,
+          "title": "1",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/cde14826-8a1c-40b3-bb5e-26ebc79851ef.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 3,
+          "title": "1",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/1a23cea2-2ede-4c80-bdac-c8ca8c9bf294.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 4,
+          "title": "1",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/9f0b19ef-c5be-4344-9cf0-a576495ceb6b.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "carousel_images": [
+        {
+          "position": 1,
+          "title": "1",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/6dc6e3e9-92d7-471e-805c-abaff82af6b3.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 2,
+          "title": "1",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/6874d0ff-a2e1-4ff5-a9fc-8945603cfdf3.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg"
+        },
+        {
+          "position": 3,
+          "title": "1",
+          "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d1b053c5-75c3-40b3-aff2-c6dacd398a57.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "title": "1",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/91582aee-b1fd-4a79-b1de-4b8a100abce1.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg"
+    },
+    {
+      "position": 7,
+      "title": "1",
+      "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/4244631d-b83a-4827-8e6a-5ad77141ebea.__CR0,0,2928,1200_PT0_SX1464_V1___.jpg"
+    }
+  ],
+  "product_details": {
+    "brand_name": "ELABEST",
+    "additional_features": "889 Compliance Certified, Adjustable Backrest, Adjustable Headrest, Adjustable Height, Ergonomic",
+    "unit_count": "1 Count",
+    "room_type": "Bedroom, Game Recreation Room, Office, Office Reception, Study Room",
+    "age_range_description": "Adult",
+    "included_components": "Caster",
+    "model_name": "X100",
+    "surface_recommendation": "Hard Floor",
+    "indoor_outdoor_usage": "Indoor",
+    "model_number": "ELX100BB",
+    "number_of_packs": "1",
+    "manufacturer": "ELABEST",
+    "manufacturer_part_number": "X100",
+    "number_of_items": "1",
+    "best_sellers_rank": [
+      {
+        "text": "#3,385 in Home & Kitchen (See Top 100 in Home & Kitchen)",
+        "extracted_rank": 3385,
+        "link": "https://www.amazon.com/gp/bestsellers/home-garden/ref=pd_zg_ts_home-garden",
+        "link_text": "See Top 100 in Home & Kitchen"
+      },
+      {
+        "text": "#3 in Home Office Desk Chairs",
+        "extracted_rank": 3,
+        "link": "https://www.amazon.com/gp/bestsellers/home-garden/3733721/ref=pd_zg_hrsr_home-garden",
+        "link_text": "Home Office Desk Chairs"
+      }
+    ],
+    "asin": "B0DPHLWNBG",
+    "customer_reviews": "4.6 out of 5 stars",
+    "rating": 4.6,
+    "reviews": 1574,
+    "material_type": "Metal, Mist Black",
+    "frame_material_type": "Nylon",
+    "product_care_instructions": "Wipe Clean",
+    "seat_material": "Mesh",
+    "fill_material": "Mesh",
+    "upholstery_fabric_type": "Mesh",
+    "maximum_weight_recommendation": "300 pounds",
+    "assembly_instructions_description": "Tool-free assembly within 15 minutes",
+    "color": "Midnight Mist",
+    "back_style": "3-level Tiltable, Mesh Back, Solid Back",
+    "style_name": "Modern",
+    "pattern": "Solid",
+    "theme": "Gaming, Gift, Office, Studying",
+    "shape": "Rectangular",
+    "arm_style": "5-D Adjustable, Flip-up, Pillow-Top",
+    "cushion_style": "Boxed Edge",
+    "leg_style": "Turned Leg",
+    "form_factor": "Ergonomic",
+    "subject_character": "5-D Adjustable Armrest, 3-Gear Tiltable, Ergonomic Mesh Office Chairs, 360° Smooth & Silent Wheels, Heavy-duty Metal Base",
+    "item_dimensions_d_x_w_x_h": "26\"D x 24\"W x 41\"H",
+    "size": "18.3 in x 20.47 in x 41 in",
+    "item_weight": "43 pounds",
+    "seat_back_interior_height": "22.2 inches",
+    "seat_height": "18.3 inches",
+    "seat_depth": "18 inches",
+    "seat_length": "20.47 inches",
+    "arm_height": "26.7 inches",
+    "chair_backrest_width": "20.2 inches",
+    "item_depth": "26 inches",
+    "item_dimensions": "26 x 24 x 41 inches",
+    "furniture_base_movement": "Swivel",
+    "reclining_position_count": "3 Position"
+  },
+  "reviews_information": {
+    "summary": {
+      "text": "Customers find this office chair to be of excellent quality, comfortable, and straightforward to assemble. The chair offers great value for money, with lots of adjustable features and solid construction. They appreciate the lumbar and back support, with one customer noting it helped improve their posture. They like the reclining feature, with one mentioning the maximum 120-degree angle with footrest.",
+      "insights": [
+        {
+          "title": "Quality",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 726,
+            "positive": 696,
+            "negative": 30
+          },
+          "summary": "Customers find this chair to be of high quality.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Exceeded Expectations! Great Chair... Very WELL MADE... not flimsy like so many others. Adjustable for individual comfort. Packaging was perfect....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3QXO9MR5T69OU"
+            },
+            {
+              "position": 2,
+              "snippet": "Excellent chair. Probably the best fitting, most comfortable chair I’ve used. Might be a bit small for large framed people, but fits me perfectly....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R25OS57435B3I3"
+            },
+            {
+              "position": 3,
+              "snippet": "...It does not feel cheap to me at all, and it looks fantastic. I'd highly recommend the chair based on my own experience with ELABEST's customer...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R5G8F9L8RSV7Y"
+            },
+            {
+              "position": 4,
+              "snippet": "Good chair, lot of features for the price point. Wider seat than I'd expect, a plus for me. Service is surprisingly good, they followed up fast.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R372BAOTPBVTDQ"
+            }
+          ]
+        },
+        {
+          "title": "Comfort",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 580,
+            "positive": 521,
+            "negative": 59
+          },
+          "summary": "Customers find the chair comfortable, with one mentioning that the support bar underneath provides enough give for sitting, and another noting that the adjustable lumbar and headrest are particularly pleasant.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...good quality making the final assembled chair a very robust, but comfortable and functional chair that will undoubtedly help with posture and back...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R6J8GXOZFDMSG"
+            },
+            {
+              "position": 2,
+              "snippet": "Absolutely loved the gift my wife got me. Very comfortable, easy to assemble, great support. Adjusted to my weight & height so it feels extra stable....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RRRMO9BUHYT3I"
+            },
+            {
+              "position": 3,
+              "snippet": "...The materials feel solid and high quality, not cheap at all. It’s super comfortable, gives great back support, and has made long workdays so much...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3MTMXAOC295L1"
+            },
+            {
+              "position": 4,
+              "snippet": "Comfort, style, durability. This chair has it all. Was not difficult to assemble either. Each component of this chair was engineered extremely well....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2TI7HJYKJJOFO"
+            }
+          ]
+        },
+        {
+          "title": "Assembly",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 338,
+            "positive": 311,
+            "negative": 27
+          },
+          "summary": "Customers find the chair easy to assemble and appreciate the assembly instructions.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...It feels sturdy and well built. The chair was easy to assemble. A downside to some may be the seat does not slide in or out for varibible depth....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RYU891CJJQS1R"
+            },
+            {
+              "position": 2,
+              "snippet": "This chair was easy to put together - took about 15-20 minutes and the directions were clear. It was packaged better than anything I have ever seen....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1E9CGGHXIUT4B"
+            },
+            {
+              "position": 3,
+              "snippet": "High quality materials and easy assembly. The two year warranty along with a free gift (Roller-blade wheels or seat cover) is just an extra bonus....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R31Z7Y2HTC44KQ"
+            },
+            {
+              "position": 4,
+              "snippet": "...It’s totally worth the price and very easy to assemble everything is clearly labeled, and they even provide step by step videos in case you get stuck...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2GO20RBO1PMHK"
+            }
+          ]
+        },
+        {
+          "title": "Value for money",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 310,
+            "positive": 269,
+            "negative": 41
+          },
+          "summary": "Customers find the chair to be worth the price, describing it as amazing quality for the cost and saying they would buy it many times over.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...In summary, this is a great chair and I think also a great value and if you have any issues, you will be very pleased with the support you get.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RG28DMJF78523"
+            },
+            {
+              "position": 2,
+              "snippet": "Awesome awesome chair! Worth the money. Minus one star because the headrest doesn’t stay upright half the time when i’m lounging....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RTSTKVHA6XH80"
+            },
+            {
+              "position": 3,
+              "snippet": "...I really love this chair and it is worth every penny!! It was made to last!...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/ROZU699U3HMWC"
+            },
+            {
+              "position": 4,
+              "snippet": "...Great price as well, as I really did a total comparison with at least 10 other chairs. Ada, the rep I worked with we also Super!",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RE9G19CTCCO4D"
+            }
+          ]
+        },
+        {
+          "title": "Adjustability",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 306,
+            "positive": 256,
+            "negative": 50
+          },
+          "summary": "Customers appreciate the chair's adjustability, particularly its arms and height settings, with one customer noting that the headrest can be positioned to fit the neck curve.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...It's adjustable and very comfortable for my height, with room to spare for people who are a bit taller, but not much width if you need a little more...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R5G8F9L8RSV7Y"
+            },
+            {
+              "position": 2,
+              "snippet": "Extremely comfortable chair that’s highly adjustable. Definitely felt a reduction in fatigue while sitting for many hours at my desk.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R9MWEWRVBPFD0"
+            },
+            {
+              "position": 3,
+              "snippet": "...fits great for 5'2\" height person and very adjustable. only had it for one day so far so no comments on durability but hope it will last a long time.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2GN62P8I9X83L"
+            },
+            {
+              "position": 4,
+              "snippet": "...much more comfortable with this chair due to it's versatility and adjustability. The only gripe I have is with the arm rests....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3B2L0A8OQQ0XC"
+            }
+          ]
+        },
+        {
+          "title": "Lumbar support",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 289,
+            "positive": 253,
+            "negative": 36
+          },
+          "summary": "Customers appreciate the chair's lumbar support, noting that the mesh back and full back and head support are particularly effective.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...I would recommend this chair for anyone looking for a comfortable, supportive and has a lighter, breathable feeling that is looking for a High...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1JYIUOAKPZOWC"
+            },
+            {
+              "position": 2,
+              "snippet": "Excellant comfy desk chair with great support. I can tell the chair will last a while. The customer service from this company is also awesome....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R3NVEEDXONWDQH"
+            },
+            {
+              "position": 3,
+              "snippet": "...Head rest and foot rest work well. Great lumbar support (the main reason why I chose Mesh over leather). Basically everything is adjustable....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RNKRL7I46O2SF"
+            },
+            {
+              "position": 4,
+              "snippet": "...To the adjustable lumbar support which is a soft pillow with height and depth adjustments, the tiltable head rest, to the 5-d arm rest they are all...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1BXY3RQH2ZXLH"
+            }
+          ]
+        },
+        {
+          "title": "Sturdiness",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 236,
+            "positive": 215,
+            "negative": 21
+          },
+          "summary": "Customers find the chair solidly built and very stable, with one customer noting it doesn't creak or wobble.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...What I was looking for: Aside from being a sturdy, well-built chair, there were a few features I wanted specifically that fit the bill...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2M1UFZ8H3T2DY"
+            },
+            {
+              "position": 2,
+              "snippet": "Solid and durable. No creaks and squeaks so far. Very comfortable and easy to adjust to you size and preferences. Highly recommended.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RL5SG0367XMFO"
+            },
+            {
+              "position": 3,
+              "snippet": "...For it's price 300$, when on sale, it is well made and packs a lot of features, you can definitely find the sweet spot for your body, whether you're...",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R380U0AVFLUOVG"
+            },
+            {
+              "position": 4,
+              "snippet": "The chair itself is great, very sturdy, comfortable and ergonomic. I barely feel any exhaustion even after a long 8 hour day working from home....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2MG4M0J82LAWX"
+            }
+          ]
+        },
+        {
+          "title": "Recline",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 146,
+            "positive": 108,
+            "negative": 38
+          },
+          "summary": "Customers like the chair's reclining feature, with one customer noting it can reach a maximum of 120 degrees with the footrest.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "The chair itself is great, very sturdy, comfortable and ergonomic. I barely feel any exhaustion even after a long 8 hour day working from home....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R2MG4M0J82LAWX"
+            },
+            {
+              "position": 2,
+              "snippet": "...Important note that the entire point of this product is ergonomics. Not necessarily cushy relaxing recliner comfort.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/RQ3WY58PFIVK1"
+            },
+            {
+              "position": 3,
+              "snippet": "Yes, I am happy with this purchase and chair adjustments. Does not fully recline but I am working....",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R1QGJ3IBQSF2N9"
+            },
+            {
+              "position": 4,
+              "snippet": "...It's really great chair. Very comfy and the recline feature and leg rest are worth the price of admission. For $300 you really can't beat it.",
+              "link": "https://www.amazon.com/portal/customer-reviews/srp/-/R23MJPUTQ5O4N0"
+            }
+          ]
+        }
+      ],
+      "customer_reviews": {
+        "5 star": 82,
+        "4 star": 10,
+        "3 star": 4,
+        "2 star": 1,
+        "1 star": 3
+      }
+    }
+  },
+  "related_asins": [
+    "B0FL7NTDGC",
+    "B0H2GLTL6C",
+    "B07BDFW1Y7",
+    "B0F1MHQG7Y",
+    "B0FFT54QZN",
+    "B0FHB3CG9X",
+    "B0FP28DWVQ",
+    "B0GZNRSP64",
+    "B0H2GNXMHS",
+    "B0GRTYGNPW",
+    "B0GT9BH2VB",
+    "B0H6P8J6GJ",
+    "B0HKF85H4S"
+  ]
+}
