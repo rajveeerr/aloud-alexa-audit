@@ -2,7 +2,7 @@ import { describe, expect, test } from "bun:test";
 import { join } from "node:path";
 import { normalize, type JsonRequest, type Listing } from "@aloud/core";
 import { CachedLlm } from "@aloud/providers";
-import { AuditError, reviewQuery, runAudit } from "./audit";
+import { AuditError, productQuery, runAudit } from "./audit";
 import { fsStores, parseReviewLines } from "./stores";
 
 const ROOT = join(import.meta.dir, "../../..");
@@ -56,10 +56,19 @@ describe("runAudit (replayed, no network)", () => {
     expect(r.proof!.usage.requests).toBe(0);
   });
 
-  test("a live listing has no review text, and the notes say so", async () => {
-    const r = await runAudit({ asin: "B097CF46RC", source: "serpapi" }, deps);
-    expect(r.proof).toBeUndefined();
-    expect(r.notes).toContain("Live listings come without review text, so promise vs proof wasn't checked.");
+  test("a live listing is checked against Amazon's review topics; without them the notes say so", async () => {
+    const hero = await runAudit({ asin: "B0C9W8DD9S", source: "serpapi" }, deps);
+    expect(hero.proof?.source).toBe("amazon-topics");
+    const flow = hero.proof!.claims.find((c) => c.intentId === "ink_flow")!;
+    // The image's "Smooth Writing without Skipping" against this pen's own reviews: mostly complaints.
+    expect(flow).toMatchObject({ verdict: "contested", keywords: [expect.any(String)] });
+    expect(flow.counts.contradicts).toBeGreaterThan(flow.counts.supports);
+    // So the fix that would move that claim into the text is flagged.
+    expect(hero.briefs.find((b) => b.intentId === "ink_flow")!.flags).toContain("contested_by_reviews");
+
+    const older = await runAudit({ asin: "B097CF46RC", source: "serpapi" }, deps);
+    expect(older.proof).toBeUndefined();
+    expect(older.notes).toContain("This product has no review summary on Amazon yet, so promise vs proof wasn't checked.");
   });
 
   test("proof that can't run never fails the audit: a missing recording becomes a note", async () => {
@@ -83,7 +92,10 @@ describe("runAudit (replayed, no network)", () => {
 
   test("proof notes: none without a review store, the right wording per source otherwise", async () => {
     const { reviews: _, ...noReviews } = deps;
-    const quiet = await runAudit({ asin: "B097CF46RC", source: "serpapi" }, noReviews);
+    // Live listings don't need the review store: their evidence is on the page.
+    const live = await runAudit({ asin: "B0C9W8DD9S", source: "serpapi" }, noReviews);
+    expect(live.proof?.source).toBe("amazon-topics");
+    const quiet = await runAudit({ asin: "B097CF46RC", source: "dataset" }, noReviews);
     expect(quiet.notes.some((n) => n.includes("promise vs proof"))).toBe(false);
 
     // A model that answers every request with an empty list: enough to run a pasted listing offline.
@@ -186,17 +198,17 @@ describe("competitors", () => {
   });
 });
 
-describe("reviewQuery", () => {
+describe("productQuery", () => {
   const listing = (title: string, brand?: string): Listing => {
     const l = normalize({ source: "paste", requestedAsin: "B0Q0000001", fetchedAt: "t", data: { title } });
     return { ...l, meta: { ...l.meta, ...(brand && { brand }) } };
   };
 
   test("a specific category is searched as is", () => {
-    expect(reviewQuery(listing("Skoy Cloth, 4-pack Swedish Dishcloths", "Skoy"), "Cleaning Cloths")).toBe("Cleaning Cloths");
+    expect(productQuery(listing("Skoy Cloth, 4-pack Swedish Dishcloths", "Skoy"), "Cleaning Cloths")).toBe("Cleaning Cloths");
   });
 
   test("a one-word category is too vague, so the title's first words are used, without the brand or bare numbers", () => {
-    expect(reviewQuery(listing("FUJI All Around 450 Brazilian Jiu Jitsu Gi Uniform", "FUJI"), "Sets")).toBe("All Around Brazilian Jiu Jitsu");
+    expect(productQuery(listing("FUJI All Around 450 Brazilian Jiu Jitsu Gi Uniform", "FUJI"), "Sets")).toBe("All Around Brazilian Jiu Jitsu");
   });
 });

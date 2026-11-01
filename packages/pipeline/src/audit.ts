@@ -1,6 +1,7 @@
 import {
   checkCoverage,
   checkProof,
+  proofFromTopics,
   listingClaims,
   collectClaims,
   computeGaps,
@@ -185,6 +186,10 @@ export async function runAudit(req: AuditRequest, deps: AuditDeps): Promise<Audi
     hiddenAnswers,
   );
   const briefs = (await draftBriefs(listing, gaps, grades, claims, intentSet.intents, llm, deps.model)).briefs;
+  // A fix that promotes a claim this product's own reviews contest gets flagged: fix the product or
+  // soften the wording before putting it where Alexa reads it.
+  const contested = new Set((proof?.claims ?? []).filter((c) => c.verdict === "contested").map((c) => c.intentId));
+  for (const b of briefs) if (contested.has(b.intentId) && !b.flags.includes("contested_by_reviews")) b.flags.push("contested_by_reviews");
 
   return {
     listing,
@@ -220,11 +225,24 @@ async function checkListingProof(
   notes: string[],
   log: (message: string) => void,
 ): Promise<ProofRun | undefined> {
-  if (!deps.reviews) return undefined;
   if (listing.source === "serpapi") {
-    notes.push("Live listings come without review text, so promise vs proof wasn't checked.");
-    return undefined;
+    // Live pages carry no review text, but they carry Amazon's review topics for this product.
+    const insights = listing.meta.insights ?? [];
+    if (insights.length === 0) {
+      notes.push("This product has no review summary on Amazon yet, so promise vs proof wasn't checked.");
+      return undefined;
+    }
+    try {
+      const proof = await proofFromTopics(listingClaims(grades, intentSet.intents, claims, coverage), intentSet.intents, insights, llm, deps.model);
+      log(`proof: ${proof.claims.length} claims matched to Amazon review topics`);
+      return proof;
+    } catch (err) {
+      log(`proof skipped: ${(err as Error).message}`);
+      notes.push(`Promise vs proof was skipped: ${safeReason(err)}.`);
+      return undefined;
+    }
   }
+  if (!deps.reviews) return undefined;
   if (listing.source === "paste") {
     notes.push("Pasted listings come without reviews, so promise vs proof wasn't checked.");
     return undefined;
@@ -276,7 +294,7 @@ async function findCompetitors(req: AuditRequest, listing: Listing, raw: RawList
   let candidates: string[] = req.competitors ?? [];
 
   if (candidates.length === 0 && req.live && source === "serpapi" && deps.search) {
-    const query = leafCategory(listing) ?? listing.fields.find((f) => f.id === "title")?.text.split(",")[0] ?? "";
+    const query = productQuery(listing, leafCategory(listing) ?? "");
     candidates = pickCompetitors(await deps.search.search(query), [listing.asin, listing.requestedAsin], max + 2);
     if (candidates.length === 0) {
       candidates = ((raw.data as { related_asins?: string[] }).related_asins ?? []).slice(0, max + 2);
@@ -293,6 +311,7 @@ async function findCompetitors(req: AuditRequest, listing: Listing, raw: RawList
   }
 
   const out: Listing[] = [];
+  const offDepartment: Listing[] = [];
   const brand = listing.meta.brand?.toLowerCase();
   for (const asin of candidates) {
     if (out.length >= max) break;
@@ -301,24 +320,48 @@ async function findCompetitors(req: AuditRequest, listing: Listing, raw: RawList
     const l = normalize(r);
     if (brand && l.meta.brand?.toLowerCase() === brand) continue;
     if (l.asin === listing.asin) continue;
+    // Same department only: a search for a vague word ("Sets") can return clothing for a BJJ gi.
+    if (!sameDepartment(listing, l)) {
+      offDepartment.push(l);
+      continue;
+    }
     // One listing per competing brand: two Sharpie variants would count Sharpie twice in
     // "N of M competitors answer it".
     const other = l.meta.brand?.toLowerCase();
     if (other && out.some((o) => o.meta.brand?.toLowerCase() === other)) continue;
     out.push(l);
   }
+  if (out.length === 0 && offDepartment.length > 0) {
+    notes.push("The competitors found sit in another Amazon department, so they're compared with caution.");
+    return offDepartment.slice(0, max);
+  }
   if (out.length === 0) notes.push("No competitors found, so gaps are ranked without a comparison.");
   return out;
+}
+
+/** Two listings are in the same department when their category paths start the same way. */
+function sameDepartment(a: Listing, b: Listing): boolean {
+  const x = a.meta.categories[0];
+  const y = b.meta.categories[0];
+  return !x || !y || x === y;
 }
 
 /** Mines a question set from Walmart reviews of this product type, saves it, or returns null. */
 async function mineCategory(listing: Listing, id: string, name: string, deps: AuditDeps, llm: JsonModel, notes: string[]): Promise<IntentSet | null> {
   if (!deps.categoryReviews) return null;
-  const query = reviewQuery(listing, name);
-  const got = await deps.categoryReviews.forQuery(query).catch((err: Error) => {
-    notes.push(`Couldn't fetch reviews to mine questions for "${name}" (${err.message}).`);
-    return null;
-  });
+  const fetchReviews = (q: string) =>
+    deps.categoryReviews!.forQuery(q).catch((err: Error) => {
+      notes.push(`Couldn't fetch reviews to mine questions for "${name}" (${err.message}).`);
+      return null;
+    });
+  let query = productQuery(listing, name);
+  let got = await fetchReviews(query);
+  // Too few under the category name: try once more with the product's own words.
+  const second = titleQuery(listing, name);
+  if ((!got || got.reviews.length < MIN_MINE_REVIEWS) && second !== query) {
+    const again = await fetchReviews(second);
+    if (again && again.reviews.length > (got?.reviews.length ?? 0)) [query, got] = [second, again];
+  }
   if (!got || got.reviews.length < MIN_MINE_REVIEWS) return null;
   // A few products with many reviews each (not hundreds of products), and store reviews run short,
   // so take more per product and allow shorter ones than the dataset sampler's defaults.
@@ -335,15 +378,21 @@ async function mineCategory(listing: Listing, id: string, name: string, deps: Au
 const MIN_MINE_REVIEWS = 40;
 
 /**
- * What to search Walmart for. The leaf category says the product type ("Cleaning Cloths"); a
- * one-word leaf ("Sets", "Tables") is too vague, so the title's first words are used instead.
+ * What to search for, on Amazon (competitors) or Walmart (reviews). The leaf category says the
+ * product type ("Cleaning Cloths"); a one-word leaf ("Sets", "Tables") is too vague, so the title's
+ * first words are used instead.
  */
-export function reviewQuery(listing: Listing, leaf: string): string {
+export function productQuery(listing: Listing, leaf: string): string {
   if (leaf.trim().split(/\s+/).length >= 2) return leaf;
+  return titleQuery(listing, leaf);
+}
+
+/** The title's first few words, without the brand or bare numbers. */
+export function titleQuery(listing: Listing, fallback: string): string {
   const brand = listing.meta.brand?.toLowerCase();
-  const title = listing.fields.find((f) => f.kind === "title")?.text ?? leaf;
+  const title = listing.fields.find((f) => f.kind === "title")?.text ?? fallback;
   const words = title.replace(/[^A-Za-z0-9 ]+/g, " ").split(/\s+/).filter((w) => w && w.toLowerCase() !== brand && !/^\d+$/.test(w));
-  return words.slice(0, 5).join(" ") || leaf;
+  return words.slice(0, 5).join(" ") || fallback;
 }
 
 async function loadIntentSet(listing: Listing, competitors: Listing[], deps: AuditDeps, llm: JsonModel, notes: string[], mineReviews: boolean): Promise<IntentSet> {
