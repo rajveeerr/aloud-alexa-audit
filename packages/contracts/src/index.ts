@@ -132,7 +132,7 @@ export type PublicAuditResult = {
   status: AuditStatus;
   asin: string;
   score?: number | null;
-  scoreBasis?: "mined" | "estimated";
+  scoreBasis?: "mined" | "insights" | "estimated";
   topGaps?: {
     question: string;
     status: string;

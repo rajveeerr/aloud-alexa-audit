@@ -72,7 +72,11 @@ function print(r: AuditResult) {
 
   console.log(`\n${l.meta.brand ?? ""} ${l.asin}${l.asin !== l.requestedAsin ? ` (requested ${l.requestedAsin})` : ""}`);
   console.log(l.fields.find((f) => f.id === "title")?.text ?? "");
-  const basis = estimated ? "ESTIMATED questions (no reviews mined), equal weights" : `questions mined from ${set.sampleSize} reviews`;
+  const basis = estimated
+    ? "ESTIMATED questions (no reviews mined), equal weights"
+    : set.basis === "insights"
+      ? `questions from Amazon review topics, weighted by ${set.sampleSize} review mentions`
+      : `questions mined from ${set.sampleSize} ${set.reviewSource === "walmart" ? "Walmart " : ""}reviews`;
   console.log(`Category: ${set.categoryName}, ${basis}${set.reviewed ? "" : ", not yet reviewed by hand"}`);
   console.log(`\nScore ${s.score ?? "n/a"}${estimated ? " (estimated)" : ""}: answers ${s.answered} of ${s.counted} questions, ${s.partial} partly, ${s.contradicted} contradicted`);
   console.log(`${r.usage.requests} model calls (${r.usage.cachedRequests} cached), ${r.usage.inputTokens} in / ${r.usage.outputTokens} out tokens\n`);

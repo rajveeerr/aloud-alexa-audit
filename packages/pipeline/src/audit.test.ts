@@ -1,8 +1,8 @@
 import { describe, expect, test } from "bun:test";
 import { join } from "node:path";
-import type { JsonRequest } from "@aloud/core";
+import { normalize, type JsonRequest, type Listing } from "@aloud/core";
 import { CachedLlm } from "@aloud/providers";
-import { AuditError, runAudit } from "./audit";
+import { AuditError, reviewQuery, runAudit } from "./audit";
 import { fsStores, parseReviewLines } from "./stores";
 
 const ROOT = join(import.meta.dir, "../../..");
@@ -183,5 +183,20 @@ describe("competitors", () => {
     const r = await runAudit({ asin: "B0C9W8DD9S", source: "serpapi", live: true }, { ...d, maxCompetitors: 2 });
     expect(calls.search).toBe(1);
     expect(r.competitors).toHaveLength(2);
+  });
+});
+
+describe("reviewQuery", () => {
+  const listing = (title: string, brand?: string): Listing => {
+    const l = normalize({ source: "paste", requestedAsin: "B0Q0000001", fetchedAt: "t", data: { title } });
+    return { ...l, meta: { ...l.meta, ...(brand && { brand }) } };
+  };
+
+  test("a specific category is searched as is", () => {
+    expect(reviewQuery(listing("Skoy Cloth, 4-pack Swedish Dishcloths", "Skoy"), "Cleaning Cloths")).toBe("Cleaning Cloths");
+  });
+
+  test("a one-word category is too vague, so the title's first words are used, without the brand or bare numbers", () => {
+    expect(reviewQuery(listing("FUJI All Around 450 Brazilian Jiu Jitsu Gi Uniform", "FUJI"), "Sets")).toBe("All Around Brazilian Jiu Jitsu");
   });
 });

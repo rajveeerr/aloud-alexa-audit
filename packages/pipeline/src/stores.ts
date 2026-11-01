@@ -1,7 +1,7 @@
 import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import type { IntentSet, ListingSource, RawListing, ReviewText } from "@aloud/core";
-import { FixtureProductData, ImageStore, SerpApiProductData, SerpApiSearch, type ImageData, type SearchResult } from "@aloud/providers";
+import { FixtureProductData, ImageStore, SerpApiProductData, SerpApiSearch, WalmartReviews, type ImageData, type SearchResult } from "@aloud/providers";
 
 /** Where listings come from. Snapshots first, a live fetch only when allowed and nothing is saved. */
 export interface ListingStore {
@@ -76,7 +76,7 @@ export interface ImageFetcher {
 }
 
 export type FsStoresOptions = {
-  /** The fixtures directory: <root>/{serpapi,dataset,intents,image-claims,serpapi-search,reviews}. */
+  /** The fixtures directory: <root>/{serpapi,dataset,intents,image-claims,serpapi-search,reviews,walmart}. */
   fixturesDir: string;
   /** Downloaded image bytes. Keep out of git. */
   imageCacheDir: string;
@@ -92,6 +92,7 @@ export function fsStores(opts: FsStoresOptions): {
   imageClaims: ImageClaimStore;
   images: ImageFetcher;
   reviews: ReviewStore;
+  categoryReviews: WalmartReviews;
 } {
   const fixtures = {
     serpapi: new FixtureProductData(opts.fixturesDir, "serpapi"),
@@ -119,6 +120,9 @@ export function fsStores(opts: FsStoresOptions): {
           .sort();
       },
     },
+    // Walmart reviews for mining a category's questions. Saved per query under fixtures/walmart; without
+    // a key only saved ones are read, so tests and replays never reach the network.
+    categoryReviews: new WalmartReviews({ ...(opts.serpApiKey && { apiKey: opts.serpApiKey }), snapshotDir: join(opts.fixturesDir, "walmart") }),
     search: opts.serpApiKey ? new SerpApiSearch({ apiKey: opts.serpApiKey, snapshotDir: join(opts.fixturesDir, "serpapi-search") }) : null,
     intentSets: {
       async all() {

@@ -6,6 +6,9 @@ import {
   computeGaps,
   draftBriefs,
   estimateIntents,
+  insightIntents,
+  mineIntents,
+  type ReviewText,
   findHiddenAnswers,
   gradeListing,
   leafCategory,
@@ -50,6 +53,17 @@ export type AuditRequest = {
    * no search and no extra listing fetches, so a live audit costs one SerpApi call.
    */
   maxCompetitors?: number;
+  /**
+   * When the category has no question set: mine one from real reviews of this product type
+   * (Walmart, through SerpApi; about 5 searches, then saved for the category). Default true. The
+   * public widget turns it off so strangers can't spend the search quota.
+   */
+  mineReviews?: boolean;
+};
+
+/** Real reviews for a product type, by search query. See WalmartReviews in providers. */
+export type ReviewSource = {
+  forQuery(query: string): Promise<{ query: string; products: { usItemId: string; title: string; reviewCount: number }[]; reviews: ReviewText[] } | null>;
 };
 
 export type AuditDeps = {
@@ -65,6 +79,8 @@ export type AuditDeps = {
   images: ImageFetcher | null;
   /** Product reviews for promise vs proof. Absent, or null for a product, means the check is skipped. */
   reviews?: ReviewStore | null;
+  /** Reviews of a product type, for mining a question set when a category has none. */
+  categoryReviews?: ReviewSource | null;
   maxImages?: number;
   maxCompetitors?: number;
   log?: (message: string) => void;
@@ -139,7 +155,7 @@ export async function runAudit(req: AuditRequest, deps: AuditDeps): Promise<Audi
   const competitors = await findCompetitors(req, listing, raw, deps, notes, maxCompetitors);
   log(`competitors: ${competitors.map((c) => c.asin).join(", ") || "none"}`);
 
-  const intentSet = await loadIntentSet(listing, competitors, deps, llm, notes);
+  const intentSet = await loadIntentSet(listing, competitors, deps, llm, notes, req.mineReviews !== false);
   const grades = (await gradeListing(listing, intentSet, llm, deps.model)).grades;
   const score = scoreGrades(grades, intentSet.intents);
   log(`graded: score ${score.score}`);
@@ -295,15 +311,68 @@ async function findCompetitors(req: AuditRequest, listing: Listing, raw: RawList
   return out;
 }
 
-async function loadIntentSet(listing: Listing, competitors: Listing[], deps: AuditDeps, llm: JsonModel, notes: string[]): Promise<IntentSet> {
+/** Mines a question set from Walmart reviews of this product type, saves it, or returns null. */
+async function mineCategory(listing: Listing, id: string, name: string, deps: AuditDeps, llm: JsonModel, notes: string[]): Promise<IntentSet | null> {
+  if (!deps.categoryReviews) return null;
+  const query = reviewQuery(listing, name);
+  const got = await deps.categoryReviews.forQuery(query).catch((err: Error) => {
+    notes.push(`Couldn't fetch reviews to mine questions for "${name}" (${err.message}).`);
+    return null;
+  });
+  if (!got || got.reviews.length < MIN_MINE_REVIEWS) return null;
+  // A few products with many reviews each (not hundreds of products), and store reviews run short,
+  // so take more per product and allow shorter ones than the dataset sampler's defaults.
+  const sample = { perProduct: 60, maxProducts: 10, minLength: 50 };
+  const { intentSet: mined, report } = await mineIntents({ categoryId: id, categoryName: name, match: [name], version: "mined-live-1", reviews: got.reviews, sample }, llm, deps.model);
+  if (mined.intents.length < 5) return null;
+  const set: IntentSet = { ...mined, reviewSource: "walmart" };
+  await deps.intentSets.save(set, `Mined from ${report.sampleSize} Walmart reviews of ${got.products.length} "${query}" products. Not yet reviewed by hand.`);
+  notes.push(`The "${name}" questions were mined from ${report.sampleSize} Walmart reviews of ${got.products.length} similar products.`);
+  return set;
+}
+
+/** Fewer reviews than this and the counts aren't worth weighting by. */
+const MIN_MINE_REVIEWS = 40;
+
+/**
+ * What to search Walmart for. The leaf category says the product type ("Cleaning Cloths"); a
+ * one-word leaf ("Sets", "Tables") is too vague, so the title's first words are used instead.
+ */
+export function reviewQuery(listing: Listing, leaf: string): string {
+  if (leaf.trim().split(/\s+/).length >= 2) return leaf;
+  const brand = listing.meta.brand?.toLowerCase();
+  const title = listing.fields.find((f) => f.kind === "title")?.text ?? leaf;
+  const words = title.replace(/[^A-Za-z0-9 ]+/g, " ").split(/\s+/).filter((w) => w && w.toLowerCase() !== brand && !/^\d+$/.test(w));
+  return words.slice(0, 5).join(" ") || leaf;
+}
+
+async function loadIntentSet(listing: Listing, competitors: Listing[], deps: AuditDeps, llm: JsonModel, notes: string[], mineReviews: boolean): Promise<IntentSet> {
   const found = resolveIntentSet(listing, await deps.intentSets.all());
+  // A set built from review topics or estimated can be upgraded: when mining is allowed, try it.
+  const upgrade = found && found.basis !== "mined" && mineReviews && deps.categoryReviews ? await mineCategory(listing, found.categoryId, found.categoryName, deps, llm, notes) : null;
+  if (upgrade) return upgrade;
   if (found) {
     if (!found.reviewed) notes.push(`The "${found.categoryName}" questions haven't been reviewed by a person yet.`);
+    if (found.basis === "insights") notes.push(`The "${found.categoryName}" questions come from Amazon's review topics, weighted by review mentions, not from reading reviews one by one.`);
     if (found.basis === "estimated") notes.push(`The "${found.categoryName}" questions are estimated, not mined from reviews, so every question weighs the same.`);
     return found;
   }
   const name = leafCategory(listing) ?? "Unknown";
   const id = name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") || "unknown";
+  // First choice: mine real reviews of this product type, the same way the curated sets were built.
+  if (mineReviews && deps.categoryReviews) {
+    const mined = await mineCategory(listing, id, name, deps, llm, notes);
+    if (mined) return mined;
+  }
+  // Next: Amazon's review topics for this listing and its competitors, weighted by how many
+  // reviews mention each. Estimating from listing text is the fallback when there are too few.
+  const fromInsights = await insightIntents({ categoryId: id, categoryName: name, match: [name], version: "insights-1", listings: [listing, ...competitors] }, llm, deps.model);
+  if (fromInsights) {
+    const listings = [listing, ...competitors].filter((l) => (l.meta.insights?.length ?? 0) > 0).length;
+    await deps.intentSets.save(fromInsights, `Built from Amazon review topics across ${listings} listing(s), ${fromInsights.sampleSize} review mentions. Not yet reviewed by hand.`);
+    notes.push(`No question set existed for "${name}", so one was built from Amazon's review topics for this listing and ${listings - 1} competitor(s), weighted by ${fromInsights.sampleSize.toLocaleString()} review mentions.`);
+    return fromInsights;
+  }
   const set = await estimateIntents({ categoryId: id, categoryName: name, match: [name], version: "estimated-1", listings: [listing, ...competitors] }, llm, deps.model);
   await deps.intentSets.save(set, "Estimated from listings; no reviews were mined. Not yet reviewed by hand.");
   notes.push(`No question set existed for "${name}", so one was estimated from this listing and its competitors. Every question weighs the same.`);
