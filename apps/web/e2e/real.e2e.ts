@@ -88,7 +88,12 @@ test("the Pentel dataset audit shows promise vs proof, with the leak claim conte
 });
 
 test("an estimated category is labelled as estimated", async ({ page }) => {
-  await pick(page, "Saved (2023 dataset)", /CamelBak/);
+  // CamelBak isn't one of the featured chips, so type its ASIN like a user would.
+  await page.goto("/");
+  await page.getByRole("radio", { name: "Saved (2023 dataset)" }).click();
+  await page.getByLabel("Amazon ASIN").fill("B00P6N6LC2");
+  await page.getByRole("button", { name: "Run audit" }).click();
+  await expect(page).toHaveURL(UUID);
   await expect(page.getByTestId("score")).toHaveText("60");
   await expect(page.getByText("Estimated questions", { exact: true })).toBeVisible();
   await shots.full(page, "07-report-estimated");

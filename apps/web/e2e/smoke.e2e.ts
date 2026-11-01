@@ -90,8 +90,10 @@ test("the hero audit runs, then shows score, hidden answers and the fix list", a
 
 test("an estimated category is labelled as estimated", async ({ page }) => {
   await page.goto("/");
+  // CamelBak isn't one of the featured chips, so type its ASIN like a user would.
   await page.getByRole("radio", { name: "Saved (2023 dataset)" }).click();
-  await page.getByRole("button", { name: /CamelBak/ }).click();
+  await page.getByLabel("Amazon ASIN").fill("B00P6N6LC2");
+  await page.getByRole("button", { name: "Run audit" }).click();
   await expect(page.getByTestId("score")).toHaveText("60", { timeout: 10_000 });
   await expect(page.getByText("Estimated questions", { exact: true })).toBeVisible();
   await expect(page.getByText("(estimated)").first()).toBeVisible();

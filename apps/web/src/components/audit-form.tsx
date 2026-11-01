@@ -31,6 +31,8 @@ export function AuditForm() {
   const [pasteOpen, setPasteOpen] = useState(false);
   const ids = { asin: useId(), asinHelp: useId(), mode: useId(), paste: useId() };
   const listings = useListings(source);
+  const serpapiListings = useListings("serpapi");
+  const datasetListings = useListings("dataset");
 
   const normalized = asin.trim().toUpperCase();
   const error = touched ? asinError(normalized) : null;
@@ -83,7 +85,7 @@ export function AuditForm() {
         <ModeNote id={ids.mode} source={source} valid={valid} known={known} saved={saved} />
       </form>
 
-      <DemoChips source={source} listings={listings} onPick={(a) => start({ asin: a, source })} disabled={create.isPending} />
+      <DemoChips lists={[serpapiListings, datasetListings]} onPick={(a, s) => start({ asin: a, source: s })} disabled={create.isPending} />
 
       {create.error && (
         <p role="alert" className="mt-4 rounded-md bg-missing-bg px-3 py-2 text-sm text-missing">
@@ -135,48 +137,83 @@ function ModeNote({ id, source, valid, known, saved }: { id: string; source: Sav
   );
 }
 
-/**
- * Saved products shown first: the hero, then three listings from brands SalesDuo features in its
- * case studies (SKOY, Mint-X, Studio Designs), then the 2023 dataset stories.
- */
-const FEATURED = ["B0C9W8DD9S", "B00275BB6S", "B087VVWWGG", "B00B10MKDI", "B001GAOTSW", "B09VD1Z3TK", "B08PD98HYG", "B00P6N6LC2"];
-const MAX_CHIPS = 6;
+type Chip = { asin: string; source: SavedSource; label?: string; note?: string };
 
-function pickChips(all: SavedListing[]): SavedListing[] {
-  const rank = (a: string) => (FEATURED.includes(a) ? FEATURED.indexOf(a) : FEATURED.length);
-  return [...all].sort((a, b) => rank(a.asin) - rank(b.asin)).slice(0, MAX_CHIPS);
-}
+/** Our best saved audits: the hero, a strong listing, and two with reviews (promise vs proof). */
+const OURS: Chip[] = [
+  { asin: "B0C9W8DD9S", source: "serpapi" },
+  { asin: "B001GAOTSW", source: "serpapi" },
+  { asin: "B097CF46RC", source: "dataset", note: "with reviews" },
+  { asin: "B09VD1Z3TK", source: "dataset", note: "with reviews" },
+];
+/** Listings from brands SalesDuo features in its public case studies, audited live from Amazon. */
+const CASE_STUDIES: Chip[] = [
+  { asin: "B00275BB6S", source: "serpapi", label: "SKOY" },
+  { asin: "B087VVWWGG", source: "serpapi", label: "Mint-X" },
+  { asin: "B00B10MKDI", source: "serpapi", label: "Studio Designs" },
+];
 
 function DemoChips({
-  listings,
+  lists,
   onPick,
   disabled,
 }: {
-  source: SavedSource;
-  listings: ReturnType<typeof useListings>;
-  onPick: (asin: string) => void;
+  lists: ReturnType<typeof useListings>[];
+  onPick: (asin: string, source: SavedSource) => void;
   disabled: boolean;
 }) {
-  if (listings.isError) return null;
+  if (lists.every((l) => l.isError)) return null;
+  const loading = lists.some((l) => l.isLoading);
+  const known = new Map(lists.flatMap((l) => l.data ?? []).map((l) => [l.asin, l]));
+  // Only offer what the API actually has saved, so a chip never starts a live fetch.
+  const row = (chips: Chip[]) => chips.filter((c) => known.has(c.asin));
   return (
-    <div className="mt-5">
-      <p className="text-[13px] font-semibold text-muted-foreground">Or try a saved product, ready in seconds</p>
-      <ul className="mt-2 flex flex-wrap gap-2" aria-busy={listings.isLoading}>
-        {listings.isLoading && [0, 1, 2].map((i) => <li key={i} className="h-8 w-40 animate-pulse rounded-full bg-muted" />)}
-        {listings.data && pickChips(listings.data).map((l) => (
-          <li key={l.asin}>
-            <button
-              type="button"
-              disabled={disabled}
-              onClick={() => onPick(l.asin)}
-              title={l.title}
-              className="inline-flex h-8 max-w-full items-center gap-2 rounded-full border bg-background px-3 text-[13px] transition-colors hover:border-[#f5b56a] hover:bg-tint active:scale-[0.98] disabled:opacity-50"
-            >
-              <span className="font-semibold">{l.brand ?? l.asin}</span>
-              <span className="truncate text-muted-foreground">{l.category}</span>
-            </button>
-          </li>
-        ))}
+    <div className="mt-5 grid gap-4">
+      <ChipRow title="Or try a saved audit, ready in seconds" chips={row(OURS)} known={known} loading={loading} onPick={onPick} disabled={disabled} />
+      <ChipRow title="Brands from SalesDuo's case studies" chips={row(CASE_STUDIES)} known={known} loading={loading} onPick={onPick} disabled={disabled} />
+    </div>
+  );
+}
+
+function ChipRow({
+  title,
+  chips,
+  known,
+  loading,
+  onPick,
+  disabled,
+}: {
+  title: string;
+  chips: Chip[];
+  known: Map<string, SavedListing>;
+  loading: boolean;
+  onPick: (asin: string, source: SavedSource) => void;
+  disabled: boolean;
+}) {
+  if (!loading && chips.length === 0) return null;
+  return (
+    <div>
+      <p className="text-[13px] font-semibold text-muted-foreground">{title}</p>
+      <ul className="mt-2 flex flex-wrap gap-2" aria-busy={loading}>
+        {loading && chips.length === 0 && [0, 1, 2].map((i) => <li key={i} className="h-8 w-40 animate-pulse rounded-full bg-muted" />)}
+        {chips.map((c) => {
+          const l = known.get(c.asin)!;
+          return (
+            <li key={`${c.source}-${c.asin}`}>
+              <button
+                type="button"
+                disabled={disabled}
+                onClick={() => onPick(c.asin, c.source)}
+                title={l.title}
+                className="inline-flex h-8 max-w-full items-center gap-2 rounded-full border bg-background px-3 text-[13px] transition-colors hover:border-[#f5b56a] hover:bg-tint active:scale-[0.98] disabled:opacity-50"
+              >
+                <span className="font-semibold">{c.label ?? l.brand ?? l.asin}</span>
+                <span className="truncate text-muted-foreground">{l.category}</span>
+                {c.note && <span className="rounded-full bg-tint px-1.5 text-[11px] font-semibold text-[#9a3412]">{c.note}</span>}
+              </button>
+            </li>
+          );
+        })}
       </ul>
     </div>
   );
