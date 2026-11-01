@@ -1,4 +1,4 @@
-import { CheckIcon, ChevronDownIcon, MessageSquareOffIcon, XIcon } from "lucide-react";
+import { CheckIcon, ChevronDownIcon, XIcon } from "lucide-react";
 import { useId, useState } from "react";
 import { Badge, type BadgeVariant } from "@/components/ui/badge";
 import { placeLabel, type Report, type ReportIndex } from "@/lib/report";
@@ -164,18 +164,8 @@ function ClaimCard({ c, index, topics }: { c: ClaimProof; index: ReportIndex; to
 
 export function PromiseVsProof({ report, index }: { report: Report; index: ReportIndex }) {
   const proof = report.proof;
-  const note = report.notes.find((n) => /promise vs proof/i.test(n));
 
-  if (!proof) {
-    return (
-      <Section id="proof" title="Promise vs proof">
-        <p className="flex items-start gap-3 rounded-2xl border border-dashed px-4 py-3.5 text-[15px] text-muted-foreground" data-testid="proof-absent">
-          <MessageSquareOffIcon className="mt-0.5 size-5 shrink-0" aria-hidden="true" />
-          <span>{note ?? "Promise vs proof wasn't checked for this audit."}</span>
-        </p>
-      </Section>
-    );
-  }
+  if (!proof) return null;
 
   const claims = [...proof.claims].sort((a, b) => ORDER.indexOf(a.verdict) - ORDER.indexOf(b.verdict));
   return (

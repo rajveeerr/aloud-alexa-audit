@@ -8,7 +8,7 @@ import { Page } from "@/components/app-shell";
 import { FixList } from "@/components/report/fix-list";
 import { GapMatrix } from "@/components/report/gap-matrix";
 import { HiddenAnswers } from "@/components/report/hidden-answers";
-import { HowScored, Notes } from "@/components/report/how-scored";
+import { HowScored } from "@/components/report/how-scored";
 import { ListingPanel } from "@/components/report/listing-panel";
 import { PromiseVsProof } from "@/components/report/proof";
 import { QuestionList } from "@/components/report/questions";
@@ -234,7 +234,7 @@ function ReportView({ report, auditId }: { report: Report; auditId: string }) {
     { id: "hidden", label: "Hidden answers", count: report.imageClaims.length > 0 ? report.hiddenAnswers.length : undefined },
     { id: "questions", label: "Questions", count: scoredCount },
     { id: "competitors", label: "Competitors", count: report.competitors.length > 0 ? report.gaps.length : undefined },
-    { id: "proof", label: "Promise vs proof", count: report.proof ? report.proof.claims.length : undefined },
+    ...(report.proof ? [{ id: "proof", label: "Promise vs proof", count: report.proof.claims.length }] : []),
     { id: "fixes", label: "Fix list", count: report.briefs.length },
     { id: "scoring", label: "How it's scored" },
   ];
@@ -266,7 +266,6 @@ function ReportView({ report, auditId }: { report: Report; auditId: string }) {
         <GapMatrix report={report} />
         <PromiseVsProof report={report} index={index} />
         <FixList report={report} index={index} />
-        <Notes report={report} />
         <HowScored report={report} />
       </div>
       <footer className="mt-14 border-t pt-4 font-mono text-xs text-muted-foreground" data-testid="score-formula">

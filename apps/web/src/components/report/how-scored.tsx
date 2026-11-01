@@ -32,19 +32,3 @@ export function HowScored({ report }: { report: Report }) {
     </Section>
   );
 }
-
-export function Notes({ report }: { report: Report }) {
-  // The promise vs proof note is already shown in its own section.
-  const notes = report.notes.filter((n) => !/promise vs proof/i.test(n));
-  if (report.skippedImageIds.length) notes.push(`The image reader refused ${report.skippedImageIds.join(", ")}, so claims in those images weren't checked.`);
-  if (notes.length === 0) return null;
-  return (
-    <Section id="notes" title="Notes">
-      <ul className="grid list-disc gap-1.5 pl-5 text-[15px] text-muted-foreground marker:text-border">
-        {notes.map((n) => (
-          <li key={n}>{n}</li>
-        ))}
-      </ul>
-    </Section>
-  );
-}
