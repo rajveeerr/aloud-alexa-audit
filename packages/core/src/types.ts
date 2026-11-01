@@ -31,6 +31,12 @@ export type ListingImage = {
 export type SalesRank = { category: string; rank: number };
 
 /** Facts about the listing that aren't content Alexa reads, kept for the study and the UI. */
+/**
+ * One topic from Amazon's "Customers say" summary: what a product's reviews talk about, with how
+ * many reviews mention it. Amazon computes these over all of the product's reviews.
+ */
+export type ReviewInsight = { topic: string; mentions: number; positive: number; negative: number; summary: string; snippets: string[] };
+
 export type ListingMeta = {
   brand?: string;
   rating?: number;
@@ -40,6 +46,8 @@ export type ListingMeta = {
   salesRanks: SalesRank[];
   /** False when the page says the product is currently unavailable. */
   available?: boolean;
+  /** Amazon's review topics for this product (live pages only). */
+  insights?: ReviewInsight[];
 };
 
 export type Listing = {
@@ -70,6 +78,8 @@ export type Intent = {
   frequency: number;
   /** True when the question only applies to some products (scent, glitter). */
   conditional?: boolean;
+  /** For questions built from Amazon review insights: the review topics behind it. */
+  insightTopics?: string[];
 };
 
 export type IntentSet = {
@@ -81,10 +91,14 @@ export type IntentSet = {
   version: string;
   /**
    * mined: questions and frequencies come from real reviews.
+   * insights: built from Amazon's review topics for the listing and its competitors; each
+   * frequency is the number of reviews mentioning that topic, as Amazon counts them.
    * estimated: no reviews were available, so questions were proposed from listings; every
    * frequency is 1 and reports must say the score is estimated.
    */
-  basis: "mined" | "estimated";
+  basis: "mined" | "insights" | "estimated";
+  /** Where mined reviews came from, when it isn't Amazon's 2023 review dataset. */
+  reviewSource?: "walmart";
   /** True once a person has checked the questions, kinds and rubrics. */
   reviewed: boolean;
   sampleSize: number;

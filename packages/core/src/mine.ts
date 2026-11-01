@@ -12,6 +12,7 @@ import type { Intent, IntentKind, IntentSet, Listing } from "./types";
 export const EXTRACT_PROMPT_VERSION = "extract-needs@2026-10-27.1";
 export const CLUSTER_PROMPT_VERSION = "cluster-needs@2026-10-27.1";
 export const ESTIMATE_PROMPT_VERSION = "estimate-intents@2026-10-27.1";
+export const INSIGHTS_PROMPT_VERSION = "insight-intents@2026-11-02.1";
 
 export type ReviewText = { asin: string; title: string; text: string; helpfulVotes: number; rating?: number };
 
@@ -283,6 +284,120 @@ export async function estimateIntents(
     basis: "estimated",
     reviewed: false,
     sampleSize: 0,
+    intents,
+  };
+}
+
+
+// ---------- questions from Amazon review insights ----------
+
+export type InsightTopic = { topic: string; mentions: number; positive: number; negative: number; listings: number; summaries: string[]; snippets: string[] };
+
+/**
+ * Merges the review topics of several listings. The same topic on two products ("Quality") is one
+ * topic with the mentions added up; that sum is the demand the question will carry. Pure code.
+ */
+export function mergeInsights(listings: Listing[], maxTopics = 30): InsightTopic[] {
+  const byKey = new Map<string, InsightTopic>();
+  for (const l of listings) {
+    for (const i of l.meta.insights ?? []) {
+      const key = i.topic.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+      if (!key) continue;
+      const t = byKey.get(key) ?? { topic: i.topic, mentions: 0, positive: 0, negative: 0, listings: 0, summaries: [], snippets: [] };
+      t.mentions += i.mentions;
+      t.positive += i.positive;
+      t.negative += i.negative;
+      t.listings += 1;
+      if (i.summary && t.summaries.length < 2) t.summaries.push(i.summary);
+      for (const sn of i.snippets) if (t.snippets.length < 3) t.snippets.push(sn);
+      byKey.set(key, t);
+    }
+  }
+  return [...byKey.values()].sort((a, b) => b.mentions - a.mentions).slice(0, maxTopics);
+}
+
+const INSIGHTS_INSTRUCTIONS = (category: string) => `Below are the topics Amazon reviewers talk about for products in the category "${category}",
+numbered, with how many reviews mention each, a summary and a few real review snippets.
+
+Turn them into the questions a shopper would want a listing to answer before buying. For each question:
+- topics: the numbers of the topics it comes from (usually one; merge topics only if they mean the same thing),
+- id (snake_case), question, kind ("spec" for a fact the listing can state, "claim" for a promise the listing can
+  make, "experience" for how it feels in use that no listing can prove), rubric ("answered: ... partial: ..."),
+- conditional: true only if it applies to some products in the category, not most.
+Skip topics that aren't about the product itself (delivery, packaging damage in transit, customer service, price
+paid). Don't invent questions without a topic number.`;
+
+/**
+ * Builds a question set from Amazon's review topics for a listing and its competitors. The model
+ * only words each question and its rubric; which topics it covers is checked here, and its weight
+ * is the reviews that mention those topics. Returns null when there are too few topics to trust.
+ */
+export async function insightIntents(
+  input: { categoryId: string; categoryName: string; match: string[]; version: string; listings: Listing[] },
+  llm: JsonModel,
+  model: string,
+): Promise<IntentSet | null> {
+  const topics = mergeInsights(input.listings);
+  if (topics.length < 4) return null;
+  const list = topics
+    .map((t, i) => {
+      const quotes = t.snippets.map((s) => `"${s.slice(0, 200)}"`).join(" ");
+      return `[${i}] ${t.topic}: ${t.mentions} reviews mention it across ${t.listings} listing(s) (${t.positive} positive, ${t.negative} negative). ${t.summaries.join(" ")} ${quotes}`;
+    })
+    .join("\n");
+  const res = await llm.generateJson<{ topics: number[]; id: string; question: string; kind: string; rubric: string; conditional?: boolean }[]>({
+    model,
+    promptVersion: `${INSIGHTS_PROMPT_VERSION}+${input.categoryId}`,
+    parts: [{ text: `${INSIGHTS_INSTRUCTIONS(input.categoryName)}\n\nTOPICS\n${list}` }],
+    schema: {
+      type: "ARRAY",
+      items: {
+        type: "OBJECT",
+        properties: {
+          topics: { type: "ARRAY", items: { type: "INTEGER" } },
+          id: { type: "STRING" },
+          question: { type: "STRING" },
+          kind: { type: "STRING", enum: ["spec", "claim", "experience"] },
+          rubric: { type: "STRING" },
+          conditional: { type: "BOOLEAN" },
+        },
+        required: ["topics", "id", "question", "kind", "rubric"],
+      },
+    },
+    temperature: 0,
+  });
+
+  // Each topic backs at most one question, so its mentions are never counted twice.
+  const used = new Set<number>();
+  const seen = new Set<string>();
+  const intents: Intent[] = [];
+  for (const c of Array.isArray(res.data) ? res.data : []) {
+    const id = toKey(typeof c?.id === "string" ? c.id : "");
+    if (!id || seen.has(id) || !KINDS.has(c.kind as IntentKind)) continue;
+    const idx = (Array.isArray(c.topics) ? c.topics : []).filter((n) => Number.isInteger(n) && n >= 0 && n < topics.length && !used.has(n));
+    if (idx.length === 0) continue;
+    idx.forEach((n) => used.add(n));
+    seen.add(id);
+    intents.push({
+      id,
+      kind: c.kind as IntentKind,
+      question: String(c.question).trim(),
+      rubric: String(c.rubric).trim(),
+      frequency: idx.reduce((n, i) => n + topics[i]!.mentions, 0),
+      insightTopics: idx.map((i) => topics[i]!.topic),
+      ...(c.conditional === true && { conditional: true }),
+    });
+  }
+  if (intents.length < 4) return null;
+  intents.sort((a, b) => b.frequency - a.frequency);
+  return {
+    categoryId: input.categoryId,
+    categoryName: input.categoryName,
+    match: input.match,
+    version: input.version,
+    basis: "insights",
+    reviewed: false,
+    sampleSize: intents.reduce((n, i) => n + i.frequency, 0),
     intents,
   };
 }

@@ -1,9 +1,11 @@
 import { describe, expect, test } from "bun:test";
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 import { resolveIntentSet } from "./categories";
 import type { JsonModel, JsonRequest } from "./llm";
-import { estimateIntents, mineIntents, sampleReviews, type ReviewText } from "./mine";
+import { estimateIntents, insightIntents, mergeInsights, mineIntents, sampleReviews, type ReviewText } from "./mine";
 import { normalize } from "./normalize";
-import type { IntentSet, Listing } from "./types";
+import type { IntentSet, Listing, ReviewInsight } from "./types";
 
 const review = (asin: string, text: string, helpfulVotes = 0): ReviewText => ({ asin, title: "t", text: text.padEnd(130, "."), helpfulVotes });
 
@@ -158,5 +160,66 @@ describe("resolveIntentSet", () => {
   test("falls back up the path, and returns null when nothing matches", () => {
     expect(resolveIntentSet(withPath(["Office Products", "Mechanical Pencils"]), sets)?.categoryId).toBe("office");
     expect(resolveIntentSet(withPath(["Kitchen", "Water Bottles"]), sets)).toBeNull();
+  });
+});
+
+describe("review insights", () => {
+  const ROOT = join(import.meta.dir, "../../..");
+  const withInsights = (asin: string, insights: ReviewInsight[]): Listing => {
+    const l = normalize({ source: "paste", requestedAsin: asin, fetchedAt: "t", data: { title: "x" } });
+    return { ...l, meta: { ...l.meta, insights } };
+  };
+  const topic = (name: string, mentions: number): ReviewInsight => ({ topic: name, mentions, positive: mentions, negative: 0, summary: `${name} is good`, snippets: [`about ${name}`] });
+
+  test("the SerpApi page's 'Customers say' topics become listing insights", () => {
+    const data = JSON.parse(readFileSync(join(ROOT, "fixtures/serpapi/B00275BB6S.json"), "utf8"));
+    const l = normalize({ source: "serpapi", requestedAsin: "B00275BB6S", fetchedAt: "t", data });
+    const quality = l.meta.insights?.find((i) => i.topic === "Quality");
+    expect(quality).toMatchObject({ mentions: 2300, positive: 2273, negative: 112 });
+    expect(quality!.snippets.length).toBeGreaterThan(0);
+  });
+
+  test("the same topic across listings is one topic with its mentions added up", () => {
+    const merged = mergeInsights([withInsights("B0A0000001", [topic("Quality", 100), topic("Size", 10)]), withInsights("B0A0000002", [topic("quality", 50)])]);
+    expect(merged.map((t) => [t.topic, t.mentions, t.listings])).toEqual([
+      ["Quality", 150, 2],
+      ["Size", 10, 1],
+    ]);
+  });
+
+  const listings = [withInsights("B0A0000001", [topic("Absorbency", 900), topic("Durability", 400), topic("Odor", 300)]), withInsights("B0A0000002", [topic("Absorbency", 100), topic("Size", 50), topic("Delivery", 40)])];
+  const answering = (data: unknown): JsonModel => ({
+    async generateJson<T>() {
+      return { data: data as T, model: "fake", usage: { inputTokens: 1, outputTokens: 1 }, latencyMs: 1, cached: false };
+    },
+  });
+
+  test("weights come from review mentions in code; a topic is never counted twice; invented topics are dropped", async () => {
+    // Merged order: Absorbency 1000, Durability 400, Odor 300, Size 50, Delivery 40.
+    const set = await insightIntents(
+      { categoryId: "cloths", categoryName: "Cloths", match: ["Cloths"], version: "i1", listings },
+      answering([
+        { topics: [0], id: "absorbency", question: "How much does it absorb?", kind: "claim", rubric: "r" },
+        { topics: [1, 0], id: "durability", question: "Does it last?", kind: "claim", rubric: "r" },
+        { topics: [2], id: "odor", question: "Does it smell after use?", kind: "claim", rubric: "r" },
+        { topics: [3], id: "size", question: "How big is it?", kind: "spec", rubric: "r" },
+        { topics: [99], id: "made_up", question: "Invented?", kind: "spec", rubric: "r" },
+      ]),
+      "fake",
+    );
+    expect(set).toMatchObject({ basis: "insights", reviewed: false, sampleSize: 1750 });
+    expect(set!.intents.map((i) => [i.id, i.frequency, i.insightTopics])).toEqual([
+      ["absorbency", 1000, ["Absorbency"]],
+      ["durability", 400, ["Durability"]],
+      ["odor", 300, ["Odor"]],
+      ["size", 50, ["Size"]],
+    ]);
+  });
+
+  test("too few topics or questions: returns null so the caller estimates instead", async () => {
+    const few = [withInsights("B0A0000001", [topic("Quality", 10), topic("Size", 5)])];
+    expect(await insightIntents({ categoryId: "c", categoryName: "C", match: ["C"], version: "i1", listings: few }, answering([]), "fake")).toBeNull();
+    const one = answering([{ topics: [0], id: "absorbency", question: "q", kind: "claim", rubric: "r" }]);
+    expect(await insightIntents({ categoryId: "c", categoryName: "C", match: ["C"], version: "i1", listings }, one, "fake")).toBeNull();
   });
 });

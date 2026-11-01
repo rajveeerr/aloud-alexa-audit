@@ -1,4 +1,4 @@
-import type { SalesRank } from "../types";
+import type { ReviewInsight, SalesRank } from "../types";
 import { asArray, asNumber, asRecord, asString, type Draft } from "./draft";
 
 /** SerpApi `amazon_product` response for a live listing. */
@@ -41,6 +41,7 @@ export function draftFromSerpApi(data: unknown): Draft {
   const reviewCount = asNumber(product.reviews);
   const price = asNumber(product.extracted_price);
   const stock = asString(product.stock);
+  const insights = readInsights(asArray(asRecord(asRecord(d.reviews_information).summary).insights));
 
   return {
     asin: asString(product.asin) ?? "",
@@ -57,8 +58,34 @@ export function draftFromSerpApi(data: unknown): Draft {
       categories: asArray(product.categories).flatMap((c) => asString(asRecord(c).name) ?? []),
       salesRanks: readSalesRanks(asArray(details.best_sellers_rank)),
       ...(stock && { available: !/unavailable/i.test(stock) }),
+      ...(insights.length > 0 && { insights }),
     },
   };
+}
+
+/**
+ * Amazon's "Customers say" topics: a name, how many reviews mention it (split by sentiment), a
+ * one-line summary and a few real review snippets. Topics without a mention count are dropped,
+ * since the count is what makes them useful as demand.
+ */
+function readInsights(items: unknown[]): ReviewInsight[] {
+  const out: ReviewInsight[] = [];
+  for (const item of items) {
+    const r = asRecord(item);
+    const m = asRecord(r.mentions);
+    const topic = asString(r.title)?.trim();
+    const mentions = asNumber(m.total);
+    if (!topic || mentions === undefined || mentions <= 0) continue;
+    out.push({
+      topic,
+      mentions,
+      positive: asNumber(m.positive) ?? 0,
+      negative: asNumber(m.negative) ?? 0,
+      summary: asString(r.summary)?.trim() ?? "",
+      snippets: asArray(r.examples).flatMap((e) => asString(asRecord(e).snippet)?.trim() ?? []).slice(0, 3),
+    });
+  }
+  return out;
 }
 
 /**

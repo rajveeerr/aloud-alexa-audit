@@ -32,6 +32,10 @@ export { resolveIntentSet, leafCategory } from "./categories";
 export {
   mineIntents,
   estimateIntents,
+  insightIntents,
+  mergeInsights,
+  INSIGHTS_PROMPT_VERSION,
+  type InsightTopic,
   sampleReviews,
   EXTRACT_PROMPT_VERSION,
   CLUSTER_PROMPT_VERSION,
