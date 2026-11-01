@@ -47,7 +47,7 @@ test("the hero audit runs from the landing page to the report", async ({ page })
   await expect(hidden.filter({ hasText: "No Smear: Perfect for Left-Handed" })).toHaveCount(1);
   await expect(page.getByTestId("fix").first().getByTestId("draft")).toHaveText("Smooth Writing without Skipping");
   await expect(page.getByTestId("fix").first()).toContainText("4 of 4 competitors answer it (1 partly)");
-  await expect(page.getByTestId("proof-absent")).toContainText("Live listings come without review text");
+  await expect(page.locator('[data-testid="proof-claim"][data-intent="ink_flow"]')).toHaveAttribute("data-verdict", "contested");
   await shots.full(page, "03-report-hero");
   // The top of the report and the hidden answers on their own, for the README.
   await shots.view(page, "16-report-top");

@@ -94,6 +94,7 @@ export const BRIEF_FLAG_TEXT: Record<Brief["flags"][number], string> = {
   unsupported_claim: "The draft added claims the brand never made, so it was held back.",
   off_question: "The draft didn't answer the question, so it was held back.",
   repeats_field: "The draft only repeated an existing field, so it was dropped.",
+  contested_by_reviews: "This product's reviews contest this claim. Fix the product or soften the wording before putting it where Alexa reads it.",
 };
 
 export const ACTION_LABEL: Record<Brief["action"], string> = {

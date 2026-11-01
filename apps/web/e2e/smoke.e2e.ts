@@ -112,9 +112,11 @@ test("the Pentel dataset audit checks the listing's claims against reviews", asy
   await page.locator("#proof").screenshot({ path: shot("05b-proof") });
 });
 
-test("a live listing says why promise vs proof wasn't checked", async ({ page }) => {
+test("a live listing's claims are checked against Amazon's review topics", async ({ page }) => {
   await openHero(page);
-  await expect(page.getByTestId("proof-absent")).toContainText("Live listings come without review text", { timeout: 10_000 });
+  const flow = page.locator('[data-testid="proof-claim"][data-intent="ink_flow"]');
+  await expect(flow).toHaveAttribute("data-verdict", "contested", { timeout: 10_000 });
+  await expect(flow).toContainText("are negative");
 });
 
 test("an unknown ASIN ends in a clear failure", async ({ page }) => {

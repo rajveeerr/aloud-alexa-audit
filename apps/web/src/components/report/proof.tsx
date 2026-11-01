@@ -103,7 +103,7 @@ function Examples({ c }: { c: ClaimProof }) {
   );
 }
 
-function ClaimCard({ c, index }: { c: ClaimProof; index: ReportIndex }) {
+function ClaimCard({ c, index, topics }: { c: ClaimProof; index: ReportIndex; topics: boolean }) {
   const v = VERDICT[c.verdict];
   const total = discussing(c);
   // A claim can quote two phrases from one field; name each place once.
@@ -122,23 +122,28 @@ function ClaimCard({ c, index }: { c: ClaimProof; index: ReportIndex }) {
         {places.map((s, i) => (
           <span key={`${s.kind}:${s.id}`} title={s.id}>
             {i > 0 && ", "}
-            {s.kind === "image" ? placeLabel(s.id.startsWith("img.") ? s.id : `img.${s.id}`) : placeLabel(s.id)}
+            {s.kind === "image"
+              ? s.id
+                  .split(",")
+                  .map((id) => placeLabel(id.startsWith("img.") ? id : `img.${id}`))
+                  .join(", ")
+              : placeLabel(s.id)}
           </span>
         ))}
       </p>
 
       {c.verdict === "not_enough_evidence" || !c.contradiction ? (
         <p className="mt-4 text-sm" data-testid="proof-too-few">
-          {tooFew(c)}
+          {topics ? `Only ${discussing(c).toLocaleString()} reviews mention "${c.keywords[0]}" for better or worse, too few to judge.` : tooFew(c)}
         </p>
       ) : (
         <>
           <ShareBar c={c} rate={c.contradiction} />
           <p className="mt-3 text-sm">
             <span className="font-semibold tabular-nums">
-              {c.counts.contradicts} of {total}
+              {c.counts.contradicts.toLocaleString()} of {total.toLocaleString()}
             </span>{" "}
-            reviews that discuss it contradict it{" "}
+            {topics ? `review mentions of "${c.keywords[0]}" are negative` : "reviews that discuss it contradict it"}{" "}
             <span className="text-muted-foreground">
               ({pct(c.contradiction.rate)}, likely {interval(c.contradiction)})
             </span>
@@ -146,7 +151,7 @@ function ClaimCard({ c, index }: { c: ClaimProof; index: ReportIndex }) {
           </p>
         </>
       )}
-      {c.sampled < c.matching && (
+      {!topics && c.sampled < c.matching && (
         <p className="mt-0.5 text-xs text-muted-foreground">
           A random sample of {c.sampled} from the {c.matching} reviews that mention it.
         </p>
@@ -179,8 +184,17 @@ export function PromiseVsProof({ report, index }: { report: Report; index: Repor
       title="Promise vs proof"
       description={
         <>
-          The listing's own claims, checked against {proof.reviews.toLocaleString()} reviews of this product. Rates are shares of the reviews that
-          discuss each claim, not of all buyers, and the lighter band is the <Term help={TERMS.interval}>95% interval</Term>.
+          {proof.source === "amazon-topics" ? (
+            <>
+              The listing's own claims, checked against Amazon's review summary for this product: how many reviews mention each topic, for
+              better or worse.
+            </>
+          ) : (
+            <>
+              The listing's own claims, checked against {proof.reviews.toLocaleString()} reviews of this product. Rates are shares of the reviews
+              that discuss each claim, not of all buyers, and the lighter band is the <Term help={TERMS.interval}>95% interval</Term>.
+            </>
+          )}
         </>
       }
     >
@@ -189,7 +203,7 @@ export function PromiseVsProof({ report, index }: { report: Report; index: Repor
       ) : (
         <ul className="grid gap-3">
           {claims.map((c) => (
-            <ClaimCard key={c.intentId} c={c} index={index} />
+            <ClaimCard key={c.intentId} c={c} index={index} topics={proof.source === "amazon-topics"} />
           ))}
         </ul>
       )}
