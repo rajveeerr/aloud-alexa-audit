@@ -8,3 +8,4 @@ export { GeminiLlm, QuotaExhaustedError, type GeminiOptions } from "./llm/gemini
 export { CachedLlm, requestKey, type CacheMode } from "./llm/cache";
 export { ImageStore, sniffMimeType, type ImageData, type ImageStoreOptions } from "./images";
 export { SerpApiSearch, pickCompetitors, type SearchResult, type SerpApiSearchOptions } from "./product/search";
+export { WalmartReviews, type WalmartReview, type WalmartReviewSet, type WalmartReviewsOptions } from "./product/walmart";
