@@ -10,9 +10,9 @@ import type { Intent, IntentKind, IntentSet, Listing } from "./types";
  */
 
 export const EXTRACT_PROMPT_VERSION = "extract-needs@2026-10-27.1";
-export const CLUSTER_PROMPT_VERSION = "cluster-needs@2026-10-27.1";
+export const CLUSTER_PROMPT_VERSION = "cluster-needs@2026-11-02.1";
 export const ESTIMATE_PROMPT_VERSION = "estimate-intents@2026-10-27.1";
-export const INSIGHTS_PROMPT_VERSION = "insight-intents@2026-11-02.1";
+export const INSIGHTS_PROMPT_VERSION = "insight-intents@2026-11-02.2";
 
 export type ReviewText = { asin: string; title: string; text: string; helpfulVotes: number; rating?: number };
 
@@ -76,8 +76,11 @@ For each question return:
 - id: a short snake_case name.
 - question: one plain question a shopper would ask.
 - kind: "spec" (a fact a listing can simply state: size, material, count, compatibility),
-  "claim" (a performance promise a listing can make and reviews can confirm or deny: leak-proof, quick dry),
-  or "experience" (only buyers can judge: how comfortable, how nice it feels).
+  "claim" (anything a listing can promise and reviews can confirm or deny, even when shoppers word it
+  as an experience: leak-proof, quick dry, sturdy, durable, easy to assemble, lumbar support, smooth
+  wheels, absorbent), or "experience" (only taste or overall satisfaction no listing statement could
+  address: whether they like the look, whether it's worth it). When unsure between claim and
+  experience, choose claim.
 - rubric: one line, "answered: ... partial: ...", saying what listing text counts.
 - conditional: true only if the question applies to some products in the category but not most.
 - members: the exact need names it covers, copied from the list.
@@ -321,8 +324,10 @@ numbered, with how many reviews mention each, a summary and a few real review sn
 
 Turn them into the questions a shopper would want a listing to answer before buying. For each question:
 - topics: the numbers of the topics it comes from (usually one; merge topics only if they mean the same thing),
-- id (snake_case), question, kind ("spec" for a fact the listing can state, "claim" for a promise the listing can
-  make, "experience" for how it feels in use that no listing can prove), rubric ("answered: ... partial: ..."),
+- id (snake_case), question, kind ("spec" for a fact the listing can state, "claim" for anything the listing can
+  promise, even when shoppers word it as an experience: sturdy, easy to assemble, absorbent; "experience" only
+  for taste or overall satisfaction no listing statement could address; when unsure, choose claim),
+  rubric ("answered: ... partial: ..."),
 - conditional: true only if it applies to some products in the category, not most.
 Skip topics that aren't about the product itself (delivery, packaging damage in transit, customer service, price
 paid). Don't invent questions without a topic number.`;
