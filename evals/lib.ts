@@ -250,6 +250,9 @@ export async function auditCosts(llm: JsonModel): Promise<AuditCost[]> {
   const out: AuditCost[] = [];
   for (const source of ["serpapi", "dataset"] as const) {
     for (const asin of await stores.listings.saved(source)) {
+      // Only listings that were audited themselves (they have saved image claims). Listings fetched
+      // only as someone's competitor were never audited, so there's no recorded audit to cost.
+      if (!(await stores.imageClaims.get(source, asin))) continue;
       const steps: AuditCost["byStep"] = {};
       const r = await runAudit({ asin, source }, { llm: byStep(llm, steps), vision: null, model: MODEL, ...stores, images: null });
       const saved = (await stores.imageClaims.get(source, asin)) as { usage?: { inputTokens: number; outputTokens: number } } | null;

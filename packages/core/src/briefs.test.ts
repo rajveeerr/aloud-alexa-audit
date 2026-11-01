@@ -165,6 +165,8 @@ describe("recorded hero fix list", () => {
     const rivals: GradedListing[] = [];
     for (const f of readdirSync(join(ROOT, "fixtures/serpapi")).sort().filter((x) => !x.startsWith("B0C9W8DD9S"))) {
       const l = load(f.replace(".json", ""));
+      // Rivals are listings the gel-pen question set applies to; other saved categories aren't competitors.
+      if (!l.meta.categories.some((c) => intentSet.match.includes(c))) continue;
       rivals.push({ listing: l, grades: (await gradeListing(l, intentSet, llm, "gemini-3.5-flash-lite")).grades });
     }
     const gaps = computeGaps({ listing: hero, grades }, rivals, intentSet.intents, hidden);

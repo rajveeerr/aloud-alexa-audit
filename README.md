@@ -96,7 +96,7 @@ All the diagrams are in [diagrams/](diagrams/) (Excalidraw files plus SVG).
   requests a day) a 50-listing bulk job costs 50 requests, not 950.
 - **Built for $0.** Every model answer is cached by model, prompt version, schema and inputs,
   and tests and CI replay recordings. When the daily quota runs out, the queue pauses until the
-  reset. A full audit is about 10.6 requests, $0.03 on paid Flash-Lite.
+  reset. A full audit is about 10 requests, $0.03 on paid Flash-Lite.
 - **Code decides where a model can't be trusted.** On one run the faithfulness judge let
   "reliable and effortless" slip into a fix. Since then a hidden answer is moved word for word,
   chosen in code, and the judge only guards the rest.
@@ -123,7 +123,7 @@ independently re-checked, but not yet reviewed by a person, so these numbers are
 | Grading accuracy (134 listing × question pairs) | 85.1% |
 | Proof labels, clear cases | 92.0% |
 | Cited fields that really carry the answer | 96% |
-| Cost of a full audit on paid Gemini Flash-Lite | about 10.6 requests, $0.03 |
+| Cost of a full audit on paid Gemini Flash-Lite | about 10 requests, $0.03 |
 
 **Does the score mean anything?** ([study/RESULTS.md](study/RESULTS.md)). 200 gel pens the
 question set wasn't built from. Higher scores go with more reviews, weakly: Spearman rho 0.15
